@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fireoverlaycheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2268: ER.visible draws a fire overlay (fire block model sized to the hitbox) on a burning entity (isOnFire) and a charging blaze (fireActive), and none otherwise."
+ }
+]

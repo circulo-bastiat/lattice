@@ -1,0 +1,8 @@
+[
+ {
+  "id": "itembuoyancycheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5651 -- ItemEntity underwater (x0.99) / under-lava (x0.95) movement, vy += 5e-4 while vy < 0.06; items rise to the surface."
+ }
+]

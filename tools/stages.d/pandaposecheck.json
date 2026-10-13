@@ -1,0 +1,8 @@
+[
+ {
+  "id": "pandaposecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#919 -- panda sit/lie/roll-over/sneeze/thunder pose: Pd.tickAnim progress floats, ER.pandaDelta vs PandaEntityModel.setAngles and ER.pandaPoseOf vs PandaEntityRenderer.setupTransforms (.decomp)."
+ }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "pilotplancheck", "kind": "check", "args": [], "why": "#6574: the lockstep pilot caches finished salts, caps its jobs, stops starting salts before the call budget and reports partial vs done" }
+]

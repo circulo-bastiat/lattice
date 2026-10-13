@@ -1,0 +1,10 @@
+[
+ {
+  "id": "vmcheck",
+  "kind": "check",
+  "args": [
+   "--selftest"
+  ],
+  "why": "⚠ `--selftest` for the same reason as bridgecheck: Dan's VM being switched off is not an MC-Lite defect. The stage grades the reasoning; run it without the flag for the live state of the second lane. (D-368)"
+ }
+]

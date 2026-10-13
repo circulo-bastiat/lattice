@@ -1,0 +1,3 @@
+[
+  { "id": "shulkerattackcheck", "kind": "check", "file": "tools/shulkerattackcheck.mjs", "args": [] }
+]
