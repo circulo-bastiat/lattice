@@ -1,0 +1,1 @@
+[{"id":"blockholdcheck","kind":"check","args":[],"why":"#6663 -- a blocked issue others depend on deadlocked the queue (#5094 held 341): heldByBlocked counts the chains, the brain unblocks a 20+ holder at most every 6 h and alerts the commander; breaks caught."}]

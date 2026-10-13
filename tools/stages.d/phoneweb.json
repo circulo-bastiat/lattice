@@ -1,0 +1,3 @@
+[
+  { "id": "phonewebcheck", "kind": "check", "file": "tools/phonewebcheck.mjs", "args": [], "why": "#3920 step 1: Web Push sender (RFC 8291/8292) vs a fake push service, ntfy fallback, PWA static checks, subscription upsert" }
+]

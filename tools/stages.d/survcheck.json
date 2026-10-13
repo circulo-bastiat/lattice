@@ -1,0 +1,8 @@
+[
+ {
+  "id": "survcheck",
+  "kind": "check",
+  "args": [],
+  "why": "PLAN G5 — the survival loop. Its expectations are CLOSED FORMS rather than a second simulator, because a hand-written reference for 12,000 ticks is a copy of the code and agrees with it about its bugs (D-152's shape)."
+ }
+]

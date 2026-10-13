@@ -1,0 +1,3 @@
+[
+  { "id": "ravagershieldcheck", "kind": "check", "file": "tools/ravagershieldcheck.mjs", "args": [], "why": "#846 -- shield-blocked ravager bite stuns ~50% (RavagerEntity.knockback), stunned/attack sounds" }
+]

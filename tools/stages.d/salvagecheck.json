@@ -1,0 +1,3 @@
+[
+  { "id": "salvagecheck", "kind": "check", "file": "tools/salvagecheck.mjs", "args": [] }
+]

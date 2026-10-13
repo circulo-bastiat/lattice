@@ -1,0 +1,1 @@
+[ { "id": "lockstep-ravager", "kind": "check", "file": "tools/referee/ravagerlockstepcheck.mjs", "args": [], "why": "#6678 G17-L107: lockstep scenario ravager (shield-blocked bite 50% stunTick 40 / knockBack, stun->roar 20, roar at 10: 6 damage + knockback, leaf breaking, 20 seeds); stunTick 40->30, roarTick 20->15 and knockback strength caught." } ]

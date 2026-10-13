@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spitdamagecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2557 -- llama spit on a player uses the projectile `thrown` damage row and knocks back from the spit."
+ }
+]

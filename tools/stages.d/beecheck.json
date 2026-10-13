@@ -1,0 +1,8 @@
+[
+ {
+  "id": "beecheck",
+  "kind": "check",
+  "args": [],
+  "why": "QUEUE 0.2 (G18 mobs) -- the BEE whole: attributes/dims/breeding (jar-extracted table, Breed.SPECIAL.bee removed), anger+sting (poison by difficulty, hasStung, stopAnger), flight (Fl.MoveControl reuse), pollinate/grow-crops (real #minecraft:flowers/ #minecraft:bee_growables tag scans, real block-state ageing), the hive (07c_blockentity.js's existing beehive/bee_nest block-entity, enter/exit occupant bookkeeping), and the four BeeEntityRenderer texture sheets (Bee.skinKey)."
+ }
+]
