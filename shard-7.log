@@ -1,0 +1,3018 @@
+==================== suite (live) ============= (2 jobs on 4 cores, 1 browser(s) at once)
+2026-10-13T21:53:29.102Z suite start host: free RAM 14.1 GB, live browsers 0, reaped 0
+ ✓ becheck            81771 ms  68 assertions, 0 failures, 8 breaks caught
+ ✓ lumacheck          96895 ms  25 assertions, 0 failures, 13 breaks caught
+ ✓ mobinteractcheck   41969 ms  25 assertions, 0 failures, 7 breaks caught
+ ✗ timeweathercheck   12243 ms  24 assertions, 5 failures, 2 breaks caught
+
+──── timeweathercheck FAILED ────
+ok    ...and its feedback matches the wrapped value: "Set the time to 10000"
+ok    gametime matches the real Main.ticks counter (18 vs 18)
+   ✓ anti-vacuity: the pre-fix bug read Sky.dayTime here, a different number from Main.ticks
+ok    time actually passed in the real loop (18 -> 40)
+ok    gametime kept advancing with doDaylightCycle OFF, live, and stayed in lockstep with Main.ticks (40 <= 40 <= 40)
+FAIL  live /weather rain with no duration is a flat 6000 ticks, not a random draw (5999)
+ok    ...and it is actually raining now, live
+FAIL  live /weather rain 600 is 600 SECONDS = 12000 ticks, not 600 (11999)
+FAIL  ...and thunderTime shares the exact same value, live (11999)
+   ✓ anti-vacuity: parsing <duration> as bare ticks would have left rainTime at 600, not 12000
+FAIL  live /weather clear 10 is 10s = 200 ticks of clear (198)
+FAIL  ...and zeroes BOTH the rain and thunder timers, live (1/1)
+ok    ...and it is actually not raining anymore, live
+ok    no GPU/weather-pass error after real ticks with the fixed state (null)
+ok    live /gamerule doDaylightCycle false actually freezes the real clock (12345 == 12345)
+ok    ...and /gamerule doDaylightCycle true starts it again, live (12345 -> 12355)
+ok    the page console stayed clean (0 errors)
+==============================================================================
+ timeweathercheck: 24 assertions, 5 failed
+   x live /weather rain with no duration is a flat 6000 ticks, not a random draw (5999)
+   x live /weather rain 600 is 600 SECONDS = 12000 ticks, not 600 (11999)
+   x ...and thunderTime shares the exact same value, live (11999)
+   x live /weather clear 10 is 10s = 200 ticks of clear (198)
+   x ...and zeroes BOTH the rain and thunder timers, live (1/1)
+
+ ✓ asyncguardcheck       63 ms  9 assertions, 0 failures, 2 breaks caught
+ ✓ biomecheck           167 ms  10704 assertions, 0 failures, 12 breaks caught
+ ✓ axolotlswimcheck     732 ms  8 assertions, 0 failures, 2 breaks caught
+ ✓ animcheck           1248 ms  144 assertions, 0 failures, 17 breaks caught
+ ✓ brewregcheck         717 ms  160 assertions, 0 failures, 7 breaks caught
+ ✓ cartdamagecheck      279 ms  11 assertions, 0 failures, 7 breaks caught
+ ✓ chickeneggsoundcheck    728 ms  11 assertions, 0 failures, 3 breaks caught
+ ✓ bobcheck            2396 ms  8 assertions, 0 failures, 3 breaks caught
+ ✓ commandcheck        1108 ms  512 assertions, 0 failures, 18 breaks caught
+ ✓ dolphinaircheck      277 ms  11 assertions, 0 failures, 10 breaks caught
+ ✓ despawncheck        1311 ms  64 assertions, 0 failures, 9 breaks caught
+ ✓ dyncheck            1087 ms  13 assertions, 0 failures, 4 breaks caught
+ ✓ enderdragonsegcheck   1321 ms  35 assertions, 0 failures, 7 breaks caught
+ ✓ dragonfireballcheck   3661 ms  6 assertions, 0 failures, 3 breaks caught
+ ✓ endportalrendercheck   1253 ms  endportalrendercheck: 2 ok, 0 fail, 1 breaks caught
+ ✓ fangsattackercheck   1224 ms  3 assertions, 0 failures, 1 breaks caught
+ ✓ explosionparticlecheck   2610 ms  2 breaks caught, 0 failed
+ ✓ fireoverlaycheck    1313 ms  15 assertions, 0 failures, 2 breaks caught
+ ✓ flightpitchcheck     759 ms  3 breaks caught, bee+parrot pitch = .decomp
+ ✓ foxposecheck         698 ms  29 assertions, 0 failures, 5 breaks caught
+ ✓ enchroster          7002 ms  24 passed, 0 failed, 10 breaks caught
+ ✓ g17ccheck           1263 ms  113 assertions, 0 failures, 15 breaks caught
+ ✓ giantcheck          1178 ms  giantcheck -- QUEUE 0.00 part 2: giant spawnable via EL.spawn,
+ ✓ guicheck              78 ms  528 assertions, 0 failures, 27 breaks caught
+ ✓ golemanimcheck      1113 ms  1 assertions, 0 failures, 3 breaks caught
+ ✓ helditemnamecheck    724 ms  17 assertions, 0 failures, 2 breaks caught
+ ✓ horsetickcheck      1319 ms  ok - 11 assertions, 0 failures, 11 breaks caught
+ ✓ illagerposecheck     736 ms  25 assertions, 0 failures, 4 breaks caught
+ ✓ itembuoyancycheck    653 ms  9 assertions, 0 failures, 2 breaks caught
+ ✓ labelcheck            82 ms  17 assertions, 0 failures, 5 breaks caught
+ ✓ lightstatecheck      810 ms  7003 assertions, 0 failures, 3 breaks caught
+ ✓ lockstep-breedspecies    820 ms  23 assertions, 0 failures, 3 breaks caught
+ ✓ lockstep-axolotl-lane   1370 ms  60 assertions, 0 failures, 5 breaks caught (20 salts x 160 tic
+ ✓ lockstep-effects     844 ms  20 assertions, 0 failures, 4 breaks caught
+ ✓ lockstep-creeper    1063 ms  126 assertions, 0 failures, 5 breaks caught (20 salts x 160 ti
+ ✓ lockstep-fangs       883 ms  10 assertions, 0 failures, 2 breaks caught
+ ✓ lockstep-gossip      804 ms  25 assertions, 0 failures, 5 breaks caught
+ ✓ lockstep-iron_golem    966 ms  126 assertions, 0 failures, 5 breaks caught (20 salts x 160 ti
+ ✓ lockstep-mooshroom    911 ms  47 assertions, 0 failures, 5 breaks caught (20 salts x 160 tic
+ ✓ lockstep-phantom     761 ms  5 assertions, 0 failures, 2 breaks caught
+ ✓ lockstep-ranged      850 ms  6 assertions, 0 failures, 3 breaks caught
+ ✓ lockstep-siege       600 ms  25 assertions, 0 failures, 4 breaks caught
+ ✓ lockstep-splash      831 ms  24 assertions, 0 failures, 3 breaks caught
+ ✓ lockstep-totem       807 ms  36 assertions, 0 failures, 2 breaks caught
+ ✓ lockstep-zombie_villager   1095 ms  126 assertions, 0 failures, 5 breaks caught (20 salts x 160 ti
+ ✓ mobtexcheck          370 ms  assertions ........... 41 (0 failed)
+ ✓ mirrorcheck         1376 ms  19 assertions, 0 failures, 5 breaks caught
+ ✓ mountcheck          1413 ms  mountcheck — QUEUE 0.2 G18e remainder, horse mount/tame/ride/s
+ ✓ parrotcheck          884 ms  44 assertions, 0 failures, 10 breaks caught
+ ✓ phonewebcheck        782 ms  23 assertions, 0 failures, 26 breaks caught
+ ✓ nullmeshcheck       3498 ms  9 assertions, 0 failures, 2 breaks caught
+ ✓ ponytailcheck         52 ms  16 assertions, 0 failures, 9 breaks caught
+ ✓ puffboxcheck         729 ms  8 assertions, 0 failures, 5 breaks caught
+ ✓ raidexactcheck       761 ms  24 assertions, 0 failures, 16 breaks caught
+ ✓ ravagermodelcheck   1349 ms  4 assertions, 0 failures, 3 breaks caught
+ ✓ creeperrefcheck    12589 ms  9 assertions, 0 failures
+ ✓ lockstep-wandertrader  21268 ms  4 assertions, 0 failures, 2 breaks caught
+ ✓ pcoolrefcheck        834 ms  14 assertions, 0 failures, 11 breaks caught
+ ✓ ridertamerngcheck    655 ms  8 assertions, 0 failures, 2 breaks caught
+ ✓ seed64check         3168 ms  12 assertions, 0 failures, 3 breaks caught
+ ✓ shulkerdrawcheck    1003 ms  42 assertions, 0 failures
+ ✗ sleepcheck          2485 ms  sleepcheck — loop/sleep-s104: villager SLEEP + MEETING-POINT b
+
+──── sleepcheck FAILED ────
+ 1. VB.activityForTime reproduces Schedule.VILLAGER_DEFAULT's own step function
+
+ 2. claiming HOME: exclusivity (ticketCount 1), CLAIM_RADIUS, and a real refusal with none in range
+
+ 3. a villager walks to its claimed HOME bed and sleeps in it (position, pose flag, LAST_SLEPT)
+
+ 4. VB.tick wakes a sleeping villager once REST ends, and gates re-sleep for WAKE_COOLDOWN ticks
+
+ 5. MEETING: claimed only during 'meet', walked toward, released once the activity ends
+
+ 6. Village.hasRecentlySlept (e.vbLastSlept, <24000 ticks) gates Village.canSummonGolem
+
+ 7. anti-vacuity — breaking this unit's own data and watching the break get caught
+
+ 8. render pose / head freeze / BedBlock.OCCUPIED / death releases HOME+MEETING
+
+ 8d. VillagerEntity.releaseAllTickets: EL.remove(dead villager) frees HOME + MEETING
+
+ 9. VillagerWalkTowardsTask giveUp / exceedsMaxRange waypoint, FindPointOfInterestTask cadence + RetryMarker, ForgetCompleted, the HOME-absent RandomTask
+
+115 ok, 19 anti-vacuity breaks caught, 1 failed
+
+FAIL sleepcheck — 115 passed, 1 failed
+  - WanderIndoorsTask picks a top-solid, roofed block within 1 (the floor, y=63), completionRange 0: undefined
+
+ ✓ tamerefcheck        8754 ms  10 assertions, 0 failures
+ ✓ soundaudit           865 ms  12 assertions, 0 failures, 9 breaks caught
+ ✓ spitoccludercheck    654 ms  4 assertions passed, 0 failed, 1 breaks caught
+ ✓ statscheck           639 ms  36 assertions, 0 failures, 6 breaks caught
+ ✓ stuckarrowcheck      607 ms  stuckarrowcheck: 8 checks ok, 3 breaks caught
+ ✓ tridentchannelingcheck    696 ms  6 assertions, 0 failures, 1 breaks caught
+ ✓ unionmergecheck      332 ms  12 assertions, 0 failures, 3 breaks caught
+ ✓ vbcustomercheck      855 ms  12 assertions, 0 failures, 2 breaks caught
+ ✓ vbworkcheck          823 ms  1. VB.workOrder: five weighted candidates (createWorkTasks has
+ ✓ villagertexcheck     692 ms  119 assertions, 0 failures
+ ✓ witchhelditemcheck   1151 ms  4 assertions, 0 failures, 2 breaks caught
+ ✓ witherheadscheck     758 ms  29 assertions, 0 failures, 8 breaks caught
+ ✗ wolfgoalcheck        805 ms  103 assertions, 0 failures
+
+──── wolfgoalcheck FAILED ────
+wolfgoalcheck — loop/wolfgoals: wolf's full registerGoals() + spider's IronGolem target
+
+ 1. Ai.UntamedActiveTargetGoal refuses outright while the mob is tamed
+
+ 1b. wolf SitGoal registered MOVE|JUMP
+
+ 2. wolf()'s AvoidLlamaGoal: untamed only, strength beats a real roll, clears e.target
+
+ 3. wolf()'s WolfBegGoal: attractive food/bone within range sets e.begging
+
+ 4. wolf() targetSelector priorities 4-8: angry-player reacquire, prey, turtle, skeleton, anger
+
+ 5. spider()'s own priority-3 TARGET entry reaches a real iron golem via ctx.golems()
+
+ 6. wolf() priority-4 MOVE|JUMP: a real spawned wolf leaps at a target with the jar's own 0.4F velocity
+
+ 7. wolf()'s UniversalAngerGoal(triggerOthers=true) spreads anger to a nearby wolf, iron_golem's (false) does not
+
+103 checks passed, 14 anti-vacuity break(s) confirmed caught, 4 failed
+wolfgoalcheck: 103 assertions, 4 failures, 14 breaks caught
+  FAIL: and a strength-1 llama, roll of 4, does not scare it
+  FAIL: a far strength-5 llama does not make a strength-1 NEAREST llama scary
+  FAIL: a real spawned iron golem is acquired by the priority-3 entry
+  FAIL: and it targets the golem specifically
+
+ ✓ xpmendingcheck       103 ms  11 assertions, 0 failures, 4 breaks caught
+ ✓ pistoncheck        37039 ms  93 assertions, 0 failures, 11 breaks caught
+ ✓ spawninitrngcheck  33444 ms  42 assertions, 0 failures, 1 breaks caught
+
+==================== suite ====================
+ · extract-materials      0 ms  not selected
+ · extract-equipment      0 ms  not selected
+ · extract-fuel           0 ms  not selected
+ · extract-fallon         0 ms  not selected
+ · extract-soundtype      0 ms  not selected
+ · extract-armor          0 ms  not selected
+ · extract-analog         0 ms  not selected
+ · extract-push           0 ms  not selected
+ · extract-entities       0 ms  not selected
+ · extract-entity-motion      0 ms  not selected
+ · extract-entity-ground      0 ms  not selected
+ · extract-zombiearms      0 ms  not selected
+ · extract-creative       0 ms  not selected
+ · extract-commands       0 ms  not selected
+ · extract-models         0 ms  not selected
+ · extract-gamerules      0 ms  not selected
+ · extract-guigeom        0 ms  not selected
+ · extract-itemmodel      0 ms  not selected
+ · extract-support        0 ms  not selected
+ · extract-occlusion      0 ms  not selected
+ · extract-flammable      0 ms  not selected
+ · extract-blockitems      0 ms  not selected
+ · extract-itemattrs      0 ms  not selected
+ · extract-handrender      0 ms  not selected
+ · extract-entityattrs      0 ms  not selected
+ · extract-breeding       0 ms  not selected
+ · extract-combat-enchant      0 ms  not selected
+ · extract-babymodel      0 ms  not selected
+ · extract-blocks         0 ms  not selected
+ · build-atlas            0 ms  not selected
+ · merge-constants        0 ms  not selected
+ · bake-geometry          0 ms  not selected
+ · extract-items          0 ms  not selected
+ · pack-models            0 ms  not selected
+ · pack-blockentity       0 ms  not selected
+ · pack-geometry          0 ms  not selected
+ · pack-runtime           0 ms  not selected
+ · pack-entities          0 ms  not selected
+ · gen-legacy-tiles       0 ms  not selected
+ · pack-worldgen          0 ms  not selected
+ · pack-structures        0 ms  not selected
+ · pack-biomeparams       0 ms  not selected
+ · pack-colormaps         0 ms  not selected
+ · pack-tags              0 ms  not selected
+ · pack-mining            0 ms  not selected
+ · pack-loot              0 ms  not selected
+ · pack-items             0 ms  not selected
+ · pack-recipes           0 ms  not selected
+ · pack-advancements      0 ms  not selected
+ · build-gui              0 ms  not selected
+ · pack-lang              0 ms  not selected
+ · pack-sounds            0 ms  not selected
+ · extract-mob-textures      0 ms  not selected
+ · pack-mobtex            0 ms  not selected
+ · pack-painting          0 ms  not selected
+ · extract-particletex      0 ms  not selected
+ · extract-xporbtex       0 ms  not selected
+ · extract-weathertex      0 ms  not selected
+ · gen-data               0 ms  not selected
+ · build-biomesheet       0 ms  not selected
+ · extract-villager-trades      0 ms  not selected
+ · build                  0 ms  not selected
+ · acctplancheck          0 ms  not selected
+ · advancementcheck       0 ms  not selected
+ · advtriggercheck        0 ms  not selected
+ · aicheck                0 ms  not selected
+ · airbubblecheck         0 ms  not selected
+ · animal2rngcheck        0 ms  not selected
+ · animalrngcheck         0 ms  not selected
+ ✓ animcheck           1248 ms  144 assertions, 0 failures, 17 breaks caught
+ · anvilcheck             0 ms  not selected
+ · anvillandcheck         0 ms  not selected
+ · apibudgetcheck         0 ms  not selected
+ · armorstandcheck        0 ms  not selected
+ · armorstandexplosioncheck      0 ms  not selected
+ · armorstandplacecheck      0 ms  not selected
+ · armorstandusecheck      0 ms  not selected
+ · armourrendercheck      0 ms  not selected
+ · arrowwatercheck        0 ms  not selected
+ · arrowbubblecheck       0 ms  not selected
+ · arrowcritparticlecheck      0 ms  not selected
+ · arrowphysicscheck      0 ms  not selected
+ · arrowrefcheck          0 ms  not selected
+ · arrowsoundcheck        0 ms  not selected
+ ✓ asyncguardcheck       63 ms  9 assertions, 0 failures, 2 breaks caught
+ · attacksoundcheck       0 ms  not selected
+ · attraudit              0 ms  not selected
+ · attrefftracecheck      0 ms  not selected
+ · auditledgercheck       0 ms  not selected
+ · autorebasecheck        0 ms  not selected
+ · avoidboxcheck          0 ms  not selected
+ · axolotlbreedgatecheck      0 ms  not selected
+ · axolotlcheck           0 ms  not selected
+ · axolotllookcheck       0 ms  not selected
+ · axolotlnavcheck        0 ms  not selected
+ · axolotlseekcheck       0 ms  not selected
+ · axolotlseekwatercheck      0 ms  not selected
+ · axolotlsoundcheck      0 ms  not selected
+ · axolotlstrollcheck      0 ms  not selected
+ ✓ axolotlswimcheck     732 ms  8 assertions, 0 failures, 2 breaks caught
+ · axolotltimedlookcheck      0 ms  not selected
+ · axolotltravelcheck      0 ms  not selected
+ · axolotlyawcheck        0 ms  not selected
+ · babycheck              0 ms  not selected
+ · backendcheck           0 ms  not selected
+ · bamboocheck            0 ms  not selected
+ · bannerlayerscheck      0 ms  not selected
+ · bannerplacecheck       0 ms  not selected
+ · barrelcheck            0 ms  not selected
+ · batcheck               0 ms  not selected
+ · batposecheck           0 ms  not selected
+ · batwakecheck           0 ms  not selected
+ · beaconcheck            0 ms  not selected
+ · beaconrendercheck      0 ms  not selected
+ ✓ becheck            81771 ms  68 assertions, 0 failures, 8 breaks caught
+ · bedbouncecheck         0 ms  not selected
+ · bedcheck               0 ms  not selected
+ · beecheck               0 ms  not selected
+ · beehiveusecheck        0 ms  not selected
+ · beeloopcheck           0 ms  not selected
+ · beenestcheck           0 ms  not selected
+ · behavcheck             0 ms  not selected
+ · beitemcheck            0 ms  not selected
+ · bellrendercheck        0 ms  not selected
+ · bellresonatecheck      0 ms  not selected
+ · bellswingcheck         0 ms  not selected
+ · bemodelcheck           0 ms  not selected
+ · berrysoundcheck        0 ms  not selected
+ · besavecheck            0 ms  not selected
+ · beworldcheck           0 ms  not selected
+ ✓ biomecheck           167 ms  10704 assertions, 0 failures, 12 breaks caught
+ · birdnodecheck          0 ms  not selected
+ · blastknockbackcheck      0 ms  not selected
+ · blazeburncheck         0 ms  not selected
+ · blazeghastcheck        0 ms  not selected
+ · blazemovecheck         0 ms  not selected
+ · blockcmdlivecheck      0 ms  not selected
+ · blockholdcheck         0 ms  not selected
+ · blocksoundwirecheck      0 ms  not selected
+ · boatcheck              0 ms  not selected
+ · boatplacecheck         0 ms  not selected
+ · boatsimcheck           0 ms  not selected
+ · boatwatermask          0 ms  not selected
+ · bobberdrawcheck        0 ms  not selected
+ ✓ bobcheck            2396 ms  8 assertions, 0 failures, 3 breaks caught
+ · bonemealcheck          0 ms  not selected
+ · bossbarcheck           0 ms  not selected
+ · bowarmcheck            0 ms  not selected
+ · bowcheck               0 ms  not selected
+ · bowdrawcheck           0 ms  not selected
+ · bowintervalcheck       0 ms  not selected
+ · bowshootsoundcheck      0 ms  not selected
+ · bowstatecheck          0 ms  not selected
+ · boxuvcheck             0 ms  not selected
+ · braincheck             0 ms  not selected
+ · breedcheck             0 ms  not selected
+ · breedhurtcheck         0 ms  not selected
+ · brewingcheck           0 ms  not selected
+ ✓ brewregcheck         717 ms  160 assertions, 0 failures, 7 breaks caught
+ · browserslotscheck      0 ms  not selected
+ · brutepickupcheck       0 ms  not selected
+ · brutesoundcheck        0 ms  not selected
+ · bubblecolumncheck      0 ms  not selected
+ · bucketdatacheck        0 ms  not selected
+ · bucketfishsoundcheck      0 ms  not selected
+ · bugwavecheck           0 ms  not selected
+ · burnpccheck            0 ms  not selected
+ · buscheck               0 ms  not selected
+ · cactuscheck            0 ms  not selected
+ · canefeaturecheck       0 ms  not selected
+ · cartcommandcheck       0 ms  not selected
+ ✓ cartdamagecheck      279 ms  11 assertions, 0 failures, 7 breaks caught
+ · cartpushcheck          0 ms  not selected
+ · cartshovecheck         0 ms  not selected
+ · catbedcheck            0 ms  not selected
+ · catgoalcheck           0 ms  not selected
+ · catposecheck           0 ms  not selected
+ · catsoundcheck          0 ms  not selected
+ · catspawnercheck        0 ms  not selected
+ · catvariantcheck        0 ms  not selected
+ · cauldronentitycheck      0 ms  not selected
+ · cavecheck              0 ms  not selected
+ · chatcheck              0 ms  not selected
+ · chestcheck             0 ms  not selected
+ · chestpaircheck         0 ms  not selected
+ · chickencheck           0 ms  not selected
+ ✓ chickeneggsoundcheck    728 ms  11 assertions, 0 failures, 3 breaks caught
+ · chorusteleportcheck      0 ms  not selected
+ · chunkcachecheck        0 ms  not selected
+ · chunkgengoldencheck      0 ms  not selected
+ · claimlockcheck         0 ms  not selected
+ · clicksoundcheck        0 ms  not selected
+ · climcheck              0 ms  not selected
+ · cloudparticlecheck      0 ms  not selected
+ · cmdlivecheck           0 ms  not selected
+ · cmdscreencheck         0 ms  not selected
+ · coherecheck            0 ms  not selected
+ · colcheck               0 ms  not selected
+ · combatcheck            0 ms  not selected
+ · combatrngcheck         0 ms  not selected
+ ✓ commandcheck        1108 ms  512 assertions, 0 failures, 18 breaks caught
+ · compostercheck         0 ms  not selected
+ · concretefallcheck      0 ms  not selected
+ · concretepowdercheck      0 ms  not selected
+ · conductorcheck         0 ms  not selected
+ · conduitbecheck         0 ms  not selected
+ · constcheck             0 ms  not selected
+ · coveragemapcheck       0 ms  not selected
+ · craftcheck             0 ms  not selected
+ · craftingtablecheck      0 ms  not selected
+ · creativecheck          0 ms  not selected
+ · creativevariantcheck      0 ms  not selected
+ · creeperarmor2614check      0 ms  not selected
+ · creepercheck           0 ms  not selected
+ · creeperheadcheck       0 ms  not selected
+ · crossbowgoalcheck      0 ms  not selected
+ · crosshaircheck         0 ms  not selected
+ · crystalbeamdrawcheck      0 ms  not selected
+ · crystalrendercheck      0 ms  not selected
+ · crystalringbookcheck      0 ms  not selected
+ · cullcheck              0 ms  not selected
+ · cullpairaudit          0 ms  not selected
+ · cullruleaudit          0 ms  not selected
+ · cullworldscan          0 ms  not selected
+ · damagesrccheck         0 ms  not selected
+ · daylightlockstepcheck      0 ms  not selected
+ · deathrollcheck         0 ms  not selected
+ · decalcheck             0 ms  not selected
+ ✓ despawncheck        1311 ms  64 assertions, 0 failures, 9 breaks caught
+ · despawnordercheck      0 ms  not selected
+ · destroyeggcheck        0 ms  not selected
+ · detectorrailcheck      0 ms  not selected
+ · diagcheck              0 ms  not selected
+ · difficultycmdcheck      0 ms  not selected
+ · dilateduvcheck         0 ms  not selected
+ · dilationcheck          0 ms  not selected
+ · dimbiomecheck          0 ms  not selected
+ · dimcheck               0 ms  not selected
+ · diskcleancheck         0 ms  not selected
+ · dispensercheck         0 ms  not selected
+ · dissolvecheck          0 ms  not selected
+ · docrefcheck            0 ms  not selected
+ ✓ dolphinaircheck      277 ms  11 assertions, 0 failures, 10 breaks caught
+ · dolphinboatcheck       0 ms  not selected
+ · dolphinbreathecheck      0 ms  not selected
+ · dolphincheck           0 ms  not selected
+ · dolphininteractcheck      0 ms  not selected
+ · dolphinlootcheck       0 ms  not selected
+ · dolphinmovecheck       0 ms  not selected
+ · dolphinnavcheck        0 ms  not selected
+ · dolphinrendercheck      0 ms  not selected
+ · dolphintrailcheck      0 ms  not selected
+ · donkeycheck            0 ms  not selected
+ · doorbashcheck          0 ms  not selected
+ · dormancycheck          0 ms  not selected
+ · dragonbreathcloudcheck      0 ms  not selected
+ · dragoncollidecheck      0 ms  not selected
+ · dragoneyescheck        0 ms  not selected
+ ✓ dragonfireballcheck   3661 ms  6 assertions, 0 failures, 3 breaks caught
+ · dragonkillcheck        0 ms  not selected
+ · dragonpartdmgcheck      0 ms  not selected
+ · dragonpathnextcheck      0 ms  not selected
+ · dragonstrafefirecheck      0 ms  not selected
+ · drawlistcheck          0 ms  not selected
+ · drinkcheck             0 ms  not selected
+ · dripstonecheck         0 ms  not selected
+ · dropstracecheck        0 ms  not selected
+ · drownedgoalcheck       0 ms  not selected
+ · drownedsoundcheck      0 ms  not selected
+ · drownedtargetcheck      0 ms  not selected
+ · drownedwaterfluidcheck      0 ms  not selected
+ · drownlockstepcheck      0 ms  not selected
+ · dupcheck               0 ms  not selected
+ ✓ dyncheck            1087 ms  13 assertions, 0 failures, 4 breaks caught
+ · eatcreativecheck       0 ms  not selected
+ · effectenvcheck         0 ms  not selected
+ · effectinstcheck        0 ms  not selected
+ · effectmovecheck        0 ms  not selected
+ · effecttracecheck       0 ms  not selected
+ · elderguardiancheck      0 ms  not selected
+ · elderguardiansoundcheck      0 ms  not selected
+ · elderscalecheck        0 ms  not selected
+ · emissioncheck          0 ms  not selected
+ · emitcheck              0 ms  not selected
+ · emitstatecheck         0 ms  not selected
+ · encharmor              0 ms  not selected
+ · enchhelpercheck        0 ms  not selected
+ ✓ enchroster          7002 ms  24 passed, 0 failed, 10 breaks caught
+ · enchscreen             0 ms  not selected
+ · enchtable              0 ms  not selected
+ · enchweapons            0 ms  not selected
+ · endcitycheck           0 ms  not selected
+ · endcrystalcheck        0 ms  not selected
+ · enderchestcheck        0 ms  not selected
+ · endercrystalhealcheck      0 ms  not selected
+ · enderdragoncheck       0 ms  not selected
+ · enderdragondeathcheck      0 ms  not selected
+ · enderdragondrawcheck      0 ms  not selected
+ · enderdragonfightcheck      0 ms  not selected
+ · enderdragonmotioncheck      0 ms  not selected
+ · enderdragonnbtcheck      0 ms  not selected
+ · enderdragonpathcheck      0 ms  not selected
+ · enderdragonphasecheck      0 ms  not selected
+ ✓ enderdragonsegcheck   1321 ms  35 assertions, 0 failures, 7 breaks caught
+ · enderdragonvoicecheck      0 ms  not selected
+ · enderdragonwiringcheck      0 ms  not selected
+ · endermancarriedcheck      0 ms  not selected
+ · endermancheck          0 ms  not selected
+ · endermandropcheck      0 ms  not selected
+ · endermaneyescheck      0 ms  not selected
+ · endermanjittercheck      0 ms  not selected
+ · endermanposecheck      0 ms  not selected
+ · endermanraycheck       0 ms  not selected
+ · endermitecheck         0 ms  not selected
+ · endermiteparticlecheck      0 ms  not selected
+ · endermitetargetcheck      0 ms  not selected
+ · endgatewaycheck        0 ms  not selected
+ · endportalframecheck      0 ms  not selected
+ ✓ endportalrendercheck   1253 ms  endportalrendercheck: 2 ok, 0 fail, 1 breaks caught
+ · entitybasenbtcheck      0 ms  not selected
+ · entitycheck            0 ms  not selected
+ · entitycollidecheck      0 ms  not selected
+ · entityculldistcheck      0 ms  not selected
+ · entityrngcheck         0 ms  not selected
+ · entityuuidcheck        0 ms  not selected
+ · entlistcheck           0 ms  not selected
+ · eolcheck               0 ms  not selected
+ · equidbreedgatecheck      0 ms  not selected
+ · equipcheck             0 ms  not selected
+ · equiprngcheck          0 ms  not selected
+ · equiptracecheck        0 ms  not selected
+ · evokerlookcheck        0 ms  not selected
+ · evokersoundcheck       0 ms  not selected
+ · evokerspelllookcheck      0 ms  not selected
+ ✓ explosionparticlecheck   2610 ms  2 breaks caught, 0 failed
+ · explosionsoundcheck      0 ms  not selected
+ · extract-luminance      0 ms  not selected
+ · eyeheightcheck         0 ms  not selected
+ · eyeofendercheck        0 ms  not selected
+ · eyesrenderercheck      0 ms  not selected
+ · facecheck              0 ms  not selected
+ · fallentitiescheck      0 ms  not selected
+ · fallinganvilcheck      0 ms  not selected
+ · fallingblockcheck      0 ms  not selected
+ · fallingconcretecheck      0 ms  not selected
+ · fallingtedcheck        0 ms  not selected
+ · fallwatertracecheck      0 ms  not selected
+ ✓ fangsattackercheck   1224 ms  3 assertions, 0 failures, 1 breaks caught
+ · fangsavecheck          0 ms  not selected
+ · fangscheck             0 ms  not selected
+ · fangsrefcheck          0 ms  not selected
+ · farmgrow               0 ms  not selected
+ · featcheck              0 ms  not selected
+ · featgroundcheck        0 ms  not selected
+ · fillresumecheck        0 ms  not selected
+ · fillshapecheck         0 ms  not selected
+ · fillwakecheck          0 ms  not selected
+ · fillzerocheck          0 ms  not selected
+ · fireballcheck          0 ms  not selected
+ · fireballdrawcheck      0 ms  not selected
+ · firechargecheck        0 ms  not selected
+ · firelockstepcheck      0 ms  not selected
+ ✓ fireoverlaycheck    1313 ms  15 assertions, 0 failures, 2 breaks caught
+ · fireworkcheck          0 ms  not selected
+ · fishbitecheck          0 ms  not selected
+ · fishbucketcheck        0 ms  not selected
+ · fishcastcheck          0 ms  not selected
+ · fishcatchcheck         0 ms  not selected
+ · fishcheck              0 ms  not selected
+ · fishhookcheck          0 ms  not selected
+ · fishpatterncheck       0 ms  not selected
+ · fishposecheck          0 ms  not selected
+ · fishsoundcheck         0 ms  not selected
+ · fishswimcheck          0 ms  not selected
+ · fishswimsoundcheck      0 ms  not selected
+ · fishtickcheck          0 ms  not selected
+ · flashcheck             0 ms  not selected
+ ✓ flightpitchcheck     759 ms  3 breaks caught, bee+parrot pitch = .decomp
+ · floatcheck             0 ms  not selected
+ · fluidlevelcheck        0 ms  not selected
+ · fluidpushcheck         0 ms  not selected
+ · fluidtilecheck         0 ms  not selected
+ · flycheck               0 ms  not selected
+ · flyspeedcheck          0 ms  not selected
+ · footstepcheck          0 ms  not selected
+ · fortressbrickscheck      0 ms  not selected
+ · foxcheck               0 ms  not selected
+ · foxfallcheck           0 ms  not selected
+ · foxglowsoundcheck      0 ms  not selected
+ · foxgoalscheck          0 ms  not selected
+ ✓ foxposecheck         698 ms  29 assertions, 0 failures, 5 breaks caught
+ · foxtargetcheck         0 ms  not selected
+ · foxtexcheck            0 ms  not selected
+ · freequeuecheck         0 ms  not selected
+ · frostedice             0 ms  not selected
+ · fullgatecheck          0 ms  not selected
+ · fullmirrorcheck        0 ms  not selected
+ · fullshardcheck         0 ms  not selected
+ · furnacecheck           0 ms  not selected
+ · fuzzcheck              0 ms  not selected
+ · g10check               0 ms  not selected
+ · g11bcheck              0 ms  not selected
+ · g13check               0 ms  not selected
+ · g14check               0 ms  not selected
+ · g17cbcheck             0 ms  not selected
+ ✓ g17ccheck           1263 ms  113 assertions, 0 failures, 15 breaks caught
+ · g18ccheck              0 ms  not selected
+ · gamecheck              0 ms  not selected
+ · gameeventcheck         0 ms  not selected
+ · gamerulecheck          0 ms  not selected
+ · gateinfracheck         0 ms  not selected
+ · gaussiancheck          0 ms  not selected
+ · gencheck               0 ms  not selected
+ · gendropcheck           0 ms  not selected
+ · ghastmodelcheck        0 ms  not selected
+ · ghastmovecheck         0 ms  not selected
+ · ghastsoundcheck        0 ms  not selected
+ · ghastspawncheck        0 ms  not selected
+ · ghasttexcheck          0 ms  not selected
+ ✓ giantcheck          1178 ms  giantcheck -- QUEUE 0.00 part 2: giant spawnable via EL.spawn,
+ · giantsoundcheck        0 ms  not selected
+ · giftcheck              0 ms  not selected
+ · gitattrcheck           0 ms  not selected
+ · giveclearcheck         0 ms  not selected
+ · glowoutlinecheck       0 ms  not selected
+ · glowsquidlightcheck      0 ms  not selected
+ · goalaudit              0 ms  not selected
+ · goalcheck              0 ms  not selected
+ · goalrngcheck           0 ms  not selected
+ · goalrostercheck        0 ms  not selected
+ · goalstracecheck        0 ms  not selected
+ · goatbabycheck          0 ms  not selected
+ · goatcheck              0 ms  not selected
+ · gobarecheck            0 ms  not selected
+ · goldensynccheck        0 ms  not selected
+ ✓ golemanimcheck      1113 ms  1 assertions, 0 failures, 3 breaks caught
+ · golemcrackcheck        0 ms  not selected
+ · golemflowercheck       0 ms  not selected
+ · golemposcheck          0 ms  not selected
+ · golemsoundcheck        0 ms  not selected
+ · goprepcheck            0 ms  not selected
+ · grindstone             0 ms  not selected
+ · guardianbeamcheck      0 ms  not selected
+ · guardiancheck          0 ms  not selected
+ · guardiangoalcheck      0 ms  not selected
+ · guardianlookcheck      0 ms  not selected
+ · guardianposecheck      0 ms  not selected
+ · guardianspawncheck      0 ms  not selected
+ · guardianspikecheck      0 ms  not selected
+ · guardianthornscheck      0 ms  not selected
+ ✓ guicheck              78 ms  528 assertions, 0 failures, 27 breaks caught
+ · handcheck              0 ms  not selected
+ · handdepthcheck         0 ms  not selected
+ · handoffstuckcheck      0 ms  not selected
+ · handposecheck          0 ms  not selected
+ · hangingcheck           0 ms  not selected
+ · hatnosecheck           0 ms  not selected
+ · headcheck              0 ms  not selected
+ · headfeaturecheck       0 ms  not selected
+ · headmodelcheck         0 ms  not selected
+ · headrotcheck           0 ms  not selected
+ · headscalecheck         0 ms  not selected
+ · heartbeatcheck         0 ms  not selected
+ · heldbecheck            0 ms  not selected
+ · helditemcheck          0 ms  not selected
+ ✓ helditemnamecheck    724 ms  17 assertions, 0 failures, 2 breaks caught
+ · helditemnose           0 ms  not selected
+ · helditempose           0 ms  not selected
+ · helpusagecheck         0 ms  not selected
+ · hiddenpartscheck       0 ms  not selected
+ · historyatomiccheck      0 ms  not selected
+ · hoglincheck            0 ms  not selected
+ · honeyslidecheck        0 ms  not selected
+ · hoppercheck            0 ms  not selected
+ · horsebreathecheck      0 ms  not selected
+ · horsefallcheck         0 ms  not selected
+ · horselandcheck         0 ms  not selected
+ · horseposecheck         0 ms  not selected
+ · horsescreenpreviewcheck      0 ms  not selected
+ ✓ horsetickcheck      1319 ms  ok - 11 assertions, 0 failures, 11 breaks caught
+ · hostilerngcheck        0 ms  not selected
+ · hostilesoundcheck      0 ms  not selected
+ · hostloadcheck          0 ms  not selected
+ · hudheartcheck          0 ms  not selected
+ · hungerrowcheck         0 ms  not selected
+ · hurtgatetracecheck      0 ms  not selected
+ · hurtlockstepcheck      0 ms  not selected
+ · hurtvoicewindowcheck      0 ms  not selected
+ · hurtwindowcheck        0 ms  not selected
+ · huskcheck              0 ms  not selected
+ · iconcheck              0 ms  not selected
+ · illagerfleecheck       0 ms  not selected
+ ✓ illagerposecheck     736 ms  25 assertions, 0 failures, 4 breaks caught
+ · illusionerbowcheck      0 ms  not selected
+ · illusionerlookcheck      0 ms  not selected
+ · illusionersoundcheck      0 ms  not selected
+ · infestedcheck          0 ms  not selected
+ · inflatecheck           0 ms  not selected
+ · infocmdcheck           0 ms  not selected
+ · inhabitedcheck         0 ms  not selected
+ · inhandcheck            0 ms  not selected
+ · inputcheck             0 ms  not selected
+ · invcheck               0 ms  not selected
+ · invinputcheck          0 ms  not selected
+ · invisibleblockcheck      0 ms  not selected
+ · irongolemcheck         0 ms  not selected
+ · irongolemwandercheck      0 ms  not selected
+ ✓ itembuoyancycheck    653 ms  9 assertions, 0 failures, 2 breaks caught
+ · itemburncheck          0 ms  not selected
+ · itemcheck              0 ms  not selected
+ · itemframedrawcheck      0 ms  not selected
+ · itemiconcheck          0 ms  not selected
+ · itemmergecheck         0 ms  not selected
+ · itemsheetcheck         0 ms  not selected
+ · jockeycheck            0 ms  not selected
+ · jockeypositioncheck      0 ms  not selected
+ · jrandomcheck           0 ms  not selected
+ · jsonmergecheck         0 ms  not selected
+ · jukeboxparrotcheck      0 ms  not selected
+ · kw4445check            0 ms  not selected
+ ✓ labelcheck            82 ms  17 assertions, 0 failures, 5 breaks caught
+ · laddercheck            0 ms  not selected
+ · landbatchcheck         0 ms  not selected
+ · landidlecheck          0 ms  not selected
+ · landingdustcheck       0 ms  not selected
+ · landreportcheck        0 ms  not selected
+ · landsweepcheck         0 ms  not selected
+ · lanesdcheck            0 ms  not selected
+ · leashcheck             0 ms  not selected
+ · lightcheck             0 ms  not selected
+ · lightemitcheck         0 ms  not selected
+ · lightluminancecheck      0 ms  not selected
+ · lightningcheck         0 ms  not selected
+ · lightningdrawcheck      0 ms  not selected
+ · lightningtracecheck      0 ms  not selected
+ ✓ lightstatecheck      810 ms  7003 assertions, 0 failures, 3 breaks caught
+ · limitcheck             0 ms  not selected
+ · livemeshcheck          0 ms  not selected
+ · llamaambientcheck      0 ms  not selected
+ · llamacheck             0 ms  not selected
+ · llamapackcheck         0 ms  not selected
+ · localcopycheck         0 ms  not selected
+ · locatecheck            0 ms  not selected
+ · lockstep-ambientsound      0 ms  not selected
+ · lockstep-angerspread      0 ms  not selected
+ · lockstep-armorstand      0 ms  not selected
+ · lockstep-arrowstuck      0 ms  not selected
+ · lockstep-attackeffect      0 ms  not selected
+ · lockstep-avoid         0 ms  not selected
+ ✓ lockstep-axolotl-lane   1370 ms  60 assertions, 0 failures, 5 breaks caught (20 salts x 160 tic
+ · lockstep-axolotl       0 ms  not selected
+ · lockstep-barter        0 ms  not selected
+ · lockstep-bat           0 ms  not selected
+ · lockstep-bathang       0 ms  not selected
+ · lockstep-beacon        0 ms  not selected
+ · lockstep-bedexplode      0 ms  not selected
+ · lockstep-bee           0 ms  not selected
+ · lockstep-beepollen      0 ms  not selected
+ · lockstep-bell          0 ms  not selected
+ · lockstep-blaze         0 ms  not selected
+ · lockstep-blazefire      0 ms  not selected
+ · lockstep-blockdamage      0 ms  not selected
+ · lockstep-blockslow      0 ms  not selected
+ · lockstep-bounce        0 ms  not selected
+ · lockstep-bow           0 ms  not selected
+ · lockstep-breed         0 ms  not selected
+ ✓ lockstep-breedspecies    820 ms  23 assertions, 0 failures, 3 breaks caught
+ · lockstep-bubblecolumn      0 ms  not selected
+ · lockstep-caravan       0 ms  not selected
+ · lockstep-cat           0 ms  not selected
+ · lockstep-catgift       0 ms  not selected
+ · lockstep-catspawner      0 ms  not selected
+ · lockstep-cave_spider      0 ms  not selected
+ · lockstep-chest_minecart      0 ms  not selected
+ · lockstep-chicken       0 ms  not selected
+ · lockstep-chickenjockey      0 ms  not selected
+ · lockstep-chorus        0 ms  not selected
+ · lockstep-climb         0 ms  not selected
+ · lockstep-command_block_minecart      0 ms  not selected
+ · lockstep-conduit       0 ms  not selected
+ · lockstep-cow           0 ms  not selected
+ · lockstep-cramming      0 ms  not selected
+ ✓ lockstep-creeper    1063 ms  126 assertions, 0 failures, 5 breaks caught (20 salts x 160 ti
+ · lockstep-creeperignite      0 ms  not selected
+ · lockstep-crit          0 ms  not selected
+ · lockstep-crossbow      0 ms  not selected
+ · lockstep-cure          0 ms  not selected
+ · lockstep-despawn       0 ms  not selected
+ · lockstep-dispenser      0 ms  not selected
+ · lockstep-dolphin       0 ms  not selected
+ · lockstep-dolphintreasure      0 ms  not selected
+ · lockstep-doorbreak      0 ms  not selected
+ · lockstep-dragonbreath      0 ms  not selected
+ · lockstep-dragoncrystal      0 ms  not selected
+ · lockstep-dragonphases      0 ms  not selected
+ · lockstep-drowned       0 ms  not selected
+ · lockstep-drownedtrident      0 ms  not selected
+ · lockstep-dye           0 ms  not selected
+ ✓ lockstep-effects     844 ms  20 assertions, 0 failures, 4 breaks caught
+ · lockstep-egglay        0 ms  not selected
+ · lockstep-elder_guardian      0 ms  not selected
+ · lockstep-elderguardian      0 ms  not selected
+ · lockstep-elytra        0 ms  not selected
+ · lockstep-enchantdamage      0 ms  not selected
+ · lockstep-endcrystal      0 ms  not selected
+ · lockstep-ender_dragon      0 ms  not selected
+ · lockstep-enderman      0 ms  not selected
+ · lockstep-endermanwater      0 ms  not selected
+ · lockstep-endermite      0 ms  not selected
+ · lockstep-endermitechase      0 ms  not selected
+ · lockstep-endgateway      0 ms  not selected
+ · lockstep-explode       0 ms  not selected
+ · lockstep-eyeofender      0 ms  not selected
+ · lockstep-fall          0 ms  not selected
+ ✓ lockstep-fangs       883 ms  10 assertions, 0 failures, 2 breaks caught
+ · lockstep-firework      0 ms  not selected
+ · lockstep-fishing       0 ms  not selected
+ · lockstep-followowner      0 ms  not selected
+ · lockstep-fox           0 ms  not selected
+ · lockstep-foxeat        0 ms  not selected
+ · lockstep-foxpounce      0 ms  not selected
+ · lockstep-freeze        0 ms  not selected
+ · lockstep-furnace_minecart      0 ms  not selected
+ · lockstep-ghast         0 ms  not selected
+ · lockstep-giant         0 ms  not selected
+ · lockstep-glow_squid      0 ms  not selected
+ · lockstep-goat          0 ms  not selected
+ · lockstep-goatram       0 ms  not selected
+ · lockstep-golem         0 ms  not selected
+ · lockstep-golembuild      0 ms  not selected
+ ✓ lockstep-gossip      804 ms  25 assertions, 0 failures, 5 breaks caught
+ · lockstep-growup        0 ms  not selected
+ · lockstep-guardian      0 ms  not selected
+ · lockstep-guardianbeam      0 ms  not selected
+ · lockstep-hanging       0 ms  not selected
+ · lockstep-hoglin        0 ms  not selected
+ · lockstep-hoglinbrain      0 ms  not selected
+ · lockstep-hopper_minecart      0 ms  not selected
+ · lockstep-hopperitem      0 ms  not selected
+ · lockstep-horsetemper      0 ms  not selected
+ · lockstep-hunger        0 ms  not selected
+ · lockstep-husk          0 ms  not selected
+ · lockstep-iceslide      0 ms  not selected
+ · lockstep-idlewander      0 ms  not selected
+ · lockstep-illusioner      0 ms  not selected
+ · lockstep-insomnia      0 ms  not selected
+ ✓ lockstep-iron_golem    966 ms  126 assertions, 0 failures, 5 breaks caught (20 salts x 160 ti
+ · lockstep-item          0 ms  not selected
+ · lockstep-leash         0 ms  not selected
+ · lockstep-leashknot-lane      0 ms  not selected
+ · lockstep-leashknot      0 ms  not selected
+ · lockstep-lingering      0 ms  not selected
+ · lockstep-llamaspit      0 ms  not selected
+ · lockstep-lookcustomer      0 ms  not selected
+ · lockstep-loot          0 ms  not selected
+ · lockstep-magma_cube      0 ms  not selected
+ · lockstep-magmacube      0 ms  not selected
+ · lockstep-melee-armor      0 ms  not selected
+ · lockstep-minecartcrash      0 ms  not selected
+ · lockstep-minecartfurnace      0 ms  not selected
+ · lockstep-minecartrail      0 ms  not selected
+ · lockstep-mobpickup      0 ms  not selected
+ ✓ lockstep-mooshroom    911 ms  47 assertions, 0 failures, 5 breaks caught (20 salts x 160 tic
+ · lockstep-mooshroomuse      0 ms  not selected
+ · lockstep-mule          0 ms  not selected
+ · lockstep-nametag       0 ms  not selected
+ · lockstep-netherportal      0 ms  not selected
+ · lockstep-noai          0 ms  not selected
+ · lockstep-obstacle      0 ms  not selected
+ · lockstep-ocelot        0 ms  not selected
+ · lockstep-ocelottrust      0 ms  not selected
+ · lockstep-panda         0 ms  not selected
+ · lockstep-pandabehaviour      0 ms  not selected
+ · lockstep-panic         0 ms  not selected
+ · lockstep-parrot        0 ms  not selected
+ · lockstep-parrotcookie      0 ms  not selected
+ · lockstep-pathtypes      0 ms  not selected
+ · lockstep-patrol        0 ms  not selected
+ ✓ lockstep-phantom     761 ms  5 assertions, 0 failures, 2 breaks caught
+ · lockstep-pig           0 ms  not selected
+ · lockstep-piglin        0 ms  not selected
+ · lockstep-piglin_brute      0 ms  not selected
+ · lockstep-piglinwatch      0 ms  not selected
+ · lockstep-pistonpush      0 ms  not selected
+ · lockstep-plate         0 ms  not selected
+ · lockstep-player        0 ms  not selected
+ · lockstep-playerdrown      0 ms  not selected
+ · lockstep-playersleep      0 ms  not selected
+ · lockstep-poi           0 ms  not selected
+ · lockstep-populate      0 ms  not selected
+ · lockstep-pufferfish      0 ms  not selected
+ · lockstep-rabbit        0 ms  not selected
+ · lockstep-rabbithop      0 ms  not selected
+ · lockstep-raid          0 ms  not selected
+ ✓ lockstep-ranged      850 ms  6 assertions, 0 failures, 3 breaks caught
+ · lockstep-ravager       0 ms  not selected
+ · lockstep-reinforce      0 ms  not selected
+ · lockstep-ride          0 ms  not selected
+ · lockstep-riptide       0 ms  not selected
+ · lockstep-sand          0 ms  not selected
+ · lockstep-schooling      0 ms  not selected
+ · lockstep-sculkvibe      0 ms  not selected
+ · lockstep-shadeseek      0 ms  not selected
+ · lockstep-shear         0 ms  not selected
+ · lockstep-sheep         0 ms  not selected
+ · lockstep-sheepgrass      0 ms  not selected
+ · lockstep-shield        0 ms  not selected
+ · lockstep-shove         0 ms  not selected
+ · lockstep-shulker       0 ms  not selected
+ · lockstep-shulkerbullet      0 ms  not selected
+ ✓ lockstep-siege       600 ms  25 assertions, 0 failures, 4 breaks caught
+ · lockstep-silverfish      0 ms  not selected
+ · lockstep-skeleton      0 ms  not selected
+ · lockstep-skeleton_horse      0 ms  not selected
+ · lockstep-skeletonswitch      0 ms  not selected
+ · lockstep-skeletontrap      0 ms  not selected
+ · lockstep-sleep         0 ms  not selected
+ · lockstep-slime         0 ms  not selected
+ · lockstep-slimesplit      0 ms  not selected
+ · lockstep-snow_golem      0 ms  not selected
+ · lockstep-snowgolem      0 ms  not selected
+ · lockstep-spawn         0 ms  not selected
+ · lockstep-spawnegg      0 ms  not selected
+ · lockstep-spawnequip      0 ms  not selected
+ · lockstep-spawner_minecart      0 ms  not selected
+ · lockstep-spider        0 ms  not selected
+ ✓ lockstep-splash      831 ms  24 assertions, 0 failures, 3 breaks caught
+ · lockstep-squid         0 ms  not selected
+ · lockstep-squidswim      0 ms  not selected
+ · lockstep-stalactitefall      0 ms  not selected
+ · lockstep-stray         0 ms  not selected
+ · lockstep-strider       0 ms  not selected
+ · lockstep-structurespawns      0 ms  not selected
+ · lockstep-suffocate      0 ms  not selected
+ · lockstep-sweep         0 ms  not selected
+ · lockstep-tablecheck      0 ms  not selected
+ · lockstep-tame          0 ms  not selected
+ · lockstep-tempt         0 ms  not selected
+ · lockstep-thorns        0 ms  not selected
+ · lockstep-throw         0 ms  not selected
+ · lockstep-tnt           0 ms  not selected
+ · lockstep-tnt_minecart      0 ms  not selected
+ ✓ lockstep-totem       807 ms  36 assertions, 0 failures, 2 breaks caught
+ · lockstep-trident       0 ms  not selected
+ · lockstep-tripwire      0 ms  not selected
+ · lockstep-turtle        0 ms  not selected
+ · lockstep-turtleegg      0 ms  not selected
+ · lockstep-turtlewalk      0 ms  not selected
+ · lockstep-vex           0 ms  not selected
+ · lockstep-vexlife       0 ms  not selected
+ · lockstep-villager-lane      0 ms  not selected
+ · lockstep-villager      0 ms  not selected
+ · lockstep-villagerhero      0 ms  not selected
+ · lockstep-villagerlevel      0 ms  not selected
+ · lockstep-villageroffers      0 ms  not selected
+ · lockstep-villagertrade      0 ms  not selected
+ · lockstep-void          0 ms  not selected
+ · lockstep-wandering_trader      0 ms  not selected
+ ✓ lockstep-wandertrader  21268 ms  4 assertions, 0 failures, 2 breaks caught
+ · lockstep-waterflow      0 ms  not selected
+ · lockstep-waterspawn      0 ms  not selected
+ · lockstep-witch         0 ms  not selected
+ · lockstep-witchdrink      0 ms  not selected
+ · lockstep-witchthrow      0 ms  not selected
+ · lockstep-wither        0 ms  not selected
+ · lockstep-wither_skeleton      0 ms  not selected
+ · lockstep-wither_skull      0 ms  not selected
+ · lockstep-witherlane      0 ms  not selected
+ · lockstep-wolfdefend      0 ms  not selected
+ · lockstep-wolfshake      0 ms  not selected
+ · lockstep-wololo        0 ms  not selected
+ · lockstep-xpbottle      0 ms  not selected
+ · lockstep-xporb         0 ms  not selected
+ · lockstep-zoglin        0 ms  not selected
+ ✓ lockstep-zombie_villager   1095 ms  126 assertions, 0 failures, 5 breaks caught (20 salts x 160 ti
+ · lockstep-zombiechase      0 ms  not selected
+ · lockstep-zombieinit      0 ms  not selected
+ · lockstep-zombify       0 ms  not selected
+ · lockstepcheck          0 ms  not selected
+ · lockstepleakcheck      0 ms  not selected
+ · lockstepprioritycheck      0 ms  not selected
+ · lockstepproofcheck      0 ms  not selected
+ · lockstepresetcheck      0 ms  not selected
+ · lockstepsuitecheck      0 ms  not selected
+ · lockstepuuidcheck      0 ms  not selected
+ · lookatgoalcheck        0 ms  not selected
+ · lookcontrolnavcheck      0 ms  not selected
+ · lootaudit              0 ms  not selected
+ · losgatecheck           0 ms  not selected
+ ✓ lumacheck          96895 ms  25 assertions, 0 failures, 13 breaks caught
+ · magmastretchcheck      0 ms  not selected
+ · mailhookcheck          0 ms  not selected
+ · mapcontentcheck        0 ms  not selected
+ · meleenavcheck          0 ms  not selected
+ · meleepausecheck        0 ms  not selected
+ · meltdropcheck          0 ms  not selected
+ · meshcheck              0 ms  not selected
+ · minecartcheck          0 ms  not selected
+ · minecartmodelcheck      0 ms  not selected
+ · minecartplacecheck      0 ms  not selected
+ · minecartsoundcheck      0 ms  not selected
+ · minecheck              0 ms  not selected
+ ✓ mirrorcheck         1376 ms  19 assertions, 0 failures, 5 breaks caught
+ · mobaicheck             0 ms  not selected
+ · mobaudit4check         0 ms  not selected
+ · mobboxcheck            0 ms  not selected
+ · mobcmdexeccheck        0 ms  not selected
+ · mobcmdkillcheck        0 ms  not selected
+ · mobcmdxpgamemodecheck      0 ms  not selected
+ · mobcrowdcheck          0 ms  not selected
+ · mobdefaultcheck2       0 ms  not selected
+ · mobdrawcheck           0 ms  not selected
+ · mobdropycheck          0 ms  not selected
+ · mobdrowncheck          0 ms  not selected
+ · mobgoalscheck          0 ms  not selected
+ · mobgriefingcheck       0 ms  not selected
+ ✓ mobinteractcheck   41969 ms  25 assertions, 0 failures, 7 breaks caught
+ · mobl3check             0 ms  not selected
+ · mobmovecheck           0 ms  not selected
+ · mobnbtcheck            0 ms  not selected
+ · mobpackcheck           0 ms  not selected
+ · mobpickupcheck         0 ms  not selected
+ · mobrendercheck         0 ms  not selected
+ · mobshapecheck          0 ms  not selected
+ · mobslidecheck          0 ms  not selected
+ · mobslootcheck          0 ms  not selected
+ · mobsoundcheck          0 ms  not selected
+ · mobstepcheck           0 ms  not selected
+ ✓ mobtexcheck          370 ms  assertions ........... 41 (0 failed)
+ · mobtickjoincheck       0 ms  not selected
+ · mobtracecheck          0 ms  not selected
+ · mobvoicecheck          0 ms  not selected
+ · mobvoicegatecheck      0 ms  not selected
+ · mobwatercheck          0 ms  not selected
+ · modecheck              0 ms  not selected
+ · modelcheck             0 ms  not selected
+ · modeloverridecheck      0 ms  not selected
+ · monumentcheck          0 ms  not selected
+ · mooshroomcheck         0 ms  not selected
+ · mooshroomshroomcheck      0 ms  not selected
+ · mooshroomstewbowlcheck      0 ms  not selected
+ · motionsrccheck         0 ms  not selected
+ · motionstaticcheck      0 ms  not selected
+ ✓ mountcheck          1413 ms  mountcheck — QUEUE 0.2 G18e remainder, horse mount/tame/ride/s
+ · mountinvcheck          0 ms  not selected
+ · mountrendercheck       0 ms  not selected
+ · movecheck              0 ms  not selected
+ · namecheck              0 ms  not selected
+ · nametagcheck           0 ms  not selected
+ · nbtcheck               0 ms  not selected
+ · netherfortresscheck      0 ms  not selected
+ · netherfortressplacecheck      0 ms  not selected
+ · newworldcheck          0 ms  not selected
+ · noclaimreleasecheck      0 ms  not selected
+ · nofallcheck            0 ms  not selected
+ · noisecheck             0 ms  not selected
+ · nonlivingexplosioncheck      0 ms  not selected
+ · noteblockcheck         0 ms  not selected
+ · notimeoutcheck         0 ms  not selected
+ ✓ nullmeshcheck       3498 ms  9 assertions, 0 failures, 2 breaks caught
+ · ocelotgoalcheck        0 ms  not selected
+ · ocelotpackcheck        0 ms  not selected
+ · ocelottargetboxcheck      0 ms  not selected
+ · ocelottrustcheck       0 ms  not selected
+ · optionscheck           0 ms  not selected
+ · paceextracheck         0 ms  not selected
+ · paintingdrawcheck      0 ms  not selected
+ · palettecheck           0 ms  not selected
+ · pandacheck             0 ms  not selected
+ · pandahelditemcheck      0 ms  not selected
+ · pandaposecheck         0 ms  not selected
+ · pandaskincheck         0 ms  not selected
+ · pandasoundcheck        0 ms  not selected
+ · parcheck               0 ms  not selected
+ ✓ parrotcheck          884 ms  44 assertions, 0 failures, 10 breaks caught
+ · parrotposecheck        0 ms  not selected
+ · parrotshouldercheck      0 ms  not selected
+ · parrotsoundcheck       0 ms  not selected
+ · particlecheck          0 ms  not selected
+ · particleoption         0 ms  not selected
+ · partlandcheck          0 ms  not selected
+ · passivecheck           0 ms  not selected
+ · pathanycheck           0 ms  not selected
+ · pathcheck              0 ms  not selected
+ · pathfallcheck          0 ms  not selected
+ · pathtracecheck         0 ms  not selected
+ · patrolcountcheck       0 ms  not selected
+ · patrolgroupcheck       0 ms  not selected
+ · patrolleadercheck      0 ms  not selected
+ · patrolretargetcheck      0 ms  not selected
+ · pearlscencheck         0 ms  not selected
+ · petfleecheck           0 ms  not selected
+ · petposecheck           0 ms  not selected
+ · phantomanimcheck       0 ms  not selected
+ · phantomcheck           0 ms  not selected
+ · phantomeyescheck       0 ms  not selected
+ · phantomposecheck       0 ms  not selected
+ · phantomvel             0 ms  not selected
+ · phaselanecheck         0 ms  not selected
+ · phonecontrolscheck      0 ms  not selected
+ · phonehomecheck         0 ms  not selected
+ · phonerunscheck         0 ms  not selected
+ · phonestatscheck        0 ms  not selected
+ ✓ phonewebcheck        782 ms  23 assertions, 0 failures, 26 breaks caught
+ · physcheck              0 ms  not selected
+ · piglinangercheck       0 ms  not selected
+ · piglinbraincheck       0 ms  not selected
+ · piglinbruteidlecheck      0 ms  not selected
+ · piglincheck            0 ms  not selected
+ · piglincrossbowcheck      0 ms  not selected
+ · piglindoorcheck        0 ms  not selected
+ · piglinhittimercheck      0 ms  not selected
+ · piglinlootcheck        0 ms  not selected
+ · piglinmodelcheck       0 ms  not selected
+ · piglinrendercheck      0 ms  not selected
+ · piglinsoundcheck       0 ms  not selected
+ · pigridecheck           0 ms  not selected
+ · pilotplancheck         0 ms  not selected
+ · pilotsumcheck          0 ms  not selected
+ ✓ pistoncheck        37039 ms  93 assertions, 0 failures, 11 breaks caught
+ · placecheck             0 ms  not selected
+ · extract-placement      0 ms  not selected
+ · plantstem              0 ms  not selected
+ · platecheck             0 ms  not selected
+ · playercheck            0 ms  not selected
+ · playerlanecheck        0 ms  not selected
+ · playeroptscheck        0 ms  not selected
+ · playerrendercheck      0 ms  not selected
+ · playerskincheck        0 ms  not selected
+ · playersoundcheck       0 ms  not selected
+ · poicheck               0 ms  not selected
+ · polarbearcheck         0 ms  not selected
+ ✓ ponytailcheck         52 ms  16 assertions, 0 failures, 9 breaks caught
+ · poolcapcheck           0 ms  not selected
+ · populatesavecheck      0 ms  not selected
+ · portalcheck            0 ms  not selected
+ · potionbreakpitchcheck      0 ms  not selected
+ · powdersnowcheck        0 ms  not selected
+ · powdersnowdaycheck      0 ms  not selected
+ · powdersnowjumpcheck      0 ms  not selected
+ · powdersnowwalkcheck      0 ms  not selected
+ · procapcheck            0 ms  not selected
+ · professioncheck        0 ms  not selected
+ · projectilegoalcheck      0 ms  not selected
+ · projmotioncheck        0 ms  not selected
+ · projrngcheck           0 ms  not selected
+ · prunecheck             0 ms  not selected
+ ✓ puffboxcheck         729 ms  8 assertions, 0 failures, 5 breaks caught
+ · pufferrendercheck      0 ms  not selected
+ · pushcheck              0 ms  not selected
+ · quadcapcheck           0 ms  not selected
+ · queuedeepcheck         0 ms  not selected
+ · queuegatecheck         0 ms  not selected
+ · queueordercheck        0 ms  not selected
+ · quietcheck             0 ms  not selected
+ · quietharnesscheck      0 ms  not selected
+ · rabbitcheck            0 ms  not selected
+ · rabbitpackcheck        0 ms  not selected
+ · rabbitposecheck        0 ms  not selected
+ · raidbannerpickupcheck      0 ms  not selected
+ · raidbarcheck           0 ms  not selected
+ · raidcelebratecheck      0 ms  not selected
+ · raidcheck              0 ms  not selected
+ ✓ raidexactcheck       761 ms  24 assertions, 0 failures, 16 breaks caught
+ · raidgoalresiduecheck      0 ms  not selected
+ · raidmobcheck           0 ms  not selected
+ · raidrecipcheck         0 ms  not selected
+ · raidsavecheck          0 ms  not selected
+ · raidvexcheck           0 ms  not selected
+ · raidvindicatorcheck      0 ms  not selected
+ · railcheck              0 ms  not selected
+ · railpopcheck           0 ms  not selected
+ · randomdisplaytickcheck      0 ms  not selected
+ · ravagercontrolscheck      0 ms  not selected
+ · ravagerimmobilecheck      0 ms  not selected
+ ✓ ravagermodelcheck   1349 ms  4 assertions, 0 failures, 3 breaks caught
+ · ravagerposecheck       0 ms  not selected
+ · ravagershieldcheck      0 ms  not selected
+ · ravagersoundcheck      0 ms  not selected
+ · raycheck               0 ms  not selected
+ · raylayercheck          0 ms  not selected
+ · redcheck               0 ms  not selected
+ · redissuecheck          0 ms  not selected
+ · redlitcheck            0 ms  not selected
+ · armorrefcheck          0 ms  not selected
+ · mobrefattrcheck        0 ms  not selected
+ · avoidrefcheck          0 ms  not selected
+ · barterrefcheck         0 ms  not selected
+ · blockrefdropcheck      0 ms  not selected
+ · blockuserefcheck       0 ms  not selected
+ · boltrefcheck           0 ms  not selected
+ · breedrefcheck          0 ms  not selected
+ · bucketrefcheck         0 ms  not selected
+ · bulletrefcheck         0 ms  not selected
+ · buttonrefcheck         0 ms  not selected
+ · chaserefcheck          0 ms  not selected
+ · cmprefcheck            0 ms  not selected
+ · columnrefcheck         0 ms  not selected
+ · convrefcheck           0 ms  not selected
+ ✓ creeperrefcheck    12589 ms  9 assertions, 0 failures
+ · crystalrefcheck        0 ms  not selected
+ · daylightrefcheck       0 ms  not selected
+ · despawnrefcheck        0 ms  not selected
+ · dispenserefcheck       0 ms  not selected
+ · drownrefcheck          0 ms  not selected
+ · effectrefcheck         0 ms  not selected
+ · enchrefcheck           0 ms  not selected
+ · endermanrefcheck       0 ms  not selected
+ · mobrefequipcheck       0 ms  not selected
+ · fallrefcheck           0 ms  not selected
+ · farmrefcheck           0 ms  not selected
+ · mobreffirecheck        0 ms  not selected
+ · firerefcheck           0 ms  not selected
+ · floorrefcheck          0 ms  not selected
+ · fluidrefcheck          0 ms  not selected
+ · foodrefcheck           0 ms  not selected
+ · furnacerefcheck        0 ms  not selected
+ · gaterefcheck           0 ms  not selected
+ · geardroprefcheck       0 ms  not selected
+ · growthrefcheck         0 ms  not selected
+ · hazardrefcheck         0 ms  not selected
+ · hoglinrefcheck         0 ms  not selected
+ · hopperrefcheck         0 ms  not selected
+ · hungerrefcheck         0 ms  not selected
+ · hurtrefcheck           0 ms  not selected
+ · hurtwinrefcheck        0 ms  not selected
+ · interactrefcheck       0 ms  not selected
+ · itemrefcheck           0 ms  not selected
+ · itemuserefcheck        0 ms  not selected
+ · kbrefcheck             0 ms  not selected
+ · leafrefcheck           0 ms  not selected
+ · llamarefcheck          0 ms  not selected
+ · mobreflootcheck        0 ms  not selected
+ · lootingrefcheck        0 ms  not selected
+ · meleerefcheck          0 ms  not selected
+ · meltrefcheck           0 ms  not selected
+ · minerefcheck           0 ms  not selected
+ · mobhazardrefcheck      0 ms  not selected
+ · motionrefcheck         0 ms  not selected
+ · panicrefcheck          0 ms  not selected
+ ✓ pcoolrefcheck        834 ms  14 assertions, 0 failures, 11 breaks caught
+ · phantomrefcheck        0 ms  not selected
+ · phazardrefcheck        0 ms  not selected
+ · placerefcheck          0 ms  not selected
+ · platerefcheck          0 ms  not selected
+ · playerarmorrefcheck      0 ms  not selected
+ · pmeleerefcheck         0 ms  not selected
+ · potionrefcheck         0 ms  not selected
+ · raidrefcheck           0 ms  not selected
+ · ramrefcheck            0 ms  not selected
+ · rangedrefcheck         0 ms  not selected
+ · ranged2refcheck        0 ms  not selected
+ · redrefcheck            0 ms  not selected
+ · reinfrefcheck          0 ms  not selected
+ · sheepgrassrefcheck      0 ms  not selected
+ · spawnerrefcheck        0 ms  not selected
+ · spreadrefcheck         0 ms  not selected
+ · surviverefcheck        0 ms  not selected
+ ✓ tamerefcheck        8754 ms  10 assertions, 0 failures
+ · tntrefcheck            0 ms  not selected
+ · villagerreftradecheck      0 ms  not selected
+ · useonrefcheck          0 ms  not selected
+ · wanderrefcheck         0 ms  not selected
+ · xprefcheck             0 ms  not selected
+ · xp2refcheck            0 ms  not selected
+ · xporbrefcheck          0 ms  not selected
+ · mobdefaultscheck       0 ms  not selected
+ · regcheck               0 ms  not selected
+ · remeshcheck            0 ms  not selected
+ · renderinterpcheck      0 ms  not selected
+ · renderrescheck         0 ms  not selected
+ · riderheightcheck       0 ms  not selected
+ ✓ ridertamerngcheck    655 ms  8 assertions, 0 failures, 2 breaks caught
+ · ridetracecheck         0 ms  not selected
+ · rngtracecheck          0 ms  not selected
+ · rodaddedcheck          0 ms  not selected
+ · rodcheck               0 ms  not selected
+ · rolewhocheck           0 ms  not selected
+ · rootscriptscheck       0 ms  not selected
+ · rosteroptscheck        0 ms  not selected
+ · rosterr2check          0 ms  not selected
+ · runnerguardcheck       0 ms  not selected
+ · saddlesoundcheck       0 ms  not selected
+ · salvagecheck           0 ms  not selected
+ · savecheck              0 ms  not selected
+ · scaffoldingcheck       0 ms  not selected
+ · sculksensorcheck       0 ms  not selected
+ · seamcheck              0 ms  not selected
+ ✓ seed64check         3168 ms  12 assertions, 0 failures, 3 breaks caught
+ · seedparsecheck         0 ms  not selected
+ · shadercheck            0 ms  not selected
+ · shadowcheck            0 ms  not selected
+ · shadowtilecheck        0 ms  not selected
+ · shapecheck             0 ms  not selected
+ · shapefloodcheck        0 ms  not selected
+ · sheepfleececheck       0 ms  not selected
+ · shieldcheck            0 ms  not selected
+ · shieldlayerscheck      0 ms  not selected
+ · shuffleexplosioncheck      0 ms  not selected
+ · shulkercheck           0 ms  not selected
+ · shulkerattackcheck      0 ms  not selected
+ · shulkerbodycheck       0 ms  not selected
+ · shulkerboxcheck        0 ms  not selected
+ ✓ shulkerdrawcheck    1003 ms  42 assertions, 0 failures
+ · shulkersoundcheck      0 ms  not selected
+ · extract-sided          0 ms  not selected
+ · siegecheck             0 ms  not selected
+ · silverfishcheck        0 ms  not selected
+ · silverfishmagiccheck      0 ms  not selected
+ · silverfishwigglecheck      0 ms  not selected
+ · silverspawncheck       0 ms  not selected
+ · simdistcheck           0 ms  not selected
+ · skeletontargetcheck      0 ms  not selected
+ · skelmeleecheck         0 ms  not selected
+ · skelsunlightcheck      0 ms  not selected
+ · skullcheck             0 ms  not selected
+ · skycheck               0 ms  not selected
+ · skydarknesscheck       0 ms  not selected
+ · skygpucheck            0 ms  not selected
+ · skyviewcheck           0 ms  not selected
+ ✗ sleepcheck          2485 ms  sleepcheck — loop/sleep-s104: villager SLEEP + MEETING-POINT b
+ · slimeblockcheck        0 ms  not selected
+ · slimecheck             0 ms  not selected
+ · slimesoundcheck        0 ms  not selected
+ · smallfireballhitcheck      0 ms  not selected
+ · smallfireballnonlivingcheck      0 ms  not selected
+ · smoke                  0 ms  not selected
+ · smoothlivecheck        0 ms  not selected
+ · snbtcmdcheck           0 ms  not selected
+ · snowgolemcheck         0 ms  not selected
+ · snowgolemrendercheck      0 ms  not selected
+ · snowgolemsoundcheck      0 ms  not selected
+ · snowgolemwandercheck      0 ms  not selected
+ · snowlayercheck         0 ms  not selected
+ · soakcheck              0 ms  not selected
+ · soaktracecheck         0 ms  not selected
+ ✓ soundaudit           865 ms  12 assertions, 0 failures, 9 breaks caught
+ · soundcheck             0 ms  not selected
+ · soundtitlecheck        0 ms  not selected
+ · soundtracecheck        0 ms  not selected
+ · spawnaudit             0 ms  not selected
+ · spawncapcheck          0 ms  not selected
+ · spawncheck             0 ms  not selected
+ · spawnercartcheck       0 ms  not selected
+ · spawnercheck           0 ms  not selected
+ · spawnerdraw            0 ms  not selected
+ · spawnerfxcheck         0 ms  not selected
+ · spawnergencheck        0 ms  not selected
+ · spawnerpotentialscheck      0 ms  not selected
+ · spawnerstalecheck      0 ms  not selected
+ · spawnfloorcheck        0 ms  not selected
+ ✓ spawninitrngcheck  33444 ms  42 assertions, 0 failures, 1 breaks caught
+ · spawnloccheck          0 ms  not selected
+ · spawnoceancheck        0 ms  not selected
+ · spawnpopcheck          0 ms  not selected
+ · spawnpredcheck         0 ms  not selected
+ · spawnrulecheck         0 ms  not selected
+ · spawntravcheck         0 ms  not selected
+ · speciesrngcheck        0 ms  not selected
+ · spellcheck             0 ms  not selected
+ · spellcooldowncheck      0 ms  not selected
+ · spellposecheck         0 ms  not selected
+ · spiderclimbcheck       0 ms  not selected
+ · spidereyelightcheck      0 ms  not selected
+ · spidereyescheck        0 ms  not selected
+ · spidertargetcheck      0 ms  not selected
+ · spitdamagecheck        0 ms  not selected
+ ✓ spitoccludercheck    654 ms  4 assertions passed, 0 failed, 1 breaks caught
+ · spitparticlecheck      0 ms  not selected
+ · spitposecheck          0 ms  not selected
+ · spritecheck            0 ms  not selected
+ · squidcheck             0 ms  not selected
+ · squidfxcheck           0 ms  not selected
+ · squidposecheck         0 ms  not selected
+ · sscheck                0 ms  not selected
+ · stagecheck             0 ms  not selected
+ · stagetimeoutcheck      0 ms  not selected
+ · stalactitecheck        0 ms  not selected
+ · stalactitetridentcheck      0 ms  not selected
+ · stalagmitecheck        0 ms  not selected
+ · stalemeshcheck         0 ms  not selected
+ · standrendercheck       0 ms  not selected
+ ✓ statscheck           639 ms  36 assertions, 0 failures, 6 breaks caught
+ · stepsourcecheck        0 ms  not selected
+ · stopatcheck            0 ms  not selected
+ · straylayercheck        0 ms  not selected
+ · streamcheck            0 ms  not selected
+ · striderangcheck        0 ms  not selected
+ · stridercheck           0 ms  not selected
+ · stridergoalcheck       0 ms  not selected
+ · striderroster          0 ms  not selected
+ · stridersoundcheck      0 ms  not selected
+ · strongholdspawnercheck      0 ms  not selected
+ · structaudit            0 ms  not selected
+ · structcheck            0 ms  not selected
+ · structentcheck         0 ms  not selected
+ · structspawncheck       0 ms  not selected
+ · structurequadcheck      0 ms  not selected
+ ✓ stuckarrowcheck      607 ms  stuckarrowcheck: 8 checks ok, 3 breaks caught
+ · supportcheck           0 ms  not selected
+ · surfcheck              0 ms  not selected
+ · survcheck              0 ms  not selected
+ · survivegatecheck       0 ms  not selected
+ · swimctlcheck           0 ms  not selected
+ · swimdistcheck          0 ms  not selected
+ · swimgoalcontrolscheck      0 ms  not selected
+ · swimnodecheck          0 ms  not selected
+ · swirlcheck             0 ms  not selected
+ · tagcheck               0 ms  not selected
+ · takeovercheck          0 ms  not selected
+ · tamecheck              0 ms  not selected
+ · tamedwolfhealcheck      0 ms  not selected
+ · tameownertargetcheck      0 ms  not selected
+ · targetblockcheck       0 ms  not selected
+ · targettracecheck       0 ms  not selected
+ · temptcheck             0 ms  not selected
+ · testmirrorcheck        0 ms  not selected
+ · texanimcheck           0 ms  not selected
+ · texaudit               0 ms  not selected
+ · texauditjobcheck       0 ms  not selected
+ · texl1check             0 ms  not selected
+ · texrostercheck         0 ms  not selected
+ · textcheck              0 ms  not selected
+ · throwableitemcheck      0 ms  not selected
+ · throwcheck             0 ms  not selected
+ · thrownwatercheck       0 ms  not selected
+ · tickcheck              0 ms  not selected
+ · tilecheck              0 ms  not selected
+ ✗ timeweathercheck   12243 ms  24 assertions, 5 failures, 2 breaks caught
+ · tintcheck              0 ms  not selected
+ · tippedcheck            0 ms  not selected
+ · titlecheck             0 ms  not selected
+ · tntcheck               0 ms  not selected
+ · tntfusecheck           0 ms  not selected
+ · tntprimedfxcheck       0 ms  not selected
+ · tntrendercheck         0 ms  not selected
+ · togoalticksheck        0 ms  not selected
+ · tooltipcheck           0 ms  not selected
+ · totemcheck             0 ms  not selected
+ · tpcheck                0 ms  not selected
+ · tracecheck             0 ms  not selected
+ · tradecheck             0 ms  not selected
+ · trademenucheck         0 ms  not selected
+ ✓ tridentchannelingcheck    696 ms  6 assertions, 0 failures, 1 breaks caught
+ · tridenthitcheck        0 ms  not selected
+ · tridentitemcheck       0 ms  not selected
+ · tridentloyaltycheck      0 ms  not selected
+ · tridentriptidecheck      0 ms  not selected
+ · tridentsweepcheck      0 ms  not selected
+ · trimcheck              0 ms  not selected
+ · tripwirecheck          0 ms  not selected
+ · tropicalpackcheck      0 ms  not selected
+ · turnbudgetcheck        0 ms  not selected
+ · turtlecheck            0 ms  not selected
+ · turtleeggcheck         0 ms  not selected
+ · turtlerendercheck      0 ms  not selected
+ · turtlesoundcheck       0 ms  not selected
+ · undeadcheck            0 ms  not selected
+ · undeadhorsecheck       0 ms  not selected
+ ✓ unionmergecheck      332 ms  12 assertions, 0 failures, 3 breaks caught
+ · usagerefreshcheck      0 ms  not selected
+ · usagestalecheck        0 ms  not selected
+ · usecheck               0 ms  not selected
+ · usehold                0 ms  not selected
+ · userngcheck            0 ms  not selected
+ · usewearcheck           0 ms  not selected
+ · uvl2check              0 ms  not selected
+ · vanillacheck           0 ms  not selected
+ · vaoleakcheck           0 ms  not selected
+ · vbactivitycheck        0 ms  not selected
+ · vbbellhidecheck        0 ms  not selected
+ · vbbreedcheck           0 ms  not selected
+ · vbcelebratecheck       0 ms  not selected
+ · vbcompetitioncheck      0 ms  not selected
+ ✓ vbcustomercheck      855 ms  12 assertions, 0 failures, 2 breaks caught
+ · vbdoorcheck            0 ms  not selected
+ · vbendraidcheck         0 ms  not selected
+ · vbgathercheck          0 ms  not selected
+ · vbhidehomecheck        0 ms  not selected
+ · vbholdcheck            0 ms  not selected
+ · vbidlecheck            0 ms  not selected
+ · vbjobacquirecheck      0 ms  not selected
+ · vbmeetcheck            0 ms  not selected
+ · vbpaniccheck           0 ms  not selected
+ · vbplaycheck            0 ms  not selected
+ · vbringbellcheck        0 ms  not selected
+ · vbseekskycheck         0 ms  not selected
+ · vbstartraidcheck       0 ms  not selected
+ · vbtakejobsitecheck      0 ms  not selected
+ · vbwandercheck          0 ms  not selected
+ ✓ vbworkcheck          823 ms  1. VB.workOrder: five weighted candidates (createWorkTasks has
+ · vexcheck               0 ms  not selected
+ · vexlightcheck          0 ms  not selected
+ · vexlookcheck           0 ms  not selected
+ · vexsoundcheck          0 ms  not selected
+ · vextargetcheck         0 ms  not selected
+ · vexwallcheck           0 ms  not selected
+ · viewbobcheck           0 ms  not selected
+ · villagegolemcheck      0 ms  not selected
+ · villageraccept         0 ms  not selected
+ · villagergoalcheck      0 ms  not selected
+ · villagerheadshakecheck      0 ms  not selected
+ · villagerinteractcheck      0 ms  not selected
+ · villagerproftexcheck      0 ms  not selected
+ · villagersoundcheck      0 ms  not selected
+ ✓ villagertexcheck     692 ms  119 assertions, 0 failures
+ · villagertypecheck      0 ms  not selected
+ · visfloodcheck          0 ms  not selected
+ · vmcheck                0 ms  not selected
+ · wandertargetcheck      0 ms  not selected
+ · watchdogcheck          0 ms  not selected
+ · waterdragcheck         0 ms  not selected
+ · watersplashcheck       0 ms  not selected
+ · weathercheck           0 ms  not selected
+ · weatherdrawcheck       0 ms  not selected
+ · webcheck               0 ms  not selected
+ · weightedplatecheck      0 ms  not selected
+ · wgcheck                0 ms  not selected
+ · whiteflashcheck        0 ms  not selected
+ · wireshapecheck         0 ms  not selected
+ ✓ witchhelditemcheck   1151 ms  4 assertions, 0 failures, 2 breaks caught
+ · witchnosecheck         0 ms  not selected
+ · witchposecheck         0 ms  not selected
+ · witchpotioncheck       0 ms  not selected
+ · witchraidtargetcheck      0 ms  not selected
+ · withercheck            0 ms  not selected
+ · wither1576check        0 ms  not selected
+ · wither1577check        0 ms  not selected
+ · witheracquirecheck      0 ms  not selected
+ · witherattackcheck      0 ms  not selected
+ · witherbreakcheck       0 ms  not selected
+ · witherbreakdropcheck      0 ms  not selected
+ · witherchargedresistcheck      0 ms  not selected
+ · witherdrawcheck        0 ms  not selected
+ · withergoalcheck        0 ms  not selected
+ · witherheadcheck        0 ms  not selected
+ ✓ witherheadscheck     758 ms  29 assertions, 0 failures, 8 breaks caught
+ · witherhurtchargecheck      0 ms  not selected
+ · witherinvulncheck      0 ms  not selected
+ · witherlootcheck        0 ms  not selected
+ · witherowedcheck        0 ms  not selected
+ · witherparticlecheck      0 ms  not selected
+ · witherregencheck       0 ms  not selected
+ · witherskelcheck        0 ms  not selected
+ · witherskullcollidecheck      0 ms  not selected
+ · witherskulldeathcheck      0 ms  not selected
+ · witherskulltrailcheck      0 ms  not selected
+ · witherskullwatercheck      0 ms  not selected
+ · withersoundcheck       0 ms  not selected
+ · withersummoncheck      0 ms  not selected
+ · witheryawcheck         0 ms  not selected
+ · wkhashcheck            0 ms  not selected
+ ✗ wolfgoalcheck        805 ms  103 assertions, 0 failures
+ · wolfmodelcheck         0 ms  not selected
+ · wolfrendercheck        0 ms  not selected
+ · wolfshakecheck         0 ms  not selected
+ · wolfsitcheck           0 ms  not selected
+ · wolfsoundcheck         0 ms  not selected
+ · wolfwetcheck           0 ms  not selected
+ · workermodelcheck       0 ms  not selected
+ · workerthreadcheck      0 ms  not selected
+ · worldbordercheck       0 ms  not selected
+ · worldcheck             0 ms  not selected
+ · worldsetcheck          0 ms  not selected
+ · wtradercheck           0 ms  not selected
+ · wtradersavecheck       0 ms  not selected
+ · xpbottlecheck          0 ms  not selected
+ ✓ xpmendingcheck       103 ms  11 assertions, 0 failures, 4 breaks caught
+ · xporbcheck             0 ms  not selected
+ · xporbdrawcheck         0 ms  not selected
+ · zarmscheck             0 ms  not selected
+ · zoglinlookcheck        0 ms  not selected
+ · zombieattackgoalcheck      0 ms  not selected
+ · zombiefirecheck        0 ms  not selected
+ · zombiesoundcheck       0 ms  not selected
+ · zombietargetcheck      0 ms  not selected
+ · zombievillagercheck      0 ms  not selected
+ · zpangerpasscheck       0 ms  not selected
+ · zpiglinspawncheck      0 ms  not selected
+ · zpiglinspeedcheck      0 ms  not selected
+ · zvillagercheck         0 ms  not selected
+ ---------------------------------------------
+ 21,016 assertions · 428 deliberate breaks caught · 3 stages failed
+ ⚠ PARTIAL RUN — 82 of 1381 stages selected (--only animcheck,asyncguardcheck,axolotlswimcheck,becheck,biomecheck,bobcheck,brewregcheck,cartdamagecheck,chickeneggsoundcheck,commandcheck,creeperrefcheck,despawncheck,dolphinaircheck,dragonfireballcheck,dyncheck,enchroster,enderdragonsegcheck,endportalrendercheck,explosionparticlecheck,fangsattackercheck,fireoverlaycheck,flightpitchcheck,foxposecheck,g17ccheck,giantcheck,golemanimcheck,guicheck,helditemnamecheck,horsetickcheck,illagerposecheck,itembuoyancycheck,labelcheck,lightstatecheck,lockstep-axolotl-lane,lockstep-breedspecies,lockstep-creeper,lockstep-effects,lockstep-fangs,lockstep-gossip,lockstep-iron_golem,lockstep-mooshroom,lockstep-phantom,lockstep-ranged,lockstep-siege,lockstep-splash,lockstep-totem,lockstep-wandertrader,lockstep-zombie_villager,lumacheck,mirrorcheck,mobinteractcheck,mobtexcheck,mountcheck,nullmeshcheck,parrotcheck,pcoolrefcheck,phonewebcheck,pistoncheck,ponytailcheck,puffboxcheck,raidexactcheck,ravagermodelcheck,ridertamerngcheck,seed64check,shulkerdrawcheck,sleepcheck,soundaudit,spawninitrngcheck,spitoccludercheck,statscheck,stuckarrowcheck,tamerefcheck,timeweathercheck,tridentchannelingcheck,unionmergecheck,vbcustomercheck,vbworkcheck,villagertexcheck,witchhelditemcheck,witherheadscheck,wolfgoalcheck,xpmendingcheck). This is NOT a green suite.
+ 312.5 s
+ ---------------------------------------------
+ ⚠ 22 check stages REPORTED NO ASSERTION COUNT and contribute nothing to the total: enchroster endportalrendercheck explosionparticlecheck flightpitchcheck giantcheck horsetickcheck illagerposecheck lockstep-axolotl-lane lockstep-creeper lockstep-iron_golem lockstep-mooshroom lockstep-zombie_villager mirrorcheck mobtexcheck mountcheck ridertamerngcheck sleepcheck spitoccludercheck statscheck stuckarrowcheck unionmergecheck vbworkcheck
+   They ran and passed. Their assertions are not in the number above.
+ ---------------------------------------------
+ ⚠ 1299 stages DID NOT RUN: extract-materials extract-equipment extract-fuel extract-fallon extract-soundtype extract-armor extract-analog extract-push extract-entities extract-entity-motion extract-entity-ground extract-zombiearms extract-creative extract-commands extract-models extract-gamerules extract-guigeom extract-itemmodel extract-support extract-occlusion extract-flammable extract-blockitems extract-itemattrs extract-handrender extract-entityattrs extract-breeding extract-combat-enchant extract-babymodel extract-blocks build-atlas merge-constants bake-geometry extract-items pack-models pack-blockentity pack-geometry pack-runtime pack-entities gen-legacy-tiles pack-worldgen pack-structures pack-biomeparams pack-colormaps pack-tags pack-mining pack-loot pack-items pack-recipes pack-advancements build-gui pack-lang pack-sounds extract-mob-textures pack-mobtex pack-painting extract-particletex extract-xporbtex extract-weathertex gen-data build-biomesheet extract-villager-trades build acctplancheck advancementcheck advtriggercheck aicheck airbubblecheck animal2rngcheck animalrngcheck anvilcheck anvillandcheck apibudgetcheck armorstandcheck armorstandexplosioncheck armorstandplacecheck armorstandusecheck armourrendercheck arrowwatercheck arrowbubblecheck arrowcritparticlecheck arrowphysicscheck arrowrefcheck arrowsoundcheck attacksoundcheck attraudit attrefftracecheck auditledgercheck autorebasecheck avoidboxcheck axolotlbreedgatecheck axolotlcheck axolotllookcheck axolotlnavcheck axolotlseekcheck axolotlseekwatercheck axolotlsoundcheck axolotlstrollcheck axolotltimedlookcheck axolotltravelcheck axolotlyawcheck babycheck backendcheck bamboocheck bannerlayerscheck bannerplacecheck barrelcheck batcheck batposecheck batwakecheck beaconcheck beaconrendercheck bedbouncecheck bedcheck beecheck beehiveusecheck beeloopcheck beenestcheck behavcheck beitemcheck bellrendercheck bellresonatecheck bellswingcheck bemodelcheck berrysoundcheck besavecheck beworldcheck birdnodecheck blastknockbackcheck blazeburncheck blazeghastcheck blazemovecheck blockcmdlivecheck blockholdcheck blocksoundwirecheck boatcheck boatplacecheck boatsimcheck boatwatermask bobberdrawcheck bonemealcheck bossbarcheck bowarmcheck bowcheck bowdrawcheck bowintervalcheck bowshootsoundcheck bowstatecheck boxuvcheck braincheck breedcheck breedhurtcheck brewingcheck browserslotscheck brutepickupcheck brutesoundcheck bubblecolumncheck bucketdatacheck bucketfishsoundcheck bugwavecheck burnpccheck buscheck cactuscheck canefeaturecheck cartcommandcheck cartpushcheck cartshovecheck catbedcheck catgoalcheck catposecheck catsoundcheck catspawnercheck catvariantcheck cauldronentitycheck cavecheck chatcheck chestcheck chestpaircheck chickencheck chorusteleportcheck chunkcachecheck chunkgengoldencheck claimlockcheck clicksoundcheck climcheck cloudparticlecheck cmdlivecheck cmdscreencheck coherecheck colcheck combatcheck combatrngcheck compostercheck concretefallcheck concretepowdercheck conductorcheck conduitbecheck constcheck coveragemapcheck craftcheck craftingtablecheck creativecheck creativevariantcheck creeperarmor2614check creepercheck creeperheadcheck crossbowgoalcheck crosshaircheck crystalbeamdrawcheck crystalrendercheck crystalringbookcheck cullcheck cullpairaudit cullruleaudit cullworldscan damagesrccheck daylightlockstepcheck deathrollcheck decalcheck despawnordercheck destroyeggcheck detectorrailcheck diagcheck difficultycmdcheck dilateduvcheck dilationcheck dimbiomecheck dimcheck diskcleancheck dispensercheck dissolvecheck docrefcheck dolphinboatcheck dolphinbreathecheck dolphincheck dolphininteractcheck dolphinlootcheck dolphinmovecheck dolphinnavcheck dolphinrendercheck dolphintrailcheck donkeycheck doorbashcheck dormancycheck dragonbreathcloudcheck dragoncollidecheck dragoneyescheck dragonkillcheck dragonpartdmgcheck dragonpathnextcheck dragonstrafefirecheck drawlistcheck drinkcheck dripstonecheck dropstracecheck drownedgoalcheck drownedsoundcheck drownedtargetcheck drownedwaterfluidcheck drownlockstepcheck dupcheck eatcreativecheck effectenvcheck effectinstcheck effectmovecheck effecttracecheck elderguardiancheck elderguardiansoundcheck elderscalecheck emissioncheck emitcheck emitstatecheck encharmor enchhelpercheck enchscreen enchtable enchweapons endcitycheck endcrystalcheck enderchestcheck endercrystalhealcheck enderdragoncheck enderdragondeathcheck enderdragondrawcheck enderdragonfightcheck enderdragonmotioncheck enderdragonnbtcheck enderdragonpathcheck enderdragonphasecheck enderdragonvoicecheck enderdragonwiringcheck endermancarriedcheck endermancheck endermandropcheck endermaneyescheck endermanjittercheck endermanposecheck endermanraycheck endermitecheck endermiteparticlecheck endermitetargetcheck endgatewaycheck endportalframecheck entitybasenbtcheck entitycheck entitycollidecheck entityculldistcheck entityrngcheck entityuuidcheck entlistcheck eolcheck equidbreedgatecheck equipcheck equiprngcheck equiptracecheck evokerlookcheck evokersoundcheck evokerspelllookcheck explosionsoundcheck extract-luminance eyeheightcheck eyeofendercheck eyesrenderercheck facecheck fallentitiescheck fallinganvilcheck fallingblockcheck fallingconcretecheck fallingtedcheck fallwatertracecheck fangsavecheck fangscheck fangsrefcheck farmgrow featcheck featgroundcheck fillresumecheck fillshapecheck fillwakecheck fillzerocheck fireballcheck fireballdrawcheck firechargecheck firelockstepcheck fireworkcheck fishbitecheck fishbucketcheck fishcastcheck fishcatchcheck fishcheck fishhookcheck fishpatterncheck fishposecheck fishsoundcheck fishswimcheck fishswimsoundcheck fishtickcheck flashcheck floatcheck fluidlevelcheck fluidpushcheck fluidtilecheck flycheck flyspeedcheck footstepcheck fortressbrickscheck foxcheck foxfallcheck foxglowsoundcheck foxgoalscheck foxtargetcheck foxtexcheck freequeuecheck frostedice fullgatecheck fullmirrorcheck fullshardcheck furnacecheck fuzzcheck g10check g11bcheck g13check g14check g17cbcheck g18ccheck gamecheck gameeventcheck gamerulecheck gateinfracheck gaussiancheck gencheck gendropcheck ghastmodelcheck ghastmovecheck ghastsoundcheck ghastspawncheck ghasttexcheck giantsoundcheck giftcheck gitattrcheck giveclearcheck glowoutlinecheck glowsquidlightcheck goalaudit goalcheck goalrngcheck goalrostercheck goalstracecheck goatbabycheck goatcheck gobarecheck goldensynccheck golemcrackcheck golemflowercheck golemposcheck golemsoundcheck goprepcheck grindstone guardianbeamcheck guardiancheck guardiangoalcheck guardianlookcheck guardianposecheck guardianspawncheck guardianspikecheck guardianthornscheck handcheck handdepthcheck handoffstuckcheck handposecheck hangingcheck hatnosecheck headcheck headfeaturecheck headmodelcheck headrotcheck headscalecheck heartbeatcheck heldbecheck helditemcheck helditemnose helditempose helpusagecheck hiddenpartscheck historyatomiccheck hoglincheck honeyslidecheck hoppercheck horsebreathecheck horsefallcheck horselandcheck horseposecheck horsescreenpreviewcheck hostilerngcheck hostilesoundcheck hostloadcheck hudheartcheck hungerrowcheck hurtgatetracecheck hurtlockstepcheck hurtvoicewindowcheck hurtwindowcheck huskcheck iconcheck illagerfleecheck illusionerbowcheck illusionerlookcheck illusionersoundcheck infestedcheck inflatecheck infocmdcheck inhabitedcheck inhandcheck inputcheck invcheck invinputcheck invisibleblockcheck irongolemcheck irongolemwandercheck itemburncheck itemcheck itemframedrawcheck itemiconcheck itemmergecheck itemsheetcheck jockeycheck jockeypositioncheck jrandomcheck jsonmergecheck jukeboxparrotcheck kw4445check laddercheck landbatchcheck landidlecheck landingdustcheck landreportcheck landsweepcheck lanesdcheck leashcheck lightcheck lightemitcheck lightluminancecheck lightningcheck lightningdrawcheck lightningtracecheck limitcheck livemeshcheck llamaambientcheck llamacheck llamapackcheck localcopycheck locatecheck lockstep-ambientsound lockstep-angerspread lockstep-armorstand lockstep-arrowstuck lockstep-attackeffect lockstep-avoid lockstep-axolotl lockstep-barter lockstep-bat lockstep-bathang lockstep-beacon lockstep-bedexplode lockstep-bee lockstep-beepollen lockstep-bell lockstep-blaze lockstep-blazefire lockstep-blockdamage lockstep-blockslow lockstep-bounce lockstep-bow lockstep-breed lockstep-bubblecolumn lockstep-caravan lockstep-cat lockstep-catgift lockstep-catspawner lockstep-cave_spider lockstep-chest_minecart lockstep-chicken lockstep-chickenjockey lockstep-chorus lockstep-climb lockstep-command_block_minecart lockstep-conduit lockstep-cow lockstep-cramming lockstep-creeperignite lockstep-crit lockstep-crossbow lockstep-cure lockstep-despawn lockstep-dispenser lockstep-dolphin lockstep-dolphintreasure lockstep-doorbreak lockstep-dragonbreath lockstep-dragoncrystal lockstep-dragonphases lockstep-drowned lockstep-drownedtrident lockstep-dye lockstep-egglay lockstep-elder_guardian lockstep-elderguardian lockstep-elytra lockstep-enchantdamage lockstep-endcrystal lockstep-ender_dragon lockstep-enderman lockstep-endermanwater lockstep-endermite lockstep-endermitechase lockstep-endgateway lockstep-explode lockstep-eyeofender lockstep-fall lockstep-firework lockstep-fishing lockstep-followowner lockstep-fox lockstep-foxeat lockstep-foxpounce lockstep-freeze lockstep-furnace_minecart lockstep-ghast lockstep-giant lockstep-glow_squid lockstep-goat lockstep-goatram lockstep-golem lockstep-golembuild lockstep-growup lockstep-guardian lockstep-guardianbeam lockstep-hanging lockstep-hoglin lockstep-hoglinbrain lockstep-hopper_minecart lockstep-hopperitem lockstep-horsetemper lockstep-hunger lockstep-husk lockstep-iceslide lockstep-idlewander lockstep-illusioner lockstep-insomnia lockstep-item lockstep-leash lockstep-leashknot-lane lockstep-leashknot lockstep-lingering lockstep-llamaspit lockstep-lookcustomer lockstep-loot lockstep-magma_cube lockstep-magmacube lockstep-melee-armor lockstep-minecartcrash lockstep-minecartfurnace lockstep-minecartrail lockstep-mobpickup lockstep-mooshroomuse lockstep-mule lockstep-nametag lockstep-netherportal lockstep-noai lockstep-obstacle lockstep-ocelot lockstep-ocelottrust lockstep-panda lockstep-pandabehaviour lockstep-panic lockstep-parrot lockstep-parrotcookie lockstep-pathtypes lockstep-patrol lockstep-pig lockstep-piglin lockstep-piglin_brute lockstep-piglinwatch lockstep-pistonpush lockstep-plate lockstep-player lockstep-playerdrown lockstep-playersleep lockstep-poi lockstep-populate lockstep-pufferfish lockstep-rabbit lockstep-rabbithop lockstep-raid lockstep-ravager lockstep-reinforce lockstep-ride lockstep-riptide lockstep-sand lockstep-schooling lockstep-sculkvibe lockstep-shadeseek lockstep-shear lockstep-sheep lockstep-sheepgrass lockstep-shield lockstep-shove lockstep-shulker lockstep-shulkerbullet lockstep-silverfish lockstep-skeleton lockstep-skeleton_horse lockstep-skeletonswitch lockstep-skeletontrap lockstep-sleep lockstep-slime lockstep-slimesplit lockstep-snow_golem lockstep-snowgolem lockstep-spawn lockstep-spawnegg lockstep-spawnequip lockstep-spawner_minecart lockstep-spider lockstep-squid lockstep-squidswim lockstep-stalactitefall lockstep-stray lockstep-strider lockstep-structurespawns lockstep-suffocate lockstep-sweep lockstep-tablecheck lockstep-tame lockstep-tempt lockstep-thorns lockstep-throw lockstep-tnt lockstep-tnt_minecart lockstep-trident lockstep-tripwire lockstep-turtle lockstep-turtleegg lockstep-turtlewalk lockstep-vex lockstep-vexlife lockstep-villager-lane lockstep-villager lockstep-villagerhero lockstep-villagerlevel lockstep-villageroffers lockstep-villagertrade lockstep-void lockstep-wandering_trader lockstep-waterflow lockstep-waterspawn lockstep-witch lockstep-witchdrink lockstep-witchthrow lockstep-wither lockstep-wither_skeleton lockstep-wither_skull lockstep-witherlane lockstep-wolfdefend lockstep-wolfshake lockstep-wololo lockstep-xpbottle lockstep-xporb lockstep-zoglin lockstep-zombiechase lockstep-zombieinit lockstep-zombify lockstepcheck lockstepleakcheck lockstepprioritycheck lockstepproofcheck lockstepresetcheck lockstepsuitecheck lockstepuuidcheck lookatgoalcheck lookcontrolnavcheck lootaudit losgatecheck magmastretchcheck mailhookcheck mapcontentcheck meleenavcheck meleepausecheck meltdropcheck meshcheck minecartcheck minecartmodelcheck minecartplacecheck minecartsoundcheck minecheck mobaicheck mobaudit4check mobboxcheck mobcmdexeccheck mobcmdkillcheck mobcmdxpgamemodecheck mobcrowdcheck mobdefaultcheck2 mobdrawcheck mobdropycheck mobdrowncheck mobgoalscheck mobgriefingcheck mobl3check mobmovecheck mobnbtcheck mobpackcheck mobpickupcheck mobrendercheck mobshapecheck mobslidecheck mobslootcheck mobsoundcheck mobstepcheck mobtickjoincheck mobtracecheck mobvoicecheck mobvoicegatecheck mobwatercheck modecheck modelcheck modeloverridecheck monumentcheck mooshroomcheck mooshroomshroomcheck mooshroomstewbowlcheck motionsrccheck motionstaticcheck mountinvcheck mountrendercheck movecheck namecheck nametagcheck nbtcheck netherfortresscheck netherfortressplacecheck newworldcheck noclaimreleasecheck nofallcheck noisecheck nonlivingexplosioncheck noteblockcheck notimeoutcheck ocelotgoalcheck ocelotpackcheck ocelottargetboxcheck ocelottrustcheck optionscheck paceextracheck paintingdrawcheck palettecheck pandacheck pandahelditemcheck pandaposecheck pandaskincheck pandasoundcheck parcheck parrotposecheck parrotshouldercheck parrotsoundcheck particlecheck particleoption partlandcheck passivecheck pathanycheck pathcheck pathfallcheck pathtracecheck patrolcountcheck patrolgroupcheck patrolleadercheck patrolretargetcheck pearlscencheck petfleecheck petposecheck phantomanimcheck phantomcheck phantomeyescheck phantomposecheck phantomvel phaselanecheck phonecontrolscheck phonehomecheck phonerunscheck phonestatscheck physcheck piglinangercheck piglinbraincheck piglinbruteidlecheck piglincheck piglincrossbowcheck piglindoorcheck piglinhittimercheck piglinlootcheck piglinmodelcheck piglinrendercheck piglinsoundcheck pigridecheck pilotplancheck pilotsumcheck placecheck extract-placement plantstem platecheck playercheck playerlanecheck playeroptscheck playerrendercheck playerskincheck playersoundcheck poicheck polarbearcheck poolcapcheck populatesavecheck portalcheck potionbreakpitchcheck powdersnowcheck powdersnowdaycheck powdersnowjumpcheck powdersnowwalkcheck procapcheck professioncheck projectilegoalcheck projmotioncheck projrngcheck prunecheck pufferrendercheck pushcheck quadcapcheck queuedeepcheck queuegatecheck queueordercheck quietcheck quietharnesscheck rabbitcheck rabbitpackcheck rabbitposecheck raidbannerpickupcheck raidbarcheck raidcelebratecheck raidcheck raidgoalresiduecheck raidmobcheck raidrecipcheck raidsavecheck raidvexcheck raidvindicatorcheck railcheck railpopcheck randomdisplaytickcheck ravagercontrolscheck ravagerimmobilecheck ravagerposecheck ravagershieldcheck ravagersoundcheck raycheck raylayercheck redcheck redissuecheck redlitcheck armorrefcheck mobrefattrcheck avoidrefcheck barterrefcheck blockrefdropcheck blockuserefcheck boltrefcheck breedrefcheck bucketrefcheck bulletrefcheck buttonrefcheck chaserefcheck cmprefcheck columnrefcheck convrefcheck crystalrefcheck daylightrefcheck despawnrefcheck dispenserefcheck drownrefcheck effectrefcheck enchrefcheck endermanrefcheck mobrefequipcheck fallrefcheck farmrefcheck mobreffirecheck firerefcheck floorrefcheck fluidrefcheck foodrefcheck furnacerefcheck gaterefcheck geardroprefcheck growthrefcheck hazardrefcheck hoglinrefcheck hopperrefcheck hungerrefcheck hurtrefcheck hurtwinrefcheck interactrefcheck itemrefcheck itemuserefcheck kbrefcheck leafrefcheck llamarefcheck mobreflootcheck lootingrefcheck meleerefcheck meltrefcheck minerefcheck mobhazardrefcheck motionrefcheck panicrefcheck phantomrefcheck phazardrefcheck placerefcheck platerefcheck playerarmorrefcheck pmeleerefcheck potionrefcheck raidrefcheck ramrefcheck rangedrefcheck ranged2refcheck redrefcheck reinfrefcheck sheepgrassrefcheck spawnerrefcheck spreadrefcheck surviverefcheck tntrefcheck villagerreftradecheck useonrefcheck wanderrefcheck xprefcheck xp2refcheck xporbrefcheck mobdefaultscheck regcheck remeshcheck renderinterpcheck renderrescheck riderheightcheck ridetracecheck rngtracecheck rodaddedcheck rodcheck rolewhocheck rootscriptscheck rosteroptscheck rosterr2check runnerguardcheck saddlesoundcheck salvagecheck savecheck scaffoldingcheck sculksensorcheck seamcheck seedparsecheck shadercheck shadowcheck shadowtilecheck shapecheck shapefloodcheck sheepfleececheck shieldcheck shieldlayerscheck shuffleexplosioncheck shulkercheck shulkerattackcheck shulkerbodycheck shulkerboxcheck shulkersoundcheck extract-sided siegecheck silverfishcheck silverfishmagiccheck silverfishwigglecheck silverspawncheck simdistcheck skeletontargetcheck skelmeleecheck skelsunlightcheck skullcheck skycheck skydarknesscheck skygpucheck skyviewcheck slimeblockcheck slimecheck slimesoundcheck smallfireballhitcheck smallfireballnonlivingcheck smoke smoothlivecheck snbtcmdcheck snowgolemcheck snowgolemrendercheck snowgolemsoundcheck snowgolemwandercheck snowlayercheck soakcheck soaktracecheck soundcheck soundtitlecheck soundtracecheck spawnaudit spawncapcheck spawncheck spawnercartcheck spawnercheck spawnerdraw spawnerfxcheck spawnergencheck spawnerpotentialscheck spawnerstalecheck spawnfloorcheck spawnloccheck spawnoceancheck spawnpopcheck spawnpredcheck spawnrulecheck spawntravcheck speciesrngcheck spellcheck spellcooldowncheck spellposecheck spiderclimbcheck spidereyelightcheck spidereyescheck spidertargetcheck spitdamagecheck spitparticlecheck spitposecheck spritecheck squidcheck squidfxcheck squidposecheck sscheck stagecheck stagetimeoutcheck stalactitecheck stalactitetridentcheck stalagmitecheck stalemeshcheck standrendercheck stepsourcecheck stopatcheck straylayercheck streamcheck striderangcheck stridercheck stridergoalcheck striderroster stridersoundcheck strongholdspawnercheck structaudit structcheck structentcheck structspawncheck structurequadcheck supportcheck surfcheck survcheck survivegatecheck swimctlcheck swimdistcheck swimgoalcontrolscheck swimnodecheck swirlcheck tagcheck takeovercheck tamecheck tamedwolfhealcheck tameownertargetcheck targetblockcheck targettracecheck temptcheck testmirrorcheck texanimcheck texaudit texauditjobcheck texl1check texrostercheck textcheck throwableitemcheck throwcheck thrownwatercheck tickcheck tilecheck tintcheck tippedcheck titlecheck tntcheck tntfusecheck tntprimedfxcheck tntrendercheck togoalticksheck tooltipcheck totemcheck tpcheck tracecheck tradecheck trademenucheck tridenthitcheck tridentitemcheck tridentloyaltycheck tridentriptidecheck tridentsweepcheck trimcheck tripwirecheck tropicalpackcheck turnbudgetcheck turtlecheck turtleeggcheck turtlerendercheck turtlesoundcheck undeadcheck undeadhorsecheck usagerefreshcheck usagestalecheck usecheck usehold userngcheck usewearcheck uvl2check vanillacheck vaoleakcheck vbactivitycheck vbbellhidecheck vbbreedcheck vbcelebratecheck vbcompetitioncheck vbdoorcheck vbendraidcheck vbgathercheck vbhidehomecheck vbholdcheck vbidlecheck vbjobacquirecheck vbmeetcheck vbpaniccheck vbplaycheck vbringbellcheck vbseekskycheck vbstartraidcheck vbtakejobsitecheck vbwandercheck vexcheck vexlightcheck vexlookcheck vexsoundcheck vextargetcheck vexwallcheck viewbobcheck villagegolemcheck villageraccept villagergoalcheck villagerheadshakecheck villagerinteractcheck villagerproftexcheck villagersoundcheck villagertypecheck visfloodcheck vmcheck wandertargetcheck watchdogcheck waterdragcheck watersplashcheck weathercheck weatherdrawcheck webcheck weightedplatecheck wgcheck whiteflashcheck wireshapecheck witchnosecheck witchposecheck witchpotioncheck witchraidtargetcheck withercheck wither1576check wither1577check witheracquirecheck witherattackcheck witherbreakcheck witherbreakdropcheck witherchargedresistcheck witherdrawcheck withergoalcheck witherheadcheck witherhurtchargecheck witherinvulncheck witherlootcheck witherowedcheck witherparticlecheck witherregencheck witherskelcheck witherskullcollidecheck witherskulldeathcheck witherskulltrailcheck witherskullwatercheck withersoundcheck withersummoncheck witheryawcheck wkhashcheck wolfmodelcheck wolfrendercheck wolfshakecheck wolfsitcheck wolfsoundcheck wolfwetcheck workermodelcheck workerthreadcheck worldbordercheck worldcheck worldsetcheck wtradercheck wtradersavecheck xpbottlecheck xporbcheck xporbdrawcheck zarmscheck zoglinlookcheck zombieattackgoalcheck zombiefirecheck zombiesoundcheck zombietargetcheck zombievillagercheck zpangerpasscheck zpiglinspawncheck zpiglinspeedcheck zvillagercheck
+   A browser IS available here — these were deselected, not skipped for want of one.
+   ⚠ Run the browser stages ONE AT A TIME on a two-core box (D-281).
+===============================================
+2026-10-13T21:58:41.606Z suite end host: free RAM 14.5 GB, live browsers 0, reaped 0
+
+=== RETRY of the failed stages (sleepcheck,timeweathercheck,wolfgoalcheck) ===
+==================== suite (live) ============= (2 jobs on 4 cores, 1 browser(s) at once)
+2026-10-13T21:58:41.681Z suite start host: free RAM 14.5 GB, live browsers 0, reaped 0
+ ✓ timeweathercheck   10944 ms  24 assertions, 0 failures, 2 breaks caught
+ ✗ wolfgoalcheck        598 ms  103 assertions, 0 failures
+
+──── wolfgoalcheck FAILED ────
+wolfgoalcheck — loop/wolfgoals: wolf's full registerGoals() + spider's IronGolem target
+
+ 1. Ai.UntamedActiveTargetGoal refuses outright while the mob is tamed
+
+ 1b. wolf SitGoal registered MOVE|JUMP
+
+ 2. wolf()'s AvoidLlamaGoal: untamed only, strength beats a real roll, clears e.target
+
+ 3. wolf()'s WolfBegGoal: attractive food/bone within range sets e.begging
+
+ 4. wolf() targetSelector priorities 4-8: angry-player reacquire, prey, turtle, skeleton, anger
+
+ 5. spider()'s own priority-3 TARGET entry reaches a real iron golem via ctx.golems()
+
+ 6. wolf() priority-4 MOVE|JUMP: a real spawned wolf leaps at a target with the jar's own 0.4F velocity
+
+ 7. wolf()'s UniversalAngerGoal(triggerOthers=true) spreads anger to a nearby wolf, iron_golem's (false) does not
+
+103 checks passed, 14 anti-vacuity break(s) confirmed caught, 4 failed
+wolfgoalcheck: 103 assertions, 4 failures, 14 breaks caught
+  FAIL: and a strength-1 llama, roll of 4, does not scare it
+  FAIL: a far strength-5 llama does not make a strength-1 NEAREST llama scary
+  FAIL: a real spawned iron golem is acquired by the priority-3 entry
+  FAIL: and it targets the golem specifically
+
+ ✗ sleepcheck          1756 ms  sleepcheck — loop/sleep-s104: villager SLEEP + MEETING-POINT b
+
+──── sleepcheck FAILED ────
+ 1. VB.activityForTime reproduces Schedule.VILLAGER_DEFAULT's own step function
+
+ 2. claiming HOME: exclusivity (ticketCount 1), CLAIM_RADIUS, and a real refusal with none in range
+
+ 3. a villager walks to its claimed HOME bed and sleeps in it (position, pose flag, LAST_SLEPT)
+
+ 4. VB.tick wakes a sleeping villager once REST ends, and gates re-sleep for WAKE_COOLDOWN ticks
+
+ 5. MEETING: claimed only during 'meet', walked toward, released once the activity ends
+
+ 6. Village.hasRecentlySlept (e.vbLastSlept, <24000 ticks) gates Village.canSummonGolem
+
+ 7. anti-vacuity — breaking this unit's own data and watching the break get caught
+
+ 8. render pose / head freeze / BedBlock.OCCUPIED / death releases HOME+MEETING
+
+ 8d. VillagerEntity.releaseAllTickets: EL.remove(dead villager) frees HOME + MEETING
+
+ 9. VillagerWalkTowardsTask giveUp / exceedsMaxRange waypoint, FindPointOfInterestTask cadence + RetryMarker, ForgetCompleted, the HOME-absent RandomTask
+
+115 ok, 19 anti-vacuity breaks caught, 1 failed
+
+FAIL sleepcheck — 115 passed, 1 failed
+  - WanderIndoorsTask picks a top-solid, roofed block within 1 (the floor, y=63), completionRange 0: undefined
+
+
+==================== suite ====================
+ · extract-materials      0 ms  not selected
+ · extract-equipment      0 ms  not selected
+ · extract-fuel           0 ms  not selected
+ · extract-fallon         0 ms  not selected
+ · extract-soundtype      0 ms  not selected
+ · extract-armor          0 ms  not selected
+ · extract-analog         0 ms  not selected
+ · extract-push           0 ms  not selected
+ · extract-entities       0 ms  not selected
+ · extract-entity-motion      0 ms  not selected
+ · extract-entity-ground      0 ms  not selected
+ · extract-zombiearms      0 ms  not selected
+ · extract-creative       0 ms  not selected
+ · extract-commands       0 ms  not selected
+ · extract-models         0 ms  not selected
+ · extract-gamerules      0 ms  not selected
+ · extract-guigeom        0 ms  not selected
+ · extract-itemmodel      0 ms  not selected
+ · extract-support        0 ms  not selected
+ · extract-occlusion      0 ms  not selected
+ · extract-flammable      0 ms  not selected
+ · extract-blockitems      0 ms  not selected
+ · extract-itemattrs      0 ms  not selected
+ · extract-handrender      0 ms  not selected
+ · extract-entityattrs      0 ms  not selected
+ · extract-breeding       0 ms  not selected
+ · extract-combat-enchant      0 ms  not selected
+ · extract-babymodel      0 ms  not selected
+ · extract-blocks         0 ms  not selected
+ · build-atlas            0 ms  not selected
+ · merge-constants        0 ms  not selected
+ · bake-geometry          0 ms  not selected
+ · extract-items          0 ms  not selected
+ · pack-models            0 ms  not selected
+ · pack-blockentity       0 ms  not selected
+ · pack-geometry          0 ms  not selected
+ · pack-runtime           0 ms  not selected
+ · pack-entities          0 ms  not selected
+ · gen-legacy-tiles       0 ms  not selected
+ · pack-worldgen          0 ms  not selected
+ · pack-structures        0 ms  not selected
+ · pack-biomeparams       0 ms  not selected
+ · pack-colormaps         0 ms  not selected
+ · pack-tags              0 ms  not selected
+ · pack-mining            0 ms  not selected
+ · pack-loot              0 ms  not selected
+ · pack-items             0 ms  not selected
+ · pack-recipes           0 ms  not selected
+ · pack-advancements      0 ms  not selected
+ · build-gui              0 ms  not selected
+ · pack-lang              0 ms  not selected
+ · pack-sounds            0 ms  not selected
+ · extract-mob-textures      0 ms  not selected
+ · pack-mobtex            0 ms  not selected
+ · pack-painting          0 ms  not selected
+ · extract-particletex      0 ms  not selected
+ · extract-xporbtex       0 ms  not selected
+ · extract-weathertex      0 ms  not selected
+ · gen-data               0 ms  not selected
+ · build-biomesheet       0 ms  not selected
+ · extract-villager-trades      0 ms  not selected
+ · build                  0 ms  not selected
+ · acctplancheck          0 ms  not selected
+ · advancementcheck       0 ms  not selected
+ · advtriggercheck        0 ms  not selected
+ · aicheck                0 ms  not selected
+ · airbubblecheck         0 ms  not selected
+ · animal2rngcheck        0 ms  not selected
+ · animalrngcheck         0 ms  not selected
+ · animcheck              0 ms  not selected
+ · anvilcheck             0 ms  not selected
+ · anvillandcheck         0 ms  not selected
+ · apibudgetcheck         0 ms  not selected
+ · armorstandcheck        0 ms  not selected
+ · armorstandexplosioncheck      0 ms  not selected
+ · armorstandplacecheck      0 ms  not selected
+ · armorstandusecheck      0 ms  not selected
+ · armourrendercheck      0 ms  not selected
+ · arrowwatercheck        0 ms  not selected
+ · arrowbubblecheck       0 ms  not selected
+ · arrowcritparticlecheck      0 ms  not selected
+ · arrowphysicscheck      0 ms  not selected
+ · arrowrefcheck          0 ms  not selected
+ · arrowsoundcheck        0 ms  not selected
+ · asyncguardcheck        0 ms  not selected
+ · attacksoundcheck       0 ms  not selected
+ · attraudit              0 ms  not selected
+ · attrefftracecheck      0 ms  not selected
+ · auditledgercheck       0 ms  not selected
+ · autorebasecheck        0 ms  not selected
+ · avoidboxcheck          0 ms  not selected
+ · axolotlbreedgatecheck      0 ms  not selected
+ · axolotlcheck           0 ms  not selected
+ · axolotllookcheck       0 ms  not selected
+ · axolotlnavcheck        0 ms  not selected
+ · axolotlseekcheck       0 ms  not selected
+ · axolotlseekwatercheck      0 ms  not selected
+ · axolotlsoundcheck      0 ms  not selected
+ · axolotlstrollcheck      0 ms  not selected
+ · axolotlswimcheck       0 ms  not selected
+ · axolotltimedlookcheck      0 ms  not selected
+ · axolotltravelcheck      0 ms  not selected
+ · axolotlyawcheck        0 ms  not selected
+ · babycheck              0 ms  not selected
+ · backendcheck           0 ms  not selected
+ · bamboocheck            0 ms  not selected
+ · bannerlayerscheck      0 ms  not selected
+ · bannerplacecheck       0 ms  not selected
+ · barrelcheck            0 ms  not selected
+ · batcheck               0 ms  not selected
+ · batposecheck           0 ms  not selected
+ · batwakecheck           0 ms  not selected
+ · beaconcheck            0 ms  not selected
+ · beaconrendercheck      0 ms  not selected
+ · becheck                0 ms  not selected
+ · bedbouncecheck         0 ms  not selected
+ · bedcheck               0 ms  not selected
+ · beecheck               0 ms  not selected
+ · beehiveusecheck        0 ms  not selected
+ · beeloopcheck           0 ms  not selected
+ · beenestcheck           0 ms  not selected
+ · behavcheck             0 ms  not selected
+ · beitemcheck            0 ms  not selected
+ · bellrendercheck        0 ms  not selected
+ · bellresonatecheck      0 ms  not selected
+ · bellswingcheck         0 ms  not selected
+ · bemodelcheck           0 ms  not selected
+ · berrysoundcheck        0 ms  not selected
+ · besavecheck            0 ms  not selected
+ · beworldcheck           0 ms  not selected
+ · biomecheck             0 ms  not selected
+ · birdnodecheck          0 ms  not selected
+ · blastknockbackcheck      0 ms  not selected
+ · blazeburncheck         0 ms  not selected
+ · blazeghastcheck        0 ms  not selected
+ · blazemovecheck         0 ms  not selected
+ · blockcmdlivecheck      0 ms  not selected
+ · blockholdcheck         0 ms  not selected
+ · blocksoundwirecheck      0 ms  not selected
+ · boatcheck              0 ms  not selected
+ · boatplacecheck         0 ms  not selected
+ · boatsimcheck           0 ms  not selected
+ · boatwatermask          0 ms  not selected
+ · bobberdrawcheck        0 ms  not selected
+ · bobcheck               0 ms  not selected
+ · bonemealcheck          0 ms  not selected
+ · bossbarcheck           0 ms  not selected
+ · bowarmcheck            0 ms  not selected
+ · bowcheck               0 ms  not selected
+ · bowdrawcheck           0 ms  not selected
+ · bowintervalcheck       0 ms  not selected
+ · bowshootsoundcheck      0 ms  not selected
+ · bowstatecheck          0 ms  not selected
+ · boxuvcheck             0 ms  not selected
+ · braincheck             0 ms  not selected
+ · breedcheck             0 ms  not selected
+ · breedhurtcheck         0 ms  not selected
+ · brewingcheck           0 ms  not selected
+ · brewregcheck           0 ms  not selected
+ · browserslotscheck      0 ms  not selected
+ · brutepickupcheck       0 ms  not selected
+ · brutesoundcheck        0 ms  not selected
+ · bubblecolumncheck      0 ms  not selected
+ · bucketdatacheck        0 ms  not selected
+ · bucketfishsoundcheck      0 ms  not selected
+ · bugwavecheck           0 ms  not selected
+ · burnpccheck            0 ms  not selected
+ · buscheck               0 ms  not selected
+ · cactuscheck            0 ms  not selected
+ · canefeaturecheck       0 ms  not selected
+ · cartcommandcheck       0 ms  not selected
+ · cartdamagecheck        0 ms  not selected
+ · cartpushcheck          0 ms  not selected
+ · cartshovecheck         0 ms  not selected
+ · catbedcheck            0 ms  not selected
+ · catgoalcheck           0 ms  not selected
+ · catposecheck           0 ms  not selected
+ · catsoundcheck          0 ms  not selected
+ · catspawnercheck        0 ms  not selected
+ · catvariantcheck        0 ms  not selected
+ · cauldronentitycheck      0 ms  not selected
+ · cavecheck              0 ms  not selected
+ · chatcheck              0 ms  not selected
+ · chestcheck             0 ms  not selected
+ · chestpaircheck         0 ms  not selected
+ · chickencheck           0 ms  not selected
+ · chickeneggsoundcheck      0 ms  not selected
+ · chorusteleportcheck      0 ms  not selected
+ · chunkcachecheck        0 ms  not selected
+ · chunkgengoldencheck      0 ms  not selected
+ · claimlockcheck         0 ms  not selected
+ · clicksoundcheck        0 ms  not selected
+ · climcheck              0 ms  not selected
+ · cloudparticlecheck      0 ms  not selected
+ · cmdlivecheck           0 ms  not selected
+ · cmdscreencheck         0 ms  not selected
+ · coherecheck            0 ms  not selected
+ · colcheck               0 ms  not selected
+ · combatcheck            0 ms  not selected
+ · combatrngcheck         0 ms  not selected
+ · commandcheck           0 ms  not selected
+ · compostercheck         0 ms  not selected
+ · concretefallcheck      0 ms  not selected
+ · concretepowdercheck      0 ms  not selected
+ · conductorcheck         0 ms  not selected
+ · conduitbecheck         0 ms  not selected
+ · constcheck             0 ms  not selected
+ · coveragemapcheck       0 ms  not selected
+ · craftcheck             0 ms  not selected
+ · craftingtablecheck      0 ms  not selected
+ · creativecheck          0 ms  not selected
+ · creativevariantcheck      0 ms  not selected
+ · creeperarmor2614check      0 ms  not selected
+ · creepercheck           0 ms  not selected
+ · creeperheadcheck       0 ms  not selected
+ · crossbowgoalcheck      0 ms  not selected
+ · crosshaircheck         0 ms  not selected
+ · crystalbeamdrawcheck      0 ms  not selected
+ · crystalrendercheck      0 ms  not selected
+ · crystalringbookcheck      0 ms  not selected
+ · cullcheck              0 ms  not selected
+ · cullpairaudit          0 ms  not selected
+ · cullruleaudit          0 ms  not selected
+ · cullworldscan          0 ms  not selected
+ · damagesrccheck         0 ms  not selected
+ · daylightlockstepcheck      0 ms  not selected
+ · deathrollcheck         0 ms  not selected
+ · decalcheck             0 ms  not selected
+ · despawncheck           0 ms  not selected
+ · despawnordercheck      0 ms  not selected
+ · destroyeggcheck        0 ms  not selected
+ · detectorrailcheck      0 ms  not selected
+ · diagcheck              0 ms  not selected
+ · difficultycmdcheck      0 ms  not selected
+ · dilateduvcheck         0 ms  not selected
+ · dilationcheck          0 ms  not selected
+ · dimbiomecheck          0 ms  not selected
+ · dimcheck               0 ms  not selected
+ · diskcleancheck         0 ms  not selected
+ · dispensercheck         0 ms  not selected
+ · dissolvecheck          0 ms  not selected
+ · docrefcheck            0 ms  not selected
+ · dolphinaircheck        0 ms  not selected
+ · dolphinboatcheck       0 ms  not selected
+ · dolphinbreathecheck      0 ms  not selected
+ · dolphincheck           0 ms  not selected
+ · dolphininteractcheck      0 ms  not selected
+ · dolphinlootcheck       0 ms  not selected
+ · dolphinmovecheck       0 ms  not selected
+ · dolphinnavcheck        0 ms  not selected
+ · dolphinrendercheck      0 ms  not selected
+ · dolphintrailcheck      0 ms  not selected
+ · donkeycheck            0 ms  not selected
+ · doorbashcheck          0 ms  not selected
+ · dormancycheck          0 ms  not selected
+ · dragonbreathcloudcheck      0 ms  not selected
+ · dragoncollidecheck      0 ms  not selected
+ · dragoneyescheck        0 ms  not selected
+ · dragonfireballcheck      0 ms  not selected
+ · dragonkillcheck        0 ms  not selected
+ · dragonpartdmgcheck      0 ms  not selected
+ · dragonpathnextcheck      0 ms  not selected
+ · dragonstrafefirecheck      0 ms  not selected
+ · drawlistcheck          0 ms  not selected
+ · drinkcheck             0 ms  not selected
+ · dripstonecheck         0 ms  not selected
+ · dropstracecheck        0 ms  not selected
+ · drownedgoalcheck       0 ms  not selected
+ · drownedsoundcheck      0 ms  not selected
+ · drownedtargetcheck      0 ms  not selected
+ · drownedwaterfluidcheck      0 ms  not selected
+ · drownlockstepcheck      0 ms  not selected
+ · dupcheck               0 ms  not selected
+ · dyncheck               0 ms  not selected
+ · eatcreativecheck       0 ms  not selected
+ · effectenvcheck         0 ms  not selected
+ · effectinstcheck        0 ms  not selected
+ · effectmovecheck        0 ms  not selected
+ · effecttracecheck       0 ms  not selected
+ · elderguardiancheck      0 ms  not selected
+ · elderguardiansoundcheck      0 ms  not selected
+ · elderscalecheck        0 ms  not selected
+ · emissioncheck          0 ms  not selected
+ · emitcheck              0 ms  not selected
+ · emitstatecheck         0 ms  not selected
+ · encharmor              0 ms  not selected
+ · enchhelpercheck        0 ms  not selected
+ · enchroster             0 ms  not selected
+ · enchscreen             0 ms  not selected
+ · enchtable              0 ms  not selected
+ · enchweapons            0 ms  not selected
+ · endcitycheck           0 ms  not selected
+ · endcrystalcheck        0 ms  not selected
+ · enderchestcheck        0 ms  not selected
+ · endercrystalhealcheck      0 ms  not selected
+ · enderdragoncheck       0 ms  not selected
+ · enderdragondeathcheck      0 ms  not selected
+ · enderdragondrawcheck      0 ms  not selected
+ · enderdragonfightcheck      0 ms  not selected
+ · enderdragonmotioncheck      0 ms  not selected
+ · enderdragonnbtcheck      0 ms  not selected
+ · enderdragonpathcheck      0 ms  not selected
+ · enderdragonphasecheck      0 ms  not selected
+ · enderdragonsegcheck      0 ms  not selected
+ · enderdragonvoicecheck      0 ms  not selected
+ · enderdragonwiringcheck      0 ms  not selected
+ · endermancarriedcheck      0 ms  not selected
+ · endermancheck          0 ms  not selected
+ · endermandropcheck      0 ms  not selected
+ · endermaneyescheck      0 ms  not selected
+ · endermanjittercheck      0 ms  not selected
+ · endermanposecheck      0 ms  not selected
+ · endermanraycheck       0 ms  not selected
+ · endermitecheck         0 ms  not selected
+ · endermiteparticlecheck      0 ms  not selected
+ · endermitetargetcheck      0 ms  not selected
+ · endgatewaycheck        0 ms  not selected
+ · endportalframecheck      0 ms  not selected
+ · endportalrendercheck      0 ms  not selected
+ · entitybasenbtcheck      0 ms  not selected
+ · entitycheck            0 ms  not selected
+ · entitycollidecheck      0 ms  not selected
+ · entityculldistcheck      0 ms  not selected
+ · entityrngcheck         0 ms  not selected
+ · entityuuidcheck        0 ms  not selected
+ · entlistcheck           0 ms  not selected
+ · eolcheck               0 ms  not selected
+ · equidbreedgatecheck      0 ms  not selected
+ · equipcheck             0 ms  not selected
+ · equiprngcheck          0 ms  not selected
+ · equiptracecheck        0 ms  not selected
+ · evokerlookcheck        0 ms  not selected
+ · evokersoundcheck       0 ms  not selected
+ · evokerspelllookcheck      0 ms  not selected
+ · explosionparticlecheck      0 ms  not selected
+ · explosionsoundcheck      0 ms  not selected
+ · extract-luminance      0 ms  not selected
+ · eyeheightcheck         0 ms  not selected
+ · eyeofendercheck        0 ms  not selected
+ · eyesrenderercheck      0 ms  not selected
+ · facecheck              0 ms  not selected
+ · fallentitiescheck      0 ms  not selected
+ · fallinganvilcheck      0 ms  not selected
+ · fallingblockcheck      0 ms  not selected
+ · fallingconcretecheck      0 ms  not selected
+ · fallingtedcheck        0 ms  not selected
+ · fallwatertracecheck      0 ms  not selected
+ · fangsattackercheck      0 ms  not selected
+ · fangsavecheck          0 ms  not selected
+ · fangscheck             0 ms  not selected
+ · fangsrefcheck          0 ms  not selected
+ · farmgrow               0 ms  not selected
+ · featcheck              0 ms  not selected
+ · featgroundcheck        0 ms  not selected
+ · fillresumecheck        0 ms  not selected
+ · fillshapecheck         0 ms  not selected
+ · fillwakecheck          0 ms  not selected
+ · fillzerocheck          0 ms  not selected
+ · fireballcheck          0 ms  not selected
+ · fireballdrawcheck      0 ms  not selected
+ · firechargecheck        0 ms  not selected
+ · firelockstepcheck      0 ms  not selected
+ · fireoverlaycheck       0 ms  not selected
+ · fireworkcheck          0 ms  not selected
+ · fishbitecheck          0 ms  not selected
+ · fishbucketcheck        0 ms  not selected
+ · fishcastcheck          0 ms  not selected
+ · fishcatchcheck         0 ms  not selected
+ · fishcheck              0 ms  not selected
+ · fishhookcheck          0 ms  not selected
+ · fishpatterncheck       0 ms  not selected
+ · fishposecheck          0 ms  not selected
+ · fishsoundcheck         0 ms  not selected
+ · fishswimcheck          0 ms  not selected
+ · fishswimsoundcheck      0 ms  not selected
+ · fishtickcheck          0 ms  not selected
+ · flashcheck             0 ms  not selected
+ · flightpitchcheck       0 ms  not selected
+ · floatcheck             0 ms  not selected
+ · fluidlevelcheck        0 ms  not selected
+ · fluidpushcheck         0 ms  not selected
+ · fluidtilecheck         0 ms  not selected
+ · flycheck               0 ms  not selected
+ · flyspeedcheck          0 ms  not selected
+ · footstepcheck          0 ms  not selected
+ · fortressbrickscheck      0 ms  not selected
+ · foxcheck               0 ms  not selected
+ · foxfallcheck           0 ms  not selected
+ · foxglowsoundcheck      0 ms  not selected
+ · foxgoalscheck          0 ms  not selected
+ · foxposecheck           0 ms  not selected
+ · foxtargetcheck         0 ms  not selected
+ · foxtexcheck            0 ms  not selected
+ · freequeuecheck         0 ms  not selected
+ · frostedice             0 ms  not selected
+ · fullgatecheck          0 ms  not selected
+ · fullmirrorcheck        0 ms  not selected
+ · fullshardcheck         0 ms  not selected
+ · furnacecheck           0 ms  not selected
+ · fuzzcheck              0 ms  not selected
+ · g10check               0 ms  not selected
+ · g11bcheck              0 ms  not selected
+ · g13check               0 ms  not selected
+ · g14check               0 ms  not selected
+ · g17cbcheck             0 ms  not selected
+ · g17ccheck              0 ms  not selected
+ · g18ccheck              0 ms  not selected
+ · gamecheck              0 ms  not selected
+ · gameeventcheck         0 ms  not selected
+ · gamerulecheck          0 ms  not selected
+ · gateinfracheck         0 ms  not selected
+ · gaussiancheck          0 ms  not selected
+ · gencheck               0 ms  not selected
+ · gendropcheck           0 ms  not selected
+ · ghastmodelcheck        0 ms  not selected
+ · ghastmovecheck         0 ms  not selected
+ · ghastsoundcheck        0 ms  not selected
+ · ghastspawncheck        0 ms  not selected
+ · ghasttexcheck          0 ms  not selected
+ · giantcheck             0 ms  not selected
+ · giantsoundcheck        0 ms  not selected
+ · giftcheck              0 ms  not selected
+ · gitattrcheck           0 ms  not selected
+ · giveclearcheck         0 ms  not selected
+ · glowoutlinecheck       0 ms  not selected
+ · glowsquidlightcheck      0 ms  not selected
+ · goalaudit              0 ms  not selected
+ · goalcheck              0 ms  not selected
+ · goalrngcheck           0 ms  not selected
+ · goalrostercheck        0 ms  not selected
+ · goalstracecheck        0 ms  not selected
+ · goatbabycheck          0 ms  not selected
+ · goatcheck              0 ms  not selected
+ · gobarecheck            0 ms  not selected
+ · goldensynccheck        0 ms  not selected
+ · golemanimcheck         0 ms  not selected
+ · golemcrackcheck        0 ms  not selected
+ · golemflowercheck       0 ms  not selected
+ · golemposcheck          0 ms  not selected
+ · golemsoundcheck        0 ms  not selected
+ · goprepcheck            0 ms  not selected
+ · grindstone             0 ms  not selected
+ · guardianbeamcheck      0 ms  not selected
+ · guardiancheck          0 ms  not selected
+ · guardiangoalcheck      0 ms  not selected
+ · guardianlookcheck      0 ms  not selected
+ · guardianposecheck      0 ms  not selected
+ · guardianspawncheck      0 ms  not selected
+ · guardianspikecheck      0 ms  not selected
+ · guardianthornscheck      0 ms  not selected
+ · guicheck               0 ms  not selected
+ · handcheck              0 ms  not selected
+ · handdepthcheck         0 ms  not selected
+ · handoffstuckcheck      0 ms  not selected
+ · handposecheck          0 ms  not selected
+ · hangingcheck           0 ms  not selected
+ · hatnosecheck           0 ms  not selected
+ · headcheck              0 ms  not selected
+ · headfeaturecheck       0 ms  not selected
+ · headmodelcheck         0 ms  not selected
+ · headrotcheck           0 ms  not selected
+ · headscalecheck         0 ms  not selected
+ · heartbeatcheck         0 ms  not selected
+ · heldbecheck            0 ms  not selected
+ · helditemcheck          0 ms  not selected
+ · helditemnamecheck      0 ms  not selected
+ · helditemnose           0 ms  not selected
+ · helditempose           0 ms  not selected
+ · helpusagecheck         0 ms  not selected
+ · hiddenpartscheck       0 ms  not selected
+ · historyatomiccheck      0 ms  not selected
+ · hoglincheck            0 ms  not selected
+ · honeyslidecheck        0 ms  not selected
+ · hoppercheck            0 ms  not selected
+ · horsebreathecheck      0 ms  not selected
+ · horsefallcheck         0 ms  not selected
+ · horselandcheck         0 ms  not selected
+ · horseposecheck         0 ms  not selected
+ · horsescreenpreviewcheck      0 ms  not selected
+ · horsetickcheck         0 ms  not selected
+ · hostilerngcheck        0 ms  not selected
+ · hostilesoundcheck      0 ms  not selected
+ · hostloadcheck          0 ms  not selected
+ · hudheartcheck          0 ms  not selected
+ · hungerrowcheck         0 ms  not selected
+ · hurtgatetracecheck      0 ms  not selected
+ · hurtlockstepcheck      0 ms  not selected
+ · hurtvoicewindowcheck      0 ms  not selected
+ · hurtwindowcheck        0 ms  not selected
+ · huskcheck              0 ms  not selected
+ · iconcheck              0 ms  not selected
+ · illagerfleecheck       0 ms  not selected
+ · illagerposecheck       0 ms  not selected
+ · illusionerbowcheck      0 ms  not selected
+ · illusionerlookcheck      0 ms  not selected
+ · illusionersoundcheck      0 ms  not selected
+ · infestedcheck          0 ms  not selected
+ · inflatecheck           0 ms  not selected
+ · infocmdcheck           0 ms  not selected
+ · inhabitedcheck         0 ms  not selected
+ · inhandcheck            0 ms  not selected
+ · inputcheck             0 ms  not selected
+ · invcheck               0 ms  not selected
+ · invinputcheck          0 ms  not selected
+ · invisibleblockcheck      0 ms  not selected
+ · irongolemcheck         0 ms  not selected
+ · irongolemwandercheck      0 ms  not selected
+ · itembuoyancycheck      0 ms  not selected
+ · itemburncheck          0 ms  not selected
+ · itemcheck              0 ms  not selected
+ · itemframedrawcheck      0 ms  not selected
+ · itemiconcheck          0 ms  not selected
+ · itemmergecheck         0 ms  not selected
+ · itemsheetcheck         0 ms  not selected
+ · jockeycheck            0 ms  not selected
+ · jockeypositioncheck      0 ms  not selected
+ · jrandomcheck           0 ms  not selected
+ · jsonmergecheck         0 ms  not selected
+ · jukeboxparrotcheck      0 ms  not selected
+ · kw4445check            0 ms  not selected
+ · labelcheck             0 ms  not selected
+ · laddercheck            0 ms  not selected
+ · landbatchcheck         0 ms  not selected
+ · landidlecheck          0 ms  not selected
+ · landingdustcheck       0 ms  not selected
+ · landreportcheck        0 ms  not selected
+ · landsweepcheck         0 ms  not selected
+ · lanesdcheck            0 ms  not selected
+ · leashcheck             0 ms  not selected
+ · lightcheck             0 ms  not selected
+ · lightemitcheck         0 ms  not selected
+ · lightluminancecheck      0 ms  not selected
+ · lightningcheck         0 ms  not selected
+ · lightningdrawcheck      0 ms  not selected
+ · lightningtracecheck      0 ms  not selected
+ · lightstatecheck        0 ms  not selected
+ · limitcheck             0 ms  not selected
+ · livemeshcheck          0 ms  not selected
+ · llamaambientcheck      0 ms  not selected
+ · llamacheck             0 ms  not selected
+ · llamapackcheck         0 ms  not selected
+ · localcopycheck         0 ms  not selected
+ · locatecheck            0 ms  not selected
+ · lockstep-ambientsound      0 ms  not selected
+ · lockstep-angerspread      0 ms  not selected
+ · lockstep-armorstand      0 ms  not selected
+ · lockstep-arrowstuck      0 ms  not selected
+ · lockstep-attackeffect      0 ms  not selected
+ · lockstep-avoid         0 ms  not selected
+ · lockstep-axolotl-lane      0 ms  not selected
+ · lockstep-axolotl       0 ms  not selected
+ · lockstep-barter        0 ms  not selected
+ · lockstep-bat           0 ms  not selected
+ · lockstep-bathang       0 ms  not selected
+ · lockstep-beacon        0 ms  not selected
+ · lockstep-bedexplode      0 ms  not selected
+ · lockstep-bee           0 ms  not selected
+ · lockstep-beepollen      0 ms  not selected
+ · lockstep-bell          0 ms  not selected
+ · lockstep-blaze         0 ms  not selected
+ · lockstep-blazefire      0 ms  not selected
+ · lockstep-blockdamage      0 ms  not selected
+ · lockstep-blockslow      0 ms  not selected
+ · lockstep-bounce        0 ms  not selected
+ · lockstep-bow           0 ms  not selected
+ · lockstep-breed         0 ms  not selected
+ · lockstep-breedspecies      0 ms  not selected
+ · lockstep-bubblecolumn      0 ms  not selected
+ · lockstep-caravan       0 ms  not selected
+ · lockstep-cat           0 ms  not selected
+ · lockstep-catgift       0 ms  not selected
+ · lockstep-catspawner      0 ms  not selected
+ · lockstep-cave_spider      0 ms  not selected
+ · lockstep-chest_minecart      0 ms  not selected
+ · lockstep-chicken       0 ms  not selected
+ · lockstep-chickenjockey      0 ms  not selected
+ · lockstep-chorus        0 ms  not selected
+ · lockstep-climb         0 ms  not selected
+ · lockstep-command_block_minecart      0 ms  not selected
+ · lockstep-conduit       0 ms  not selected
+ · lockstep-cow           0 ms  not selected
+ · lockstep-cramming      0 ms  not selected
+ · lockstep-creeper       0 ms  not selected
+ · lockstep-creeperignite      0 ms  not selected
+ · lockstep-crit          0 ms  not selected
+ · lockstep-crossbow      0 ms  not selected
+ · lockstep-cure          0 ms  not selected
+ · lockstep-despawn       0 ms  not selected
+ · lockstep-dispenser      0 ms  not selected
+ · lockstep-dolphin       0 ms  not selected
+ · lockstep-dolphintreasure      0 ms  not selected
+ · lockstep-doorbreak      0 ms  not selected
+ · lockstep-dragonbreath      0 ms  not selected
+ · lockstep-dragoncrystal      0 ms  not selected
+ · lockstep-dragonphases      0 ms  not selected
+ · lockstep-drowned       0 ms  not selected
+ · lockstep-drownedtrident      0 ms  not selected
+ · lockstep-dye           0 ms  not selected
+ · lockstep-effects       0 ms  not selected
+ · lockstep-egglay        0 ms  not selected
+ · lockstep-elder_guardian      0 ms  not selected
+ · lockstep-elderguardian      0 ms  not selected
+ · lockstep-elytra        0 ms  not selected
+ · lockstep-enchantdamage      0 ms  not selected
+ · lockstep-endcrystal      0 ms  not selected
+ · lockstep-ender_dragon      0 ms  not selected
+ · lockstep-enderman      0 ms  not selected
+ · lockstep-endermanwater      0 ms  not selected
+ · lockstep-endermite      0 ms  not selected
+ · lockstep-endermitechase      0 ms  not selected
+ · lockstep-endgateway      0 ms  not selected
+ · lockstep-explode       0 ms  not selected
+ · lockstep-eyeofender      0 ms  not selected
+ · lockstep-fall          0 ms  not selected
+ · lockstep-fangs         0 ms  not selected
+ · lockstep-firework      0 ms  not selected
+ · lockstep-fishing       0 ms  not selected
+ · lockstep-followowner      0 ms  not selected
+ · lockstep-fox           0 ms  not selected
+ · lockstep-foxeat        0 ms  not selected
+ · lockstep-foxpounce      0 ms  not selected
+ · lockstep-freeze        0 ms  not selected
+ · lockstep-furnace_minecart      0 ms  not selected
+ · lockstep-ghast         0 ms  not selected
+ · lockstep-giant         0 ms  not selected
+ · lockstep-glow_squid      0 ms  not selected
+ · lockstep-goat          0 ms  not selected
+ · lockstep-goatram       0 ms  not selected
+ · lockstep-golem         0 ms  not selected
+ · lockstep-golembuild      0 ms  not selected
+ · lockstep-gossip        0 ms  not selected
+ · lockstep-growup        0 ms  not selected
+ · lockstep-guardian      0 ms  not selected
+ · lockstep-guardianbeam      0 ms  not selected
+ · lockstep-hanging       0 ms  not selected
+ · lockstep-hoglin        0 ms  not selected
+ · lockstep-hoglinbrain      0 ms  not selected
+ · lockstep-hopper_minecart      0 ms  not selected
+ · lockstep-hopperitem      0 ms  not selected
+ · lockstep-horsetemper      0 ms  not selected
+ · lockstep-hunger        0 ms  not selected
+ · lockstep-husk          0 ms  not selected
+ · lockstep-iceslide      0 ms  not selected
+ · lockstep-idlewander      0 ms  not selected
+ · lockstep-illusioner      0 ms  not selected
+ · lockstep-insomnia      0 ms  not selected
+ · lockstep-iron_golem      0 ms  not selected
+ · lockstep-item          0 ms  not selected
+ · lockstep-leash         0 ms  not selected
+ · lockstep-leashknot-lane      0 ms  not selected
+ · lockstep-leashknot      0 ms  not selected
+ · lockstep-lingering      0 ms  not selected
+ · lockstep-llamaspit      0 ms  not selected
+ · lockstep-lookcustomer      0 ms  not selected
+ · lockstep-loot          0 ms  not selected
+ · lockstep-magma_cube      0 ms  not selected
+ · lockstep-magmacube      0 ms  not selected
+ · lockstep-melee-armor      0 ms  not selected
+ · lockstep-minecartcrash      0 ms  not selected
+ · lockstep-minecartfurnace      0 ms  not selected
+ · lockstep-minecartrail      0 ms  not selected
+ · lockstep-mobpickup      0 ms  not selected
+ · lockstep-mooshroom      0 ms  not selected
+ · lockstep-mooshroomuse      0 ms  not selected
+ · lockstep-mule          0 ms  not selected
+ · lockstep-nametag       0 ms  not selected
+ · lockstep-netherportal      0 ms  not selected
+ · lockstep-noai          0 ms  not selected
+ · lockstep-obstacle      0 ms  not selected
+ · lockstep-ocelot        0 ms  not selected
+ · lockstep-ocelottrust      0 ms  not selected
+ · lockstep-panda         0 ms  not selected
+ · lockstep-pandabehaviour      0 ms  not selected
+ · lockstep-panic         0 ms  not selected
+ · lockstep-parrot        0 ms  not selected
+ · lockstep-parrotcookie      0 ms  not selected
+ · lockstep-pathtypes      0 ms  not selected
+ · lockstep-patrol        0 ms  not selected
+ · lockstep-phantom       0 ms  not selected
+ · lockstep-pig           0 ms  not selected
+ · lockstep-piglin        0 ms  not selected
+ · lockstep-piglin_brute      0 ms  not selected
+ · lockstep-piglinwatch      0 ms  not selected
+ · lockstep-pistonpush      0 ms  not selected
+ · lockstep-plate         0 ms  not selected
+ · lockstep-player        0 ms  not selected
+ · lockstep-playerdrown      0 ms  not selected
+ · lockstep-playersleep      0 ms  not selected
+ · lockstep-poi           0 ms  not selected
+ · lockstep-populate      0 ms  not selected
+ · lockstep-pufferfish      0 ms  not selected
+ · lockstep-rabbit        0 ms  not selected
+ · lockstep-rabbithop      0 ms  not selected
+ · lockstep-raid          0 ms  not selected
+ · lockstep-ranged        0 ms  not selected
+ · lockstep-ravager       0 ms  not selected
+ · lockstep-reinforce      0 ms  not selected
+ · lockstep-ride          0 ms  not selected
+ · lockstep-riptide       0 ms  not selected
+ · lockstep-sand          0 ms  not selected
+ · lockstep-schooling      0 ms  not selected
+ · lockstep-sculkvibe      0 ms  not selected
+ · lockstep-shadeseek      0 ms  not selected
+ · lockstep-shear         0 ms  not selected
+ · lockstep-sheep         0 ms  not selected
+ · lockstep-sheepgrass      0 ms  not selected
+ · lockstep-shield        0 ms  not selected
+ · lockstep-shove         0 ms  not selected
+ · lockstep-shulker       0 ms  not selected
+ · lockstep-shulkerbullet      0 ms  not selected
+ · lockstep-siege         0 ms  not selected
+ · lockstep-silverfish      0 ms  not selected
+ · lockstep-skeleton      0 ms  not selected
+ · lockstep-skeleton_horse      0 ms  not selected
+ · lockstep-skeletonswitch      0 ms  not selected
+ · lockstep-skeletontrap      0 ms  not selected
+ · lockstep-sleep         0 ms  not selected
+ · lockstep-slime         0 ms  not selected
+ · lockstep-slimesplit      0 ms  not selected
+ · lockstep-snow_golem      0 ms  not selected
+ · lockstep-snowgolem      0 ms  not selected
+ · lockstep-spawn         0 ms  not selected
+ · lockstep-spawnegg      0 ms  not selected
+ · lockstep-spawnequip      0 ms  not selected
+ · lockstep-spawner_minecart      0 ms  not selected
+ · lockstep-spider        0 ms  not selected
+ · lockstep-splash        0 ms  not selected
+ · lockstep-squid         0 ms  not selected
+ · lockstep-squidswim      0 ms  not selected
+ · lockstep-stalactitefall      0 ms  not selected
+ · lockstep-stray         0 ms  not selected
+ · lockstep-strider       0 ms  not selected
+ · lockstep-structurespawns      0 ms  not selected
+ · lockstep-suffocate      0 ms  not selected
+ · lockstep-sweep         0 ms  not selected
+ · lockstep-tablecheck      0 ms  not selected
+ · lockstep-tame          0 ms  not selected
+ · lockstep-tempt         0 ms  not selected
+ · lockstep-thorns        0 ms  not selected
+ · lockstep-throw         0 ms  not selected
+ · lockstep-tnt           0 ms  not selected
+ · lockstep-tnt_minecart      0 ms  not selected
+ · lockstep-totem         0 ms  not selected
+ · lockstep-trident       0 ms  not selected
+ · lockstep-tripwire      0 ms  not selected
+ · lockstep-turtle        0 ms  not selected
+ · lockstep-turtleegg      0 ms  not selected
+ · lockstep-turtlewalk      0 ms  not selected
+ · lockstep-vex           0 ms  not selected
+ · lockstep-vexlife       0 ms  not selected
+ · lockstep-villager-lane      0 ms  not selected
+ · lockstep-villager      0 ms  not selected
+ · lockstep-villagerhero      0 ms  not selected
+ · lockstep-villagerlevel      0 ms  not selected
+ · lockstep-villageroffers      0 ms  not selected
+ · lockstep-villagertrade      0 ms  not selected
+ · lockstep-void          0 ms  not selected
+ · lockstep-wandering_trader      0 ms  not selected
+ · lockstep-wandertrader      0 ms  not selected
+ · lockstep-waterflow      0 ms  not selected
+ · lockstep-waterspawn      0 ms  not selected
+ · lockstep-witch         0 ms  not selected
+ · lockstep-witchdrink      0 ms  not selected
+ · lockstep-witchthrow      0 ms  not selected
+ · lockstep-wither        0 ms  not selected
+ · lockstep-wither_skeleton      0 ms  not selected
+ · lockstep-wither_skull      0 ms  not selected
+ · lockstep-witherlane      0 ms  not selected
+ · lockstep-wolfdefend      0 ms  not selected
+ · lockstep-wolfshake      0 ms  not selected
+ · lockstep-wololo        0 ms  not selected
+ · lockstep-xpbottle      0 ms  not selected
+ · lockstep-xporb         0 ms  not selected
+ · lockstep-zoglin        0 ms  not selected
+ · lockstep-zombie_villager      0 ms  not selected
+ · lockstep-zombiechase      0 ms  not selected
+ · lockstep-zombieinit      0 ms  not selected
+ · lockstep-zombify       0 ms  not selected
+ · lockstepcheck          0 ms  not selected
+ · lockstepleakcheck      0 ms  not selected
+ · lockstepprioritycheck      0 ms  not selected
+ · lockstepproofcheck      0 ms  not selected
+ · lockstepresetcheck      0 ms  not selected
+ · lockstepsuitecheck      0 ms  not selected
+ · lockstepuuidcheck      0 ms  not selected
+ · lookatgoalcheck        0 ms  not selected
+ · lookcontrolnavcheck      0 ms  not selected
+ · lootaudit              0 ms  not selected
+ · losgatecheck           0 ms  not selected
+ · lumacheck              0 ms  not selected
+ · magmastretchcheck      0 ms  not selected
+ · mailhookcheck          0 ms  not selected
+ · mapcontentcheck        0 ms  not selected
+ · meleenavcheck          0 ms  not selected
+ · meleepausecheck        0 ms  not selected
+ · meltdropcheck          0 ms  not selected
+ · meshcheck              0 ms  not selected
+ · minecartcheck          0 ms  not selected
+ · minecartmodelcheck      0 ms  not selected
+ · minecartplacecheck      0 ms  not selected
+ · minecartsoundcheck      0 ms  not selected
+ · minecheck              0 ms  not selected
+ · mirrorcheck            0 ms  not selected
+ · mobaicheck             0 ms  not selected
+ · mobaudit4check         0 ms  not selected
+ · mobboxcheck            0 ms  not selected
+ · mobcmdexeccheck        0 ms  not selected
+ · mobcmdkillcheck        0 ms  not selected
+ · mobcmdxpgamemodecheck      0 ms  not selected
+ · mobcrowdcheck          0 ms  not selected
+ · mobdefaultcheck2       0 ms  not selected
+ · mobdrawcheck           0 ms  not selected
+ · mobdropycheck          0 ms  not selected
+ · mobdrowncheck          0 ms  not selected
+ · mobgoalscheck          0 ms  not selected
+ · mobgriefingcheck       0 ms  not selected
+ · mobinteractcheck       0 ms  not selected
+ · mobl3check             0 ms  not selected
+ · mobmovecheck           0 ms  not selected
+ · mobnbtcheck            0 ms  not selected
+ · mobpackcheck           0 ms  not selected
+ · mobpickupcheck         0 ms  not selected
+ · mobrendercheck         0 ms  not selected
+ · mobshapecheck          0 ms  not selected
+ · mobslidecheck          0 ms  not selected
+ · mobslootcheck          0 ms  not selected
+ · mobsoundcheck          0 ms  not selected
+ · mobstepcheck           0 ms  not selected
+ · mobtexcheck            0 ms  not selected
+ · mobtickjoincheck       0 ms  not selected
+ · mobtracecheck          0 ms  not selected
+ · mobvoicecheck          0 ms  not selected
+ · mobvoicegatecheck      0 ms  not selected
+ · mobwatercheck          0 ms  not selected
+ · modecheck              0 ms  not selected
+ · modelcheck             0 ms  not selected
+ · modeloverridecheck      0 ms  not selected
+ · monumentcheck          0 ms  not selected
+ · mooshroomcheck         0 ms  not selected
+ · mooshroomshroomcheck      0 ms  not selected
+ · mooshroomstewbowlcheck      0 ms  not selected
+ · motionsrccheck         0 ms  not selected
+ · motionstaticcheck      0 ms  not selected
+ · mountcheck             0 ms  not selected
+ · mountinvcheck          0 ms  not selected
+ · mountrendercheck       0 ms  not selected
+ · movecheck              0 ms  not selected
+ · namecheck              0 ms  not selected
+ · nametagcheck           0 ms  not selected
+ · nbtcheck               0 ms  not selected
+ · netherfortresscheck      0 ms  not selected
+ · netherfortressplacecheck      0 ms  not selected
+ · newworldcheck          0 ms  not selected
+ · noclaimreleasecheck      0 ms  not selected
+ · nofallcheck            0 ms  not selected
+ · noisecheck             0 ms  not selected
+ · nonlivingexplosioncheck      0 ms  not selected
+ · noteblockcheck         0 ms  not selected
+ · notimeoutcheck         0 ms  not selected
+ · nullmeshcheck          0 ms  not selected
+ · ocelotgoalcheck        0 ms  not selected
+ · ocelotpackcheck        0 ms  not selected
+ · ocelottargetboxcheck      0 ms  not selected
+ · ocelottrustcheck       0 ms  not selected
+ · optionscheck           0 ms  not selected
+ · paceextracheck         0 ms  not selected
+ · paintingdrawcheck      0 ms  not selected
+ · palettecheck           0 ms  not selected
+ · pandacheck             0 ms  not selected
+ · pandahelditemcheck      0 ms  not selected
+ · pandaposecheck         0 ms  not selected
+ · pandaskincheck         0 ms  not selected
+ · pandasoundcheck        0 ms  not selected
+ · parcheck               0 ms  not selected
+ · parrotcheck            0 ms  not selected
+ · parrotposecheck        0 ms  not selected
+ · parrotshouldercheck      0 ms  not selected
+ · parrotsoundcheck       0 ms  not selected
+ · particlecheck          0 ms  not selected
+ · particleoption         0 ms  not selected
+ · partlandcheck          0 ms  not selected
+ · passivecheck           0 ms  not selected
+ · pathanycheck           0 ms  not selected
+ · pathcheck              0 ms  not selected
+ · pathfallcheck          0 ms  not selected
+ · pathtracecheck         0 ms  not selected
+ · patrolcountcheck       0 ms  not selected
+ · patrolgroupcheck       0 ms  not selected
+ · patrolleadercheck      0 ms  not selected
+ · patrolretargetcheck      0 ms  not selected
+ · pearlscencheck         0 ms  not selected
+ · petfleecheck           0 ms  not selected
+ · petposecheck           0 ms  not selected
+ · phantomanimcheck       0 ms  not selected
+ · phantomcheck           0 ms  not selected
+ · phantomeyescheck       0 ms  not selected
+ · phantomposecheck       0 ms  not selected
+ · phantomvel             0 ms  not selected
+ · phaselanecheck         0 ms  not selected
+ · phonecontrolscheck      0 ms  not selected
+ · phonehomecheck         0 ms  not selected
+ · phonerunscheck         0 ms  not selected
+ · phonestatscheck        0 ms  not selected
+ · phonewebcheck          0 ms  not selected
+ · physcheck              0 ms  not selected
+ · piglinangercheck       0 ms  not selected
+ · piglinbraincheck       0 ms  not selected
+ · piglinbruteidlecheck      0 ms  not selected
+ · piglincheck            0 ms  not selected
+ · piglincrossbowcheck      0 ms  not selected
+ · piglindoorcheck        0 ms  not selected
+ · piglinhittimercheck      0 ms  not selected
+ · piglinlootcheck        0 ms  not selected
+ · piglinmodelcheck       0 ms  not selected
+ · piglinrendercheck      0 ms  not selected
+ · piglinsoundcheck       0 ms  not selected
+ · pigridecheck           0 ms  not selected
+ · pilotplancheck         0 ms  not selected
+ · pilotsumcheck          0 ms  not selected
+ · pistoncheck            0 ms  not selected
+ · placecheck             0 ms  not selected
+ · extract-placement      0 ms  not selected
+ · plantstem              0 ms  not selected
+ · platecheck             0 ms  not selected
+ · playercheck            0 ms  not selected
+ · playerlanecheck        0 ms  not selected
+ · playeroptscheck        0 ms  not selected
+ · playerrendercheck      0 ms  not selected
+ · playerskincheck        0 ms  not selected
+ · playersoundcheck       0 ms  not selected
+ · poicheck               0 ms  not selected
+ · polarbearcheck         0 ms  not selected
+ · ponytailcheck          0 ms  not selected
+ · poolcapcheck           0 ms  not selected
+ · populatesavecheck      0 ms  not selected
+ · portalcheck            0 ms  not selected
+ · potionbreakpitchcheck      0 ms  not selected
+ · powdersnowcheck        0 ms  not selected
+ · powdersnowdaycheck      0 ms  not selected
+ · powdersnowjumpcheck      0 ms  not selected
+ · powdersnowwalkcheck      0 ms  not selected
+ · procapcheck            0 ms  not selected
+ · professioncheck        0 ms  not selected
+ · projectilegoalcheck      0 ms  not selected
+ · projmotioncheck        0 ms  not selected
+ · projrngcheck           0 ms  not selected
+ · prunecheck             0 ms  not selected
+ · puffboxcheck           0 ms  not selected
+ · pufferrendercheck      0 ms  not selected
+ · pushcheck              0 ms  not selected
+ · quadcapcheck           0 ms  not selected
+ · queuedeepcheck         0 ms  not selected
+ · queuegatecheck         0 ms  not selected
+ · queueordercheck        0 ms  not selected
+ · quietcheck             0 ms  not selected
+ · quietharnesscheck      0 ms  not selected
+ · rabbitcheck            0 ms  not selected
+ · rabbitpackcheck        0 ms  not selected
+ · rabbitposecheck        0 ms  not selected
+ · raidbannerpickupcheck      0 ms  not selected
+ · raidbarcheck           0 ms  not selected
+ · raidcelebratecheck      0 ms  not selected
+ · raidcheck              0 ms  not selected
+ · raidexactcheck         0 ms  not selected
+ · raidgoalresiduecheck      0 ms  not selected
+ · raidmobcheck           0 ms  not selected
+ · raidrecipcheck         0 ms  not selected
+ · raidsavecheck          0 ms  not selected
+ · raidvexcheck           0 ms  not selected
+ · raidvindicatorcheck      0 ms  not selected
+ · railcheck              0 ms  not selected
+ · railpopcheck           0 ms  not selected
+ · randomdisplaytickcheck      0 ms  not selected
+ · ravagercontrolscheck      0 ms  not selected
+ · ravagerimmobilecheck      0 ms  not selected
+ · ravagermodelcheck      0 ms  not selected
+ · ravagerposecheck       0 ms  not selected
+ · ravagershieldcheck      0 ms  not selected
+ · ravagersoundcheck      0 ms  not selected
+ · raycheck               0 ms  not selected
+ · raylayercheck          0 ms  not selected
+ · redcheck               0 ms  not selected
+ · redissuecheck          0 ms  not selected
+ · redlitcheck            0 ms  not selected
+ · armorrefcheck          0 ms  not selected
+ · mobrefattrcheck        0 ms  not selected
+ · avoidrefcheck          0 ms  not selected
+ · barterrefcheck         0 ms  not selected
+ · blockrefdropcheck      0 ms  not selected
+ · blockuserefcheck       0 ms  not selected
+ · boltrefcheck           0 ms  not selected
+ · breedrefcheck          0 ms  not selected
+ · bucketrefcheck         0 ms  not selected
+ · bulletrefcheck         0 ms  not selected
+ · buttonrefcheck         0 ms  not selected
+ · chaserefcheck          0 ms  not selected
+ · cmprefcheck            0 ms  not selected
+ · columnrefcheck         0 ms  not selected
+ · convrefcheck           0 ms  not selected
+ · creeperrefcheck        0 ms  not selected
+ · crystalrefcheck        0 ms  not selected
+ · daylightrefcheck       0 ms  not selected
+ · despawnrefcheck        0 ms  not selected
+ · dispenserefcheck       0 ms  not selected
+ · drownrefcheck          0 ms  not selected
+ · effectrefcheck         0 ms  not selected
+ · enchrefcheck           0 ms  not selected
+ · endermanrefcheck       0 ms  not selected
+ · mobrefequipcheck       0 ms  not selected
+ · fallrefcheck           0 ms  not selected
+ · farmrefcheck           0 ms  not selected
+ · mobreffirecheck        0 ms  not selected
+ · firerefcheck           0 ms  not selected
+ · floorrefcheck          0 ms  not selected
+ · fluidrefcheck          0 ms  not selected
+ · foodrefcheck           0 ms  not selected
+ · furnacerefcheck        0 ms  not selected
+ · gaterefcheck           0 ms  not selected
+ · geardroprefcheck       0 ms  not selected
+ · growthrefcheck         0 ms  not selected
+ · hazardrefcheck         0 ms  not selected
+ · hoglinrefcheck         0 ms  not selected
+ · hopperrefcheck         0 ms  not selected
+ · hungerrefcheck         0 ms  not selected
+ · hurtrefcheck           0 ms  not selected
+ · hurtwinrefcheck        0 ms  not selected
+ · interactrefcheck       0 ms  not selected
+ · itemrefcheck           0 ms  not selected
+ · itemuserefcheck        0 ms  not selected
+ · kbrefcheck             0 ms  not selected
+ · leafrefcheck           0 ms  not selected
+ · llamarefcheck          0 ms  not selected
+ · mobreflootcheck        0 ms  not selected
+ · lootingrefcheck        0 ms  not selected
+ · meleerefcheck          0 ms  not selected
+ · meltrefcheck           0 ms  not selected
+ · minerefcheck           0 ms  not selected
+ · mobhazardrefcheck      0 ms  not selected
+ · motionrefcheck         0 ms  not selected
+ · panicrefcheck          0 ms  not selected
+ · pcoolrefcheck          0 ms  not selected
+ · phantomrefcheck        0 ms  not selected
+ · phazardrefcheck        0 ms  not selected
+ · placerefcheck          0 ms  not selected
+ · platerefcheck          0 ms  not selected
+ · playerarmorrefcheck      0 ms  not selected
+ · pmeleerefcheck         0 ms  not selected
+ · potionrefcheck         0 ms  not selected
+ · raidrefcheck           0 ms  not selected
+ · ramrefcheck            0 ms  not selected
+ · rangedrefcheck         0 ms  not selected
+ · ranged2refcheck        0 ms  not selected
+ · redrefcheck            0 ms  not selected
+ · reinfrefcheck          0 ms  not selected
+ · sheepgrassrefcheck      0 ms  not selected
+ · spawnerrefcheck        0 ms  not selected
+ · spreadrefcheck         0 ms  not selected
+ · surviverefcheck        0 ms  not selected
+ · tamerefcheck           0 ms  not selected
+ · tntrefcheck            0 ms  not selected
+ · villagerreftradecheck      0 ms  not selected
+ · useonrefcheck          0 ms  not selected
+ · wanderrefcheck         0 ms  not selected
+ · xprefcheck             0 ms  not selected
+ · xp2refcheck            0 ms  not selected
+ · xporbrefcheck          0 ms  not selected
+ · mobdefaultscheck       0 ms  not selected
+ · regcheck               0 ms  not selected
+ · remeshcheck            0 ms  not selected
+ · renderinterpcheck      0 ms  not selected
+ · renderrescheck         0 ms  not selected
+ · riderheightcheck       0 ms  not selected
+ · ridertamerngcheck      0 ms  not selected
+ · ridetracecheck         0 ms  not selected
+ · rngtracecheck          0 ms  not selected
+ · rodaddedcheck          0 ms  not selected
+ · rodcheck               0 ms  not selected
+ · rolewhocheck           0 ms  not selected
+ · rootscriptscheck       0 ms  not selected
+ · rosteroptscheck        0 ms  not selected
+ · rosterr2check          0 ms  not selected
+ · runnerguardcheck       0 ms  not selected
+ · saddlesoundcheck       0 ms  not selected
+ · salvagecheck           0 ms  not selected
+ · savecheck              0 ms  not selected
+ · scaffoldingcheck       0 ms  not selected
+ · sculksensorcheck       0 ms  not selected
+ · seamcheck              0 ms  not selected
+ · seed64check            0 ms  not selected
+ · seedparsecheck         0 ms  not selected
+ · shadercheck            0 ms  not selected
+ · shadowcheck            0 ms  not selected
+ · shadowtilecheck        0 ms  not selected
+ · shapecheck             0 ms  not selected
+ · shapefloodcheck        0 ms  not selected
+ · sheepfleececheck       0 ms  not selected
+ · shieldcheck            0 ms  not selected
+ · shieldlayerscheck      0 ms  not selected
+ · shuffleexplosioncheck      0 ms  not selected
+ · shulkercheck           0 ms  not selected
+ · shulkerattackcheck      0 ms  not selected
+ · shulkerbodycheck       0 ms  not selected
+ · shulkerboxcheck        0 ms  not selected
+ · shulkerdrawcheck       0 ms  not selected
+ · shulkersoundcheck      0 ms  not selected
+ · extract-sided          0 ms  not selected
+ · siegecheck             0 ms  not selected
+ · silverfishcheck        0 ms  not selected
+ · silverfishmagiccheck      0 ms  not selected
+ · silverfishwigglecheck      0 ms  not selected
+ · silverspawncheck       0 ms  not selected
+ · simdistcheck           0 ms  not selected
+ · skeletontargetcheck      0 ms  not selected
+ · skelmeleecheck         0 ms  not selected
+ · skelsunlightcheck      0 ms  not selected
+ · skullcheck             0 ms  not selected
+ · skycheck               0 ms  not selected
+ · skydarknesscheck       0 ms  not selected
+ · skygpucheck            0 ms  not selected
+ · skyviewcheck           0 ms  not selected
+ ✗ sleepcheck          1756 ms  sleepcheck — loop/sleep-s104: villager SLEEP + MEETING-POINT b
+ · slimeblockcheck        0 ms  not selected
+ · slimecheck             0 ms  not selected
+ · slimesoundcheck        0 ms  not selected
+ · smallfireballhitcheck      0 ms  not selected
+ · smallfireballnonlivingcheck      0 ms  not selected
+ · smoke                  0 ms  not selected
+ · smoothlivecheck        0 ms  not selected
+ · snbtcmdcheck           0 ms  not selected
+ · snowgolemcheck         0 ms  not selected
+ · snowgolemrendercheck      0 ms  not selected
+ · snowgolemsoundcheck      0 ms  not selected
+ · snowgolemwandercheck      0 ms  not selected
+ · snowlayercheck         0 ms  not selected
+ · soakcheck              0 ms  not selected
+ · soaktracecheck         0 ms  not selected
+ · soundaudit             0 ms  not selected
+ · soundcheck             0 ms  not selected
+ · soundtitlecheck        0 ms  not selected
+ · soundtracecheck        0 ms  not selected
+ · spawnaudit             0 ms  not selected
+ · spawncapcheck          0 ms  not selected
+ · spawncheck             0 ms  not selected
+ · spawnercartcheck       0 ms  not selected
+ · spawnercheck           0 ms  not selected
+ · spawnerdraw            0 ms  not selected
+ · spawnerfxcheck         0 ms  not selected
+ · spawnergencheck        0 ms  not selected
+ · spawnerpotentialscheck      0 ms  not selected
+ · spawnerstalecheck      0 ms  not selected
+ · spawnfloorcheck        0 ms  not selected
+ · spawninitrngcheck      0 ms  not selected
+ · spawnloccheck          0 ms  not selected
+ · spawnoceancheck        0 ms  not selected
+ · spawnpopcheck          0 ms  not selected
+ · spawnpredcheck         0 ms  not selected
+ · spawnrulecheck         0 ms  not selected
+ · spawntravcheck         0 ms  not selected
+ · speciesrngcheck        0 ms  not selected
+ · spellcheck             0 ms  not selected
+ · spellcooldowncheck      0 ms  not selected
+ · spellposecheck         0 ms  not selected
+ · spiderclimbcheck       0 ms  not selected
+ · spidereyelightcheck      0 ms  not selected
+ · spidereyescheck        0 ms  not selected
+ · spidertargetcheck      0 ms  not selected
+ · spitdamagecheck        0 ms  not selected
+ · spitoccludercheck      0 ms  not selected
+ · spitparticlecheck      0 ms  not selected
+ · spitposecheck          0 ms  not selected
+ · spritecheck            0 ms  not selected
+ · squidcheck             0 ms  not selected
+ · squidfxcheck           0 ms  not selected
+ · squidposecheck         0 ms  not selected
+ · sscheck                0 ms  not selected
+ · stagecheck             0 ms  not selected
+ · stagetimeoutcheck      0 ms  not selected
+ · stalactitecheck        0 ms  not selected
+ · stalactitetridentcheck      0 ms  not selected
+ · stalagmitecheck        0 ms  not selected
+ · stalemeshcheck         0 ms  not selected
+ · standrendercheck       0 ms  not selected
+ · statscheck             0 ms  not selected
+ · stepsourcecheck        0 ms  not selected
+ · stopatcheck            0 ms  not selected
+ · straylayercheck        0 ms  not selected
+ · streamcheck            0 ms  not selected
+ · striderangcheck        0 ms  not selected
+ · stridercheck           0 ms  not selected
+ · stridergoalcheck       0 ms  not selected
+ · striderroster          0 ms  not selected
+ · stridersoundcheck      0 ms  not selected
+ · strongholdspawnercheck      0 ms  not selected
+ · structaudit            0 ms  not selected
+ · structcheck            0 ms  not selected
+ · structentcheck         0 ms  not selected
+ · structspawncheck       0 ms  not selected
+ · structurequadcheck      0 ms  not selected
+ · stuckarrowcheck        0 ms  not selected
+ · supportcheck           0 ms  not selected
+ · surfcheck              0 ms  not selected
+ · survcheck              0 ms  not selected
+ · survivegatecheck       0 ms  not selected
+ · swimctlcheck           0 ms  not selected
+ · swimdistcheck          0 ms  not selected
+ · swimgoalcontrolscheck      0 ms  not selected
+ · swimnodecheck          0 ms  not selected
+ · swirlcheck             0 ms  not selected
+ · tagcheck               0 ms  not selected
+ · takeovercheck          0 ms  not selected
+ · tamecheck              0 ms  not selected
+ · tamedwolfhealcheck      0 ms  not selected
+ · tameownertargetcheck      0 ms  not selected
+ · targetblockcheck       0 ms  not selected
+ · targettracecheck       0 ms  not selected
+ · temptcheck             0 ms  not selected
+ · testmirrorcheck        0 ms  not selected
+ · texanimcheck           0 ms  not selected
+ · texaudit               0 ms  not selected
+ · texauditjobcheck       0 ms  not selected
+ · texl1check             0 ms  not selected
+ · texrostercheck         0 ms  not selected
+ · textcheck              0 ms  not selected
+ · throwableitemcheck      0 ms  not selected
+ · throwcheck             0 ms  not selected
+ · thrownwatercheck       0 ms  not selected
+ · tickcheck              0 ms  not selected
+ · tilecheck              0 ms  not selected
+ ✓ timeweathercheck   10944 ms  24 assertions, 0 failures, 2 breaks caught
+ · tintcheck              0 ms  not selected
+ · tippedcheck            0 ms  not selected
+ · titlecheck             0 ms  not selected
+ · tntcheck               0 ms  not selected
+ · tntfusecheck           0 ms  not selected
+ · tntprimedfxcheck       0 ms  not selected
+ · tntrendercheck         0 ms  not selected
+ · togoalticksheck        0 ms  not selected
+ · tooltipcheck           0 ms  not selected
+ · totemcheck             0 ms  not selected
+ · tpcheck                0 ms  not selected
+ · tracecheck             0 ms  not selected
+ · tradecheck             0 ms  not selected
+ · trademenucheck         0 ms  not selected
+ · tridentchannelingcheck      0 ms  not selected
+ · tridenthitcheck        0 ms  not selected
+ · tridentitemcheck       0 ms  not selected
+ · tridentloyaltycheck      0 ms  not selected
+ · tridentriptidecheck      0 ms  not selected
+ · tridentsweepcheck      0 ms  not selected
+ · trimcheck              0 ms  not selected
+ · tripwirecheck          0 ms  not selected
+ · tropicalpackcheck      0 ms  not selected
+ · turnbudgetcheck        0 ms  not selected
+ · turtlecheck            0 ms  not selected
+ · turtleeggcheck         0 ms  not selected
+ · turtlerendercheck      0 ms  not selected
+ · turtlesoundcheck       0 ms  not selected
+ · undeadcheck            0 ms  not selected
+ · undeadhorsecheck       0 ms  not selected
+ · unionmergecheck        0 ms  not selected
+ · usagerefreshcheck      0 ms  not selected
+ · usagestalecheck        0 ms  not selected
+ · usecheck               0 ms  not selected
+ · usehold                0 ms  not selected
+ · userngcheck            0 ms  not selected
+ · usewearcheck           0 ms  not selected
+ · uvl2check              0 ms  not selected
+ · vanillacheck           0 ms  not selected
+ · vaoleakcheck           0 ms  not selected
+ · vbactivitycheck        0 ms  not selected
+ · vbbellhidecheck        0 ms  not selected
+ · vbbreedcheck           0 ms  not selected
+ · vbcelebratecheck       0 ms  not selected
+ · vbcompetitioncheck      0 ms  not selected
+ · vbcustomercheck        0 ms  not selected
+ · vbdoorcheck            0 ms  not selected
+ · vbendraidcheck         0 ms  not selected
+ · vbgathercheck          0 ms  not selected
+ · vbhidehomecheck        0 ms  not selected
+ · vbholdcheck            0 ms  not selected
+ · vbidlecheck            0 ms  not selected
+ · vbjobacquirecheck      0 ms  not selected
+ · vbmeetcheck            0 ms  not selected
+ · vbpaniccheck           0 ms  not selected
+ · vbplaycheck            0 ms  not selected
+ · vbringbellcheck        0 ms  not selected
+ · vbseekskycheck         0 ms  not selected
+ · vbstartraidcheck       0 ms  not selected
+ · vbtakejobsitecheck      0 ms  not selected
+ · vbwandercheck          0 ms  not selected
+ · vbworkcheck            0 ms  not selected
+ · vexcheck               0 ms  not selected
+ · vexlightcheck          0 ms  not selected
+ · vexlookcheck           0 ms  not selected
+ · vexsoundcheck          0 ms  not selected
+ · vextargetcheck         0 ms  not selected
+ · vexwallcheck           0 ms  not selected
+ · viewbobcheck           0 ms  not selected
+ · villagegolemcheck      0 ms  not selected
+ · villageraccept         0 ms  not selected
+ · villagergoalcheck      0 ms  not selected
+ · villagerheadshakecheck      0 ms  not selected
+ · villagerinteractcheck      0 ms  not selected
+ · villagerproftexcheck      0 ms  not selected
+ · villagersoundcheck      0 ms  not selected
+ · villagertexcheck       0 ms  not selected
+ · villagertypecheck      0 ms  not selected
+ · visfloodcheck          0 ms  not selected
+ · vmcheck                0 ms  not selected
+ · wandertargetcheck      0 ms  not selected
+ · watchdogcheck          0 ms  not selected
+ · waterdragcheck         0 ms  not selected
+ · watersplashcheck       0 ms  not selected
+ · weathercheck           0 ms  not selected
+ · weatherdrawcheck       0 ms  not selected
+ · webcheck               0 ms  not selected
+ · weightedplatecheck      0 ms  not selected
+ · wgcheck                0 ms  not selected
+ · whiteflashcheck        0 ms  not selected
+ · wireshapecheck         0 ms  not selected
+ · witchhelditemcheck      0 ms  not selected
+ · witchnosecheck         0 ms  not selected
+ · witchposecheck         0 ms  not selected
+ · witchpotioncheck       0 ms  not selected
+ · witchraidtargetcheck      0 ms  not selected
+ · withercheck            0 ms  not selected
+ · wither1576check        0 ms  not selected
+ · wither1577check        0 ms  not selected
+ · witheracquirecheck      0 ms  not selected
+ · witherattackcheck      0 ms  not selected
+ · witherbreakcheck       0 ms  not selected
+ · witherbreakdropcheck      0 ms  not selected
+ · witherchargedresistcheck      0 ms  not selected
+ · witherdrawcheck        0 ms  not selected
+ · withergoalcheck        0 ms  not selected
+ · witherheadcheck        0 ms  not selected
+ · witherheadscheck       0 ms  not selected
+ · witherhurtchargecheck      0 ms  not selected
+ · witherinvulncheck      0 ms  not selected
+ · witherlootcheck        0 ms  not selected
+ · witherowedcheck        0 ms  not selected
+ · witherparticlecheck      0 ms  not selected
+ · witherregencheck       0 ms  not selected
+ · witherskelcheck        0 ms  not selected
+ · witherskullcollidecheck      0 ms  not selected
+ · witherskulldeathcheck      0 ms  not selected
+ · witherskulltrailcheck      0 ms  not selected
+ · witherskullwatercheck      0 ms  not selected
+ · withersoundcheck       0 ms  not selected
+ · withersummoncheck      0 ms  not selected
+ · witheryawcheck         0 ms  not selected
+ · wkhashcheck            0 ms  not selected
+ ✗ wolfgoalcheck        598 ms  103 assertions, 0 failures
+ · wolfmodelcheck         0 ms  not selected
+ · wolfrendercheck        0 ms  not selected
+ · wolfshakecheck         0 ms  not selected
+ · wolfsitcheck           0 ms  not selected
+ · wolfsoundcheck         0 ms  not selected
+ · wolfwetcheck           0 ms  not selected
+ · workermodelcheck       0 ms  not selected
+ · workerthreadcheck      0 ms  not selected
+ · worldbordercheck       0 ms  not selected
+ · worldcheck             0 ms  not selected
+ · worldsetcheck          0 ms  not selected
+ · wtradercheck           0 ms  not selected
+ · wtradersavecheck       0 ms  not selected
+ · xpbottlecheck          0 ms  not selected
+ · xpmendingcheck         0 ms  not selected
+ · xporbcheck             0 ms  not selected
+ · xporbdrawcheck         0 ms  not selected
+ · zarmscheck             0 ms  not selected
+ · zoglinlookcheck        0 ms  not selected
+ · zombieattackgoalcheck      0 ms  not selected
+ · zombiefirecheck        0 ms  not selected
+ · zombiesoundcheck       0 ms  not selected
+ · zombietargetcheck      0 ms  not selected
+ · zombievillagercheck      0 ms  not selected
+ · zpangerpasscheck       0 ms  not selected
+ · zpiglinspawncheck      0 ms  not selected
+ · zpiglinspeedcheck      0 ms  not selected
+ · zvillagercheck         0 ms  not selected
+ ---------------------------------------------
+ 127 assertions · 2 deliberate breaks caught · 2 stages failed
+ ⚠ PARTIAL RUN — 3 of 1381 stages selected (--only sleepcheck,timeweathercheck,wolfgoalcheck). This is NOT a green suite.
+ 12.7 s
+ ---------------------------------------------
+ ⚠ 1 check stage REPORTED NO ASSERTION COUNT and contribute nothing to the total: sleepcheck
+   They ran and passed. Their assertions are not in the number above.
+ ---------------------------------------------
+ ⚠ 1378 stages DID NOT RUN: extract-materials extract-equipment extract-fuel extract-fallon extract-soundtype extract-armor extract-analog extract-push extract-entities extract-entity-motion extract-entity-ground extract-zombiearms extract-creative extract-commands extract-models extract-gamerules extract-guigeom extract-itemmodel extract-support extract-occlusion extract-flammable extract-blockitems extract-itemattrs extract-handrender extract-entityattrs extract-breeding extract-combat-enchant extract-babymodel extract-blocks build-atlas merge-constants bake-geometry extract-items pack-models pack-blockentity pack-geometry pack-runtime pack-entities gen-legacy-tiles pack-worldgen pack-structures pack-biomeparams pack-colormaps pack-tags pack-mining pack-loot pack-items pack-recipes pack-advancements build-gui pack-lang pack-sounds extract-mob-textures pack-mobtex pack-painting extract-particletex extract-xporbtex extract-weathertex gen-data build-biomesheet extract-villager-trades build acctplancheck advancementcheck advtriggercheck aicheck airbubblecheck animal2rngcheck animalrngcheck animcheck anvilcheck anvillandcheck apibudgetcheck armorstandcheck armorstandexplosioncheck armorstandplacecheck armorstandusecheck armourrendercheck arrowwatercheck arrowbubblecheck arrowcritparticlecheck arrowphysicscheck arrowrefcheck arrowsoundcheck asyncguardcheck attacksoundcheck attraudit attrefftracecheck auditledgercheck autorebasecheck avoidboxcheck axolotlbreedgatecheck axolotlcheck axolotllookcheck axolotlnavcheck axolotlseekcheck axolotlseekwatercheck axolotlsoundcheck axolotlstrollcheck axolotlswimcheck axolotltimedlookcheck axolotltravelcheck axolotlyawcheck babycheck backendcheck bamboocheck bannerlayerscheck bannerplacecheck barrelcheck batcheck batposecheck batwakecheck beaconcheck beaconrendercheck becheck bedbouncecheck bedcheck beecheck beehiveusecheck beeloopcheck beenestcheck behavcheck beitemcheck bellrendercheck bellresonatecheck bellswingcheck bemodelcheck berrysoundcheck besavecheck beworldcheck biomecheck birdnodecheck blastknockbackcheck blazeburncheck blazeghastcheck blazemovecheck blockcmdlivecheck blockholdcheck blocksoundwirecheck boatcheck boatplacecheck boatsimcheck boatwatermask bobberdrawcheck bobcheck bonemealcheck bossbarcheck bowarmcheck bowcheck bowdrawcheck bowintervalcheck bowshootsoundcheck bowstatecheck boxuvcheck braincheck breedcheck breedhurtcheck brewingcheck brewregcheck browserslotscheck brutepickupcheck brutesoundcheck bubblecolumncheck bucketdatacheck bucketfishsoundcheck bugwavecheck burnpccheck buscheck cactuscheck canefeaturecheck cartcommandcheck cartdamagecheck cartpushcheck cartshovecheck catbedcheck catgoalcheck catposecheck catsoundcheck catspawnercheck catvariantcheck cauldronentitycheck cavecheck chatcheck chestcheck chestpaircheck chickencheck chickeneggsoundcheck chorusteleportcheck chunkcachecheck chunkgengoldencheck claimlockcheck clicksoundcheck climcheck cloudparticlecheck cmdlivecheck cmdscreencheck coherecheck colcheck combatcheck combatrngcheck commandcheck compostercheck concretefallcheck concretepowdercheck conductorcheck conduitbecheck constcheck coveragemapcheck craftcheck craftingtablecheck creativecheck creativevariantcheck creeperarmor2614check creepercheck creeperheadcheck crossbowgoalcheck crosshaircheck crystalbeamdrawcheck crystalrendercheck crystalringbookcheck cullcheck cullpairaudit cullruleaudit cullworldscan damagesrccheck daylightlockstepcheck deathrollcheck decalcheck despawncheck despawnordercheck destroyeggcheck detectorrailcheck diagcheck difficultycmdcheck dilateduvcheck dilationcheck dimbiomecheck dimcheck diskcleancheck dispensercheck dissolvecheck docrefcheck dolphinaircheck dolphinboatcheck dolphinbreathecheck dolphincheck dolphininteractcheck dolphinlootcheck dolphinmovecheck dolphinnavcheck dolphinrendercheck dolphintrailcheck donkeycheck doorbashcheck dormancycheck dragonbreathcloudcheck dragoncollidecheck dragoneyescheck dragonfireballcheck dragonkillcheck dragonpartdmgcheck dragonpathnextcheck dragonstrafefirecheck drawlistcheck drinkcheck dripstonecheck dropstracecheck drownedgoalcheck drownedsoundcheck drownedtargetcheck drownedwaterfluidcheck drownlockstepcheck dupcheck dyncheck eatcreativecheck effectenvcheck effectinstcheck effectmovecheck effecttracecheck elderguardiancheck elderguardiansoundcheck elderscalecheck emissioncheck emitcheck emitstatecheck encharmor enchhelpercheck enchroster enchscreen enchtable enchweapons endcitycheck endcrystalcheck enderchestcheck endercrystalhealcheck enderdragoncheck enderdragondeathcheck enderdragondrawcheck enderdragonfightcheck enderdragonmotioncheck enderdragonnbtcheck enderdragonpathcheck enderdragonphasecheck enderdragonsegcheck enderdragonvoicecheck enderdragonwiringcheck endermancarriedcheck endermancheck endermandropcheck endermaneyescheck endermanjittercheck endermanposecheck endermanraycheck endermitecheck endermiteparticlecheck endermitetargetcheck endgatewaycheck endportalframecheck endportalrendercheck entitybasenbtcheck entitycheck entitycollidecheck entityculldistcheck entityrngcheck entityuuidcheck entlistcheck eolcheck equidbreedgatecheck equipcheck equiprngcheck equiptracecheck evokerlookcheck evokersoundcheck evokerspelllookcheck explosionparticlecheck explosionsoundcheck extract-luminance eyeheightcheck eyeofendercheck eyesrenderercheck facecheck fallentitiescheck fallinganvilcheck fallingblockcheck fallingconcretecheck fallingtedcheck fallwatertracecheck fangsattackercheck fangsavecheck fangscheck fangsrefcheck farmgrow featcheck featgroundcheck fillresumecheck fillshapecheck fillwakecheck fillzerocheck fireballcheck fireballdrawcheck firechargecheck firelockstepcheck fireoverlaycheck fireworkcheck fishbitecheck fishbucketcheck fishcastcheck fishcatchcheck fishcheck fishhookcheck fishpatterncheck fishposecheck fishsoundcheck fishswimcheck fishswimsoundcheck fishtickcheck flashcheck flightpitchcheck floatcheck fluidlevelcheck fluidpushcheck fluidtilecheck flycheck flyspeedcheck footstepcheck fortressbrickscheck foxcheck foxfallcheck foxglowsoundcheck foxgoalscheck foxposecheck foxtargetcheck foxtexcheck freequeuecheck frostedice fullgatecheck fullmirrorcheck fullshardcheck furnacecheck fuzzcheck g10check g11bcheck g13check g14check g17cbcheck g17ccheck g18ccheck gamecheck gameeventcheck gamerulecheck gateinfracheck gaussiancheck gencheck gendropcheck ghastmodelcheck ghastmovecheck ghastsoundcheck ghastspawncheck ghasttexcheck giantcheck giantsoundcheck giftcheck gitattrcheck giveclearcheck glowoutlinecheck glowsquidlightcheck goalaudit goalcheck goalrngcheck goalrostercheck goalstracecheck goatbabycheck goatcheck gobarecheck goldensynccheck golemanimcheck golemcrackcheck golemflowercheck golemposcheck golemsoundcheck goprepcheck grindstone guardianbeamcheck guardiancheck guardiangoalcheck guardianlookcheck guardianposecheck guardianspawncheck guardianspikecheck guardianthornscheck guicheck handcheck handdepthcheck handoffstuckcheck handposecheck hangingcheck hatnosecheck headcheck headfeaturecheck headmodelcheck headrotcheck headscalecheck heartbeatcheck heldbecheck helditemcheck helditemnamecheck helditemnose helditempose helpusagecheck hiddenpartscheck historyatomiccheck hoglincheck honeyslidecheck hoppercheck horsebreathecheck horsefallcheck horselandcheck horseposecheck horsescreenpreviewcheck horsetickcheck hostilerngcheck hostilesoundcheck hostloadcheck hudheartcheck hungerrowcheck hurtgatetracecheck hurtlockstepcheck hurtvoicewindowcheck hurtwindowcheck huskcheck iconcheck illagerfleecheck illagerposecheck illusionerbowcheck illusionerlookcheck illusionersoundcheck infestedcheck inflatecheck infocmdcheck inhabitedcheck inhandcheck inputcheck invcheck invinputcheck invisibleblockcheck irongolemcheck irongolemwandercheck itembuoyancycheck itemburncheck itemcheck itemframedrawcheck itemiconcheck itemmergecheck itemsheetcheck jockeycheck jockeypositioncheck jrandomcheck jsonmergecheck jukeboxparrotcheck kw4445check labelcheck laddercheck landbatchcheck landidlecheck landingdustcheck landreportcheck landsweepcheck lanesdcheck leashcheck lightcheck lightemitcheck lightluminancecheck lightningcheck lightningdrawcheck lightningtracecheck lightstatecheck limitcheck livemeshcheck llamaambientcheck llamacheck llamapackcheck localcopycheck locatecheck lockstep-ambientsound lockstep-angerspread lockstep-armorstand lockstep-arrowstuck lockstep-attackeffect lockstep-avoid lockstep-axolotl-lane lockstep-axolotl lockstep-barter lockstep-bat lockstep-bathang lockstep-beacon lockstep-bedexplode lockstep-bee lockstep-beepollen lockstep-bell lockstep-blaze lockstep-blazefire lockstep-blockdamage lockstep-blockslow lockstep-bounce lockstep-bow lockstep-breed lockstep-breedspecies lockstep-bubblecolumn lockstep-caravan lockstep-cat lockstep-catgift lockstep-catspawner lockstep-cave_spider lockstep-chest_minecart lockstep-chicken lockstep-chickenjockey lockstep-chorus lockstep-climb lockstep-command_block_minecart lockstep-conduit lockstep-cow lockstep-cramming lockstep-creeper lockstep-creeperignite lockstep-crit lockstep-crossbow lockstep-cure lockstep-despawn lockstep-dispenser lockstep-dolphin lockstep-dolphintreasure lockstep-doorbreak lockstep-dragonbreath lockstep-dragoncrystal lockstep-dragonphases lockstep-drowned lockstep-drownedtrident lockstep-dye lockstep-effects lockstep-egglay lockstep-elder_guardian lockstep-elderguardian lockstep-elytra lockstep-enchantdamage lockstep-endcrystal lockstep-ender_dragon lockstep-enderman lockstep-endermanwater lockstep-endermite lockstep-endermitechase lockstep-endgateway lockstep-explode lockstep-eyeofender lockstep-fall lockstep-fangs lockstep-firework lockstep-fishing lockstep-followowner lockstep-fox lockstep-foxeat lockstep-foxpounce lockstep-freeze lockstep-furnace_minecart lockstep-ghast lockstep-giant lockstep-glow_squid lockstep-goat lockstep-goatram lockstep-golem lockstep-golembuild lockstep-gossip lockstep-growup lockstep-guardian lockstep-guardianbeam lockstep-hanging lockstep-hoglin lockstep-hoglinbrain lockstep-hopper_minecart lockstep-hopperitem lockstep-horsetemper lockstep-hunger lockstep-husk lockstep-iceslide lockstep-idlewander lockstep-illusioner lockstep-insomnia lockstep-iron_golem lockstep-item lockstep-leash lockstep-leashknot-lane lockstep-leashknot lockstep-lingering lockstep-llamaspit lockstep-lookcustomer lockstep-loot lockstep-magma_cube lockstep-magmacube lockstep-melee-armor lockstep-minecartcrash lockstep-minecartfurnace lockstep-minecartrail lockstep-mobpickup lockstep-mooshroom lockstep-mooshroomuse lockstep-mule lockstep-nametag lockstep-netherportal lockstep-noai lockstep-obstacle lockstep-ocelot lockstep-ocelottrust lockstep-panda lockstep-pandabehaviour lockstep-panic lockstep-parrot lockstep-parrotcookie lockstep-pathtypes lockstep-patrol lockstep-phantom lockstep-pig lockstep-piglin lockstep-piglin_brute lockstep-piglinwatch lockstep-pistonpush lockstep-plate lockstep-player lockstep-playerdrown lockstep-playersleep lockstep-poi lockstep-populate lockstep-pufferfish lockstep-rabbit lockstep-rabbithop lockstep-raid lockstep-ranged lockstep-ravager lockstep-reinforce lockstep-ride lockstep-riptide lockstep-sand lockstep-schooling lockstep-sculkvibe lockstep-shadeseek lockstep-shear lockstep-sheep lockstep-sheepgrass lockstep-shield lockstep-shove lockstep-shulker lockstep-shulkerbullet lockstep-siege lockstep-silverfish lockstep-skeleton lockstep-skeleton_horse lockstep-skeletonswitch lockstep-skeletontrap lockstep-sleep lockstep-slime lockstep-slimesplit lockstep-snow_golem lockstep-snowgolem lockstep-spawn lockstep-spawnegg lockstep-spawnequip lockstep-spawner_minecart lockstep-spider lockstep-splash lockstep-squid lockstep-squidswim lockstep-stalactitefall lockstep-stray lockstep-strider lockstep-structurespawns lockstep-suffocate lockstep-sweep lockstep-tablecheck lockstep-tame lockstep-tempt lockstep-thorns lockstep-throw lockstep-tnt lockstep-tnt_minecart lockstep-totem lockstep-trident lockstep-tripwire lockstep-turtle lockstep-turtleegg lockstep-turtlewalk lockstep-vex lockstep-vexlife lockstep-villager-lane lockstep-villager lockstep-villagerhero lockstep-villagerlevel lockstep-villageroffers lockstep-villagertrade lockstep-void lockstep-wandering_trader lockstep-wandertrader lockstep-waterflow lockstep-waterspawn lockstep-witch lockstep-witchdrink lockstep-witchthrow lockstep-wither lockstep-wither_skeleton lockstep-wither_skull lockstep-witherlane lockstep-wolfdefend lockstep-wolfshake lockstep-wololo lockstep-xpbottle lockstep-xporb lockstep-zoglin lockstep-zombie_villager lockstep-zombiechase lockstep-zombieinit lockstep-zombify lockstepcheck lockstepleakcheck lockstepprioritycheck lockstepproofcheck lockstepresetcheck lockstepsuitecheck lockstepuuidcheck lookatgoalcheck lookcontrolnavcheck lootaudit losgatecheck lumacheck magmastretchcheck mailhookcheck mapcontentcheck meleenavcheck meleepausecheck meltdropcheck meshcheck minecartcheck minecartmodelcheck minecartplacecheck minecartsoundcheck minecheck mirrorcheck mobaicheck mobaudit4check mobboxcheck mobcmdexeccheck mobcmdkillcheck mobcmdxpgamemodecheck mobcrowdcheck mobdefaultcheck2 mobdrawcheck mobdropycheck mobdrowncheck mobgoalscheck mobgriefingcheck mobinteractcheck mobl3check mobmovecheck mobnbtcheck mobpackcheck mobpickupcheck mobrendercheck mobshapecheck mobslidecheck mobslootcheck mobsoundcheck mobstepcheck mobtexcheck mobtickjoincheck mobtracecheck mobvoicecheck mobvoicegatecheck mobwatercheck modecheck modelcheck modeloverridecheck monumentcheck mooshroomcheck mooshroomshroomcheck mooshroomstewbowlcheck motionsrccheck motionstaticcheck mountcheck mountinvcheck mountrendercheck movecheck namecheck nametagcheck nbtcheck netherfortresscheck netherfortressplacecheck newworldcheck noclaimreleasecheck nofallcheck noisecheck nonlivingexplosioncheck noteblockcheck notimeoutcheck nullmeshcheck ocelotgoalcheck ocelotpackcheck ocelottargetboxcheck ocelottrustcheck optionscheck paceextracheck paintingdrawcheck palettecheck pandacheck pandahelditemcheck pandaposecheck pandaskincheck pandasoundcheck parcheck parrotcheck parrotposecheck parrotshouldercheck parrotsoundcheck particlecheck particleoption partlandcheck passivecheck pathanycheck pathcheck pathfallcheck pathtracecheck patrolcountcheck patrolgroupcheck patrolleadercheck patrolretargetcheck pearlscencheck petfleecheck petposecheck phantomanimcheck phantomcheck phantomeyescheck phantomposecheck phantomvel phaselanecheck phonecontrolscheck phonehomecheck phonerunscheck phonestatscheck phonewebcheck physcheck piglinangercheck piglinbraincheck piglinbruteidlecheck piglincheck piglincrossbowcheck piglindoorcheck piglinhittimercheck piglinlootcheck piglinmodelcheck piglinrendercheck piglinsoundcheck pigridecheck pilotplancheck pilotsumcheck pistoncheck placecheck extract-placement plantstem platecheck playercheck playerlanecheck playeroptscheck playerrendercheck playerskincheck playersoundcheck poicheck polarbearcheck ponytailcheck poolcapcheck populatesavecheck portalcheck potionbreakpitchcheck powdersnowcheck powdersnowdaycheck powdersnowjumpcheck powdersnowwalkcheck procapcheck professioncheck projectilegoalcheck projmotioncheck projrngcheck prunecheck puffboxcheck pufferrendercheck pushcheck quadcapcheck queuedeepcheck queuegatecheck queueordercheck quietcheck quietharnesscheck rabbitcheck rabbitpackcheck rabbitposecheck raidbannerpickupcheck raidbarcheck raidcelebratecheck raidcheck raidexactcheck raidgoalresiduecheck raidmobcheck raidrecipcheck raidsavecheck raidvexcheck raidvindicatorcheck railcheck railpopcheck randomdisplaytickcheck ravagercontrolscheck ravagerimmobilecheck ravagermodelcheck ravagerposecheck ravagershieldcheck ravagersoundcheck raycheck raylayercheck redcheck redissuecheck redlitcheck armorrefcheck mobrefattrcheck avoidrefcheck barterrefcheck blockrefdropcheck blockuserefcheck boltrefcheck breedrefcheck bucketrefcheck bulletrefcheck buttonrefcheck chaserefcheck cmprefcheck columnrefcheck convrefcheck creeperrefcheck crystalrefcheck daylightrefcheck despawnrefcheck dispenserefcheck drownrefcheck effectrefcheck enchrefcheck endermanrefcheck mobrefequipcheck fallrefcheck farmrefcheck mobreffirecheck firerefcheck floorrefcheck fluidrefcheck foodrefcheck furnacerefcheck gaterefcheck geardroprefcheck growthrefcheck hazardrefcheck hoglinrefcheck hopperrefcheck hungerrefcheck hurtrefcheck hurtwinrefcheck interactrefcheck itemrefcheck itemuserefcheck kbrefcheck leafrefcheck llamarefcheck mobreflootcheck lootingrefcheck meleerefcheck meltrefcheck minerefcheck mobhazardrefcheck motionrefcheck panicrefcheck pcoolrefcheck phantomrefcheck phazardrefcheck placerefcheck platerefcheck playerarmorrefcheck pmeleerefcheck potionrefcheck raidrefcheck ramrefcheck rangedrefcheck ranged2refcheck redrefcheck reinfrefcheck sheepgrassrefcheck spawnerrefcheck spreadrefcheck surviverefcheck tamerefcheck tntrefcheck villagerreftradecheck useonrefcheck wanderrefcheck xprefcheck xp2refcheck xporbrefcheck mobdefaultscheck regcheck remeshcheck renderinterpcheck renderrescheck riderheightcheck ridertamerngcheck ridetracecheck rngtracecheck rodaddedcheck rodcheck rolewhocheck rootscriptscheck rosteroptscheck rosterr2check runnerguardcheck saddlesoundcheck salvagecheck savecheck scaffoldingcheck sculksensorcheck seamcheck seed64check seedparsecheck shadercheck shadowcheck shadowtilecheck shapecheck shapefloodcheck sheepfleececheck shieldcheck shieldlayerscheck shuffleexplosioncheck shulkercheck shulkerattackcheck shulkerbodycheck shulkerboxcheck shulkerdrawcheck shulkersoundcheck extract-sided siegecheck silverfishcheck silverfishmagiccheck silverfishwigglecheck silverspawncheck simdistcheck skeletontargetcheck skelmeleecheck skelsunlightcheck skullcheck skycheck skydarknesscheck skygpucheck skyviewcheck slimeblockcheck slimecheck slimesoundcheck smallfireballhitcheck smallfireballnonlivingcheck smoke smoothlivecheck snbtcmdcheck snowgolemcheck snowgolemrendercheck snowgolemsoundcheck snowgolemwandercheck snowlayercheck soakcheck soaktracecheck soundaudit soundcheck soundtitlecheck soundtracecheck spawnaudit spawncapcheck spawncheck spawnercartcheck spawnercheck spawnerdraw spawnerfxcheck spawnergencheck spawnerpotentialscheck spawnerstalecheck spawnfloorcheck spawninitrngcheck spawnloccheck spawnoceancheck spawnpopcheck spawnpredcheck spawnrulecheck spawntravcheck speciesrngcheck spellcheck spellcooldowncheck spellposecheck spiderclimbcheck spidereyelightcheck spidereyescheck spidertargetcheck spitdamagecheck spitoccludercheck spitparticlecheck spitposecheck spritecheck squidcheck squidfxcheck squidposecheck sscheck stagecheck stagetimeoutcheck stalactitecheck stalactitetridentcheck stalagmitecheck stalemeshcheck standrendercheck statscheck stepsourcecheck stopatcheck straylayercheck streamcheck striderangcheck stridercheck stridergoalcheck striderroster stridersoundcheck strongholdspawnercheck structaudit structcheck structentcheck structspawncheck structurequadcheck stuckarrowcheck supportcheck surfcheck survcheck survivegatecheck swimctlcheck swimdistcheck swimgoalcontrolscheck swimnodecheck swirlcheck tagcheck takeovercheck tamecheck tamedwolfhealcheck tameownertargetcheck targetblockcheck targettracecheck temptcheck testmirrorcheck texanimcheck texaudit texauditjobcheck texl1check texrostercheck textcheck throwableitemcheck throwcheck thrownwatercheck tickcheck tilecheck tintcheck tippedcheck titlecheck tntcheck tntfusecheck tntprimedfxcheck tntrendercheck togoalticksheck tooltipcheck totemcheck tpcheck tracecheck tradecheck trademenucheck tridentchannelingcheck tridenthitcheck tridentitemcheck tridentloyaltycheck tridentriptidecheck tridentsweepcheck trimcheck tripwirecheck tropicalpackcheck turnbudgetcheck turtlecheck turtleeggcheck turtlerendercheck turtlesoundcheck undeadcheck undeadhorsecheck unionmergecheck usagerefreshcheck usagestalecheck usecheck usehold userngcheck usewearcheck uvl2check vanillacheck vaoleakcheck vbactivitycheck vbbellhidecheck vbbreedcheck vbcelebratecheck vbcompetitioncheck vbcustomercheck vbdoorcheck vbendraidcheck vbgathercheck vbhidehomecheck vbholdcheck vbidlecheck vbjobacquirecheck vbmeetcheck vbpaniccheck vbplaycheck vbringbellcheck vbseekskycheck vbstartraidcheck vbtakejobsitecheck vbwandercheck vbworkcheck vexcheck vexlightcheck vexlookcheck vexsoundcheck vextargetcheck vexwallcheck viewbobcheck villagegolemcheck villageraccept villagergoalcheck villagerheadshakecheck villagerinteractcheck villagerproftexcheck villagersoundcheck villagertexcheck villagertypecheck visfloodcheck vmcheck wandertargetcheck watchdogcheck waterdragcheck watersplashcheck weathercheck weatherdrawcheck webcheck weightedplatecheck wgcheck whiteflashcheck wireshapecheck witchhelditemcheck witchnosecheck witchposecheck witchpotioncheck witchraidtargetcheck withercheck wither1576check wither1577check witheracquirecheck witherattackcheck witherbreakcheck witherbreakdropcheck witherchargedresistcheck witherdrawcheck withergoalcheck witherheadcheck witherheadscheck witherhurtchargecheck witherinvulncheck witherlootcheck witherowedcheck witherparticlecheck witherregencheck witherskelcheck witherskullcollidecheck witherskulldeathcheck witherskulltrailcheck witherskullwatercheck withersoundcheck withersummoncheck witheryawcheck wkhashcheck wolfmodelcheck wolfrendercheck wolfshakecheck wolfsitcheck wolfsoundcheck wolfwetcheck workermodelcheck workerthreadcheck worldbordercheck worldcheck worldsetcheck wtradercheck wtradersavecheck xpbottlecheck xpmendingcheck xporbcheck xporbdrawcheck zarmscheck zoglinlookcheck zombieattackgoalcheck zombiefirecheck zombiesoundcheck zombietargetcheck zombievillagercheck zpangerpasscheck zpiglinspawncheck zpiglinspeedcheck zvillagercheck
+   A browser IS available here — these were deselected, not skipped for want of one.
+   ⚠ Run the browser stages ONE AT A TIME on a two-core box (D-281).
+===============================================
+2026-10-13T21:58:54.406Z suite end host: free RAM 14.5 GB, live browsers 0, reaped 0
