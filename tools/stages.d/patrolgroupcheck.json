@@ -1,0 +1,8 @@
+[
+ {
+  "id": "patrolgroupcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#744: Ai.PatrolGoal groupmates are PatrolEntity-only within AABB expand(16); followers get the walk waypoint. Breaks its own data."
+ }
+]

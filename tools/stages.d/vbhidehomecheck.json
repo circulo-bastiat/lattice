@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbhidehomecheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18f-B4 -- HideInHomeTask / HideInHomeDuringRaidTask (src/07zv8_vbhidehome.js): a villager 20 blocks from its bed in a raid walks home and idles within completionRange; no HOME = no move; the 24-block cap holds."
+ }
+]

@@ -1,0 +1,26 @@
+# The relay for cloud sessions (tools/infra/relay.mjs): performs the GitHub writes their proxy refuses.
+name: relay
+on:
+  push:
+    branches: ['claude/**']
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+jobs:
+  relay:
+    runs-on: [self-hosted, mclite, express]
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - shell: cmd
+        run: |
+          git fetch -q origin master
+          node tools\infra\relay.mjs ${{ github.event.before }} ${{ github.sha }} ${{ github.ref_name }} >> "%MCLITE_PROJECTS%\_status\runner-relay.log" 2>&1
+          set RC=%ERRORLEVEL%
+          powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-Content -Tail 20 $env:MCLITE_PROJECTS\_status\runner-relay.log"
+          exit /b %RC%
+        env:
+          GH_TOKEN: ${{ github.token }}

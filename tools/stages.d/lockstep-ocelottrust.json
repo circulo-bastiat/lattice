@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-ocelottrust",
+  "kind": "check",
+  "file": "tools/referee/lockstepocelottrustcheck.mjs",
+  "args": [],
+  "why": "#6795 G17-L144: lockstep scenario ocelottrust, 20 salts: OcelotEntity.interactMob feed roll (nextInt(3)==0 -> trusting + heart/41, else smoke/40), raw cod/salmon only, squared distance < 9, tempt active, not already trusting; 1/3 -> 1/2 roll caught."
+ }
+]

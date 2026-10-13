@@ -1,0 +1,10 @@
+[
+ {
+  "id": "sscheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "#1890 — `/ss` and F2 save ONE png (the frame + the debug dump embedded in it). Browser-only for the same reason as diagcheck: the capture must happen inside the frame or WebGL returns black, and the chat/key paths are DOM. It proves the png decodes and is not blank, both triggers work, and the dump carries every field the ocean-mob and invisible-block audits need; its validator, blank detector and extractor each prove they can fail."
+ }
+]

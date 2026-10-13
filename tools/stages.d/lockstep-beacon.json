@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-beacon",
+  "kind": "check",
+  "file": "tools/referee/lockstepbeaconcheck.mjs",
+  "args": [],
+  "why": "#6796 G17-L145: lockstep scenario beacon, 20 salts: pyramid levels 0-4, effect every 80 ticks, range 10+10*level, amplifier (level 4 primary==secondary), duration (9+2*level)*20, ambient, players only; interval 80->100, level cap, secondary and ambient breaks caught."
+ }
+]

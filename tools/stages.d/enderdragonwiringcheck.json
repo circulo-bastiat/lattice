@@ -1,0 +1,8 @@
+[
+ {
+  "id": "enderdragonwiringcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/enderdragon-wiring (ED.OWED item 1, QUEUE 0.00 row 0.00) -- the dedicated wire-up check: EL.motionFor/EL.canSpawn/EL.DEFAULTS/EL.WATER_TICK_ONLY/the mobTick-slot dispatch/ the travel-law exclusion for ender_dragon (src/07i_entitylist.js), plus ED.initEntity/ ED.tickEntity (src/07zzl_enderdragon.js) -- a /summon-style EL.spawn now returns a real, moving dragon under PhaseManager, not the permanently motionless statue this project's own header warned a bare gate flip would be."
+ }
+]
