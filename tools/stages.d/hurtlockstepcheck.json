@@ -1,0 +1,1 @@
+[{"id": "hurtlockstepcheck", "kind": "check", "file": "tools/referee/hurtlockstepcheck.mjs", "args": [], "why": "#6265 G17-L33: lockstep scenario hurt, 20 salts: cow melee hit 1.0 then 4.0 (grace dock, no second knockback) then kill; velocity/health/hurtTime/deathTime/removal vs the decomp LivingEntity.damage reference."}]

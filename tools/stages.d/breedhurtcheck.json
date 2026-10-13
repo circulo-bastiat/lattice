@@ -1,0 +1,8 @@
+[
+ {
+  "id": "breedhurtcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3521 -- AnimalEntity.damage sets loveTicks=0 on a non-invulnerable hit; Combat.hurt now does the same. Anti-vacuity: an invulnerable animal keeps its love."
+ }
+]

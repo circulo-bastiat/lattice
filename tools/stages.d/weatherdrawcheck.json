@@ -1,0 +1,10 @@
+[
+ {
+  "id": "weatherdrawcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "D-655 (G20): the rain streaks as a PICTURE — weathercheck holds the numbers; this one holds the ramp at 1 and asks whether the pass changes the frame at all, and at 0 whether it stays out of it."
+ }
+]

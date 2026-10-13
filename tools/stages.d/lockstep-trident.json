@@ -1,0 +1,1 @@
+[ { "id": "lockstep-trident", "kind": "check", "file": "tools/referee/tridentlockstepcheck.mjs", "args": [], "why": "#6601 G17-L76: lockstep scenario trident, 20 salts x plain/loyalty/void lanes: flight, 8 damage, dealtDamage flag, loyalty return, void return vs decomp TridentEntity/PersistentProjectileEntity." } ]

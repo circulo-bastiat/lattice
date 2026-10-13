@@ -1,0 +1,1 @@
+[ { "id": "lockstep-turtle", "kind": "check", "file": "tools/referee/lockstepturtlecheck.mjs", "args": [], "why": "#6671 G17-L100: lockstep scenario turtle, 20 salts: pregnant turtle at home beach, dig 200 ticks, egg count 1-4, hatch roll 1-in-500 stages 0-2, baby age -24000 and scute vs decomp reference; layEggCounter 199 and a 1-in-400 roll caught." } ]

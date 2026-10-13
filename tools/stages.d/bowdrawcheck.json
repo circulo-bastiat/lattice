@@ -1,0 +1,10 @@
+[
+ {
+  "id": "bowdrawcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "D-449 (session 60) — the arrow and the bow-in-hand, on a real screen: pattern copied from mobdrawcheck directly above it (same MCLITE_PRESET=medium real-Chromium method). Registered right next to it so the two browser-picture checks stay adjacent in the run order."
+ }
+]

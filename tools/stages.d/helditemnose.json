@@ -1,0 +1,8 @@
+[
+ {
+  "id": "helditemnose",
+  "kind": "check",
+  "args": [],
+  "why": "#5724: villager/wandering_trader/baby villager hold the item via VillagerHeldItemFeatureRenderer (0,0.4,-0.4, rotX 180, GROUND)"
+ }
+]

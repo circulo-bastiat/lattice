@@ -1,0 +1,8 @@
+[
+ {
+  "id": "creeperheadcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#749 -- a charged creeper's blast makes killed zombie/skeleton/wither skeleton/creeper victims drop their head, once per creeper (CreeperEntity.shouldDropHead/onHeadDropped); breaks its own data (headsDropped, uncharged, no attacker) to prove it can fail."
+ }
+]

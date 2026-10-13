@@ -1,0 +1,10 @@
+[
+ {
+  "id": "mobdrawcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "G18c step 1 (this session): `ER.build`'s live loop now spawns and draws a real mob (guardian/dolphin/llama_spit/turtle -- the only types with both measured motion AND real box geometry) -- `mobboxcheck.mjs`/`mobtexcheck.mjs`/`animcheck.mjs` proved the geometry, texture and animation DATA; this is the first stage that proves a picture. D-425 -- EVERY SPAWNABLE MOB, PHOTOGRAPHED. `g18ccheck` below has put a live mob on a real screen since session 30 and the mob it puts there is the GUARDIAN, the one type that is not like the others (a cube, no LivingEntityRenderer flip); nothing had ever photographed the other six. This picks a lit, open, floored spot through the engine's own `lookVec()` and asserts each mob is built, reaches the screen, and is drawn LIT and in colour -- a black silhouette changes pixels and passes a naive \"is it drawn\" test, which is exactly what KW-26 fell for."
+ }
+]
