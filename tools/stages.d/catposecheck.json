@@ -1,0 +1,8 @@
+[
+ {
+  "id": "catposecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1317 -- CatEntityModel sitting pose (body/tails/legs/head pivots), sleep legs + tail curl + head roll, head-down pitch, CatEntity's per-tick sleep/tail/head ramps and CatEntityRenderer's lie-down transform; 5 anti-vacuity breaks."
+ }
+]

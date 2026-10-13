@@ -1,0 +1,16 @@
+# Refreshes the Projects copy of master (what Dan's PC and the VM read). Hosted lander dispatches this; it runs on the PC runner
+# because only the PC can write that folder. Cheap: no tests.
+name: localcopy
+on:
+  workflow_dispatch:
+concurrency: { group: localcopy, cancel-in-progress: true }
+permissions: { contents: read }
+jobs:
+  copy:
+    runs-on: [self-hosted, mclite, express]
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: master }
+      - shell: cmd
+        run: node tools\infra\localcopy-run.mjs

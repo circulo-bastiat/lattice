@@ -1,0 +1,3 @@
+[
+  { "id": "batwakecheck", "kind": "check", "file": "tools/batwakecheck.mjs", "args": [] }
+]

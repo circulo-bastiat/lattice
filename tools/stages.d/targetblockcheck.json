@@ -1,0 +1,8 @@
+[
+ {
+  "id": "targetblockcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5609 -- TargetBlock.onProjectileHit: power 1..15 from the hit offset, 20 ticks for arrow/trident else 8, queued hit ignored, and the arrow/trident/snowball/egg hit paths call Rs.targetHit. Node-only."
+ }
+]

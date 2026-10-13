@@ -1,0 +1,1 @@
+[ { "id": "lockstep-vexlife", "kind": "check", "file": "tools/lockstep-vexlife.mjs", "args": [], "why": "#6860 G17-L159: lockstep scenario vexlife (evoker SummonVexGoal: three vexes, spawn offset, owner, bound pos, lifeTicks 20*(30..120), 1 STARVE damage per 20 ticks from expiry, 20 salts): lifetime roll off by one caught." } ]

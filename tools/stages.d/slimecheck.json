@@ -1,0 +1,8 @@
+[
+ {
+  "id": "slimecheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/slime-s97 (QUEUE 0.2 G18c, missing overworld mob) -- the SLIME whole: the size roll, its three per-instance attributes, the SlimeMoveControl hop, the four goals + two target goals, contact damage, split-on-death, the size-1-only loot table, and the two-branch canSpawn (swamp-at-night + the real ChunkRandom.getSlimeRandom slime-chunk formula)."
+ }
+]
