@@ -1,0 +1,3 @@
+[
+  { "id": "giantcheck", "kind": "check", "file": "tools/giantcheck.mjs", "args": [] }
+]

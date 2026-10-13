@@ -1,0 +1,8 @@
+[
+ {
+  "id": "xporbdrawcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/xporbsprite (G21) -- the orb DRAW: Xp.orbIconIndex/ER.orbUV/ER.orbColorAt against ExperienceOrbEntityRenderer's own bytecode (.decomp), headless (no GL context; a browser stage for the actual pixels would register separately, see that check's own header)."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "slimesoundcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1005 slime/magma_cube landing particles (size*8, flame/item_slime), squish/jump/attack sounds with vanilla volume+pitch, and Spawn.RULES.magma_cube (no light/biome test, lava/water in the box and peaceful refuse)."
+ }
+]

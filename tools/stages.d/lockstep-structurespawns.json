@@ -1,0 +1,1 @@
+[{"id": "lockstep-structurespawns", "kind": "check", "file": "tools/lockstep-structurespawns.mjs", "args": [], "why": "#6937 G17-L197: lockstep scenario structurespawns, 20 salts: fortress/swamp hut/outpost/monument spawn overrides vs biome list, weighted pick and pack size exact; wither_skeleton weight 8->6, cat override removed and 1 more break caught."}]
