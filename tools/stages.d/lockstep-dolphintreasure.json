@@ -1,0 +1,1 @@
+[ { "id": "lockstep-dolphintreasure", "kind": "check", "file": "tools/lockstep-dolphintreasure.mjs", "args": [], "why": "#6888 G17-L171: lockstep dolphin moistness/dry-out/hop over 400 ticks out of water, 20 salts; moistness -2 per tick, missing hop, missing dryout hurt caught. Goals owed." } ]

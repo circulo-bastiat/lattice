@@ -1,0 +1,3 @@
+[
+ { "id": "illusionerbowcheck", "kind": "check", "args": [], "why": "#1018 -- illusioner BowAttackGoal uses the fixed interval 20 on every difficulty (skeleton's 20/40 bowInterval must not apply)." }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "takeovercheck", "kind": "check", "file": "tools/takeovercheck.mjs", "args": [] }
+]
