@@ -1,0 +1,14 @@
+# gui-1.18.2.tsv — the hotbar, read out of the 1.18.2 client bytecode by tools/extract-guigeom.mjs
+# Gui = dzq   blit = (self).b   renderHotbar = a
+# ⚠ `order` and `offset` are the DRAW ORDER. The selector is blitted BEFORE the nine slots;
+#   drawing it after paints the frame over the selected slot's item and nothing else.
+# ⚠ `h` for the selector is 22, not 24: widgets.png's sprite is 24 rows and vanilla draws 22.
+kind	name	u	v	w	h	order	offset
+blit	hotbar	0	0	182	22	0	97
+blit	selector	0	22	24	22	1	136
+blit	offhand_1	24	22	29	24	2	180
+blit	offhand_2	53	22	29	24	3	208
+loop	slots	-	-	-	-	4	231
+blit	attack_indicator_1	0	94	18	18	5	483
+blit	computed_1	-	-	-	-	6	509
+consts	slotloop	90 20 2 16 3	-	-	-	-	-

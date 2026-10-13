@@ -1,0 +1,8 @@
+[
+ {
+  "id": "rodcheck",
+  "kind": "check",
+  "args": [],
+  "why": "s128 G20: lightning rod + copper weathering"
+ }
+]

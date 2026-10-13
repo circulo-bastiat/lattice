@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dispensercheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-420 (PASS 17 JOB 1, G19b) -- the DISPENSER and the DROPPER: one screen, one 3x3, one four-tick latch, and two different endings. Includes Java Edition's quasi-connectivity (`hasNeighborSignal(pos.above())`), which every BUD and piston door in the game is built on."
+ }
+]

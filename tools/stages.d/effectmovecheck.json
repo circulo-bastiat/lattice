@@ -1,0 +1,8 @@
+[
+ {
+  "id": "effectmovecheck",
+  "kind": "check",
+  "args": [],
+  "why": "G23c (#295) -- the movement effects in the physics (14b_physics.js, 07zi_squid.js): per-tick y trajectories under levitation (player, mob, squid), slow falling (gravity 0.01 + onLanding), jump boost's float jump velocity and computeFallDamage reduction, and dolphin's grace's 0.96 water slowdown, each vs the closed-form formula whose literals are read out of .decomp LivingEntity/SquidEntity first; every broken constant or dropped effect read is caught."
+ }
+]

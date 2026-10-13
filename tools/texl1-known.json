@@ -1,0 +1,13 @@
+{
+ "why": "GATE M L1 ratchet (#1504/#1509): entity sheets not pixel-identical to the 1.18.2 jar. Mob sheets are now extracted from 1.18.2 where it has them; the collar sheets now ship untinted (#1948). This list may only shrink.",
+ "differs": [],
+ "absent": [
+  "assets/minecraft/textures/entity/chest/christmas_double.png",
+  "assets/minecraft/textures/entity/chest/normal_double.png",
+  "assets/minecraft/textures/entity/chest/trapped_double.png"
+ ],
+ "firstFrame": [
+  "block/fire_0",
+  "block/soul_fire_0"
+ ]
+}
