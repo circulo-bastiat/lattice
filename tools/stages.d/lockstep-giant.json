@@ -1,0 +1,1 @@
+[{"id": "lockstep-giant", "kind": "check", "file": "tools/lockstep-giant.mjs", "args": [], "why": "#5349 G17-L4: engine-side giant lane (chasescen giant, LOCKSTEP_ONLY): vanilla GiantEntity has no goals, so the giant stands still, never targets or strikes; tampered pos/yaw/attack/health/shift breaks caught. Real-server rep0 comparison still owed (rcon timeouts with SeedAgent)."}]

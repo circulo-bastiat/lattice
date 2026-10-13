@@ -1,0 +1,3 @@
+[
+  { "id": "siegecheck", "kind": "check", "file": "tools/siegecheck.mjs", "args": [] }
+]

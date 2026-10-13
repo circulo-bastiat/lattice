@@ -1,0 +1,3 @@
+[
+  { "id": "raidrecipcheck", "kind": "check", "file": "tools/raidrecipcheck.mjs", "args": [], "why": "#4117 illager Player/Merchant/IronGolem ActiveTargetGoals carry reciprocalChance 10 (3-arg ActiveTargetGoal constructor); breaks zero it." }
+]

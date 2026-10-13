@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbworkcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/vbwork -- villager JOB-SITE WORK tasks, createWorkTasks' own priority-5 RandomTask (07zv_villagerbrain.js's own VB.workOrder/tickWorkRandom): VillagerWorkTask (every profession), GoToIfNearbyTask, GoToNearbyPositionTask, FarmerVillagerTask (farmer harvest/ replant), BoneMealTask. GoToSecondaryPositionTask and FarmerWorkTask's own composting are VB.OWED (no composter LEVEL API exists). AFTER vbactivitycheck: same NS.VB module."
+ }
+]

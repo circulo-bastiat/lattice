@@ -1,0 +1,1 @@
+[ { "id": "lockstep-shadeseek", "kind": "check", "file": "tools/lockstep-shadeseek.mjs", "args": [], "why": "#7033 G18b-L7: lockstep scenario shadeseek (EscapeSunlightGoal locateShadedPos box, helmet exemption, AvoidSunlightGoal flag; 20 salts): search box 6 -> 8 high caught." } ]

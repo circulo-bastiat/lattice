@@ -1,0 +1,1 @@
+[{"id":"fluidtilecheck","kind":"check","file":"tools/fluidtilecheck.mjs","args":[],"why":"#2002 ANIM-2: fluid sides use the flowing sprite (water_flow/lava_flow, 32x32 quadrant crop), top/bottom the still one; atlas layers 57/58/59 pinned; 4 anti-vacuity breaks."}]
