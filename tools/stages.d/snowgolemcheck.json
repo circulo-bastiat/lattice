@@ -1,0 +1,8 @@
+[
+ {
+  "id": "snowgolemcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/snowgolem: the SNOW GOLEM (mob + snowball projectile + shear + the CarvedPumpkinBlock construction pattern — see tools/snowgolemcheck.mjs's own header and src/07zq_snowgolem.js's own OWED for what is here vs still missing, chiefly that carved_pumpkin/jack_o_lantern are not placeable world blocks in this engine yet). AFTER silverfishcheck: neighbourliness only, no shared module."
+ }
+]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-spider", "kind": "check", "file": "tools/referee/spiderlockstepcheck.mjs", "args": [], "why": "#6674 G17-L103: lockstep scenario spider, 20 salts: PounceAtTargetGoal (range, roll, 0.4/0.4 leap), climbing flag == horizontalCollision, bright-light 1-in-100 drop, cave spider Poison 7 s/15 s; leap 0.4->0.5 caught." } ]

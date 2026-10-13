@@ -1,0 +1,1 @@
+[ { "id": "lockstep-shield", "kind": "check", "file": "tools/referee/shieldlockstepcheck.mjs", "args": [], "why": "#6609 G17-L83: lockstep scenario shield, 20 salts: 5-tick raise delay, 90-degree arc (dot < 0), bypassArmor/no-position sources, durability 1+floor(amount) at >=3, axe disable 100-tick cooldown vs decomp; raise 5->4, arc sign flip and cooldown change reported." } ]

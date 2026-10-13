@@ -1,0 +1,3 @@
+[
+  { "id": "bulletrefcheck", "kind": "check", "file": "tools/referee/bulletrefcheck.mjs", "args": [] }
+]

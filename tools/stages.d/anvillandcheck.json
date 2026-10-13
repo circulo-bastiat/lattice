@@ -1,0 +1,8 @@
+[
+ {
+  "id": "anvillandcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5557 -- AnvilBlock.onLanding/onDestroyedOnLanding world events 1031/1029 from EL.tickFallingBlock, silent anvils none."
+ }
+]

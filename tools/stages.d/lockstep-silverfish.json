@@ -1,0 +1,1 @@
+[ { "id": "lockstep-silverfish", "kind": "check", "file": "tools/referee/silverfishlockstepcheck.mjs", "args": [], "why": "#6681 G17-L110: lockstep scenario silverfish (CallForHelpGoal 20-tick delay, 21x11x11 break-out/revert + spawned silverfish, WanderAndInfestGoal neighbour infest; 20 seeds); delay 20->10 and disabled break-out caught." } ]

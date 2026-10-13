@@ -1,0 +1,8 @@
+[
+ {
+  "id": "irongolemcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#734: iron golem PlayerCreated flag (NBT, canTarget player/creeper) and CarvedPumpkinBlock's iron-golem T build (src/07zq_snowgolem.js SG.searchIronGolemPattern)."
+ }
+]

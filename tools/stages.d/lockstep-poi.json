@@ -1,0 +1,1 @@
+[{"id": "lockstep-poi", "kind": "check", "file": "tools/referee/locksteppoicheck.mjs", "args": [], "why": "#6906 G17-L189: lockstep scenario poi, 20 salts: villager beside composter/lectern/bed, job block broken at tick 600, second villager arrives; POI tickets, claim owner, profession/level, lost-job rule vs an independent reference; claim radius changed reported."}]

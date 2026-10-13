@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fallingtedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5918 -- FallingBlockEntity TileEntityData: a falling chest lands holding its Items, survives save/load mid-fall, untagged lands empty."
+ }
+]
