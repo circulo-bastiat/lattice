@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fallingblockcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#833 G17c -- FallingBlockEntity.tick landing (EL.tickFallingBlock): place the block, or drop it as an item gated on dropItem and doEntityDrops, when it cannot place; the 600-tick drop; air discard; hurtEntities fall damage."
+ }
+]

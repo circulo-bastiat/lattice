@@ -1,0 +1,8 @@
+[
+ {
+  "id": "zoglinlookcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4048: zoglin idle FollowMobTask(8) looks at any mob"
+ }
+]

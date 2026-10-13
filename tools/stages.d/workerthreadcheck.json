@@ -1,0 +1,10 @@
+[
+ {
+  "id": "workerthreadcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "#4981 -- the Worker Threads setting disagreed with itself: a grow that overlapped a shrink overshot the cap, a shrink did not cancel a pending grow, a cancelled retiring worker was never terminated, and the label printed the raw setting rather than the pool's count. Drives the real slider row against a real worker pool through every N and through quick drag sequences with jobs in flight, and asserts label == pool == budgets, no job lost or stranded. Breaks four corrupted snapshots to prove the judge can fail."
+ }
+]

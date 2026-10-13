@@ -1,0 +1,8 @@
+[
+ {
+  "id": "raidsavecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5783 -- an ongoing raid survives save/load: RM.toJSON/fromJSON + raiders RaidId relinked; advances like an unsaved twin."
+ }
+]
