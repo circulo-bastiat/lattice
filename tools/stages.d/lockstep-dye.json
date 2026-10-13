@@ -1,0 +1,1 @@
+[ { "id": "lockstep-dye", "kind": "check", "file": "tools/referee/dyelockstepcheck.mjs", "args": [], "why": "#6618 G17-L92: lockstep scenario dye, 20 salts: sheep dye (not same colour, not sheared, one dye spent), lamb colour from 2x1 dye mix or random parent (shared draws), tamed wolf collar dye; mix table swap, no consumption and unset collar caught." } ]

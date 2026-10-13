@@ -1,0 +1,8 @@
+[
+ {
+  "id": "barrelcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-K5 (#5660) — BarrelBlockEntity.openersCounter: opening flips BarrelBlock.OPEN and queues block.barrel.open at the facing offset; two viewers keep it open; the state survives a reload."
+ }
+]

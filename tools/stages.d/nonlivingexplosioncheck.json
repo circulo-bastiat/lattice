@@ -1,0 +1,8 @@
+[
+ {
+  "id": "nonlivingexplosioncheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5067 -- explosions remove item/xp orb within lethal range and shove items, primed tnt, falling blocks. Node-only."
+ }
+]

@@ -1,0 +1,1 @@
+[{"id": "lockstep-piglin_brute", "kind": "check", "file": "tools/lockstep-piglin_brute.mjs", "args": [], "why": "#6976: engine piglin_brute chase lane: 10-tick brain start delay, stops in melee range, no retreat; tampered rows caught."}]

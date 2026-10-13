@@ -1,0 +1,38 @@
+# item-attributes-1.18.2.tsv — attack damage and attack speed, out of the 1.18.2 bytecode.
+# D-271 declared this debt in G10 and `Hand.attackSpeedTable` has been null ever since.
+# Items = buy   Tier = bwf   Tiers = bwh
+# attackDamage = 1.0 (the player's own base) + the item's modifier + its tier's bonus
+# attackSpeed  = 4.0 (the base) + the item's modifier, in attacks per second
+# Items not listed here carry no modifier at all: 1.0 damage and 4.0 attacks a second.
+# sword = 1 for the six SwordItems, which are the only items that sweep in Player.attack.
+item	class	tier	damageMod	speedMod	tierDamage	attackDamage	attackSpeed	sword
+diamond_axe	bsw	DIAMOND	5	-3	3	9	1	0
+diamond_hoe	buo	DIAMOND	-3	0	3	1	4	0
+diamond_pickaxe	bvh	DIAMOND	1	-2.8	3	5	1.2000000000000002	0
+diamond_shovel	bvs	DIAMOND	1.5	-3	3	5.5	1	0
+diamond_sword	bwd	DIAMOND	3	-2.4	3	7	1.6	1
+golden_axe	bsw	GOLD	6	-3	0	7	1	0
+golden_hoe	buo	GOLD	0	-3	0	1	1	0
+golden_pickaxe	bvh	GOLD	1	-2.8	0	2	1.2000000000000002	0
+golden_shovel	bvs	GOLD	1.5	-3	0	2.5	1	0
+golden_sword	bwd	GOLD	3	-2.4	0	4	1.6	1
+iron_axe	bsw	IRON	6	-3.1	2	9	0.8999999999999999	0
+iron_hoe	buo	IRON	-2	-1	2	1	3	0
+iron_pickaxe	bvh	IRON	1	-2.8	2	4	1.2000000000000002	0
+iron_shovel	bvs	IRON	1.5	-3	2	4.5	1	0
+iron_sword	bwd	IRON	3	-2.4	2	6	1.6	1
+netherite_axe	bsw	NETHERITE	5	-3	4	10	1	0
+netherite_hoe	buo	NETHERITE	-4	0	4	1	4	0
+netherite_pickaxe	bvh	NETHERITE	1	-2.8	4	6	1.2000000000000002	0
+netherite_shovel	bvs	NETHERITE	1.5	-3	4	6.5	1	0
+netherite_sword	bwd	NETHERITE	3	-2.4	4	8	1.6	1
+stone_axe	bsw	STONE	7	-3.2	1	9	0.7999999999999998	0
+stone_hoe	buo	STONE	-1	-2	1	1	2	0
+stone_pickaxe	bvh	STONE	1	-2.8	1	3	1.2000000000000002	0
+stone_shovel	bvs	STONE	1.5	-3	1	3.5	1	0
+stone_sword	bwd	STONE	3	-2.4	1	5	1.6	1
+wooden_axe	bsw	WOOD	6	-3.2	0	7	0.7999999999999998	0
+wooden_hoe	buo	WOOD	0	-3	0	1	1	0
+wooden_pickaxe	bvh	WOOD	1	-2.8	0	2	1.2000000000000002	0
+wooden_shovel	bvs	WOOD	1.5	-3	0	2.5	1	0
+wooden_sword	bwd	WOOD	3	-2.4	0	4	1.6	1

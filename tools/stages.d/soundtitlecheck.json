@@ -1,0 +1,10 @@
+[
+ {
+  "id": "soundtitlecheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "session 150, worker 2 -- /playsound, /tellraw, /title vanilla-parity audit, LIVE. Found and fixed in src/15g_commands.js: `/playsound`'s grammar attached an extra `.executes()` directly to the `source` (category) argument node, so `/playsound <sound> <source>` with NO targets at all silently succeeded (defaulting to self) -- .decomp `PlaySoundCommand. makeArgumentsForCategory` hangs no executor there at all, `targets` is required, not optional. /tellraw and /title matched .decomp exactly (verified live: JSON delivery, no-feedback tellraw, subtitle-alone-is-invisible, times clamp, clear vs reset). `minVolume` (PlaySoundCommand's fifth argument) is a genuinely missing argument form, left unbuilt."
+ }
+]

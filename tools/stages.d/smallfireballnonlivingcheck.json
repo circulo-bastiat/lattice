@@ -1,0 +1,8 @@
+[
+ {
+  "id": "smallfireballnonlivingcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3896 — small fireball hits boats, minecarts and end crystals (Entity.collides), not only maxHealth entities."
+ }
+]
