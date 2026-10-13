@@ -1,0 +1,8 @@
+[
+ {
+  "id": "monumentcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4494 -- a generated ocean monument spawns 3 persistent elder_guardians (core + two wing rooms), one chunk each; prints '<n> breaks caught'."
+ }
+]

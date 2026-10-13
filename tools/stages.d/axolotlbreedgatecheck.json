@@ -1,0 +1,8 @@
+[
+ {
+  "id": "axolotlbreedgatecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3723 -- BREED_TARGET memory (set by Ai.BreedGoal) forgets PLAY_DEAD and gates Ax.FightGoal, as AxolotlBrain.hasBreedTarget does."
+ }
+]

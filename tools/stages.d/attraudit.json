@@ -1,0 +1,3 @@
+[
+  { "id": "attraudit", "kind": "check", "file": "tools/attraudit.mjs", "args": [], "why": "#1535 GATE M attributes: every roster type's jar attribute row (entity-attributes tsv) vs Entities.attrsOf and the live spawned entity; ledger tools/attraudit-known.json may only shrink; 8 deliberate breaks; --file files new findings (bug,mobs) de-duplicated by mob." }
+]

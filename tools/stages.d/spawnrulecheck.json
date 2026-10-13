@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spawnrulecheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/spawnsweep-s104 (QUEUE 0.2 G18c) -- the six mob types this engine can both SIMULATE (EL.spawnable(), motion-measured) and that carry a real overworld biome spawner-table row and had no Spawn.RULES entry before this session: horse, ocelot, parrot, wolf, witch, dolphin. Each gets an accept and a refuse position, ported from .decomp verbatim."
+ }
+]

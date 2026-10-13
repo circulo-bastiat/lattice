@@ -1,0 +1,8 @@
+[
+ {
+  "id": "animcheck",
+  "kind": "check",
+  "args": [],
+  "why": "PASS 16 JOB 4.4 -- the setupAnim angle-delta wiring (D-263 bytecode-verified formulas, tools/golden/setupanim-1.18.2.json): which named parts move, which stay at rest, the humanoid/quadruped symmetry, and that omitting `anim` leaves JOB 4.3's static pose untouched. Still no browser stage, no pixel, no live entity -- see git 2a8efe1:docs/passes/PASS-15-HISTORY.md."
+ }
+]
