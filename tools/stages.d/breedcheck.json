@@ -1,0 +1,8 @@
+[
+ {
+  "id": "breedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18e unit 1 (D-423) -- LOVE MODE, FEEDING AND BREEDING. `EL.aiCtx`'s `onBreed` did nothing and its `isTempting` always refused, so `Ai.BreedGoal` and `Ai.TemptGoal` had been wired to nothing since D-383 and nothing could tell. This drives the real module, the real `EntityList` tick and the real ctx, and asserts the four KINDS of isFood survive the pack step -- `none` (vanilla forbids it) is a different fact from `predicate` (not a list)."
+ }
+]

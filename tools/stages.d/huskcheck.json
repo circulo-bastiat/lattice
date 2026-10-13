@@ -1,0 +1,3 @@
+[
+  { "id": "huskcheck", "kind": "check", "file": "tools/huskcheck.mjs", "args": [] }
+]

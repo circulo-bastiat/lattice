@@ -1,0 +1,1 @@
+[{"id": "lockstep-conduit", "kind": "check", "file": "tools/lockstep-conduit.mjs", "args": [], "why": "#6800 G17-L149: lockstep scenario conduit, 20 salts: frame scan 16/42, range n/7*16, conduit_power 260 every 40, hunting target within 8, damage 4, sounds, rotation; frame minimum and 6 other breaks caught."}]

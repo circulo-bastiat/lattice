@@ -1,0 +1,3 @@
+[
+  { "id": "frostedice", "kind": "check", "file": "tools/frostedicecheck.mjs", "args": [] }
+]

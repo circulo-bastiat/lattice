@@ -1,0 +1,1 @@
+[{"id": "lockstep-vex", "kind": "check", "file": "tools/lockstep-vex.mjs", "args": [], "why": "#5374 G17-L4: engine-side chasescen vex lane emitter, 20 salts (pos, yaw, pitch, target, attackTicks, health per tick); deterministic per salt; tampered pos 1e-9/yaw/attack/health/shift breaks caught. Server comparison runs through lockstep/pilot.mjs --lanes vex."}]

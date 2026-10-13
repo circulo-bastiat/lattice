@@ -1,0 +1,45 @@
+# Published into the public test mirror by tools/infra/mirror.mjs (#6767) as .github/workflows/ci.yml. Runs the suite with the
+# args in .ci-args on the pushed t/<id> snapshot and pushes ci-out.txt + ci-status.txt to r/<id>; the private side reads them
+# and deletes both branches. Nothing here may name the owner: the data source is a secret.
+name: ci
+on:
+  push:
+    branches: ['t/**']
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    timeout-minutes: 85
+    env:
+      NODE_OPTIONS: --dns-result-order=ipv4first
+      MCLITE_PRESET: medium
+      MCLITE_HOSTED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: private workflows back in place (read by checks, never run here)
+        run: mkdir -p .github && cp -r .ci-wf/. .github/
+      - name: data
+        env: { STORE_URL: '${{ secrets.STORE_URL }}' }
+        run: node tools/cloud/bootstrap.mjs --store "$STORE_URL" --no-suite --no-build 2>&1 | tail -4 | sed -E 's#https?://[^ ]*@#https://***@#g'
+      - name: build (assets/ is generated per checkout, as the lander does)
+        run: node tools/suite.mjs --fast --to build > "$RUNNER_TEMP/build.txt" 2>&1; echo "build exit $?"; tail -2 "$RUNNER_TEMP/build.txt"
+      - name: suite
+        run: |
+          set +e
+          node tools/suite.mjs $(cat .ci-args) > "$RUNNER_TEMP/out.txt" 2>&1
+          echo $? > "$RUNNER_TEMP/status.txt"
+          tail -c 900000 "$RUNNER_TEMP/out.txt" > "$RUNNER_TEMP/out2.txt"
+          echo "status $(cat "$RUNNER_TEMP/status.txt")"
+      - name: report
+        if: always()
+        run: |
+          id="${GITHUB_REF_NAME#t/}"
+          cd "$RUNNER_TEMP" && rm -rf rep && mkdir rep && cd rep && git init -q
+          cp ../out2.txt ci-out.txt 2>/dev/null || echo "no output - never reached the game" > ci-out.txt
+          cp ../status.txt ci-status.txt 2>/dev/null || echo 1 > ci-status.txt
+          git -c user.name=CI -c user.email=ci@invalid.invalid add -A
+          git -c user.name=CI -c user.email=ci@invalid.invalid commit -qm "$id"
+          git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" "HEAD:refs/heads/r/$id"

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "beworldcheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-421 -- THE BLOCK ENTITIES IN THE WORLD. A chest, a bed, a banner, a sign and a shulker box all bake ZERO quads (measured here, not assumed): their block models are `builtin/entity` and vanilla draws them from a block-entity renderer, which this engine did not have -- so nine units of container SCREENS were built over an invisible block. This holds the chest family's own renderer to the jar's law (the lid controller's ten float32 ticks, ChestRenderer's cubic openness curve, the facing rotation in all four directions, LEFT/RIGHT as two different models) and keeps the DRAWN/OWED split closed, so a tenth screen cannot be built over a hole again."
+ }
+]

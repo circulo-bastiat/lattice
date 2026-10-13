@@ -1,0 +1,3 @@
+[
+  { "id": "ravagerimmobilecheck", "kind": "check", "file": "tools/ravagerimmobilecheck.mjs", "args": [], "why": "#2902 -- RavagerEntity.isImmobile skips tickNewAi and zeroes jumping; tick state machine still runs" }
+]

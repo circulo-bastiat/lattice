@@ -1,0 +1,10 @@
+[
+ {
+  "id": "cullcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "⚠ D-743/KW-2 — §2f/§3's DETERMINISM ASSERTIONS NEED A LARGE RENDER DISTANCE TO BE WORTH ANYTHING. The async mesh-completion race they guard against (a not-yet-meshed section's placeholder vis mask changing while nothing about the camera did) only has room to show up when there is enough in-flight streaming for the timing to matter — this suite's own default preset (a small render distance) does not reliably reproduce it even with the fix reverted; `MCLITE_PRESET=high` (or `--preset high`) does. cullcheck now clamps §2f's own comparison to a render distance it can prove settled either way (see cullcheck.mjs's §2f comment), so it is safe and green at every preset — but a REGRESSION of the race itself is only caught by actually running this stage at `MCLITE_PRESET=high` at least once per change to `07_world.js`'s mesh-completion path, 10_gfx.js's flood, or cullcheck.mjs's own settle logic."
+ }
+]
