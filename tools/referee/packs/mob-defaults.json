@@ -1,0 +1,1111 @@
+{
+  "name": "mob-defaults",
+  "description": "G18: every living mob type the engine defines, its base attribute values, and a few default NBT fields, read from the real 1.18.2 server.",
+  "version": "1.18.2",
+  "mobs": [
+    {
+      "id": "armor_stand",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.knockback_resistance"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "axolotl",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "bat",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "bee",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "blaze",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "cat",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "cave_spider",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "chicken",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "cod",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "cow",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "creeper",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "dolphin",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "donkey",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "drowned",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "elder_guardian",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "ender_dragon",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "enderman",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "endermite",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "evoker",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "fox",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "ghast",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "giant",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "glow_squid",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "goat",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "guardian",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "hoglin",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "horse",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "husk",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "illusioner",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "iron_golem",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "llama",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "magma_cube",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "mooshroom",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "mule",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "ocelot",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "panda",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "parrot",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "phantom",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "pig",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "piglin",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "piglin_brute",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "pillager",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "polar_bear",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "pufferfish",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "rabbit",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "ravager",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "salmon",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "sheep",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "shulker",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "silverfish",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "skeleton",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "skeleton_horse",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "slime",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "snow_golem",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "spider",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "squid",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "stray",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "strider",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "trader_llama",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "tropical_fish",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "turtle",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "vex",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "villager",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "vindicator",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "wandering_trader",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "witch",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "wither",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "wither_skeleton",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "wolf",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "zoglin",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "zombie",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "zombie_horse",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired",
+        "Age"
+      ]
+    },
+    {
+      "id": "zombie_villager",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    },
+    {
+      "id": "zombified_piglin",
+      "attrs": [
+        "minecraft:generic.max_health",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.follow_range",
+        "minecraft:generic.knockback_resistance",
+        "minecraft:generic.attack_knockback"
+      ],
+      "nbt": [
+        "CanPickUpLoot",
+        "PersistenceRequired"
+      ]
+    }
+  ]
+}

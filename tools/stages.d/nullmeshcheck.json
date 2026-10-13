@@ -1,0 +1,3 @@
+[
+  { "id": "nullmeshcheck", "kind": "check", "file": "tools/nullmeshcheck.mjs", "args": [] }
+]

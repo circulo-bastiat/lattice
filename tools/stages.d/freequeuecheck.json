@@ -1,0 +1,3 @@
+[
+  { "id": "freequeuecheck", "kind": "check", "file": "tools/freequeuecheck.mjs", "args": [] }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "hangingcheck", "kind": "check", "file": "tools/hangingcheck.mjs", "args": [], "why": "G17-HG1 -- AbstractDecorationEntity core: wall-hugging box for all facings x sizes, 100-tick canStayAttached drop, registration; wrong half-pixel shift must fail." }
+]

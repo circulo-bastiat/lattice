@@ -1,0 +1,1 @@
+[ { "id": "lockstep-leashknot", "kind": "check", "file": "tools/referee/leashknotlockstepcheck.mjs", "args": [], "why": "#6855 G17-L154: lockstep scenario leashknot, 20 salts: lead on a fence makes a knot at block+(0.5,0.375,0.5), fence removed -> knot discarded on the 101st-tick poll, lead dropped; a knot surviving its fence is caught." } ]

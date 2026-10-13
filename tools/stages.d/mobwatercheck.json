@@ -1,0 +1,1 @@
+[{"id":"mobwatercheck","kind":"check","args":[],"why":"#960 mob water-entry splash, swim and small/big fall sounds (entity.hostile.* for HostileEntity, generic otherwise)"}]
