@@ -1,0 +1,3 @@
+[
+  { "id": "projrngcheck", "kind": "check", "file": "tools/projrngcheck.mjs", "args": [] }
+]

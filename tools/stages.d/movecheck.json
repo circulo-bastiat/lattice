@@ -1,0 +1,8 @@
+[
+ {
+  "id": "movecheck",
+  "kind": "check",
+  "args": [],
+  "why": "PLAN G4 — vanilla's locomotion law, per tick, against constants reflected out of the 1.18.2 server jar (D-250/D-251). Every expectation is computed in the check from the law in closed form; nothing asks the engine what it thinks the answer is."
+ }
+]

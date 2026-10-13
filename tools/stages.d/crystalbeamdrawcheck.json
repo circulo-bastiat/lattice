@@ -1,0 +1,8 @@
+[
+ {
+  "id": "crystalbeamdrawcheck",
+  "kind": "browser",
+  "args": ["dist/mclite.html"],
+  "why": "loop/crystal-beam-render -- D-838's own beamQuads reaching an ACTUAL GPU draw call (WebGL2 + WebGPU, riding ER.renderOrbs' existing 10_gfx.js hook -- see ER.renderCrystalBeams' own header in 07j_entityrender.js), proven against a real screenshot: a live end_crystal changes MORE pixels once e.beamTarget is set than the same crystal with none. --fast skips it (browser stage)."
+ }
+]
