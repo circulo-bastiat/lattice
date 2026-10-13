@@ -1,0 +1,8 @@
+[
+ {
+  "id": "hurtwindowcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#426: hit blocked only while invulnerableTime > 10 (LivingEntity.hurt); a 1-dmg hit lands again at tick 11"
+ }
+]

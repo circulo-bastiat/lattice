@@ -1,0 +1,3 @@
+[
+  { "id": "wolfsitcheck", "kind": "check", "file": "tools/wolfsitcheck.mjs", "args": [] }
+]

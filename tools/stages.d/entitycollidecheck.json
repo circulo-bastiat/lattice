@@ -1,0 +1,8 @@
+[
+ {
+  "id": "entitycollidecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5346 -- boats and every *_minecart are solid to other entities (isCollidable box feed in Ph.clipE): a player lands at y+height, is stopped by the side, and a rider is not blocked by its own vehicle. Breaks its solid filter and its vehicle-chain exclusion."
+ }
+]

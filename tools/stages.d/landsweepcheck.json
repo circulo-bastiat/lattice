@@ -1,0 +1,3 @@
+[
+  { "id": "landsweepcheck", "kind": "check", "file": "tools/landsweepcheck.mjs", "args": [] }
+]

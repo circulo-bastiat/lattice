@@ -1,0 +1,8 @@
+[
+ {
+  "id": "throwcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/throwables-s116 -- the player's own thrown snowball/egg/ender pearl/splash+ lingering potion (07zzd_throw.js), plus the new lingering AreaEffectCloud substrate (Po.applyLingeringPotion/Po.tickCloud, 07z_potion.js). AFTER bowcheck: same right-click fallback slot in Use.rightClick, same EL.spawn/Cb.gauss substrate it reuses."
+ }
+]

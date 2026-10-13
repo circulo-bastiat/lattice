@@ -1,0 +1,1 @@
+[{"id": "lockstep-playerdrown", "kind": "check", "file": "tools/referee/playerdrownlockstepcheck.mjs", "args": [], "why": "#6724 G17-L128: lockstep scenario playerdrown, 20 salts: player air 300 to -20 reset plus 2 drown damage, Respiration III skip roll, Water Breathing, +4 refill vs decomp baseTick."}]

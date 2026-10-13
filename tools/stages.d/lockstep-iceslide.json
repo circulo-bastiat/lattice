@@ -1,0 +1,1 @@
+[ { "id": "lockstep-iceslide", "kind": "check", "file": "tools/referee/lockstepiceslidecheck.mjs", "args": [], "why": "#6720 G17-L124: lockstep scenario iceslide, 20 salts: per-tick horizontal velocity on stone/ice/packed ice/blue ice/slime (friction x 0.91, 0.216/f^3 acceleration); blue ice 0.99 and ice 0.6 changes caught." } ]
