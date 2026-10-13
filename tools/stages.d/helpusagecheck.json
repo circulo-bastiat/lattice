@@ -1,0 +1,8 @@
+[
+ {
+  "id": "helpusagecheck",
+  "kind": "check",
+  "args": [],
+  "why": "KW-47 (docs/KNOWN-WRONG.md) -- /help's argument syntax and vanilla's compact smart-usage form. Jar-verified against brigadier-1.3.10.jar's CommandDispatcher.class constant pool (no javap on this box; read with a small pure-Python classfile parser) and .decomp net/minecraft/server/command/HelpCommand.java: no-arg /help now shows each top-level command's argument shape via getSmartUsage(root, source) instead of D.names()'s bare word, and /help <command> re-parses the WHOLE typed string (narrowing into a sub- path, e.g. /help gamemode survival) and smart-usages the deepest parsed node instead of C.usage()'s one-line-per-runnable-path enumeration off only the first word."
+ }
+]

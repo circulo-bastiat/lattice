@@ -1,0 +1,8 @@
+[
+ {
+  "id": "axolotllookcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1364 -- AxolotlBrain IDLE FollowMobTask(PLAYER, 6.0F): Ai.ROSTER.axolotl carries a LookAtPlayerGoal(6). Rejects an empty or wrong-range look set."
+ }
+]

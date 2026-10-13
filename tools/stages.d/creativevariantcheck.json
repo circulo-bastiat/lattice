@@ -1,0 +1,8 @@
+[
+ {
+  "id": "creativevariantcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#506 — creative tabs and search carry Item.appendStacks' per-variant stacks (potions, splash, lingering, tipped arrows per Registry.POTION; enchanted books per enchantment/level), counted against the decompiled sources."
+ }
+]

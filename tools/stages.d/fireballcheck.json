@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fireballcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#646 — ExplosiveProjectileEntity.tick: fireball flight in air (drag 0.95) and water (0.8), swept entity collision (no tunneling of a thin mob), owner-removed discard, ghast idle yaw 0 at rest (Gh.tickFireball, 07zzi_ghast.js)."
+ }
+]

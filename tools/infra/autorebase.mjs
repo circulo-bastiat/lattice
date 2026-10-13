@@ -1,0 +1,49 @@
+// autorebase.mjs - #4589: a PR the lander bounced for a merge conflict re-queues itself (decision: docs/decisions/4589-auto-rebase.md).
+// decide() is pure; sweep() reads GitHub and acts. The brain's 15-minute health pass calls sweep().
+//   requeue  GitHub says it merges clean now -> label `land` again (the lander re-tests it on master: no session, no model)
+//   close    its issue is closed and nothing touched it for 7 days -> closed with a comment, not rebased
+//   block    the third conflict bounce (the original + 2 worker attempts) -> issue `blocked`, fixer mailed
+//   none     a true conflict: the queue hands the branch to a worker first (go.mjs queue(): needs-rebase leads)
+export const STALE_MS = 7 * 86400e3, MAX_BOUNCES = 3;
+const lab = (o, l) => (o.labels || []).some((x) => (x.name || x) === l);
+const CONFLICT = /^\*\*Lander:\*\* conflicts with master/;
+
+/** pr = pulls/N, issue = its issue, comments = the PR's comments (oldest first). */
+export function decide({ pr, issue, comments, now }) {
+  if (lab(pr, 'land')) return 'none';                                          // already queued
+  const lander = comments.filter((c) => /^\*\*Lander:\*\*/.test(c.body || ''));
+  if (!lander.length || !CONFLICT.test(lander[lander.length - 1].body)) return 'none';   // a red bounce is a worker's job, not a conflict
+  if (issue.state === 'closed' && now - Date.parse(pr.updated_at) > STALE_MS) return 'close';
+  if (lander.filter((c) => CONFLICT.test(c.body)).length >= MAX_BOUNCES) return lab(issue, 'blocked') ? 'none' : 'block';
+  return pr.mergeable === true ? 'requeue' : 'none';                          // null = GitHub has not computed it yet: next pass
+}
+
+/** One pass. Returns the lines it acted on; per-PR failures are returned as errors (the caller mails them), never retried in a loop. */
+export async function sweep({ gh, ghAll, post, now = Date.now() }) {
+  const flagged = new Set((await ghAll('/repos/{repo}/issues?state=open&labels=needs-rebase')).filter((i) => !i.pull_request).map((i) => i.number));
+  const acts = [], errors = [];
+  for (const p of await ghAll('/repos/{repo}/pulls?state=open')) {
+    const issueNo = Number((p.head.ref.match(/^work\/(\d+)-/) || [])[1]);
+    if (lab(p, 'land') || !(lab(p, 'needs-rebase') || flagged.has(issueNo))) continue;
+    try {
+      const pr = await gh('GET', `/repos/{repo}/pulls/${p.number}`), issue = issueNo ? await gh('GET', `/repos/{repo}/issues/${issueNo}`) : { state: 'open', labels: [] };
+      const d = decide({ pr, issue, comments: await ghAll(`/repos/{repo}/issues/${p.number}/comments`), now });
+      if (d === 'none') continue;
+      const say = (t) => gh('POST', `/repos/{repo}/issues/${p.number}/comments`, { body: `**Auto-rebase (#4589):** ${t}` });
+      if (d === 'requeue') {
+        await say('GitHub reports this merges cleanly onto master now; re-labelled `land` so the lander re-tests it.');
+        await gh('POST', `/repos/{repo}/issues/${p.number}/labels`, { labels: ['land'] });
+        if (issueNo) await gh('DELETE', `/repos/{repo}/issues/${issueNo}/labels/needs-rebase`).catch(() => {});
+      } else if (d === 'close') {
+        await say(`issue #${issueNo} is closed and nothing touched this PR for 7 days; closed instead of rebased.`);
+        await gh('PATCH', `/repos/{repo}/pulls/${p.number}`, { state: 'closed' });
+      } else {
+        await gh('POST', `/repos/{repo}/issues/${issueNo}/labels`, { labels: ['blocked'] });
+        await say(`bounced for a merge conflict ${MAX_BOUNCES} times (the original and 2 worker attempts); issue #${issueNo} labelled \`blocked\`.`);
+        await post('fixer', `PR #${p.number} (issue #${issueNo}) conflicted with master ${MAX_BOUNCES} times and two rebase attempts failed; it is labelled blocked. Rebase it by hand or close it.`);
+      }
+      acts.push(`#${p.number} ${d}`);
+    } catch (e) { errors.push(`#${p.number}: ${String(e.message).slice(0, 160)}`); }
+  }
+  return { acts, errors };
+}

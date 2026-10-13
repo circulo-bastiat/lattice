@@ -1,0 +1,1 @@
+[ { "id": "lockstep-dispenser", "kind": "check", "file": "tools/referee/dispenserlockstepcheck.mjs", "args": [], "why": "#6610 G17-L84: lockstep scenario dispenser: arrow, snowball, egg, splash potion, fire charge, boat x 20 seeds x 6 facings: exit position, velocity (power 1.1, uncertainty 6.0 via a real java.util.Random gaussian) and slot choice vs decomp reference." } ]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-stalactitefall", "kind": "check", "file": "tools/referee/stalactitefallcheck.mjs", "args": [], "why": "#7083 G17-L220: lockstep scenario stalactitefall (falling stalactite hurts a cow, max 40; zombie onto stalagmite tip adds 2.0 fall distance x2, 20 salts); fallOn extra 2->1 and cap 40->20 caught." } ]

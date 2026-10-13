@@ -1,0 +1,1 @@
+[{"id": "lockstep-pathtypes", "kind": "check", "file": "tools/lockstep-pathtypes.mjs", "args": [], "why": "#7027 G18b-L1: engine-side pathtypes lane (14 hazard arenas x 20 salts), pos + path rows deterministic, node types per LandPathNodeMaker; cactus penalty 0 / trapdoor as OPEN caught."}]

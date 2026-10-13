@@ -1,0 +1,1 @@
+[ { "id": "lockstep-xporb", "kind": "check", "file": "tools/referee/xporblockstepcheck.mjs", "args": [], "why": "#6311 G17-L60: lockstep scenario xporb, 20 salts: orb pull (8.0 radius, (1-d/8)^2*0.1), merge by pickingCount, 6000-tick despawn vs decomp ExperienceOrbEntity.tick; pull radius 8->7 caught." } ]
