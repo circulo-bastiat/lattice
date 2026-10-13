@@ -1,0 +1,3 @@
+[
+  { "id": "cauldronentitycheck", "kind": "check", "file": "tools/cauldronentitycheck.mjs", "args": [] }
+]
