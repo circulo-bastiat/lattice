@@ -1,0 +1,10 @@
+[
+ {
+  "id": "backendcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "⚠⚠ THE STAGE THAT ASKS WHETHER THE GAME STARTS AT ALL (D-310). Every other browser stage boots the default way and therefore proves nothing about the other backend or the fallback between them — which is how a build that died on Dan's machine at the fatal screen passed 1,174,964 assertions. This one sabotages the boot the way real hardware does."
+ }
+]

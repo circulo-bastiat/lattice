@@ -1,0 +1,3 @@
+[
+  { "id": "illagerfleecheck", "kind": "check", "file": "tools/illagerfleecheck.mjs", "args": [] }
+]

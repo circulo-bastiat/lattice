@@ -1,0 +1,3 @@
+[
+  { "id": "lockstepresetcheck", "kind": "check", "file": "tools/referee/lockstepresetcheck.mjs", "args": [], "why": "#6225: SeedAgent counters reset between reps (reset file) so reps 1..N equal rep 0; reset omitted must fail." }
+]

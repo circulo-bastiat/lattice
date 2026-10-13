@@ -1,0 +1,3 @@
+[
+  { "id": "braincheck", "kind": "check", "file": "tools/braincheck.mjs", "args": [] }
+]

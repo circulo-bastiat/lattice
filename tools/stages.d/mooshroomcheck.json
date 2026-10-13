@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mooshroomcheck",
+  "kind": "check",
+  "args": [],
+  "why": "s101 orchestrator (QUEUE 0.2 G18c) -- the mooshroom + cow milking (07zn_mooshroom.js)."
+ }
+]
