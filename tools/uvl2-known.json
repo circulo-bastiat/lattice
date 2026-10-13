@@ -1,0 +1,30 @@
+{
+ "why": "GATE M L2 ratchet (#1505), tools/uvl2check.mjs. mismatch = texture keys whose baked/drawn UVs differ from the .decomp ModelPart.Cuboid layout (value: the first finding). Measured classes: (1) extract-models drops a STICKY ModelPartBuilder.mirrored() (goat goatee, ender dragon/dragon skull head + wing parts); (2) (horse baby legs: fixed #2548); (3) a sheet bound to a model whose TexturedModelData size differs, sampled un-normalised: chest_minecart (chest png on the minecart model), the 1.13.2 *_double chest sheets, every #b/#c armour layer baked from the mob skin, and the #null name collisions (eye#null = conduit eye geometry carrying the mob eye sheets, shell#null = conduit shell carrying the turtle sheet). unjoined = keys with no joinable vanilla model: tools/vanillamodel.mjs cannot translate the loop/array-built classes (ghast, guardian, elder_guardian, endermite, silverfish; witch joined in #1704 once ModelPartData.addChild kept a replaced part's children), dragon_head has no layer of that name, and the engine name collisions outer#null (slime cube + drowned outer), pattern#null (both tropical fish patterns), zombified_piglin#c (holds the BOAT boxes). Both lists may only SHRINK: fix one, delete it here.",
+ "mismatch": {
+  "double_chest_left": "assets/minecraft/textures/entity/chest/normal_double.png is 128x64 but double_chest_left's texture is 64x64: vanilla's normalised uv lands 2x1 further on it",
+  "double_chest_left#1": "assets/minecraft/textures/entity/chest/trapped_double.png is 128x64 but double_chest_left's texture is 64x64: vanilla's normalised uv lands 2x1 further on it",
+  "double_chest_left#2": "assets/minecraft/textures/entity/chest/christmas_double.png is 128x64 but double_chest_left's texture is 64x64: vanilla's normalised uv lands 2x1 further on it",
+  "double_chest_right": "assets/minecraft/textures/entity/chest/normal_double.png is 128x64 but double_chest_right's texture is 64x64: vanilla's normalised uv lands 2x1 further on it",
+  "double_chest_right#1": "assets/minecraft/textures/entity/chest/trapped_double.png is 128x64 but double_chest_right's texture is 64x64: vanilla's normalised uv lands 2x1 further on it",
+  "double_chest_right#2": "assets/minecraft/textures/entity/chest/christmas_double.png is 128x64 but double_chest_right's texture is 64x64: vanilla's normalised uv lands 2x1 further on it",
+  "end_crystal": "assets/minecraft/textures/entity/end_crystal/end_crystal.png is 128x64 but end_crystal's texture is 64x32: vanilla's normalised uv lands 2x2 further on it"
+ },
+ "unjoined": {
+  "dragon_fireball": "no EntityModelLayer",
+  "conduit": "no model layer",
+  "conduit_cage": "no model layer",
+  "conduit_eye": "no model layer",
+  "conduit_eye#1": "no model layer",
+  "conduit_wind": "no model layer",
+  "conduit_wind#1": "no model layer",
+  "sign": "no model layer",
+  "sign#1": "no model layer",
+  "sign#2": "no model layer",
+  "sign#3": "no model layer",
+  "sign#4": "no model layer",
+  "sign#5": "no model layer",
+  "sign#6": "no model layer",
+  "sign#7": "no model layer"
+ },
+ "minLayers": 137
+}

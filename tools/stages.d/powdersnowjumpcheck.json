@@ -1,0 +1,8 @@
+[
+ {
+  "id": "powdersnowjumpcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#951 -- generic Ai.PowderSnowJumpGoal wired into silverfish/endermite/rabbit (1) and fox (0); fires only for powder_snow_walkable_mobs in powder snow with open headroom."
+ }
+]

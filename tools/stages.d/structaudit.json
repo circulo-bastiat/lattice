@@ -1,0 +1,8 @@
+[
+ {
+  "id": "structaudit",
+  "kind": "check",
+  "args": [],
+  "why": "⚠ what a structure LOOKS LIKE once it is written, which `structcheck`'s 84,316 assertions about placement arithmetic cannot see. It generates each sampled chunk TWICE — with the structure pass on and off — and measures the diff: floating components, buried interiors, technical blocks that escaped into the world, jigsaw joins reconstructed from the placed pieces, vanilla's own spread window, and air/water coherence. After structcheck because it audits the output of everything structcheck fences."
+ }
+]

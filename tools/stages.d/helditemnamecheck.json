@@ -1,0 +1,8 @@
+[
+ {
+  "id": "helditemnamecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#363 -- InGameHud.tick resets the held-item name only on item/name change (not durability or tags); renderHeldItemTooltip colours it by rarity (enchanted bumps one step) and italicises custom names."
+ }
+]

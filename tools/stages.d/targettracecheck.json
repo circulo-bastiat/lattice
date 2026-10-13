@@ -1,0 +1,3 @@
+[
+  { "id": "targettracecheck", "kind": "check", "file": "tools/referee/targettracecheck.mjs", "args": [], "why": "#6253 G17-L21: server-side trace rows take 'target' from the agent's TGT log; a different target id is reported at tick+field." }
+]

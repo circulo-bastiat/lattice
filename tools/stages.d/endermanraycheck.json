@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endermanraycheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-768 (KW-43): PickUpBlockGoal's missing line-of-sight raycast (pick-up/place rate ~2x vanilla)."
+ }
+]

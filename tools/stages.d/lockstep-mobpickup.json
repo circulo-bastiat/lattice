@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-mobpickup",
+  "kind": "check",
+  "file": "tools/referee/mobpickuplockstepcheck.mjs",
+  "args": [],
+  "why": "#6723 G17-L127: lockstep scenario mobpickup, 20 salts: zombie canPickUpLoot takes iron helmet/sword/bow, replaced-item drop roll 0.085, gold left, vs MobEntity.loot reference."
+ }
+]

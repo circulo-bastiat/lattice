@@ -1,0 +1,8 @@
+[
+ {
+  "id": "seamcheck",
+  "kind": "check",
+  "args": [],
+  "why": "KW-48b-1 (#586, #578/GATE M) -- REPRO HARNESS for see-through blocks: edits blocks at every section edge/corner and in sealed pockets through World.setBlock, remeshes only what markDirty flagged, and counts sections whose mesh/vis differs from a from-scratch remesh. Measurement only; no fix."
+ }
+]

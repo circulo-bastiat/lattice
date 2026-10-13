@@ -1,0 +1,5 @@
+{
+ "why": "#1507 GATE M L3 ratchet (tools/mobl3check.mjs): complained mobs whose engine-emitted raster differs from the jar+.decomp reference raster outside the measured edge band. It may only SHRINK: fix the mob, the check then fails until its line is deleted here. minKeys: texture keys rendered (may only grow).",
+ "minKeys": 208,
+ "mismatch": {}
+}

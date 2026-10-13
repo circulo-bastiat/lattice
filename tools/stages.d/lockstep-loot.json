@@ -1,0 +1,1 @@
+[ { "id": "lockstep-loot", "kind": "check", "file": "tools/referee/lockstepdropcheck.mjs", "args": [], "why": "#6297 G17-L49: lockstep scenario loot, 20 salts: zombie/cow/skeleton/creeper death drops (counts, Looting III, fire cooking, spawn velocity from the shared Random, per-tick flight) vs a decomp draw-order reference; rotten_flesh 0-2 -> 0-3 caught at the death tick." } ]
