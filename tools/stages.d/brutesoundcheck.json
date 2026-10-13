@@ -1,0 +1,8 @@
+[
+ {
+  "id": "brutesoundcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1045: piglin_brute angry sound on FIGHT switch + 1.25%/tick"
+ }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "acctplancheck", "kind": "check", "file": "tools/acctplancheck.mjs", "args": [] }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "mobaudit4check", "kind": "check", "file": "tools/mobaudit4check.mjs", "args": [], "why": "#1506 GATE M L4: every roster entity type has an L1/L2/L3 audit entry or is counted unmapped; new type fails, unmapped count may only shrink (tools/mobaudit4-known.json)." }
+]

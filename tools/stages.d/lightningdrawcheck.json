@@ -1,0 +1,1 @@
+[{"id":"lightningdrawcheck","kind":"check","args":[],"why":"#5268 -- lightning_bolt geometry (ER.lightningQuads) against LightningEntityRenderer on an independent java.util.Random; breaks its own seed/layer/vertex."}]
