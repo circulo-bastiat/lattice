@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobcmdexeccheck",
+  "kind": "check",
+  "args": [],
+  "why": "parallel night, worker 2: mob-command joins — /teleport (and the /tp redirect) and /execute as/at against REAL spawned mobs (commandcheck's own execute-as-@e fork test never actually runs — it is gated on NS.EntityList, which commandcheck's file list never loads), nested execute chains, and entity selectors (type=/distance=/limit=/negation) against a mixed-mob scene. Found and fixed a real bug: the type= filter indexed Entities.names (a plain array of name strings) BY the entity's own bare type string, which is always undefined — so type= never matched a mob, ever (15g_commands.js)."
+ }
+]

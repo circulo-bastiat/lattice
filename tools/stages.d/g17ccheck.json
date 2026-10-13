@@ -1,0 +1,8 @@
+[
+ {
+  "id": "g17ccheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17c — the entities you can SEE. ⚠ §1 is the one that matters: `EntityRender.emit` is a SECOND writer of the model vertex stream, and this asserts it writes byte-for-byte what the mesher writes. D-314 was exactly this shape and nothing caught it (D-321)."
+ }
+]

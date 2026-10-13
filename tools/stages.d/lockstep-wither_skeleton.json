@@ -1,0 +1,1 @@
+[ { "id": "lockstep-wither_skeleton", "kind": "check", "file": "tools/lockstep-wither_skeleton.mjs", "args": [], "why": "#5352 G17-L4 lockstep wither_skeleton: engine wither_skeleton chase lane over 20 salts (pos/yaw/pitch/target/attackTicks/health per tick, deterministic per salt); compareTraces catches a 1e-9 pos drift, yaw, attackTicks, health, row shift." } ]

@@ -1,0 +1,1 @@
+[{"id": "lockstep-strider", "kind": "check", "file": "tools/lockstep-strider.mjs", "args": [], "why": "#5380 G17-L4: engine-side chasescen strider lane emitter, 20 salts (pos, yaw, pitch, headYaw, onGround); deterministic per salt; tampered pos 1e-9/yaw/shift breaks caught. Server comparison runs through lockstep/pilot.mjs --lanes strider."}]

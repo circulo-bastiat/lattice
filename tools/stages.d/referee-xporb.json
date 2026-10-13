@@ -1,0 +1,3 @@
+[
+  { "id": "xporbrefcheck", "kind": "check", "file": "tools/referee/xporbrefcheck.mjs", "args": [] }
+]

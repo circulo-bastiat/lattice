@@ -1,0 +1,3 @@
+[
+  { "id": "vexsoundcheck", "kind": "check", "file": "tools/vexsoundcheck.mjs", "args": [] }
+]

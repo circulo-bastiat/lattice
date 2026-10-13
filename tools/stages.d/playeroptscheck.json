@@ -1,0 +1,8 @@
+[
+ {
+  "id": "playeroptscheck",
+  "kind": "check",
+  "args": [],
+  "why": "#6408 G18a-SK2 -- PlayerEntityRenderer.setModelPose: the player model drops hat/jacket/sleeve/pants overlays when their Skin Customization option is off, base cuboids unchanged, all-on equals the old draw. Breaks its own data ('n breaks caught')."
+ }
+]
