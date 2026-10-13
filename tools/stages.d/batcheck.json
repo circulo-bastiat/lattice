@@ -1,0 +1,8 @@
+[
+ {
+  "id": "batcheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-533 (G18c): the bat"
+ }
+]

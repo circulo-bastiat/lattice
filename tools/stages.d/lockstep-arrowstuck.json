@@ -1,0 +1,1 @@
+[ { "id": "lockstep-arrowstuck", "kind": "check", "file": "tools/referee/arrowstucklockstepcheck.mjs", "args": [], "why": "#6612 G17-L86: lockstep scenario arrowstuck, 20 salts: embedded arrow shake 7, 1200-tick despawn, pickup allowed/creative_only/disallowed x survival/creative, pierceLevel hit count, crit nextInt(damage/2+2) vs decomp PersistentProjectileEntity." } ]

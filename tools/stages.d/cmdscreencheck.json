@@ -1,0 +1,3 @@
+[
+ { "id": "cmdscreencheck", "kind": "check", "args": [], "why": "#4772 — command block screen model vs AbstractCommandBlockScreen; breaks its own module (previous output, track clear, mode wrap, max length, commit) to prove it can fail." }
+]

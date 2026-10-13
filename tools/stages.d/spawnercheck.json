@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spawnercheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/spawner-s114 (PLAN G18c, D-395's own remainder) -- the monster SPAWNER block's entity assignment (07zs_spawner.js's own Spawner.assign/pickDungeonEntity, called from the dungeon and mineshaft worldgen features) + CAVE SPIDER end to end (motion/dims/ attrs/roster/poison-on-hit/spawn-egg-on-spawner). spawncheck.mjs above already proves Spawn.tickSpawner's own tick/delay/range/cap mechanics; this proves the spawner actually GETS an entity, not the empty cage D-141 shipped."
+ }
+]

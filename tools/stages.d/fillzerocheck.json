@@ -1,0 +1,3 @@
+[
+  { "id": "fillzerocheck", "kind": "check", "file": "tools/fillzerocheck.mjs", "args": [] }
+]

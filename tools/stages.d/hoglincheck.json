@@ -1,0 +1,8 @@
+[
+ {
+  "id": "hoglincheck",
+  "kind": "check",
+  "args": [],
+  "why": "s134: hoglin + zoglin (KW-32)"
+ }
+]

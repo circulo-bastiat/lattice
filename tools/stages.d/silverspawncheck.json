@@ -1,0 +1,8 @@
+[
+ {
+  "id": "silverspawncheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1181 -- silverfish/endermite Spawn.RULES (SilverfishEntity/EndermiteEntity.canSpawn: no darkness test, no player within 5 blocks) so the stronghold silverfish spawner can spawn; every simulable Spawn.LOCATION type has a rule."
+ }
+]
