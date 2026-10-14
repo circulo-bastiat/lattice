@@ -1,0 +1,1 @@
+[ { "id": "lockstep-sheepgrass", "kind": "check", "file": "tools/referee/sheepgrasslockstepcheck.mjs", "args": [], "why": "#6301 G17-L53: lockstep scenario sheepgrass (EatGrassGoal 1/1000 roll, 1/50 baby, 40-tick timer, grass_block -> dirt, sheared cleared, goal list per tick, 20 salts); roll 1000->999 caught at first differing tick; eat tick fixed to vanilla (trigger 5)." } ]

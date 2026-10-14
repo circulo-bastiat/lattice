@@ -1,0 +1,8 @@
+[
+ {
+  "id": "creepercheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/creeper-s95 (QUEUE 0.2 G18c) -- the CREEPER (motion/attrs/ROSTER/spawn rule, its own CreeperIgniteGoal, the fuse-to-explode wiring) and the EXPLOSION substrate it is the first live caller of (collectBlocksAndDamageEntities/affectWorld, blast-resistance decay, entity damage+knockback with getExposure, mobGriefing). AFTER passivecheck: same EL/Ai/Spawn substrate, nothing this file drives is new machinery for THAT half."
+ }
+]

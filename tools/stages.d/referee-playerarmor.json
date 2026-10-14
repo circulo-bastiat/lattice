@@ -1,0 +1,3 @@
+[
+  { "id": "playerarmorrefcheck", "kind": "check", "file": "tools/referee/playerarmorrefcheck.mjs", "args": [] }
+]

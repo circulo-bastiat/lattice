@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-barter",
+  "kind": "check",
+  "file": "tools/referee/barterlockstepcheck.mjs",
+  "args": [],
+  "why": "#6667 G17-L96: lockstep scenario barter, 20 salts: piglin loots a gold ingot, admires 120 ticks, piglin_bartering roll (item, count, tick) per tick vs the PiglinBrain reference."
+ }
+]

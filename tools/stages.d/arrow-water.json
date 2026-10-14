@@ -1,0 +1,3 @@
+[
+  { "id": "arrowwatercheck", "kind": "check", "file": "tools/arrowwatercheck.mjs", "args": [] }
+]
