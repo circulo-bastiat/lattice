@@ -1,0 +1,1 @@
+[ { "id": "lockstep-skeletonswitch", "kind": "check", "file": "tools/lockstep-skeletonswitch.mjs", "args": [], "why": "#6941 G17-L201 lockstep skeletonswitch: skeleton given bow, then sword (bow to offhand), then bow removed; per tick goals/cooldown/arrows/held slots, 20 salts deterministic; hard-difficulty 20 vs 40 interval swap and injected drifts caught." } ]

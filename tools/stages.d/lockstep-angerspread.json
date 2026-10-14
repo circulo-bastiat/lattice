@@ -1,0 +1,1 @@
+[{"id": "lockstep-angerspread", "kind": "check", "file": "tools/referee/angerspreadlockstepcheck.mjs", "args": [], "why": "#6797 G17-L146: lockstep scenario angerspread, 20 salts x piglin/wolf/bee: 20-39 s anger timer (400..780 ticks), group alert box, universalAnger gamerule; changed duration range caught."}]

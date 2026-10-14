@@ -1,0 +1,3 @@
+[
+  { "id": "pmeleerefcheck", "kind": "check", "file": "tools/referee/pmeleerefcheck.mjs", "args": [] }
+]

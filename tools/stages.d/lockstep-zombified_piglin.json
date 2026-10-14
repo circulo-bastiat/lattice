@@ -1,0 +1,1 @@
+[{"id": "lockstep-zombified_piglin", "kind": "check", "file": "tools/lockstep-zombified_piglin.mjs", "args": [], "why": "#5348 G17-L4: engine-side chasescen zombified_piglin lane emitter, 20 salts (pos, yaw, pitch, headYaw, onGround); deterministic per salt; tampered pos 1e-9/yaw/shift breaks caught. Server comparison runs through lockstep/pilot.mjs --lanes zombified_piglin."}]

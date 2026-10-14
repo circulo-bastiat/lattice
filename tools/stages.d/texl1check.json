@@ -1,0 +1,3 @@
+[
+  { "id": "texl1check", "kind": "check", "file": "tools/texl1check.mjs", "args": [] }
+]

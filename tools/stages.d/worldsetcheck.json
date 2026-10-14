@@ -1,0 +1,10 @@
+[
+ {
+  "id": "worldsetcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "session 150 worker1 -- /setblock, /setworldspawn, /spawnpoint LIVE (MCLITE_PRESET=medium). Found and fixed in src/15g_commands.js: (1) /setblock ignored World.setBlock's return value, so an unloaded/ungenerated chunk (or a state that cannot survive there) reported commands.setblock.success anyway; (2) /setblock ... replace never cleared a pre-existing block entity of the SAME type (.decomp Clearable.clear runs unconditionally for every mode but destroy), so a same-type chest replace silently kept the old inventory; (3) /spawnpoint and /setworldspawn never parsed the trailing <angle> argument at all (both .decomp commands have a fourth/third AngleArgumentType node past <pos>), so a fourth token was a hard parse failure and the feedback string's angle slot was hardcoded '0.0'. This stage's own header has the full citation."
+ }
+]

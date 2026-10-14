@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spawnpredcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5124 (G18c-V1) -- javap on SpawnRestriction.<clinit> gives every mob's real spawn predicate (tools/golden/spawn-predicates-1.18.2.tsv); skeleton/wither_skeleton are HostileEntity.canSpawnInDark, not overridden. Every Spawn.RULES mob in a shared family must behave as that family on a lit-grass and a dark-stone probe."
+ }
+]
