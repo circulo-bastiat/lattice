@@ -1,0 +1,8 @@
+[
+ {
+  "id": "difficultycmdcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5059 -- /difficulty (DifficultyCommand, level 2): query/set forms, exact lang strings, same-difficulty failure, unknown name, tab completion, peaceful despawning hostiles via the real spawn gate; breaks: wrong string, no-op set, unknown name accepted."
+ }
+]

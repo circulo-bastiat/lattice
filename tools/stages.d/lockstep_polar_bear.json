@@ -1,0 +1,1 @@
+[{"id": "lockstep_polar_bear", "kind": "check", "file": "tools/lockstep-polar_bear.mjs", "args": [], "why": "#5437 G17-L4: polar_bear lane engine trace, 20 salts deterministic; tampered pos 1e-9/yaw/attack/health/shift breaks caught."}]

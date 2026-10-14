@@ -1,0 +1,3 @@
+[
+  { "id": "hazardrefcheck", "kind": "check", "file": "tools/referee/hazardrefcheck.mjs", "args": [] }
+]

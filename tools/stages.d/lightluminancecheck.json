@@ -1,0 +1,3 @@
+[
+  { "id": "lightluminancecheck", "kind": "check", "file": "tools/lightluminancecheck.mjs", "args": [] }
+]

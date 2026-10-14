@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advancementcheck",
+  "kind": "check",
+  "args": [],
+  "why": "PLAN G26c — 1,141 advancement files load through AdvancementManager, the five tabs' layout from AdvancementPositioner (float arithmetic, Java HashMap load order), AdvancementProgress; breaks its own data and module to prove it can fail."
+ }
+]
