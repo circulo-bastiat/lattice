@@ -1,0 +1,8 @@
+[
+ {
+  "id": "squidcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/squid-s98 (QUEUE 0.2 G18c, missing overworld mob) -- the SQUID + GLOW SQUID whole: water-only motion (the swim vector, thrust/tentacle/tilt/roll state, the fully-overridden travel()), the escape-attacker fleeing goal, air/drowning out of water, the ink-squirt/ dark-ticks damage hooks, and both mobs' own canSpawn rule."
+ }
+]

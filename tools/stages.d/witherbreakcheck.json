@@ -1,0 +1,8 @@
+[
+ {
+  "id": "witherbreakcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3809: wither 3x3x4 block breaking leaves water/lava and waterlogged water (World.breakBlock)"
+ }
+]

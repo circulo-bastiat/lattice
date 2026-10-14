@@ -1,0 +1,1 @@
+[ { "id": "lockstep_endermite", "kind": "check", "file": "tools/lockstep-endermite-20.mjs", "args": [], "why": "#5467 G17-L4 lockstep endermite: 20 seeds, engine trace deterministic, 5 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes endermite (full suite)." } ]

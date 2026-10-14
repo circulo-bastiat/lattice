@@ -1,0 +1,3 @@
+[
+  { "id": "ramrefcheck", "kind": "check", "file": "tools/referee/ramrefcheck.mjs", "args": [] }
+]

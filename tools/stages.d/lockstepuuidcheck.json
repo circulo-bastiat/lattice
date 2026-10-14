@@ -1,0 +1,3 @@
+[
+  { "id": "lockstepuuidcheck", "kind": "check", "file": "tools/referee/lockstepcheck.mjs", "args": [], "why": "#6222 G17-L17: SeedAgent pins UUID.randomUUID (5 values identical same salt, differ by salt / without agent); same file as lockstepcheck." }
+]

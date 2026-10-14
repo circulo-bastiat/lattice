@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spellcooldowncheck",
+  "kind": "check",
+  "args": [],
+  "why": "#6342 -- CastSpellGoal casts on vanilla's tick (start+18 for cooldown 20, recast every startTimeDelay). A wrong decrement count must be noticed."
+ }
+]
