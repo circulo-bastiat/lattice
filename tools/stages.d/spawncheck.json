@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spawncheck",
+  "kind": "check",
+  "args": [],
+  "why": "PASS 16 JOB 2 (G18c, D-393) -- SPAWNING. MobCategory (cap/friendly/persistent/despawn), out of the SAME bytecode-referee technique D-336/D-306 used, plus Animal/Monster's own checkSpawnRules for the two mobs EL.spawn/Ai.ROSTER can actually place. Node-only, real generated terrain for the pack test, a hand-built room for the dark/lit acceptance pair."
+ }
+]

@@ -1,0 +1,23 @@
+{
+ "_": "goalaudit ledger (#1535): mob|status|goal keys that differ from registerGoals(); may only shrink",
+ "keys": [],
+ "filed": [
+  "cat|Ai.AvoidEntityGoal",
+  "cat|CatEntity.CatFleeGoal",
+  "cave_spider|SpiderEntity.AttackGoal",
+  "cave_spider|SpiderEntity.TargetGoal",
+  "ravager|Ai.MeleeAttackGoal",
+  "ravager|LookAtEntityGoal",
+  "ravager|RavagerEntity.AttackGoal",
+  "spider|SpiderEntity.AttackGoal",
+  "spider|SpiderEntity.TargetGoal",
+  "trader_llama|TraderLlamaEntity.DefendTraderGoal",
+  "vindicator|IllagerEntity.LongDoorInteractGoal",
+  "vindicator|Ai.MeleeAttackGoal",
+  "vindicator|LookAtEntityGoal",
+  "wither_skeleton|Ai.BowAttackGoal",
+  "wolf|ActiveTargetGoal",
+  "wolf|Ai.AvoidEntityGoal",
+  "wolf|WolfEntity.AvoidLlamaGoal"
+ ]
+}

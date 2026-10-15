@@ -1,0 +1,8 @@
+[
+ {
+  "id": "sleepcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/sleep-s104 -- villager SLEEP + MEETING-POINT behaviour (07zv_villagerbrain.js): schedule step function, HOME/MEETING ticket claim+release, walk-and-sleep, wake + WAKE_COOLDOWN, and Village.hasRecentlySlept wired into canSummonGolem."
+ }
+]

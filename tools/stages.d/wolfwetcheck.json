@@ -1,0 +1,8 @@
+[
+ {
+  "id": "wolfwetcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#955: wolf shake roll on real_head/neck/torso/real_tail + wet-fur colour multiplier wired into the wolf pose; proves it can fail (broken shakeAnimation/wetBrightness)."
+ }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "ridetracecheck", "kind": "check", "file": "tools/referee/ridetracecheck.mjs", "args": [], "why": "#6264 G17-L32: lockstep vehicle/passengers/seat; chicken jockey seat matches, swapped passenger order diverges on passengers." }
+]

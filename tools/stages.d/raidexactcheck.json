@@ -1,0 +1,8 @@
+[
+ {
+  "id": "raidexactcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5123: isValidRaiderFor despawnCounter<=2400 and Raid.tick's in-tick spawn-search retry (tier 0..3, invalidate past 3). Breaks its own data."
+ }
+]
