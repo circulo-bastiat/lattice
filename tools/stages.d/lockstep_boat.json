@@ -1,0 +1,1 @@
+[ { "id": "lockstep_boat", "kind": "check", "file": "tools/lockstep-boat-20.mjs", "args": [], "why": "#7532 G17-L4 lockstep boat: 20 seeds, engine trace deterministic, injected pos/yaw/row-shift faults caught. Server comparison: pilot.mjs --seeds 20 --lanes boat (full suite)." } ]

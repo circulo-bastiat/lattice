@@ -1,0 +1,6 @@
+{
+ "_": "spawnproofcheck ledger (#7525), shrink-only",
+ "max": 1,
+ "notCovered": ["light/block/y/moon placement rules, caps, despawn, spawn eggs/spawners, baby chance, equipment, variants: owned by spawnrulecheck, spawncapcheck, despawncheck, lockstep-spawn* checks, not compared per mob here"],
+ "failedRows": []
+}

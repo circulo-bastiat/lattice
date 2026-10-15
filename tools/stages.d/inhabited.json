@@ -1,0 +1,3 @@
+[
+  { "id": "inhabitedcheck", "kind": "check", "file": "tools/inhabitedcheck.mjs", "args": [] }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "bossbarcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1584 wither boss bar HUD (BossBarHud geometry, purple, display name, 160-block tracking)"
+ }
+]

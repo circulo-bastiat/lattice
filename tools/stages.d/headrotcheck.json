@@ -1,0 +1,8 @@
+[
+ {
+  "id": "headrotcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#218 G18b-7 (D-422) -- yBodyRot separate from the aim yaw, BodyControl moving/standing branches, LivingEntity.turnHead 0.3/2500, navigating-flag LookControl clamp, vs a degree-space vanilla oracle; each assertion re-run against a broken oracle."
+ }
+]

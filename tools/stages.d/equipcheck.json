@@ -1,0 +1,8 @@
+[
+ {
+  "id": "equipcheck",
+  "kind": "check",
+  "args": [],
+  "why": "QUEUE 0.2 (G18 mobs remainder, D-517) -- MOB EQUIPMENT SLOTS: NS.Equip (07y_equip.js), the mainhand/offhand/head/chest/legs/feet store, the fixed skeleton/vindicator/pillager weapon and the difficulty-scaled armour roll (both off .decomp MobEntity.java), drop chances, and the daylight-burn HELMET branch (14j_combat.js's own Cb.tickDaylightBurn)."
+ }
+]

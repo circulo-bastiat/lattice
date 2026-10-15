@@ -1,0 +1,1 @@
+[ { "id": "lockstep-splash", "kind": "check", "file": "tools/referee/splashlockstepcheck.mjs", "args": [], "why": "#6313 G17-L62: lockstep scenario splash, 20 salts: thrown splash potion arc, shatter, 4x2x4 box, distance-scaled duration (int)(s*d+0.5), undead inverse, vs decomp PotionEntity.applySplashPotion." } ]

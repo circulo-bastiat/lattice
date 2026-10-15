@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-chorus",
+  "kind": "check",
+  "file": "tools/referee/choruslockstepcheck.mjs",
+  "args": [],
+  "why": "#6725 G17-L129: lockstep scenario chorus, 20 salts: chorus fruit teleport (16 tries, +-8 xz, y -8..7, floor/fluid/collision), sound pair, fallDistance reset, 20-tick cooldown, RNG draw count per tick vs ChorusFruitItem.finishUsing."
+ }
+]

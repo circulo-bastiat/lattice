@@ -1,0 +1,8 @@
+[
+ {
+  "id": "structurequadcheck",
+  "kind": "check",
+  "args": [],
+  "why": "session 138 -- QUEUE 0.0's WORLD item, live-repro follow-up to D-692: quadcapcheck's own sweep was plain terrain only (its header names this gap). This measures the one real seed-1337 structure docs/DECISIONS.md names (plains village, chunk (-79,90)) against the SAME two per-stream MAX_QUADS caps (block-quad in the mesher, model-quad in the gfx backends) and rules the theory out there too. Same mesher domain, next to quadcapcheck."
+ }
+]

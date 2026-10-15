@@ -1,0 +1,8 @@
+[
+ {
+  "id": "hungerrowcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#360 -- HUD food row: Hunger-effect icons (u 88/97, bg 133), zero-saturation shake, and a ridden LivingEntity's hearts (renderMountHealth, 10 per row, 10 px apart) replacing the drumsticks."
+ }
+]

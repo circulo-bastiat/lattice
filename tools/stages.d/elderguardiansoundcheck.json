@@ -1,0 +1,8 @@
+[
+ {
+  "id": "elderguardiansoundcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1013: elder_guardian ambient/hurt/death water vs _land variants + flop sound"
+ }
+]

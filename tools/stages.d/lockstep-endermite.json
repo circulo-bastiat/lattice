@@ -1,0 +1,1 @@
+[ { "id": "lockstep-endermite", "kind": "check", "file": "tools/lockstep-endermite.mjs", "args": [], "why": "#6894 G17-L177: lockstep scenario endermite (pearl, natural and persistent mites, 2600 ticks, 20 salts: lifeTime++ unless persistent, discard at >= 2400): off-by-one despawn caught." } ]

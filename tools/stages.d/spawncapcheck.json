@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spawncapcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/spawn-cap (QUEUE 0.2 G18c, Spawn.OWED's category-cap/checkMobSpawnRules lines, Diff.OWED's PEACEFUL-despawn line) -- SpawnHelper.Info.isBelowCap's real chunk-count scaling (capacity * spawningChunkCount / 289), checkMobSpawnRules's per-block allowsSpawning overrides (glass/ice/frosted_ice/magma_block/leaves), and MobEntity.checkDespawn's PEACEFUL branch discarding existing hostiles (slime exempted)."
+ }
+]
