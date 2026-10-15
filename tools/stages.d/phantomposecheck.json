@@ -1,0 +1,8 @@
+[
+ {
+  "id": "phantomposecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4785 -- PhantomEntityRenderer.setupTransforms Rx(getPitch); 3 anti-vacuity breaks."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "rabbitcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/rabbit-s98 (QUEUE 0.2 G18c, missing overworld mob) -- the RABBIT whole: attributes (jar-extracted table), the biome-based variant roll (chooseType's snow/desert/plains-and- forest branches, killer bunny 99 never natural), flee/tempt/breed goals, the carrot- raiding EatCarrotCropGoal (MoveToTargetPosGoal's own expanding-ring search), spawn-rule tag check, breeding's child-type inheritance, and the rabbit texture-family skin key."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "itemframedrawcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-HG8 (#5708) -- ItemFrameEntityRenderer's held-item matrix for rotation 0..7 on all four facings against vanilla's formula; 360/7 per step must fail."
+ }
+]

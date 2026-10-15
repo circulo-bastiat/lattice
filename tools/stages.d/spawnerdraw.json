@@ -1,0 +1,10 @@
+[
+ {
+  "id": "spawnerdraw",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "#6337 (Spawn.OWED row 1) — the spawner's spinning miniature mob (ER.spawnerPoseOf, MobSpawnerBlockEntityRenderer) was built but no browser watched it. Places a zombie spawner, takes frames at two spin angles and asserts mob pixels in the cage box that rotate, against a draw-disabled control; with the draw disabled the same assertions fail (breaks caught)."
+ }
+]

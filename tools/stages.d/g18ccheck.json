@@ -1,0 +1,9 @@
+[
+ {
+  "id": "g18ccheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ]
+ }
+]

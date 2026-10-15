@@ -1,0 +1,1 @@
+[{"id": "lockstep-pillager", "kind": "check", "file": "tools/lockstep-pillager.mjs", "args": [], "why": "#5369 G17-L4: engine-side chasescen pillager lane emitter, 20 salts (pos, yaw, pitch, target, attackTicks, health per tick); deterministic per salt; tampered pos 1e-9/yaw/attack/health/shift breaks caught. Server comparison runs through lockstep/pilot.mjs --lanes pillager."}]

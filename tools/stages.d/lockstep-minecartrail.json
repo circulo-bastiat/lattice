@@ -1,0 +1,1 @@
+[ { "id": "lockstep-minecartrail", "kind": "check", "file": "tools/referee/minecartraillockstepcheck.mjs", "args": [], "why": "#6600 G17-L75: lockstep scenario minecartrail, 20 seeds: pushed minecart on flat, sloped, curved and powered rail, per-tick pos+velocity exact vs decomp AbstractMinecartEntity.moveOnRail/applySlowdown." } ]

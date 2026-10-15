@@ -1,0 +1,8 @@
+[
+ {
+  "id": "axolotlnavcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3822/#5581 -- axolotl nav plans over AmphibiousPathNodeMaker land<->water node types (Ax.nodeType/Ax.amphibiousPath)."
+ }
+]

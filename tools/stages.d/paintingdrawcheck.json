@@ -1,0 +1,3 @@
+[
+  { "id": "paintingdrawcheck", "kind": "check", "file": "tools/paintingdrawcheck.mjs", "args": [], "why": "G17-HG7 -- PaintingEntityRenderer: quad positions/uvs/tiles/light cells for 2x1 and 4x4 paintings on every facing vs the vanilla method by hand; a half-block shift, mirrored tile column or dropped tile light must fail." }
+]
