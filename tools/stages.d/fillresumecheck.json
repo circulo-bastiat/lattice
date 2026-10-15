@@ -1,0 +1,3 @@
+[
+  { "id": "fillresumecheck", "kind": "check", "file": "tools/fillresumecheck.mjs", "args": [] }
+]

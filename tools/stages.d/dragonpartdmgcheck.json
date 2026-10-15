@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dragonpartdmgcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2708: player/arrow hits on a live ender_dragon are hit-tested per EnderDragonPart and routed through damagePart (head full, other parts amount/4+min(amount,1), sitting damage -> Takeoff)"
+ }
+]

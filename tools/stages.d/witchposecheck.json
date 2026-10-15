@@ -1,0 +1,8 @@
+[
+ {
+  "id": "witchposecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4002: the witch's hat, posed with the head turned, sits on the vanilla head->hat->hat2->hat3->hat4 chain in the EMITTED quads (emit path forgot hatComposed: hat turned twice); 1 break caught"
+ }
+]

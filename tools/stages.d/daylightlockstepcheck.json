@@ -1,0 +1,1 @@
+[ { "id": "daylightlockstepcheck", "kind": "check", "file": "tools/referee/daylightlockstepcheck.mjs", "args": [], "why": "#6268 G17-L36: lockstep scenario daylight, 20 salts: fireTicks/helmet Damage/health vs decomp reference." } ]

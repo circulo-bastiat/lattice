@@ -1,0 +1,1 @@
+[{"id": "lockstep-golemwander", "kind": "check", "file": "tools/lockstep-golemwander.mjs", "args": [], "why": "#7099 G18b-L8: iron golem wander in a village arena (bell, 6 beds, 3 job sites), engine trace 3000 ticks x 20 salts deterministic, POI wander runs, golem drifts to the village; no village / disabled POI goal / speed 0.6->0.7 / pos 1e-9 / row shift caught."}]
