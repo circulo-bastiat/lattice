@@ -1,0 +1,1 @@
+[ { "id": "lockstep-spawner_minecart", "kind": "check", "file": "tools/referee/spawnercartlockstepcheck.mjs", "args": [], "why": "#5390 G17-L4: lockstep scenario spawner_minecart, 20 salts: pushed spawner minecart on flat/powered, sloped and curved rail, per-tick pos+velocity exact vs decomp AbstractMinecartEntity; 1e-9 drift must be reported." } ]

@@ -1,0 +1,3 @@
+[
+  { "id": "cloudparticlecheck", "kind": "check", "file": "tools/cloudparticlecheck.mjs", "args": [] }
+]

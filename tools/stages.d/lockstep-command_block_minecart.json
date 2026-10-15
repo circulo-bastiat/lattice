@@ -1,0 +1,1 @@
+[ { "id": "lockstep-command_block_minecart", "kind": "check", "file": "tools/referee/commandblockminecartlockstepcheck.mjs", "args": [], "why": "#5387 G17-L4: lockstep command_block_minecart, 20 salts x 4 rail lanes (flat/powered, slope, curve): per-tick pos+velocity exact vs decomp AbstractMinecartEntity.moveOnRail; injected drift is reported." } ]

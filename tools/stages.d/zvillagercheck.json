@@ -1,0 +1,8 @@
+[
+ {
+  "id": "zvillagercheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/zvillager-s102 (QUEUE 0.2 G18 mobs) -- ZombieVillagerEntity + conversion, both directions (07zr_zvillager.js): the natural-spawn/kill-conversion roll, the golden-apple cure timer and its iron_bars/bed speedup, and the cure gossip amounts."
+ }
+]
