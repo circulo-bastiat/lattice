@@ -1,0 +1,1 @@
+[ { "id": "lockstep_polar_bear", "kind": "check", "file": "tools/lockstep-polar_bear-20.mjs", "args": [], "why": "#6000 G17-L4 lockstep polar_bear: 20 seeds, engine trace deterministic, 6 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes polar_bear (full suite)." } ]

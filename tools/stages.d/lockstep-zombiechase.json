@@ -1,0 +1,1 @@
+[{"id": "lockstep-zombiechase", "kind": "check", "file": "tools/lockstep-zombiechase.mjs", "args": [], "why": "#6953 G17-L4a: engine-side chasescen zombie lane emitter (engineRow per tick: pos, yaw, pitch, target, attackTicks, health); deterministic per salt, closes in and strikes; tampered pos/yaw/attack/health/shift breaks caught."}]

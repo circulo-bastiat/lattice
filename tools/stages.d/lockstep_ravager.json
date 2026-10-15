@@ -1,0 +1,1 @@
+[ { "id": "lockstep_ravager", "kind": "check", "file": "tools/lockstep-ravager-20.mjs", "args": [], "why": "#5503 G17-L4 lockstep ravager: 20 seeds, engine trace, 5 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes ravager (full suite)." } ]

@@ -1,0 +1,1 @@
+[{"id": "lockstep-wither_skeleton", "kind": "check", "file": "tools/lockstep-wither_skeleton.mjs", "args": [], "why": "#5457 G17-L4: wither_skeleton lane (chasescen LOCKSTEP_ONLY) engine trace, 20 salts deterministic; tampered pos 1e-9/yaw/headYaw/onGround/shift breaks caught."}]

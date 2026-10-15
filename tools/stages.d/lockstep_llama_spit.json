@@ -1,0 +1,1 @@
+[ { "id": "lockstep_llama_spit", "kind": "check", "file": "tools/lockstep-llama-spit-20.mjs", "args": [], "why": "#5521 G17-L4 lockstep llama_spit: 20 seeds, engine trace deterministic, 5 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes llama_spit (full suite)." } ]

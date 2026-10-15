@@ -1,0 +1,3 @@
+[
+  { "id": "shapefloodcheck", "kind": "check", "file": "tools/shapefloodcheck.mjs", "args": [] }
+]

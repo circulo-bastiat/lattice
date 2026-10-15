@@ -1,0 +1,8 @@
+[
+ {
+  "id": "witherskulldeathcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1756: wither skull hurts the player as DamageSource witherSkull (death.attack.witherSkull)"
+ }
+]

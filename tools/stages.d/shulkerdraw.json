@@ -1,0 +1,3 @@
+[
+  { "id": "shulkerdrawcheck", "kind": "check", "file": "tools/shulkerdrawcheck.mjs", "args": [] }
+]
