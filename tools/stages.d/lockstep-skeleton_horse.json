@@ -1,0 +1,1 @@
+[{"id": "lockstep-skeleton_horse", "kind": "check", "file": "tools/lockstep-skeleton_horse.mjs", "args": [], "why": "#5302 G17-L4: engine-side chasescen skeleton_horse lane, 20 salts (pos, yaw, pitch, headYaw, onGround per tick); deterministic per salt; 1e-9 drifts caught. Server comparison runs through lockstep/pilot.mjs --lanes skeleton_horse."}]

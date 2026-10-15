@@ -1,0 +1,3 @@
+[
+  { "id": "blockrefdropcheck", "kind": "check", "file": "tools/referee/blockrefdropcheck.mjs", "args": [] }
+]

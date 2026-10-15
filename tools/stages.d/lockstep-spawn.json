@@ -1,0 +1,1 @@
+[ { "id": "lockstep-spawn", "kind": "check", "file": "tools/referee/spawnlockstepcheck.mjs", "args": [], "why": "#6298 G17-L50: lockstep scenario spawn (sealed dark 64x64 room, 2400 ticks of the NaturalSpawner cycle, 20 salts: type/tick/pos/group size/equipment); spawn distance 24->25 caught at the first affected spawn. Heavy: 2-hourly suite, not --core." } ]

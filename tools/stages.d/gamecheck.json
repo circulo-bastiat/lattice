@@ -1,0 +1,9 @@
+[
+ {
+  "id": "gamecheck",
+  "kind": "check",
+  "args": [
+   "--quiet"
+  ]
+ }
+]

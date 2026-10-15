@@ -1,0 +1,26 @@
+{
+ "why": "shrink-only ledger (#7522). notCovered: what mobtexproofcheck does not cover, per mob (max may only go down). failedRows: quoted rows the check finds red; first six are probably flat-plane/negative-v UV-extent conventions of THIS check (not engine bugs, triage in the follow-up), end_crystal sheet 128x64 vs model 64x32 is a candidate real bug.",
+ "max": 2,
+ "notCovered": [
+  "render-layer blend mode (translucent/cutout/emissive/additive) vs vanilla not compared",
+  "rendered-pixel raster vs reference not built"
+ ],
+ "failedRows": [
+  "end_crystal: assets/minecraft/textures/entity/end_crystal/end_crystal.png sheet 128x64 != model 64x32",
+  "pufferfish_big.top_back_fin: UV box 23,18 8x1x0 outside 32x32",
+  "strider.left_bottom_bristle: UV box 16,65 12x0x16 outside 64x128",
+  "strider.left_middle_bristle: UV box 16,49 12x0x16 outside 64x128",
+  "strider.left_top_bristle: UV box 16,33 12x0x16 outside 64x128",
+  "strider.right_bottom_bristle: UV box 16,65 12x0x16 outside 64x128",
+  "strider.right_middle_bristle: UV box 16,49 12x0x16 outside 64x128",
+  "strider.right_top_bristle: UV box 16,33 12x0x16 outside 64x128",
+  "strider_saddle.left_bottom_bristle: UV box 16,65 12x0x16 outside 64x128",
+  "strider_saddle.left_middle_bristle: UV box 16,49 12x0x16 outside 64x128",
+  "strider_saddle.left_top_bristle: UV box 16,33 12x0x16 outside 64x128",
+  "strider_saddle.right_bottom_bristle: UV box 16,65 12x0x16 outside 64x128",
+  "strider_saddle.right_middle_bristle: UV box 16,49 12x0x16 outside 64x128",
+  "strider_saddle.right_top_bristle: UV box 16,33 12x0x16 outside 64x128",
+  "tropical_fish_small.tail: UV box 22,-6 0x3x6 outside 32x32",
+  "tropical_fish_small_pattern.tail: UV box 22,-6 0.016x3.016x6.016 outside 32x32"
+ ]
+}

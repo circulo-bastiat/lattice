@@ -1,0 +1,8 @@
+[
+ {
+  "id": "rabbitposecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4629 -- rabbit hop/ear/haunch pose: ER.setupAnimDelta vs RabbitEntityModel.setAngles (.decomp method_17117) and getJumpProgress."
+ }
+]
