@@ -1,0 +1,1 @@
+[{"id": "lockstep-stray", "kind": "check", "file": "tools/lockstep-stray.mjs", "args": [], "why": "#5351 G17-L4: engine-side chasescen stray lane (bow, survival player in follow range), 20 salts: pos/yaw/pitch/target/attackTicks/health + every arrow's spawn tick/Pos/Motion per salt, deterministic; 1e-9 drift in pos/yaw/arrow velocity, attackTicks and arrow spawn tick caught."}]

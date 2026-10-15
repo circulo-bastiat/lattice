@@ -1,0 +1,3 @@
+[
+  { "id": "growthrefcheck", "kind": "check", "file": "tools/referee/growthrefcheck.mjs", "args": [] }
+]

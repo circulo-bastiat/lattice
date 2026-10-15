@@ -1,0 +1,1 @@
+[ { "id": "lockstep-riptide", "kind": "check", "file": "tools/referee/riptidelockstepcheck.mjs", "args": [], "why": "#6731 G17-L134: lockstep scenario riptide (trident Riptide I-III in pool/rain/dry, 20 salts): launch 3.0*(1+level)/4 x look, riptideTicks 20, durability 1, ground hop, hit mob ends spin with v*-0.2, no use on dry land; 3.0->2.9 and removed water gate caught." } ]

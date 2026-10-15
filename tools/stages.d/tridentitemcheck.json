@@ -1,0 +1,8 @@
+[
+ {
+  "id": "tridentitemcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5614 -- player-thrown trident: TridentItem.use/onStoppedUsing 10-tick gate, speed 2.5, durability -1, pickup restores the damaged enchanted stack."
+ }
+]

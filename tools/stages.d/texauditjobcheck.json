@@ -1,0 +1,3 @@
+[
+  { "id": "texauditjobcheck", "kind": "check", "file": "tools/texauditjobcheck.mjs", "args": [], "why": "#1529 the GPU texture audit is a controlled background job: one at a time, limited, resumable, never in the foreground; node + fakes, no browser" }
+]

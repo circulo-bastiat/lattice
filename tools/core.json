@@ -1,0 +1,7 @@
+{
+ "why": "The EXPRESS gate (Dan, 28 Sept: 'the express lane ... where there is a big job and a small change'). `suite.mjs --core` = the build pipeline + these checks: the systems every change can break. It must stay a few minutes so a landing never waits; everything else runs in the full suite on the GPU runner after the landing, and a red there opens 'master is red'. A session touching a system may add its own checks here - keep it short.",
+ "checks": ["stagecheck", "constcheck", "regcheck", "tagcheck", "modelcheck", "itemcheck", "meshcheck", "lightcheck",
+  "placecheck", "minecheck", "usecheck", "becheck", "redcheck", "invcheck", "craftcheck", "guicheck", "textcheck",
+  "commandcheck", "savecheck", "modecheck", "physcheck", "movecheck", "survcheck", "combatcheck", "entitycheck",
+   "spawncheck", "aicheck", "goalcheck", "gamecheck", "gateinfracheck", "braincheck", "fillwakecheck", "prunecheck", "pushcheck", "survivegatecheck", "mobshapecheck", "buscheck", "usagetestcheck", "texl1check", "uvl2check", "mobl3check", "mobaudit4check", "queueordercheck", "docrefcheck", "eolcheck", "landsweepcheck", "fillzerocheck", "trimcheck", "handoffstuckcheck", "turnbudgetcheck", "salvagecheck", "freequeuecheck", "shapefloodcheck", "acctplancheck", "queuedeepcheck", "lockstepprioritycheck", "noclaimreleasecheck", "claimlockcheck"]
+}

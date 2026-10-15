@@ -1,0 +1,8 @@
+[
+ {
+  "id": "concretepowdercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5552 G17-F1 -- ConcretePowderBlock hardens on placement and neighbour update when touching water (any side but down)."
+ }
+]
