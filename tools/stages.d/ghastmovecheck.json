@@ -1,0 +1,8 @@
+[
+ {
+  "id": "ghastmovecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1878 -- ghast FlyingEntity.travel: per-tick velocity matches v=(v+0.1)*0.91 (air) / 0.8 (water) / 0.5 (lava)."
+ }
+]

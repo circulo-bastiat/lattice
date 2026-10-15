@@ -1,0 +1,10 @@
+[
+ {
+  "id": "blockcmdlivecheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "parallel night, worker 2 -- /setblock, /fill, /clone REGRESSION, live in the browser. Two real bugs found and fixed: `/clone ... move` refused every OVERLAPPING move with commands.clone.overlap (the overlap guard excluded only `force`, not `move` -- .decomp CloneCommand.Mode gives both `force` and `move` allowsOverlap=true, only `normal` refuses); and `/fill ... destroy` never broke a single block (no break/drop branch at all, unlike `/setblock ... destroy`'s own existing one). This stage's own header has the full citation."
+ }
+]
