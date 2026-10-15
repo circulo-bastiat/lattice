@@ -1,0 +1,1 @@
+[ { "id": "lockstep-schooling", "kind": "check", "file": "tools/lockstep-schooling.mjs", "args": [], "why": "#7078 G17-L215: lockstep scenario schooling (6 salmon, FollowGroupLeaderGoal leader election, group cap, recheck interval, expand(8) box; 20 salts): cap 5->6 and interval 200->100 caught." } ]

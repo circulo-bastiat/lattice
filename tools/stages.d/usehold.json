@@ -1,0 +1,8 @@
+[
+ {
+  "id": "usehold",
+  "kind": "check",
+  "args": [],
+  "why": "G19d-a (#176) -- the generic use-item hold: Item.getMaxUseTime/getUseAction per-item table, whole-tick countdown, finishUsing at 0, early release calls onStoppedUsing only; anti-vacuity: an instant hold / early-finish / late-finish each make it fail."
+ }
+]

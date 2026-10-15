@@ -1,0 +1,8 @@
+[
+ {
+  "id": "blazeburncheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1862: blaze burn sound + large smoke per tick"
+ }
+]

@@ -1,0 +1,16 @@
+# #1497 (Dan, 1 Oct): the usage test - Pro vs Max start-up cost of a Sonnet session. Run by hand (Actions > usagetest >
+# Run workflow); it runs where Claude Code and the account logins are (the express runner), never on a schedule.
+name: usagetest
+run-name: "usagetest"
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  usagetest:
+    runs-on: [self-hosted, mclite, express]
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - run: node tools/usagetest.mjs

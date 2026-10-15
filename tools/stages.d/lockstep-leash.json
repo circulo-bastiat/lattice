@@ -1,0 +1,1 @@
+[ { "id": "lockstep-leash", "kind": "check", "file": "tools/referee/leashlockstepcheck.mjs", "args": [], "why": "#6289 G17-L41: lockstep scenario leash, 20 salts: cow leashed to a walking player / a fence knot - pull above 6 blocks, snap + lead drop above 10, vs decomp PathAwareEntity.updateLeash." } ]

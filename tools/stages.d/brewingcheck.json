@@ -1,0 +1,8 @@
+[
+ {
+  "id": "brewingcheck",
+  "kind": "check",
+  "args": [],
+  "why": "PASS 17 JOB 1 (G19b) -- the BREWING STAND screen, the last G19b unit: BrewingStandScreenHandler's 41 slots and per-slot mayPlace, the one-bottle cap, shift-click routing with vanilla's blaze-powder oddity, and the fuel gauge / arrow / bubbles as functions of the entity's counters (the brewing tick itself is G23's)."
+ }
+]

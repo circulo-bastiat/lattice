@@ -1,0 +1,13 @@
+{
+ "why": "shrink-only ledger (#7524). notCovered: what mobdropsproofcheck does not cover per mob (max may only go down); failedRows: quoted red rows. Covered elsewhere meanwhile: mobslootcheck (conditional verbs), piglinlootcheck, witherlootcheck, dolphinlootcheck.",
+ "max": 6,
+ "notCovered": [
+  "looting I-III (needs the server's looting scenarios: lootingrefcheck covers the verb, not per mob)",
+  "killed by fire (cooked drops)",
+  "killed by a non-player (player-only drops)",
+  "baby / variant tables (sheep colours, slime sizes, rabbit types, tropical fish buckets)",
+  "XP amounts",
+  "equipment drops and rare-drop thresholds"
+ ],
+ "failedRows": []
+}

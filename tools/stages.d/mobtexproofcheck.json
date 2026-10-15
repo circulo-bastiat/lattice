@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobtexproofcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#7522 texture proof: per roster mob, packed sheet pixels == jar PNG, sheet size == model texture size, UV boxes inside the sheet; writes tools/mobproof/out/texture.json; shrink-only ledger mobtexproof-known.json; prints breaks caught."
+ }
+]
