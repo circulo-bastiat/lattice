@@ -1,0 +1,8 @@
+[
+ {
+  "id": "villagerproftexcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/zombie-villager-texture (D-694, session 137) -- the zombie villager's hat/ profession-overlay texture turning a solid block once a profession was equipped. `mobtexcheck.mjs`'s own ANCHORS list never covers villager/zombie_villager (no fixed sheet index -- FAMILY, D-469). Proves every packed atlas texel of every villager/ zombie_villager profession overlay is byte-identical to an independent re-decode of the source jar PNG -- catches the fractional-box-dimension bleed D-694 found (the outer 'body'/jacket cube's real, deliberately-inflated vanilla size, e.g. 8.1/18.1/6.1, fed unrounded into `pack-mobtex.mjs`'s CPU pixel-copy loop). `--break` (D-30) proves this check goes red against the pre-fix unrounded formula."
+ }
+]

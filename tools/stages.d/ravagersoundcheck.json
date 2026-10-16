@@ -1,0 +1,8 @@
+[
+ {
+  "id": "ravagersoundcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1020 -- every ravager sound event (ambient/hurt/death via MobVoice, attack, stunned, roar, celebrate) is emitted with its vanilla RavagerEntity id."
+ }
+]

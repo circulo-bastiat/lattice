@@ -1,0 +1,8 @@
+[
+ {
+  "id": "kw4445check",
+  "kind": "check",
+  "args": [],
+  "why": "session 152, loop/kw44-45-llama-wolf -- KW-44 (ChaseWolvesGoal's missing reciprocalChance gate + its invented ×1.5 leash-slack continuation, `.decomp` ActiveTargetGoal/ TrackTargetGoal) and KW-45 (AvoidEntityGoal's flee-point search reusing the caller's DETECTION range as the escape distance instead of FleeEntityGoal's own fixed 16/7/PI-2 NoPenaltyTargeting search) -- both re-derived and fixed together, same file. AFTER wolfgoalcheck: same 07k_goals.js AvoidLlamaGoal wiring, now opted into the fixed search."
+ }
+]

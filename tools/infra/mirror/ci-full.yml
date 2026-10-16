@@ -1,0 +1,45 @@
+# Published into the public test mirror by tools/infra/mirror.mjs (#6767) as .github/workflows/ci-full.yml. The WHOLE suite as 16 parallel
+# shards (tools/infra/fullshard.mjs) on the pushed f/<id> snapshot; every shard pushes its shard-<i>.json/.log to r/<id>.<i> and the private
+# side (full.mjs via mirror.mjs `full`) reads them, aggregates and deletes the branches. Nothing here may name the owner.
+name: ci-full
+on:
+  push:
+    branches: ['f/**']
+permissions:
+  contents: write
+jobs:
+  shard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 85
+    strategy:
+      fail-fast: false
+      matrix:
+        i: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+    env:
+      NODE_OPTIONS: --dns-result-order=ipv4first
+      MCLITE_PRESET: medium
+      MCLITE_HOSTED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: private workflows back in place (read by checks, never run here)
+        run: mkdir -p .github && cp -r .ci-wf/. .github/
+      - name: data
+        env: { STORE_URL: '${{ secrets.STORE_URL }}' }
+        run: node tools/cloud/bootstrap.mjs --store "$STORE_URL" --no-suite --no-build 2>&1 | tail -4 | sed -E 's#https?://[^ ]*@#https://***@#g'
+      - name: shard
+        run: node tools/infra/fullshard.mjs ${{ matrix.i }} 16
+        timeout-minutes: 50          # a hung stage must not hold the other shards' verdict for the job's 85 min: the report step below still runs
+        continue-on-error: true      # a red shard is data for the aggregate, not a reason to lose the others
+      - name: report
+        if: always()
+        run: |
+          id="${GITHUB_REF_NAME#f/}"; i="${{ matrix.i }}"
+          [ -f shard-out/shard-$i.json ] || { echo "shard $i never reported"; exit 0; }
+          cd "$RUNNER_TEMP" && rm -rf rep && mkdir rep && cd rep && git init -q
+          cp "$GITHUB_WORKSPACE/shard-out/shard-$i.json" .
+          tail -c 900000 "$GITHUB_WORKSPACE/shard-out/shard-$i.log" > shard-$i.log 2>/dev/null || : > shard-$i.log
+          git -c user.name=CI -c user.email=ci@invalid.invalid add -A
+          git -c user.name=CI -c user.email=ci@invalid.invalid commit -qm "$id.$i"
+          git -c credential.helper= push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" "HEAD:refs/heads/r/$id.$i"

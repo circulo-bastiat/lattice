@@ -1,0 +1,8 @@
+[
+ {
+  "id": "tridentriptidecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5616 -- trident riptide: water/rain gate, launch look*3*(1+lvl)/4, riptideTicks 20, durability -1, no entity."
+ }
+]

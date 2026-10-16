@@ -1,0 +1,1 @@
+[{"id":"horsescreenpreviewcheck","kind":"browser","args":["dist/mclite.html"],"why":"#5908 HorseScreen.drawBackground draws InventoryScreen.drawEntity: the horse (with armour) is in the screen box and turns with the mouse; with the draw disabled the box is the panel colour."}]

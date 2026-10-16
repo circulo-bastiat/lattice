@@ -1,0 +1,8 @@
+[
+ {
+  "id": "potionbreakpitchcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1624 splash potion break sound pitch is random*0.1+0.9 (WorldRenderer 2002/2007), NEUTRAL, not fixed 1.0."
+ }
+]

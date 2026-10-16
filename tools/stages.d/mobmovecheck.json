@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobmovecheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-417 -- A MOB MAY NOT MOVE ITSELF. Dan reported mobs walking through blocks; the cause was `Ai.stepToward` writing `e.x`/`e.y`/`e.z` outright, so no mob had ever been through `Ph.move` and no collision test could ever have caught it. This is the CLASS stated as a rule -- after a tick, no living entity's box may overlap a full cube -- plus the move control, the travel law, the jump, `Entity.push` and suffocation."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "pigridecheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/pigride-s98 -- PIG mounting + carrot-on-a-stick steering (Passive.pigMount/ pigCanBeControlledByRider/pigTravel, 07w_passive.js; Use.entityUse's own mount-on-click branch and Use.pigBoostOnAStick, 14l_use.js; the EL.tickMob pig-first dispatch branch, 07i_entitylist.js; the tickMountedJump Mnt.isMountable gate, 14_player.js). AFTER mountcheck: reuses Mnt.isRidden/dismount/mountedHeightOffset/findDismountPos as-is."
+ }
+]

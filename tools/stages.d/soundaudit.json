@@ -1,0 +1,3 @@
+[
+  { "id": "soundaudit", "kind": "check", "file": "tools/soundaudit.mjs", "args": [], "why": "#1844 GATE M sounds: every roster mob's ambient/hurt/death/step events, ambient delay, volume and SoundSource from mob-sounds tsv (.decomp) vs MobVoice.pick/onDamage/tickStep; ledger tools/soundaudit-known.json may only shrink; 9 deliberate breaks; --file files new findings (bug,mobs)." }
+]

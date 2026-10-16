@@ -1,0 +1,29 @@
+# #7771: throughput and cost dashboard, rebuilt every 30 min on a free hosted runner. History (append-only, keyed by run id)
+# lives on the `metrics` branch so it survives bus rotation; the page is metrics.html on that branch (serve via Pages or raw view).
+name: metrics
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: read
+env:
+  GH_TOKEN: ${{ secrets.BRAIN_TOKEN || github.token }}
+  GH_REPO: ${{ github.repository }}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: restore history
+        run: |
+          mkdir -p _status
+          git fetch origin metrics 2>/dev/null && git show FETCH_HEAD:metrics.json > _status/metrics.json || true
+      - run: node tools/metrics.mjs
+      - name: publish
+        run: |
+          d=$(mktemp -d); cp _status/metrics.json _status/metrics.html "$d"/; cd "$d"
+          git init -q -b metrics; git add .; git -c user.name=metrics -c user.email=metrics@users.noreply.github.com commit -qm "metrics $(date -u +%FT%TZ)"
+          git push -qf "https://x-access-token:${GH_TOKEN}@github.com/${GH_REPO}.git" metrics

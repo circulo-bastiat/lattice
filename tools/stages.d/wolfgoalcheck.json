@@ -1,0 +1,8 @@
+[
+ {
+  "id": "wolfgoalcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/wolfgoals -- wolf's full registerGoals() (bje.u(), .decomp, read in full, D-477 continued): llama-flee AvoidLlamaGoal, WolfBegGoal, and the targetSelector's remaining real priorities (angry-player reacquire, untamed prey/baby-turtle, AbstractSkeleton, UniversalAngerGoal) -- plus spider's own targetSelector priority 3 (SpiderTargetGoal against IronGolem, unwired since D-401, iron_golem now existing). AFTER llamacheck: the llama-strength/Mount.getStrength half of AvoidLlamaGoal reuses the same jar data."
+ }
+]

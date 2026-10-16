@@ -1,0 +1,8 @@
+[
+ {
+  "id": "undeadhorsecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#715 -- zombie_horse drops rotten_flesh 0..2 and skeleton_horse bone 0..2 (looting-scaled, entity loot tables), and both draw with the horse model via ER.visible under their own skin tile. Node-only; proves it can fail (wrong-type drops, wrong skin, unknown type)."
+ }
+]

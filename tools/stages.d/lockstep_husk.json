@@ -1,0 +1,1 @@
+[ { "id": "lockstep_husk", "kind": "check", "file": "tools/lockstep-husk-20.mjs", "args": [], "why": "#5452 G17-L4 lockstep husk: 20 seeds, engine trace deterministic, 5 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes husk (full suite)." } ]

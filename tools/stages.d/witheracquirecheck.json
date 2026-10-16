@@ -1,0 +1,8 @@
+[
+ {
+  "id": "witheracquirecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4362: wither centre-head target goal respects line of sight and the +-4 vertical box"
+ }
+]
