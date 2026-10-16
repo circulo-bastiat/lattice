@@ -1,0 +1,3 @@
+[
+  { "id": "llamarefcheck", "kind": "check", "file": "tools/referee/llamarefcheck.mjs", "args": [] }
+]

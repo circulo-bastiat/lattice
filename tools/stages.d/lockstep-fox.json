@@ -1,0 +1,1 @@
+[{"id": "lockstep-fox", "kind": "check", "file": "tools/lockstep-fox.mjs", "args": [], "why": "#5292 G17-L4: fox lane (chasescen LOCKSTEP_ONLY) engine trace, 20 salts deterministic; tampered pos 1e-9/yaw/headYaw/onGround/shift breaks caught. Server comparison runs through lockstep/pilot.mjs --lanes fox."}]

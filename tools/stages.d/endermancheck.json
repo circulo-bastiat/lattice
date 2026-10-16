@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endermancheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/enderman-s98 (G18c): the enderman"
+ }
+]
