@@ -1,0 +1,50 @@
+# #4448 (Dan, 8 Oct 2026): an INDEPENDENT 60-min heartbeat. Every other watchdog runs on bus traffic, so on 7 Oct the fill
+# sat dead 10.5 h with none firing. This is a plain Actions schedule on a hosted runner (Dan's no-cron rule is about
+# Claude scheduled tasks). Decision: docs/decisions/4448-heartbeat.md. Check: tools/heartbeatcheck.mjs.
+name: heartbeat
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+  actions: write
+env:
+  GH_TOKEN: ${{ secrets.BRAIN_TOKEN || github.token }}   # a PAT: comments made with github.token do not trigger brain.yml
+  GH_REPO: ${{ github.repository }}
+jobs:
+  beat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - id: beat
+        shell: bash
+        run: |
+          set -euo pipefail
+          now=$(date +%s)
+          last=$(date -d "$(gh api "repos/$GH_REPO/commits/master" --jq .commit.committer.date)" +%s)
+          running() { gh api "repos/$GH_REPO/actions/workflows/brain.yml/runs?status=in_progress&per_page=100" --jq '[.workflow_runs[]|select(.display_title|test("^brain (worker|tester)"))]|length'; }
+          want=$(gh api "repos/$GH_REPO/actions/variables/FILL_WORKERS" --jq .value 2>/dev/null || echo 0)
+          n=$(running); age=$(( (now-last)/60 ))
+          echo "master commit ${age} min old, ${n} running workers/testers, FILL_WORKERS=${want}"
+          if [ "$want" -gt 0 ] && [ "$n" -eq 0 ] && [ "$age" -ge 60 ]; then
+            # the fill wants workers and nothing runs or lands: restart it (the brain's fill still honours caps and holds)
+            gh issue comment "$(gh issue list -l bus -s open -L1 --json number --jq '.[0].number')" --body $'to: log\nfrom: heartbeat\n\nrestarting the fill (heartbeat: nothing ran or landed for '"${age}"' min)'
+            gh workflow run brain.yml -f role=waker -f reason="heartbeat $(date -u +%FT%TZ)"
+            for i in $(seq 10); do sleep 60; [ "$(running)" -gt 0 ] && { echo "worker running after ${i} min"; exit 0; }; done
+            echo "restart produced no worker within 10 min (caps/holds may explain it, check the brain)"; exit 1
+          fi
+      - if: failure()
+        shell: bash
+        run: |
+          # THE ERROR PATH: mail the fixer and the commander (the brain wakes them); brain offline -> a severe fill-idle issue
+          body="heartbeat run ${{ github.run_id }} failed (step: beat). Log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          ok=1
+          for who in fixer commander; do
+            gh issue comment "$(gh issue list -l bus -s open -L1 --json number --jq '.[0].number')" --body $'to: '"$who"$'\nfrom: heartbeat\n\n'"$body" || ok=0
+          done
+          if [ "$ok" = 0 ]; then
+            gh issue create -t "severe: fill-idle - heartbeat cannot mail the fixer" -l severe -l fill-idle -b "$body" \
+              || gh issue create -t "severe: fill-idle - heartbeat cannot mail the fixer" -b "$body"
+          fi

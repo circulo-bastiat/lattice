@@ -1,0 +1,1 @@
+[ { "id": "lockstep-endermanwater", "kind": "check", "file": "tools/lockstep-endermanwater.mjs", "args": [], "why": "#7084 G17-L221 lockstep endermanwater: rained-on, puddle and dry enderman, 200 ticks, 20 salts (health with the 20-tick grace, exact position, wet, angry; teleport on every hurt 9 in 10); damage 1->2, teleport gate, box 64->32 and rain ignored caught." } ]

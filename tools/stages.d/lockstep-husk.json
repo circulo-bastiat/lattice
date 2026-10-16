@@ -1,0 +1,1 @@
+[{"id": "lockstep-husk", "kind": "check", "file": "tools/lockstep-husk.mjs", "args": [], "why": "#5343: engine husk chase lane, 20 salts, per-tick pos/yaw/pitch/target/attackTicks/health; tampered rows caught."}]

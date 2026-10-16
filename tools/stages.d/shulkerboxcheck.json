@@ -1,0 +1,8 @@
+[
+ {
+  "id": "shulkerboxcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#887 -- the in-world shulker box block entity: ShulkerBoxBlockEntityRenderer's matrix chain (six facings, 0.9995 scale, the lid rising 8px and turning 270deg), base+lid only, the dye sheets, and ShulkerBoxBlockEntity's 4-stage 0.1f controller (ten ticks each way, viewer count 1 opens, 0 closes). Breaks its own scale, mirror, lid and step."
+ }
+]

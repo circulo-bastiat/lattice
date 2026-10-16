@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbactivitycheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/vb-activity -- vanilla villager Brain ACTIVITY switching (07zv_villagerbrain.js): Schedule.VILLAGER_BABY, tickWork (a real claimed workstation walk + Profession-claim giveUp), tickIdle (villager-interest + findWalkTarget), and 07k_goals.js's own `villager` roster dropping WaterAvoidingRandomStrollGoal once NS.VB is ready. AFTER sleepcheck: same NS.VB module."
+ }
+]

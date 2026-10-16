@@ -1,0 +1,8 @@
+[
+ {
+  "id": "boatwatermask",
+  "kind": "check",
+  "args": [],
+  "why": "#5723: BoatEntityRenderer water_patch (getWaterMask) -- emitted only while the boat is not submerged, lifted 6 px above the bottom box, depth-only pass wired on WebGL2 + WebGPU and drawn before the translucent pass. Pixel probe owed."
+ }
+]

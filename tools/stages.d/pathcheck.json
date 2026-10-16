@@ -1,0 +1,8 @@
+[
+ {
+  "id": "pathcheck",
+  "kind": "check",
+  "args": [],
+  "why": "s117 loop/pathtypes -- vanilla's whole land node-type table + per-mob penalties in the A*."
+ }
+]

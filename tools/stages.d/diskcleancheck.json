@@ -1,0 +1,8 @@
+[
+ {
+  "id": "diskcleancheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4965: guest root disk 100% killed every run; low-disk finding + stale _diag//tmp auto-clean"
+ }
+]

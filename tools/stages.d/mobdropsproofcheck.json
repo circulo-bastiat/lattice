@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobdropsproofcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#7524 drops proof: per roster mob (91), the engine's unconditional loot roll vs the real 1.18.2 server's golden (rate + mean count per item), no-table mobs agree, writes tools/mobproof/out/drops.json; shrink-only ledger mobdropsproof-known.json; prints breaks caught."
+ }
+]

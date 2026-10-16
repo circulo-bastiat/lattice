@@ -1,0 +1,1 @@
+[{"id": "lockstep-zombie_villager", "kind": "check", "file": "tools/lockstep-zombie_villager.mjs", "args": [], "why": "#5347 G17-L4: zombie_villager lane (chasescen LOCKSTEP_ONLY) engine trace, 20 salts deterministic; tampered pos 1e-9/yaw/attack/health/shift breaks caught."}]
