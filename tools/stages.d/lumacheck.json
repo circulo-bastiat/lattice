@@ -1,0 +1,12 @@
+[
+ {
+  "id": "lumacheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html",
+   "--seconds",
+   "75"
+  ],
+  "why": "⚠ AND THE ONE THAT SCORES PIXELS RATHER THAN COUNTERS. Every check above reads what the engine BELIEVES it drew; this one reads the back buffer inside render() and asks what colour the frame actually was, every frame. The class it closes is \"healthy counters, sky on the screen\" — the shape of the report that survived D-162, D-175, D-194 and D-198."
+ }
+]

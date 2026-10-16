@@ -1,0 +1,1 @@
+[{"id": "lockstep-fish", "kind": "check", "file": "tools/lockstep-fish.mjs", "args": [], "why": "#5324 G17-L4: engine-side cod/salmon pool-lane trace, 20 salts (pos, vel, yaw, pitch, air per tick); deterministic per salt; 1e-9 drift and air shift caught. Server comparison runs through lockstep/pilot.mjs."}]
