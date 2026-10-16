@@ -1,0 +1,1 @@
+[ { "id": "lockstep-turtlewalk", "kind": "check", "file": "tools/lockstep-turtlewalk.mjs", "args": [], "why": "#5306 G17-L4 lockstep turtle walk lane: engine turtle lane over 20 salts (pos/yaw/pitch/headYaw/onGround per tick, deterministic per salt); compareTraces catches a 1e-9 pos/yaw drift, headYaw, onGround, row shift." } ]

@@ -1,0 +1,1 @@
+[{"id": "lockstep-eyeofender", "kind": "check", "file": "tools/lockstep-eyeofender.mjs", "args": [], "why": "#7079 G17-L216: thrown eye of ender, 20 salts: flight toward target (12 clamp, +8 y), velocity lerp, 80-tick lifespan, nextInt(5) drop vs shatter, survival shrink; lifespan/roll/clamp breaks caught."}]

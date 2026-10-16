@@ -1,0 +1,1 @@
+[ { "id": "lockstep-elder_guardian", "kind": "check", "file": "tools/lockstep-elder_guardian.mjs", "args": [], "why": "#5361 #5376 G17-L4 lockstep elder_guardian water pool: engine trace (pos/vel/yaw/pitch/air) for 20 salts, deterministic; MCLITE_LOCKSTEP_SERVER=1 compares pos against the real 1.18.2 server with no tolerance; injected 1e-9 drift caught." } ]

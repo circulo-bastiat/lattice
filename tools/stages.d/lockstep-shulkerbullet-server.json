@@ -1,0 +1,1 @@
+[ { "id": "lockstep-shulkerbullet-server", "kind": "check", "file": "tools/referee/bulletrefcheck.mjs", "args": [], "why": "#7061 G17-L4: shulker_bullet engine vs the real 1.18.2 server, salts 0..19 plus 3 fixed: Pos/Motion per tick, hit tick, Levitation applied; golden-less = SKIP; breaks caught." } ]

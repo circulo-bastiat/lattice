@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-attackeffect",
+  "kind": "check",
+  "file": "tools/referee/lockstepattackeffectcheck.mjs",
+  "args": [],
+  "why": "#6862 G17-L161: lockstep scenario attackeffect, 20 salts: cave spider poison (Normal 7 s, Hard 15 s, none Easy), husk hunger 140*(int)localDifficulty, wither skeleton wither 200t, stray arrow slowness 600t, armoured and bare dummy, per-tick effects field; poison on Easy caught."
+ }
+]

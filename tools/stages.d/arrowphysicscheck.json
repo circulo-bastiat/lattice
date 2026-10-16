@@ -1,0 +1,8 @@
+[
+ {
+  "id": "arrowphysicscheck",
+  "kind": "check",
+  "args": [],
+  "why": "s116 — G18 Ai.OWED's own arrow-physics residue: PersistentProjectileEntity's real segment raycast (tunneling), inGround/shouldFall/age() (a stuck arrow that despawns, is drawn at its frozen impact angle, and falls again once its block is gone), and onPlayerCollision/ tryPickup (a picked-up arrow really returns to the inventory) — Cb.tickArrow/tickStuckArrow/ tryArrowPickup (14j_combat.js), through the real EntityList.tick() loop."
+ }
+]
