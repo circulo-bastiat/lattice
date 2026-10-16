@@ -1,0 +1,1 @@
+[{"id": "lockstep-zombie-20", "kind": "check", "file": "tools/lockstep-zombie-20.mjs", "args": [], "why": "#7527: engine zombie lane, 20 salts, injected faults caught at the injected tick and field."}]

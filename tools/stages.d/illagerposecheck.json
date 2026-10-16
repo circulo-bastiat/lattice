@@ -1,0 +1,8 @@
+[
+ {
+  "id": "illagerposecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1198: IllagerEntityModel.setAngles states (CrossbowPosing hold/charge/meleeAttack, celebrating, crossed arms visibility) and PillagerEntity.getState per state, checked against .decomp values."
+ }
+]

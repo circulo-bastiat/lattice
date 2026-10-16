@@ -1,0 +1,3 @@
+[
+  { "id": "phaselanecheck", "kind": "check", "file": "tools/phaselanecheck.mjs", "args": [], "why": "#3948 PHASE LANE: one worker takes phase issues in order, smartly; own hold marker; gate rules" }
+]

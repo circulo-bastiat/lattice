@@ -1,0 +1,3 @@
+[
+  { "id": "coveragemapcheck", "kind": "check", "file": "tools/coveragemapcheck.mjs", "args": [] }
+]

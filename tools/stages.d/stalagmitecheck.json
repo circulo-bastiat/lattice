@@ -1,0 +1,8 @@
+[
+ {
+  "id": "stalagmitecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5663 -- PointedDripstoneBlock.fallOn: landing on an up-pointing tip is fall damage of (dist+2) with multiplier 2, source stalagmite; other thicknesses/down tips are plain."
+ }
+]

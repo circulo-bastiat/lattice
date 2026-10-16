@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbplaycheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/vbplay -- baby villager PLAY activity, createPlayTasks' priority-5 PlayWithVillagerBabiesTask (07zv2_vbplay.js's own VB.tickPlay): mutual-or-nearest-visible- baby chase, VB.SCHEDULE_BABY's own real 'play' windows (Schedule.VILLAGER_BABY), adults never entering it. AFTER vbworkcheck: same NS.VB module."
+ }
+]

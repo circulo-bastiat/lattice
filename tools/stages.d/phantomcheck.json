@@ -1,0 +1,8 @@
+[
+ {
+  "id": "phantomcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/phantom: PHANTOM (mob + goals + PhantomMoveControl) and the world-level PhantomSpawner (see tools/phantomcheck.mjs's own header / src/07zz1_phantom.js's own Ph.OWED for what is a named simplification). AFTER silverfishcheck: neighbourliness only, no shared module (its own harness in tools/loadsrc.mjs's own extra-modules shape)."
+ }
+]
