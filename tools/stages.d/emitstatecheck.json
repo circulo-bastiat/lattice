@@ -1,0 +1,1 @@
+[{"id":"emitstatecheck","kind":"check","file":"tools/emitstatecheck.mjs","args":[],"why":"#406 per-STATE block-light emission vs tools/golden/luminance-1.18.2.tsv"}]

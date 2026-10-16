@@ -1,0 +1,298 @@
+{
+ "why": "#7521 shrink-only ledger: per mob, what tools/mobshapecheck.mjs cannot yet compare against the vanilla model. May only get shorter.",
+ "notCovered": {
+  "chicken": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "boat": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)",
+   "boat: non-living renderer transform is posed by mobl3check, not compared here",
+   "nothing compared for this mob"
+  ],
+  "evoker_fangs": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)",
+   "evoker_fangs: non-living renderer transform is posed by mobl3check, not compared here",
+   "nothing compared for this mob"
+  ],
+  "llama_spit": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)",
+   "llama_spit: non-living renderer transform is posed by mobl3check, not compared here",
+   "nothing compared for this mob"
+  ],
+  "leash_knot": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)",
+   "leash_knot: non-living renderer transform is posed by mobl3check, not compared here",
+   "nothing compared for this mob"
+  ],
+  "ghast": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "fish": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "pufferfish": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "tropical_fish": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "sheep": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "wolf": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "squid": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "glow_squid": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "pig": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)",
+   "saddle#null: no vanilla model class mapped"
+  ],
+  "panda": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "fox": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "cat": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "strider": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)",
+   "strider_saddle: non-living renderer transform is posed by mobl3check, not compared here"
+  ],
+  "cow": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "mooshroom": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "rabbit": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "bee": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "ocelot": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "turtle": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "polar_bear": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "goat": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "axolotl": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "llama": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "trader_llama": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "llama_decor": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)",
+   "decor#null: no vanilla model class mapped",
+   "nothing compared for this mob"
+  ],
+  "trident": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)",
+   "trident: non-living renderer transform is posed by mobl3check, not compared here",
+   "nothing compared for this mob"
+  ],
+  "parrot": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "bat": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "dolphin": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "guardian": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "elder_guardian": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "creeper": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "horse": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "donkey": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "mule": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "skeleton_horse": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "zombie_horse": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "zombie": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "husk": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "giant": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "zombie_villager": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "drowned": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "skeleton": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "stray": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "wither_skeleton": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "spider": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "cave_spider": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "silverfish": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "endermite": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "end_crystal": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)",
+   "end_crystal: non-living renderer transform is posed by mobl3check, not compared here",
+   "nothing compared for this mob"
+  ],
+  "enderman": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "slime": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "magma_cube": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "blaze": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "hoglin": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "zoglin": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "piglin": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "piglin_brute": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "zombified_piglin": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "evoker": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "illusioner": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "pillager": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "vindicator": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "villager": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "wandering_trader": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "iron_golem": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "snow_golem": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "phantom": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "ravager": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "shulker": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "shulker_bullet": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)",
+   "shulker_bullet: non-living renderer transform is posed by mobl3check, not compared here",
+   "nothing compared for this mob"
+  ],
+  "vex": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "wither": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "ender_dragon": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "player": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "player_slim": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "armor_stand": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "witch": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "wither_skull": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)",
+   "wither_skull: non-living renderer transform is posed by mobl3check, not compared here",
+   "nothing compared for this mob"
+  ],
+  "minecart": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "chest_minecart": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "command_block_minecart": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "furnace_minecart": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "hopper_minecart": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "spawner_minecart": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ],
+  "tnt_minecart": [
+   "UV origin (texOffs), texture width/height and mirror flags are not compared; per-face UV rectangle SIZES are (cuboid origin/size/inflate/pivot/rotation are, as a posed per-cuboid AABB)"
+  ]
+ }
+}

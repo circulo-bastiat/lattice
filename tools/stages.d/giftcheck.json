@@ -1,0 +1,8 @@
+[
+ {
+  "id": "giftcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/gifts -- GiveGiftsToHeroTask itself: the priority-3 CompositeTask a hero-of-the- village player triggers (src/07zv7_vbgifts.js's own NS.VBGifts.tick), the 13-profession GIFTS loot-table map (tools/pack-loot.mjs's own gameplay/hero_of_the_village/<profession>_ gift entries), and the baby-poppy/unmapped-profession-wheat_seeds fixed gifts. AFTER vbgathercheck: reuses NS.VBGather.giveItemTo (exported this session) and NS.Loot.rollTable (exported this session)."
+ }
+]

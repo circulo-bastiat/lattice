@@ -1,0 +1,1 @@
+[ { "id": "lockstep-sweep", "kind": "check", "file": "tools/referee/sweeplockstepcheck.mjs", "args": [], "why": "#6616 G17-L90: lockstep scenario sweep (sword tiers x Sweeping Edge 0-3, cooldown ramp, 1.0+ratio*damage, 3-block range, knockback 0.4, full-strength grounded non-crit only, 20 seeds) vs Player.attack reference; range 9.0->81.0 and crit exemption removed caught." } ]

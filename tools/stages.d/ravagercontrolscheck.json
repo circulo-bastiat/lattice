@@ -1,0 +1,3 @@
+[
+  { "id": "ravagercontrolscheck", "kind": "check", "file": "tools/ravagercontrolscheck.mjs", "args": [], "why": "#3762 -- RavagerEntity.updateGoalControls disables MOVE/LOOK/TARGET under a non-raider mob passenger, JUMP in a boat" }
+]

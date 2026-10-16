@@ -1,0 +1,8 @@
+[
+ {
+  "id": "eyeofendercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5083 — EyeOfEnderEntity: aims at the nearest ST stronghold, 12-block clamp, 80% drop / 20% break over 1000 seeded trials; breaks its own target and drop rule to prove it can fail."
+ }
+]

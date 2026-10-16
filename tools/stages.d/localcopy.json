@@ -1,0 +1,3 @@
+[
+  { "id": "localcopycheck", "kind": "check", "file": "tools/localcopycheck.mjs", "args": [] }
+]

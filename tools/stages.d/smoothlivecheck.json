@@ -1,0 +1,10 @@
+[
+ {
+  "id": "smoothlivecheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "#1264 -- Dan 1 Oct: the Smooth Lighting option changed nothing he could see. Drives the REAL page (mesh workers on): presses the real menu row, remeshes, and reads every section mesh the renderer holds (per-quad vertex light gradient ON vs none OFF, OFF merges more) plus a screenshot of a glowstone-lit room (ON vs OFF pixel diff against a control). Anti-vacuity: a mesher forced to smooth while the setting says OFF must be caught by both the mesh and the pixel measure."
+ }
+]
