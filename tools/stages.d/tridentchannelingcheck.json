@@ -1,0 +1,8 @@
+[
+ {
+  "id": "tridentchannelingcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5619 — a thrown trident with Channeling in a thunderstorm with sky visible spawns exactly one lightning bolt at the hit mob; clear weather / roofed / unenchanted spawn none."
+ }
+]

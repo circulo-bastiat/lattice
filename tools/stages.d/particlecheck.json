@@ -1,0 +1,8 @@
+[
+ {
+  "id": "particlecheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/hearts (this session) -- the PARTICLE substrate (love-mode/breed-complete HEART, growth/bonemeal HAPPY_VILLAGER, tame success/fail HEART/SMOKE) and the three emitters wired into it (Br.emitLoveHeart/emitBreedHearts/emitGrowthPuff, Tm.feed's own burst). AFTER breedcheck/tamecheck: it drives their real modules, not a copy."
+ }
+]

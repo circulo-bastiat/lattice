@@ -1,0 +1,8 @@
+[
+ {
+  "id": "gendropcheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-451 — queue row 0 item 7: worldgen must never drop items during generation. Over a real generated region it asserts zero calls ever reach EntityList.popResource/dropStack during gen (they do not — every 04*.js write goes through Features.setBlock, a REFUSAL gate, not a write-then-break), then an anti-vacuity section monkeypatches Features.api.setBlock to simulate the hypothesised bug and confirms the assertion would fail against it. After featcheck because it drives the same feature-placement pipeline."
+ }
+]

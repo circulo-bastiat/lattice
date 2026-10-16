@@ -1,0 +1,3 @@
+[
+  { "id": "portalcheck", "kind": "check", "file": "tools/portalcheck.mjs", "args": [] }
+]

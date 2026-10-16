@@ -1,0 +1,8 @@
+{
+ "why": "#1166 ratchet. knownMismatch = layers whose rendered geometry differs from the vanilla model built from .decomp (tools/vanillamodel.mjs). It may only SHRINK: fix a mob, then delete it here. A mob listed here cannot be marked audited (go.mjs audit --mob). Classes: (a) empty parent parts dropped by extract-models so children lose the parent pivot: fox, donkey (phantom fixed in #1541 via PART_PARENT) (horse/skeleton_horse/zombie_horse fixed in #1352 via PART_PARENT) (wolf, bee, axolotl, salmon fixed in #1202 via ER.PART_PARENT/VIRTUAL_PARTS); (b) loop-built parts missing from models.bin: (magma_cube fixed in #2540; slime fixed in #1869; blaze fixed in #1860 via blazeRodRows, wither fixed in #1578 via witherTailRows); (c) unresolved, triage: enderman (strider fixed in #1618); (d) turtle fixed in #3074: the vanilla side now hides egg_belly (visible only with hasEgg).",
+ "knownMismatch": {},
+ "maxUnmapped": 51,
+ "minMatched": 64,
+ "knownOverlayMismatch": {},
+ "minOverlayMatched": 9
+}

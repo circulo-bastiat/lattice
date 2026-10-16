@@ -1,0 +1,8 @@
+[
+ {
+  "id": "usewearcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4188: Use.damage rolls Unbreaking (ItemStack.damage) and plays the tool-break sound; breaks itself."
+ }
+]

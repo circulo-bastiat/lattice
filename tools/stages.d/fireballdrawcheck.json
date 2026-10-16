@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fireballdrawcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3806 -- FireballEntityRenderer (FlyingItemEntityRenderer scale 3 / 0.75, fire_charge, camera-facing) matrix math, headless."
+ }
+]
