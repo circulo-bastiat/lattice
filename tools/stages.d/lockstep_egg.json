@@ -1,0 +1,1 @@
+[ { "id": "lockstep_egg", "kind": "check", "file": "tools/lockstep-egg-20.mjs", "args": [], "why": "#8270 G17-L4 lockstep egg: 20 seeds, engine trace deterministic, 6 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes egg (full suite)." } ]

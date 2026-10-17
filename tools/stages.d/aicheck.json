@@ -1,0 +1,8 @@
+[
+ {
+  "id": "aicheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-391 (PASS 16 JOB 1, live wiring) -- Ai.selectorFor/GoalSelector.tick() driven through a REAL EL.spawn + EL.tick() against an actually-spawned cow/zombie, not the synthetic fixture goalcheck.mjs uses. Also the check that found and closed the Cb.hurt <-> Ai join (PanicGoal/HurtByTargetGoal were dead code with a live caller until Cb.notifyHurt)."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "straylayercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1128 -- StrayOverlayFeatureRenderer: a stray draws a second pass of the biped model grown by 0.25 textured skeleton/stray_overlay.png (packed as stray_outer) on the same cutout layer; a skeleton/zombie do not. Proves the geometry, the packed slices and the ER.visible push, and breaks its own data."
+ }
+]

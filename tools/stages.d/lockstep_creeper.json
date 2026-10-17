@@ -1,0 +1,1 @@
+[ { "id": "lockstep_creeper", "kind": "check", "file": "tools/lockstep-creeper-20.mjs", "args": [], "why": "#5459 G17-L4 lockstep creeper: 20 seeds, engine trace deterministic, injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes creeper (20 salts run, 0 divergences, salt 16 unstable)." } ]

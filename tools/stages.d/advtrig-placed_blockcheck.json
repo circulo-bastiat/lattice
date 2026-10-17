@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-placed_blockcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT34 — minecraft:placed_block matcher + P.triggerPlaced call site (both P.placeBlock paths) complete husbandry/plant_seed; breaks its own matcher/call site to prove it can fail."
+ }
+]

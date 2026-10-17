@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-voluntary_exilecheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT45 — minecraft:voluntary_exile matcher + RaidManager.startRaid call site fire the trigger (no 1.18.2 advancement packs it); breaks its own matcher."
+ }
+]

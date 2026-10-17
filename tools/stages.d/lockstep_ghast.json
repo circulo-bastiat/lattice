@@ -1,0 +1,1 @@
+[ { "id": "lockstep_ghast", "kind": "check", "file": "tools/lockstep-ghast-trace.mjs", "args": [], "why": "#5474 G17-L4 lockstep ghast: engine trace of the ghast lane (pos/yaw/pitch/target + fireball spawn tick, Pos, velocity) for 20 salts, deterministic; tampered fields caught. Server comparison: pilot.mjs --seeds 20 --lanes ghast (full suite)." } ]

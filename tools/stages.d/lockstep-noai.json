@@ -1,0 +1,1 @@
+[{"id": "lockstep-noai", "kind": "check", "file": "tools/lockstep-noai.mjs", "args": [], "why": "#7062: NoAI cow/zombie/skeleton never target, attack or walk; hit knockback + gravity still run; 20 salts; AI-on and tampered rows caught."}]
