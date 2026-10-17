@@ -1,0 +1,1 @@
+[{"id": "lockstep-wolf", "kind": "check", "file": "tools/lockstep-wolf.mjs", "args": [], "why": "#5434 G17-L4: wolf lane (chasescen LOCKSTEP_ONLY) engine trace, 20 salts deterministic; tampered pos 1e-9/yaw/headYaw/onGround/shift breaks caught."}]

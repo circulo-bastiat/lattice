@@ -1,0 +1,15 @@
+{
+ "why": "shrink-only ledger (#7522). notCovered: what mobtexproofcheck does not cover, per mob (max may only go down). failedRows: quoted rows the check finds red; strider bristles were a flat-plane convention of the check (#7800, fixed: zero-area faces no longer count). #8160: faces leaving the sheet (pufferfish top_back_fin, tropical_fish_small tail, salmon fins) wrap (GL REPEAT); pack-mobtex cuts them into wrapped slices and the check verifies su/sv. end_crystal sheet 128x64 vs model 64x32 is a vanilla quirk, not a bug (#8083, docs/decisions/8083-end-crystal-sheet.md).",
+ "max": 2,
+ "notCovered": [
+  "render-layer blend mode: only eyes (getEyes, ONE/ONE non-scrolling) still drawn as cutout, see blendRows",
+  "rendered-pixel raster vs reference not built"
+ ],
+ "failedRows": [],
+ "blendRows": [
+  "blend spider_eyes: engine draws cutout, vanilla eyes",
+  "blend enderman_eyes: engine draws cutout, vanilla eyes",
+  "blend phantom_eyes: engine draws cutout, vanilla eyes",
+  "blend dragon_eyes: engine draws cutout, vanilla eyes"
+ ]
+}

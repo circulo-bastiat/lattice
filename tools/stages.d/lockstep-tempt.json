@@ -1,0 +1,1 @@
+[ { "id": "lockstep-tempt", "kind": "check", "file": "tools/lockstep-tempt.mjs", "args": [], "why": "#6902 G17-L185: lockstep scenario tempt (TemptGoal: cow, pig, sheep, chicken, horse following a held item; running flag, target, cooldown 100, 2.5 block stop, 10 block range, 20 salts): cooldown 100 -> 60 caught." } ]

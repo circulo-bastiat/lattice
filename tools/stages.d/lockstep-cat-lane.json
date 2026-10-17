@@ -1,0 +1,1 @@
+[{"id": "lockstep-cat-lane", "kind": "check", "file": "tools/lockstep-cat-lane.mjs", "args": [], "why": "#6155 G17-L4: cat lane registered in lanes.d, 20 salts deterministic engine trace; 1e-9 pos/vel/yaw/pitch drift caught. Server comparison via lockstep/pilot.mjs --lanes cat (20 seeds, 0 divergences)."}]

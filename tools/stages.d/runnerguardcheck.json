@@ -1,0 +1,1 @@
+[{"id":"runnerguardcheck","kind":"check","args":[],"why":"#3568 -- a mass failure or a failing setup stage is a RUNNER fault, not a red master: no per-check RED issues, the runner loses gpu/express (go.mjs runner quarantine) and gets gpu back only through the smoke gate; broken guards must be caught (breaks caught)."}]

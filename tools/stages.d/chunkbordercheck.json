@@ -1,0 +1,3 @@
+[
+  { "id": "chunkbordercheck", "kind": "check", "file": "tools/chunkbordercheck.mjs", "args": [] }
+]

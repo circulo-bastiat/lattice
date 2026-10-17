@@ -1,0 +1,1 @@
+[{"id": "lockstep-zombie_villager", "kind": "check", "file": "tools/referee/lockstepzombievillagercheck.mjs", "args": [], "why": "#6488 G17-L4: zombie_villager x20 salts vs real 1.18.2 server, divergences: 0; doctored summaries/tampered pos breaks caught."}]

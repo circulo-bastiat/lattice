@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-ride_entity_in_lavacheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT10 (#7757) - Adv.matchers ride_entity_in_lava + P.tickVehicleInLavaRiding call site; ride_strider_in_overworld_lava completes, non-matching does not; breaks its own matcher."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endcitycheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4560 -- End City layout (EndCityGenerator pieces, rotation offsets, chain-intersection test, ships) and the structure_block DATA markers (Chest/Sentry/Elytra) the template packer keeps; breaks its own data and prints '<n> breaks caught'."
+ }
+]

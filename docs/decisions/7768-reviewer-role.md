@@ -1,0 +1,2 @@
+# 7768 reviewer role
+Fresh-context judge (`tools/brain/reviewer.mjs`): sees issue text + `required:` list, PR diff, check output; never the worker summary. Verdict pass|mismatch|unclear. Samples every verifier-change PR, every <=3-turn run, 1 in 5 of the rest; cap 6/h, 40/day; off when usage caps stop. Mismatch reopens (`review-mismatch`) and mails commander. Model: haiku (provisional, pending calibration, item 4).

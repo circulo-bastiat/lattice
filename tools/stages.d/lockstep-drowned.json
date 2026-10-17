@@ -1,0 +1,1 @@
+[{"id": "lockstep-drowned-lane", "kind": "check", "file": "tools/referee/lockstepdrownedcheck.mjs", "args": [], "why": "#6487 G17-L4: drowned lockstep vs the real 1.18.2 server, 20 salts, divergences: 0 required; doctored divergence, short run and 1e-9 drift refused (3 breaks caught)."}]

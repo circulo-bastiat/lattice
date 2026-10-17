@@ -1,0 +1,8 @@
+[
+ {
+  "id": "chunkgengoldencheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1899 C2ME-1 -- the golden for the whole C2ME speed-up family: an FNV-1a hash of every chunk (sections, biome, heightmap, spawner/entity logs), 3 seeds x 21x21, generated inline on one thread (tools/golden/chunkgen-golden.json, written by tools/chunkgenprofile.mjs --golden --write). A later unit may change WHEN and ON WHICH THREAD a chunk is built, never WHAT it contains. Breaks its own data (block, biome, height, spawner, entity, one chunk in the sweep, a corrupted golden entry) to prove the compare can fail."
+ }
+]

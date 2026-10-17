@@ -1,0 +1,3 @@
+[
+  { "id": "phonecopycheck", "kind": "check", "file": "tools/phonecopycheck.mjs", "args": [], "why": "#7810 phone app E: plain English - no raw HTTP text, every jargon term has its ? explanation, destructive buttons have a two-tap confirm, run outcomes in words" }
+]

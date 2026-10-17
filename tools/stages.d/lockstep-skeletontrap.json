@@ -1,0 +1,1 @@
+[{"id": "lockstep-skeletontrap", "kind": "check", "file": "tools/referee/skeletontraplockstepcheck.mjs", "args": [], "why": "#6782 G17-L137: lockstep scenario skeletontrap, 20 salts x 3 difficulties: SkeletonHorseTrapTriggerGoal 10-block canStart, trapTime counter, cosmetic bolt, tamed horse, 4 skeleton riders + 3 reinforcement horses; range 8 caught."}]

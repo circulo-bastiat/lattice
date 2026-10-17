@@ -1,0 +1,10 @@
+[
+ {
+  "id": "timeweathercheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "worker3/mobcommand-s146 -- /time, /weather, /seed, /gamerule LIVE (MCLITE_PRESET=medium). Found and fixed in src/15g_commands.js: (1) /time query gametime read Sky.dayTime (the SAME variable /time set/add and doDaylightCycle touch) instead of World.getTime()'s real analogue (Main.ticks, unconditional every tick); (2) /time set's RETURN (not its feedback) must be wrapped mod 24000 and /time add's feedback AND return both must be (TimeCommand. java:66-83); (3) /weather's no-duration default is a flat 6000 ticks, never a random draw from Sky.*_RANGE, and its <duration> argument is SECONDS*20 (a plain bounded integer, not a minecraft:time value) -- /weather rain 600 was 600 TICKS instead of 12000, and clear/ rain/thunder were leaving stale rainTime/thunderTime behind instead of the shared-timer write WeatherCommand.java's own setWeather(clearTime, $$1, ...) does."
+ }
+]

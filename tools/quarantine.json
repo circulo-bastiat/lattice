@@ -1,0 +1,14 @@
+{
+ "dupcheck": "red on the 27 Sept GPU full suite; issue: master is red",
+ "mobcmdkillcheck": "red before the GPU suite (D-822)",
+ "timeweathercheck": "GPU full-suite red (D-822)",
+ "tpcheck": "GPU full-suite red (D-822)",
+ "tickcheck": "GPU full-suite red (D-822)",
+ "soakcheck": "GPU full-suite red (D-822)",
+ "mobdrawcheck": "real bug: sealed-room skylight stuck at 7 (D-836)",
+ "worldcheck": "real bug: redstone scheduled shutoff + piston sync-extend (D-836)",
+ "meltdropcheck": "red before the GPU suite (D-822)",
+ "seamcheck": "KW-48b-1 (#586) repro harness, RED ON PURPOSE: a mesh job in flight when a block changes lands its stale vis over markDirty's 0x7FFF; un-quarantine with the fix (#578)",
+ "texrostercheck": "measurement harness, red by design until the #579 units land (#592)",
+ "sheepgrassrefcheck": "29 golden reds pre-exist on master (#2774); needs a golden regen"
+}
