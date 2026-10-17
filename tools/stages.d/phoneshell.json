@@ -1,0 +1,3 @@
+[
+  { "id": "phoneshellcheck", "kind": "check", "file": "tools/phoneshellcheck.mjs", "args": [], "why": "#7807 phone app B: tab registry, fixed state colours, loading/empty/error on every component, sw cache key per build, reduced motion" }
+]

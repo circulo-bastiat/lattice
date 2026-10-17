@@ -1,0 +1,3 @@
+[
+  { "id": "borderentitycheck", "kind": "check", "file": "tools/borderentitycheck.mjs", "args": [] }
+]

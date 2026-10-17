@@ -1,0 +1,1 @@
+[{"id":"paceextracheck","kind":"check","args":[],"why":"#4954 -- FILL_WORKERS is the base; fill.paceExtra adds a session only while usageCap's 5-hour pacing says it fits (never on unknown/stale usage, a spent window/week, base 0 or unconfigured pacing); fillCount and fillShape both see it; broken rules/wirings must be caught (breaks caught)."}]

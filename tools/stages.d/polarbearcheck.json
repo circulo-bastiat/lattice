@@ -1,0 +1,8 @@
+[
+ {
+  "id": "polarbearcheck",
+  "kind": "check",
+  "args": [],
+  "why": "Dan's scheduled parallel night, QUEUE 0.2 (G18c, missing overworld mob) -- the POLAR BEAR whole: attributes/dimensions/breeding (jar-extracted table), the neutral-anger reuse (Ai.UniversalAngerGoal/Ai.AngryPlayerTargetGoal, the same machinery iron golem already exercises), the warning stand-up animation state, the melee attack's own non-squared max-attack-distance override, adults defending cubs, a cub deferring its own revenge to call in the pack, the always-a-cub-after-the-first-one natural spawn baby chance, and the frozen-ocean/generic-grass spawn rule split."
+ }
+]

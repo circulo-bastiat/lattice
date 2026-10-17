@@ -1,0 +1,1 @@
+[{"id": "lockstep-piglin", "kind": "check", "file": "tools/lockstep-piglin.mjs", "args": [], "why": "#5365 G17-L4: piglin lane (chasescen LOCKSTEP_ONLY) engine trace, 20 salts deterministic; real server piglin trace not repeatable per salt (recorded); tampered pos 1e-9/yaw/attack/health/shift breaks caught."}]

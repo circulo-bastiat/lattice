@@ -1,0 +1,8 @@
+[
+ {
+  "id": "hoppercheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-419 (PASS 17 JOB 1, G19b) -- the HOPPER. The screen is `guicheck` §4g's; this is the machine: five slots that ARE the block entity, a close-and-reopen that loses nothing, and the transfer -- one item every eight ticks, into the cell it FACES and out of the one ABOVE, through the furnace's own per-face slot table and `Menu.furnaceSetItem`'s door."
+ }
+]

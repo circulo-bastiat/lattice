@@ -1,0 +1,1 @@
+[{"id":"selectorposcheck","kind":"check","file":"tools/selectorposcheck.mjs","args":[],"why":"G17-SEL1 selector distance ranges, x/y/z origin, dx/dy/dz volume, y_rotation (EntitySelectorOptions, NumberRange)."}]

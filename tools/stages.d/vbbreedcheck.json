@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbbreedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/vbbreed -- VillagerBreedTask itself (src/07zv5_vbbreed.js's own NS.VBBreed.tick) plus createPlayTasks' OWN priority-5 RandomTask (VB.PLAY_FALLBACK, src/07zv2_vbplay.js). AFTER vbidlecheck: reuses VB.IDLE_START/VB.villagerReadyToBreed/VB.villagerFoodValue."
+ }
+]
