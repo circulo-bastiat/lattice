@@ -1,0 +1,1 @@
+[ { "id": "lockstep-tablecheck", "kind": "check", "file": "tools/lockstep-tablecheck.mjs", "args": [], "why": "#7063 G17-L211: lockstep mob x dimension coverage table (tools/lockstep-table.mjs, golden/lockstep-table.tsv) is fresh, goes STALE when a covered src/07zb_creeper.js line changes, and fails when a lockstep stage has no row." } ]

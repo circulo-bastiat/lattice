@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobcmdxpgamemodecheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/s145-w4 (parallel night wave, unit \"mob-command joins\") -- /gamemode and /experience against live mob combat: the D-684 creative-chase fix regression-checked under a LIVE /gamemode switch mid-fight (not a pre-set flag, goalcheck's own standing shape), and Xp.xpToDrop/Xp.dropMobXp/Xp.pickupTick/Sv.addXp proven gamemode-blind (a creative kill/ pickup gives the SAME vanilla xp as survival, off .decomp -- LivingEntity.dropXp/ ExperienceOrbEntity.onPlayerCollision read no GameMode at all), plus /experience add points / set levels through the real dispatcher with the HUD state re-derived correctly."
+ }
+]

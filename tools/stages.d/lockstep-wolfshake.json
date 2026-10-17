@@ -1,0 +1,1 @@
+[{"id": "lockstep-wolfshake", "kind": "check", "file": "tools/lockstep-wolfshake.mjs", "args": [], "why": "#6903 G17-L186: lockstep scenario wolfshake, 20 salts: wet/shake flags, shakeProgress per tick, 41-tick shake, sound, splash count, rain wetting; duration 40->30 and 4 other breaks caught."}]

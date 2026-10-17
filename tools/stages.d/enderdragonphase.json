@@ -1,0 +1,3 @@
+[
+  { "id": "enderdragonphasecheck", "kind": "check", "file": "tools/enderdragonphasecheck.mjs", "args": [] }
+]

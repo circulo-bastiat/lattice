@@ -1,0 +1,1 @@
+[ { "id": "lockstep-endermitechase", "kind": "check", "file": "tools/lockstep-endermitechase.mjs", "args": [], "why": "#5356 G17-L4 lockstep endermite: engine endermite chase lane over 20 salts (pos/yaw/pitch/target/attackTicks/health per tick, deterministic per salt); compareTraces catches a 1e-9 pos drift, yaw, attackTicks, health, row shift." } ]

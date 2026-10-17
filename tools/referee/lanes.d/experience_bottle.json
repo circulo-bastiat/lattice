@@ -1,0 +1,1 @@
+{ "id": "experience_bottle", "mob": "experience_bottle", "up": 1, "nbt": "Motion:[0.9d,0.1d,0.0d]", "note": "#8280: experience_bottle flies down +x into the corridor wall; impact spawns 3+rand(5)+rand(5) xp (ThrownExperienceBottle.onHit); effect = orb value total" }

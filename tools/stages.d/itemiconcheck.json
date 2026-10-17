@@ -1,0 +1,8 @@
+[
+ {
+  "id": "itemiconcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4982 - every item icon against its item model and ItemColors: sprite textures and baked tints, block items drawn from the ITEM's own model + gui transform (small dripleaf, chorus plant, stairs) and pixel-compared with an independent render of the extracted model; the tint table is exactly vanilla's (grass/fern/tall grass/vine/lily pad/leaves). Breaks its own data (6 breaks caught)."
+ }
+]

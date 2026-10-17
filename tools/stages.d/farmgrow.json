@@ -1,0 +1,8 @@
+[
+ {
+  "id": "farmgrow",
+  "kind": "check",
+  "args": [],
+  "why": "#304 (G24) -- farming random ticks as comparisons (D-291): hydrated wheat matures faster than dry; wheat light 8 stands still, 9 grows; cocoa to age 2 in the dark; sweet berries gated on light 9 above; bamboo sapling -> column <= 16. Breaks edit the real 07b source (moisture term, cocoa rule, both light gates, bamboo cap)."
+ }
+]

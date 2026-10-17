@@ -1,0 +1,3 @@
+[
+  { "id": "invisibleblockcheck", "kind": "check", "file": "tools/invisibleblockcheck.mjs", "args": [] }
+]
