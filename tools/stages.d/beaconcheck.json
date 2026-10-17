@@ -1,0 +1,8 @@
+[
+ {
+  "id": "beaconcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5571 G17-B6 -- BeaconBlockEntity.tick: pyramid level, beam segments, glass colour mixing, opaque cap blocks / bedrock does not."
+ }
+]

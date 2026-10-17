@@ -1,0 +1,620 @@
+{
+ "why": "Known vacuity offenders awaiting the hand audits (#7704-#7707). Each needs an issue number; remove an entry when fixed. Only NEW offenders fail.",
+ "waivers": {
+  "tools/attraudit.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/fangsrefcheck.mjs": {
+   "classes": [
+    "V1",
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/fishhookcheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/gameeventcheck.mjs": {
+   "classes": [
+    "V1"
+   ],
+   "issue": 7708
+  },
+  "tools/goalaudit.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/goalstracecheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/grindstonecheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/historyatomiccheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/invisibleblockcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-bathang.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-catspawner.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-chickenjockey.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-elderguardian.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-enchantdamage.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-endermanwater.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-endermite.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/lockstepfollowownercheck.mjs": {
+   "classes": [
+    "V1"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-foxpounce.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/lockstephangingcheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-hoglinbrain.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-horsetemper.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/lockstepiceslidecheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/minecartraillockstepcheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-mooshroomuse.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/lockstepnetherportalcheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-patrol.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/lockstepportalspawncheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstepshovecheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-siege.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-spawnequip.mjs": {
+   "classes": [
+    "V1"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-squidswim.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/lockstepripwirecheck.mjs": {
+   "classes": [
+    "V1"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-vexlife.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/villagerofferslockstepcheck.mjs": {
+   "classes": [
+    "V1"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-wolfshake.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/lockstep-zombieinit.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/lootaudit.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/mobaudit4check.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/extract-entity-static-src.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/nullmeshcheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/platecheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/portalcheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/queueordercheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/mobrefattrcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/avoidrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/barterrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/blockrefdropcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/boltrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/buttonrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/chaserefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/cmprefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/columnrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/convrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/creeperrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/daylightrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/dispenserefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/enchrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/endermanrefcheck.mjs": {
+   "classes": [
+    "V1",
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/mobrefequipcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/farmrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/mobreffirecheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/firerefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/floorrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/fluidrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/furnacerefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/gaterefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/growthrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/hoglinrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/hopperrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/hurtrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/itemrefcheck.mjs": {
+   "classes": [
+    "V1",
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/kbrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/leafrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/llamarefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/mobreflootcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/meleerefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/meltrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/panicrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/phantomrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/platerefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/ramrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/rangedrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/ranged2refcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/redrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/spawnerrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/spreadrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/surviverefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/tntrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/villagerreftradecheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/wanderrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/xprefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/xp2refcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/xporbrefcheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/referee/mobdefaultscheck.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/remeshcheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/shulkerattackcheck.mjs": {
+   "classes": [
+    "V1"
+   ],
+   "issue": 7708
+  },
+  "tools/soundaudit.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/spawnaudit.mjs": {
+   "classes": [
+    "V3"
+   ],
+   "issue": 7708
+  },
+  "tools/stalemeshcheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/standrendercheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  },
+  "tools/vacuitycheck.mjs": {
+   "classes": [
+    "V1"
+   ],
+   "issue": 7708
+  },
+  "tools/watchdogcheck.mjs": {
+   "classes": [
+    "V2"
+   ],
+   "issue": 7708
+  }
+ }
+}

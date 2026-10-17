@@ -1,0 +1,8 @@
+[
+  {
+    "id": "mobanimproof",
+    "kind": "check",
+    "args": [],
+    "why": "#7523 PROOF animation: head yaw/pitch, quadruped legs, humanoid legs and riding legs of every base-class roster mob equal the decompiled QuadrupedEntityModel/BipedEntityModel.setAngles over a limbSwing x amount x yaw x pitch grid; all 91 roster mobs get a row in tools/mobproof/out/animation.json, uncompared parts sit in the shrink-only tools/mobproof-anim-known.json. #7785 adds rabbit + bee; #7784 adds fox, panda and polar bear own setAngles (rotations + pivots over their state grids). #7787 adds dolphin, squid and guardian own setAngles. #7794 adds villager, illager, witch and ravager oracles. Also the fish family (cod, salmon, tropical, pufferfish). Breaks its own oracle (289 breaks caught; rabbit, bee, wolf, chicken and #7784 models included)."
+  }
+]

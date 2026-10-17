@@ -1,0 +1,1 @@
+[ { "id": "lockstep-dragoncrystal", "kind": "check", "file": "tools/lockstep-dragoncrystal.mjs", "args": [], "why": "#7081 G17-L218 lockstep dragoncrystal: engine dragon heal +1/10 ticks from the nearest crystal within 32, beam target, 10 head damage on destroying the connected crystal, 20 salts; heal interval 20 and crystal damage 5 are caught." } ]

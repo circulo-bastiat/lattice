@@ -1,0 +1,1 @@
+[ { "id": "lockstep-insomnia", "kind": "check", "file": "tools/referee/insomnialockstepcheck.mjs", "args": [], "why": "#6853 G17-L152: lockstep scenario insomnia, 20 salts x easy/normal/hard x sky/roofed: PhantomSpawner cooldown, timeSinceRest >= 72000 roll, sleep reset, 20-34 band, group 1+nextInt(diff+1); threshold 71999 caught." } ]
