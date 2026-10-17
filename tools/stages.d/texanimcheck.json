@@ -1,0 +1,3 @@
+[
+  { "id": "texanimcheck", "kind": "check", "file": "tools/texanimcheck.mjs", "args": [] }
+]

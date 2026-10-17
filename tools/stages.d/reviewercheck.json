@@ -1,0 +1,3 @@
+[
+  { "id": "reviewercheck", "kind": "check", "file": "tools/reviewercheck.mjs", "args": [] }
+]

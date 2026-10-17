@@ -1,0 +1,310 @@
+{
+ "why": "#7523 shrink-only ledger: per mob, what tools/mobanimproof.mjs cannot yet compare against vanilla setAngles. May only get shorter.",
+ "notCovered": {
+  "chicken": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "boat": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "evoker_fangs": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "llama_spit": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "leash_knot": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "ghast": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "fish": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "pufferfish": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "tropical_fish": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "sheep": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "wolf": [],
+  "squid": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "glow_squid": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "pig": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "panda": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "fox": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "cat": [],
+  "strider": [],
+  "cow": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "mooshroom": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "rabbit": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "bee": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "ocelot": [],
+  "turtle": [],
+  "polar_bear": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "goat": [],
+  "axolotl": [],
+  "llama": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "trader_llama": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "llama_decor": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "trident": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "parrot": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "bat": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "dolphin": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "guardian": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "elder_guardian": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "creeper": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "horse": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "donkey": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "mule": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "skeleton_horse": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "zombie_horse": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "zombie": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "husk": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "giant": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "zombie_villager": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "drowned": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "arms: swing/attack/charge/aggressive arms are posed by the arm layers (ZombieArms, bow, crossbow, illager) and are not compared"
+  ],
+  "skeleton": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "arms: swing/attack/charge/aggressive arms are posed by the arm layers (ZombieArms, bow, crossbow, illager) and are not compared"
+  ],
+  "stray": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "arms: swing/attack/charge/aggressive arms are posed by the arm layers (ZombieArms, bow, crossbow, illager) and are not compared"
+  ],
+  "wither_skeleton": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "arms: swing/attack/charge/aggressive arms are posed by the arm layers (ZombieArms, bow, crossbow, illager) and are not compared"
+  ],
+  "spider": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "cave_spider": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "silverfish": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "endermite": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "end_crystal": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "enderman": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "slime": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "magma_cube": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "blaze": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "hoglin": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "zoglin": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "piglin": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "arms: swing/attack/charge/aggressive arms are posed by the arm layers (ZombieArms, bow, crossbow, illager) and are not compared"
+  ],
+  "piglin_brute": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "arms: swing/attack/charge/aggressive arms are posed by the arm layers (ZombieArms, bow, crossbow, illager) and are not compared"
+  ],
+  "zombified_piglin": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "arms: swing/attack/charge/aggressive arms are posed by the arm layers (ZombieArms, bow, crossbow, illager) and are not compared"
+  ],
+  "evoker": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "illusioner": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "pillager": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "vindicator": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "villager": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "wandering_trader": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "iron_golem": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "snow_golem": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "phantom": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "ravager": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "shulker": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "shulker_bullet": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "vex": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "wither": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "ender_dragon": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "player": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "player_slim": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "armor_stand": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "witch": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet"
+  ],
+  "wither_skull": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "minecart": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "chest_minecart": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "command_block_minecart": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "furnace_minecart": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "hopper_minecart": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "spawner_minecart": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ],
+  "tnt_minecart": [
+   "head/limb pose beyond the base class (specialised setAngles, arms/attack/death/hurt/baby/riding/sleeping/swimming/flying states, tail/ear/jaw/wing parts) is not compared yet",
+   "no base-class setAngles: model has its own pose maths"
+  ]
+ }
+}

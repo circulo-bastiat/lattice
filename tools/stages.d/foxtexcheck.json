@@ -1,0 +1,8 @@
+[
+ {
+  "id": "foxtexcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1327: fox picks fox/snow_fox and the *_sleep sheets while sleeping (FoxEntityRenderer.getTexture), sheets are extracted/packed, held-item layer wired; breaks its own picker"
+ }
+]

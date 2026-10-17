@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-piglinwatch",
+  "kind": "check",
+  "file": "tools/lockstep-piglinwatch.mjs",
+  "args": [],
+  "why": "#6942 G17-L202: piglin guarded blocks (chest open needs sight, gold block break not; radius 16, admiring piglin skipped, no gold-armour exemption in 1.18.2), 20 salts per tick; radius 8, gold exemption, admire 100 breaks caught."
+ }
+]

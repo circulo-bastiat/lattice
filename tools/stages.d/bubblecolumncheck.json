@@ -1,0 +1,3 @@
+[
+  { "id": "bubblecolumncheck", "kind": "check", "file": "tools/bubblecolumncheck.mjs", "args": [] }
+]

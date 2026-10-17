@@ -1,0 +1,1 @@
+[{"id":"lockstep_hopper_minecart_lane","kind":"check","file":"tools/lockstep-hopper-minecart-lane.mjs","args":[],"why":"#6190: hopper_minecart lane registered in lanes.d (pilot 20 seeds done, 0 divergences); removing it or changing its mob is caught."}]

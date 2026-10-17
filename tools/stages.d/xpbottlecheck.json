@@ -1,0 +1,8 @@
+[
+ {
+  "id": "xpbottlecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5080 -- experience_bottle throwable (Throw.use + Throw.tickBottle): 0.07 gravity, 0.99 drag, 3+rand(5)+rand(5) XP orbs on hit, stack shrinks outside creative; breaks its own gravity and second roll to prove it can fail."
+ }
+]
