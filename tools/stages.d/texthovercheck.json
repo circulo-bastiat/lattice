@@ -1,0 +1,3 @@
+[
+  { "id": "texthovercheck", "kind": "check", "file": "tools/texthovercheck.mjs", "args": [] }
+]

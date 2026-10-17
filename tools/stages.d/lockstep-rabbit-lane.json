@@ -1,0 +1,1 @@
+[{"id": "lockstep-rabbit-lane", "kind": "check", "file": "tools/lockstep-rabbit-lane.mjs", "args": [], "why": "#6148 G17-L4: rabbit lane registered in lanes.d, 20 salts deterministic engine trace; 1e-9 pos/vel/yaw/pitch drift caught. Server comparison via lockstep/pilot.mjs --lanes rabbit (20 seeds, 0 divergences)."}]

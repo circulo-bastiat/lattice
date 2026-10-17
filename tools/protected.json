@@ -1,0 +1,6 @@
+{
+ "why": "#7766: the files that decide whether work passes. The lander (tools/infra/verifierguard.mjs) holds any PR that weakens them, or edits this list, for a `**Commander` note on the PR. Additive edits pass.",
+ "files": ["tools/core.json", "tools/quarantine.json", "tools/hosted-unfit.json", "tools/vacuity-waivers.json", "tools/protected.json", "tools/infra/land.mjs", "tools/infra/gate.mjs", "tools/infra/verifierguard.mjs", "tools/vacuitycheck.mjs", "tools/brain/roles.json"],
+ "globs": ["tools/stages.d/*.json", ".github/workflows/*"],
+ "roleKeys": "quarantine|cap"
+}

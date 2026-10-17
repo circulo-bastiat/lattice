@@ -1,0 +1,17 @@
+{
+  "goals": [
+    {"file": "src/07k_goals.js", "kind": "block", "start": "^    {mob}: function", "end": "^    \\w+: function"},
+    {"file": "src/07z*_{mob}.js", "kind": "whole"}
+  ],
+  "drops": [
+    {"file": "src/07e_loot.js", "kind": "lines"},
+    {"file": "src/14j_combat.js", "kind": "lines"}
+  ],
+  "lockstep": [
+    {"file": "tools/referee/lanes.d/{mob}.json", "kind": "whole"}
+  ],
+  "model": [{"file": "src/07j_entityrender.js", "kind": "lines"}],
+  "texture": [{"file": "src/07j_entityrender.js", "kind": "lines"}],
+  "animation": [{"file": "src/07j_entityrender.js", "kind": "lines"}],
+  "spawn": [{"file": "src/07l_spawn.js", "kind": "lines"}]
+}

@@ -1,0 +1,16 @@
+[
+ "bus|tap|button#rf",
+ "home|font|div.tokline",
+ "home|font|span",
+ "home|font|span.badge",
+ "home|font|span.pct",
+ "home|tap|a",
+ "home|tap|button#rf",
+ "home|tap|summary",
+ "requests|font|span.chip.waiting",
+ "settings|tap|a",
+ "stats|font|span",
+ "stats|font|span.pct",
+ "stats|tap|a",
+ "stats|tap|button#rf"
+]

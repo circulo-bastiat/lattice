@@ -1,0 +1,8 @@
+[
+ {
+  "id": "crystalringbookcheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-835 (this pass) -- reconciles ED.buildCrystalRing's synthetic alive/getAliveEndCrystals() bookkeeping (src/07zzl_enderdragon.js) with a REAL live end_crystal entity: destroying one now correlates back to its own ring row (by reference for a synthetic row, by the same EndSpikeFeature.Spike column test vanilla's own countAliveCrystals() uses for a real entity), instead of a bare indexOf() that only ever matched a synthetic row by reference."
+ }
+]
