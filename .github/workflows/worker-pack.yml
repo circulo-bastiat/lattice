@@ -2,12 +2,16 @@
 # same tools/brain/launch.mjs code path as the VM (the per-slot sequence lives in tools/infra/mirror/pack-slot.sh, read from the private clone at run time,
 # so changing it needs no republish of this file). Every code-touching step is silent (#8913): the logs are public. Nothing here may name the owner.
 name: worker-pack
+# #9324: the run name carries an OPAQUE pool tag (p0, p1 = the index in roles.json accounts, never an account name: these logs are public)
+# so the brain can count each reserve pool's running workers on the mirror.
+run-name: worker-pack ${{ inputs.pool || 'p' }} x${{ inputs.workers }}
 on:
   workflow_dispatch:
     inputs:
       issues: { description: 'csv of claimed issue numbers (may be empty: each worker claims)', required: false, default: '' }
       workers: { description: 'workers in this pack (1-4)', required: false, default: '1' }
       account: { description: 'account name (selects the lattice secret)', required: false, default: '' }
+      pool: { description: 'opaque pool tag for the run name (#9324)', required: false, default: '' }
 permissions:
   contents: read
 jobs:
