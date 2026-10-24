@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbseekskycheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5622 -- after a won raid villagers' priority-0 RandomTask picks SeekSkyAfterRaidWinTask (5) or RunAroundAfterRaidTask (2, speed*1.1); silent when ongoing/no raid."
+ }
+]

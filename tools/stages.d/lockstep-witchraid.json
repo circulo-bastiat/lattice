@@ -1,0 +1,1 @@
+[ { "id": "lockstep-witchraid", "kind": "check", "file": "tools/referee/lockstepwitchraidcheck.mjs", "args": [], "why": "#7103: lockstep scenario witchraid, 20 salts: RaidGoal canStart (cooldown, 50% roll, active raid), 16 range + vertical-4 box, mustSee, nearest ally by eye-Y, 200-tick cooldown; feet-Y distance and always-visible caught." } ]

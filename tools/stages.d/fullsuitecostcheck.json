@@ -1,0 +1,1 @@
+[ { "id": "fullsuitecostcheck", "kind": "check", "file": "tools/fullsuitecostcheck.mjs", "args": [], "why": "#7727: cost report finds duplicates/families/unfit browsers; master has no duplicate stage." } ]

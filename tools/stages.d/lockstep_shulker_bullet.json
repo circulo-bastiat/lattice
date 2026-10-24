@@ -1,0 +1,1 @@
+[ { "id": "lockstep_shulker_bullet", "kind": "check", "file": "tools/lockstep-shulker_bullet-20.mjs", "args": [], "why": "#7537 G17-L4 lockstep shulker_bullet: 20 seeds, engine trace deterministic, 5 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes shulker_bullet (full suite)." } ]

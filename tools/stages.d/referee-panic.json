@@ -1,0 +1,3 @@
+[
+  { "id": "panicrefcheck", "kind": "check", "file": "tools/referee/panicrefcheck.mjs", "args": [] }
+]

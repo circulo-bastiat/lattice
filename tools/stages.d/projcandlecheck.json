@@ -1,0 +1,9 @@
+[
+ {
+  "id": "projcandlecheck",
+  "kind": "check",
+  "file": "tools/projcandlecheck.mjs",
+  "args": [],
+  "why": "#8664 -- AbstractCandleBlock.onProjectileHit: a burning projectile lights all 17 candles and candle cakes, a plain one and an already lit one change nothing; removing the handler goes red. Node-only."
+ }
+]

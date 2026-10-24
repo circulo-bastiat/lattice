@@ -1,0 +1,8 @@
+[
+ {
+  "id": "bedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/beds (G19c) -- BEDS: sleeping, the night skip, the spawn point and respawn-at-bed (src/14m_sleep.js, NS.Sleep), hooked from usecheck's own Use.blockUse dispatch above."
+ }
+]

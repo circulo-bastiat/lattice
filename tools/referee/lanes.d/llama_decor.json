@@ -1,0 +1,1 @@
+{ "id": "llama_decor", "mob": "llama", "nbt": "DecorItem:{id:\"minecraft:white_carpet\",Count:1b}", "note": "#5431 (G17-L4): llama wearing a white carpet (LlamaEntity DecorItem slot), passive wander lane; rows pos/yaw/pitch/health" }

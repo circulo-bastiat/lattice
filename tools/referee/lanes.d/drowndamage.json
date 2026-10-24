@@ -1,0 +1,1 @@
+{ "id": "drowndamage", "mob": "pig", "damage": true, "nbt": "NoAI:1b,Air:25s", "hurt": true, "mobhp": true, "pool": true, "note": "#9247: NoAI pig in a 2-deep pool with Air 25: air drains 1/tick, at -20 the air resets to 0 and DROWN 2.0 lands, then every 20 ticks; rows pos, Health, HurtTime per tick" }

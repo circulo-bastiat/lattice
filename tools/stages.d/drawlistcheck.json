@@ -1,0 +1,8 @@
+[
+ {
+  "id": "drawlistcheck",
+  "kind": "check",
+  "args": [],
+  "why": "KW-48b-4 (#589, #578/GATE M): a section whose mesh became empty and later non-empty must be back in Gfx.meshList (the list both backends' cull loops and drawSection read); stress of flushUploads/dropMesh/promoteNearUploads, breaks its own bookkeeping."
+ }
+]

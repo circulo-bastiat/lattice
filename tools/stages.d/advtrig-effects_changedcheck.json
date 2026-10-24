@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-effects_changedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT23 (#7985) — Adv.matchers effects_changed + the onStatusEffect* call site; all_potions, all_effects, kill_axolotl_target; breaks its own matcher."
+ }
+]

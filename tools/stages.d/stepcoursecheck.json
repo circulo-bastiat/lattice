@@ -1,0 +1,1 @@
+[ { "id": "stepcoursecheck", "kind": "check", "file": "tools/stepcoursecheck.mjs", "args": [], "why": "#9198: engine zombie climbs the ledge/slab/stair course like the real server (golden step-1.18.2.json); step height 0 is caught (breaks caught)." } ]

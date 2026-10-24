@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-changed_dimensioncheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT28 (#7994) — Adv.matchers changed_dimension + World.setDimension call site; nether/end root and story advancements complete, wrong dimension does not; breaks its own matcher."
+ }
+]

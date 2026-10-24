@@ -1,0 +1,1 @@
+[{"id": "lockstep-xpmerge", "kind": "check", "file": "tools/referee/xpmergecheck.mjs", "args": [], "why": "#8795 G17-L245: lockstep scenario xpmerge, 20 salts: 12 mixed orbs in two clusters, per tick merge (box 0.5, id%40, count, age), 8-block attraction, 6000 despawn and pickup vs ExperienceOrbEntity; rounding table off by one and radius 8 -> 7 caught."}]

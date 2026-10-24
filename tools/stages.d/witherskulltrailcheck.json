@@ -1,0 +1,8 @@
+[
+ {
+  "id": "witherskulltrailcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4894: wither skull smoke trail, water bubbles and yaw/pitch lerp toward velocity"
+ }
+]
