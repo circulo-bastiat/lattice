@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-item_used_on_blockcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT31 (#7997) — Adv.matchers item_used_on_block + the Use.rightClick call site; wax_on completes for honeycomb on copper, not for a stick or on stone; breaks its own matcher."
+ }
+]

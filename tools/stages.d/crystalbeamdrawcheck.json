@@ -1,0 +1,18 @@
+[
+ {
+  "id": "crystalbeamdrawcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "loop/crystal-beam-render -- D-838's own beamQuads reaching an ACTUAL GPU draw call (WebGL2 + WebGPU, riding ER.renderOrbs' existing 10_gfx.js hook -- see ER.renderCrystalBeams' own header in 07j_entityrender.js), proven against a real screenshot: a live end_crystal changes MORE pixels once e.beamTarget is set than the same crystal with none. --fast skips it (browser stage)."
+ },
+ {
+  "id": "inwalldrawcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "G17-O2b (#9242) -- the in-wall overlay reaching the screen: the camera inside a sand block darkens the whole frame to the sprite at colour 0.1, the same camera inside glass does not (WebGL2 + WebGPU via the HUD canvas); prints breaks caught. --fast skips it (browser stage)."
+ }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "landconflictcheck", "kind": "check", "file": "tools/landconflictcheck.mjs", "args": [] }
+]

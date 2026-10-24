@@ -1,0 +1,3 @@
+[
+  { "id": "pistonrendercheck", "kind": "check", "file": "tools/pistonrendercheck.mjs", "args": [] }
+]

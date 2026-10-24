@@ -1,0 +1,1 @@
+[{"id":"gorunscheck","kind":"check","args":[],"why":"#9009 -- RUNS go.mjs claimable against a stubbed GitHub (#8981 left a deps() call site behind and every go.mjs start died for ~40 min while checks only grepped it); breaks go.mjs 5 ways (breaks caught)."}]

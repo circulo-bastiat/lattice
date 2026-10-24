@@ -1,0 +1,16 @@
+[
+ {
+  "id": "chunkbordercheck",
+  "kind": "check",
+  "file": "tools/chunkbordercheck.mjs",
+  "args": []
+ },
+ {
+  "id": "chunkborderdrawcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "#9240 -- F3+G chunk borders (NS.ChunkBorder vertices) reach a real GPU draw call on the active backend: toggle on adds pixels in the geometry's colours, toggle off removes them, a skipped draw and wrong colours are caught. --fast skips it (browser stage)."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advpredcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT0 — Adv.pred (NumberRange, Entity/DamageSource/Distance/Item/Location predicates) driven by conditions from the real packed advancements (kill_all_mobs, sniper_duel, shoot_arrow, totem_of_undying); breaks its own module to prove it can fail."
+ }
+]

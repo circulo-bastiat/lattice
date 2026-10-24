@@ -1,0 +1,39 @@
+# Published into the lattice mirror (#8916). Private checkout by PAT, test-merge + build + core (suite goes to this mirror via TEST_REMOTE),
+# then land.mjs merges through the private repo API with sha=. Silent throughout (#8913): logs are public, nothing here may name the owner.
+name: land
+on:
+  workflow_dispatch:
+    inputs:
+      pr: { description: 'PR number in the private repo', required: true }
+concurrency:
+  group: land
+  cancel-in-progress: false
+permissions:
+  contents: read
+jobs:
+  land:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      NODE_OPTIONS: --dns-result-order=ipv4first
+      MCLITE_HOSTED: '1'
+      MCLITE_PRESET: medium
+      PR: ${{ inputs.pr }}
+    steps:
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: checkout
+        env: { PAT: '${{ secrets.MCLITE_PAT }}', SRC: '${{ secrets.MCLITE_SRC }}' }
+        run: |
+          silent() { local n="$1"; shift; "$@" >> "$RUNNER_TEMP/out.log" 2>&1; local rc=$?; echo "[silent] $n exit=$rc"; return $rc; }
+          silent clone git -c credential.helper= clone -q "https://x-access-token:${PAT}@github.com/${SRC}.git" work
+      - name: land
+        env:
+          GH_TOKEN: ${{ secrets.MCLITE_PAT }}
+          MCLITE_TEST_REMOTE: mirror
+          MIRROR_TOKEN: ${{ github.token }}
+          MIRROR_REPO: ${{ github.repository }}
+        run: |
+          . work/tools/infra/mirror/silent.sh
+          cd work && silent bootstrap node tools/cloud/bootstrap.mjs --no-suite --no-build
+          silent land node tools/infra/land.mjs "$PR"

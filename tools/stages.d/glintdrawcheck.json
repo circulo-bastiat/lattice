@@ -1,0 +1,10 @@
+[
+ {
+  "id": "glintdrawcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "#9239 -- the enchantment glint reaching a real GPU draw call (WebGL2 + WebGPU): an enchanted chestplate on a live zombie changes more pixels frame-to-frame (scrolling foil) than the same plain one; breaks: no foil quads. --fast skips it (browser stage)."
+ }
+]

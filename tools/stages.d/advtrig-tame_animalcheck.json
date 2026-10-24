@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-tame_animalcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT12 — minecraft:tame_animal matcher + Tame.feed call site complete husbandry/tame_an_animal; breaks its own matcher/call site to prove it can fail."
+ }
+]

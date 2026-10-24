@@ -1,0 +1,8 @@
+[
+ {
+  "id": "foxcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/fox-s99 (QUEUE 0.2 G18c, missing overworld mob) -- the FOX whole: attributes (jar-extracted table), red/snow type by biome precipitation (Type.fromBiome, no random roll), the two-slot trusted-player list, flee/follow-parent/breed goals, the stalk-then-melee hunt goal (chicken/rabbit prey), the sweet-berry-bush eating goal (MoveToTargetPosGoal's own expanding-ring search), the mouth-item pickup goal, spawn- rule tag check, breeding's coin-flip child type + trust, and the red/snow skin key."
+ }
+]

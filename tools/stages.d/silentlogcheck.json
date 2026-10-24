@@ -1,0 +1,1 @@
+[ { "id": "silentlogcheck", "kind": "check", "file": "tools/silentlogcheck.mjs", "args": [] } ]

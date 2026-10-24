@@ -1,0 +1,8 @@
+[
+ {
+  "id": "amphibiouscheck",
+  "kind": "check",
+  "args": [],
+  "why": "#9438 -- AmphibiousPathNodeMaker port (src/07zzzd_amphibious.js): node types, maluses, start/target floor(y+0.5), feet Y, vertical successors and deep-water penalty equal an oracle written from the decompiled class over a seeded world."
+ }
+]

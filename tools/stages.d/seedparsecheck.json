@@ -1,0 +1,8 @@
+[
+ {
+  "id": "seedparsecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#384: parseSeed is GeneratorOptions.parseSeed (Long.parseLong else String.hashCode)"
+ }
+]
