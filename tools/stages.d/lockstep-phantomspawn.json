@@ -1,0 +1,1 @@
+[ { "id": "lockstep-phantomspawn", "kind": "check", "file": "tools/lockstep-phantomspawn.mjs", "args": [], "why": "#7944 G18c-L9: lockstep scenario phantomspawn (rest 0/72000/144000 x easy/normal/hard x 20 salts x 6000 ticks vs PhantomSpawner oracle): 72000 changed to 36000 caught." } ]

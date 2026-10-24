@@ -1,0 +1,6 @@
+{
+ "_": "spawnproofcheck ledger (#7525), shrink-only",
+ "max": 1,
+ "notCovered": ["block placement rules, caps, spawn eggs/spawners, variants other than rabbit+parrot (fox, cat, horse, llama, axolotl, panda, tropical fish): owned by spawnrulecheck, spawncapcheck, despawncheck, lockstep-spawn* checks, not compared per mob here (moon-phase, slime-chunk, halloween and magma_cube rules per mob since #8904; the light rule per mob is compared since #8812; y/sea-level rules since #8813; despawn rules since #8817; equipment roll since #8815; baby chance since #8814; rabbit+parrot variant rolls since #8816)"],
+ "failedRows": []
+}

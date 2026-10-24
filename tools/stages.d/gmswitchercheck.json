@@ -1,0 +1,3 @@
+[
+  { "id": "gmswitchercheck", "kind": "check", "file": "tools/gmswitchercheck.mjs", "args": [] }
+]

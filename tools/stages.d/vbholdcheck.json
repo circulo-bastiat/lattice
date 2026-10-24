@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbholdcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18f-N2 -- FindInteractionTargetTask(PLAYER,4) + HoldTradeOffersTask: a seeded villager acquires a nearby player as INTERACTION_TARGET, holds an offer's sell stack in the mainhand, cycles every 40 ticks through the real Trade offers, clears on leaving (src/07zv8_vbhold.js, NS.VBHold). AFTER vbgathercheck."
+ }
+]

@@ -1,0 +1,42 @@
+#!/usr/bin/env node
+// elderguardianparticlecheck — #8078: ElderGuardianAppearanceParticle math (age, alpha curve, placement).
+import { loadEngine } from './loadsrc.mjs';
+const M = loadEngine({ extra: ['07zx_particle.js'] });
+const Px = M.Particle;
+let pass = 0, breaks = 0; const fails = [];
+const ok = (c, m) => { if (c) pass++; else fails.push(m); };
+const near = (a, b, e = 1e-6) => Math.abs(a - b) < e;
+const brk = (c, m) => { breaks++; if (!c) fails.push('anti-vacuity: ' + m); else { pass++; console.log('  ✓ break caught: ' + m); } };
+ok(Px.ELDER_GUARDIAN.maxAge === 30 && Px.ELDER_GUARDIAN.gravityStrength === 0, 'maxAge 30, gravity 0');
+const exp = a => 0.05 + 0.5 * Math.sin(a / 30 * Math.PI);
+ok(near(Px.elderGuardianAlpha(0), 0.05), 'alpha(0)=0.05');
+ok(near(Px.elderGuardianAlpha(15), 0.55), 'alpha(15)=0.55');
+ok(near(Px.elderGuardianAlpha(29), exp(29), 1e-5), 'alpha(29)');
+ok(Px.elderGuardianAlpha(29) < 0.11, 'alpha(29) fading toward 0.05');
+ok(near(Px.elderGuardianPitch(0), -60) && near(Px.elderGuardianPitch(15), 15) && near(Px.elderGuardianPitch(30), 90), 'pitch ramp');
+const l0 = Px.elderGuardianLocal(0), a = -60 * Math.PI / 180;
+ok(near(l0.y, 1.101 * Math.cos(a) - 1.5 * Math.sin(a)) && near(l0.z, 1.101 * Math.sin(a) + 1.5 * Math.cos(a)), 'placement age0');
+ok(near(Math.hypot(l0.y, l0.z), Math.hypot(1.101, 1.5)), 'rotation keeps distance');
+const l15 = Px.elderGuardianLocal(15);
+ok(near(l15.x, 0) && l15.z > 0, 'in front of camera at 15');
+const p = Px.spawnElderGuardian(1, 2, 3);
+ok(Px.list.indexOf(p) >= 0 && p.maxAge === 30, 'spawn adds particle');
+const cam = { x: 10, y: 20, z: 30, right: [1, 0, 0], up: [0, 1, 0], fwd: [0, 0, 1] };
+Px.list.length = 0; const q = Px.spawnElderGuardian(0, 0, 0); q.age = 15;
+const dr = Px.elderGuardianDraws(cam, 0);
+ok(dr.length === 1 && near(dr[0].alpha, 0.55) && dr[0].scale === 1.5 && dr[0].texture === 'entity/guardian_elder', 'draw descriptor');
+const l15b = Px.elderGuardianLocal(15);
+ok(near(dr[0].origin[0], 10) && near(dr[0].origin[1], 20 + l15b.y) && near(dr[0].origin[2], 30 + l15b.z), 'origin = camera + local');
+ok(near(dr[0].axisX[0], -1) && near(Math.hypot(...dr[0].axisY), 1), 'basis scale(-1) on x, unit axes');
+const yawed = { x: 0, y: 0, z: 0, right: [0, 0, -1], up: [0, 1, 0], fwd: [1, 0, 0] };
+ok(near(Px.elderGuardianDraws(yawed, 0)[0].origin[0], l15b.z), 'origin follows camera forward');
+Px.list.length = 0;
+// anti-vacuity: wrong curves must be detected
+brk(!near(0.05 + 0.5 * Math.sin(15 / 30 * Math.PI * 0.5), Px.elderGuardianAlpha(15)), 'wrong alpha curve detected');
+brk(!near(Px.elderGuardianPitch(15) + 5, 15), 'wrong pitch detected');
+brk(!near(Px.elderGuardianLocal(0).z, 1.5), 'untransformed placement detected');
+brk(!near(dr[0].origin[2], 30 + 1.5), 'origin not the untransformed offset');
+brk(Px.elderGuardianAlpha(0) !== Px.elderGuardianAlpha(15), 'alpha varies');
+if (fails.length) for (const f of fails) console.log("  - " + f);
+console.log(`elderguardianparticlecheck: ${pass} checks passed, ${fails.length} failures, ${breaks} breaks caught`);
+process.exit(fails.length ? 1 : 0);

@@ -1,0 +1,79 @@
+# The lander (RUN.md): one PR at a time. Since 7 Oct (Dan: "tests no longer run on my PC") it runs on GitHub-hosted ubuntu runners;
+# repo variable TEST_RUNNER=pc flips it back to Dan's PC express runner (instant rollback, no code change).
+name: land
+on:
+  pull_request:
+    types: [labeled, synchronize, reopened]
+  workflow_dispatch:
+concurrency:
+  group: land            # ONE landing at a time across every machine; queued, never cancelled
+  cancel-in-progress: false
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+jobs:
+  land-hosted:
+    if: vars.TEST_RUNNER != 'pc' && vars.TEST_RUNNER != 'mirror'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      NODE_OPTIONS: --dns-result-order=ipv4first
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0, ref: master }
+      - uses: actions/checkout@v4
+        with: { ref: store, path: _store }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: data + build
+        run: node tools/cloud/bootstrap.mjs --store "$GITHUB_WORKSPACE/_store" --no-suite --no-build 2>&1 | tail -5
+      - name: land
+        run: node tools/infra/land.mjs ${{ github.event.pull_request.number }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MCLITE_PRESET: medium
+          MCLITE_HOSTED: '1'
+  land-pc:
+    if: vars.TEST_RUNNER == 'pc'
+    # NO job-level `if` (30 Sept 21:20Z): the concurrency group keeps only the NEWEST pending run, so when that run was a
+    # push to an unlabelled PR and got SKIPPED, the 86 labelled PRs behind it waited forever. Every run now drains the
+    # whole `land` queue (land.mjs lands only labelled PRs), so any event keeps the lander going.
+    runs-on: [self-hosted, mclite, express]   # the express runner: never busy with a full suite
+    # #6767: repo variable TEST_REMOTE=mirror sends the core suite to the public test mirror (free hosted runners); this job only
+    # merges and builds, so it waits on the mirror and needs the longer limit
+    timeout-minutes: ${{ vars.TEST_REMOTE == 'mirror' && 180 || 60 }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0, ref: master }
+      # cmd, not PowerShell: Windows' script policy blocks the .ps1 wrapper the runner writes for a PowerShell step
+      # (it failed in 0.2 s with no output). Output also goes to <Projects>/_status/runner-land.log, because a
+      # session cannot download GitHub's own job logs through its proxy; Syncthing carries it to every PC.
+      - shell: cmd
+        run: |
+          echo === %DATE% %TIME% %COMPUTERNAME% run %GITHUB_RUN_ID% === >> "%MCLITE_PROJECTS%\_status\runner-land.log"
+          node tools\infra\land.mjs ${{ github.event.pull_request.number }} >> "%MCLITE_PROJECTS%\_status\runner-land.log" 2>&1
+          set RC=%ERRORLEVEL%
+          powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-Content -Tail 40 $env:MCLITE_PROJECTS\_status\runner-land.log"
+          exit /b %RC%
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MCLITE_PRESET: medium
+          MCLITE_TEST_REMOTE: ${{ vars.TEST_REMOTE }}
+          MIRROR_REPO: ${{ vars.MIRROR_REPO }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+  land-mirror:
+    # #8916: only dispatches lattice land.yml and waits for its verdict (the lattice run does the work, silently); rollback: TEST_RUNNER=pc
+    if: vars.TEST_RUNNER == 'mirror'
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: master }
+      - name: dispatch and wait
+        run: node tools/infra/landmirror.mjs run ${{ github.event.pull_request.number }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MIRROR_REPO: ${{ vars.MIRROR_REPO }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}

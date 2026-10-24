@@ -1,0 +1,8 @@
+[
+ {
+  "id": "scoreboardcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G26f — Scoreboard substrate: score sort (ScoreboardPlayerScore.COMPARATOR), teams, criteria names vs ScoreboardCriterion.java, display slots, save round trip and the sidebar HUD layout; breaks its own sort/criteria/persistence to prove it can fail."
+ }
+]

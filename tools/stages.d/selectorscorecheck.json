@@ -1,0 +1,8 @@
+[
+ {
+  "id": "selectorscorecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8130 — selector scores={obj=range} and team=/team=!/team=<n>/team=!<n> options over the scoreboard store; breaks its own filters to prove it can fail."
+ }
+]

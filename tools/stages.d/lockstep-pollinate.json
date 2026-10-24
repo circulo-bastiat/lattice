@@ -1,0 +1,1 @@
+[{"id": "lockstep-pollinate", "kind": "check", "file": "tools/lockstep-pollinate.mjs", "args": [], "why": "#8644 G18b-L35: lockstep scenario pollinate (bee flower search roll 20..60, PollinateGoal 400 ticks + 20% finish, nectar flag, 200-tick re-search, hit anger + cannotEnterHiveTicks 400, hive entry; 20 salts x 3000 ticks): pollination 400->300 caught."}]
