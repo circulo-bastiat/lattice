@@ -1,0 +1,8 @@
+[
+ {
+  "id": "eatfxcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G19d-c (#178) — eating/drinking effect cadence (%4, max-7, 5 per tick, 16 on finish), item crack particles, eat/drink sounds, first-person eat/drink pose vs decomp."
+ }
+]

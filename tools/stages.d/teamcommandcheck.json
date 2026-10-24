@@ -1,0 +1,8 @@
+[
+ {
+  "id": "teamcommandcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-SB3 — /team add|remove|empty|join|leave|list|modify and /teammsg on the Scoreboard team store, Entity team lookup, exact lang strings; breaks join to prove it can fail."
+ }
+]

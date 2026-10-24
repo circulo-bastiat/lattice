@@ -1,0 +1,8 @@
+[
+ {
+  "id": "jukeboxcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#189 -- JukeboxBlock comparator output per MusicDiscItem (1..14) through Rs.analogOutput, and removeRecord (disc item spawned) when the jukebox is broken. Anti-vacuity rows break each."
+ }
+]

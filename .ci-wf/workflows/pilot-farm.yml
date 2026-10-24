@@ -1,0 +1,60 @@
+# 21 Oct (Dan: "audit to see if we can mass build anything"): tops up the lockstep pilot credit of every lane on the hosted mirror, without a worker per mob.
+# tools/infra/pilotfarm.mjs plans (lanes short of 20 credited stable salts, fewest missing first) and runs the shortest K; the results are committed to a
+# branch, opened as a PR with `land`, and the lander is dispatched (a label set by GITHUB_TOKEN does not trigger land.yml by itself).
+name: pilot-farm
+on:
+  schedule:
+    - cron: '43 */2 * * *'
+    - cron: '17 4 * * *'   # once a day: a full pass with NO early cutoff (--no-carry), so a carried result is re-proven within ~10 days
+  workflow_dispatch:
+    inputs:
+      lanes:
+        description: 'how many lanes to top up this run'
+        required: false
+        default: '24'
+concurrency:
+  group: pilot-farm
+  cancel-in-progress: false
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+jobs:
+  farm:
+    if: vars.MIRROR_REPO != ''
+    runs-on: [self-hosted, brain]   # the private repo has no hosted minutes (#9425); the 11-job pilots themselves run on the public mirror
+    timeout-minutes: 170
+    env:
+      NODE_OPTIONS: --dns-result-order=ipv4first
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0, ref: master }
+      - name: close finished rollout issues, open divergence issues (reads the credit already on master)
+        run: node tools/infra/farmwork.mjs --apply
+      - name: plan
+        run: node tools/infra/pilotfarm.mjs
+      - name: farm
+        run: node tools/infra/pilotfarm.mjs --run --lanes "${{ github.event.inputs.lanes || '24' }}" --jobs 4 --ship-every 20 ${{ github.event.schedule == '17 4 * * *' && '--no-carry' || '' }}
+        env:
+          GIT_TERMINAL_PROMPT: '0'   # pilotfarm.mjs --ship-every 20 pushes farm/<run id>-p<N> every ~20 min (#9536)
+          MIRROR_REPO: ${{ vars.MIRROR_REPO }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+          FARM_FIRST: ${{ vars.FARM_FIRST }}   # #9973: comma list of lanes that lead the queue (the commander sets it)
+      - name: ship the results
+        if: always()
+        id: n
+        run: |
+          # #9844: judge the results against master's CURRENT head, never ship a result whose inputs went dead during the run
+          git -c credential.helper= fetch -q origin master && git merge -q --ff-only FETCH_HEAD || echo "could not fast-forward to master; judging against the run's own checkout"
+          node tools/infra/pilotfarm.mjs --drop-dead
+          git add tools/referee/lockstep/pilot-results
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          n=$(git diff --cached --name-only | wc -l); echo "n=$n" >> "$GITHUB_OUTPUT"
+          br="farm/${GITHUB_RUN_ID}"
+          git config user.name "pilot-farm"; git config user.email "farm@invalid.invalid"
+          git checkout -q -b "$br"
+          git commit -q -m "pilot farm: $n lockstep results"
+          git -c credential.helper= push -q origin "$br"
+          echo "pushed $br; GITHUB_TOKEN is refused for PR creation in this repo (403, run 39717561616), so the brain tick opens it (tools/infra/farmship.mjs)"

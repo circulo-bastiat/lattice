@@ -1,0 +1,1 @@
+[{"id":"nocodehandoffcheck","kind":"check","args":[],"why":"#9173 -- done on a branch with no commits records the worker's findings as a hand-off (>=80 chars, no --finished) instead of dying and losing them; --finished with no commits still dies; each broken copy must be caught (breaks caught)."}]

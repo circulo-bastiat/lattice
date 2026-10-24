@@ -1,0 +1,8 @@
+[
+ {
+  "id": "illusionerlookcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1027 -- IllusionerEntity.java:70 LookAtEntityGoal(MobEntity, 8.0F) at priority 10 alongside LookAtPlayer at 9; a live illusioner's mob-look goal sees a villager at 5 blocks and not at 12. Breaks its own expectations twice and must notice."
+ }
+]

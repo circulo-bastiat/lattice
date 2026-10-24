@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spawnerpotentialscheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5722 -- mob_spawner SpawnPotentials: weighted list saved/loaded (BE.FIELDS), updateSpawns picks the next entry by weight, the entry's entity NBT (Health) reaches the spawned mob."
+ }
+]

@@ -1,0 +1,1 @@
+[{"id": "lockstep-cobwebslow", "kind": "check", "file": "tools/referee/cobwebslowlockstepcheck.mjs", "args": [], "why": "#8791 G17-L240: lockstep scenario cobwebslow, 20 salts: zombie, pig and falling item through a 3x3 cobweb patch vs decomp WebBlock.onEntityCollision slowMovement (0.25, 0.05, 0.25), fallDistance reset, multiplier cleared by the next Entity.move."}]

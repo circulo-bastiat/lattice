@@ -1,0 +1,3 @@
+[
+  { "id": "stopatcheck", "kind": "check", "file": "tools/stopatcheck.mjs", "args": [] }
+]

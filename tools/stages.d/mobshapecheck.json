@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobshapecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1166 GATE M: every mob layer is rendered headless through the engine's own quad writer and compared (part count, bounding box, front/side/top silhouette IoU) with the vanilla model built from the decompiled Java; `node tools/go.mjs audit --mob <name>` must print AUDIT-RENDER-OK before a mob may be marked audited. Breaks its own inputs (8 breaks caught)."
+ }
+]

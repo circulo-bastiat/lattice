@@ -1,0 +1,1 @@
+[{"id": "lockstep-cave_spider-server", "kind": "check", "file": "tools/referee/lockstepcavespidercheck.mjs", "args": [], "timeoutMin": 40, "why": "#6491 G17-L4: cave_spider lockstep vs the real 1.18.2 server, 20 salts, divergences: 0 required; doctored divergence, short run and 1e-9 drift refused (3 breaks caught)."}]

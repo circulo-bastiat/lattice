@@ -1,0 +1,1 @@
+[{"id":"skipguardcheck","kind":"check","args":[],"why":"#9166 -- `go.mjs done --already-fixed` on a `RED <check>:` issue re-runs that check and refuses a SKIP (a check without its golden prints SKIP and exits 0, so workers closed reds the mirror kept reopening); a guard that accepts SKIP, ignores the exit status or guards every issue must be caught (breaks caught)."}]

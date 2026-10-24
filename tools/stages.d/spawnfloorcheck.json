@@ -1,0 +1,9 @@
+[
+ {
+  "id": "spawnfloorcheck",
+  "kind": "check",
+  "file": "tools/spawnfloorcheck.mjs",
+  "args": [],
+  "why": "#1161: ON_GROUND floor (allowsSpawning) applies to every on_ground type, so land animals never place over water/air; proves it can fail."
+ }
+]
