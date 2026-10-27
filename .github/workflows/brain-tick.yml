@@ -48,10 +48,11 @@ jobs:
             [ -s "$RUNNER_TEMP/vars.env" ] && . "$RUNNER_TEMP/vars.env"
             silent restore bash work/tools/infra/mirror/tick-state.sh restore || true
             export BRAIN_HOME="$PWD/ud/home"
-            mkdir -p "$RUNNER_TEMP/proj/_status"; export MCLITE_PROJECTS="$RUNNER_TEMP/proj"
+            mkdir -p "$RUNNER_TEMP/proj/_status" "$PWD/ud/profiles"; export MCLITE_PROJECTS="$RUNNER_TEMP/proj" MCLITE_PROFILE_STATE="$PWD/ud/profiles"
             ( cd work
               silent usage node tools/usaged.mjs --once || true
               cp "$MCLITE_PROJECTS/_status/usage.json" usage.json 2>/dev/null || true
+              silent relay node tools/infra/relaypoll.mjs || true   # #10420: relay.yml off the PC
               silent poll node tools/brain/brain.mjs poll || true
               silent land node tools/brain/brain.mjs land || true
               silent health node tools/brain/brain.mjs health --if-due || true
