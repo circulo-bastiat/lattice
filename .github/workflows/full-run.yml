@@ -40,6 +40,7 @@ jobs:
           MCLITE_TEST_REMOTE: mirror
         run: |
           . work/tools/infra/mirror/silent.sh
+          . work/tools/infra/mirror/fail-post.sh
           silent vars bash work/tools/infra/mirror/tickvars.sh "$RUNNER_TEMP/vars.env" || true
           [ -s "$RUNNER_TEMP/vars.env" ] && . "$RUNNER_TEMP/vars.env"
           silent restore bash work/tools/infra/mirror/state-sync.sh restore full-state fs || true
@@ -47,6 +48,7 @@ jobs:
           cd work
           silent full node tools/infra/full.mjs
           rc=$?
+          [ $rc -ne 0 ] && failpost "full-run (exit $rc)" .
           cd ..
           silent publish bash work/tools/infra/mirror/state-sync.sh save full-state fs || true
           exit $rc
