@@ -1,0 +1,53 @@
+# Published into the lattice mirror (#8915). The 5-minute brain tick (#8893) off the PC: private checkout by PAT, brain.mjs
+# health/fill (comment routing stays event-driven) against the private bus, usaged renewal + read, usage.json pushed to branch usage-data of the private repo.
+# BRAIN_RUNNER=mirror|vm (repo variable, both repos): this side acts only when it is `mirror`; brain.yml on the VM no-ops then. Never both.
+# Silent (#8913): logs are public. Measure: runs/day, the [silent] elapsed seconds, gaps between run start times (missed ticks).
+name: brain-tick
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+concurrency:
+  group: brain-tick
+  cancel-in-progress: false
+permissions:
+  contents: read
+jobs:
+  tick:
+    if: vars.BRAIN_RUNNER == 'mirror'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      NODE_OPTIONS: --dns-result-order=ipv4first
+      MCLITE_HOSTED: '1'
+    steps:
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: checkout
+        env: { PAT: '${{ secrets.MCLITE_PAT }}', SRC: '${{ secrets.MCLITE_SRC }}' }
+        run: |
+          silent() { local n="$1"; shift; "$@" >> "$RUNNER_TEMP/out.log" 2>&1; local rc=$?; echo "[silent] $n exit=$rc"; return $rc; }
+          silent clone git -c credential.helper= clone -q "https://x-access-token:${PAT}@github.com/${SRC}.git" work
+      - name: tick
+        env:
+          GH_TOKEN: ${{ secrets.MCLITE_PAT }}
+          MCLITE_REPO: ${{ secrets.MCLITE_SRC }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}   # the fill dispatches worker packs on this repo
+          MIRROR_REPO: ${{ github.repository }}
+          CLAUDE_PROFILES: ${{ secrets.CLAUDE_PROFILES }}   # Claude logins as a lattice secret, unpacked by usaged
+          FILL_WORKERS: ${{ vars.FILL_WORKERS }}
+          FILL_WORKERS_MAX: ${{ vars.FILL_WORKERS_MAX }}
+          FILL_WORKERS_PRO: ${{ vars.FILL_WORKERS_PRO }}
+          FILL_TESTERS: ${{ vars.FILL_TESTERS }}
+        run: |
+          . work/tools/infra/mirror/silent.sh
+          silent restore bash work/tools/infra/mirror/tick-state.sh restore || true
+          export BRAIN_HOME="$PWD/ud/home"
+          mkdir -p "$RUNNER_TEMP/proj/_status"; export MCLITE_PROJECTS="$RUNNER_TEMP/proj"
+          cd work
+          silent usage node tools/usaged.mjs --once || true
+          cp "$MCLITE_PROJECTS/_status/usage.json" usage.json 2>/dev/null || true
+          silent health node tools/brain/brain.mjs health --if-due || true
+          silent fill node tools/brain/brain.mjs fill || true
+          cd ..
+          silent publish bash work/tools/infra/mirror/tick-state.sh save || true
