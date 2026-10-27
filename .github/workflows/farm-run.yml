@@ -44,6 +44,7 @@ jobs:
           GIT_TERMINAL_PROMPT: '0'
         run: |
           . work/tools/infra/mirror/silent.sh
+          . work/tools/infra/mirror/fail-post.sh
           silent vars bash work/tools/infra/mirror/tickvars.sh "$RUNNER_TEMP/vars.env" || true
           [ -s "$RUNNER_TEMP/vars.env" ] && . "$RUNNER_TEMP/vars.env"
           cd work
@@ -51,6 +52,7 @@ jobs:
           silent plan node tools/infra/pilotfarm.mjs || true
           silent farm node tools/infra/pilotfarm.mjs --run --lanes "${LANES:-24}" --jobs 4 --ship-every 20 ${NOCARRY:+--no-carry}
           rc=$?
+          [ $rc -ne 0 ] && failpost "farm-run (exit $rc)" .
           silent merge bash -c 'git -c credential.helper= fetch -q origin master && git merge -q --ff-only FETCH_HEAD' || true
           silent drop node tools/infra/pilotfarm.mjs --drop-dead || true
           git add tools/referee/lockstep/pilot-results >/dev/null 2>&1
