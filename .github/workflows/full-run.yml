@@ -1,0 +1,52 @@
+# Published into the lattice mirror (#10420). The WHOLE-SUITE run that full-suite.yml's full-pc job did on Dan's PC: snapshot the private master to this repo, let ci-full.yml run the
+# 16 shards, wait for them INSIDE this job, aggregate, open/close `master is red` and the per-check RED issues in the private repo with the PAT. Started by the hosted brain tick
+# (brain.mjs health dispatches it when the newest run is over 130 min old). Silent (#8913): logs are public; its result lines go to the private bus by API (full.mjs).
+name: full-run
+run-name: full-run
+on:
+  workflow_dispatch:
+concurrency:
+  group: full-run
+  cancel-in-progress: false
+permissions:
+  contents: read
+jobs:
+  full:
+    runs-on: ubuntu-latest
+    timeout-minutes: 175
+    env:
+      NODE_OPTIONS: --dns-result-order=ipv4first
+      MCLITE_HOSTED: '1'
+      MCLITE_PRESET: medium
+    steps:
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: checkout
+        env: { PAT: '${{ secrets.MCLITE_PAT }}', SRC: '${{ secrets.MCLITE_SRC }}' }
+        run: |
+          silent() { local n="$1"; shift; "$@" >> "$RUNNER_TEMP/out.log" 2>&1; local rc=$?; echo "[silent] $n exit=$rc"; return $rc; }
+          silent clone git -c credential.helper= clone -q "https://x-access-token:${PAT}@github.com/${SRC}.git" work
+      - name: data
+        env: { STORE_URL: '${{ secrets.STORE_URL }}' }
+        run: |
+          . work/tools/infra/mirror/silent.sh
+          cd work && silent data node tools/cloud/bootstrap.mjs --store "$STORE_URL" --no-suite --no-build
+      - name: full
+        env:
+          GH_TOKEN: ${{ secrets.MCLITE_PAT }}
+          MCLITE_REPO: ${{ secrets.MCLITE_SRC }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+          MIRROR_REPO: ${{ github.repository }}
+          MCLITE_TEST_REMOTE: mirror
+        run: |
+          . work/tools/infra/mirror/silent.sh
+          silent vars bash work/tools/infra/mirror/tickvars.sh "$RUNNER_TEMP/vars.env" || true
+          [ -s "$RUNNER_TEMP/vars.env" ] && . "$RUNNER_TEMP/vars.env"
+          silent restore bash work/tools/infra/mirror/state-sync.sh restore full-state fs || true
+          export MCLITE_DATA="$PWD/fs/data" MCLITE_PROJECTS="$PWD/fs/proj" GITHUB_SHA="$(git -C work rev-parse HEAD)"
+          cd work
+          silent full node tools/infra/full.mjs
+          rc=$?
+          cd ..
+          silent publish bash work/tools/infra/mirror/state-sync.sh save full-state fs || true
+          exit $rc
