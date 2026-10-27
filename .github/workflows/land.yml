@@ -33,7 +33,7 @@ jobs:
           GH_TOKEN: ${{ secrets.MCLITE_PAT }}
           STORE_URL: ${{ secrets.STORE_URL }}
           MCLITE_TEST_REMOTE: mirror
-          MIRROR_TOKEN: ${{ github.token }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
           MIRROR_REPO: ${{ github.repository }}
         run: |
           . work/tools/infra/mirror/silent.sh
