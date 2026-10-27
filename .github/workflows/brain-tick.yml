@@ -36,7 +36,7 @@ jobs:
           MCLITE_REPO: ${{ secrets.MCLITE_SRC }}
           MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}   # the fill dispatches worker packs and role runs on this repo
           MIRROR_REPO: ${{ github.repository }}
-          CLAUDE_PROFILES: ${{ secrets.CLAUDE_PROFILES }}   # Claude logins as a lattice secret, unpacked by usaged
+          CLAUDE_PROFILES: ${{ secrets.CLAUDE_PROFILES }}   # Claude logins as a lattice secret, unpacked by usaged; #10464: usaged is the ONLY renewer and writes the rotated login back here (MIRROR_TOKEN, secrets:write)
           TICK_WORKFLOW: ${{ github.workflow }}
         run: |
           . work/tools/infra/mirror/silent.sh
