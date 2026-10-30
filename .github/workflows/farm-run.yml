@@ -50,12 +50,11 @@ jobs:
           cd work
           silent apply node tools/infra/farmwork.mjs --apply || true
           silent plan node tools/infra/pilotfarm.mjs || true
-          silent farm node tools/infra/pilotfarm.mjs --run --lanes "${LANES:-24}" --jobs 4 --ship-every 20 ${NOCARRY:+--no-carry}
-          rc=$?
+          rc=0; silent farm node tools/infra/pilotfarm.mjs --run --lanes "${LANES:-24}" --jobs 4 --ship-every 20 ${NOCARRY:+--no-carry} || rc=$?   # bash -e: still ship and report
           [ $rc -ne 0 ] && failpost "farm-run (exit $rc)" .
           silent merge bash -c 'git -c credential.helper= fetch -q origin master && git merge -q --ff-only FETCH_HEAD' || true
           silent drop node tools/infra/pilotfarm.mjs --drop-dead || true
-          git add tools/referee/lockstep/pilot-results >/dev/null 2>&1
+          git add --ignore-removal tools/referee/lockstep/pilot-results >/dev/null 2>&1   # #10530: additive, see shipBatch
           if ! git diff --cached --quiet; then
             git config user.name "pilot-farm"; git config user.email "farm@invalid.invalid"
             git checkout -q -b "farm/lat-${GITHUB_RUN_ID}"
