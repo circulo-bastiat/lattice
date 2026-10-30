@@ -33,11 +33,13 @@ jobs:
           GH_TOKEN: ${{ secrets.MCLITE_PAT }}
           STORE_URL: ${{ secrets.STORE_URL }}
           MCLITE_TEST_REMOTE: mirror
-          MIRROR_TOKEN: ${{ github.token }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
           MIRROR_REPO: ${{ github.repository }}
         run: |
           . work/tools/infra/mirror/silent.sh
           . work/tools/infra/mirror/fail-post.sh
+          silent restore bash work/tools/infra/mirror/state-sync.sh restore full-state fs || true   # #10527: read-only (the lander never saves), gives tia.mjs select its map
+          export MCLITE_DATA="$PWD/fs/data"
           cd work
           silent bootstrap node tools/cloud/bootstrap.mjs --store "$STORE_URL" --no-suite --no-build || { failpost "land #$PR bootstrap" .; exit 1; }
           silent land node tools/infra/land.mjs "$PR" || { rc=$?; failpost "land #$PR (exit $rc)" .; exit $rc; }
