@@ -46,7 +46,8 @@ jobs:
           silent restore bash work/tools/infra/mirror/state-sync.sh restore full-state fs || true
           export MCLITE_DATA="$PWD/fs/data" MCLITE_PROJECTS="$PWD/fs/proj" GITHUB_SHA="$(git -C work rev-parse HEAD)"
           cd work
-          rc=0; silent full node tools/infra/full.mjs || rc=$?   # GitHub runs bash -e: a red full run must still post and save its state
+          silent full node tools/infra/full.mjs
+          rc=$?
           [ $rc -ne 0 ] && failpost "full-run (exit $rc)" .
           cd ..
           silent publish bash work/tools/infra/mirror/state-sync.sh save full-state fs || true
