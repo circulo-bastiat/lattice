@@ -40,6 +40,9 @@ jobs:
           TICK_WORKFLOW: ${{ github.workflow }}
         run: |
           . work/tools/infra/mirror/silent.sh
+          # the successor is dispatched at the START (the concurrency group holds it pending behind this job and starts it the moment this one ends, however it ends:
+          # a chain that timed out or died before a last-step dispatch left no chain and a 47 min fill-idle, 30 Oct) and again at the end in case that one failed
+          silent next-early curl -fsS -X POST -H "Authorization: Bearer $MIRROR_TOKEN" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/$MIRROR_REPO/actions/workflows/brain-tick.yml/dispatches" -d '{"ref":"main"}' || true
           T0=$(date +%s); N=0
           while :; do
             N=$((N+1)); S=$(date +%s)
@@ -61,6 +64,5 @@ jobs:
             [ $(( $(date +%s) - T0 )) -ge 3000 ] && break
             W=$(( 240 - ($(date +%s) - S) )); [ "$W" -gt 20 ] && sleep "$W"
           done
-          # the successor: this chain ends here; the next job starts at once (concurrency group brain-tick queues it behind this one)
           silent next curl -fsS -X POST -H "Authorization: Bearer $MIRROR_TOKEN" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/$MIRROR_REPO/actions/workflows/brain-tick.yml/dispatches" -d '{"ref":"main"}' || true
           echo "[silent] ticks=$N"
