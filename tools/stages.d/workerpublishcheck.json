@@ -1,0 +1,3 @@
+[
+  { "id": "workerpublishcheck", "kind": "check", "file": "tools/workerpublishcheck.mjs", "args": [] }
+]

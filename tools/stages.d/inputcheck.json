@@ -1,0 +1,10 @@
+[
+ {
+  "id": "inputcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "⚠⚠ D-339 — THE GAME DRIVEN FROM THE OUTSIDE EDGE. Every other check in this suite enters the system at a model; this one enters it at a `MouseEvent` and a `KeyboardEvent` on `window`. Four of the seven faults Dan reported in session 11 were a complete, correct model with no input edge, and every check over them was green because every check CALLED the function under test. This is the only stage that can fail when the wiring is missing and the model is fine."
+ }
+]

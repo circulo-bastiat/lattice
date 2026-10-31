@@ -1,0 +1,3 @@
+[
+  { "id": "landhostcheck", "kind": "check", "file": "tools/landhostcheck.mjs", "args": [] }
+]

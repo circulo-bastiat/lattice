@@ -1,0 +1,1 @@
+[{"id":"browserslotscheck","kind":"check","args":[],"why":"#3921 -- host browser budget: cap 3 holds across 10 concurrent opens, RAM floor times out with the host-load signature, dead/overdue owners reaped, unslotted browsers untouched, priority set (breaks caught)."}]

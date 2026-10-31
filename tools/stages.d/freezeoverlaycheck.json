@@ -1,0 +1,8 @@
+[
+ {
+  "id": "freezeoverlaycheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-O4 — HUD powder snow freeze outline alpha = frozenTicks/140 clamped (0, 35, 70, 140, 200 -> 0, .25, .5, 1, 1); breaks the divisor to prove it can fail."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fishbucketcheck",
+  "kind": "check",
+  "args": ["--verbose"],
+  "why": "#1277 -- pufferfish PuffState / FromBucket / tropical Variant survive a save/load round trip (07zw_mobnbt.js rows) and a water-bucket capture + release (Bucketable.copyDataToStack/copyDataFromNbt), PuffState clamped to 2."
+ }
+]

@@ -1,0 +1,1 @@
+[{"id": "lockstep-raidlose", "kind": "check", "file": "tools/lockstep-raidlose.mjs", "args": [], "why": "#8728 G18f-L21: lockstep raidlose, 20 salts x 3 difficulties, 3 villagers killed one by one mid wave 1 or after wave 3: status LOSS per tick, waves reached, 600-tick finish, no Hero of the Village; LOSS after 600 instead of 48000 ticks and 2 other breaks caught."}]

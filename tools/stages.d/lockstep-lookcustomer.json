@@ -1,0 +1,1 @@
+[ { "id": "lockstep-lookcustomer", "kind": "check", "file": "tools/referee/villagerlookcustomerlockstepcheck.mjs", "args": [], "why": "#7098 G18f-L7: lockstep scenario lookcustomer, 20 salts: customer set at 40, out of range at 120 (walk/look cleared), back at 200, screen closed at 260 vs FollowCustomerTask reference; no-clear, dropped look target and ignored radius caught." } ]

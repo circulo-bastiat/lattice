@@ -1,0 +1,8 @@
+[
+ {
+  "id": "limitedcraftingcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-GR1 — doLimitedCrafting: Recipes.shouldCraftRecipe refuses a craft whose recipe is not in the player's recipe book; breaks its own rule check to prove it can fail."
+ }
+]

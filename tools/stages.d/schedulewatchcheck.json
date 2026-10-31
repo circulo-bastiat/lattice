@@ -1,0 +1,1 @@
+[ { "id": "schedulewatchcheck", "kind": "check", "file": "tools/schedulewatchcheck.mjs", "args": [], "why": "22 Oct: every workflow with a schedule: must be declared with the brain code that dispatches or alerts on it when overdue (heartbeat, metrics and pilot-farm sat dead or unstarted for days); a new scheduled workflow without one fails; 3 breaks caught." } ]

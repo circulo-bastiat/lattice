@@ -1,0 +1,8 @@
+[
+ {
+  "id": "lightmapdrawcheck",
+  "kind": "check",
+  "file": "tools/lightmapdrawcheck.mjs",
+  "why": "#9237 -- Settings.gamma reaches both renderers' shaders (static wiring + mutants). The live screenshot proof is tools/lightmapdrawlive.mjs (run by hand on a GPU/Chrome)."
+ }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "id": "tickstatemtimecheck",
+    "kind": "check",
+    "file": "tools/tickstatemtimecheck.mjs",
+    "args": []
+  }
+]

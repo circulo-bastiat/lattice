@@ -1,0 +1,1 @@
+[{"id": "lockstep-turtleegg", "kind": "check", "file": "tools/lockstep-turtleegg.mjs", "args": [], "why": "#6930 G17-L190: lockstep turtle egg block, 20 salts: step-on 1-in-100, land 1-in-3 (not zombies), hatch stages 0-2, baby age -24000, sounds; bound 3->4 and hatch threshold off by one caught."}]

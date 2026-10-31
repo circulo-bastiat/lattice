@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endcitygrammarcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#9448 -- the end_city structure grammar places the EndCityGenerator pieces (base/second/third floor, roof, tower base/piece/top) at the decompiled offsets and rotations for several seeds; breaks its own data and prints '<n> breaks caught'."
+ }
+]

@@ -1,0 +1,1 @@
+{ "id": "explosiondamage", "mob": "zombie", "damage": true, "nbt": "NoAI:1b", "hurt": true, "tnt": { "dx": 6, "fuse": 20 }, "note": "#9214: zombie (NoAI) with a primed TNT (Fuse 20) 6 blocks away on the corridor floor; rows pos, Health, HurtTime per tick = explosion damage + knockback" }

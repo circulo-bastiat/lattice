@@ -1,0 +1,8 @@
+[
+ {
+  "id": "armorstandplacecheck",
+  "kind": "check", "file": "tools/armorstandplacecheck.mjs",
+  "args": [],
+  "why": "#4393 -- ArmorStandItem placement, ArmorStandEntity.interactAt (slot by hit height, disabledSlots, ShowArms) and the Armor stand NBT/MobNbt round trip (07zzt_armorstand.js)."
+ }
+]

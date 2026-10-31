@@ -1,0 +1,1 @@
+[{ "id": "bulletrefcheck", "kind": "check", "file": "tools/referee/bulletrefcheck.mjs", "args": [], "why": "#6079 shulker_bullet homing vs the real 1.18.2 server (also #7061 lockstep-shulkerbullet-server, same file, removed #7727): Pos/Motion per tick, hit tick, Levitation; golden-less = SKIP; breaks caught." }]

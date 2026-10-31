@@ -1,0 +1,3 @@
+[
+  { "id": "jobspullcheck", "kind": "check", "file": "tools/jobspullcheck.mjs", "args": [] }
+]

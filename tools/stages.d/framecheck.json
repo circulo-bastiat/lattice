@@ -1,0 +1,3 @@
+[
+  { "id": "framecheck", "kind": "check", "file": "tools/framecheck.mjs", "args": [], "why": "#319 item frame comparator output: rotation % 8 + 1 across all eight rotations (0 when empty), facing must match, rotation survives NBT; rotation-ignored / modulo-4 must fail." }
+]

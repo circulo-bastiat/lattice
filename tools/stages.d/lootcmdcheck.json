@@ -1,0 +1,8 @@
+[
+ {
+  "id": "lootcmdcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-CMD6 (#8028) -- /loot over NS.Loot: a cow kill yields leather/beef within vanilla ranges, mining diamond_ore with a pickaxe gives a diamond, spawn pops an item entity, an unknown table errors; red when the command is removed."
+ }
+]

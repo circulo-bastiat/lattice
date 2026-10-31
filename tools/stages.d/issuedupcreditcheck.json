@@ -1,0 +1,1 @@
+[{"id":"issuedupcreditcheck","kind":"check","file":"tools/issuedupcreditcheck.mjs","args":[],"why":"#9070 -- closed lockstep twin without a lockstep.json row allows re-filing; open twin always refused; breaks caught."}]

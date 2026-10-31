@@ -1,0 +1,1 @@
+[{"id":"fluidinsetcheck","kind":"check","file":"tools/fluidinsetcheck.mjs","args":[],"why":"#9523 ANIM-2b: fluid side faces inset by one 1/256 unit (ruling 9523-fluid-side-inset); 2 anti-vacuity breaks."}]
