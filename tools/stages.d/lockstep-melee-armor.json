@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-melee-armor",
+  "kind": "check",
+  "file": "tools/referee/lockstepmeleearmorcheck.mjs",
+  "args": [],
+  "why": "#6304 G17-L56: lockstep scenario melee-armor, 20 salts: zombie vs armoured dummy (leather/iron/diamond+Protection IV), armor+toughness, EPF cap, shield block/durability/axe disable, armor wear, 20-tick attack cooldown; toughness divisor 4->5 caught at first hit."
+ }
+]

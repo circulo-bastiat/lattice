@@ -1,0 +1,8 @@
+[
+ {
+  "id": "quadcapcheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-<n> (session 136) -- QUEUE 0.0's WORLD item, \"Dan can see through the ground\": three call sites already clip a section's geometry silently when it crosses CFG.MAX_QUADS (16,383, tied to the 16-bit index buffer) instead of splitting it, and nothing ever measured how close real terrain gets. Same mesher domain as facecheck/visfloodcheck."
+ }
+]

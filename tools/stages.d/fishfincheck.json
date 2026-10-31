@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fishfincheck",
+  "kind": "check",
+  "args": [],
+  "why": "#7655: zero-thickness fish fins drawn from both sides and not lost to the mob-tile mip average"
+ }
+]

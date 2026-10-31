@@ -1,0 +1,8 @@
+[
+ {
+  "id": "wolfsoundcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#915: wolf ambient (growl/pant/whine/ambient), hurt, death, step 0.15, volume 0.4; proves it can fail (breaks its own sounds)."
+ }
+]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-chickenjockey", "kind": "check", "file": "tools/lockstep-chickenjockey.mjs", "args": [], "why": "#6898 G17-L181: lockstep scenario chickenjockey (ZombieEntity.initialize baby 5% and chicken-jockey rolls, BABY_SPEED_BOOST x1.5, getXpToDrop 12 vs 5, daylight burn, 100 spawns x day/night, 20 salts); baby speed +0.4, xp factor, roll chances caught." } ]

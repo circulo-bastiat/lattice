@@ -1,0 +1,8 @@
+[
+ {
+  "id": "langcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#10625 - every lang key src uses (translate/template contexts) resolves in the real 1.18.2 client en_us.json, and the packed assets/lang.bin equals that file; breaks its own table/keys to prove it can fail."
+ }
+]

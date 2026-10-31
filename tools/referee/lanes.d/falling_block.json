@@ -1,0 +1,1 @@
+{ "id": "falling_block", "mob": "falling_block", "up": 1, "nbt": "BlockState:{Name:\"minecraft:sand\"},Time:1,DropItem:1b", "note": "#8283: sand falls in the corridor and lands on the stone floor; rows pos, vel, removal tick, effect = sand blocks/items left" }

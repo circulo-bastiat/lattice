@@ -1,0 +1,1 @@
+[ { "id": "lockstep-bubblecolumn", "kind": "check", "file": "tools/lockstep-bubblecolumn.mjs", "args": [], "why": "#6713 G17-L117: lockstep scenario bubblecolumn (soul sand up / magma drag, cow+zombie+item+boat, 20 seeds): surface vs submerged vy push, fallDistance reset, boat surface flags; drag step 0.03->0.04 caught." } ]

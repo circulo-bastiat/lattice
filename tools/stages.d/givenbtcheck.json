@@ -1,0 +1,8 @@
+[
+ {
+  "id": "givenbtcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#10792 — /give item NBT suffix (ItemStringReader) builds a stack with display.Name; breaks its own data."
+ }
+]

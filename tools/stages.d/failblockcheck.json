@@ -1,0 +1,1 @@
+[{"id":"failblockcheck","kind":"check","file":"tools/failblockcheck.mjs","args":[],"why":"25 Oct: full.mjs cut each red check's quoted block at the first ==== line, hiding the FAIL lines of soundcheck/optionscheck/cullcheck/g11bcheck; failBlock() keeps them, and the old cut is rebuilt as the break."}]

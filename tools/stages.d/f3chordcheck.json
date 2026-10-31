@@ -1,0 +1,8 @@
+[
+ {
+  "id": "f3chordcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-K4 — Keyboard.processF3 chords (F3+A reload, F3+D clear chat, F3+P pause-on-lost-focus, F3+Q help) with the 'F3 used' flag; lang-sourced lines; breaks its own module to prove it can fail."
+ }
+]

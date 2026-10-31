@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-killed_by_crossbowcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#7743 G17-AT3 — minecraft:killed_by_crossbow matcher and the onEntityHit call site, driven through Cb.arrowStrikeEntity; breaks its own matcher/call site to prove it can fail."
+ }
+]

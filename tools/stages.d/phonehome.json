@@ -1,0 +1,3 @@
+[
+  { "id": "phonehomecheck", "kind": "check", "file": "tools/phonehomecheck.mjs", "args": [], "why": "#4979 PHONE: the Home screen (usage meters, master, lander queue, runners, headline) and talk-to-runners (bus parse, compose, addresses) logic and wiring" }
+]

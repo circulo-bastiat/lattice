@@ -1,0 +1,1 @@
+[{"id":"promptvarscheck","kind":"check","args":[],"why":"#9677 -- no role prompt reaches claude with an unfilled {placeholder}; the reviewer prompt names its issue (1 break caught)."}]

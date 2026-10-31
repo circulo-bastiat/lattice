@@ -1,0 +1,9 @@
+[
+ {
+  "id": "smithing",
+  "kind": "check",
+  "file": "tools/smithingcheck.mjs",
+  "args": [],
+  "why": "#8060 G19e: SmithingScreenHandler as Menu.smithingMenu: every smithing recipe, NBT+damage kept, one of each input consumed, shift-click routing; breaks its own data (enchantments dropped, damage reset)."
+ }
+]

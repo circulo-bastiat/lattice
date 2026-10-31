@@ -1,0 +1,3 @@
+[
+  { "id": "pilotfarmshipcheck", "kind": "check", "file": "tools/pilotfarmshipcheck.mjs", "args": [] }
+]

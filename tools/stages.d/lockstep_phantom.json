@@ -1,0 +1,1 @@
+[ { "id": "lockstep_phantom", "kind": "check", "file": "tools/lockstep-phantom.mjs", "args": [], "why": "#6028 G17-L4 lockstep phantom: 20 seeds, engine trace deterministic, 6 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes phantom (full suite)." } ]

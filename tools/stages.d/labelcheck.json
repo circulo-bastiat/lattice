@@ -1,0 +1,10 @@
+[
+ {
+  "id": "labelcheck",
+  "kind": "check",
+  "args": [
+   "--quiet"
+  ],
+  "why": "D-650 (QUEUE row 1, G19b) -- every container screen's title + \"Inventory\" label, refereed off .decomp."
+ }
+]

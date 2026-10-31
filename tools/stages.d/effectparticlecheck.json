@@ -1,0 +1,8 @@
+[
+ {
+  "id": "effectparticlecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#298 (G23f) -- LivingEntity.tickStatusEffects' swirl half + updatePotionVisibility + containsOnlyAmbientEffects: PotionUtil.getColor mix of Swiftness+Poison, ambient flag picks ambient_entity_effect, showParticles=false emits none, invisibility."
+ }
+]

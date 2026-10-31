@@ -1,0 +1,3 @@
+[
+  { "id": "packhomecheck", "kind": "check", "file": "tools/packhomecheck.mjs", "args": [] }
+]

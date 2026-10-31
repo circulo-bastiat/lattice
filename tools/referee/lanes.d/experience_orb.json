@@ -1,0 +1,1 @@
+{ "id": "experience_orb", "mob": "experience_orb", "up": 1, "nbt": "Value:5s", "note": "#8286: experience_orb falls in the corridor and settles; rows pos, vel, removal tick (ExperienceOrb.tick: gravity, friction, merge, pull)" }

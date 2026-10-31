@@ -1,0 +1,3 @@
+[
+  { "id": "particlecapcheck", "kind": "check", "file": "tools/particlecapcheck.mjs", "args": [] }
+]

@@ -1,0 +1,13 @@
+[
+ {
+  "id": "mobsweepcheck",
+  "kind": "browser",
+  "timeoutMin": 60,
+  "file": "tools/mobdrawcheck.mjs",
+  "args": [
+   "dist/mclite.html",
+   "sweep"
+  ],
+  "why": "#10498: the every-spawnable-mob photograph sweep (sections 0-1b of mobdrawcheck.mjs, D-425), split off so neither half is a 10-minute browser run that times out on a loaded shard. Anti-vacuity: the three okAv median-floor breaks in 1b."
+ }
+]

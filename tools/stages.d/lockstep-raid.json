@@ -1,0 +1,1 @@
+[ { "id": "lockstep-raid", "kind": "check", "file": "tools/referee/raidlockstepcheck.mjs", "args": [], "why": "#6672 G17-L101: lockstep scenario raid, 20 salts x easy/normal/hard: Bad Omen start, wave 1 at tick 1, per-wave counts vs Raid.Member table + bonus, spawn ring 64+-5, bar total, 300-tick countdown, 40-tick win delay; a changed pillager count is caught." } ]

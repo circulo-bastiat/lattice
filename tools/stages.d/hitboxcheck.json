@@ -1,0 +1,8 @@
+[
+ {
+  "id": "hitboxcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-H1 -- F3+B hitbox line list (zombie, baby cow, ender dragon, boat) vs EntityRenderDispatcher.renderHitbox/WorldRenderer.drawBox; breaks its own module to prove it can fail."
+ }
+]
