@@ -1,0 +1,1 @@
+{ "id": "starvehard", "mob": "pig", "nbt": "NoAI:1b", "hurt": true, "diff": "hard", "reps": 1, "ticks": 800, "starve": 1, "note": "#10364: Hunger 255 + 12 magic damage; Hard starves to death" }

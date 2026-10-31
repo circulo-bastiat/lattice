@@ -1,0 +1,1 @@
+{ "id": "magicdamage", "mob": "cow", "damage": true, "nbt": "NoAI:1b", "hurt": true, "magic": true, "note": "#9215: cow (NoAI) given instant_damage I at the summon tick; rows pos, Health, HurtTime per tick = magic damage (6, bypasses armour)" }

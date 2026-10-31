@@ -1,0 +1,1 @@
+[{"id": "lockstep-spawnbat", "kind": "check", "file": "tools/lockstep-spawnbat.mjs", "args": [], "timeoutMin": 10, "why": "#8649 G18c-L13: BatEntity.canSpawn (sea level 63, light cap 4 / 7 at Halloween 20 Oct-3 Nov, nextBoolean refusal) y40..90 x light 0..10 x 20 dates x 20 salts vs a verbatim port; halloween window shifted one day caught (3 breaks caught)."}]

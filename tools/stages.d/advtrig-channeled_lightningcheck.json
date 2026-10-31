@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-channeled_lightningcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT6 (#7746) — Adv.matchers channeled_lightning + LightningEntity.tick call site; very_very_frightening completes, no-villager / no-channeler does not; breaks its own matcher."
+ }
+]

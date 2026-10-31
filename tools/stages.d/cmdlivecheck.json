@@ -1,0 +1,10 @@
+[
+ {
+  "id": "cmdlivecheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "parallel night, worker 4 -- defaultgamemode/say/me/msg/playsound/stopsound/spawnpoint/ setworldspawn/locatebiome/locate/list/tellraw/title, LIVE. Found and fixed: M.oneOf's `asId` compare had no `minecraft:` normalisation, so /locatebiome rejected the bare form (its set is namespaced) and /locate rejected the namespaced form (its set is bare) -- one shared helper, broken from both sides. And /stopsound was missing vanilla's own `* <sound>` grammar entirely (a hard parse failure) and its source+sound form stopped every sound on that source instead of only the named one. This stage's own header has the full citation."
+ }
+]

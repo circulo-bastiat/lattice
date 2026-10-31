@@ -1,0 +1,1 @@
+{"id":"ghast","mob":"ghast","open":true,"fire":true,"up":2,"note":"#5362 (G17-L4): ghast lane -- open air (no corridor: the ghast is 4x4x4), the survival player DIST blocks along inside follow range (64); fire:true = runchase also logs every fireball's spawn tick, Pos and Motion (cases[id].fire[rep]) and the ghast's Rotation"}

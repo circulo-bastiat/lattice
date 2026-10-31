@@ -1,0 +1,8 @@
+[
+ {
+  "id": "offhandbowcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2331 -- BowItem.use(world, player, hand): a bow in the off hand is drawn by Use.rightClick (main hand PASS -> off hand) and fires from the off-hand stack."
+ }
+]

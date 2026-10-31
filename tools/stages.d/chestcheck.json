@@ -1,0 +1,8 @@
+[
+ {
+  "id": "chestcheck",
+  "kind": "check",
+  "args": [],
+  "why": "PASS 17 JOB 1 (G19b), first slice -- the chest screen's own click machine (Menu.chestMenu), proven headlessly the same way invcheck proves 14g_menu.js: PICKUP/QUICK_MOVE both ways, close/reopen persistence, and a copy-vs-reference anti-vacuity pair. guicheck's own §4d covers the slot geometry against the real generic_54.png pixels."
+ }
+]

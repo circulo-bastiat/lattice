@@ -1,0 +1,1 @@
+[{"id":"lockstep-zombie-seed","kind":"check","file":"tools/lockstep-zombie-seed.mjs","args":[],"why":"#7009: zombie lane seeds e.random like the server SeedAgent (splitmix64 of key hash); target acquired by row 21 not 61; LCG override restored is caught."}]

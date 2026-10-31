@@ -1,0 +1,10 @@
+[
+ {
+  "id": "nolockcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "#2091 — no-pointer-lock mode (VM/RDP): look keys and right-drag turn the player, nothing pauses on unlock, Esc still opens the menu; breaks prove the mode is what does it."
+ }
+]

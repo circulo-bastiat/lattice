@@ -1,0 +1,9 @@
+[
+ {
+  "id": "pistondrawcheck",
+  "kind": "check",
+  "file": "tools/pistondrawcheck.mjs",
+  "args": [],
+  "why": "#323 -- the moving piston block is drawn part-way between its cells (ER.beWorldVisible + Piston.renderParts, PistonBlockEntity.getRenderOffset*). Breaks: snapped to end cell, snapped to start cell, progress not lerped, wrong axis."
+ }
+]

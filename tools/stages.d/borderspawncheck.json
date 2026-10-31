@@ -1,0 +1,8 @@
+[
+ {
+  "id": "borderspawncheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8311 -- natural spawning respects the world border (SpawnHelper:300, tickChunks:370, GoatBrain:52); fails if contains is removed."
+ }
+]

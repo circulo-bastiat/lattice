@@ -1,0 +1,8 @@
+[
+ {
+  "id": "particleoption",
+  "kind": "check",
+  "args": [],
+  "why": "#284 (G20) -- the Particles option: ParticlesMode counts, Minimal break, spawnParticle level gate, against Wx.tickRainSplashing and Px.spawn."
+ }
+]

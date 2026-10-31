@@ -1,0 +1,8 @@
+[
+ {
+  "id": "pandaskincheck",
+  "kind": "check",
+  "args": [],
+  "why": "#918 -- PandaEntityRenderer.getTexture: Pd.skinKey picks one of the 7 gene sheets by PRODUCT gene (recessive brown/weak only when main==hidden), all 7 sheets are packed in mob-geometry.json, and the renderer's texKey chain calls it."
+ }
+]

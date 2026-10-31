@@ -1,0 +1,3 @@
+[
+  { "id": "spyglasscheck", "kind": "check", "file": "tools/spyglasscheck.mjs", "args": [] }
+]

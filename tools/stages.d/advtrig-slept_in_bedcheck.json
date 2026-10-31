@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-slept_in_bedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT39 (#8042) — Adv.matchers slept_in_bed + the trySleep call site (Sleep.use -> doSleep); adventure/sleep_in_bed completes on a real sleep, not on a refused one; breaks its own matcher and call site."
+ }
+]

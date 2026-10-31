@@ -1,0 +1,1 @@
+[ { "id": "lockstep_tnt_minecart", "kind": "check", "file": "tools/lockstep-tnt-minecart-20.mjs", "args": [], "why": "#5518 G17-L4 lockstep tnt_minecart: 20 seeds, engine trace deterministic, 5 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes tnt_minecart (full suite)." } ]

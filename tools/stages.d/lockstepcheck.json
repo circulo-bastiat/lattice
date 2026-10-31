@@ -1,0 +1,3 @@
+[
+  { "id": "lockstepcheck", "kind": "check", "file": "tools/referee/lockstepcheck.mjs", "args": [], "why": "#4986 G17-L0: the SeedAgent pins java.util.Random() (same output twice; salt or no agent changes it); needs javac, skips cleanly without." }
+]

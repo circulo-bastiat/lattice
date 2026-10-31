@@ -1,0 +1,3 @@
+[
+  { "id": "briefguardcheck", "kind": "check", "file": "tools/briefguardcheck.mjs", "args": [] }
+]
