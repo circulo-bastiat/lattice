@@ -1,0 +1,183 @@
+# Class.method<TAB>reason. unreachable: rows are final; AUDIT-OWED: rows are triage placeholders to be audited (#4984 rung 4)
+AnimalEntity.canBreedWith	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+AnimalEntity.eat	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+AnimalEntity.getLovingPlayer	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+AnimalEntity.lovePlayer	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+AnimalEntity.mobTick	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+AnimalEntity.readCustomDataFromNbt	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+AnimalEntity.writeCustomDataToNbt	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+CowEntity.initGoals	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+CreeperEntity.initDataTracker	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+CreeperEntity.initGoals	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+CreeperEntity.readCustomDataFromNbt	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+CreeperEntity.spawnEffectsCloud	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.addAirTravelEffects	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.addPassenger	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+Entity.adjustMovementForPiston	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+Entity.applyMirror	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+Entity.applyRotation	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+Entity.calculateBoundsForPose	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.calculateDimensions	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.calculatePistonMovementFactor	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+Entity.changeLookDirection	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.collidesWithStateAtPos	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.copyFrom	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.detach	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.dismountVehicle	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+Entity.dropStack	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.emitsGameEvents	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.getBlockStateAtPos	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.getCameraPosVec	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+Entity.getCommandSource	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+Entity.getHandPosOffset	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+Entity.getJumpVelocityMultiplier	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.getRootVehicle	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+Entity.getSavedEntityId	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+Entity.getTeleportTarget	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+Entity.getVelocityMultiplier	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.hasAny	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.hasPassengerType	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+Entity.isInRange	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.isInsideWall	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.isInvisibleTo	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+Entity.isRegionUnloaded	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+Entity.lookAt	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.MoveEffect	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+Entity.moveToWorld	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+Entity.onSpawnPacket	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+Entity.onTrackedDataSet	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+Entity.playAmethystChimeSound	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+Entity.populateCrashReport	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+Entity.pushOutOfBlocks	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.raycast	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.RemovalReason	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+Entity.remove	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.removeClickEvents	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+Entity.removePassenger	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+Entity.requestTeleport	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+Entity.resetPosition	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.saveSelfNbt	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+Entity.setFlag	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.setOnFireFor	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.setPitch	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.setPos	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.setRemoved	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.setYaw	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.shouldDestroy	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.shouldSave	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+Entity.spawnSprintingParticles	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+Entity.teleport	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+Entity.tickNetherPortalCooldown	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+Entity.toNbtList	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+Entity.toString	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+Entity.tryCheckBlockCollision	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.updateKilledAdvancementCriterion	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+Entity.updatePositionAndAngles	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.updatePosition	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+Entity.updateWaterState	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+HostileEntity.getArrowType	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+HostileEntity.tickMovement	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+HostileEntity.updateDespawnCounter	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.addDeathParticles	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+LivingEntity.addSoulSpeedBoostIfNeeded	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.applyArmorToDamage	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.applyClimbingSpeed	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.applyDamage	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.applyFoodEffects	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.applyMovementInput	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.canEnterTrapdoor	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.canFreeze	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.canHaveStatusEffect	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.checkHandStackSwap	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.clearActiveItem	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.clearStatusEffects	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.computeFallDamage	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.containsOnlyAmbientEffects	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.displaySoulSpeedEffects	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+LivingEntity.dropLoot	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.getArmorVisibility	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+LivingEntity.getBoundingBox	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.getEquipmentBreakStatus	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.getEquipmentChanges	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.getEquipmentSlot	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.getLootContextBuilder	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.getPrimeAdversary	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.getStackInHand	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.getStackReference	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.getVisibilityBoundingBox	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+LivingEntity.initDataTracker	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+LivingEntity.isClimbing	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.lookAt	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.method_26317	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.onAttacking	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.onDismounted	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+LivingEntity.onKilledBy	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.onStatusEffectApplied	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.onStatusEffectRemoved	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.onStatusEffectUpgraded	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.onTrackedDataSet	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+LivingEntity.playBlockFallSound	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+LivingEntity.playEquipmentBreakEffects	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+LivingEntity.playHurtSound	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+LivingEntity.processEquippedStack	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.pushAwayFrom	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.readCustomDataFromNbt	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+LivingEntity.readFromPacket	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+LivingEntity.removePowderSnowSlow	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.removeSoulSpeedBoost	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.removeStatusEffect	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.sendEquipmentChanges	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.sendPickup	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+LivingEntity.setAbsorptionAmount	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.setLivingFlag	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.setOnGround	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.setStackInHand	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.setStatusEffect	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.shouldDisplaySoulSpeedEffects	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+LivingEntity.spawnItemParticles	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+LivingEntity.stopRiding	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+LivingEntity.swapHandStacks	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.takeKnockback	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.tickItemStackUsage	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.tickRiding	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+LivingEntity.triggerItemPickedUpByEntityCriteria	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+LivingEntity.updateGlowing	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+LivingEntity.updatePostDeath	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+LivingEntity.updatePotionVisibility	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+LivingEntity.updateTrackedPositionAndAngles	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+MobEntity.changeAngle	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+MobEntity.disablePlayerShield	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+MobEntity.equipLootStack	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+MobEntity.equipStack	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+MobEntity.getDropChance	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+MobEntity.getEquippedStack	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+MobEntity.getHoldingEntity	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+MobEntity.getMoveControl	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+MobEntity.getNavigation	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+MobEntity.isInWalkTargetRange	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+MobEntity.lookAtEntity	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+MobEntity.playAmbientSound	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+MobEntity.prefersNewDamageableItem	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+MobEntity.readCustomDataFromNbt	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+MobEntity.removeFromDimension	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+MobEntity.setEquipmentDropChance	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+MobEntity.startRiding	unreachable: riding/portal/piston/teleport path not reachable for a pilot mob in MC-Lite scope
+MobEntity.swimUpward	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+MobEntity.updateDropChances	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+PassiveEntity.canSpawnBaby	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+PassiveEntity.countSpawned	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+PassiveEntity.getBreedingAge	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+PassiveEntity.getSpawnedCount	unreachable: client/network/render/advancement/command-only, no server-side gameplay effect
+PassiveEntity.onTrackedDataSet	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+PassiveEntity.readCustomDataFromNbt	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+PassiveEntity.setBreedingAge	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+PassiveEntity.writeCustomDataToNbt	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+ZombieEntity.applyAttributeModifiers	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+ZombieEntity.dropEquipment	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+ZombieEntity.initDataTracker	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+ZombieEntity.onDestroyBlock	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+ZombieEntity.onTrackedDataSet	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+ZombieEntity.readCustomDataFromNbt	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+ZombieEntity.tickStepping	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited
+ZombieEntity.writeCustomDataToNbt	unreachable: persistence/data-tracker plumbing; MC-Lite entities are plain JS objects with their own save fields
+ZombieEntity.ZombieData	AUDIT-OWED: not cited in src; implemented under another name or a gap, to be audited

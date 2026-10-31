@@ -1,0 +1,1 @@
+[ { "id": "lockstep_guardian", "kind": "check", "file": "tools/lockstep-guardian-20.mjs", "args": [], "why": "#5506 G17-L4 lockstep guardian: 20 engine seeds deterministic, 6 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes guardian (full suite)." } ]

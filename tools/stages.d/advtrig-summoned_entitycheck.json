@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-summoned_entitycheck",
+  "kind": "check",
+  "args": [],
+  "why": "#7983 — Adv.matchers summoned_entity + CarvedPumpkinBlock call site; summon_iron_golem completes near the player, not far; breaks its own matcher."
+ }
+]

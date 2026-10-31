@@ -1,0 +1,1 @@
+[{"id": "lockstep-wither_skeleton-server", "kind": "check", "file": "tools/referee/lockstepwitherskeletoncheck.mjs", "args": [], "why": "#6485 G17-L4: wither_skeleton lockstep vs the real 1.18.2 server, 20 salts, divergences: 0 required; doctored divergence, short run and 1e-9 drift refused (3 breaks caught)."}]

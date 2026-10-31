@@ -1,0 +1,8 @@
+[
+ {
+  "id": "underwaterdrawcheck",
+  "kind": "browser",
+  "args": ["dist/mclite.html"],
+  "why": "#9241 -- misc/underwater.png drawn in the HUD layer when the eye is in water (pixels change vs dry; UV slides with yaw; spectator none). --fast skips it (browser stage)."
+ }
+]

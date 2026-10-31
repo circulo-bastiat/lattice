@@ -1,0 +1,1 @@
+[{"id": "soakdivcheck", "kind": "check", "file": "tools/referee/soakdivcheck.mjs", "args": [], "why": "#9447 G17-L38b: engine vs the captured real-server 12-mob soak (golden/soak9446.json): per-mob first-divergence table pinned; spawn +1 tick per mob and a truncated capture are caught."}]

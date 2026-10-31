@@ -1,0 +1,8 @@
+[
+  {
+    "id": "fulldispatchcheck",
+    "kind": "check",
+    "file": "tools/fulldispatchcheck.mjs",
+    "args": []
+  }
+]

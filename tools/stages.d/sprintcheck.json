@@ -1,0 +1,1 @@
+[ { "id": "sprintcheck", "kind": "check", "file": "tools/sprintcheck.mjs", "args": [], "why": "#10621: sprint vs 1.18.2 decomp: +30% MULTIPLY_TOTAL speed (per-tick velocity vs a float travel() transcription), sprint-jump +0.2 along the yaw, exhaustion 0.1/block sprinted, 0.2/0.05 per jump, walking free, sprint knockback +1 and no crit; 8 source breaks caught." } ]

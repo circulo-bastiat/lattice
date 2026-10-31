@@ -1,0 +1,1 @@
+[{"id": "lockstep-boatfall", "kind": "check", "file": "tools/lockstep-boatfall-20.mjs", "args": [], "why": "#9443 G17-L72a-3: boat + pig passenger off a 5-high ledge onto stone / into water (BoatEntity.fall: IN_AIR landing keeps the boat, water freezes fall accrual), engine trace x 20 salts; 5 breaks caught. Server: pilot.mjs --lanes boatfallland,boatfallwater."}]

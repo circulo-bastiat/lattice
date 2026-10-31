@@ -1,0 +1,8 @@
+[
+ {
+  "id": "babycheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18e unit 2 (D-424) -- the baby's BOX (`LivingEntity.getScale`, every living entity's rule, and the crossing that restores the adult box) and the baby's MODEL, driven through the real `ER.emitMobLayer`: a baby cow's head comes out the adult's width and its body half of it."
+ }
+]

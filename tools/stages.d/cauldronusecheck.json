@@ -1,0 +1,3 @@
+[
+  { "id": "cauldronusecheck", "kind": "check", "file": "tools/cauldronusecheck.mjs", "args": [] }
+]

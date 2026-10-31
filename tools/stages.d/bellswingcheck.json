@@ -1,0 +1,3 @@
+[
+  { "id": "bellswingcheck", "kind": "check", "file": "tools/bellswingcheck.mjs", "args": [] }
+]

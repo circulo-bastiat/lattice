@@ -1,0 +1,8 @@
+[
+  {
+    "id": "lockstepprioritycheck",
+    "kind": "check",
+    "file": "tools/lockstepprioritycheck.mjs",
+    "args": []
+  }
+]

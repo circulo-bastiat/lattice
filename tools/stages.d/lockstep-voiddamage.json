@@ -1,0 +1,1 @@
+[ { "id": "lockstep-voiddamage", "kind": "check", "file": "tools/lockstep-voiddamage.mjs", "args": [], "why": "#9250: void damage (OUT_OF_WORLD 4.0 below y -128) on a pig and a fire-immune blaze tick by tick vs the real-server lanes voiddamage/voidimmune; writes mobproof/out/damage-void.json; breaks caught." } ]

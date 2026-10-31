@@ -1,0 +1,1 @@
+{"spider":"climber: climbs walls, own lane (not a step walker)","cave_spider":"climber: climbs walls, own lane","silverfish":"tiny non-climbing walker with its own block-merge lane; carpet/edge/ladder do not apply","endermite":"same as silverfish: own lane"}

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtriggercheck",
+  "kind": "check",
+  "args": [],
+  "why": "G26d — Adv.Tracker.grantCriterion / Adv.trigger on the real advancement data; breaks its own module to prove it can fail."
+ }
+]

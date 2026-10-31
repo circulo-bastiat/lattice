@@ -1,0 +1,9 @@
+[
+ {
+  "id": "spawnoceancheck",
+  "kind": "check",
+  "file": "tools/spawnoceancheck.mjs",
+  "args": [],
+  "why": "#1495: REAL generator (ocean/shore/island windows) -- chunk-population and natural creature spawns never place a land animal over water/air/ice, even when every ocean biome is handed the plains list; and (the real cause) after 4000 real EntityList ticks no animal has walked into water and stayed or died there (WanderAroundFarGoal, water wall hop, onLanding in water); proves it can fail."
+ }
+]
