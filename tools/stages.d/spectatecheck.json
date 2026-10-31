@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spectatecheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-S1 — spectator left-click makes an entity the camera entity: eye follow over 40 ticks, sneak/death/removal release, survival refused; breaks its own module to prove it can fail."
+ }
+]

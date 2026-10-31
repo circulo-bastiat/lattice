@@ -1,0 +1,8 @@
+[
+ {
+  "id": "headmodelcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#675: llama/ocelot/cat head cuboids in the model golden match the vanilla builder chain"
+ }
+]

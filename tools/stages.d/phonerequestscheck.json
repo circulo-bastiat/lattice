@@ -1,0 +1,3 @@
+[
+  { "id": "phonerequestscheck", "kind": "browser", "file": "tools/phonerequestscheck.mjs", "args": [], "why": "#7685 PHONE Requests tab: the request contract (issue, bus mail, follow-up, undo), dashboard/result/undo blocks, list order, badge, six tabs fit, and the real app in phone-sized Chromium against a mocked GitHub" }
+]

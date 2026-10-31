@@ -1,0 +1,1 @@
+[ { "id": "lockstep-firedamage", "kind": "check", "file": "tools/lockstep-firedamage.mjs", "args": [], "why": "#10362: in-fire and on-fire damage on a pig and a fire-immune blaze tick by tick vs the real-server lanes firedamage/fireimmune (lanes.d, pilot.mjs --lanes firedamage,fireimmune); writes mobproof/out/damage-fire.json; breaks caught." } ]

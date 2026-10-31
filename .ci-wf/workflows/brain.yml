@@ -1,0 +1,142 @@
+# The brain (#86; Dan, 28 Sept 2026). Runs on the `brain` runners inside the Hyper-V sandbox VM, never on Windows.
+# It is what reacts, so no session ever has to wake another one and no app scheduled task or update_trigger is needed:
+#   a bus comment      -> route it: wake a role headless (commander, fixer) or push it to Dan's phone (to: dan); never from: brain
+#   every tick         -> health (at most every 14 min): mail the commander about what is wrong (which wakes it);
+#                         page Dan after an hour; FILL: keep FILL_WORKERS / roles.json workers running.
+#   schedule */5     -> BACKUP clock only (#8893; GitHub throttles cron here, it fires every few hours at best). THE CLOCK is brain-tick.timer in the VM (#8958, tools/brain/tick.sh).
+#   Claude-app scheduled tasks, update_trigger and approval prompts stay banned (Dan, 28 Sept); a GitHub Actions schedule has none.
+#   workflow_dispatch  -> start a role by hand (the phone app's "wake" and "run" buttons)
+# Decisions: tools/brain/route.mjs (braincheck). Roles and models: tools/brain/roles.json. Local state: ~/.brain.
+name: brain
+run-name: "brain ${{ inputs.role || github.event_name }}${{ inputs.account && format(' @{0}', inputs.account) || '' }}${{ inputs.role == 'waker' && format(' {0}', inputs.reason) || '' }}"
+env:
+  NODE_OPTIONS: --dns-result-order=ipv4first   # 29 Sept: node fetch in the VM failed ("fetch failed") while git worked
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  issue_comment:
+    types: [created]
+  workflow_dispatch:
+    inputs:
+      role: { description: 'role to start', required: true, type: choice, options: [commander, fixer, requests, worker, chore, tester, enlarger, reviewer, waker] }
+      reason: { description: 'why (goes into its prompt)', required: false, default: 'started by Dan' }
+      account: { description: 'reserved account pool for this run (roles.json accounts[].workers); empty = the brain picks', required: false, default: '' }
+permissions:
+  contents: read
+jobs:
+  route:
+    # #8915: BRAIN_RUNNER=mirror moves the 5-min tick to the lattice mirror (brain-tick.yml); this side then no-ops on schedule AND on bus comments (the mirror tick routes mail by polling, #10419); only a hand-started dispatch still runs here
+    if: "(github.event_name == 'workflow_dispatch' || vars.BRAIN_RUNNER != 'mirror') && (github.event_name != 'issue_comment' || (contains(github.event.issue.labels.*.name, 'bus') && (contains(github.event.comment.body, 'to: commander') || contains(github.event.comment.body, 'to: fixer') || contains(github.event.comment.body, 'to: requests') || contains(github.event.comment.body, 'to: enlarger') || contains(github.event.comment.body, 'to: dan'))))"
+    runs-on: [self-hosted, brain]
+    timeout-minutes: 5
+    outputs:
+      role: ${{ steps.r.outputs.role }}
+      reason: ${{ steps.r.outputs.reason }}
+      account: ${{ steps.r.outputs.account }}
+    steps:
+      - name: heal a stale runner workspace (#4998 - a stale index failed every job on brain-4, 10 Oct)
+        shell: bash
+        run: if [ -d .git ]; then rm -f .git/index .git/index.lock; git reset -q --hard HEAD >/dev/null 2>&1 || true; fi; true
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false, fetch-depth: 1, sparse-checkout: "tools\npackage.json" }   # #113: its read-only token header overrode the PAT on every push. #139: the route job only runs tools/brain + tools/infra: a shallow sparse checkout, not the whole tree
+      - id: r
+        shell: bash
+        env:
+          FILL_WORKERS: ${{ vars.FILL_WORKERS }}   # the phone app's worker switch (#90)
+          FILL_WORKERS_MAX: ${{ vars.FILL_WORKERS_MAX }}   # #5045: per-account worker counts (unset = not in use)
+          FILL_WORKERS_PRO: ${{ vars.FILL_WORKERS_PRO }}
+          FILL_TESTERS: ${{ vars.FILL_TESTERS }}   # #4991: the tester count on its own (unset/auto = automatic split)
+        run: |
+          export GH_TOKEN="$(cat ~/.brain/github-token)"
+          case "$GITHUB_EVENT_NAME" in
+            issue_comment)     node tools/brain/brain.mjs route >> "$GITHUB_OUTPUT" ;;   # #8893: mail only; health and fill belong to the tick
+            schedule)          node tools/brain/brain.mjs health --if-due || true
+                               node tools/brain/brain.mjs fill || true ;;   # idempotent: runs everything due, a dropped tick is caught up by the next
+            workflow_dispatch) if [ "${{ inputs.role }}" = waker ]; then   # #9253: the ladder restart-fill rung and the phone wake button: do what the tick does, start no Claude session
+                                 node tools/brain/brain.mjs health --if-due || true
+                                 node tools/brain/brain.mjs fill || true
+                               else { echo "role=${{ inputs.role }}"; echo "reason=${{ inputs.reason }}"; echo "account=${{ inputs.account }}"; } >> "$GITHUB_OUTPUT"; fi ;;
+          esac
+  run:
+    needs: route
+    if: needs.route.outputs.role != ''
+    runs-on: [self-hosted, brain]
+    timeout-minutes: 110
+    # one commander/fixer at a time (mail queues behind it); workers run side by side, one per runner
+    concurrency: { group: "brain-${{ needs.route.outputs.role }}${{ (needs.route.outputs.role == 'worker' || needs.route.outputs.role == 'enlarger' || needs.route.outputs.role == 'tester' || needs.route.outputs.role == 'waker') && format('-{0}', github.run_id) || '' }}", cancel-in-progress: false }
+    steps:
+      - name: heal a stale runner workspace (#4998 - a stale index failed every job on brain-4, 10 Oct)
+        shell: bash
+        run: if [ -d .git ]; then rm -f .git/index .git/index.lock; git reset -q --hard HEAD >/dev/null 2>&1 || true; fi; true
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0, clean: false, persist-credentials: false }   # keep .mcdata; no read-only token header (#113)
+      - shell: bash
+        env:
+          ROLE: ${{ needs.route.outputs.role }}
+          REASON: ${{ needs.route.outputs.reason }}
+          ACCOUNT: ${{ needs.route.outputs.account }}
+        run: |
+          export GH_TOKEN="$(cat ~/.brain/github-token)"
+          [ "$ACCOUNT" = phase ] && export MCLITE_LANE=phase   # #3948: the phase lane (`@phase` run); its hold marker is noclaim-phase below
+          git config user.name "mclite brain"; git config user.email "brain@mclite.local"
+          # #113: sessions push as the PAT. Drop any extraheader an older checkout left in this runner's .git/config
+          # (clean: false keeps it) and point github.com at the same token GH_TOKEN writes with.
+          git config --unset-all http.https://github.com/.extraheader || true
+          git config --global url."https://x-access-token:${GH_TOKEN}@github.com/".insteadOf "https://github.com/" || true   # 6 runners share ~/.gitconfig: a lock clash is harmless (same value)
+          # #91: game data (store, Chromium, build) is prepared HERE, once per runner, never inside a Claude tool call
+          # (cut at 10 min: on 28 Sept every worker's `go.mjs start` died in it and the next fill started over)
+          if [ "$ROLE" = worker ] || [ "$ROLE" = fixer ] || [ "$ROLE" = tester ]; then   # #412: testers audit against .decomp/jars too
+            if [ ! -f .git/mclite-boot-ok ] || [ ! -d .mcdata ] || [ ! -f jars/1.18.2/1.18.2.jar ]; then   # #1821: the mark alone said ready after the data was wiped
+              node tools/cloud/bootstrap.mjs --no-suite && date -u +%FT%TZ > .git/mclite-boot-ok || {
+                node -e "import('./tools/brain/home.mjs').then((m) => m.post('commander', 'brain: bootstrap.mjs failed on ' + require('os').hostname() + ' (' + process.env.RUNNER_NAME + ') - no $ROLE can start there; its log is run ${{ github.run_id }}'))" || true   # a failed post must never fail the job silently
+                exit 1; }
+            fi
+          fi
+          # #125: the worker's issue is claimed and its workspace made HERE, with a hard limit, before any Claude starts.
+          # A hang or a failure costs no session: it posts one log line and the job ends (the stderr is in this run's log).
+          if [ "$ROLE" = worker ]; then
+            # #3100: 8 starts at once (asset builds) thrashed the 2.4 GB VM (load 108, 7 runs hung 99 min): one start at a time
+            rm -f .git/mclite-brief.txt
+            PIN="$(printf '%s' "$REASON" | sed -n 's/.*[Ii]ssue #\([0-9][0-9]*\).*/\1/p' | head -1)"   # #5029: a hand-started worker named an issue in its reason: claim THAT one, not the queue head
+            START_T0=$(date +%s)   # #139: how long `go.mjs start` takes per worker (flock wait included), printed after it
+            if ! GIT_TERMINAL_PROMPT=0 MCLITE_BRAIN=1 MCLITE_WHO=worker MCLITE_RUN_ACCOUNT="$ACCOUNT" timeout 1800 flock ~/.brain/start.lock node tools/go.mjs start ${PIN:+--issue "$PIN"} > .git/mclite-brief.txt 2>&1 \
+               || ! grep -q '^## YOUR ISSUE' .git/mclite-brief.txt; then
+              tail -40 .git/mclite-brief.txt
+              # #1503 (2 Oct): "nothing to claim" is no failure to shout about - every post here re-ran FILL, which dispatched
+              # more workers that found nothing (60+ one-second runs in 5 minutes, API quota burned, no usage spent). Mark it
+              # (brain.mjs fill holds that pool 20 min), post nothing, and let the waker retry.
+              if grep -q 'nothing to claim' .git/mclite-brief.txt; then
+                mkdir -p ~/.brain; date +%s > ~/.brain/noclaim-"${ACCOUNT:-default}"
+                node tools/brain/brain.mjs wake 20 || true
+                exit 0
+              fi
+              TAILX="$(tail -3 .git/mclite-brief.txt | tr '\n' ' ' | cut -c1-300)" node -e "import('./tools/brain/home.mjs').then((m) => m.post('log', 'brain: worker not started - go.mjs start failed or timed out on ' + process.env.RUNNER_NAME + ' (no Claude session spent): ' + process.env.TAILX))" || true   # a failed post must never fail the job silently
+              node tools/brain/brain.mjs wake 20 || true   # 29 Sept: nothing claimable -> no bus traffic -> the loop slept 6 h; retry in 20 min
+              exit 0
+            fi
+            echo "go.mjs start took $(( $(date +%s) - START_T0 )) s on $RUNNER_NAME (#139)"
+            # #7683: a RED issue whose checks already pass is closed here, before any Claude starts (25% of sessions wrote no code)
+            if node tools/infra/prelaunch.mjs .git/mclite-brief.txt | tee .git/prelaunch.log | grep -q '^SATISFIED'; then
+              tail -1 .git/prelaunch.log; exit 0
+            fi
+          fi
+          # 29 Sept: two workers failed at 03:21Z with no bus line and the job log is unreadable from Cowork - a failed
+          # launch now posts its own last lines to the bus, so the next session can see WHY without the log.
+          set +e
+          # the brain's own code always comes from master, whatever branch the worker's issue checked out
+          [ -f tools/brain/launch.mjs ] && [ -f tools/brain/home.mjs ] || git checkout -q origin/master -- tools/brain tools/infra
+          node tools/brain/launch.mjs --role "$ROLE" --reason "$REASON" ${ACCOUNT:+--account "$ACCOUNT"} > .git/launch.log 2>&1; rc=$?
+          cat .git/launch.log
+          if [ $rc -ne 0 ]; then
+            TAILX="$(tail -c 700 .git/launch.log | tr '\n' ' ')" RC=$rc node -e "import('./tools/brain/home.mjs').then((m) => m.post('log', 'brain: ' + process.env.ROLE + ' launch FAILED (exit ' + process.env.RC + ') on ' + process.env.RUNNER_NAME + ': ' + process.env.TAILX))" || true
+          fi
+          exit $rc
+      # #499: a failed waker put the loop to sleep for 77 min (30 Sept 01:10Z). Re-dispatch one by plain curl -
+      # it needs nothing from this checkout, and a waker is no Claude session, so a retry costs nothing.
+      - if: false
+        shell: bash
+        run: |
+          T="$(cat ~/.brain/github-token)"; AT="$(date -u -d '+5 min' +%FT%TZ)"
+          curl -sS -X POST -H "Authorization: Bearer $T" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/brain.yml/dispatches" \
+            -d "{\"ref\":\"master\",\"inputs\":{\"role\":\"waker\",\"reason\":\"$AT\"}}" && echo "waker re-dispatched for $AT"

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "bonemealfeatcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#318: bone meal on grass block (biome flower list), red/brown mushroom (huge_*_mushroom feature) and underwater (seagrass, warm-ocean coral) runs the W track's own features; anti-vacuity: hand-written mushroom, biome-blind flower, dropped canGenerate/seagrass/coral caught"
+ }
+]

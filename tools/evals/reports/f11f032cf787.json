@@ -1,0 +1,586 @@
+{
+ "hash": "f11f032cf787",
+ "text": "pass-rate 15% of 20 stable cases (0 flaky excluded); total cost 0 tokens, 0.9 min",
+ "results": [
+  {
+   "id": "c7709",
+   "kind": "already-fixed",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.016033333333333333,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.01365,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.01695,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c6113",
+   "kind": "already-fixed",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.01265,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.016016666666666665,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.016666666666666666,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c6055",
+   "kind": "already-fixed",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.015866666666666668,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.016933333333333335,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.01715,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c7733",
+   "kind": "red-check-fix",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.012633333333333333,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.01445,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.01615,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c7740",
+   "kind": "red-check-fix",
+   "pass": true,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": true,
+     "score": 1,
+     "tokens": 0,
+     "minutes": 0.0143,
+     "withinBudget": true
+    },
+    {
+     "pass": true,
+     "score": 1,
+     "tokens": 0,
+     "minutes": 0.017033333333333334,
+     "withinBudget": true
+    },
+    {
+     "pass": true,
+     "score": 1,
+     "tokens": 0,
+     "minutes": 0.016183333333333334,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c7722",
+   "kind": "red-check-fix",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.012283333333333334,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.01806666666666667,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.012483333333333334,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c6118",
+   "kind": "lane",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.015016666666666666,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.0175,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.016983333333333333,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c6117",
+   "kind": "lane",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.0172,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.022316666666666665,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.016916666666666667,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c6111",
+   "kind": "lane",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.0162,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.0146,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.017233333333333333,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c7726",
+   "kind": "lockstep-pilot",
+   "pass": true,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": true,
+     "score": 1,
+     "tokens": 0,
+     "minutes": 0.014966666666666666,
+     "withinBudget": true
+    },
+    {
+     "pass": true,
+     "score": 1,
+     "tokens": 0,
+     "minutes": 0.016133333333333333,
+     "withinBudget": true
+    },
+    {
+     "pass": true,
+     "score": 1,
+     "tokens": 0,
+     "minutes": 0.016,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c7706",
+   "kind": "lockstep-pilot",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.012316666666666667,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.015866666666666668,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.016316666666666667,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c6120",
+   "kind": "lockstep-pilot",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.021566666666666668,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.016933333333333335,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.014083333333333333,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c7710",
+   "kind": "bug-fix",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.015666666666666666,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.0166,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.016,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c7522",
+   "kind": "bug-fix",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.0155,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.011516666666666666,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.017666666666666667,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c7653",
+   "kind": "bug-fix",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.01175,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.01665,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.015916666666666666,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c7707",
+   "kind": "new-check",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.0182,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.0127,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.01525,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c7708",
+   "kind": "new-check",
+   "pass": true,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": true,
+     "score": 1,
+     "tokens": 0,
+     "minutes": 0.016666666666666666,
+     "withinBudget": true
+    },
+    {
+     "pass": true,
+     "score": 1,
+     "tokens": 0,
+     "minutes": 0.017116666666666665,
+     "withinBudget": true
+    },
+    {
+     "pass": true,
+     "score": 1,
+     "tokens": 0,
+     "minutes": 0.011566666666666666,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c2698",
+   "kind": "new-check",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.015816666666666666,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.012216666666666667,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.0146,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c7256",
+   "kind": "tracking-split",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.01635,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.01185,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.013816666666666666,
+     "withinBudget": true
+    }
+   ]
+  },
+  {
+   "id": "c7235",
+   "kind": "tracking-split",
+   "pass": false,
+   "flaky": false,
+   "runs": [
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.016166666666666666,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.0154,
+     "withinBudget": true
+    },
+    {
+     "pass": false,
+     "score": 0,
+     "tokens": 0,
+     "minutes": 0.014683333333333333,
+     "withinBudget": true
+    }
+   ]
+  }
+ ]
+}

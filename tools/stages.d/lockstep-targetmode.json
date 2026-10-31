@@ -1,0 +1,1 @@
+[ { "id": "lockstep-targetmode", "kind": "check", "file": "tools/lockstep-targetmode.mjs", "args": [], "why": "#8877 G18b-L43: lockstep scenario targetmode (TargetPredicate vs gamemode/invulnerable/invisible/range/line of sight, creative flip drops target, 20 salts): creative players targetable caught." } ]

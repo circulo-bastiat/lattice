@@ -1,0 +1,12 @@
+[
+ {
+  "id": "mobdrawcheck",
+  "timeoutMin": 60,
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html",
+   "rest"
+  ],
+  "why": "G18c step 1 (this session): `ER.build`'s live loop now spawns and draws a real mob (guardian/dolphin/llama_spit/turtle -- the only types with both measured motion AND real box geometry) -- `mobboxcheck.mjs`/`mobtexcheck.mjs`/`animcheck.mjs` proved the geometry, texture and animation DATA; this is the first stage that proves a picture. #10498: the 'rest' half (sections 0 and 1c-6, roster cow+spider); the every-mob sweep is mobsweepcheck."
+ }
+]

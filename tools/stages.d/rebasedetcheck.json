@@ -1,0 +1,1 @@
+[{"id": "rebasedetcheck", "kind": "check", "file": "tools/rebasedetcheck.mjs", "args": [], "why": "#10219: the goat and villager lockstep lanes keep the World.random re-base at the mob's first tick (SeedAgent), enabled and LANE-fenced in run.mjs; any piece removed caught."}]

@@ -1,0 +1,1 @@
+[{"id": "lockstep-cod", "kind": "check", "file": "tools/lockstep-cod.mjs", "args": [], "why": "#5983 G17-L4: engine-side cod pool-lane trace, 20 salts (pos, vel, yaw, pitch, air per tick); deterministic per salt; 1e-9 drift in pos/vel/yaw/pitch and air shift caught. Server comparison runs through lockstep/pilot.mjs --lanes cod."}]

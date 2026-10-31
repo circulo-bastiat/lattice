@@ -1,0 +1,8 @@
+[
+ {
+  "id": "netherfortressblockscheck",
+  "kind": "check",
+  "args": [],
+  "why": "#259 -- NetherFortressGenerator Bridge/SmallCorridor/CorridorCrossing.generate blocks in all four facings, fillDownwards, chunk clipping; fails when a fill, fence or facing frame is cut."
+ }
+]

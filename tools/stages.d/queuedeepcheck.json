@@ -1,0 +1,8 @@
+[
+  {
+    "id": "queuedeepcheck",
+    "kind": "check",
+    "file": "tools/queuedeepcheck.mjs",
+    "args": []
+  }
+]

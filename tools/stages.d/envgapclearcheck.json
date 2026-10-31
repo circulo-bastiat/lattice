@@ -1,0 +1,1 @@
+[{"id":"envgapclearcheck","kind":"check","file":"tools/envgapclearcheck.mjs","args":[],"why":"#10681: a closed ENV GAP issue releases the issue it held (env-gap + gap-added needs-java/needs-data); an open gap keeps them; the brain health pass does it; 5 breaks caught."}]

@@ -1,0 +1,24 @@
+# silent-events-1.18.2.tsv — the sound events vanilla 1.18.2 DEFINES BUT LEAVES EMPTY.
+#
+# Derived mechanically from the 1.18.2 client asset index's sounds.json: every event whose
+# "sounds" array is [] — the event exists, code fires it, and nothing is heard. These are NOT
+# gaps in MC-Lite's transport: they are gaps in Minecraft, and parity means reproducing them.
+# Several carry a subtitle, which is how you can tell the emptiness is deliberate and not an
+# oversight: Mojang wrote the caption for a sound they then shipped without.
+#
+# soundcheck asserts, in BOTH directions, that MC-Lite's unvoiced set is exactly this list
+# intersected with the selected events. A clip that fails to cross the bridge therefore
+# turns the check red; a sound Mojang never recorded does not.
+#
+# event	subtitle
+block.fungus.fall	
+block.fungus.hit	subtitles.block.generic.hit
+block.roots.fall	
+block.roots.hit	subtitles.block.generic.hit
+block.roots.step	subtitles.block.generic.footsteps
+entity.cod.ambient	
+entity.puffer_fish.ambient	
+entity.salmon.ambient	
+entity.snow_golem.ambient	
+entity.tropical_fish.ambient	
+music.nether.warped_forest	

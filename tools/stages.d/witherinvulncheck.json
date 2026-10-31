@@ -1,0 +1,8 @@
+[
+ {
+  "id": "witherinvulncheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/wither-invuln: DescendAtHalfHealthGoal + 220-tick invuln timer + regen + expiry explosion"
+ }
+]

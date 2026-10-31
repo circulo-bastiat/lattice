@@ -1,0 +1,1 @@
+{ "id": "witherdamage", "mob": "cow", "damage": true, "nbt": "NoAI:1b", "hurt": true, "effect": "wither 3 2", "note": "#9249: NoAI cow given wither III for 3 s at the summon; Health/HurtTime per tick" }

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-ghast-x20", "kind": "check", "file": "tools/referee/lockstepghastcheck.mjs", "args": [], "why": "#6498 G17-L4: ghast lane, 20 salts engine trace deterministic, pilot 0 divergences (salt 15 server-unstable, replaced by 20); tampered fields breaks caught." } ]

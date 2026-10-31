@@ -1,0 +1,1 @@
+[ { "id": "cdprelaunchcheck", "kind": "check", "file": "tools/cdprelaunchcheck.mjs", "args": [], "why": "#9479: cdp.mjs open() relaunches chrome once on a fresh profile when the first never opens its debug port (ECONNREFUSED 127.0.0.1:9600 after 20 s bounced #9278/#9280 at anti-vacuity); runs the real open() against a fake chrome; 3 breaks caught." } ]

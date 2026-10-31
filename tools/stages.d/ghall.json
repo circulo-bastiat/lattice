@@ -1,0 +1,3 @@
+[
+  { "id": "ghallcheck", "kind": "check", "file": "tools/ghallcheck.mjs", "args": [], "why": "13 Oct: a non-list GitHub page crashed the brain's rebase sweep with a bare spread TypeError" }
+]

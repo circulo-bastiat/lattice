@@ -1,0 +1,8 @@
+[
+ {
+  "id": "drinkcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G19d-d (#179) — drinking: potion/milk/honey/stews finishUsing, bottle/bucket/bowl remainders, early release does nothing."
+ }
+]

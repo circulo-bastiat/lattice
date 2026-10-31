@@ -1,0 +1,1 @@
+[ { "id": "mobproofstalecheck", "kind": "check", "file": "tools/mobproofstalecheck.mjs", "args": [], "why": "#8227: a green mobproof cell goes stale when the src it covers changes; an unrelated mob's edit leaves it green." } ]

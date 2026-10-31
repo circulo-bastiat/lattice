@@ -1,0 +1,64 @@
+# Published into the lattice mirror (#10420). The lockstep pilot farm that pilot-farm.yml ran on the brain VM: top up the pilot credit of the lanes that are short (the 11-job pilots run
+# on THIS repo through ci-pilot.yml), ship the results as a farm/<run> branch of the private repo (the tick opens the PR, farmship.mjs). Started by the hosted brain tick
+# (brain.mjs health dispatches it when the newest run is over 200 min old; `nocarry` = the daily full pass). Silent (#8913): logs are public.
+name: farm-run
+run-name: farm-run
+on:
+  workflow_dispatch:
+    inputs:
+      lanes: { description: 'how many lanes to top up this run', required: false, default: '24' }
+      nocarry: { description: "'true' = a full pass with NO early cutoff", required: false, default: '' }
+concurrency:
+  group: farm-run
+  cancel-in-progress: false
+permissions:
+  contents: read
+jobs:
+  farm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 175
+    env:
+      NODE_OPTIONS: --dns-result-order=ipv4first
+      MCLITE_HOSTED: '1'
+      LANES: ${{ inputs.lanes }}
+      NOCARRY: ${{ inputs.nocarry }}
+    steps:
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: checkout
+        env: { PAT: '${{ secrets.MCLITE_PAT }}', SRC: '${{ secrets.MCLITE_SRC }}' }
+        run: |
+          silent() { local n="$1"; shift; "$@" >> "$RUNNER_TEMP/out.log" 2>&1; local rc=$?; echo "[silent] $n exit=$rc"; return $rc; }
+          silent clone git -c credential.helper= clone -q "https://x-access-token:${PAT}@github.com/${SRC}.git" work
+      - name: data
+        env: { STORE_URL: '${{ secrets.STORE_URL }}' }
+        run: |
+          . work/tools/infra/mirror/silent.sh
+          cd work && silent data node tools/cloud/bootstrap.mjs --store "$STORE_URL" --no-suite --no-build
+      - name: farm
+        env:
+          GH_TOKEN: ${{ secrets.MCLITE_PAT }}
+          MCLITE_REPO: ${{ secrets.MCLITE_SRC }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+          MIRROR_REPO: ${{ github.repository }}
+          GIT_TERMINAL_PROMPT: '0'
+        run: |
+          . work/tools/infra/mirror/silent.sh
+          . work/tools/infra/mirror/fail-post.sh
+          silent vars bash work/tools/infra/mirror/tickvars.sh "$RUNNER_TEMP/vars.env" || true
+          [ -s "$RUNNER_TEMP/vars.env" ] && . "$RUNNER_TEMP/vars.env"
+          cd work
+          silent apply node tools/infra/farmwork.mjs --apply || true
+          silent plan node tools/infra/pilotfarm.mjs || true
+          rc=0; silent farm node tools/infra/pilotfarm.mjs --run --lanes "${LANES:-24}" --jobs 4 --ship-every 20 ${NOCARRY:+--no-carry} || rc=$?   # bash -e: still ship and report
+          [ $rc -ne 0 ] && failpost "farm-run (exit $rc)" .
+          silent merge bash -c 'git -c credential.helper= fetch -q origin master && git merge -q --ff-only FETCH_HEAD' || true
+          silent drop node tools/infra/pilotfarm.mjs --drop-dead || true
+          git add --ignore-removal tools/referee/lockstep/pilot-results >/dev/null 2>&1   # #10530: additive, see shipBatch
+          if ! git diff --cached --quiet; then
+            git config user.name "pilot-farm"; git config user.email "farm@invalid.invalid"
+            git checkout -q -b "farm/lat-${GITHUB_RUN_ID}"
+            silent commit git commit -q -m "pilot farm: lockstep results (hosted)"
+            silent ship git -c credential.helper= push -q origin "farm/lat-${GITHUB_RUN_ID}"
+          fi
+          exit $rc

@@ -1,0 +1,3 @@
+[
+  { "id": "paintingcheck", "kind": "check", "file": "tools/paintingcheck.mjs", "args": [], "why": "#317 PaintingEntity motive choice: a gap only gets a fitting motive, always of max fitting area, painting drops when its wall breaks; allow-any-motive / skipped canStayAttached must fail." }
+]

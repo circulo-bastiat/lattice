@@ -1,0 +1,3 @@
+[
+  { "id": "tiagitcheck", "kind": "check", "file": "tools/tiagitcheck.mjs", "args": [] }
+]
