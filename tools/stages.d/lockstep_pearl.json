@@ -1,0 +1,1 @@
+[ { "id": "lockstep_pearl", "kind": "check", "file": "tools/lockstep-pearl.mjs", "args": [], "why": "#6312 G17-L61 lockstep pearl: ender pearl flight, impact teleport, 5 fall damage, in-wall hit and endermite roll vs the real server's traces, 3 throws x 20 salts to zero; gravity 0.03 -> 0.04 reported at the first flight tick." } ]

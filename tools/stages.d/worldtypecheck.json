@@ -1,0 +1,8 @@
+[
+ {
+  "id": "worldtypecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#10623: large_biomes and amplified world types vs vanilla source arithmetic; 4 deliberate breaks caught."
+ }
+]

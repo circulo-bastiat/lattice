@@ -1,0 +1,1 @@
+[ { "id": "mobproofhitboxcheck", "kind": "check", "file": "tools/mobproofhitboxcheck.mjs", "args": [], "why": "#9186: mobproof hitbox producer catches wrong width/height/box position/missing rows (breaks its own data)." } ]

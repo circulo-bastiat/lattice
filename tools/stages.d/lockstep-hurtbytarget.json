@@ -1,0 +1,1 @@
+[{"id": "lockstep-hurtbytarget", "kind": "check", "file": "tools/referee/hurtbytargetlockstepcheck.mjs", "args": [], "why": "#7939 G18b-L26: lockstep scenario hurtbytarget, 20 salts x piglin/wolf/golem/bee/llama: revenge target, group alert box, tame-owner gate, existing target kept, goal stop; a pack that does not alert, a shrunken radius and a widened box are caught."}]

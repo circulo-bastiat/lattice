@@ -1,0 +1,1 @@
+[ { "id": "lockstep-preytarget", "kind": "check", "file": "tools/lockstep-preytarget.mjs", "args": [], "why": "#8718 G18b-L45: lockstep scenario preytarget (ActiveTargetGoal prey lists cat/ocelot/fox/wolf/polar bear, adult and baby, acquire tick, mustSee flag, 20 salts): cat list rabbit replaced with chicken caught." } ]

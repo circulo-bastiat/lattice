@@ -1,0 +1,1 @@
+[ { "id": "lockstep-bow", "kind": "check", "file": "tools/referee/lockstepbowcheck.mjs", "args": [], "why": "#6714 G17-L118: lockstep scenario bow, 20 salts: pull curve (t^2+2t)/3, speed pull*3, gaussian 0.0075 jitter, crit only at full draw, Power/Punch/Flame/Infinity, durability 1, hit damage ceil(|v|*dmg); jitter, speed, curve and damage changes caught." } ]

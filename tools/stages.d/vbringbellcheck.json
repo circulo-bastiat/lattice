@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbringbellcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18f-B2 -- RingBellTask (VB.ringBellTask): a pre-raid villager within 3 blocks of its MEETING_POINT bell rings it at ~5%/tick; one 4 blocks away does not."
+ }
+]

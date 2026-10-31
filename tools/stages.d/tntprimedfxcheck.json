@@ -1,0 +1,8 @@
+[
+ {
+  "id": "tntprimedfxcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5189 -- primed TNT plays entity.tnt.primed once at ignite and spawns one smoke particle per running fuse tick at y+0.5; edited-source breaks must be noticed."
+ }
+]

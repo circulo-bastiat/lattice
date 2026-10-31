@@ -1,0 +1,1 @@
+[{"id": "lockstep-squid", "kind": "check", "file": "tools/lockstep-squid.mjs", "args": [], "why": "#5321 G17-L4: squid pool lane engine trace, 20 salts deterministic; tampered pos/vel/yaw/pitch/air breaks caught."}]

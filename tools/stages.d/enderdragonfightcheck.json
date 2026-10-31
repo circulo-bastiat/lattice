@@ -1,0 +1,8 @@
+[
+ {
+  "id": "enderdragonfightcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/enderdragonfight-substrate (ED.OWED item 2, QUEUE task) -- EnderDragonFight itself: the crystal ring (ED.buildCrystalRing, EndSpikeFeature.SpikeCache's own verbatim formula), the exit-portal location search (ED.computeExitPortalLocation), and the full real EnderDragonSpawnState respawn/spawn-sequence timer machine (ED.EnderDragonFight's own respawnDragon()/tick()/createDragon()) culminating in a real dragon. Node-only, formula/state-level, World/block/explosion machinery is caller-supplied opts stand-ins -- see src/07zzl_enderdragon.js's own ED.OWED item 2 comment for exactly what is real vs. a stand-in."
+ }
+]

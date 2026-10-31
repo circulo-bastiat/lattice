@@ -1,0 +1,1 @@
+[ { "id": "lockstep-growup", "kind": "check", "file": "tools/lockstep-growup.mjs", "args": [], "why": "#6933 G17-L193: lockstep scenario growup (baby cow/pig/sheep/chicken fed at ticks 100/400: growUp((int)((float)(-age/20)*0.1F)) forced age, age step, growth puffs, item count, hitbox on the tick age reaches 0, 20 salts): age/20 -> age/10 and a late adult hitbox caught." } ]

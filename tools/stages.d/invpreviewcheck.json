@@ -1,0 +1,1 @@
+[{"id":"invpreviewcheck","kind":"browser","args":["dist/mclite.html"],"why":"#5785 InventoryScreen.drawEntity: the survival inventory shows the live 3D player (armour included), body/head yaw follow the cursor by vanilla's formula, and the entity's real yaw is left alone."}]
