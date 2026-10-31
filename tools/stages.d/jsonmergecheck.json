@@ -1,0 +1,1 @@
+[{"id":"jsonmergecheck","kind":"check","args":[],"why":"#1612 -- the lander finishes a merge that conflicts only in the shared ratchet lists (*-known.json, mobl3-mobs.json) by a 3-way merge by key; a real git merge in a temp repo, plus three broken mergers (take-theirs, always-ok, key-dropping) that the cases must catch (breaks caught)."}]

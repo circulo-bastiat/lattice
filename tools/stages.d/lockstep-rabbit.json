@@ -1,0 +1,1 @@
+[ { "id": "lockstep-rabbit", "kind": "check", "file": "tools/referee/locksteprabbitcheck.mjs", "args": [], "why": "#6452 G17-L4 lockstep rabbit: 20 salts engine trace deterministic, pilot --lanes rabbit --seeds 20 zero divergences; 1e-9 drift caught." } ]

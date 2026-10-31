@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endcrystalcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/endcrystal-entity -- the real `end_crystal` entity: registration (EL.motionFor/ DEFAULTS/EL.spawn's own generic dims read), EndCrystalEntity.damage() verbatim (the dragon-attacker refusal, e.invulnerable, the real power-6 DESTROY explosion skipped when the killing source is already explosive), and the wiring that makes a REAL destroyed entity reach ED.EnderDragonFight.prototype.crystalDestroyed -> dragon -> phase.crystalDestroyed() end to end, both directly (EC.damage) and through src/07za_explosion.js's own Ex.damageEntities. Node-only."
+ }
+]

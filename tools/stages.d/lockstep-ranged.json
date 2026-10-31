@@ -1,0 +1,1 @@
+[ { "id": "lockstep-ranged", "kind": "check", "file": "tools/referee/rangedlockstepcheck.mjs", "args": [], "why": "#6294 G17-L46: lockstep scenario ranged, 20 salts: skeleton BowAttackGoal shot ticks, strafe, arrow velocity (spread 14 - difficulty*4), flight and damage after armor vs decomp." } ]

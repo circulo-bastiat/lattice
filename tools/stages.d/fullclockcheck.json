@@ -1,0 +1,1 @@
+[{"id":"fullclockcheck","kind":"check","args":[],"why":"#9180 -- GitHub drops the full suite's cron ticks; the brain tick dispatches it when the last run is over 130 min old (not while one runs, not with FULL_MODE=off, once per 45 min); breaks caught."}]

@@ -1,0 +1,1 @@
+[{"id":"goldenredcheck","kind":"check","args":[],"why":"#9546 -- a RED refcheck run green by a worker on its own golden publishes that golden to the store branch (the mirror reads only the store); checkGoldens maps a stage to its goldens (5 breaks caught)."}]

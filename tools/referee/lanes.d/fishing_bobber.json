@@ -1,0 +1,1 @@
+{ "id": "fishing_bobber", "mob": "fishing_bobber", "up": 1, "nbt": "Motion:[0.9d,0.1d,0.0d]", "note": "#8291: ownerless bobber (summon has no player owner): FishingHook.tick discards it on its first tick (getPlayerOwner()==null)" }

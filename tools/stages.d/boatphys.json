@@ -1,0 +1,8 @@
+[
+ {
+  "id": "boatphys",
+  "kind": "check",
+  "args": [],
+  "why": "#308 (G25b): boat velocity traces (still water 0.9 decay, land 0.6, blue_ice 0.989, W held v=v*0.9+0.04), two passenger seats, fall-break drop 3 planks + 2 sticks, re-derived from BoatEntity constants; swapped ice slipperiness / dropped paddle force must be caught."
+ }
+]

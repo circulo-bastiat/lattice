@@ -1,0 +1,1 @@
+[{"id": "lockstep-swimnav", "kind": "check", "file": "tools/lockstep-swimnav.mjs", "args": [], "why": "#8876 G18b-L42: lockstep scenario swimnav (drowned/turtle/axolotl/dolphin/guardian node choice through a flooded tunnel, a lily-pad air gap and a shore step, 20 salts): WATER_BORDER as walkable for the drowned caught."}]

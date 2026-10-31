@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-consume_itemcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT25 (#7989) — Adv.matchers consume_item + Use.drinkFinish call site; balanced_diet + husbandry/root complete, non-matching item does not; breaks its own matcher."
+ }
+]

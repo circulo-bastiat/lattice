@@ -1,0 +1,8 @@
+[
+ {
+  "id": "signtextcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#6374 -- sign text layout: 4 lines, dye colour, glow outline (black -> 0xF0EBCC), 90 px clip (SignBlockEntityRenderer.render)."
+ }
+]

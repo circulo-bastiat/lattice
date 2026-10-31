@@ -1,0 +1,38 @@
+[
+  {
+    "id": "home",
+    "hash": "#/"
+  },
+  {
+    "id": "stats",
+    "hash": "#/stats"
+  },
+  {
+    "id": "bus",
+    "hash": "#/bus"
+  },
+  {
+    "id": "controls",
+    "hash": "#/controls"
+  },
+  {
+    "id": "questions",
+    "hash": "#/questions"
+  },
+  {
+    "id": "requests",
+    "hash": "#/requests"
+  },
+  {
+    "id": "settings",
+    "hash": "#/settings"
+  },
+  {
+    "id": "bugs",
+    "hash": "#/bugs"
+  },
+  {
+    "id": "mobs",
+    "hash": "#/mobs"
+  }
+]

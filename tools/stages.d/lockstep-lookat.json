@@ -1,0 +1,1 @@
+[ { "id": "lockstep-lookat", "kind": "check", "file": "tools/lockstep-lookat.mjs", "args": [], "why": "#7711: lockstep scenario lookat, 20 salts: LookAtEntityGoal 0.02 roll/range/40+nextInt(40), LookAroundGoal 20+nextInt(20), LookControl 10deg yaw step and 40deg pitch clamp; changing the 40-tick window or pitch clamp caught." } ]

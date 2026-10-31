@@ -1,0 +1,1 @@
+[{"id":"shortfallcheck","kind":"check","file":"tools/shortfallcheck.mjs","args":[],"why":"21 Oct: a worker that ends early (<60 turns) with no PR, no code and the issue open is resumed once by the brain with the budget it has left; effortFeature=medium for non-RED worker issues; cases on shortfall.mjs with a fake GitHub, wiring in launch.mjs/roles.json, 14 breaks caught."}]

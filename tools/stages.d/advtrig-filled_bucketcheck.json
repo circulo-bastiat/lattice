@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-filled_bucketcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT36 — minecraft:filled_bucket matcher + Use.filledBucketTrigger call site complete husbandry/tactical_fishing and axolotl_in_a_bucket; breaks its own matcher to prove it can fail."
+ }
+]
