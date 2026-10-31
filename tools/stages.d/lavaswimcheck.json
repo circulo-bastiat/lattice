@@ -1,0 +1,3 @@
+[
+  { "id": "lavaswimcheck", "kind": "check", "file": "tools/lavaswimcheck.mjs", "args": [] }
+]

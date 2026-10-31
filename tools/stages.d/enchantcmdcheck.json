@@ -1,0 +1,8 @@
+[
+ {
+  "id": "enchantcmdcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8230 -- /enchant: level cap, non-living, itemless, incompatible, generic failure keys, stack level read by Cb.enchantLevel; edited-source breaks must be noticed."
+ }
+]

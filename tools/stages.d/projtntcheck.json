@@ -1,0 +1,9 @@
+[
+ {
+  "id": "projtntcheck",
+  "kind": "check",
+  "file": "tools/projtntcheck.mjs",
+  "args": [],
+  "why": "#8662 -- TntBlock.onProjectileHit: a burning arrow primes one tnt (fuse 80, shooter igniter) and clears the cell; a cold arrow or a burning one outside the world border does nothing; dropping the isOnFire test goes red. Node-only."
+ }
+]

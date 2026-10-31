@@ -1,0 +1,3 @@
+[
+  { "id": "phonemobscheck", "kind": "check", "file": "tools/phonemobscheck.mjs", "args": [], "why": "#7809 phone app D: the Mobs tab lists every roster mob of the real matrix.json with its 7 dimensions + sign-off, proven count, filters, default order, sheet; breaks: mob missing, dimension swapped, unknown state as done, proven mismatch, ledger ignored" }
+]

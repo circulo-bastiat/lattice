@@ -1,0 +1,8 @@
+[
+ {
+  "id": "armourglintcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8079: ArmorFeatureRenderer foil pass -- an enchanted armour piece emits a second glint layer, a plain one does not."
+ }
+]

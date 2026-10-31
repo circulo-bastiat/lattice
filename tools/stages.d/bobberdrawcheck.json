@@ -1,0 +1,8 @@
+[
+ {
+  "id": "bobberdrawcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-F6 -- FishingBobberEntityRenderer geometry (ER.bobberGeometry): billboard quad and the 17-vertex parabola line vs the Java formulas for 4 poses; feet-anchored and flipped-arm faults are caught."
+ }
+]

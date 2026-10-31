@@ -1,0 +1,8 @@
+[
+ {
+  "id": "totemcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5793 G17d-T1 -- a lethal hit with a totem in hand leaves health 1 + Regeneration II/Absorption II/Fire Resistance, shrinks the stack; void bypasses."
+ }
+]

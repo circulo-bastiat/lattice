@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbpaniccheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/vbpanic -- villager Activity.PANIC (src/07zv3_vbpanic.js's own NS.VBPanic, hooked one line into VB.tick): the NEAREST_HOSTILE/HURT_BY/HURT_BY_ENTITY danger-memory substrate, PanicTask/StopPanickingTask's own hysteresis, the flee-away targeting, and the panic-quorum golem summon (reusing Village.canSummonGolem/findGolemSpawnPos). AFTER vbworkcheck: same NS.VB module, and reads NS.Village/NS.Combat vbactivitycheck's own sibling list already loads."
+ }
+]

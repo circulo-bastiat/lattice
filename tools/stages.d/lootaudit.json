@@ -1,0 +1,3 @@
+[
+  { "id": "lootaudit", "kind": "check", "file": "tools/lootaudit.mjs", "args": [], "why": "#1535 GATE M loot: every roster mob jar loot table (raw entity json) vs Loot.entityDrops over seeded rolls in six scenarios; ledger tools/lootaudit-known.json may only shrink; 8 deliberate breaks; --file files new findings (bug,mobs)." }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-villager_tradecheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT13 - minecraft:villager_trade matcher + Trade call site complete adventure/trade and trade_at_world_height; breaks its own matcher to prove it can fail."
+ }
+]

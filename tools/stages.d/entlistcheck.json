@@ -1,0 +1,8 @@
+[
+ {
+  "id": "entlistcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17b — the entity LIST and its motion, a hundred ticks against the arithmetic (D-308)."
+ }
+]
