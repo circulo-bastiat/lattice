@@ -1,0 +1,8 @@
+[
+ {
+  "id": "teamgameplaycheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-SB5 — team gameplay: isTeammate, friendlyFire, collisionRule, nametag rule, shulker team goal, evoker teammates; breaks the team lookup to prove it can fail."
+ }
+]

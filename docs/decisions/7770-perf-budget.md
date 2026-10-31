@@ -1,0 +1,8 @@
+# 7770 — performance budget in CI (replaces #133 lowend.yml)
+- `.github/workflows/bench.yml` runs tools/bench.mjs (low preset, headless) on a free hosted runner after each master push; results stored in branch `bench-data` (store.json, keyed by sha).
+- Benchmarks: per-preset meanMs, p95Ms, drawsPerFrame, trisPerFrame, worldMB, arenaMB (frame prep CPU, stalls, geometry, memory). Chunk-gen/entity-tick microbenchmarks are NOT yet built (owed).
+- Rule (tools/benchbudget.mjs): regression if > max(3x spread, 10%) over median of last 5; alert-only `perf-regression` issue, never blocks the lander.
+- Spread: `benchbudget.mjs spread` on a 10-run store; >10% means rewrite/drop. The 10-run measurement must be taken on the runner (owed, not measurable locally).
+- `go.mjs status` prints latest values and 7-day trend. Check: benchbudgetcheck.
+- Update: tools/benchmicro.mjs = chunk-gen microbench (fixed seed, 7x7 chunks, min of reps, node-only), recorded as `micro.genMsPerChunk`. Spread measured locally was 41-55% but the dev box ran at load 7-8 (shared runners), so it is not a valid measurement; bench.yml runs `--spread 10` on the hosted runner each landing (spread.txt in the log). If it reports UNSTABLE there, drop/rewrite it. Owed: remesh and entity-tick microbenchmarks.
+- Update 2: benchmicro now has three CPU microbenchmarks, all in BENCHES (remesh and entity tick were measured but not recorded before): genMsPerChunk, remeshMsPerSection, entityTickMs60 (60 mobs, 5 types, 60 ticks, min of reps). Local spread is not valid (loaded box); the per-landing `--spread 10` on the hosted runner decides, and a benchmark UNSTABLE there is rewritten or dropped. #133 (lowend.yml) is replaced by bench.yml + benchbudget.mjs; closed with this note.

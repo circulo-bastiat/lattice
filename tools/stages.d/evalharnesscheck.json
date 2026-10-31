@@ -1,0 +1,3 @@
+[
+  { "id": "evalharnesscheck", "kind": "check", "file": "tools/evalharnesscheck.mjs", "args": [] }
+]

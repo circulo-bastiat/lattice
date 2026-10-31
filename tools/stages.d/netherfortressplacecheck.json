@@ -1,0 +1,8 @@
+[
+ {
+  "id": "netherfortressplacecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1328 -- fortress maker + nether_complexes placement: real Nether fortress starts (none in the overworld), seen by Structures.spawnOverride as wither_skeleton weight 8 group 5-5; breaks its own port and prints '<n> breaks caught'."
+ }
+]

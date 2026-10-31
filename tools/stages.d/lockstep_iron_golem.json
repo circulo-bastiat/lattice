@@ -1,0 +1,1 @@
+[ { "id": "lockstep_iron_golem", "kind": "check", "file": "tools/lockstep-iron_golem-20.mjs", "args": [], "why": "#5511 G17-L4 lockstep iron_golem: 20 seeds, engine trace, 5 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes iron_golem (full suite)." } ]

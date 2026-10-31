@@ -1,0 +1,3 @@
+[
+  { "id": "borderbuildcheck", "kind": "check", "file": "tools/borderbuildcheck.mjs", "args": [] }
+]

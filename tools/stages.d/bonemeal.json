@@ -1,0 +1,8 @@
+[
+ {
+  "id": "bonemealstatescheck",
+  "kind": "check",
+  "args": [],
+  "why": "#316: bone meal advances crops/cocoa/bamboo/tall flowers by the .decomp amount, spends nothing on a mature one, fires world event 1505, and the dispenser's BONE_MEAL behaviour fertilises; anti-vacuity: mature gate, cocoa, bamboo sapling and event removed"
+ }
+]

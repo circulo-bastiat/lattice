@@ -1,0 +1,3 @@
+[
+  { "id": "rolehostedcheck", "kind": "check", "file": "tools/rolehostedcheck.mjs", "args": [] }
+]

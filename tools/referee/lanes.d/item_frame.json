@@ -1,0 +1,1 @@
+{ "id": "item_frame", "mob": "item_frame", "nbt": "Facing:2b,Item:{id:\"minecraft:stone\",Count:1b},ItemRotation:3b", "note": "#8289: item_frame placed with an item and rotation; rows pos, vel, tick of removal (HangingEntity.tick survival check every 100 ticks, ItemFrame)" }

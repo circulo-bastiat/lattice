@@ -1,0 +1,15 @@
+{
+ "dupcheck": "red on the 27 Sept GPU full suite; issue #141 (re-justified; fix or un-quarantine when master is green)",
+ "mobcmdkillcheck": "red before the GPU suite (D-822)",
+ "timeweathercheck": "GPU full-suite red (D-822)",
+ "tpcheck": "GPU full-suite red (D-822)",
+ "tickcheck": "GPU full-suite red (D-822)",
+ "soakcheck": "GPU full-suite red (D-822)",
+ "worldcheck": "real bug: redstone scheduled shutoff + piston sync-extend (D-836)",
+ "meltdropcheck": "red before the GPU suite (D-822)",
+ "seamcheck": "KW-48b-1 (#586) repro harness, RED ON PURPOSE: a mesh job in flight when a block changes lands its stale vis over markDirty's 0x7FFF; un-quarantine with the fix (#578)",
+ "texrostercheck": "measurement harness, red by design until the #579 units land (#592)",
+ "sheepgrassrefcheck": "29 golden reds pre-exist on master (#2774); needs a golden regen",
+ "soundcheck": "the lander/mirror host has no ffmpeg so 50 clips stay unencoded; the fix (#9337) is itself queued behind this red; remove when #9337 lands (#10343)",
+ "finalgate": "default run is green (sign-offs PENDING); the real gate is finalgatecheck --strict, red until every #10620 row is signed off (#10707)"
+}

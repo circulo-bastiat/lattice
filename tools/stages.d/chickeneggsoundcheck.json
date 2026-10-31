@@ -1,0 +1,3 @@
+[
+ {"id":"chickeneggsoundcheck","kind":"check","args":[],"why":"#1551 -- the egg-lay tick plays entity.chicken.egg (vol 1, pitch (r-r)*0.2+1, neutral) before the egg drops, ChickenEntity.tickMovement :90-94."}
+]

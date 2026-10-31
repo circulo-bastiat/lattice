@@ -1,0 +1,3 @@
+[
+  { "id": "watersplashcheck", "kind": "check", "file": "tools/watersplashcheck.mjs", "args": [] }
+]

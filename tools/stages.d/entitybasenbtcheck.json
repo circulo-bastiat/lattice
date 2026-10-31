@@ -1,0 +1,8 @@
+[
+ {
+  "id": "entitybasenbtcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5681 -- Entity base NBT (2): CustomNameVisible/Silent/NoGravity/Invulnerable/Glowing/Tags round trip through S.save()/S.load()."
+ }
+]

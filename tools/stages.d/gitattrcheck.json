@@ -1,0 +1,1 @@
+[{"id":"gitattrcheck","kind":"check","args":[],"why":"#3706 -- .gitattributes forces LF checkouts on every PC: a Windows runner with core.autocrlf=true made every source CRLF and failed every check that matches source text (the 6 Oct false-red flood); losing the rule must be caught (breaks caught)."}]

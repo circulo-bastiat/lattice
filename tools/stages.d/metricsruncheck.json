@@ -1,0 +1,1 @@
+[ { "id": "metricsruncheck", "kind": "check", "file": "tools/metricsruncheck.mjs", "args": [], "why": "#9191: metrics (24h throughput/cost) refresh on the brain VM instead of metrics.yml (hosted minutes, dead since 8 Oct); runs metricsrun.mjs with injected git/node, the brain calls it, heartbeat.yml and metrics.yml are gone; 8 breaks caught." } ]

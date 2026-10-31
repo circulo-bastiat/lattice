@@ -1,0 +1,48 @@
+# The phone app (#90; Dan, 28 Sept 2026: "IPA via Sideloadly"). A GitHub-hosted macOS runner builds phone/ into an
+# UNSIGNED .ipa and publishes it as the release `phone-latest` (MCLite.ipa). Dan downloads it on a PC and signs it
+# with Sideloadly (free Apple ID: re-sideload every 7 days). Private repo: macOS minutes count 10x against the free
+# quota, so this only runs when phone/ or this file changes, or by hand.
+name: ipa
+on:
+  push:
+    paths: ['phone/**', '.github/workflows/ipa.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: ipa, cancel-in-progress: true }
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { sparse-checkout: phone }
+      - name: tools
+        run: brew install xcodegen >/dev/null && xcodebuild -version
+      - name: build (unsigned)
+        working-directory: phone
+        run: |
+          xcodegen generate
+          if ! xcodebuild -project MCLite.xcodeproj -target MCLite -configuration Release -sdk iphoneos \
+                 SYMROOT="$PWD/build" CURRENT_PROJECT_VERSION=${{ github.run_number }} \
+                 CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" build > build.log 2>&1; then
+            grep -E "error:|\*\* BUILD" -A2 build.log | head -120
+            exit 1
+          fi
+          grep -cE "warning:" build.log || true
+          mkdir -p Payload && cp -R build/Release-iphoneos/MCLite.app Payload/
+          zip -qry MCLite.ipa Payload
+          ls -la MCLite.ipa
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: MCLite, path: "phone/MCLite.ipa\nphone/build.log", if-no-files-found: ignore }
+      - name: publish release phone-latest
+        working-directory: phone
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          gh release view phone-latest -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
+            gh release create phone-latest -R "$GITHUB_REPOSITORY" --title "MC-Lite phone app" --prerelease \
+              --notes "Unsigned .ipa - sign and install it with Sideloadly. Rebuilt on every change to phone/."
+          gh release upload phone-latest MCLite.ipa -R "$GITHUB_REPOSITORY" --clobber
+          gh release edit phone-latest -R "$GITHUB_REPOSITORY" \
+            --notes "Unsigned .ipa - sign and install it with Sideloadly. Build ${{ github.run_number }} from ${GITHUB_REF_NAME} @ ${GITHUB_SHA::7}, $(date -u +'%Y-%m-%d %H:%MZ')."

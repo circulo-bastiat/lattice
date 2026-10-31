@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spidereyescheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1230: SpiderEyesFeatureRenderer - spider/cave_spider draw a full-bright spider_eyes.png pass"
+ }
+]

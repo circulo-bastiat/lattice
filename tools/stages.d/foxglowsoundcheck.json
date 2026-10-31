@@ -1,0 +1,8 @@
+[
+ {
+  "id": "foxglowsoundcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4258 fox picking glow berries plays block.cave_vines.pick_berries (vol 1, pitch 0.8..1.2) like CaveVines.pickBerries; breaks its own source to prove it can fail."
+ }
+]

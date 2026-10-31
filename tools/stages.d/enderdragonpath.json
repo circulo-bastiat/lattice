@@ -1,0 +1,3 @@
+[
+  { "id": "enderdragonpathcheck", "kind": "check", "file": "tools/enderdragonpathcheck.mjs", "args": [] }
+]

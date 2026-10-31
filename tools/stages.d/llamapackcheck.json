@@ -1,0 +1,8 @@
+[
+ {
+  "id": "llamapackcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1234 natural-spawn llama packs share one LlamaData variant and roll 5% baby for index>0"
+ }
+]

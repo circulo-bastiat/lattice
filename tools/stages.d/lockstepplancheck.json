@@ -1,0 +1,1 @@
+[{"id":"lockstepplancheck","kind":"check","file":"tools/lockstepplancheck.mjs","args":[],"why":"#9364 R1/R4: lockstep lanes whose stored results match today's input hashes are credited without a pilot; a changed byte or a doctored result needs a pilot; breaks caught."}]
