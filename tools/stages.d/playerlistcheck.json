@@ -1,0 +1,3 @@
+[
+  { "id": "playerlistcheck", "kind": "check", "file": "tools/playerlistcheck.mjs", "args": [] }
+]

@@ -1,0 +1,25 @@
+{
+ "_why": "#10620 FINAL GATE area list. proof: R referee/lockstep, V vanillacheck, C real-client look by Dan, G GPU run. stages = ids in tools/stages.d that prove the row. C/G rows also need an entry in tools/finalgate-signoff.json keyed by area id. Ticking is the commander's job, not this file's.",
+ "areas": [
+  { "id": "movement", "proof": "R", "stages": ["lockstep-playercrawl", "lockstep-elytra", "sprintcheck"] },
+  { "id": "combat", "proof": "R", "stages": ["combatcheck", "lockstep-crit", "lockstep-shield"] },
+  { "id": "mining-tools", "proof": "R", "stages": ["anvilcheck", "enchrefcheck", "lockstep-enchantdamage"] },
+  { "id": "player-status", "proof": "R", "stages": ["lockstep-hunger", "lockstep-effects", "lockstep-xporb", "hardcoreflagcheck"] },
+  { "id": "mobs", "proof": "R", "stages": ["mobsweepcheck", "lockstep-breed", "lockstep-raid", "lockstep-barter", "lockstep-patrol"] },
+  { "id": "items", "proof": "R", "stages": ["craftcheck", "brewingcheck", "lockstep-fishing", "lockstep-loot", "lockstep-firework"] },
+  { "id": "redstone-fluids", "proof": "R", "stages": ["redrefcheck", "lockstep-pistonpush", "lockstep-waterflow"] },
+  { "id": "explosions-weather-light", "proof": "R", "stages": ["lockstep-explode", "lockstep-lightningconvert", "daylightlockstepcheck", "lightcheck"] },
+  { "id": "dimensions", "proof": "R", "stages": ["lockstep-netherportal", "lockstep-endgateway", "lockstep-beacon", "lockstep-conduit", "lockstep-sculkvibe"] },
+  { "id": "worldgen", "proof": "V", "stages": ["vanillacheck", "biomecheck", "cavecheck", "endcitycheck"] },
+  { "id": "world-types", "proof": "V", "stages": ["vanillacheck"] },
+  { "id": "save-load", "proof": "R", "stages": ["savecheck", "besavecheck"] },
+  { "id": "commands", "proof": "R", "stages": ["commandcheck", "gamerulecheck", "scoreboardcheck", "bossbarcheck", "advancementcheck"] },
+  { "id": "client-gui", "proof": "C", "stages": ["hudheartcheck", "chatcheck", "optionscheck", "f3icheck", "screenshotcheck"] },
+  { "id": "audio", "proof": "C", "stages": ["musiccheck", "jukeboxcheck", "mobsoundcheck"] },
+  { "id": "visuals", "proof": "C+G", "stages": ["particlecheck", "modelcheck", "lightmapcheck"] },
+  { "id": "rendered-content", "proof": "C", "stages": ["bannerlayerscheck", "signtextdrawcheck", "mapcontentcheck", "bookeditcheck"] },
+  { "id": "resource-lang", "proof": "R+C", "stages": ["langcheck"] },
+  { "id": "webgpu", "proof": "G", "stages": ["backendcheck"] },
+  { "id": "live-pc-measurement", "proof": "G", "stages": ["renderrescheck"] }
+ ]
+}

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vextargetcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4283 -- vex ActiveTargetGoal(Player,true): sight, reciprocalChance 10, maxNoSight 60."
+ }
+]

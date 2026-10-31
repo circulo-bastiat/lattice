@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbcompetitioncheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18f-J3 -- WorkStationCompetitionTask: two villagers with the same JOB_SITE, the one with more trade xp keeps it, the other forgets it (VB.workStationCompetition). AFTER vbholdcheck."
+ }
+]

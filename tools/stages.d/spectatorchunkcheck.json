@@ -1,0 +1,1 @@
+[ { "id": "spectatorchunkcheck", "kind": "check", "file": "tools/spectatorchunkcheck.mjs", "args": [] } ]

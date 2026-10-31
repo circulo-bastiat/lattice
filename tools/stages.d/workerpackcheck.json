@@ -1,0 +1,8 @@
+[
+  {
+    "id": "workerpackcheck",
+    "kind": "check",
+    "file": "tools/workerpackcheck.mjs",
+    "args": []
+  }
+]

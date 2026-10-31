@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-started_ridingcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT18 (#7980) — Adv.matchers started_riding + Mnt.mount call site; advancements on the trigger complete, a non-matching player condition does not; breaks its own matcher."
+ }
+]

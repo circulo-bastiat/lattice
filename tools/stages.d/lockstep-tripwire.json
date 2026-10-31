@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-tripwire",
+  "kind": "check",
+  "file": "tools/referee/lockstepripwirecheck.mjs",
+  "args": [],
+  "why": "#6794 G17-L143: lockstep scenario tripwire, 20 salts: 1-40 string lines crossed by zombie/item/arrow/sneaking player/bat - entity box vs attached/detached shape, bat canAvoidTraps, 10-tick re-check, hook powered/attached, attach/click sounds; 10 -> 5 ticks and range 42 -> 30 caught."
+ }
+]

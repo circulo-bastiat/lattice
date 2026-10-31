@@ -1,0 +1,3 @@
+[
+  { "id": "shulkerbodycheck", "kind": "check", "file": "tools/shulkerbodycheck.mjs", "args": [] }
+]

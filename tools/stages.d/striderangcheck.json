@@ -1,0 +1,8 @@
+[
+ {
+  "id": "striderangcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#933: StriderEntityModel.setAngles"
+ }
+]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-stray", "kind": "check", "file": "tools/referee/lockstepstraycheck.mjs", "args": [], "why": "#6484 G17-L4: stray lane, 20 salts engine trace deterministic, pilot 0 divergences (salts 4,15,16 server-unstable, replaced); tampered pos 1e-9/yaw/headYaw/onGround/shift breaks caught." } ]

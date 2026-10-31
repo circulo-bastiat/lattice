@@ -1,0 +1,9 @@
+[
+ {
+  "id": "projcampfirecheck",
+  "kind": "check",
+  "file": "tools/projcampfirecheck.mjs",
+  "args": [],
+  "why": "#8663 -- CampfireBlock.onProjectileHit: a burning projectile lights an unlit dry campfire/soul campfire; waterlogged, lit and non-burning stay; dropping the waterlogged test goes red. Node-only."
+ }
+]

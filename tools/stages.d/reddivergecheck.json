@@ -1,0 +1,1 @@
+[ { "id": "reddivergecheck", "kind": "check", "file": "tools/reddivergecheck.mjs", "args": [], "why": "#9933: the full run's red comment is the judge; prelaunch/'already passes' answers never close, block or burn an issue it re-reddened; contradictions are env-diverges" } ]

@@ -1,0 +1,8 @@
+{
+ "smoke": "dies at the reload step on software rendering; green on the GPU PC (13 Oct, 0f1189ae)",
+ "palettecheck": "preset perf margins are frame-rate measurements; 5 failures on the hosted CPU renderer, green on the GPU PC",
+ "motionrefcheck": "entity motion vs the real 1.18.2 server goldens; red on the hosted renderer, green on the GPU PC (reference run 40147222179, 24 Oct 2026)",
+ "flashcheck": "streaming/frustum timing (\"F7 freeze did nothing\") on a slow software renderer; green on the GPU PC",
+ "g17cbcheck": "render-timing sensitive, 1 failure on the hosted CPU renderer, green on the GPU PC",
+ "mobsweepcheck": "photographs every spawnable mob; on the hosted CPU renderer the chunk streamer never settles and frames build 0 quads (3 failures in 39 min, lander run on PR #10510), green in 12 min on a GPU/local run (#10498)"
+}
