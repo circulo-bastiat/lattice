@@ -1,0 +1,3 @@
+[
+  { "id": "vignettecheck", "kind": "check", "file": "tools/vignettecheck.mjs", "args": [] }
+]

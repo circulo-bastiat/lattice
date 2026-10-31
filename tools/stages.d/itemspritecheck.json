@@ -1,0 +1,9 @@
+[
+ {
+  "id": "itemspritecheck",
+  "kind": "check",
+  "file": "tools/itemspritecheck.mjs",
+  "args": [],
+  "why": "#635: flat item sprite layers match the jar item models and exist in the item atlas"
+ }
+]

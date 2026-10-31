@@ -1,0 +1,8 @@
+[
+ {
+  "id": "crossbowgoalcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1201: crossbow goal pull time scales with quick_charge, multishot fires 3, piercing rides the arrows, PillagerEntity.postShoot zeroes despawnCounter."
+ }
+]

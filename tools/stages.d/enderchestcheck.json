@@ -1,0 +1,8 @@
+[
+ {
+  "id": "enderchestcheck",
+  "kind": "check",
+  "args": [],
+  "why": "PASS 17 JOB 1, third unit (D-404) — the ender chest's own shared-inventory WIRING (Hud.openChest's rebind), which is neither chestcheck.mjs's substrate-only proof nor usecheck.mjs's dispatch-only proof: this one loads the real 15_hud.js and opens two real block entities at two real positions."
+ }
+]

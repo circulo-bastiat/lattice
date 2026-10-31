@@ -1,0 +1,3 @@
+[
+  { "id": "keybindscheck", "kind": "check", "args": [], "why": "G17-KB1: Key Binds screen table equals GameOptions.allKeys; a rebind moves Input; conflicts, Escape=NONE and Reset Keys; breaks its own table and reader to prove it can fail." }
+]

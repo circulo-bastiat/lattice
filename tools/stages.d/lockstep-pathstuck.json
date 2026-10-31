@@ -1,0 +1,1 @@
+[{"id": "lockstep-pathstuck", "kind": "check", "file": "tools/lockstep-pathstuck.mjs", "args": [], "why": "#7936 G18b-L23: lockstep scenario pathstuck (EntityNavigation checkTimeouts 100-tick window, path drop, 20-tick recompute; zombie/cow/villager/spider x gap/fence corner/trapdoor, 20 salts): 60-tick timeout caught."}]

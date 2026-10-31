@@ -1,0 +1,9 @@
+[
+ {
+  "id": "projbellcheck",
+  "kind": "check",
+  "file": "tools/projbellcheck.mjs",
+  "args": [],
+  "why": "#8661 -- BellBlock.onProjectileHit: a projectile rings a floor/wall/double-wall/ceiling bell only on the sides isPointOnBell accepts, with the use-path ticks/lastSideHit; removing the handler goes red. Node-only."
+ }
+]

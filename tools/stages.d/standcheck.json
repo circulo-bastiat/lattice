@@ -1,0 +1,9 @@
+[
+ {
+  "id": "standcheck",
+  "kind": "check",
+  "file": "tools/standcheck.mjs",
+  "args": [],
+  "why": "#320 -- armour stands: helmet by head-height click, swap, small-stand heights, yaw snap, two-punch break drops everything; one-punch / ignore-height edits must be caught."
+ }
+]

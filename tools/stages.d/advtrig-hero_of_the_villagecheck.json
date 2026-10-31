@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-hero_of_the_villagecheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT44 — minecraft:hero_of_the_village matcher + Raid.grantHeroes call site complete adventure/hero_of_the_village; breaks its own matcher/call site to prove it can fail."
+ }
+]

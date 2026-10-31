@@ -1,0 +1,8 @@
+[
+ {
+  "id": "pandasoundcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#927: panda voice (ambient/aggressive/worried by gene, hurt, death, bite, step 0.15, pre_sneeze at progress 1, sneeze, eat volume 0.5/1.0 every 5th tick); proves it can fail (breaks its own sounds)."
+ }
+]

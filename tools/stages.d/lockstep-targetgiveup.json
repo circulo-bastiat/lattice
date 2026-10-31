@@ -1,0 +1,1 @@
+[ { "id": "lockstep-targetgiveup", "kind": "check", "file": "tools/lockstep-targetgiveup.mjs", "args": [], "why": "#7713: lockstep scenario targetgiveup, 20 salts: TrackTargetGoal drops an unseen target after 60 ticks (300 for evoker) and beyond followRange, reciprocalChance 10 retarget; changing 60 to 80 caught." } ]

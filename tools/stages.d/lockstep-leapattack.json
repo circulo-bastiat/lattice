@@ -1,0 +1,1 @@
+[ { "id": "lockstep-leapattack", "kind": "check", "file": "tools/lockstep-leapattack.mjs", "args": [], "why": "#7940 G18b-L27: lockstep scenario leapattack (PounceAtTargetGoal 0.4 leap, SpiderEntity.AttackGoal reach/cooldown/daylight give-up, wall-climb flag; spider + cave spider, flat/wall, day/night, 20 salts): leap strength 0.5 caught." } ]

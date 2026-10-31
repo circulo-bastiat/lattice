@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-cured_zombie_villagercheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT22 (#7984) — Adv.matchers cured_zombie_villager + Zv.finishConversion call site; story/cure_zombie_villager completes, a non-matching villager predicate does not; breaks its own matcher."
+ }
+]

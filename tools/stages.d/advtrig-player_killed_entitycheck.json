@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-player_killed_entitycheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT1 (#7741) — Adv.matchers player_killed_entity + the Cb.hurt killing-blow call site; kill_a_mob/kill_all_mobs/sniper_duel complete, non-matching does not; breaks its own matcher."
+ }
+]

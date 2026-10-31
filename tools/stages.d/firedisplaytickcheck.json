@@ -1,0 +1,3 @@
+[
+  { "id": "firedisplaytickcheck", "kind": "check", "file": "tools/firedisplaytickcheck.mjs", "args": [] }
+]
