@@ -1,0 +1,8 @@
+[
+  {
+    "id": "mirrorcapcheck",
+    "kind": "check",
+    "file": "tools/mirrorcapcheck.mjs",
+    "args": []
+  }
+]

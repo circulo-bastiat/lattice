@@ -1,0 +1,1 @@
+[ { "id": "drownlockstepcheck", "kind": "check", "file": "tools/referee/drownlockstepcheck.mjs", "args": [], "why": "#6295 G17-L47: lockstep scenario drown, 20 salts: zombie in a 3-deep pool, air/drown damage/inWater and the 600+300 drowned conversion vs decomp reference." } ]

@@ -1,0 +1,3 @@
+[
+  { "id": "landbackoffcheck", "kind": "check", "file": "tools/landbackoffcheck.mjs", "args": [] }
+]

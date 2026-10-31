@@ -1,0 +1,9 @@
+[
+ {
+  "id": "spawnpopcheck",
+  "kind": "check",
+  "file": "tools/spawnpopcheck.mjs",
+  "args": [],
+  "why": "G18c-a (#164): SpawnHelper.populateEntities at chunk generation -- packs, positions and yaws vs a standalone decomp-transcribed oracle on real terrain; proves it can fail."
+ }
+]

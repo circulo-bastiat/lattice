@@ -1,0 +1,8 @@
+[
+ {
+  "id": "enderdragonnbtcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2982 -- EnderDragonEntity DragonPhase/DragonDeathTime NBT round trip (07zw_mobnbt.js ender_dragon row + ED.initEntity)."
+ }
+]

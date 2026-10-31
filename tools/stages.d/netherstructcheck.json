@@ -1,0 +1,8 @@
+[
+ {
+  "id": "netherstructcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#259 -- Nether structure rows: every fortress piece family is produced, nether rows (fortress/bastion/fossil) are Nether-gated at their step, nothing leaks across dimensions; fails when any is cut."
+ }
+]

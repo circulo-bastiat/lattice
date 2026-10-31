@@ -1,0 +1,1 @@
+[{"id": "lockstep-zombievillager-engine", "kind": "check", "file": "tools/lockstep-zombievillager-engine.mjs", "args": [], "why": "#9377 G17-L69a-0: at hard a zombie targets a villager, kills it and a zombie_villager appears (type,id,conv tick per salt, deterministic); easy/no-conversion/no-hit breaks caught."}]

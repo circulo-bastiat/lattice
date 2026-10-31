@@ -1,0 +1,1 @@
+{ "id": "starveeasy", "mob": "pig", "nbt": "NoAI:1b", "hurt": true, "diff": "easy", "reps": 1, "ticks": 800, "starve": 0, "note": "#10364: player Hunger 255 (food 0 from tick ~78) + 6 magic damage; Easy starves only while Health > 10; rows Pos + Health + Absorption per tick" }

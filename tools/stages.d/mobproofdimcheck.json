@@ -1,0 +1,1 @@
+[ { "id": "mobproofdimcheck", "kind": "check", "file": "tools/mobproofdimcheck.mjs", "args": [], "why": "#8982: a full run fails loud (non-zero, names it) when a mob proof dimension has no out/<dim>.json or a SKIP marker." } ]

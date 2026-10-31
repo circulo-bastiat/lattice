@@ -1,0 +1,1 @@
+[ { "id": "lockstep-zombieinfect", "kind": "check", "file": "tools/lockstep-zombieinfect.mjs", "args": [], "why": "#8641 G18b-L32: lockstep scenario zombieinfect (ZombieEntity.onKilledOther: EASY never, NORMAL nextBoolean, HARD always; zombie villager keeps VillagerData, offers, xp, gossip, baby, name, persistence; 20 salts x 200 trials); NORMAL always-convert caught." } ]

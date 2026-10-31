@@ -1,0 +1,3 @@
+[
+  { "id": "goldensynccheck", "kind": "check", "file": "tools/goldensynccheck.mjs", "args": [] }
+]

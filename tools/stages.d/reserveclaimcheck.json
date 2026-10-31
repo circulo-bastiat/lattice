@@ -1,0 +1,1 @@
+[{"id":"reserveclaimcheck","kind":"check","args":[],"why":"#9675 -- the reserve pools never start more new workers than issues a worker can claim now (testers uncapped); a thin claimable count stands in for the queue-thin marker (4 breaks caught)."}]

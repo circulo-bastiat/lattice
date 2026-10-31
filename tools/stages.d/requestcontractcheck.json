@@ -1,0 +1,3 @@
+[
+  { "id": "requestcontractcheck", "kind": "check", "file": "tools/requestcontractcheck.mjs", "args": [] }
+]

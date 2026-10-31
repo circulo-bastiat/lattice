@@ -1,0 +1,3 @@
+[
+  { "id": "luckcheck", "kind": "check", "file": "tools/luckcheck.mjs", "args": [], "why": "#5788: Luck/Bad Luck effects shift loot weights floor(weight+quality*luck) exactly; bonus_rolls*luck" }
+]

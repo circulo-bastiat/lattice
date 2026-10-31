@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-bred_animalscheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT11 — minecraft:bred_animals matcher + Br.breed call site complete husbandry/breed_an_animal and bred_all_animals; breaks its own matcher."
+ }
+]

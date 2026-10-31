@@ -1,0 +1,41 @@
+# isSignalSource — every block that emits redstone in 1.18.2.
+# Derived by tools/extract-analog.mjs from f_(cov) overrides in the jar. Do not hand-edit.
+# block	class
+acacia_button	cmf
+acacia_pressure_plate	ciw
+birch_button	cmf
+birch_pressure_plate	ciw
+comparator	cet
+crimson_button	cmf
+crimson_pressure_plate	ciw
+dark_oak_button	cmf
+dark_oak_pressure_plate	ciw
+daylight_detector	cff
+detector_rail	cfh
+heavy_weighted_pressure_plate	cma
+jungle_button	cmf
+jungle_pressure_plate	ciw
+lectern	chp
+lever	chr
+light_weighted_pressure_plate	cma
+lightning_rod	cht
+oak_button	cmf
+oak_pressure_plate	ciw
+observer	cil
+polished_blackstone_button	ckr
+polished_blackstone_pressure_plate	ciw
+redstone_block	ciu
+redstone_torch	cjd
+redstone_wall_torch	cje
+redstone_wire	cjb
+repeater	cjg
+sculk_sensor	cjq
+spruce_button	cmf
+spruce_pressure_plate	ciw
+stone_button	ckr
+stone_pressure_plate	ciw
+target	clb
+trapped_chest	clg
+tripwire_hook	cli
+warped_button	cmf
+warped_pressure_plate	ciw
