@@ -1,0 +1,8 @@
+[
+ {
+  "id": "autojumpcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-P1 — ClientPlayerEntity.autoJump: a 1-block ledge is jumped, a 2-block wall/fence/sneaking/OFF/no headroom are not, a slab is stepped; breaks its own physics source to prove it can fail."
+ }
+]

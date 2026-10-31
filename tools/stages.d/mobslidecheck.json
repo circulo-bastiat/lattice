@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobslidecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#582 KW-51 -- chickens slid sideways: BodyControl.tick (turnHead) ran BEFORE the travel, so isMoving() saw zero displacement and the body never followed the walk. Headless trace of wandering mobs: body yaw within 20deg of the motion direction, head within 75deg of the body."
+ }
+]

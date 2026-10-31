@@ -1,0 +1,1 @@
+[ { "id": "redstalecheck", "kind": "check", "file": "tools/redstalecheck.mjs", "args": [], "why": "#10096: a master red 12 h+ raises master-red-stale (claim the cause) and the 3-hour clock never calls tracked reds healthy" } ]

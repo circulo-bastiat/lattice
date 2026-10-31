@@ -1,0 +1,1 @@
+[{"id":"lanereservecheck","kind":"check","args":[],"why":"#9735 -- the phase lane takes the first free reserve worker slot (a pl pack on the mirror), counts as running, and its noclaim reaches the fill via the bus (7 breaks caught)."}]

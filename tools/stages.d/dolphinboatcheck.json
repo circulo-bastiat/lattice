@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dolphinboatcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1875 -- ChaseBoatGoal keys on the rider's sidewaysSpeed/forwardSpeed input (not boat velocity) and pushes the dolphin every tick. Its anti-vacuity rows feed velocity-only / released-key boats and must notice."
+ }
+]

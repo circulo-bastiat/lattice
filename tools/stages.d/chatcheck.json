@@ -1,0 +1,9 @@
+[
+ {
+  "id": "chatcheck",
+  "kind": "check",
+  "args": [
+   "--quiet"
+  ]
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "functioncmdcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8232 -- /function and /schedule function: 3-line function, unknown id/tag errors, append vs replace vs clear, firing on the exact due tick, save/load; breaks: off-by-one delay, replace acting as append."
+ }
+]

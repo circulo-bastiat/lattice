@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spawnerstalecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1163 -- a pig spawner's spinning silhouette hung in open ocean with no cage: a block entity outlived its block (Section.set writers never reach BE.onChanged). Proves every cutout cube (spawner, glass) keeps its 6 faces in air and water, and that BE.stale makes the renderer/ticker ignore and purge an entity whose cell no longer holds its block. Breaks its own engine (prints '<n> breaks caught')."
+ }
+]

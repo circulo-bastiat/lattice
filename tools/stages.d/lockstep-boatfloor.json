@@ -1,0 +1,1 @@
+[ { "id": "lockstep-boatfloor", "kind": "check", "file": "tools/lockstep-boatfloor-20.mjs", "args": [], "why": "#9442 G17-L72a-2 boat over packed ice, blue ice, stone: engine trace x20 salts, slip order, faults caught. Server: pilot.mjs --lanes boatice,boatblueice,boatland." } ]

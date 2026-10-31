@@ -1,0 +1,1 @@
+[ { "id": "lockstep-panic", "kind": "check", "file": "tools/lockstep-panic.mjs", "args": [], "why": "#7028 G18b-L2: lockstep scenario panic (EscapeDangerGoal on cow/pig/sheep/chicken/horse after a hit and while burning next to water, 20 salts): cow speed 2.0->1.9, search box 5->8, water range and fire-as-danger removed all caught." } ]

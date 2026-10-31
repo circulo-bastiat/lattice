@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbidlecheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/vbidle -- createIdleTasks' priority-2 RandomTask's own five remaining entries (breed-interest/cat-interest FindEntityTask, GoTowardsLookTarget, JumpInBedTask, WaitTask, src/07zv4_vbidle.js's own NS.VB.IDLE_START). AFTER vbpaniccheck: same NS.VB module every sibling in this run already reads."
+ }
+]

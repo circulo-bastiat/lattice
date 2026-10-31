@@ -1,0 +1,8 @@
+[
+ {
+  "id": "brainstrollcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#9437 -- StrollTask/AquaticStrollTask ports: radii, WALK_TARGET gate/write/forget, aquatic multiplier loop and fluid-exit rules equal the decompiled classes."
+ }
+]

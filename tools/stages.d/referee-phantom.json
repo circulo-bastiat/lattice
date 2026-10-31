@@ -1,0 +1,3 @@
+[
+  { "id": "phantomrefcheck", "kind": "check", "file": "tools/referee/phantomrefcheck.mjs", "args": [] }
+]

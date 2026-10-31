@@ -1,0 +1,1 @@
+[{"id":"mirrorfaultcheck","kind":"check","args":[],"why":"#9642 -- a mirror shard that hit its wall / could not build is the MIRROR fault: never a red check or a PC runner env fault; its stages count as not run; full.mjs mails the fixer (4 breaks caught)."}]

@@ -1,0 +1,3 @@
+[
+  { "id": "damagetrackercheck", "kind": "check", "file": "tools/damagetrackercheck.mjs", "args": [] }
+]

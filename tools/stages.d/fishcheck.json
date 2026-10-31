@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fishcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/fish-s99 (QUEUE 0.2 G18c, missing overworld mob) -- COD + SALMON + PUFFERFISH + TROPICAL FISH whole: attributes/dimensions off the generic table, biome-driven water_ambient spawn placement (the shared y-band rule plus tropical's own sand+warm_ocean rule), the hand-rolled wander/flee/danger/school steering, flop-on-land, air/drowning, pufferfish puff-state machine + sting/poison, and the 22-entry tropical variant table."
+ }
+]

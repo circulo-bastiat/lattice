@@ -1,0 +1,1 @@
+[{"id": "lockstep-mobdeath", "kind": "check", "file": "tools/lockstep-mobdeath.mjs", "args": [], "why": "#9217: mobdeath lane (1-HP burning zombie): death tick and loot drops (spawn tick + Pos) over 20 salts, engine side; real-server rows via MCLITE_LOCKSTEP_SERVER=1 and pilot --lanes mobdeath; 3 breaks caught; writes mobproof/out/damage-death.json."}]

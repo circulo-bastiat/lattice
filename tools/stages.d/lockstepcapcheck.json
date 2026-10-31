@@ -1,0 +1,8 @@
+[
+  {
+    "id": "lockstepcapcheck",
+    "kind": "check",
+    "file": "tools/lockstepcapcheck.mjs",
+    "args": []
+  }
+]

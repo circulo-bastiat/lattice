@@ -1,0 +1,1 @@
+[ { "id": "lockstep-fishdry", "kind": "check", "file": "tools/referee/fishdrylockstepcheck.mjs", "args": [], "why": "#8842 G17-L250: lockstep scenario fishdry, 20 salts: cod/salmon on dry stone; air countdown, drown 2 at -20, flop sound vs the .decomp reference; 3 injected faults caught." } ]

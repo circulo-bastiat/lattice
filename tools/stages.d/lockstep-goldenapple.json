@@ -1,0 +1,1 @@
+[{"id": "lockstep-goldenapple", "kind": "check", "file": "tools/lockstepgoldenapplecheck.mjs", "args": [], "why": "#9265 G17-L69a-3: engine side of the goldenapple lane (Weakness + golden apple on a zombie villager: cure timer, effects in ENTX-shaped entities rows) x20 salts; 4 broken engine rules caught."}]

@@ -1,0 +1,3 @@
+[
+  { "id": "gameeventcheck", "kind": "check", "file": "tools/gameeventcheck.mjs", "args": [] }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fireworkcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5081 (G17-P8) -- FireworkRocketEntity lifetime/motion/explosion damage and FireworkRocketItem use (07zzy_firework.js); VB.celebrate now yields a live rocket. Wrong lifetime, damage without line of sight and a missing stack decrement must each be noticed."
+ }
+]

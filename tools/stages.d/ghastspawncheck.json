@@ -1,0 +1,8 @@
+[
+ {
+  "id": "ghastspawncheck",
+  "kind": "check",
+  "args": [],
+  "why": "#645 -- Spawn.RULES.ghast: the 1-in-20 nextInt roll and the peaceful gate (GhastEntity.canSpawn); a seeded stream must pass ~5% of attempts."
+ }
+]
