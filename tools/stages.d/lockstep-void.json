@@ -1,0 +1,1 @@
+[ { "id": "lockstep-void", "kind": "check", "file": "tools/referee/voidlockstepcheck.mjs", "args": [], "why": "#6608 G17-L82: lockstep scenario void (cow/zombie health under y<-128 at 4/tick, item/arrow discard tick, 20 seeds vs Entity.attemptTickInVoid reference); threshold -128->-124 and damage 4->3 caught." } ]

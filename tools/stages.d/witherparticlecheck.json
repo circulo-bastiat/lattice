@@ -1,0 +1,8 @@
+[
+ {
+  "id": "witherparticlecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4876 -- WitherEntity.tickMovement particles: 3 head smoke a tick, entity_effect below half health and 3 a tick while invulnerable; breaks its own data and prints '<n> breaks caught'."
+ }
+]

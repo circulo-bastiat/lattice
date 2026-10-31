@@ -1,0 +1,3 @@
+[
+  { "id": "offhandcheck", "kind": "check", "file": "tools/offhandcheck.mjs", "args": [] }
+]

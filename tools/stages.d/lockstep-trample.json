@@ -1,0 +1,1 @@
+[{"id": "lockstep-trample", "kind": "check", "file": "tools/referee/tramplelockstepcheck.mjs", "args": [], "why": "#8194 G17-L230: lockstep scenario trample, 20 salts: pig/zombie/villager dropped 0.4/1.0/3.0 onto moist and dry farmland under a crop vs decomp FarmlandBlock.onLandedUpon (nextFloat < fd-0.5, LivingEntity, mobGriefing gate, size > 0.512) and setToDirt."}]

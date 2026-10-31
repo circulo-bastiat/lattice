@@ -1,0 +1,8 @@
+[
+ {
+  "id": "silverfishcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/silverfish: SILVERFISH (mob + goals) and the three InfestedBlock pairs this unit wires (stone/cobblestone/deepslate — see tools/silverfishcheck.mjs's own header for the stone-brick-family/snow-golem OWED list). AFTER endermancheck: neighbourliness only, no shared module (its own harness in tools/loadsrc.mjs's own extra-modules shape)."
+ }
+]

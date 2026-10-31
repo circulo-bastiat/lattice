@@ -1,0 +1,8 @@
+[
+ {
+  "id": "pumpkinblurcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-O3 — pumpkin blur overlay requested only in first person with carved_pumpkin on the head (not third person, hand, jack_o_lantern); breaks its own test to prove it can fail."
+ }
+]

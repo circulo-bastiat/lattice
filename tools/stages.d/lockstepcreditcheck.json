@@ -1,0 +1,1 @@
+[ { "id": "lockstepcreditcheck", "kind": "check", "file": "tools/lockstepcreditcheck.mjs", "args": [], "why": "#9003: a lockstep pilot result stays credited while the files its lane depends on are unchanged (per-lane inputs, all dirs); runs the credit rule on fixtures and breaks each rule." } ]

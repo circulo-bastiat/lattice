@@ -1,0 +1,8 @@
+[
+ {
+  "id": "furnacecheck",
+  "kind": "check",
+  "args": [],
+  "why": "PASS 17 JOB 1 (D-414) — the furnace / blast furnace / smoker screen: a click sequence smelts, the arrow and flame are functions of the LIVE counters at three values each, a full output slot stops the furnace, and close-and-reopen finds the same stacks. guicheck §4f has the pixels."
+ }
+]

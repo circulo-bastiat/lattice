@@ -1,0 +1,9 @@
+[
+ {
+  "id": "projlightningrodcheck",
+  "kind": "check",
+  "file": "tools/projlightningrodcheck.mjs",
+  "args": [],
+  "why": "#8668 -- a channeling trident hitting a lightning rod in a thunderstorm with sky visible spawns one lightning_bolt at (x+0.5,y+1,z+0.5) with the player as channeler; clear weather, no channeling, a covered rod and an arrow spawn none. Node-only."
+ }
+]

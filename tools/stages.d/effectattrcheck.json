@@ -1,0 +1,8 @@
+[
+ {
+  "id": "effectattrcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G23b (#294) -- effect attribute modifiers (07q_effects.js ATTR_MODIFIERS): uuids/amounts/operations read against StatusEffects.java, Swiftness I +20% MULTIPLY_TOTAL, Slowness IV -60%, strength/weakness/haste/fatigue/luck, Health Boost II +8 and clamp, Absorption II = 8; every broken constant is caught."
+ }
+]

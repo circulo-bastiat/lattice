@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fallentitiescheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5792 — which entities take no fall damage is derived from the 1.18.2 handleFallDamage chain (fall-entities TSV), compared both ways for all 113 types; breaks its own data to prove it can fail."
+ }
+]

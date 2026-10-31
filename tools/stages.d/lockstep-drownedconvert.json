@@ -1,0 +1,1 @@
+[ { "id": "lockstep-drownedconvert", "kind": "check", "file": "tools/lockstep-drownedconvert.mjs", "args": [], "why": "#8639 G18b-L30: lockstep scenario drownedconvert (ZombieEntity.tick inWaterTime 600, 300-tick conversion, drowned inherits equipment+drop chances, baby, name, persistence; water-leave reset; 20 salts); 300 -> 200 caught." } ]
