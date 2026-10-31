@@ -1,0 +1,8 @@
+[
+ {
+  "id": "storagecartcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#313 -- chest/hopper minecarts: items survive a save, hopper cart pulls from a chest above and obeys the activator-rail lock, detector comparator = ScreenHandler.calculateComparatorOutput; edited-source breaks must be noticed."
+ }
+]

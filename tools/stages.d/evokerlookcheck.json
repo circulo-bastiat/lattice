@@ -1,0 +1,8 @@
+[
+ {
+  "id": "evokerlookcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#649 -- EvokerEntity.initGoals: WanderAroundGoal(0.6) at 8, LookAtEntityGoal(MobEntity, 8) at 10; a live evoker's mob-look goal sees a villager at 5 blocks and not at 12. Breaks its own expectations twice and must notice."
+ }
+]

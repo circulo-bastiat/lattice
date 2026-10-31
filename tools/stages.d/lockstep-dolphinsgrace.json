@@ -1,0 +1,1 @@
+[ { "id": "lockstep-dolphinsgrace", "kind": "check", "file": "tools/lockstep-dolphinsgrace.mjs", "args": [], "why": "#8762 G17-L232: lockstep scenario dolphinsgrace (player with Depth Strider 0-3 + zombie swim 60 ticks with/without Dolphin's Grace, 20 salts): travel water drag 0.8/0.96 and depth-strider lerp; 0.96->0.9 and dropped depth-strider term caught." } ]

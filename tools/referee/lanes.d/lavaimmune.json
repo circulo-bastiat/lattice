@@ -1,0 +1,1 @@
+{ "id": "lavaimmune", "mob": "blaze", "damage": true, "nbt": "NoAI:1b", "hurt": true, "mobhp": true, "lava": true, "note": "#10363: fire-immune blaze in the same lava pool: lavaHurt skipped (fireImmune), Health stays 20" }

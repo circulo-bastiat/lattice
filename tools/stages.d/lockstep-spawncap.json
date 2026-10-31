@@ -1,0 +1,1 @@
+[ { "id": "lockstep-spawncap", "kind": "check", "file": "tools/lockstep-spawncap.mjs", "args": [], "why": "#7942 G18c-L7: lockstep scenario spawncap (every MobCategory at cap-1/cap/cap+1 with 1, 9, 49 spawning chunks, 20 salts, persistent/riding excluded, creature only at time % 400 == 0): monster cap 71 caught." } ]

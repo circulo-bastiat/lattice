@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endgatewaycheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5576 -- EndGatewayBlockEntity: Age ticks, the cooldown-gated teleport to ExitPortal (a second entity within the cooldown stays), the synced cooldown event, Age/ExitPortal/ExactTeleport through save. Breaks its own cooldown to prove the double-teleport assertion can fail."
+ }
+]

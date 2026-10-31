@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-entity_hurt_playercheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT15 — minecraft:entity_hurt_player matcher + Survival.hurt call site; conditioned criteria complete only on matching hits; breaks its own matcher to prove it can fail."
+ }
+]

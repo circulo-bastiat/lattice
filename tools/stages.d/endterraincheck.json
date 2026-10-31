@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endterraincheck",
+  "kind": "check",
+  "args": [],
+  "why": "#258 -- the End: island density + slides, end stone fill, EndSpikeFeature ring/cage, EndPortalFeature podium, EndGatewayFeature, ChorusPlantFeature; fails when a slide, the island term, a spike, the podium, the gateway or the chorus rule is cut. No real-server End golden exists yet (regression pin)."
+ }
+]

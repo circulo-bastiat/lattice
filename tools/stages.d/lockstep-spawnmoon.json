@@ -1,0 +1,1 @@
+[ { "id": "lockstep-spawnmoon", "kind": "check", "file": "tools/lockstep-spawnmoon.mjs", "args": [], "why": "#7919 G18c-L4: lockstep scenario spawnmoon (swamp column, slime-chunk arena, plain arena over 8 days x 20 salts: swamp y51-69/light/moon-size/nextFloat gates, slime-chunk hash 987234911L + nextInt(10) + y<40, size roll, split on death): ignoring the moon gate caught." } ]

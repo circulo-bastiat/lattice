@@ -1,0 +1,8 @@
+[
+ {
+  "id": "recipebookcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G-gate-a #10706 — recipe book unlock semantics vs ServerRecipeBook (specials/map_extending ignored, no recount) and the ghost-grid source recipe; breaks its own unlock code."
+ }
+]

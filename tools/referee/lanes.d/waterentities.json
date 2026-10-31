@@ -1,0 +1,1 @@
+{ "id": "waterentities", "mob": "zombie", "pool": true, "ticks": 1100, "conv": true, "note": "#9264: AI zombie in a 2-deep pool: submerged 600 ticks + 300 countdown -> drowned; Pos + kind (0 zombie / 1 drowned) per tick, 1100 ticks" }

@@ -1,0 +1,1 @@
+[{"id": "lockstep-villagersleep", "kind": "check", "file": "tools/referee/villagersleeplockstepcheck.mjs", "args": [], "why": "#7907 G18f-L6: lockstep scenario villagersleep, 20 salts: 5 villagers/3 beds over 12000..24000, HOME uniqueness, sleeping pose/position, lastSlept, no sleeper without a bed, broken bed releases HOME; sleep window +100 and sleep distance caught."}]

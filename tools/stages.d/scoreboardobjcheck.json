@@ -1,0 +1,8 @@
+[
+ {
+  "id": "scoreboardobjcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-SB1 — /scoreboard objectives add/remove/list/modify/setdisplay on the Scoreboard store with exact lang strings and the save/load round trip; breaks its own persistence to prove it can fail."
+ }
+]

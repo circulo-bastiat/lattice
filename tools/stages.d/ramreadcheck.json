@@ -1,0 +1,3 @@
+[
+  { "id": "ramreadcheck", "kind": "check", "file": "tools/ramreadcheck.mjs", "args": [] }
+]

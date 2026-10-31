@@ -1,0 +1,3 @@
+[
+  { "id": "fovmultcheck", "kind": "check", "file": "tools/fovmultcheck.mjs", "args": [] }
+]

@@ -1,0 +1,41 @@
+# #7770: performance budget. After each landing on the public mirror's master (not per PR), run the headless bench on a
+# free hosted runner, store the numbers keyed by sha on branch `bench-data`, and open a `perf-regression` issue when a
+# landing is slower than max(3x spread, 10%) vs the median of the last 5. Alerts only: this job never blocks the lander.
+name: bench
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+concurrency:
+  group: bench
+permissions:
+  contents: write
+  issues: write
+jobs:
+  bench:
+    if: github.repository != 'never'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node build.mjs
+      - run: node tools/bench.mjs --preset low --json bench.json
+        env: { MCLITE_PRESET: low }
+      - name: chunk-gen microbench + 10-run spread on this runner (#7770)
+        run: |
+          node tools/benchmicro.mjs --reps 10 --spread 10 | tee spread.txt || true
+          node tools/benchmicro.mjs --reps 10 --json micro.json
+          node -e "const a=require('./bench.json'),m=require('./micro.json');a.runs.push(...m.runs);require('fs').writeFileSync('bench.json',JSON.stringify(a))"
+      - name: record, gate, alert
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          git -c credential.helper= fetch origin bench-data:bench-data 2>/dev/null && git show bench-data:store.json > store.json || echo '{"spread":{},"entries":[]}' > store.json
+          PR=$(gh api repos/${{ github.repository }}/commits/${{ github.sha }}/pulls --jq '.[0].number' 2>/dev/null || true)
+          node tools/benchbudget.mjs record bench.json store.json ${{ github.sha }} "$PR"
+          set +e; node tools/benchbudget.mjs gate store.json | tee gate.txt; RC=${PIPESTATUS[0]}; set -e
+          if [ "$RC" = 3 ]; then gh issue create --title "perf-regression: ${GITHUB_SHA::9} (PR #$PR)" --label perf-regression --body "$(cat gate.txt)" || gh issue create --title "perf-regression: ${GITHUB_SHA::9} (PR #$PR)" --body "$(cat gate.txt)"; fi
+          mkdir -p /tmp/bd && cp store.json /tmp/bd/ && git checkout --orphan bench-data-new && git rm -rfq . && cp /tmp/bd/store.json . && git add store.json
+          git -c user.name=bench -c user.email=bench@x commit -qm "bench ${GITHUB_SHA}" && git -c credential.helper= push -f origin bench-data-new:bench-data
