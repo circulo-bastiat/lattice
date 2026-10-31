@@ -1,0 +1,1 @@
+[{"id":"lockstep_tnt_minecart_lane","kind":"check","file":"tools/lockstep-tnt-minecart-lane.mjs","args":[],"why":"#6193: tnt_minecart lane registered in lanes.d (pilot 20 seeds done, 0 divergences); removing it or changing its mob is caught."}]

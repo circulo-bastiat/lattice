@@ -1,0 +1,1 @@
+[{"id": "lockstep-flywander", "kind": "check", "file": "tools/referee/flywanderlockstepcheck.mjs", "args": [], "why": "#7715 G18b-L17: lockstep scenario flywander, 20 salts x parrot/bat/bee x 600 ticks: FlyOntoTree locateTree 7x13x7 box vs reference scan, AboveGround forward-cone wander target; uniform-box target and shrunken tree boxes caught."}]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dragondeathraycheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8076 -- EnderDragonEntityRenderer death animation: ray count (p+p^2)/2*60, Random(432) stream, fan vertex positions (ER.dragonDeathRays) at deathTime 20/100/199. Breaks its own seed/formula and prints '<n> breaks caught'."
+ }
+]

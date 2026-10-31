@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-bee_nest_destroyedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT20 (#7982) — bee_nest_destroyed matcher + BeehiveBlock.afterBreak call site; silk_touch_nest completes only with silk touch, 3 bees, bee_nest; breaks its own matcher."
+ }
+]

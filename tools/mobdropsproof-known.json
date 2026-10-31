@@ -1,0 +1,6 @@
+{
+ "why": "shrink-only ledger (#7524). notCovered: what mobdropsproofcheck does not cover per mob (max may only go down); failedRows: quoted red rows. Covered elsewhere meanwhile: mobslootcheck (conditional verbs), piglinlootcheck, witherlootcheck, dolphinlootcheck.",
+ "max": 0,
+ "notCovered": [],
+ "failedRows": []
+}

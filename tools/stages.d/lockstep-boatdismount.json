@@ -1,0 +1,1 @@
+[{"id": "lockstep-boatdismount", "kind": "check", "file": "tools/referee/boatdismountlockstepcheck.mjs", "args": [], "why": "#8839 G17-L247: BoatEntity.updatePassengerForDismount landing (shore, ice, ceiling, blocked, water), 20 salts; 3 breaks caught."}]

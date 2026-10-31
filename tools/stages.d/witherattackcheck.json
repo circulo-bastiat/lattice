@@ -1,0 +1,8 @@
+[
+ {
+  "id": "witherattackcheck",
+  "kind": "check",
+  "args": [],
+  "why": "QUEUE 0.00 part 2 (D-787): wither ranged skull attack + wither_skull projectile"
+ }
+]

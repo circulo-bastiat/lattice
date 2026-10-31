@@ -1,0 +1,1 @@
+[ { "id": "mobdamageproof", "kind": "check", "file": "tools/mobdamageproof.mjs", "args": [], "why": "#9188: damage dimension of the mob proof (static half: health, attack damage, knockback resistance, fire immunity vs the jar); writes mobproof/out/damage.json, 4 breaks caught." } ]

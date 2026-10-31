@@ -1,0 +1,8 @@
+[
+  {
+    "id": "capacitycheck",
+    "kind": "check",
+    "file": "tools/capacitycheck.mjs",
+    "args": []
+  }
+]

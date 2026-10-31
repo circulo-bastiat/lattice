@@ -1,0 +1,1 @@
+[ { "id": "lockstep_wither", "kind": "check", "file": "tools/lockstep-wither-20.mjs", "args": [], "why": "#5525 G17-L4 lockstep wither: 20 seeds, engine trace, 5 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes wither (full suite)." } ]

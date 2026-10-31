@@ -1,0 +1,8 @@
+[
+ {
+  "id": "raidvexcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/raidvex-s96 (QUEUE 0.2 raid loop) -- THE VEX (motion/flight substrate `Fl. VexMoveControl`, goals `Ai.ROSTER.vex`: SwimGoal/ChargeTargetGoal/LookAtTargetGoal/ TrackOwnerTargetGoal/RevengeGoal/player targeting, life ticks, and `EvokerEntity. SummonVexGoal` really summoning three) and the witch's real raid-ally heal targeting (`Ai.RaidGoal`/`Ai.DisableableFollowTargetGoal`)."
+ }
+]

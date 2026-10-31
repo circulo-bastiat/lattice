@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endercrystalhealcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1803 -- EnderDragonEntity.tickWithEndCrystals: nearest end crystal within 32 connects, +1 HP per 10 ticks, removed crystal dropped, connected-crystal destruction hits the head; breaks its own connect step."
+ }
+]

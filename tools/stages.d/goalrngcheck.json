@@ -1,0 +1,3 @@
+[
+  { "id": "goalrngcheck", "kind": "check", "file": "tools/goalrngcheck.mjs", "args": [] }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "claimfiltercheck", "kind": "check", "file": "tools/claimfiltercheck.mjs", "args": [] }
+]

@@ -1,0 +1,10 @@
+[
+ {
+  "id": "flashcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "every frame's drawn-section and triangle counts under provocation — teleports, preset changes, a real window resize, F7/F8, chunk-border flight — asserting no single frame loses most of the picture. The white-flash class (D-162, D-171, D-175) has been found three times by Dan playing and never once by a check."
+ }
+]

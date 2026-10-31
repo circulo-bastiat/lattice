@@ -1,0 +1,1 @@
+[ { "id": "farmclockcheck", "kind": "check", "file": "tools/farmclockcheck.mjs", "args": [], "why": "22 Oct: GitHub drops the pilot-farm cron like the full suite's; the brain tick dispatches pilot-farm.yml when its newest run is over 200 min old and raises farm-stale at 6 h; runs the clock rules on fixtures and breaks each." } ]

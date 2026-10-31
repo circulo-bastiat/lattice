@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dimspawncheck",
+  "kind": "check",
+  "args": [],
+  "why": "#264 -- Nether/End biome natural spawn tables (Biomes.spawners) equal the vanilla biome files row for row; corrupted tables are caught."
+ }
+]

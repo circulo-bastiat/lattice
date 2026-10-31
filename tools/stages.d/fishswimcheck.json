@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fishswimcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#603 KW-52-2 -- a fish placed in water swims like vanilla: SwimToRandomPlaceGoal (SwimAroundGoal 1/40 roll, LookTargetUtil.find 10,7), FollowGroupLeaderGoal schools, Flee/EscapeDanger, FishMoveControl + FishEntity.travel. Headless trace; master only sank in place."
+ }
+]

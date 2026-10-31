@@ -1,0 +1,8 @@
+[
+ {
+  "id": "bowstatecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#216 -- RangedBowAttackGoal's vanilla draw state machine (usingItem/itemUseTime, seeing-gated stop, no instant first shot) and the *0.98 sideways-input decay, against a scripted target."
+ }
+]

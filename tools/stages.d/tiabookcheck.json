@@ -1,0 +1,3 @@
+[
+  { "id": "tiabookcheck", "kind": "check", "file": "tools/tiabookcheck.mjs", "args": [] }
+]

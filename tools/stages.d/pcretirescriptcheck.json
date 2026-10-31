@@ -1,0 +1,3 @@
+[
+  { "id": "pcretirescriptcheck", "kind": "check", "file": "tools/pcretirescriptcheck.mjs", "args": [] }
+]
