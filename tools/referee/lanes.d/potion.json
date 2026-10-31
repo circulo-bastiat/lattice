@@ -1,0 +1,1 @@
+{ "id": "potion", "mob": "potion", "up": 1, "nbt": "Motion:[0.9d,0.1d,0.0d],Item:{id:\"minecraft:splash_potion\",Count:1b,tag:{Potion:\"minecraft:harming\"}}", "note": "#8276: splash potion flies down +x into the corridor wall; salt picks the launch angle" }

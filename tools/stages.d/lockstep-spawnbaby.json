@@ -1,0 +1,1 @@
+[ { "id": "lockstep-spawnbaby", "kind": "check", "file": "tools/lockstep-spawnbaby.mjs", "args": [], "why": "#7914 G18c-L2: lockstep scenario spawnbaby (2000 spawns x zombie family + piglin x 20 salts: baby 5%/piglin 20%, canPickUpLoot 0.55*d, door 0.1*d, leader 0.05*d, armour 0.15*d, chicken-jockey rolls, animals never baby): 10% baby chance caught." } ]

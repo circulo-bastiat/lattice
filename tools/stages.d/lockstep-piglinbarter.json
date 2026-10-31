@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-piglinbarter",
+  "kind": "check",
+  "file": "tools/lockstep-piglinbarter.mjs",
+  "args": [],
+  "why": "#8638 G18b-L29: piglin gold ingot pickup, 120-tick admire, barter roll thrown at the player, 20 salts x 1200 ticks, with/without gold armour, brute + zombified piglin never barter; admire 100 and toss speed breaks caught."
+ }
+]

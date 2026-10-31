@@ -1,0 +1,3 @@
+[
+  { "id": "vacuitycheck", "kind": "check", "file": "tools/vacuitycheck.mjs", "args": [] }
+]

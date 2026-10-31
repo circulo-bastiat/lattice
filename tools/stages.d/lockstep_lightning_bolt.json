@@ -1,0 +1,1 @@
+[ { "id": "lockstep_lightning_bolt", "kind": "check", "file": "tools/lockstep-lightning_bolt-20.mjs", "args": [], "why": "#8287 G17-L4 lockstep lightning_bolt: 20 seeds, engine trace deterministic, 6 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes lightning_bolt (full suite)." } ]

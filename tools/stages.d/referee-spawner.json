@@ -1,0 +1,3 @@
+[
+  { "id": "spawnerrefcheck", "kind": "check", "file": "tools/referee/spawnerrefcheck.mjs", "args": [] }
+]

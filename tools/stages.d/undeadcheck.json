@@ -1,0 +1,8 @@
+[
+ {
+  "id": "undeadcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/zombievariants-s100 (QUEUE 0.2 G18c) -- HUSK, STRAY and DROWNED, whole: husk (no sunburn, Hunger on an unarmed hit, desert surface spawn replacing zombie, converts to zombie after 600+300 ticks submerged), stray (Slowness-tipped arrows, snowy surface spawn replacing skeleton), drowned (water spawn rules -- river/frozen_river fast roll vs. depth check, trident/fishing_rod/nautilus_shell equipment rolls, a real trident ranged attack, swim-up/go-to-water/go-to-beach goals, zombie converts to drowned after the same 600+300 ticks). All three reuse the EXISTING zombie/skeleton goal rosters, spawn substrate and daylight-burn table (Ai.ROSTER.husk/.stray are literal aliases onto zombie's/skeleton's own roster functions) rather than forking them."
+ }
+]

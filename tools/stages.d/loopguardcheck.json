@@ -1,0 +1,3 @@
+[
+  { "id": "loopguardcheck", "kind": "check", "file": "tools/loopguardcheck.mjs", "args": [] }
+]

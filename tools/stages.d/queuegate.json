@@ -1,0 +1,3 @@
+[
+  { "id": "queuegatecheck", "kind": "check", "file": "tools/queuegatecheck.mjs", "args": [], "why": "30 Sept: Dan - no phase past the mobs until every mob is perfect (GATE M)" }
+]

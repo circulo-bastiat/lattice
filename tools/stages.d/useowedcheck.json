@@ -1,0 +1,3 @@
+[
+  { "id": "useowedcheck", "kind": "check", "file": "tools/useowedcheck.mjs", "args": [] }
+]

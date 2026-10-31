@@ -1,0 +1,96 @@
+# The whole suite, every browser stage, for every new master. Hosted: 16 parallel shards on ubuntu (SwiftShader); TEST_RUNNER=pc -> Dan's GPU PC. A red opens the `master is red` issue.
+name: full-suite
+on:
+  push:
+    branches: [master]   # TEST_RUNNER=pc only (the hosted jobs skip push: free minutes are finite)
+  schedule:
+    - cron: '17 */2 * * *'   # hosted: a full 16-shard run every 2 h on the newest master (~90 runner-minutes each)
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'pc = run the whole suite on the GPU PC (the reference); empty = whatever TEST_REMOTE says'
+        required: false
+        default: ''
+concurrency:
+  group: full-suite
+  cancel-in-progress: false  # #6548: NEVER cancel a run that is going: master moves every ~20 min and a run takes 20-50, so cancelling meant no run ever finished (no result for 21 h). GitHub keeps only the newest PENDING run behind the running one, so the next run is always on the newest master
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+jobs:
+  shard:
+    if: vars.TEST_RUNNER != 'pc' && github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        i: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+    env:
+      NODE_OPTIONS: --dns-result-order=ipv4first
+      MCLITE_PRESET: medium
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with: { ref: store, path: _store }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node tools/cloud/bootstrap.mjs --store "$GITHUB_WORKSPACE/_store" --no-suite --no-build 2>&1 | tail -5
+      - run: node tools/infra/fullshard.mjs ${{ matrix.i }} 16
+        continue-on-error: true      # a red shard is data for the aggregate, not a reason to lose the others
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: shard-${{ matrix.i }}
+          path: shard-out/
+          if-no-files-found: warn
+  aggregate:
+    # not on a cancelled run (a newer master cancels it): missing shards would be reported as a red
+    if: ${{ !cancelled() && vars.TEST_RUNNER != 'pc' && github.event_name != 'push' }}
+    needs: shard
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - uses: actions/download-artifact@v4
+        with: { path: shard-all, pattern: shard-*, merge-multiple: true }
+      - run: node tools/infra/full.mjs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FULL_AGG_DIR: shard-all
+          MCLITE_HOSTED: '1'
+  full-pc:
+    # mirror: the 2-hourly schedule + manual dispatch (a run is ~50 min, master moves every few minutes); PC fallback (TEST_REMOTE off): every master push as before
+    if: vars.TEST_RUNNER == 'pc' && (github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && vars.TEST_REMOTE != 'mirror') || (github.event_name == 'schedule' && vars.TEST_REMOTE == 'mirror'))
+    runs-on: [self-hosted, mclite, gpu]
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      # Dan, 10 Oct: wait until landings pause, so the 17-27 min suite does not fight the lander for this PC's RAM/CPU (measured: free RAM fell to ~1 GB,
+      # two runs of 21 and 27 min were cancelled by the next landing). A newer master cancels this waiting run; after 30 min it runs anyway; a crash of the gate runs the suite.
+      - name: wait for landings to pause (fullgate)
+        if: vars.TEST_REMOTE != 'mirror'   # #6767: with the mirror this PC only waits for hosted shards, so it has nothing to protect from the lander
+        shell: cmd
+        run: node tools\infra\fullgate.mjs >> "%MCLITE_PROJECTS%\_status\runner-full-suite.log" 2>&1 & exit /b 0
+      # cmd, not PowerShell: Windows' script policy blocks the .ps1 wrapper the runner writes for a PowerShell step
+      # (it failed in 0.2 s with no output). Output also goes to <Projects>/_status/runner-full-suite.log, because a
+      # session cannot download GitHub's own job logs through its proxy; Syncthing carries it to every PC.
+      - shell: cmd
+        run: |
+          echo === %DATE% %TIME% %COMPUTERNAME% run %GITHUB_RUN_ID% === >> "%MCLITE_PROJECTS%\_status\runner-full-suite.log"
+          node tools\infra\full.mjs >> "%MCLITE_PROJECTS%\_status\runner-full-suite.log" 2>&1
+          set RC=%ERRORLEVEL%
+          powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-Content -Tail 40 $env:MCLITE_PROJECTS\_status\runner-full-suite.log"
+          exit /b %RC%
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MCLITE_PRESET: medium
+          FULL_MODE: ${{ vars.FULL_MODE }}
+          FULL_SOURCE: ${{ github.event.inputs.source }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+          MIRROR_REPO: ${{ vars.MIRROR_REPO }}
+          MCLITE_TEST_REMOTE: ${{ vars.TEST_REMOTE }}

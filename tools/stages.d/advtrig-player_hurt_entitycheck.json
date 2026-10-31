@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-player_hurt_entitycheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT2 — minecraft:player_hurt_entity matcher + call sites (arrow, trident, melee) complete adventure/shoot_arrow and throw_trident; breaks its own matcher to prove it can fail."
+ }
+]

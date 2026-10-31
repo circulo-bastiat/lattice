@@ -1,0 +1,1 @@
+[{"id":"selectorsortcheck","kind":"check","file":"tools/selectorsortcheck.mjs","args":[],"why":"G17-SEL3 selector sort=/limit defaults: nearest/furthest/random/arbitrary, limit after sort, dead never returned (EntitySelector.getEntities)."}]

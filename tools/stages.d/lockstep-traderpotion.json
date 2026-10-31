@@ -1,0 +1,1 @@
+[{"id":"lockstep-traderpotion","kind":"check","file":"tools/referee/traderpotionlockstepcheck.mjs","args":[],"why":"#8726 G18f-L20: lockstep scenario traderpotion, 20 salts x 2 days: wandering trader mainhand potion/milk, invisibility, 48000 despawn countdown, removal tick of trader and its two trader llamas; 48000->24000 caught."}]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "beenestcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/beenest-s103 -- bee nests in TREE WORLDGEN: the beehive tree decorator (04k_feat_trees.js) now stocks the nest block entity with 2-3 bees itself (BeehiveTreeDecorator.generate's own dice, .decomp lines 61-68, hoisted above the decorator's world reads like every other draw in that file), `BE.tick`'s new 'beehive' branch releases them through `Bee.tickHiveBE` on the same day/rain gate `BeehiveBlockEntity.releaseBee` reads (.decomp line 189), and bees are confirmed to carry no natural biome-spawn entry of their own in 1.18.2 (the jar-extracted spawner lists this engine already reads generically, `Spawn.RULES.bee` does not exist)."
+ }
+]

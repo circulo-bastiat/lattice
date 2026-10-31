@@ -1,0 +1,8 @@
+[
+ {
+  "id": "brewregcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G23 (#299) -- BrewingRecipeRegistry, the recipe tree (07zzq_brewing.js): every registerDefaults row re-derived from .decomp and compared in order; awkward+sugar=swiftness only, redstone extends to Potions.java's long_ duration, glowstone amplifies and shortens, fermented spider eye inverts, gunpowder/dragon's breath make splash/lingering; the brewing stand's ingredient slot asks the registry."
+ }
+]

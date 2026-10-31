@@ -1,0 +1,1 @@
+[{"id": "lockstep-guardianbeam", "kind": "check", "file": "tools/lockstep-guardianbeam.mjs", "args": [], "timeoutMin": 10, "why": "#8652 G18b-L38: guardian/elder guardian vs a player in water at 6/12/20 blocks, 20 salts x 900 ticks: beamTicks, target id, damage at warmup 80/60, spikes; warmup 80 changed to 60 caught (4 breaks caught)."}]

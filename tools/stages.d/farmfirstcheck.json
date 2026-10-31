@@ -1,0 +1,1 @@
+[{"id":"farmfirstcheck","kind":"check","file":"tools/farmfirstcheck.mjs","args":[],"why":"#9973 -- FARM_FIRST/--first lanes lead the pilot farm queue (only while short), the workflow passes vars.FARM_FIRST; 5 breaks caught."}]
