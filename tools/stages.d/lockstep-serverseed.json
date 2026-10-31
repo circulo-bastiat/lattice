@@ -1,0 +1,1 @@
+[ { "id": "lockstep-serverseed", "kind": "check", "file": "tools/lockstep-serverseed.mjs", "args": [], "why": "#6964 the engine blaze lane seeds its entity Random as SeedAgent seeds the server's summoned BlazeEntity: salt-0 tick-4 pos.y equals the real server's 0.0351; wrong class/salt/no seed caught." } ]

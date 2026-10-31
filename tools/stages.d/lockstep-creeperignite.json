@@ -1,0 +1,1 @@
+[{"id": "lockstep-creeperignite", "kind": "check", "file": "tools/referee/creeperignitelockstepcheck.mjs", "args": [], "why": "#6891 G17-L174: lockstep scenario creeperignite, 20 salts: flint and steel ignite + durability, lightning powered, blast power 3 vs 6, dummy damage, cat/ocelot flee; powered radius 5 caught."}]

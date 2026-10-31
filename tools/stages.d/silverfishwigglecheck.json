@@ -1,0 +1,8 @@
+[
+ {
+  "id": "silverfishwigglecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#851: silverfish/endermite segments wiggle from age alone (SilverfishEntityModel/EndermiteEntityModel.setAngles); layers copy body[2]/[4]/[1]"
+ }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "elderguardiandrawcheck", "kind": "check", "file": "tools/elderguardiandrawcheck.mjs", "args": [] }
+]

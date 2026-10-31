@@ -1,0 +1,1 @@
+[{"id": "lockstep-creeperswell", "kind": "check", "file": "tools/lockstep-creeperignite.mjs", "args": [], "why": "#8655 G18b-L40: creeper swell lane, 20 salts x player at 2/4/8 + flint, charged and not: per-tick fuse/lastFuseTime/fuseSpeed/ignited, cancel beyond 7, blast 3 vs 6 with blocks destroyed; fuse 30 changed to 20 caught."}]

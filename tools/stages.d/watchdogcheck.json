@@ -1,0 +1,3 @@
+[
+  { "id": "watchdogcheck", "kind": "check", "file": "tools/watchdogcheck.mjs", "args": [] }
+]

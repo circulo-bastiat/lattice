@@ -1,0 +1,60 @@
+# Published into the lattice mirror by tools/infra/mirror.mjs (#10419). One hosted job = ONE brain role run (commander, fixer, requests, reviewer,
+# enlarger, tester, chore) for the private repo: the replacement for brain.yml's `run` job, which needed a self-hosted runner in the Hyper-V VM.
+# The per-role sequence lives in tools/infra/mirror/role-slot.sh (read from the private clone at run time, so changing it needs no republish).
+# Silent (#8913): the logs are public. Every code- or text-touching step goes through silent(); a failure posts its last lines to the PRIVATE bus.
+name: role-run
+# an OPAQUE run name: the role is not a secret, the reason (mail text) and the account are, so neither appears here
+run-name: role-run ${{ inputs.role }}
+on:
+  workflow_dispatch:
+    inputs:
+      role: { description: 'commander | fixer | requests | reviewer | enlarger | tester | chore', required: true, default: 'commander' }
+      reason: { description: 'why (goes into the role prompt; never printed)', required: false, default: 'started by the hosted brain' }
+      account: { description: 'account pool (selects the lattice secret); empty = the brain picks', required: false, default: '' }
+permissions:
+  contents: read
+# one commander / fixer / requests at a time (mail queues behind it); the other roles run side by side
+concurrency:
+  group: role-${{ (inputs.role == 'commander' || inputs.role == 'fixer' || inputs.role == 'requests') && inputs.role || format('{0}-{1}', inputs.role, github.run_id) }}
+  cancel-in-progress: false
+jobs:
+  role:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    env:
+      NODE_OPTIONS: --dns-result-order=ipv4first
+      MCLITE_HOSTED: '1'
+      ROLE: ${{ inputs.role }}
+      ACCOUNT: ${{ inputs.account }}
+    steps:
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: tools
+        run: |
+          npm install -g @anthropic-ai/claude-code >"$RUNNER_TEMP/npm.log" 2>&1; echo "[silent] claude-cli exit=$?"
+      - name: source
+        env: { PAT: '${{ secrets.MCLITE_PAT }}', SRC: '${{ secrets.MCLITE_SRC }}' }
+        run: |
+          silent() { local n="$1"; shift; "$@" >> "$RUNNER_TEMP/out.log" 2>&1; local rc=$?; echo "[silent] $n exit=$rc"; return $rc; }
+          silent clone git -c credential.helper= clone -q "https://x-access-token:${PAT}@github.com/${SRC}.git" work
+      - name: data
+        if: inputs.role == 'fixer' || inputs.role == 'tester'
+        env: { STORE_URL: '${{ secrets.STORE_URL }}' }
+        run: |
+          . work/tools/infra/mirror/silent.sh
+          cd work && silent data node tools/cloud/bootstrap.mjs --store "$STORE_URL" --no-suite && silent build node build.mjs
+      - name: role
+        env:
+          REASON: ${{ inputs.reason }}
+          CLAUDE_TOKEN_MAX: ${{ secrets.CLAUDE_TOKEN_MAX }}
+          CLAUDE_TOKEN_PRO: ${{ secrets.CLAUDE_TOKEN_PRO }}
+          MCLITE_PAT: ${{ secrets.MCLITE_PAT }}
+          MCLITE_REPO: ${{ secrets.MCLITE_SRC }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+          MIRROR_REPO: ${{ github.repository }}
+        run: |
+          . work/tools/infra/mirror/silent.sh
+          . work/tools/infra/mirror/pack-home.sh
+          . work/tools/infra/mirror/role-slot.sh
+          pack_home || { echo "[silent] home exit=1 (a token secret is missing)"; exit 1; }
+          silent role role_slot "$PWD/work"

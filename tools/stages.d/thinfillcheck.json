@@ -1,0 +1,1 @@
+[ { "id": "thinfillcheck", "kind": "check", "file": "tools/thinfillcheck.mjs", "args": [], "why": "#8897 R2: the fill decides a thin queue without Claude: prooffeed first, then at most one enlarger round per 6 h while free < queueThin." } ]

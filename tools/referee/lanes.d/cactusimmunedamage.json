@@ -1,0 +1,1 @@
+{ "id": "cactusimmunedamage", "mob": "zombified_piglin", "damage": true, "hurt": true, "mobhp": true, "up": 1, "block": { "name": "cactus", "below": "sand" }, "note": "#9248: fire-immune zombified piglin in the same cactus shaft: fire immunity does not cover CACTUS damage; rows pos, Health, HurtTime per tick" }

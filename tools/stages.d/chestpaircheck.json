@@ -1,0 +1,8 @@
+[
+ {
+  "id": "chestpaircheck",
+  "kind": "check",
+  "args": [],
+  "why": "PASS 17 JOB 1 (D-413) — the DOUBLE CHEST's world half: placement (`Player.withChestType`), the neighbour update that pairs and un-pairs (`Behave.chestShape`), and which block entity is FIRST (`Hud.chestPair`). chestcheck §8 is the menu half. Headless: a flat world, the real modules."
+ }
+]

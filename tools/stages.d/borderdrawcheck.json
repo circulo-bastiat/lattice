@@ -1,0 +1,3 @@
+[
+ { "id": "borderdrawcheck", "kind": "check", "file": "tools/borderdrawcheck.mjs", "args": ["dist/mclite.html"] }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "writtenbookcheck", "kind": "check", "file": "tools/writtenbookcheck.mjs", "args": [] }
+]

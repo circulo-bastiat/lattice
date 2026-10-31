@@ -1,0 +1,3 @@
+[
+  { "id": "promptprefixcheck", "kind": "check", "file": "tools/promptprefixcheck.mjs", "args": [] }
+]

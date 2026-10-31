@@ -1,0 +1,9 @@
+[
+ {
+  "id": "projamethystcheck",
+  "kind": "check",
+  "file": "tools/projamethystcheck.mjs",
+  "args": [],
+  "why": "#8666 -- AmethystBlock.onProjectileHit: an arrow hit on amethyst block, budding amethyst, cluster and the 3 buds plays .hit then .chime with pitch 0.5+rand*1.2 (two rolls in order); none on stone. Node-only."
+ }
+]

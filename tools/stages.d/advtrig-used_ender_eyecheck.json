@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-used_ender_eyecheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT29 (#7995) — Adv.matchers used_ender_eye + Throw.useEye call site; follow_ender_eye completes, out-of-range distance does not; breaks its own matcher."
+ }
+]

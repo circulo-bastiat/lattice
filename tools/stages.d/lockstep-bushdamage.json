@@ -1,0 +1,1 @@
+[ { "id": "lockstep-bushdamage", "kind": "check", "file": "tools/lockstep-bushdamage.mjs", "args": [], "why": "#9248: sweet berry bush contact damage on a zombie tick by tick vs the real-server lane bushdamage (lanes.d, pilot on the mirror; golden/bushdamage-1.18.2.json); writes mobproof/out/damage-bush.json; breaks caught." } ]

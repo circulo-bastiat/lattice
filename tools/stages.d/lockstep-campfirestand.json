@@ -1,0 +1,1 @@
+[{"id": "lockstep-campfirestand", "kind": "check", "file": "tools/referee/campfirestandlockstepcheck.mjs", "args": [], "why": "#8794 G17-L244: lockstep scenario campfirestand, 20 salts: zombie, pig, blaze (fire-immune), villager in lit/unlit campfire and soul campfire for 60 ticks vs decomp CampfireBlock.onEntityCollision (1 / soul 2 IN_FIRE, i-frames)."}]
