@@ -1,0 +1,28 @@
+// D-656 referee for WorldRenderer.tickRainSplashing's draw order (WorldRenderer.java:399-446):
+// a fresh java.util.Random((long)ticks * 312987231L); per try nextInt(21), nextInt(21), and — on a
+// column that passes — nextDouble, nextDouble; after the tries nextInt(3). Printed for an
+// every-column-passes world, so one row = one try: t k dx dz u v, and a "snd t r" row for nextInt(3).
+// Run: cp this to /tmp/Splash.java && java /tmp/Splash.java > tools/golden/splash-1.18.2.tsv
+import java.util.Random;
+public class Splash {
+  public static void main(String[] a) {
+    long[] ts = {0L, 1L, 7L, 1000L, 123456L, 1200017L, 2147483647L};
+    int tries = 5;
+    System.out.println("# t\tk\tdx\tdz\tu\tv  (JDK java.util.Random, seed (long)t*312987231L)");
+    for (long t : ts) {
+      Random r = new Random(t * 312987231L);
+      for (int k = 0; k < tries; k++) {
+        int dx = r.nextInt(21) - 10, dz = r.nextInt(21) - 10;
+        double u = r.nextDouble(), v = r.nextDouble();
+        System.out.println(t + "\t" + k + "\t" + dx + "\t" + dz + "\t" + u + "\t" + v);
+      }
+      System.out.println("snd\t" + t + "\t" + r.nextInt(3));
+    }
+    // the try count: (int)(100.0F * f * f), f = gradient / (fancy ? 1 : 2)
+    float[] gs = {0.0F, 0.01F, 0.1F, 0.33F, 0.5F, 0.99F, 1.0F};
+    for (float g : gs) for (int fancy = 0; fancy < 2; fancy++) {
+      float f = g / (fancy == 1 ? 1.0F : 2.0F);
+      System.out.println("n\t" + g + "\t" + fancy + "\t" + (f <= 0.0F ? 0 : (int)(100.0F * f * f)));
+    }
+  }
+}

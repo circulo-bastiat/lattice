@@ -1,0 +1,1 @@
+[ { "id": "lockstep-crit", "kind": "check", "file": "tools/referee/lockstepcritcheck.mjs", "args": [], "why": "#6721 G17-L125: lockstep scenario crit, 20 salts: crit 1.5x, sprint knockback +1, cooldown/blindness/water/ladder exclusions, attacker slowdown; 5 breaks caught." } ]

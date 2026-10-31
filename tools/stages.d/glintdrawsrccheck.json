@@ -1,0 +1,8 @@
+[
+ {
+  "id": "glintdrawsrccheck",
+  "kind": "check",
+  "args": [],
+  "why": "#9239: the pure half of glintdrawcheck (browser, skipped by --fast) -- the glint foil branch is present in the WebGL2 and WebGPU entity passes and the emit tags exist; breaks the source text and must see it."
+ }
+]

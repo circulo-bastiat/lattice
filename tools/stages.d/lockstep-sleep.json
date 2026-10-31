@@ -1,0 +1,1 @@
+[{"id": "lockstep-sleep", "kind": "check", "file": "tools/referee/lockstepsleepcheck.mjs", "args": [], "why": "#6333 G17-L73: lockstep scenario sleep, 20 salts: fox DelayedCalmDownGoal in a lit and an unlit room across day/night/day vs an independent reference of the decomp; wake condition inverted reported at the first diverging tick."}]

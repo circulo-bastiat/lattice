@@ -1,0 +1,1 @@
+[{"id": "lockstep-zombified_piglin-server", "kind": "check", "file": "tools/referee/lockstepzombifiedpiglincheck.mjs", "args": [], "why": "#6489 G17-L4: zombified_piglin lockstep vs the real 1.18.2 server, 20 salts, divergences: 0 required; doctored divergence, short run and 1e-9 drift refused (3 breaks caught)."}]

@@ -1,0 +1,9 @@
+[
+ {
+  "id": "loom",
+  "kind": "check",
+  "file": "tools/loomcheck.mjs",
+  "args": [],
+  "why": "G19e-loom (#8056): LoomScreenHandler as NS.Loom + Menu.loomMenu: banner+dye(+pattern item) gives the vanilla Patterns layer for every BannerPattern id (parsed from .decomp), 7th layer refused; breaks its own data (pattern id, layer limit, dye colour, output count)."
+ }
+]

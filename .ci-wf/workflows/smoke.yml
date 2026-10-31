@@ -1,0 +1,29 @@
+# #3568: the smoke gate. A new gpu runner registers WITHOUT the gpu label (with `smoke`); a quarantined one keeps `smoke`.
+# This must pass ON the runner before it gets gpu back (go.mjs runner restore). The brain health pass dispatches it while
+# any runner has an open env-fault issue; SETUP-PC dispatches it once after registering.
+name: smoke
+on:
+  workflow_dispatch:
+concurrency:
+  group: smoke-${{ github.run_id }}
+permissions:
+  contents: read
+  issues: write
+jobs:
+  smoke:
+    runs-on: [self-hosted, mclite, smoke]
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - shell: cmd
+        run: |
+          if not defined MCLITE_PROJECTS set "MCLITE_PROJECTS=%RUNNER_TEMP%\mclite-projects"
+          if not exist "%MCLITE_PROJECTS%\_status" mkdir "%MCLITE_PROJECTS%\_status"
+          echo === %DATE% %TIME% %COMPUTERNAME% smoke run %GITHUB_RUN_ID% === >> "%MCLITE_PROJECTS%\_status\runner-smoke.log"
+          node tools\infra\smoke.mjs >> "%MCLITE_PROJECTS%\_status\runner-smoke.log" 2>&1
+          set RC=%ERRORLEVEL%
+          powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-Content -Tail 40 $env:MCLITE_PROJECTS\_status\runner-smoke.log"
+          exit /b %RC%
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MCLITE_PRESET: medium

@@ -1,0 +1,1 @@
+[{"id":"brainofflinecheck","kind":"check","args":[],"why":"#2893 -- all brain runners offline over 15 min (VM DNS dead, 5 Oct 4.5 h) mails fixer+commander from the brain tick; vm-setup.sh keeps a public fallback DNS; broken detectors must be caught (breaks caught)."}]

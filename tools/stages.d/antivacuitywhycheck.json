@@ -1,0 +1,3 @@
+[
+  { "id": "antivacuitywhycheck", "kind": "check", "file": "tools/antivacuitywhycheck.mjs", "args": [] }
+]

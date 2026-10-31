@@ -1,0 +1,8 @@
+[
+ {
+  "id": "projmotioncheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-X13 (#5916) — potion/bottle/arrow/trident gravity+drag rows equal the .decomp extractor's output; EL.motionFor hardcodes none."
+ }
+]

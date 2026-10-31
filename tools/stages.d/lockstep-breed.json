@@ -1,0 +1,1 @@
+[ { "id": "lockstep-breed", "kind": "check", "file": "tools/referee/lockstepbreedcheck.mjs", "args": [], "why": "#6287 G17-L39: lockstep scenario breed, 20 salts: two cows, wheat love at tick 5 (inLove 600), BreedGoal approach, baby spawn, parents age 6000, baby -24000, orb 1-7 vs decomp reference; inLove 599 reported at the first diverging tick." } ]

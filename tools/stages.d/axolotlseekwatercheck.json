@@ -1,0 +1,8 @@
+[
+ {
+  "id": "axolotlseekwatercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2471 -- SeekWaterTask: a stranded axolotl within 6 blocks of water walks to it."
+ }
+]

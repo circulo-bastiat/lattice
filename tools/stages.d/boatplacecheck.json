@@ -1,0 +1,8 @@
+[
+ {
+  "id": "boatplacecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5230 (G17-B4) -- BoatItem.use: raycast to water, entity-at-eye refusal, the item's wood at player yaw, one consumed (creative keeps it); wall/sky place nothing."
+ }
+]

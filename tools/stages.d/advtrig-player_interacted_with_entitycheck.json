@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-player_interacted_with_entitycheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT17 — minecraft:player_interacted_with_entity matcher + Use.entityUse call site complete nether/distract_piglin; breaks its own matcher/call site to prove it can fail."
+ }
+]

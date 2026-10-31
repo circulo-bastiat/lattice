@@ -1,0 +1,3 @@
+[
+  { "id": "cloudscheck", "kind": "check", "file": "tools/cloudscheck.mjs", "args": [], "why": "G17-CL1: NS.Clouds (09d_clouds.js) - cell grid == clouds.png, height 192 / 12-block cell / 0.03 drift / alpha 0.8 / shades == .decomp, getCloudsColor, vertex loop." }
+]

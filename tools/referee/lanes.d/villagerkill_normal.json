@@ -1,0 +1,1 @@
+{ "id": "villagerkill_normal", "mob": "zombie", "vk": true, "diff": "normal", "far": true, "ticks": 300, "note": "#6330: villagerkill at normal: the kill converts on a 50 percent roll (Zombie.killedEntity: random.nextBoolean())" }

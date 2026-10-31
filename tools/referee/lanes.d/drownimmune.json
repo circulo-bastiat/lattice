@@ -1,0 +1,1 @@
+{ "id": "drownimmune", "mob": "zombie", "damage": true, "nbt": "NoAI:1b,Air:25s", "hurt": true, "mobhp": true, "pool": true, "note": "#9247: same pool and Air 25 for a zombie (undead breathe water): no drown damage, Health stays 20" }

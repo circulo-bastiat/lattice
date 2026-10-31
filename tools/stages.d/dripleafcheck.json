@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dripleafcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8684 BigDripleafBlock tilt machinery (07zv_dripleaf.js): delays 10/10/100, collision, scheduledTick steps, redstone reset, projectile -> FULL, sounds."
+ }
+]

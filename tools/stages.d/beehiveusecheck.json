@@ -1,0 +1,8 @@
+[
+ {
+  "id": "beehiveusecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3021 -- BeehiveBlock.onUse (honey_level 5: shears -> 3 honeycomb + damage, glass bottle -> honey_bottle, honey_level reset to 0, campfire-smoked hives keep their bees calm) and BeehiveBlock.afterBreak/angerNearbyBees (a broken nest releases its bees angry, EMERGENCY ignores night/rain; Silk Touch spares them); the nest's block-entity honey level now mirrors into the honey_level block state."
+ }
+]
