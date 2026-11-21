@@ -1,0 +1,8 @@
+[
+ {
+  "id": "lootconditioncheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11739 -- weather_check, value_check, reference, entity_scores loot conditions in 07e_loot.js via Loot.testPredicate; fails when each is cut."
+ }
+]

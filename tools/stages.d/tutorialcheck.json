@@ -1,0 +1,9 @@
+[
+ {
+  "id": "tutorialcheck",
+  "kind": "check",
+  "file": "tools/tutorialcheck.mjs",
+  "args": [],
+  "why": "#11729 -- net.minecraft.client.tutorial.* (src/14o_tutorial.js): step machine thresholds vs .decomp, entry points wired, mutants caught."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "iconcheck",
+  "kind": "check",
+  "args": [],
+  "why": "PLAN G10b — the block icon rasteriser, rendered HEADLESSLY and read back pixel by pixel: the display transform, the three visible faces (a furnace's FRONT among them), the shading and the 109-block flat-fallback set. D-314 came out of this check (D-311)."
+ }
+]

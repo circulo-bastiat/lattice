@@ -1,0 +1,8 @@
+[
+ {
+  "id": "hotbarsavecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8145 creative saved toolbars: save slot 3, change hotbar, load slot 3 gives the same stacks (count, tag, damage), survives the JSON round trip; aliasing faults are caught."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "encharmor",
+  "kind": "check",
+  "args": [],
+  "why": "G22g -- armour-side enchantments: Feather Falling/Fire/Blast protection per damage flag (player + Eq.armorOf), Respiration air drain, Aqua Affinity, Depth Strider swim, Frost Walker freezeWater/melt."
+ }
+]

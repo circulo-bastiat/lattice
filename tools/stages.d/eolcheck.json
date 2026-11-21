@@ -1,0 +1,3 @@
+[
+  { "id": "eolcheck", "kind": "check", "file": "tools/eolcheck.mjs", "args": [] }
+]

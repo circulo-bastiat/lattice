@@ -1,0 +1,8 @@
+[
+ {
+  "id": "drownedtargetcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4479 -- drowned initCustomGoals target rows keep ActiveTargetGoal mustSee + reciprocalChance 10; mutants must be noticed."
+ }
+]

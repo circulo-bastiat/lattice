@@ -1,0 +1,1 @@
+[{"id":"benchymlcheck","kind":"check","file":"tools/benchymlcheck.mjs","args":[],"why":"#11462: bench.yml has pull-requests: read and a digits-only PR guard; 4 breaks caught."}]

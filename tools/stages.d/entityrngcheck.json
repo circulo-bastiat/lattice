@@ -1,0 +1,3 @@
+[
+  { "id": "entityrngcheck", "kind": "check", "file": "tools/entityrngcheck.mjs", "args": [] }
+]

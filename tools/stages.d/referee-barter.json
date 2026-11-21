@@ -1,0 +1,3 @@
+[
+  { "id": "barterrefcheck", "kind": "check", "file": "tools/referee/barterrefcheck.mjs", "args": [] }
+]

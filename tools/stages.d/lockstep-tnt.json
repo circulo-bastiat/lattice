@@ -1,0 +1,1 @@
+[ { "id": "lockstep-tnt", "kind": "check", "file": "tools/referee/tntlockstepcheck.mjs", "args": [], "why": "#6317 G17-L59: lockstep scenario tnt, 20 salts: primed TNT on dirt/stone, in water (no block damage), a 3-TNT chain (fuse 10-29) and next to a cow - fuse, motion, ray set, knockback and health vs decomp TntEntity/Explosion." } ]

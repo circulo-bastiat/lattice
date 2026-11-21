@@ -1,0 +1,3 @@
+[
+  { "id": "acctscopecheck", "kind": "check", "file": "tools/acctscopecheck.mjs", "args": [], "why": "ACCTSCOPE (Dan, 8 Nov): roles.json accounts is the one list of Claude accounts; an unlisted login is not unpacked, read, carried forward, published or printed" }
+]

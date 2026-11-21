@@ -1,0 +1,8 @@
+[
+ {
+  "id": "modecheck",
+  "kind": "check",
+  "args": [],
+  "why": "PLAN G6 — the four gamemodes. Half of it reads the SOURCE, because D-139's rule is that a stage which replaces something is not done until the something is deleted: §6 goes looking for the `creative` boolean and §7 asserts the call sites read abilities instead."
+ }
+]

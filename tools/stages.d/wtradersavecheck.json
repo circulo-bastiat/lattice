@@ -1,0 +1,3 @@
+[
+ {"id": "wtradersavecheck", "kind": "check", "args": [], "why": "#1307 wandering trader offers/despawnDelay/wanderTarget + WanderingTraderManager counters through the save round trip"}
+]

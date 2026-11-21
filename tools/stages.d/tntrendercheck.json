@@ -1,0 +1,8 @@
+[
+ {
+  "id": "tntrendercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5086 -- TntEntityRenderer fuse pulse scale (+1 offset, ^4) and 5-tick white blink equal the vanilla functions; edited-source breaks must be noticed."
+ }
+]

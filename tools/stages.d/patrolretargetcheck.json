@@ -1,0 +1,8 @@
+[
+ {
+  "id": "patrolretargetcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2480: PatrolGoal leader re-target is 3D (Vec3i.isWithinDistance(getPos(), 10.0)), strict, from block centre. Breaks its own data."
+ }
+]

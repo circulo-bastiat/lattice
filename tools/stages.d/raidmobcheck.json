@@ -1,0 +1,8 @@
+[
+ {
+  "id": "raidmobcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/illagers-s92 (QUEUE 0.2 raid loop, next step) -- MOB EXISTENCE, the gap raidcheck's own header above named: vindicator/pillager/witch/ravager/evoker/illusioner now resolve motion (extract-entity-motion.mjs's class-hierarchy walk) and carry a real Ai.ROSTER entry, spawned and driven through the live EL.tick() loop, same standard aicheck.mjs already holds itself to for cow/zombie. vex now spawns too (loop/raidvex-s96, its own full substrate proven by raidvexcheck below)."
+ }
+]

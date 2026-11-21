@@ -1,0 +1,1 @@
+[ { "id": "lockstep-cure", "kind": "check", "file": "tools/referee/curelockstepcheck.mjs", "args": [], "why": "#6679 G17-L108: lockstep scenario cure, 20 salts: golden apple needs Weakness, conversionTime 3600+nextInt(2401), per-tick rate with iron bars (14 cap), villager data/gossip/offers kept, Strength and Nausea; start roll, cap, gossip and Weakness gate breaks caught." } ]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-hoglinbrain", "kind": "check", "file": "tools/lockstep-hoglinbrain.mjs", "args": [], "why": "#6900 G17-L183: lockstep scenario hoglinbrain (hoglin/zoglin Brain: activity, attack/avoid memory, repel range 8 fungus+favor, zoglin target, tryAttack damage, knockback 1 vs 0.5, cant-reach 200, 20 salts): repel range 8 -> 7 caught." } ]

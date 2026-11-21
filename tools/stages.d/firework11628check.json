@@ -1,0 +1,1 @@
+[{"id":"firework11628check","kind":"check","file":"tools/firework11628check.mjs","args":[],"why":"#11628: 07zzy_firework.js FireworkRocketItem use + FireworksSparkParticle blast sounds + reachability; source breaks caught."}]

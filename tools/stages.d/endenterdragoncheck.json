@@ -1,0 +1,9 @@
+[
+  {
+    "id": "endenterdragoncheck",
+    "kind": "check",
+    "file": "tools/endenterdragoncheck.mjs",
+    "args": [],
+    "why": "G27m #11317: World.setDimension('the_end') leaves exactly one live ender_dragon in EntityList (the fight's own, near 0,128,0) and World.tickEndFight runs EnderDragonFight.tick once per game tick (17_main.js calls it after EntityList.tick); breaks its own source and prints '<n> breaks caught'."
+  }
+]

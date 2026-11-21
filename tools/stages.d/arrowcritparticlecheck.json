@@ -1,0 +1,8 @@
+[
+ {
+  "id": "arrowcritparticlecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5923: critical arrows emit the 4-point CRIT trail each flying tick (PersistentProjectileEntity.tick)."
+ }
+]

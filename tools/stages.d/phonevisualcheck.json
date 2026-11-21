@@ -1,0 +1,3 @@
+[
+  { "id": "phonevisualcheck", "kind": "browser", "file": "tools/phonevisualcheck.mjs", "args": [], "why": "#7806 phone app A: screenshots of every phone screen at 3 sizes x dark/light against a mocked GitHub, with overflow / tap size / contrast / clipping / bar checks (shots in _status/phone-shots/); about 90 s, so mirror full run only" }
+]

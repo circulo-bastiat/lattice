@@ -1,0 +1,8 @@
+[
+ {
+  "id": "leashcheck",
+  "kind": "check",
+  "args": [],
+  "why": "QUEUE 0.2 (Tame.OWED \"leashing\") -- the lead item, MobEntity attach/detach, PathAwareEntity.updateLeash's break/pull/approach distance rules, LeashKnotEntity (fence attach/detach/break-drop). AFTER tamecheck: same 07n_tame.js module."
+ }
+]

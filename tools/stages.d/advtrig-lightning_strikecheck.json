@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-lightning_strikecheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT7 (#7747) — Adv.matchers lightning_strike + the LightningEntity.tick call site; lightning_rod_with_villager_no_fire completes with a villager bystander, not without; breaks its own matcher."
+ }
+]

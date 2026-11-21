@@ -1,0 +1,8 @@
+[
+ {
+  "id": "enderdragonmotioncheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18 leftover (D-788 residue): ED.PhaseManager + phase-type skeleton + per-part damage routing (enderdragonphasecheck itself), plus this session's own StrafePlayerPhase real serverTick()/beginPhase()/setTargetEntity() port and HoldingPatternPhase.tickInRange()'s closest-player strafe roll wiring. Node-only, formula/state-level -- no browser stage. D-807: registered HERE by session 157/D-799 without noticing tools/stages.d/enderdragonphase.json (session 156/D-792) already owns this id -- the stages.d loader's own duplicate-id guard then demoted every real run of it to a FAILED `stages.d/enderdragonphase.json:enderdragonphasecheck` placeholder row (working-as-designed anti-silent-drop, not a runner bug) for two full sessions. Removed here; tools/stages.d/enderdragonphase.json is the one true registration. ED.OWED's last \"motion substrate\" item: tickMovement()'s own vertical-acceleration-toward- target blend/yaw steering/drag (src/07zzl_enderdragon.js: ED.EnderDragonEntity.prototype. tickMovement/updateVelocity/move/getYaw/setYaw), ported verbatim off a fresh .decomp read of EnderDragonEntity.java's tickMovement(), not the file's own prior paraphrase."
+ }
+]

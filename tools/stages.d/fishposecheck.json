@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fishposecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1761: Cod/Salmon/TropicalFishEntityRenderer.setupTransforms - Ry(4.3*sin(0.6*age)) wobble and the out-of-water lying pose (translate + Rz 90) as ER.fishPoseOf. Breaks its own inputs (4 breaks caught)."
+ }
+]

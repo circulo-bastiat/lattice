@@ -1,0 +1,9 @@
+[
+ {
+  "id": "motionstaticcheck",
+  "kind": "check",
+  "file": "tools/extract-entity-static-src.mjs",
+  "args": ["--selftest"],
+  "why": "G17b-6 — the .decomp proof behind entity-motion-static-1.18.2.tsv (no-gravity static/special entities), and it breaks its own data (D-30)."
+ }
+]

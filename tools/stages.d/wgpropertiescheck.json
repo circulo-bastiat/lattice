@@ -1,0 +1,1 @@
+[{"id":"wgpropertiescheck","kind":"check","file":"tools/wgpropertiescheck.mjs","args":[],"why":"#11702: Properties (02d_wgdata.js WG.stateOf {Name,Properties} -> real state) via real worldgen data + source breaks caught."}]

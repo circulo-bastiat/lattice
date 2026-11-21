@@ -1,0 +1,1 @@
+[{"id":"gui15b11617check","kind":"check","file":"tools/gui15b11617check.mjs","args":[],"why":"#11617: 15b_gui.js GameModeSelectionScreen/SleepingChatScreen/CraftingScreen/ShulkerBoxScreen/HorseScreenHandler/ShulkerBoxScreenHandler geometry + logic + reachability; source breaks caught."}]

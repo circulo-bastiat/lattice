@@ -1,0 +1,3 @@
+[
+ { "id": "guitexcheck", "kind": "browser", "args": ["dist/mclite.html"] }
+]

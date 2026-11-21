@@ -1,0 +1,3 @@
+[
+  { "id": "playerlanecheck", "kind": "check", "file": "tools/referee/playerlanecheck.mjs", "args": [], "why": "#6349 G17-L60: lockstep scripted-player lane harness (look/give/use script, per-tick player+entity pos/vel/health trace, comparator)." }
+]

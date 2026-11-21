@@ -1,0 +1,3 @@
+[
+  { "id": "diskguardfreshcheck", "kind": "check", "file": "tools/diskguardfreshcheck.mjs", "args": [] }
+]

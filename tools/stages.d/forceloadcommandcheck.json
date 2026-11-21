@@ -1,0 +1,8 @@
+[
+ {
+  "id": "forceloadcommandcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11699 -- /forceload add|remove|remove all|query (chunk >>4, 256 cap, failure keys) through Commands.run and World.setChunkForced (ForceLoadCommand); edited-source breaks must be noticed."
+ }
+]

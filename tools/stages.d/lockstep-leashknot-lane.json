@@ -1,0 +1,1 @@
+[ { "id": "lockstep-leashknot-lane", "kind": "check", "file": "tools/lockstep-leashknot.mjs", "args": [], "why": "#7059 G17-L4: leash_knot lane, 20 salts. Engine trace (knot, lead flag, lead item Pos/count) vs the real 1.18.2 server with MCLITE_LOCKSTEP_SERVER=1 (all 20 salts identical after the lead-drop y fix); default run = engine side + 1e-9 drift anti-vacuity." } ]

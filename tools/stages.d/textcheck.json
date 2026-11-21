@@ -1,0 +1,9 @@
+[
+ {
+  "id": "textcheck",
+  "kind": "check",
+  "args": [
+   "--quiet"
+  ]
+ }
+]

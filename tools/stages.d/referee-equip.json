@@ -1,0 +1,3 @@
+[
+  { "id": "mobrefequipcheck", "kind": "check", "file": "tools/referee/mobrefequipcheck.mjs", "args": [] }
+]

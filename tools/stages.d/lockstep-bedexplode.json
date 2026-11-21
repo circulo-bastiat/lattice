@@ -1,0 +1,1 @@
+[ { "id": "lockstep-bedexplode", "kind": "check", "file": "tools/referee/bedexplodelockstepcheck.mjs", "args": [], "why": "#7082 G17-L219: lockstep scenario bedexplode, 20 salts, nether bed use (power 5.0, fire, block damage, cow health/knockback, explosion tick) vs overworld control; power 4.0 and fire=false breaks caught." } ]

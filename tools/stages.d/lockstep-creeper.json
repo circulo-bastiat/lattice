@@ -1,0 +1,1 @@
+[{"id": "lockstep-creeper", "kind": "check", "file": "tools/lockstep-creeper.mjs", "args": [], "why": "#5357 G17-L4: creeper lane engine trace, 20 salts deterministic; tampered pos 1e-9/yaw/attack/health/shift breaks caught."}]

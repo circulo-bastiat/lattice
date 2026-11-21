@@ -1,0 +1,8 @@
+[
+ {
+  "id": "cartkindscheck",
+  "kind": "check",
+  "args": [],
+  "why": "#314 -- furnace cart drags a train and stops when fuel runs out; TNT cart primes on a powered activator rail and its power grows with speed."
+ }
+]

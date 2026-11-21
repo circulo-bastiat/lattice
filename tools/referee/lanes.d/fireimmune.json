@@ -1,0 +1,1 @@
+{ "id": "fireimmune", "mob": "blaze", "damage": true, "hurt": true, "mobhp": true, "fire": true, "note": "#10362: blaze (fireImmune) standing in the same fire: Health 20 and HurtTime 0 throughout" }

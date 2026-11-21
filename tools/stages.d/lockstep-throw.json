@@ -1,0 +1,1 @@
+[ { "id": "lockstep-throw", "kind": "check", "file": "tools/referee/throwlockstepcheck.mjs", "args": [], "why": "#6314 G17-L63: lockstep scenario throw, 20 salts: 10 snowballs + 10 eggs at a cow, a blaze and a wall; swept 0.3 hit box, 0-damage knockback/hurtTime, blaze 3, 1/8 chick roll then 1/32 for four." } ]

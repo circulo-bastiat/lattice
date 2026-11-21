@@ -1,0 +1,9 @@
+[
+ {
+  "id": "motionsrccheck",
+  "kind": "check",
+  "file": "tools/extract-entity-motion-src.mjs",
+  "args": ["--selftest"],
+  "why": "G17b-2 — the .decomp override test behind entity-motion-src-1.18.2.tsv, and it breaks its own data (D-30)."
+ }
+]

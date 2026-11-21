@@ -1,0 +1,9 @@
+[
+ {
+  "id": "gencheck",
+  "kind": "check",
+  "args": [
+   "--quiet"
+  ]
+ }
+]

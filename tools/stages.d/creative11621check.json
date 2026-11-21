@@ -1,0 +1,1 @@
+[{"id": "creative11621check", "kind": "check", "file": "tools/creative11621check.mjs", "args": [], "why": "#11621: 15e_creative.js CreativeInventoryScreen/SearchManager/TippedArrowItem; each cut must fail; breaks caught."}]

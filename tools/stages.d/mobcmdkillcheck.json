@@ -1,0 +1,10 @@
+[
+ {
+  "id": "mobcmdkillcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "parallel night, worker 1 -- /kill and /summon REGRESSION across the full mob roster. The task brief that produced this stage claimed vanilla /kill is silent removal; .decomp (LivingEntity.kill() -> this.damage(DamageSource.OUT_OF_WORLD, Float.MAX_VALUE), LivingEntity.java:265) says the opposite for every living mob this engine can spawn -- a real damage-kill (drops/xp-gate/death animation all run), not a silent EL.remove. Found and fixed: src/15g_commands.js's kill() called EL.remove(t.e) directly for every entity, skipping the whole death pipeline. This stage's own header has the full citation."
+ }
+]

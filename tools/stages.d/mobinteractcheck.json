@@ -1,0 +1,10 @@
+[
+ {
+  "id": "mobinteractcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "loop/s144-w1 (parallel testing wave, unit \"mobinteract\") -- Dan's standing rule 7 (\"the bugs live in the JOINS\"): every existing mob-AI check (goalcheck/wolfgoalcheck/ undeadmobpeek/passivemobpeek) proves ONE mob's own goals in isolation; nothing spawns TWO live mobs together and asserts on the INTERACTION between them. Live-browser (real EL.spawn, real ticked AI, MCLITE_PRESET=medium, survival), pattern lifted from undeadmobpeek.mjs: (1) skeleton/spider correctly do NOT auto-target a nearby villager (undead's own villager target goal is a confirmed, named engine gap -- Ai.OWED, 07k_goals.js:205-212 -- deliberately NOT asserted positive here per Dan's testing-only standing order), (2) a tamed wolf defends its owner against whatever last hurt them (Ai.OwnerHurtByTargetGoal) in BOTH directions, (3) a creeper flees a nearby cat (Ai.AvoidEntityGoal, read directly off the live GoalSelector's own running state, not a noisy position delta), (4) an iron golem retaliates against a mob attacking a NEARBY VILLAGER, not only one attacking the golem itself (IronGolemEntity.java:84's priority-3 monster-proximity target goal), with the jar's own Creeper exclusion as anti-vacuity. Companion live-browser probe: tools/mobinteractpeek.mjs."
+ }
+]

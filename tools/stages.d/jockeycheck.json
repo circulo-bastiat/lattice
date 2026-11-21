@@ -1,0 +1,8 @@
+[
+ {
+  "id": "jockeycheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/jockey (QUEUE 0.2, Passive.OWED \"chicken jockeys (hasJockey)\" + spider jockeys) -- ZombieEntity.initialize's baby-zombie chicken jockey (the two independent 0.05 rolls, the if/else-if no-fallback quirk) and SpiderEntity.initialize's 1/100 skeleton rider + HARD- only potion-effect roll, all riding through Rd.startRiding (07s_raid.js, D-538) with their OWN pair-correct height-offset arithmetic (Undead.mountJockey), not the raider/ravager one. AFTER undeadcheck/zvillagercheck: same Undead/Zv modules, live, plus the carry-over Zv.maybeConvertNaturalSpawn now does across the zombie->zombie_villager swap."
+ }
+]

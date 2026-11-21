@@ -1,0 +1,1 @@
+[{"id":"bobberdraw","kind":"check","args":[],"why":"#326 G24j -- a live fishing_bobber puts a bobber quad and a 16-segment line (ends: rod tip, bobber) in the entity draw list, the held rod resolves to the cast model, ER.OWED no longer lists fishing_bobber; breaks its own line anchor and cast predicate."}]

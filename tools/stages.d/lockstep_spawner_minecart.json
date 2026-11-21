@@ -1,0 +1,1 @@
+[ { "id": "lockstep_spawner_minecart", "kind": "check", "file": "tools/lockstep-spawner-minecart-20.mjs", "args": [], "why": "#5520 G17-L4 lockstep spawner_minecart: 20 seeds, engine trace deterministic, 5 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes spawner_minecart (full suite)." } ]

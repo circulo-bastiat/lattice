@@ -1,0 +1,1 @@
+[{"id": "lockstep-portalspawn", "kind": "check", "file": "tools/referee/lockstepportalspawncheck.mjs", "args": [], "why": "#7095 G18c-L4: lockstep scenario portalspawn, 20 salts: NetherPortalBlock.randomTick 2000/(difficulty) roll, isNatural+doMobSpawning gate, downward search, spawn position and NETHER_PORTAL cooldown vs an independent reference; 2000->1000 is caught."}]

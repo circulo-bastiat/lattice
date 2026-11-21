@@ -1,0 +1,9 @@
+[
+ {
+  "id": "entityrenderauditcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11487 -- EnchantingTableBlockEntity.tick, EndPortalBlockEntityRenderer, EndGatewayBlockEntityRenderer/BeaconBlockEntityRenderer.renderBeam, ChestBlockEntityRenderer/TexturedRenderLayers Christmas, RenderPhase glint, BookModel angles; each rule broken to prove it fails. Also drives (by name, each with a breaks-caught anti-vacuity): EnchantingTableBlockEntityRenderer, EndPortalBlockEntity, ModelUtil, BannerBlockEntityRenderer, BedBlockEntityRenderer, BellBlockEntityRenderer, CampfireBlockEntityRenderer, ConduitBlockEntityRenderer, LecternBlockEntityRenderer, GhastEntityRenderer (texture), EndermanEntityRenderer (angry/carrying model), HoglinEntityRenderer (head/legs/ears vs HoglinEntityModel), ShulkerBoxBlockEntityRenderer (lid pivot/yaw), SignBlockEntityRenderer, BatEntityRenderer, CatEntityRenderer, CatEntityModel (sit/sleep), CaveSpiderEntityRenderer, PolarBearEntityRenderer, VexEntityRenderer, WitchEntityRenderer, WitherSkeletonEntityRenderer, HuskEntityRenderer, CreeperEntityRenderer (swell), GuardianEntityRenderer, ElderGuardianEntityRenderer, GuardianEntityModel, BookModel.",
+  "file": "tools/entityrenderauditcheck.mjs"
+ }
+]

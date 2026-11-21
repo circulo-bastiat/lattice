@@ -1,0 +1,3 @@
+[
+  { "id": "capquietcheck", "kind": "check", "file": "tools/capquietcheck.mjs", "args": [], "why": "CAPQUIET (10 Nov): a role held by the usage cap gets no clock mail, no unanswered alert, no enlarger round and one log line, and is parked to the WEEK reset when the week caps" }
+]

@@ -1,0 +1,9 @@
+[
+ {
+  "id": "bedisplaycheck",
+  "kind": "check",
+  "file": "tools/bedisplaycheck.mjs",
+  "args": [],
+  "why": "#635: third-person-held and on-head displays of block-entity items (skulls, conduit, beds, banners, shield, chests) matches the jar"
+ }
+]

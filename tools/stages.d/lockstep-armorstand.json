@@ -1,0 +1,1 @@
+[ { "id": "lockstep-armorstand", "kind": "check", "file": "tools/referee/lockstepaarmorstandcheck.mjs", "args": [], "why": "#6718 G17-L122: lockstep scenario armorstand, 20 salts: hit window/double-punch break, drops, slotFromPosition thresholds (small scaled), equipment swap by use, creative break, explosion kill; chest threshold 0.9->0.85 caught." } ]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "witherdrawcheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-787 residue (G18 leftover, QUEUE 0.00 part 2) -- the wither's real three-head/ segmented-tail renderer (07j_entityrender.js): RENDER_SCALE 2.0, the ribcage/tail sway (method_17130), center_head's plain netHeadYaw/headPitch, and right_head/ left_head's rotateHead delta, all against .decomp read whole."
+ }
+]

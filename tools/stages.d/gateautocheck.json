@@ -1,0 +1,3 @@
+[
+  { "id": "gateautocheck", "kind": "check", "file": "tools/gateautocheck.mjs", "args": [], "why": "#8878: Gate M (#585) lifts itself only when matrix fresh, N/N proven, proof feed dry, no findings open; fails closed" }
+]

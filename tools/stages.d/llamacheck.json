@@ -1,0 +1,8 @@
+[
+ {
+  "id": "llamacheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/llama-s97 (QUEUE 0.2 G18e remainder close) -- LLAMA: strength/variant roll, the per-strength chest, the carpet decoration slot, its own food/temper table, breeding (Breed.CHILD.llama) and the placement-tier goal selector (spit attack, FormCaravanGoal). AFTER donkeycheck: same 07r_mount.js/07m_breed.js modules, plus the new 07ze_llama.js."
+ }
+]

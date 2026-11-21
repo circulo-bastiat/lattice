@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dolphinbreathecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4024 -- BreatheAirGoal.tick does updateVelocity(0.02F)+an extra move (vanilla BreatheAirGoal.java)."
+ }
+]

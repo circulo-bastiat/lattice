@@ -1,0 +1,1 @@
+[ { "id": "lockstep-squidswim", "kind": "check", "file": "tools/lockstep-squidswim.mjs", "args": [], "why": "#6892 G17-L175: lockstep scenario squidswim (squid + glow squid in a water tank: SwimGoal, EscapeAttackerGoal after a hurt at tick 100, ink squirt, glow dark ticks, tank drained at tick 300 -> gravity and air loss, 20 salts): escape speed 3.0 changed caught." } ]

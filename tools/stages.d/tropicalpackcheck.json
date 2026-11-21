@@ -1,0 +1,8 @@
+[
+ {
+  "id": "tropicalpackcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3051 -- TropicalFishEntity.initialize: pack followers copy the leader's TropicalFishData variant (90% branch); without packData they reroll."
+ }
+]

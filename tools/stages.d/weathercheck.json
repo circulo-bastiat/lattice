@@ -1,0 +1,8 @@
+[
+ {
+  "id": "weathercheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-655 (G20) -- WorldRenderer.renderWeather: the rain/snow columns, their alpha, heights, scroll and light, off .decomp, against Wx.buildQuads (09c_weather.js)."
+ }
+]

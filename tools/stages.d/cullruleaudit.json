@@ -1,0 +1,8 @@
+[
+ {
+  "id": "cullruleaudit",
+  "kind": "check",
+  "args": [],
+  "why": "KW-48d (#1160): every state's static cull mask vs vanilla shouldRenderFace (canOcclude + neighbour face shape covers) and the skipRendering set; proves itself with 5 deliberate breaks."
+ }
+]

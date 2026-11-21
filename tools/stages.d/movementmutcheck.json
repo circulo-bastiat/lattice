@@ -1,0 +1,1 @@
+[{"id":"movementmutcheck","kind":"check","file":"tools/movementmutcheck.mjs","args":[],"why":"#11511: assertions for the 8 surviving 14b_physics mutants (powder-snow walkers/shape, clip axis-1 + widening, solidVehicle, clipE axis loop); each real mutant is re-applied and must turn it red, N breaks caught."}]

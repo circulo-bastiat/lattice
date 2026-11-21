@@ -1,0 +1,8 @@
+[
+ {
+  "id": "coherecheck",
+  "kind": "check",
+  "args": [],
+  "why": "⚠ TWO GENERAL AUDITS RATHER THAN TWO MORE STAGE TESTS. Is a TREE whole — its canopy within vanilla's decay distance of a log, and symmetric about its own trunk — and is the world UNAWARE OF ITS OWN CHUNK GRID? The second is the general form of \"cut off at a chunk edge\", which several of this project's known bugs have been. After floatcheck because both walk the same generated worlds, and before the mesh stages because section 4 meshes what it generated."
+ }
+]

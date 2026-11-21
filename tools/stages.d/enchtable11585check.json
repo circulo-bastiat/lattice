@@ -1,0 +1,1 @@
+[{"id":"enchtable11585check","kind":"check","file":"tools/enchtable11585check.mjs","args":[],"why":"#11585: 07oy_enchtable.js EnchantingTableBlock/SwordItem/EnchantmentScreenHandler via Hud.openEnchanting + Menu.enchantClick; breaks caught."}]

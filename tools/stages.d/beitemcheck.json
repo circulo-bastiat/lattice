@@ -1,0 +1,8 @@
+[
+ {
+  "id": "beitemcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#594: beds, banners, shield, conduit and trident are drawn in the first-person hand and as dropped items (block-entity parts baked by pack-blockentity)"
+ }
+]

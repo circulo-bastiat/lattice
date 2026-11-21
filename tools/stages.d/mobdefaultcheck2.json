@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobdefaultcheck2",
+  "kind": "check",
+  "args": [],
+  "why": "D-707 leftover unit (parallel night, mob-test-passive-leftover) -- cat/ocelot flee radius was wired to 6, vanilla's own CatFleeGoal/FleeGoal say 16.0F (.decomp CatEntity.java:471/OcelotEntity.java:224). AFTER tamecheck: same Ai.ROSTER.cat/ocelot factories tamecheck's own live-wiring section (7) already touches. loop/mobdefaults (this session) -- referee finding (a): WolfEntity's own constructor (setTamed(false)) overwrites createWolfAttributes' 2.0 ATTACK_DAMAGE base to 4.0 unconditionally, wild or tamed; finding (b): MobEntity.canPickUpLoot/.persistent (CanPickUpLoot/PersistenceRequired) had no state anywhere in src/ before this session. AFTER tamecheck: drives the real Tame/EntityList/Combat/MobNbt modules, not a copy."
+ }
+]

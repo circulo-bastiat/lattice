@@ -1,0 +1,1 @@
+[{"id":"slotclasscheck","kind":"check","file":"tools/slotclasscheck.mjs","args":[],"why":"#11697: Slot (14g_menu.js Menu.slot/safeInsert/tryRemove/safeTake/slotMaxStack) behaviour via clicks + source breaks caught."}]

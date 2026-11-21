@@ -1,0 +1,8 @@
+[
+ {
+  "id": "piglinbruteidlecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#6446: piglin_brute idle RandomTask per-tick weighted shuffle cadence"
+ }
+]

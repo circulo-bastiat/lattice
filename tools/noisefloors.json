@@ -1,0 +1,161 @@
+{
+ "_doc": "#11293: every browser stage that reads pixels/screenshots must be in floors (measured min/max over n runs, margin set from the spread) or in owed (not yet measured). A new pixel stage in neither fails noisefloorcheck. 'exact' = stage reads canvas/screenshots but measures no pixel value against a threshold (reason recorded); it needs no floor.",
+ "floors": {
+  "glintdrawcheck": {
+   "what": "plain-armour whole-frame diff, px",
+   "min": 350,
+   "max": 4228,
+   "n": 3,
+   "source": "#11286/#11287: 589 CI, 4097, 4228 local, ~350 settled",
+   "margin": "zombie screen box only, minimum over several samples (fixed in #11292/#11294)"
+  },
+  "mobdrawcheck": {
+   "what": "spider brightness spread across camera angles",
+   "min": null,
+   "max": 40,
+   "n": 2,
+   "source": "#11286: 40 on the mirror, hard <40 failed",
+   "margin": "judged against the cow comparator spread: spread < 40 + cowSpread (fixed in #11290)"
+  },
+  "spritecheck": {
+   "what": "quiet-control pixel diff (px of 434880); stick signal must exceed it",
+   "min": 342,
+   "max": 426,
+   "n": 3,
+   "source": "#11293 local runs 342/395/426 control; stick signal 1290..1616, boat control 313..324",
+   "margin": "quiet gate is 0.1% = 435 px, only 9 above the worst control seen; retried up to 40 times by quietPair, signal is >3x control"
+  },
+  "weatherdrawcheck": {
+   "what": "raining on-vs-stubbed sampled pixel diff (signal); clear-sky control diff judged against its own drift",
+   "min": 29222,
+   "max": 29503,
+   "n": 4,
+   "source": "#11293 local runs: signal 29229/29222/29352/29503; clear control 238 vs drift 213",
+   "margin": "signal gate is >200 (146x below the minimum seen); control is compared to its own measured drift, not a fixed number"
+  },
+  "underwaterdrawcheck": {
+   "what": "overlay-on vs base pixel diff (signal); base-vs-base noise; spectator diff",
+   "min": 404487,
+   "max": 404820,
+   "n": 4,
+   "source": "#11293 local runs: signal 404487..404820, noise 1620..2081, spectator 12081..13641",
+   "margin": "gate is signal > max(2000, 3*noise) and spectator < 0.5*signal: signal is 60x the gate, spectator 15x under its limit"
+  },
+  "bowdrawcheck": {
+   "what": "quiet-control px (gate total/2000, retried); arrow signal px must exceed max(20,4*control)",
+   "min": 2761,
+   "max": 3099,
+   "n": 4,
+   "source": "#11293 local run: control 212, arrow 2761 > 848, bare skeleton 3955, pull-vs-idle 3099; 4 runs all passed (3 via suite, values printed only on the last)",
+   "margin": "gate adapts to the measured control (4x); signal 3.3x the gate; quiet control retried until under total/2000"
+  },
+  "inwalldrawcheck": {
+   "what": "mean brightness inside sandstone with overlay on (off-frame is the comparator)",
+   "min": 20,
+   "max": 20,
+   "n": 4,
+   "source": "#11293 local runs: on 20.0 x3 (deterministic), off 50.7..51.2, glass on=off 53.7..54.1",
+   "margin": "gate is on<40 and on<0.6*off (30.7): 2x the measured on-value, 10 under the 0.6 limit"
+  },
+  "spawnerdraw": {
+   "what": "mob-coloured px in cage box vs draw-disabled control; px that rotate at 90 degrees",
+   "min": 1373,
+   "max": 1667,
+   "n": 2,
+   "source": "#11293 local runs: control 0 px, mob vs no-mob 1667, rotated 1373; 5 suite/direct runs all passed",
+   "margin": "control is 0 (deterministic); gates are >0 against that control, signals >1000 px"
+  },
+  "titlecheck": {
+   "what": "straight-down view: sky fraction % and mean luma",
+   "min": 0.429,
+   "max": 0.429,
+   "n": 3,
+   "source": "#11293 local runs: sky 0.0%, luma 0.429 x3",
+   "margin": "gates are sky<30% and 0.12<luma<0.92: luma is 3.5x over / 2.1x under its limits"
+  },
+  "becheck": {
+   "what": "quiet-control px (retried until <total/2000); object signal px must exceed max(40,3*control)",
+   "min": 191,
+   "max": 385,
+   "n": 4,
+   "source": "#11293 local runs (4 runs, NOT mirror): control 330/385/310 | 241/207/211 | 212/224/210 | 243/191/194; signals chest 3747..4722, bed 5845..7047, banner 3914..12935, removed-box 1987",
+   "margin": "gate adapts to the measured control (3x); smallest signal 1987 px is 5x the worst control and 50x the 40 px floor"
+  },
+  "crystalbeamdrawcheck": {
+   "what": "beam appearing/disappearing px diff (signal); background px over one step",
+   "min": 3636,
+   "max": 4421,
+   "n": 2,
+   "source": "#11293 local runs: beam signal 3636..4421, bare crystal 5051..5390, background 348..364 (author notes swings 100-1200)",
+   "margin": "pixel gate is a fixed >60 BELOW the background noise on purpose; the real discriminator is the backend draw-call spy (18 calls). Signal is 10x background."
+  },
+  "borderdrawcheck": {
+   "what": "world-border wall on-vs-off px diff (signal); off-vs-off noise",
+   "min": 16109,
+   "max": 16314,
+   "n": 3,
+   "source": "#11316 local runs: signal 16109/16131/16314, noise 724/786/905, far 343..385; the bounced CI run saw noise 32877 vs signal 31876 (scene still changing)",
+   "margin": "gate is near > 200 + noise on a pair retried (up to 25x) until noise <= 3000, quietest kept: 5x under the local signal; a moving scene is retried, not judged"
+  },
+  "chunkborderdrawcheck": {
+   "what": "toggle-on delta px in line colours (signal); full-frame off-vs-off noise",
+   "min": 105680,
+   "max": 105680,
+   "n": 2,
+   "source": "#11293 local runs: delta 105680 x2 (deterministic), noise 13493..15073 (whole frame, not the colour-filtered count), off-state colour count 0",
+   "margin": "gate is delta>150 on a colour-filtered count that is 0 when off: 700x under the signal; whole-frame noise is not used"
+  },
+  "cullcheck": {
+   "what": "luma-step noise floor (px) and the stage-measured control floor; on/off diffs are signal",
+   "min": 0,
+   "max": 0,
+   "n": 2,
+   "source": "#11293 tools/noisemeasure.mjs cullcheck 2: luma noise 0 and 0; sky-less control floors 137601/115680 and 217 vs signals 1949..357428",
+   "margin": "cullcheck measures its own floor each run (rd line: pixels differ vs floor #, up to 3 attempts), so no fixed pixel number is gated"
+  },
+  "skyviewcheck": {
+   "what": "late-night star speck px (gate >30); full-moon lit px (phase counts 0..1593)",
+   "min": 103,
+   "max": 103,
+   "n": 3,
+   "source": "#11293 noisemeasure N=3 (1+2 runs): stars 103 x3, moon 1593 x3, all 8 phase counts identical every run (deterministic)",
+   "margin": "stars gate >30 is 3.4x under the measured 103; the moon is deterministic"
+  },
+  "palettecheck": {
+   "what": "fancyLeaves flip: mean saturation moved (%) on a software-GL runner; world seed is random so leaf-in-shot varies",
+   "min": 0.0,
+   "max": 15.2,
+   "n": 8,
+   "source": "#11293 8 runs: 0.0,0.7,0.9,1.6,3.1,6.1,15.2 (+1); reference frame sat 0.39..0.67 before the sky was pinned; mipmaps no-remesh flip 0.3..9.9%",
+   "margin": "the old hard gate sat>2% failed 4 of 8 runs; replaced by 'changed at all' (>0.05% sat or luma) with \u00a72's changed-pixel count proving leaves in shot; sky (dayTime 6000, no weather) now pinned"
+  }
+ },
+ "owed": [],
+ "exact": {
+  "guitexcheck": "2D-canvas texel equality against the widget sheet (wrong===0); no GPU, no threshold",
+  "titlescreencheck": "hash of the 2D HUD canvas strip compared for equality; no GPU, no pixel-count threshold",
+  "phonecontrolscheck": "captureScreenshot only saves assets/phone-controls-*.png; assertions are DOM/protocol, no pixel measure",
+  "phonerunscheck": "captureScreenshot only saves assets/phone-runs-*.png; assertions are DOM (card counts, colours differ)",
+  "phonevisualcheck": "audits DOM geometry/contrast of the phone site; screenshots are artefacts, not measured",
+  "blockcmdlivecheck": "never screenshots; reads back game state only, no pixel threshold",
+  "horsescreenpreviewcheck": "reads the 2D HUD canvas (getImageData) for a drawn preview; deterministic, no compositor",
+  "invpreviewcheck": "reads the 2D HUD canvas (getImageData) for the inventory preview; deterministic, no compositor",
+  "g11bcheck": "reads the 2D HUD canvas (getImageData) ink counts; deterministic software-drawn 2D, no GPU frame",
+  "inputcheck": "reads the 2D HUD canvas (getImageData) for slot ink; deterministic, no GPU frame",
+  "g10check": "reads the HUD 2D canvas not a screenshot (immune to compositor, per its header); px floors are 2-3x below drawn size",
+  "smoke": "getImageData of the item sheet only (2D, deterministic); no screenshot diff",
+  "smoothlivecheck": "no pixel reads; state assertions",
+  "g20acceptance": "no pixel reads; acceptance of state",
+  "diagcheck": "2D-canvas graph pixel count (lit>1500) from deterministic synthetic samples; no GPU frame",
+  "soakcheck": "no pixel reads; asserts on column/section counts over a flight",
+  "sscheck": "distinct-colour count >40 on a screenshot is a blank-frame guard, orders of magnitude from any noise (real frames have thousands)",
+  "flashcheck": "no pixel reads: counts frames/triangles/blank runs from the engine, screenshots only mentioned in comments",
+  "piglinrendercheck": "no pixel reads: asserts ER.build quad counts (file says: not a screenshot)",
+  "g17cbcheck": "every claim is made against a same-window control measured in the same run (control() at ~l.254), not a fixed pixel count",
+  "g18ccheck": "control diff re-taken up to 40 times until off-vs-off noise <1/2000 of the frame; claims compare to that control",
+  "signtextdrawcheck": "plain magnitude comparison between two live screenshots (file header); no fixed pixel threshold",
+  "lumacheck": "fence SPIKE=0.15 set from a measured healthy flight (worst 0.025, 6x margin), documented in file header per D-236",
+  "panoramacheck": "relative comparison of synthetic-face screenshots (dist vs spread over solid test faces), no golden or noisy pixel count",
+  "mobsweepcheck": "same file as mobdrawcheck (sweep section); its measured floor is recorded under mobdrawcheck"
+ }
+}

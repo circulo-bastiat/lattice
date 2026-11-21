@@ -1,0 +1,9 @@
+[
+ {
+  "id": "guilayoutcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ]
+ }
+]

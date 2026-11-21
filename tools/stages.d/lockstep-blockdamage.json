@@ -1,0 +1,1 @@
+[{"id": "lockstep-blockdamage", "kind": "check", "file": "tools/referee/blockdamagelockstepcheck.mjs", "args": [], "why": "#6716 G17-L120: lockstep scenario blockdamage, 20 salts: cactus, magma block, campfire/soul campfire (fire-immune, Frost Walker, armour bypass), sweet berry 0.003 threshold, wither rose vs decomp onEntityCollision/onSteppedOn."}]

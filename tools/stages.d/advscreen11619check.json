@@ -1,0 +1,1 @@
+[{"id": "advscreen11619check", "kind": "check", "file": "tools/advscreen11619check.mjs", "args": [], "why": "#11619: 15m_advscreen.js AdvancementTab/TabType/Widget/Screen geometry, selection, pan and entry points; each cut must fail; breaks caught."}]

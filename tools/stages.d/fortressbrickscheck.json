@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fortressbrickscheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3768 -- SpawnHelper.shouldUseNetherFortressSpawns: monster over nether_bricks inside the fortress start box (not just a piece box) gets the fortress list; breaks its own flag and prints '<n> breaks caught'."
+ }
+]

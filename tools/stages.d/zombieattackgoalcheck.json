@@ -1,0 +1,8 @@
+[
+ {
+  "id": "zombieattackgoalcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2826 -- ZombieAttackGoal arm-raise: e.aggressive false before tick 5 and while cooldown>=max/2; stop() clears."
+ }
+]

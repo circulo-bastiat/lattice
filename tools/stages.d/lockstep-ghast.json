@@ -1,0 +1,1 @@
+[ { "id": "lockstep-ghast", "kind": "check", "file": "tools/referee/ghastlockstepcheck.mjs", "args": [], "why": "#6316 G17-L65: lockstep scenario ghast, 20 salts: charge counter (isCharging), fireball spawn/flight per tick, open air and behind a wall, vs decomp GhastEntity.ShootFireballGoal." } ]

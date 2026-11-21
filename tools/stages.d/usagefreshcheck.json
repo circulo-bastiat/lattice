@@ -1,0 +1,1 @@
+[{"id":"usagefreshcheck","kind":"check","file":"tools/usagefreshcheck.mjs","args":[],"why":"#11253: usage() reads file, usage-data branch and MCLITE_USAGE and uses the newest `at` in every order (corrupt/empty file, missing variable); 4 breaks caught."}]

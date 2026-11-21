@@ -1,0 +1,10 @@
+[
+ {
+  "id": "diagcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "D-431 — the F4 diagnostics overlay and the debug-key remap. It is next to `inputcheck` for the same reason `inputcheck` exists: every assertion in it is about a key handler on `window` and a DOM tree the engine builds at runtime, and there is no Node-level version of either. It also measures what the panel costs the frame it is measuring."
+ }
+]

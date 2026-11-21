@@ -1,0 +1,1 @@
+[{"id": "lockstep-wolfdefend", "kind": "check", "file": "tools/referee/wolfdefendlockstepcheck.mjs", "args": [], "why": "#6863 G17-L162: lockstep scenario wolfdefend, 20 salts: tamed wolf OwnerHurtByTarget/OwnerHurtTarget, sit exemption, creeper/ghast/other-owner-wolf exemption; removed exemption or disabled goal caught."}]

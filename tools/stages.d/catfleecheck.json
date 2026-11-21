@@ -1,0 +1,1 @@
+[{"id": "catfleecheck", "kind": "check", "file": "tools/catfleecheck.mjs", "args": [], "why": "#7654: untamed cat flees survival player (also when hit), not creative/tamed; tamed mid-flee stops; flee removed/ungated breaks caught."}]

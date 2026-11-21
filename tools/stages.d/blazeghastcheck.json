@@ -1,0 +1,8 @@
+[
+ {
+  "id": "blazeghastcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/blazeghast: blaze + ghast + fireballs"
+ }
+]

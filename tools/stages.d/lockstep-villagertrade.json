@@ -1,0 +1,1 @@
+[{"id": "lockstep-villagertrade", "kind": "check", "file": "tools/lockstep-villagertrade.mjs", "args": [], "why": "#7902 G18f-L1: level-1 offer lists, 13 professions x 7 types x 20 salts, field invariants + determinism; changed buy count / price multiplier / maxUses / result caught."}]

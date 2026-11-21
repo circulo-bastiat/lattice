@@ -1,0 +1,1 @@
+[{"id": "credits11615check", "kind": "check", "file": "tools/credits11615check.mjs", "args": [], "why": "#11615: 15m_credits.js CreditsScreen build/speed/keys/close and entry points; each cut must fail; breaks caught."}]

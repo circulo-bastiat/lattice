@@ -1,0 +1,1 @@
+[ { "id": "lockstep-suffocate", "kind": "check", "file": "tools/referee/suffocatelockstepcheck.mjs", "args": [], "why": "#6613 G17-L87: lockstep scenario suffocate, 20 salts: cow/zombie/baby zombie with stone/glass/slab/leaves at the eye and sand landing; health and invulnerableTime per tick vs the Entity.isInsideWall reference." } ]

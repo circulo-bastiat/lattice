@@ -1,0 +1,1 @@
+[{"id": "lockstep-mountdismount", "kind": "check", "file": "tools/referee/mountdismountlockstepcheck.mjs", "args": [], "why": "#8840 G17-L248: lockstep scenario mountdismount, 20 salts x horse/donkey/pig/llama beside walls, fences, slabs and trapdoors: HorseBaseEntity/PigEntity.updatePassengerForDismount exit cell + rider pose vs the decomp ladder."}]

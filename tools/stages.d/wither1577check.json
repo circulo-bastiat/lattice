@@ -1,0 +1,8 @@
+[
+ {
+  "id": "wither1577check",
+  "kind": "check",
+  "args": [],
+  "why": "#1577 -- WitherEntityRenderer: wither_invulnerable.png while the spawn timer runs (flashing in the last 80 ticks), scale 2.0 - (timer-partial)/220*0.5, block light 15."
+ }
+]

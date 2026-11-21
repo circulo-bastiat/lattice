@@ -1,0 +1,1 @@
+[ { "id": "firelockstepcheck", "kind": "check", "file": "tools/referee/firelockstepcheck.mjs", "args": [], "why": "#6266 G17-L34: lockstep scenario fire, 20 salts: a cow in lava (15 s + 4 damage), on a fire block (8 s, 1/hit), ignited in water (extinguished) - fireTicks/health/fluid vs decomp reference." } ]

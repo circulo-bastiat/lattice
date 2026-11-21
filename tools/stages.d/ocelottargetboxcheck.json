@@ -1,0 +1,8 @@
+[
+ {
+  "id": "ocelottargetboxcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4438: ocelot chicken/turtle ActiveTargetGoal uses livingBox (bbox.expand(r,4,r)); proves the old centre-Y band goal misses a chicken the box covers."
+ }
+]

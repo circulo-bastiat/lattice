@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-slide_down_blockcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT9 (#7756) — Adv.matchers slide_down_block + the HoneyBlock slide call site; adventure/honey_block_slide completes, a non-matching block does not; breaks its own matcher."
+ }
+]

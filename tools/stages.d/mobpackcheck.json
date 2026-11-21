@@ -1,0 +1,10 @@
+[
+ {
+  "id": "mobpackcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "parallel night, worker 2: MULTI-attacker/pack combat, live in the browser (MCLITE_PRESET= medium) -- every prior deep-test pass provoked each mob with exactly ONE attacker; this is the first stage that provokes 2+ simultaneous attackers/targets against the real EL.tick() loop. Found and fixed a real bug along the way: `/summon <entity>` (15g_commands.js) passed the entity's data ROW into EL.spawn instead of its name STRING, so every `/summon` of every type failed outright -- this stage's own section 0 proves the fix live, and every later section spawns strictly through the real command (not a direct EL.spawn back door)."
+ }
+]

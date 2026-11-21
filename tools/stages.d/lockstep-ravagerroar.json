@@ -1,0 +1,1 @@
+[{"id": "lockstep-ravagerroar", "kind": "check", "file": "tools/lockstep-ravagerroar.mjs", "args": [], "timeoutMin": 10, "why": "#8643 G18b-L34: ravager vs shield block, 20 salts x 800 ticks: 50% stun 40 ticks, roar 20 ticks after, roar at roarTick 10 hurts/knocks back the 4-block box (illager unhurt, far cow untouched); stun 40 changed to 30 caught (4 breaks caught)."}]

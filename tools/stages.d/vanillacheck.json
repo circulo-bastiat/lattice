@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vanillacheck",
+  "kind": "check",
+  "args": [],
+  "why": "⚠ THE ONLY CHECK IN THIS LIST THAT COMPARES MC-LITE AGAINST A WORLD VANILLA ACTUALLY GENERATED. Everything above it compares against vanilla's JSON DATA, which says what the generator is configured to do; only a generated world says what it did. It reads real 1.18.2 Anvil region files and SKIPS CLEANLY, printing where it looked, when they are not on this machine — so a machine without the 97 MB of golden data still gets \"0 stages failed\", and the skip line says out loud that this run did not see the real game (D-199)."
+ }
+]

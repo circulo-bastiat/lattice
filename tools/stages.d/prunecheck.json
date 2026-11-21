@@ -1,0 +1,3 @@
+[
+  { "id": "prunecheck", "kind": "check", "file": "tools/prunecheck.mjs", "args": [] }
+]

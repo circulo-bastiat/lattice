@@ -1,0 +1,1 @@
+[ { "id": "lockstep-horsefeed", "kind": "check", "file": "tools/lockstep-horsefeed.mjs", "args": [], "why": "#8654 G18b-L39: lockstep scenario horsefeed (receiveFood heal/grow/temper/love/eating per food, adult and baby horse/donkey/mule/llama, 20 salts): golden_apple heal 10 -> 8 caught." } ]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-lavadamage", "kind": "check", "file": "tools/lockstep-lavadamage.mjs", "args": [], "why": "#10363: lava contact damage on a pig and a fire-immune blaze tick by tick vs the real-server lanes lavadamage/lavaimmune (lanes.d, pilot.mjs --lanes lavadamage,lavaimmune); writes mobproof/out/damage-lava.json; breaks caught." } ]

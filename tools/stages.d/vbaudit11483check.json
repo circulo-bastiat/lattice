@@ -1,0 +1,1 @@
+[{"id":"vbaudit11483check","kind":"check","file":"tools/vbaudit11483check.mjs","args":[],"why":"#11483: ConcretePowderBlock, LandingBlock, RaycastContext, LunarWorldView, ZombieHorseEntity, FlyingEntity, GolemEntity, ThrownItemEntity, AbstractFireballEntity, DataTracker, PlayDeadTimerTask, EntityHitResult via EntityList; 14 breaks caught."}]

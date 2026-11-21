@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spawnercartcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3682 -- spawner minecart MobSpawnerLogic NBT (Delay/Min/MaxSpawnDelay/SpawnCount/MaxNearbyEntities/RequiredPlayerRange/SpawnRange/SpawnData/SpawnPotentials) round trip + weighted pick + entityDataRequiresOperator; edited-source breaks must be noticed."
+ }
+]

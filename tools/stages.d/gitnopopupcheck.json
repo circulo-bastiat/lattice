@@ -1,0 +1,3 @@
+[
+  { "id": "gitnopopupcheck", "kind": "check", "file": "tools/gitnopopupcheck.mjs", "args": [] }
+]

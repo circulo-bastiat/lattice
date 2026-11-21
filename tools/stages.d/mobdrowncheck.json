@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobdrowncheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3103 -- land mobs drown (300 air, 2 dmg at -20, +4 refill); iron golem, water mobs and undead never do (.decomp LivingEntity.baseTick)."
+ }
+]

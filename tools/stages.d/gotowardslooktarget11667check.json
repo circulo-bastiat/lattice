@@ -1,0 +1,1 @@
+[{"id":"gotowardslooktarget11667check","kind":"check","file":"tools/gotowardslooktarget11667check.mjs","args":[],"why":"#11667: 07zzze_axolotlidle.js GoTowardsLookTarget reachable from axolotl roster -> makeWanderTask; breaks caught."}]

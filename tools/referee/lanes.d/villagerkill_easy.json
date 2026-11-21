@@ -1,0 +1,1 @@
+{ "id": "villagerkill_easy", "mob": "zombie", "vk": true, "diff": "easy", "far": true, "ticks": 300, "note": "#6330: villagerkill at easy: the villager dies and never converts" }

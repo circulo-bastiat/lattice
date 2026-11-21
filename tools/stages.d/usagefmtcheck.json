@@ -1,0 +1,3 @@
+[
+  { "id": "usagefmtcheck", "kind": "check", "file": "tools/usagefmtcheck.mjs", "args": [] }
+]

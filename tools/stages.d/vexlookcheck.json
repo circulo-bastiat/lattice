@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vexlookcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#764 -- vex goal roster matches VexEntity.initGoals (0,4,8,9,10 + targets 1,2,3); LookAtEntityGoal(Mob,8F) at priority 10 is wired."
+ }
+]

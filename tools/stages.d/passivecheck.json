@@ -1,0 +1,8 @@
+[
+ {
+  "id": "passivecheck",
+  "kind": "check",
+  "args": [],
+  "why": "QUEUE 0.2 (G18c) -- sheep/chicken/pig: the closed motion set gaining all three, their Ai.ROSTER goal lists (.decomp's own initGoals(), jar priorities), Spawn.RULES aliasing cow's own Animal rule (none of the three override it), and 07w_passive.js's own leftover state -- wool colour roll/mix, shearing's drop, the chicken egg timer and slow-fall. AFTER breedcheck: it drives Breed.CHILD.sheep, live."
+ }
+]

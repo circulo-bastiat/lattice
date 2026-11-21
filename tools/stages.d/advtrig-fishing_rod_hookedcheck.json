@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-fishing_rod_hookedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT14 (#7761) — Adv.matchers fishing_rod_hooked + the Fishing.reel call site; husbandry/fishy_business completes, junk/hooked entity does not; breaks its own matcher."
+ }
+]

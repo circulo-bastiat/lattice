@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dustspritecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5773: shulker boxes, bell, conduit, barrier, light (16 levels), structure_void break with dust and the right sprite layer; builtin/entity block list has no silent member; restoring the OWED skip fails it."
+ }
+]

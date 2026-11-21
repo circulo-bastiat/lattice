@@ -1,0 +1,8 @@
+[
+ {
+  "id": "golemanimcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#730 -- iron golem pose: IronGolemEntityModel.setAngles/animateModel (wrap(13) legs/arms, attack arms -2+1.5*wrap(t-pd,10), flower arm) vs ER.setupAnimDelta, not the humanoid walk."
+ }
+]

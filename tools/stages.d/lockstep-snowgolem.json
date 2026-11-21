@@ -1,0 +1,1 @@
+[ { "id": "lockstep-snowgolem", "kind": "check", "file": "tools/referee/lockstepsnowgolemcheck.mjs", "args": [], "why": "#6684 G17-L113: lockstep scenario snowgolem, 20 salts: snow trail on grass, heat damage by biome temperature > 1.0, rain damage, 20-tick shot cadence, snowball speed, shear; warm threshold and trail offsets changes caught." } ]

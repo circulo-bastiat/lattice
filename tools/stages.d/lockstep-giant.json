@@ -1,0 +1,1 @@
+[{"id": "lockstep-giant", "kind": "check", "file": "tools/lockstep-giant.mjs", "args": [], "why": "#5458 G17-L4: engine-side chasescen giant lane, 20 salts (pos, yaw, pitch, headYaw, onGround per tick); deterministic per salt; 1e-9 drifts caught. Server comparison runs through lockstep/pilot.mjs --lanes giant."}]

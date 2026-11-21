@@ -1,0 +1,8 @@
+[
+ {
+  "id": "crystalrendercheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-835 (loop/crystal-render-beam) -- EC.OWED's own line, CLOSED: the end_crystal entity's own render model (base/glass/glass/cube, EndCrystalEntityRenderer's hand-built matrix chain, .decomp) and its optional beam-to-target visual (ER.crystalBeamQuads, a new primitive -- this engine had none), both structural (no browser stage, no pixel) -- ER.visible/ER.build's own draw-list/beamQuads are the only things asserted, per this pass's brief."
+ }
+]

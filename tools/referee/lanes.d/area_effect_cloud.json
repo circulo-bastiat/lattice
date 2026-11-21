@@ -1,0 +1,1 @@
+{ "id": "area_effect_cloud", "mob": "area_effect_cloud", "up": 1, "nbt": "Radius:3.0f,Duration:600,WaitTime:10,RadiusOnUse:-0.5f,RadiusPerTick:-0.005f,ReapplicationDelay:20,Potion:\"minecraft:poison\"", "note": "#8288: lingering-style cloud summoned in the lane corridor; rows pos/vel/tick" }

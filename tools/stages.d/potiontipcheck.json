@@ -1,0 +1,8 @@
+[
+ {
+  "id": "potiontipcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#302 (G23) -- PotionUtil.buildTooltip: effect lines with amplifier/duration, No Effects, When Applied modifier lines, 1/4 lingering and 1/8 tipped-arrow durations, vs .decomp. Breaks its own tables and shows it caught."
+ }
+]

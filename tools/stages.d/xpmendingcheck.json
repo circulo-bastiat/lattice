@@ -1,0 +1,8 @@
+[
+ {
+  "id": "xpmendingcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G21 -- Mending on orb pickup (Xp.repairPlayerGears, ExperienceOrbEntity.repairPlayerGears): a damaged Mending item in hand/offhand/armour repairs 2 durability per xp, leftover xp reaches the bar; unenchanted or undamaged gets the full xp. Anti-vacuity: broken ratios caught."
+ }
+]

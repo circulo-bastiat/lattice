@@ -1,0 +1,1 @@
+[{"id":"signeditscreen11725check","kind":"check","file":"tools/signeditscreen11725check.mjs","args":[],"why":"#11725: SignEditScreen via H.openSignEdit (opened on sign placement), 90px line typing, Up/Down/Enter line stepping, Done/Esc commit to the sign BE, draw dispatch and input routing; source breaks caught."}]

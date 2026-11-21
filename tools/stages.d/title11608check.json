@@ -1,0 +1,1 @@
+[{"id":"title11608check","kind":"check","file":"tools/title11608check.mjs","args":[],"why":"#11608: 15m_title.js TitleScreen layout/press/draw, PressableTextWidget, RotatingCubeMapRenderer/CubeMapRenderer via Title.draw; source breaks caught."}]

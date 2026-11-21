@@ -1,0 +1,81 @@
+# entity-attributes-1.18.2.tsv — mob attributes, out of the 1.18.2 bytecode (D-336).
+# Attributes = ayz. Values are resolved through the SUPERCLASS CHAIN, because a mob
+# that does not declare an attribute inherits it — a cow gets its speed from Animal.
+# An empty cell means no class in the chain declares that attribute.
+# Types with no maxHealth at all are not living entities and are listed in this header:
+#   area_effect_cloud arrow boat chest_minecart command_block_minecart dragon_fireball egg end_crystal ender_pearl evoker_fangs experience_bottle experience_orb eye_of_ender falling_block fireball firework_rocket fishing_bobber furnace_minecart glow_item_frame hopper_minecart item item_frame leash_knot lightning_bolt llama_spit marker minecart painting potion shulker_bullet small_fireball snowball spawner_minecart spectral_arrow tnt tnt_minecart trident wither_skull
+type	class	maxHealth	movementSpeed	attackDamage	followRange	knockbackResistance	attackKnockback
+armor_stand	bkz	20	0.699999988079071			0	
+axolotl	bjf	14	1	2	16	0	0
+bat	bhy	6	0.699999988079071		16	0	0
+bee	bie	10	0.30000001192092896	2	48	0	0
+blaze	bln	20	0.23000000417232513	6	48	0	0
+cat	big	10	0.30000001192092896	3	16	0	0
+cave_spider	blo	12	0.30000001192092896	2	16	0	0
+chicken	bih	4	0.25		16	0	0
+cod	bii	3	0.699999988079071		16	0	0
+cow	bij	10	0.20000000298023224		16	0	0
+creeper	blp	20	0.25	2	16	0	0
+dolphin	bik	10	1.2000000476837158	3	16	0	0
+donkey	bjp	53	0.17499999701976776		16	0	0
+drowned	blr	20	0.23000000417232513	3	35	0	0
+elder_guardian	bls	80	0.30000001192092896	8	16	0	0
+ender_dragon	bkd	200	0.699999988079071		16	0	0
+enderman	blt	40	0.30000001192092896	7	64	0	0
+endermite	blu	8	0.25	2	16	0	0
+evoker	blw	24	0.5	2	12	0	0
+fox	bim	10	0.30000001192092896	2	32	0	0
+ghast	blx	10	0.699999988079071		100	0	0
+giant	bly	100	0.5	50	16	0	0
+glow_squid	axs	10	0.699999988079071		16	0	0
+goat	bjk	10	0.20000000298023224	2	16	0	0
+guardian	blz	30	0.5	6	16	0	0
+hoglin	bmz	40	0.30000001192092896	6	16	0.6000000238418579	1
+horse	bjq	53	0.22499999403953552		16	0	0
+husk	bma	20	0.23000000417232513	3	35	0	0
+illusioner	bmb	32	0.5	2	18	0	0
+iron_golem	bin	100	0.25	15	16	1	0
+llama	bjr	53	0.17499999701976776		40	0	0
+magma_cube	bmc	20	0.20000000298023224	2	16	0	0
+mooshroom	bio	10	0.20000000298023224		16	0	0
+mule	bjt	53	0.17499999701976776		16	0	0
+ocelot	bip	10	0.30000001192092896	3	16	0	0
+panda	biq	20	0.15000000596046448	6	16	0	0
+parrot	bir	6	0.20000000298023224		16	0	0
+phantom	bmf	20	0.699999988079071	2	16	0	0
+pig	bis	10	0.25		16	0	0
+piglin	bnf	16	0.3499999940395355	5	16	0	0
+piglin_brute	bni	50	0.3499999940395355	7	16	0	0
+pillager	bmg	24	0.3499999940395355	5	32	0	0
+polar_bear	bit	30	0.25	6	20	0	0
+pufferfish	biu	3	0.699999988079071		16	0	0
+rabbit	biv	3	0.30000001192092896		16	0	0
+ravager	bmi	100	0.3	12	32	0.75	1.5
+salmon	biw	3	0.699999988079071		16	0	0
+sheep	bix	8	0.23000000417232513		16	0	0
+shulker	bmj	30	0.699999988079071		16	0	0
+silverfish	bmk	8	0.25	1	16	0	0
+skeleton	bml	20	0.25	2	16	0	0
+skeleton_horse	bju	15	0.20000000298023224		16	0	0
+slime	bmm	20	0.699999988079071	2	16	0	0
+snow_golem	biz	4	0.20000000298023224		16	0	0
+spider	bmo	16	0.30000001192092896	2	16	0	0
+squid	bja	10	0.699999988079071		16	0	0
+stray	bmp	20	0.25	2	16	0	0
+strider	bmq	20	0.17499999701976776		16	0	0
+trader_llama	bjw	53	0.17499999701976776		40	0	0
+tropical_fish	bjb	3	0.699999988079071		16	0	0
+turtle	bjc	30	0.25		16	0	0
+vex	bmr	14	0.699999988079071	4	16	0	0
+villager	bnw	20	0.5		48	0	0
+vindicator	bms	24	0.3499999940395355	5	12	0	0
+wandering_trader	boc	20	0.699999988079071		16	0	0
+witch	bmt	26	0.25	2	16	0	0
+wither	bkx	300	0.6000000238418579	2	40	0	0
+wither_skeleton	bmu	20	0.25	2	16	0	0
+wolf	bje	8	0.30000001192092896	2	16	0	0
+zoglin	bmv	40	0.30000001192092896	6	16	0.6000000238418579	1
+zombie	bmw	20	0.23000000417232513	3	35	0	0
+zombie_horse	bjy	15	0.20000000298023224		16	0	0
+zombie_villager	bmx	20	0.23000000417232513	3	35	0	0
+zombified_piglin	bmy	20	0.23000000417232513	5	35	0	0

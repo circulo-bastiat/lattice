@@ -1,0 +1,9 @@
+[
+ {
+  "id": "stonecuttercheck",
+  "kind": "check",
+  "file": "tools/stonecuttercheck.mjs",
+  "args": [],
+  "why": "#8055 G19e: StonecutterScreenHandler as Menu.stonecutterMenu: all 198 stonecutting recipes list, select and yield the vanilla count, taking spends one input; breaks its own recipe list and counts."
+ }
+]

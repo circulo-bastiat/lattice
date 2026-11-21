@@ -1,0 +1,10 @@
+[
+ {
+  "id": "infocmdcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "session 150, worker 3 -- /list, /seed, /say, /me, /msg, /tell, /w vanilla-parity audit, LIVE. Found and fixed in src/15g_commands.js: /msg's INCOMING whisper line (delivered over `toChat`, a real component tree) carried no style at all -- `.decomp` MessageCommand.execute wraps both the outgoing and incoming text in `.formatted(Formatting.GRAY, Formatting.ITALIC)` (field_1080/field_1056), and a whisper that renders identically to ordinary chat loses the one visual cue that says \"this was private.\" Fixed by passing `{ color: 'gray', italic: true }` as `T.translatable`'s style argument. /tell and /w confirmed to be the exact same command via `.redirect`, not independent copies that could drift. Everything else in the unit (/list's player-count format, /seed's feedback string, /say's and /me's broadcast formats and permission gates) already matched `.decomp` and is asserted here as a live smoke."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spiderclimbcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5308 spider onClimbable reads the synced climbing flag set after the tick's move (one tick behind horizontalCollision); breaks its own source to prove it can fail."
+ }
+]

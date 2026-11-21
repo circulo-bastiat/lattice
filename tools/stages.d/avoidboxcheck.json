@@ -1,0 +1,8 @@
+[
+ {
+  "id": "avoidboxcheck",
+  "kind": "check",
+  "args": [],
+  "why": "cloud unit 1 (D-772), moved from stages.d"
+ }
+]

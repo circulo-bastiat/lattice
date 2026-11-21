@@ -1,0 +1,3 @@
+[
+  { "id": "entityarmorattrcheck", "kind": "check", "file": "tools/entityarmorattrcheck.mjs", "args": [], "why": "#11676 EntityAttributes.field_23724 generic.armor (07h_entities.js Ent.ARMOR): wither 4, others registry default 0, reaching Eq.armorOf; cut column / extra armor / attrsOf cut are caught." }
+]

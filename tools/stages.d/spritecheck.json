@@ -1,0 +1,10 @@
+[
+ {
+  "id": "spritecheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "⚠ PLAN G17d — the SPRITE half of the same argument (D-342). `g17cbcheck` above drops a BLOCK, which was drawn all along; `ER.OWED_ITEM` named \"sprite items (no block model)\" as a written-down deviation and every headless check stayed green while a dropped stick, apple and ingot were invisible. This one drops a stick in front of the camera and asserts the PIXELS, and holds the ground transforms, the span sides and java.util.Random against the bytecode table `tools/golden/itemmodel-1.18.2.tsv`."
+ }
+]

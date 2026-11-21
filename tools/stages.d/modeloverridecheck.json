@@ -1,0 +1,1 @@
+[{"id":"modeloverridecheck","kind":"check","args":[],"why":"#4963 -- a brain run whose reason carries model=<id> uses that model (Dan, 10 Oct: one Haiku 5.5 worker test), nothing else changes the model, shell junk is refused, testers run at low effort; broken rules/wirings must be caught (breaks caught)."}]

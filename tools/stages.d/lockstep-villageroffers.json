@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-villageroffers",
+  "kind": "check",
+  "file": "tools/referee/villagerofferslockstepcheck.mjs",
+  "args": [],
+  "why": "#7097 G18f-L6: lockstep scenario villageroffers, 20 salts: 13 professions x levels 1-5, fillRecipesFromPool pick + every Factory.create (buy, buyB, sell, maxUses, xp, multiplier, Random draws) vs TradeOffers.java parsed from .decomp; swapped pool order caught."
+ }
+]

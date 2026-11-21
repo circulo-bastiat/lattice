@@ -1,0 +1,1 @@
+[{"id": "lockstep-projectiledamage", "kind": "check", "file": "tools/lockstep-projectiledamage.mjs", "args": [], "why": "#12328 (part of #9188): trident and ghast-fireball damage lanes on a NoAI zombie, engine trace vs the real server's rep 0 (hp 12.128 at tick 3 / 14.096 at tick 14, 20 salts each), feeds damage.json; wrong damage, late hit, position, row shift caught."}]

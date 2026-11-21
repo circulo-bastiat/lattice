@@ -1,0 +1,8 @@
+[
+ {
+  "id": "despawnordercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#6336 -- despawn roll runs from EL.tickMob at the vanilla checkDespawn slot; (tick,mob) removal order hand-derived; break proof disables the in-tick roll."
+ }
+]

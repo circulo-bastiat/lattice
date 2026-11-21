@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endermitetargetcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4136: endermite/enderman ActiveTargetGoal use respectsVisibility + reciprocalChance 10. Breaks its own data."
+ }
+]

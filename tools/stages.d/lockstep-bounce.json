@@ -1,0 +1,1 @@
+[ { "id": "lockstep-bounce", "kind": "check", "file": "tools/referee/bouncelockstepcheck.mjs", "args": [], "why": "#6712 G17-L116: lockstep scenario bounce (cow/zombie from 3/8/20 onto slime/bed/hay/honey/stone, 20 salts, sneak cancels): bounce velocity -vy (slime), -0.66 vy (bed), fall damage multipliers; bed 0.66->0.67, hay and slime multiplier changes caught." } ]

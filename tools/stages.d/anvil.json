@@ -1,0 +1,3 @@
+[
+ { "id": "anvilcheck", "kind": "check", "args": [], "why": "G22d — anvil: cost/prior-work penalty/Too Expensive against AnvilScreenHandler; breaks its own module (penalty, doubling, cap) to prove it can fail." }
+]

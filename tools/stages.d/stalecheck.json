@@ -1,0 +1,3 @@
+[
+  { "id": "stalecheck", "kind": "check", "file": "tools/stalecheck.mjs", "args": [] }
+]

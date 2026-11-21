@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobtexcheck",
+  "kind": "check",
+  "args": [],
+  "why": "PASS 16 JOB 4.2's GPU wiring, data half: proves assets/mob-tiles.bin + mob-geometry.json (tools/pack-mobtex.mjs) byte-identical to an independent re-decode of the source jar, for every shipped face-slice of eight G18a anchor layers, plus no-overlap and in-bounds checks over the WHOLE packed set. Node-only -- no picture, no live entity; see git 2a8efe1:docs/passes/PASS-16-HISTORY.md."
+ }
+]

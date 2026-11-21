@@ -1,0 +1,3 @@
+[
+  { "id": "lockstep-player", "kind": "check", "file": "tools/lockstep-player.mjs", "args": [], "why": "#6988 G17: lockstep player movement-input driver (input packets, headless engine player stepper with food/exhaustion trace)." }
+]

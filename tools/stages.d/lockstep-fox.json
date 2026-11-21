@@ -1,0 +1,1 @@
+[ { "id": "lockstep-fox", "kind": "check", "file": "tools/referee/lockstepfoxcheck.mjs", "args": [], "why": "#6475 G17-L4: fox lane, 20 salts engine trace deterministic, pilot 0 divergences; tampered pos 1e-9/yaw/headYaw/onGround/shift breaks caught." } ]

@@ -1,0 +1,9 @@
+[
+ {
+  "id": "projblockhitcheck",
+  "kind": "check",
+  "file": "tools/projblockhitcheck.mjs",
+  "args": [],
+  "why": "#8660 -- Block.onProjectileHit: one table Cb.PROJ_BLOCK_HIT fires exactly once per block hit for arrow, trident, snowball, egg, ender pearl, fireball, small fireball and wither skull, and never on an entity hit; a dropped call site goes red. Node-only."
+ }
+]

@@ -1,0 +1,9 @@
+[
+ {
+  "id": "squidglowproofcheck",
+  "kind": "check",
+  "file": "tools/squidglowproofcheck.mjs",
+  "args": [],
+  "why": "#11684: GlowSquidEntity (07zi_squid.js) dark ticks on hurt, countdown, glow particle and deep-water spawn band; 3 breaks caught."
+ }
+]

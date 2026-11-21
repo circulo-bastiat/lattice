@@ -1,0 +1,1 @@
+[ { "id": "lockstep-hanging", "kind": "check", "file": "tools/referee/lockstephangingcheck.mjs", "args": [], "why": "#6857 G17-L156: lockstep scenario hanging, 20 salts: item frame/glow frame/painting survival check on the 101st tick, item-first break, rotation 8 steps, arrow/explosion hits, drops with tick+pos; 100->99 caught." } ]

@@ -1,0 +1,1 @@
+[{"id":"vbaudit11482check","kind":"check","file":"tools/vbaudit11482check.mjs","args":[],"why":"#11482: PotatoesBlock/BeetrootsBlock/FernBlock/NyliumBlock/FungusBlock growth, ScheduleRule, SecondaryPointsOfInterestSensor, StartRaidTask/EndRaidTask, VillagerWalkTowardsTask, GoToIfNearbyTask; 17 breaks caught; adds SeekSkyTask + ScheduleActivityTask."}]

@@ -1,0 +1,10 @@
+[
+ {
+  "id": "worldcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "⚠ THE BROWSER STAGE THAT ASKS WHETHER THE WORLD TICKS **IN THE GAME** (D-301). `tickcheck` asks it structurally of the bundle; this one plays: it puts water, fire, a torch, a piston and a furnace in a real world, lets the real loop run for seconds, and looks. Its decisive assertion removes `Main.worldTick` from the running page and shows the same water does not move — which is what every build before session 9 did."
+ }
+]

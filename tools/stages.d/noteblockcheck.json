@@ -1,0 +1,8 @@
+[
+ {
+  "id": "noteblockcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G19ef — note block instruments (Instrument.fromBlockState vs the material tsv), neighbour update, air-above rule, power edge, use/punch, pitch table, NOTE particle."
+ }
+]

@@ -1,0 +1,1 @@
+[{"id":"vbbell11666check","kind":"check","file":"tools/vbbell11666check.mjs","args":[],"why":"#11666: 07zv7_vbbell.js HideWhenBellRingsTask/ForgetBellRingTask reached from villager brain tick + bell ring; breaks caught."}]

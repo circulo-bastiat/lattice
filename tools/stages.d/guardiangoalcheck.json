@@ -1,0 +1,8 @@
+[
+ {
+  "id": "guardiangoalcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1072 -- GuardianEntity.initGoals (07zzr_guardian.js, Ai.ROSTER guardian/elder_guardian) and MobEntity's position-target substrate (Ai.setPositionTarget/isInWalkTargetRange/GoToWalkTargetGoal): roster priorities, FireBeam warm-up/damage, target predicate, wander chance 80 + ignoreChanceOnce. Breaks its own constants and must notice."
+ }
+]

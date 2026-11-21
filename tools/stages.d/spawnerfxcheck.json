@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spawnerfxcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#168 (G18c-e) -- the monster spawner's client half: MobSpawnerLogic.clientTick's smoke + flame particles at one shared point (only with a player in range), the spin advance 1000/(delay+200), the FlameParticle numbers and MobSpawnerBlockEntityRenderer's scale/lift/spin. Breaks five mutants of its own engine (prints '<n> breaks caught')."
+ }
+]

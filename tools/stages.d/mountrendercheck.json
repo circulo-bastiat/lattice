@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mountrendercheck",
+  "kind": "check",
+  "args": [],
+  "why": "QUEUE 0.2 (G18e remainder, Mnt.OWED/Ll.OWED render close, unit A) -- the RENDER overlays this session wired: llama base-colour-by-e.variant, the carpet decoration overlay, the horse colour-marking overlay, the horse armour overlay, and the donkey/mule/llama chest box hide/show (e.hasChest). AFTER llamacheck: same 07r_mount.js/07ze_llama.js modules, plus 07j_entityrender.js's new hideParts channel."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vexcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#760 -- the charging vex: VexEntityRenderer swaps to vex_charging.png while isCharging(); VexEntityModel.setAngles poses the main arm at 3.7699115, right_leg += pi/5 and the wings (pivot/yaw/pitch/roll)."
+ }
+]

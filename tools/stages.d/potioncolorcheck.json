@@ -1,0 +1,1 @@
+[{"id":"potioncolorcheck","kind":"check","file":"tools/potioncolorcheck.mjs","args":[],"why":"#10807: potion/splash/lingering/tipped_arrow stacks get PotionUtil.getColor(stack) per stack (swiftness/healing/water/no-tag/custom effects/CustomPotionColor); 4 breaks caught."}]

@@ -1,0 +1,1 @@
+[{"id":"brain11670check","kind":"check","file":"tools/brain11670check.mjs","args":[],"why":"#11670: 07zzzb_brain.js Task reachable via Brain.tick from axolotl brain subclasses; breaks caught."}]

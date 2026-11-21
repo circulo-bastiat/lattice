@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spitparticlecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4468: llama SPIT particle has an atlas layer (frameLayer >= 0), size and grey tint; breaks its own layer data to prove it can fail."
+ }
+]

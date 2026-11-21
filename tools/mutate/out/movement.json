@@ -1,0 +1,82 @@
+{
+ "module": "movement",
+ "seed": 1,
+ "n": 8,
+ "files": [
+  {
+   "file": "src/14b_physics.js",
+   "stages": [
+    "lockstep-iceslide",
+    "bedbouncecheck",
+    "swimnodecheck",
+    "fallwatertracecheck",
+    "lockstep-dolphinjump",
+    "lockstep-swimgoal"
+   ],
+   "baselineDropped": 0,
+   "mutants": [
+    {
+     "line": 207,
+     "mutation": "|| -> &&",
+     "before": "if (e.type === 'rabbit' || e.type === 'endermite' || e.type === 'silverfish' || e.type === 'fox') return true;   // tag powder_snow_walkable",
+     "after": "if (e.type === 'rabbit' && e.type === 'endermite' || e.type === 'silverfish' || e.type === 'fox') return true;   // tag powder_snow_walkable",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 214,
+     "mutation": "negate return",
+     "before": "if (e.type === 'falling_block' || e.fallDistance > 2.5) return POWDER_FALL;",
+     "after": "if (e.type === 'falling_block' || e.fallDistance > 2.5) return !POWDER_FALL;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 215,
+     "mutation": "negate if",
+     "before": "if (Ph.canWalkOnPowderSnow(e) && e.y > cy + 1 - 1e-5 && !e.sneaking && !e.crouching) return Ph.FULL_CUBE;",
+     "after": "if (!Ph.canWalkOnPowderSnow(e) && e.y > cy + 1 - 1e-5 && !e.sneaking && !e.crouching) return Ph.FULL_CUBE;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 239,
+     "mutation": "constant +1",
+     "before": "else if (axis === 1) { p0 = Math.floor(x0 + E); p1 = Math.floor(x1 - E); q0 = Math.floor(z0 + E); q1 = Math.floor(z1 - E); edge = d > 0 ? y1",
+     "after": "else if (axis === 2) { p0 = Math.floor(x0 + E); p1 = Math.floor(x1 - E); q0 = Math.floor(z0 + E); q1 = Math.floor(z1 - E); edge = d > 0 ? y1",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 262,
+     "mutation": "constant +1",
+     "before": "p0 -= 1; p1 += 1; q0 -= 1; q1 += 1;",
+     "after": "p0 -= 2; p1 += 1; q0 -= 1; q1 += 1;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 348,
+     "mutation": "&& -> ||",
+     "before": "return !o.dead && !o.removed && (o.type === 'boat' || (o.type && o.type.indexOf('minecart') >= 0));",
+     "after": "return !o.dead || !o.removed && (o.type === 'boat' || (o.type && o.type.indexOf('minecart') >= 0));",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 348,
+     "mutation": "constant +1",
+     "before": "return !o.dead && !o.removed && (o.type === 'boat' || (o.type && o.type.indexOf('minecart') >= 0));",
+     "after": "return !o.dead && !o.removed && (o.type === 'boat' || (o.type && o.type.indexOf('minecart') >= 1));",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 375,
+     "mutation": "constant +1",
+     "before": "for (var a = 0; a < 3; a++) {",
+     "after": "for (var a = 1; a < 3; a++) {",
+     "status": "SURVIVED"
+    }
+   ],
+   "skippedUnviable": 0,
+   "sites": 1325,
+   "killed": 0,
+   "survived": 8,
+   "score": 0
+  }
+ ]
+}

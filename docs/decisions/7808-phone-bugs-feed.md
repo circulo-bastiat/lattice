@@ -1,0 +1,2 @@
+# 7808 - phone Bugs tab
+One GraphQL request per refresh (open issues, closed-last-24h, open PRs, `work/` refs, rateLimit), cached 60 s, backs off 10 min when remaining < 300. States are derived: land PR = In review, `blocked` label or an open `Depends on:` issue = Blocked, held `work/<n>-` branch = Working, else Waiting, closed < 24 h = Landed. Order: dan, severe, milestone number, oldest; Landed last. Read-only. Limit: first 100 open issues (Dan's 190+ needs pagination - follow-up). Source: tools/phone-web/bugs.js; check: phonebugscheck.

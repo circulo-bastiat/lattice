@@ -1,0 +1,8 @@
+[
+ {
+  "id": "axolotlcheck",
+  "kind": "check",
+  "args": ["--verbose"],
+  "why": "loop/panda-axolotl-s101 (QUEUE 0.2 G18c, missing overworld mob) -- the AXOLOTL whole: attributes/dimensions/breeding (jar-extracted table), the axolotls_spawnable_on spawn rule (no light check, unlike every other rostered animal), the five-variant texture family and its breeding inheritance (1/1200 blue), the play-dead damage trigger + its 200-tick countdown + the canTakeDamage gate while playing dead, the Regeneration/ Poison-clear player buff, bucketing (capture + release, variant preserved), and the Brain-onto-GoalSelector wander/tempt/breed/follow-parent port and the FIGHT activity (#1034: AxolotlAttackablesSensor target tags, approach, 20-tick melee for 2, 2400 hunting cooldown, appreciatePlayer)."
+ }
+]

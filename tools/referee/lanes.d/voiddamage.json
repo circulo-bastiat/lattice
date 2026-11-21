@@ -1,0 +1,1 @@
+{ "id": "voiddamage", "mob": "pig", "damage": true, "hurt": true, "mobhp": true, "up": -70, "note": "#9250: pig summoned at y=-130 (below bottomY-64=-128): OUT_OF_WORLD 4.0 per tick; rows pos, Health, HurtTime per tick" }

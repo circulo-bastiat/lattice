@@ -1,0 +1,8 @@
+[
+ {
+  "id": "cullpairaudit",
+  "kind": "check",
+  "args": [],
+  "why": "#1889 KW-CULL: real state PAIRS (every 16th state x doors/slabs/stairs/fences/pistons/cauldron/snow/farmland/path/soul sand/honey/slime/glass/leaves/water...) meshed through the real snapshot - interior, across a chunk seam, across a section seam - and the quads emitted compared with vanilla shouldRenderFace (no face may go missing that vanilla draws). Also block light at seam faces (a 0 reads as invisible), and the neighbourhoodReady guard for an absent/ungenerated neighbour chunk. --stride=3 / --full for a deeper sweep. Proves itself with 4 deliberate breaks."
+ }
+]

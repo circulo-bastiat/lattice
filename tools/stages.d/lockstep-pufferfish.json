@@ -1,0 +1,1 @@
+[{"id": "lockstep-pufferfish", "kind": "check", "file": "tools/lockstep-pufferfish.mjs", "args": [], "why": "#6178 G17-L4: engine-side pufferfish pool-lane trace, 20 salts (pos, vel, yaw, pitch, air per tick); deterministic per salt; 1e-9 drift in pos/vel/yaw/pitch and air shift caught. Server comparison runs through lockstep/pilot.mjs --lanes pufferfish."}]

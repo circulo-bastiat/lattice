@@ -1,0 +1,9 @@
+[
+ {
+  "id": "creditscheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ]
+ }
+]

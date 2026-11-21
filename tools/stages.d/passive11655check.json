@@ -1,0 +1,1 @@
+[{"id":"passive11655check","kind":"check","file":"tools/passive11655check.mjs","args":[],"why":"#11655: 07w_passive.js Saddleable/SaddledComponent/Shearable/RecipeType reachable from Use.entityUse, carrot-on-a-stick, strider, Breed; 9 breaks caught."}]

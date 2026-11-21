@@ -1,0 +1,1 @@
+[ { "id": "lockstep-illusionerspell", "kind": "check", "file": "tools/referee/illusionerspelllockstepcheck.mjs", "args": [], "why": "#7088 G17-L225: lockstep scenario illusionerspell, 20 salts at 6 blocks: DISAPPEAR spell 20 ticks, invisibility 1200, blindness 400 on the player, mirror timer 3 with 4 clone offsets, vs decomp IllusionerEntity + CastSpellGoal." } ]

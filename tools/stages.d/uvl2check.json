@@ -1,0 +1,3 @@
+[
+  { "id": "uvl2check", "kind": "check", "file": "tools/uvl2check.mjs", "args": [] }
+]

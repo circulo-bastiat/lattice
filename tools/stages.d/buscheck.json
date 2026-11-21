@@ -1,0 +1,3 @@
+[
+  { "id": "buscheck", "kind": "check", "file": "tools/buscheck.mjs", "args": [] }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "eatcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G19d-b (#177) -- eating: every FoodComponents row parsed from the decomp: 32/16-tick hold, jar-exact food+saturation on a full hold, early release inert, full player refuses unless alwaysEdible, golden apple effects; anti-vacuity breaks."
+ }
+]

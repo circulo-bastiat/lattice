@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-enter_blockcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT42 (#8057) — enter_block matcher + Use.entityCollide call site; water completes boat in_water recipe criteria, stone does not; breaks its own matcher."
+ }
+]

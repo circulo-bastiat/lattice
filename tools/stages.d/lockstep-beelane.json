@@ -1,0 +1,1 @@
+[{"id": "lockstep-beelane", "kind": "check", "file": "tools/lockstep-beelane.mjs", "args": [], "why": "#5309 G17-L4: bee chasescen lane (LOCKSTEP_ONLY), 20 salts x 160 ticks of pos/vel/yaw/pitch, deterministic per salt, flies; tampered 1e-9 pos/vel, yaw, health, row shift caught. Server comparison via lockstep/pilot.mjs --lanes bee."}]

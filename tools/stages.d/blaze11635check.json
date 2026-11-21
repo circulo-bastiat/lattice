@@ -1,0 +1,1 @@
+[{"id":"blaze11635check","kind":"check","file":"tools/blaze11635check.mjs","args":[],"why":"#11635: BlazeEntityRenderer engine side (rod ring setAngles, full-bright, shadow, mobTick reach); source breaks caught."}]

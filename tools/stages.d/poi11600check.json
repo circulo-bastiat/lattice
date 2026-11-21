@@ -1,0 +1,1 @@
+[{"id":"poi11600check","kind":"check","file":"tools/poi11600check.mjs","args":[],"why":"#11600: 07zu_poi.js BedPart head/foot filter + POI store (World.setBlock -> Poi.onChange, rescan, tickets, getInCircle/getPosition); source breaks caught."}]

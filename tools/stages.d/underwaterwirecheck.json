@@ -1,0 +1,3 @@
+[
+  { "id": "underwaterwirecheck", "kind": "check", "file": "tools/underwaterwirecheck.mjs", "args": [] }
+]

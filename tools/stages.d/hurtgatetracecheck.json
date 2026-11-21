@@ -1,0 +1,3 @@
+[
+  { "id": "hurtgatetracecheck", "kind": "check", "file": "tools/referee/hurtgatetracecheck.mjs", "args": [], "why": "#6261 G17-L29: lockstep trace carries hurtTime/invulnerableTime/lastDamage; two cow hits 6 vs 11 ticks apart differ and a changed INVULNERABLE_TICKS is caught." }
+]

@@ -1,0 +1,120 @@
+{
+ "module": "mining",
+ "seed": 1,
+ "n": 12,
+ "files": [
+  {
+   "file": "src/07d_mining.js",
+   "stages": [
+    "meltdropcheck",
+    "mobreflootcheck",
+    "dropstracecheck",
+    "miningmutcheck",
+    "blockrefdropcheck",
+    "lootaudit"
+   ],
+   "baselineDropped": 0,
+   "mutants": [
+    {
+     "line": 66,
+     "mutation": "|| -> &&",
+     "before": "if (!data || !data.mining) { M.ready = false; return M; }",
+     "after": "if (!data && !data.mining) { M.ready = false; return M; }",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 72,
+     "mutation": "negate return",
+     "before": "function u8() { return b[p++]; }",
+     "after": "function u8() { return !b[p++]; }",
+     "status": "KILLED",
+     "by": "meltdropcheck"
+    },
+    {
+     "line": 78,
+     "mutation": "constant +1",
+     "before": "for (j = 0; j < len; j++) s += String.fromCharCode(b[p + j]);",
+     "after": "for (j = 1; j < len; j++) s += String.fromCharCode(b[p + j]);",
+     "status": "KILLED",
+     "by": "meltdropcheck"
+    },
+    {
+     "line": 84,
+     "mutation": "< -> <=",
+     "before": "for (i = 0; i < nTools; i++) { M.toolNames[i] = strings[u16()]; M.toolIdx[M.toolNames[i]] = i; }",
+     "after": "for (i = 0; i <= nTools; i++) { M.toolNames[i] = strings[u16()]; M.toolIdx[M.toolNames[i]] = i; }",
+     "status": "KILLED",
+     "by": "meltdropcheck"
+    },
+    {
+     "line": 84,
+     "mutation": "constant +1",
+     "before": "for (i = 0; i < nTools; i++) { M.toolNames[i] = strings[u16()]; M.toolIdx[M.toolNames[i]] = i; }",
+     "after": "for (i = 1; i < nTools; i++) { M.toolNames[i] = strings[u16()]; M.toolIdx[M.toolNames[i]] = i; }",
+     "status": "KILLED",
+     "by": "meltdropcheck"
+    },
+    {
+     "line": 85,
+     "mutation": "+ -> -",
+     "before": "HB = (nTools + 7) >> 3;",
+     "after": "HB = (nTools - 7) >> 3;",
+     "status": "KILLED",
+     "by": "meltdropcheck"
+    },
+    {
+     "line": 92,
+     "mutation": "constant +1",
+     "before": "for (j = 0; j < nTools; j++) row[j] = 1;      // an item with no entry returns Item's 1.0",
+     "after": "for (j = 1; j < nTools; j++) row[j] = 1;      // an item with no entry returns Item's 1.0",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 106,
+     "mutation": "* -> /",
+     "before": "harvest = new Uint8Array(nb * HB);",
+     "after": "harvest = new Uint8Array(nb / HB);",
+     "status": "KILLED",
+     "by": "meltdropcheck"
+    },
+    {
+     "line": 109,
+     "mutation": "< -> <=",
+     "before": "for (i = 0; i < rows; i++) {",
+     "after": "for (i = 0; i <= rows; i++) {",
+     "status": "KILLED",
+     "by": "meltdropcheck"
+    },
+    {
+     "line": 112,
+     "mutation": "flip ===",
+     "before": "if (bi === undefined) {",
+     "after": "if (bi !== undefined) {",
+     "status": "KILLED",
+     "by": "meltdropcheck"
+    },
+    {
+     "line": 116,
+     "mutation": "constant +1",
+     "before": "if (M.unknownBlocks.length < 40) M.unknownBlocks.push(name);",
+     "after": "if (M.unknownBlocks.length < 41) M.unknownBlocks.push(name);",
+     "status": "KILLED",
+     "by": "miningmutcheck"
+    },
+    {
+     "line": 123,
+     "mutation": "+ -> -",
+     "before": "if (p !== b.length) throw new Error('mining.bin: ' + (b.length - p) + ' trailing bytes');",
+     "after": "if (p !== b.length) throw new Error('mining.bin: ' - (b.length - p) + ' trailing bytes');",
+     "status": "KILLED",
+     "by": "miningmutcheck"
+    }
+   ],
+   "skippedUnviable": 0,
+   "sites": 123,
+   "killed": 10,
+   "survived": 2,
+   "score": 0.8333333333333334
+  }
+ ]
+}

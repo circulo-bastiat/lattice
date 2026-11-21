@@ -1,0 +1,1 @@
+[{"id":"hungereffectsmutcheck","kind":"check","file":"tools/hungereffectsmutcheck.mjs","args":[],"why":"#11507: assertions for the 16 surviving hunger-effects mutants (Sv.init, updateArmor, freezeWater, tryUseTotem); each real mutant is re-applied and must turn it red, N breaks caught."}]

@@ -1,0 +1,1 @@
+[ { "id": "pilotfarmcheck", "kind": "check", "file": "tools/pilotfarmcheck.mjs", "args": [], "why": "21 Oct: the lockstep pilot farm tops up every lane's credit in bulk (shortest lanes first, only credited stable salts, names the shared file that dropped credit); runs the planner on fixtures and breaks each rule." } ]

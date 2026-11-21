@@ -1,0 +1,1 @@
+[{"id": "lockstep-chest_minecart", "kind": "check", "file": "tools/lockstep-chest_minecart.mjs", "args": [], "why": "#5386 G17-L4: engine-side chest_minecart rail trace (straight/slope/curve/powered), 20 salts, pos+vel+yaw+shape per tick; deterministic per salt; 1e-9 drift in pos/vel/yaw and a shape change are caught. Real-server comparison owed."}]

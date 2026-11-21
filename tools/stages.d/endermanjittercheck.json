@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endermanjittercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4744 -- an angry (targeting) enderman's render position gets gaussian*0.02 x/z jitter every frame (EndermanEntityRenderer.getPositionOffset); calm ones and other mobs stay steady."
+ }
+]

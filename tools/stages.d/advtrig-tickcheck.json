@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-tickcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT41 (#8044) — Adv.matchers minecraft:tick + the Player.tick call site; the five root advancements complete, a non-matching player predicate does not; breaks its own matcher."
+ }
+]

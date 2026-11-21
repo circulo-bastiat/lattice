@@ -1,0 +1,1 @@
+[ { "id": "lockstep-lilypadboat", "kind": "check", "file": "tools/lockstep-lilypadboat.mjs", "args": [], "why": "#8764 G17-L234: lockstep scenario lilypadboat (boat + pig + zombie over a lily pad row, 20 seeds, 80 ticks): only the boat breaks a pad and it drops lily_pad; any-entity and no-drop faults caught." } ]

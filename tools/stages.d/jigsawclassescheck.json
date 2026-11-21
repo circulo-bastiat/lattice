@@ -1,0 +1,9 @@
+[
+ {
+  "id": "jigsawclassescheck",
+  "kind": "check",
+  "file": "tools/jigsawclassescheck.mjs",
+  "args": [],
+  "why": "#11705 -- 04t_jigsaw.js: RuinedPortalStructurePiece nether processors, BlackstoneReplacementStructureProcessor map, LegacySinglePoolElement (writeAir) and Pool weights/fallback, reached through village starts. Node-only; anti-vacuity breaks each."
+ }
+]

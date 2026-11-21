@@ -1,0 +1,165 @@
+{
+ "why": "pre = master before the good PR landed; good = the land commit. end-state checks = the stage ids the good PR added/changed (derived at run time from git diff pre..good on tools/stages.d).",
+ "cases": [
+  {
+   "id": "c7709",
+   "kind": "already-fixed",
+   "issue": 7709,
+   "pre": "e51b270c6c286a8b5fa2dd4dd17ef580ba5c362d",
+   "good": "335c0668a3898909f1c6999b50cc253e563cf655",
+   "subject": "land #7716: #7709: #7709: chain was already ported in Wither (aboveGround/noPenaltySolid/localFuzz cone); Fl."
+  },
+  {
+   "id": "c6113",
+   "kind": "already-fixed",
+   "issue": 6113,
+   "pre": "bf276b6ba93df6db2b02417170a92b0801cc3ae6",
+   "good": "1cbf7d7855b7515d3255fc7751ae9983ca8d12bb",
+   "subject": "land #7696: #6113: #6113 spider lockstep: pilot done, 20 runs, divergences [] (lane+stage already on master;"
+  },
+  {
+   "id": "c6055",
+   "kind": "already-fixed",
+   "issue": 6055,
+   "pre": "5cc89be989a340ddec97721362aa5fd6c90f1957",
+   "good": "3cb9e61db30593f3c806a5dc8c911b9873db25aa",
+   "subject": "land #7692: #6055: #6055: ender_dragon lockstep 20/20 salts, divergences [] (lane+stages already on master/br"
+  },
+  {
+   "id": "c7733",
+   "kind": "red-check-fix",
+   "issue": 7733,
+   "pre": "e0c979c9e0986971a08502fe78c3ebaa982388f7",
+   "good": "b9cabf08210982c8fb04b65cc9d89bd851d26eb3",
+   "subject": "land #7738: #7733: #7733: bone meal on brown/red mushrooms (MushroomPlantBlock canGrow 0.4, huge mushroom, un"
+  },
+  {
+   "id": "c7740",
+   "kind": "red-check-fix",
+   "issue": 7740,
+   "pre": "26526b20abcba779ddd51cfe8d2beacaa01bf613",
+   "good": "e0c979c9e0986971a08502fe78c3ebaa982388f7",
+   "subject": "land #7763: #7740: #7740 G17-AT0: Adv.pred substrate (NumberRange, Entity/DamageSource/Distance/Equipment/Ite"
+  },
+  {
+   "id": "c7722",
+   "kind": "red-check-fix",
+   "issue": 7722,
+   "pre": "7d12543e4664382eb698bea1114c5b58c0be1356",
+   "good": "cb4dea8e58a6d445b63df559c8693aaae051b0cc",
+   "subject": "land #7731: #7722: #7722: mirror pilot dispatches only salts missing from cache+shared (plan job sizes matrix"
+  },
+  {
+   "id": "c6118",
+   "kind": "lane",
+   "issue": 6118,
+   "pre": "fb1f870ad122e96b39e5219e9b0ba7d057fb3d31",
+   "good": "e51b270c6c286a8b5fa2dd4dd17ef580ba5c362d",
+   "subject": "land #7703: #6118: #6118: zoglin lockstep pilot done, 20 runs, divergences [], unstable [] (lane + check lock"
+  },
+  {
+   "id": "c6117",
+   "kind": "lane",
+   "issue": 6117,
+   "pre": "1272292840eae8f46dc66acd00f7a6a2fb3b75c3",
+   "good": "fb1f870ad122e96b39e5219e9b0ba7d057fb3d31",
+   "subject": "land #7702: #6117: #6117 hoglin lockstep: pilot done, 20 runs, divergences []; lane + stage checks (5 breaks"
+  },
+  {
+   "id": "c6111",
+   "kind": "lane",
+   "issue": 6111,
+   "pre": "a8d9d01547d2783ced16824cffb53da3e8548900",
+   "good": "5cc89be989a340ddec97721362aa5fd6c90f1957",
+   "subject": "land #7691: #6111: #6111 zombie_villager lockstep: pilot done, 20 runs, divergences []; lane + stage check (5"
+  },
+  {
+   "id": "c7726",
+   "kind": "lockstep-pilot",
+   "issue": 7726,
+   "pre": "58372e21fc1e0724dff4f1dd583d0a195c908efd",
+   "good": "fa8fe5105f5d200ef06a70dde15c0b0236bebbce",
+   "subject": "land #7729: #7726: #7726: lockstep pilot cap follows the test mirror's live headroom (mirrorcap.mjs, mirrorJo"
+  },
+  {
+   "id": "c7706",
+   "kind": "lockstep-pilot",
+   "issue": 7706,
+   "pre": "50cda87afe26454e9ed087fda2dc5bf08080396f",
+   "good": "58372e21fc1e0724dff4f1dd583d0a195c908efd",
+   "subject": "land #7728: #7706: #7706 slice C part 2: lockstep-spawnequip constant ok(true) removed; _status triage table"
+  },
+  {
+   "id": "c6120",
+   "kind": "lockstep-pilot",
+   "issue": 6120,
+   "pre": "4d875b0c65fe0b1e9ea03f522df2245efc626887",
+   "good": "bd686dc4010e47c45dd45d66bf5a9e21f1b945d6",
+   "subject": "land #7724: #6120: #6120: endermite lockstep pilot done, 20 runs, divergences []; check lockstep-endermite (5"
+  },
+  {
+   "id": "c7710",
+   "kind": "bug-fix",
+   "issue": 7710,
+   "pre": "335c0668a3898909f1c6999b50cc253e563cf655",
+   "good": "d28bd7be7e5f7cab8a24545a30f68ca449535667",
+   "subject": "land #7717: #7710: #7710: leash rope is now a lit triangle ribbon (0.025 half width, per-vertex light) in Web"
+  },
+  {
+   "id": "c7522",
+   "kind": "bug-fix",
+   "issue": 7522,
+   "pre": "583057c31da26bb6788c4e2c320381b85281ee2a",
+   "good": "21de1d613442e58bd1f584480f8cf75e84629994",
+   "subject": "land #7668: #7522: #7522: mobtexproofcheck stage file field fixed; 91 mobs, 6 breaks caught"
+  },
+  {
+   "id": "c7653",
+   "kind": "bug-fix",
+   "issue": 7653,
+   "pre": "e230f5fa75537c219b6d89459066348f2ea7d5ac",
+   "good": "69d63eab7ce01d110a7c51457ad806b84a067a44",
+   "subject": "land #7660: #7653: #7653: HurtByTargetGoal.canUse now refuses creative/spectator attackers (RevengeGoal.canSt"
+  },
+  {
+   "id": "c7707",
+   "kind": "new-check",
+   "issue": 7707,
+   "pre": "fa8fe5105f5d200ef06a70dde15c0b0236bebbce",
+   "good": "7d12543e4664382eb698bea1114c5b58c0be1356",
+   "subject": "land #7730: #7707: #7707: standrendercheck fails a break whose target text is gone; slice-D status table"
+  },
+  {
+   "id": "c7708",
+   "kind": "new-check",
+   "issue": 7708,
+   "pre": "d28bd7be7e5f7cab8a24545a30f68ca449535667",
+   "good": "8ea30657e2924f8004f7ed632541c4a60987d04b",
+   "subject": "land #7718: #7708: #7708: tools/vacuitycheck.mjs static gate (V1 constant-true ok, V2 unguarded mutation, V3"
+  },
+  {
+   "id": "c2698",
+   "kind": "new-check",
+   "issue": 2698,
+   "pre": "a6d9787a7afff6a0257bcab8b01d4e9343b9ef0e",
+   "good": "d050b0866ecd8909a366eb4f335553c857903216",
+   "subject": "land #7682: #2698: #2698: g18ccheck passes on current master (24 assertions, 3 breaks caught); the failure wa"
+  },
+  {
+   "id": "c7256",
+   "kind": "tracking-split",
+   "issue": 7256,
+   "pre": "6bb7c8f271a7a6e761ca528f8894fcf986fd76c2",
+   "good": "8bab09b6162dfdfb7e6bc50a00a76eccdeb04572",
+   "subject": "land #7326: #7256: #7256: lockstep-xporb stale: merge test orbs now get ids 40 apart (isMergeable id%40, D-?)"
+  },
+  {
+   "id": "c7235",
+   "kind": "tracking-split",
+   "issue": 7235,
+   "pre": "38056cea61ead196e6b73917cacafee17d32793a",
+   "good": "d8dbfe36faa9072eba8f39ab9edff532bcd84120",
+   "subject": "land #7306: #7235: #7235: lockstep-slimesplit break patched Math.random; Sl.split draws from EL.random since"
+  }
+ ]
+}

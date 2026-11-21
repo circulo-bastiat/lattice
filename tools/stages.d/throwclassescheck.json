@@ -1,0 +1,8 @@
+[
+ {
+  "id": "throwclassescheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11685 -- SnowballItem/EnderPearlItem/ItemCooldownManager/ThrowablePotionItem/LingeringPotionItem in 07zzd_throw.js proven via Throw.use, fails when cut."
+ }
+]

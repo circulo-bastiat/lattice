@@ -1,0 +1,8 @@
+[
+ {
+  "id": "ghasttexcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#641: ghast picks ghast_shooting.png while shooting (GhastEntityRenderer.getTexture); breaks its own picker"
+ }
+]

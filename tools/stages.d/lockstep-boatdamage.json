@@ -1,0 +1,1 @@
+[ { "id": "lockstep-boatdamage", "kind": "check", "file": "tools/lockstep-boatdamage.mjs", "args": [], "why": "#6856 G17-L155: lockstep scenario boatdamage (hit wobble/break at >40, drops, falls from 4/10/40 onto land/water, resting break with planks+sticks, rider thrown / fall forwarded), 20 seeds; break threshold 39 caught." } ]

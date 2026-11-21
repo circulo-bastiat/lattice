@@ -1,0 +1,1 @@
+{ "id": "lavadamage", "mob": "pig", "damage": true, "nbt": "NoAI:1b", "hurt": true, "mobhp": true, "lava": true, "note": "#10363: NoAI pig standing in a 2-deep lava pool: Entity.lavaHurt LAVA 4.0 + setSecondsOnFire(15); rows pos, Health, HurtTime per tick" }

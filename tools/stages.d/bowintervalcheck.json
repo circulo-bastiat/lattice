@@ -1,0 +1,8 @@
+[
+ {
+  "id": "bowintervalcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1028 -- BowAttackGoal post-shot cooldown: illusioner's fixed 20 is identical on easy/normal/hard; skeleton keeps bowInterval()."
+ }
+]

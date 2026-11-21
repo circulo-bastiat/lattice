@@ -1,0 +1,8 @@
+[
+ {
+  "id": "villagerinteractcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2870: VillagerEntity.interactMob gates - baby/sleeping/busy villagers never open the trade screen, baby + offerless say no (head roll 40 + entity.villager.no), a normal click counts talked_to_villager."
+ }
+]

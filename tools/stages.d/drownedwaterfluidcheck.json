@@ -1,0 +1,8 @@
+[
+ {
+  "id": "drownedwaterfluidcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1861 -- Spawn.RULES.drowned tests the water FLUID (S.waterIn: kelp, seagrass, waterlogged, bubble column), not block==water."
+ }
+]

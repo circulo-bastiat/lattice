@@ -1,0 +1,8 @@
+[
+ {
+  "id": "rootscriptscheck",
+  "kind": "check",
+  "args": [],
+  "why": "#46: ADD-CLAUDE-ACCOUNT.cmd/SWITCH-ACCOUNT.cmd one double-click away at the Projects root, kept in sync with mclite/'s committed copies by tools/sync-root-scripts.mjs (a build.mjs step). Proves the sync actually copies, that the guard keeping it out of workspace clones works, and that a tampered root copy is caught and repaired."
+ }
+]

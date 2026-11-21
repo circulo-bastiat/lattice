@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dimwirecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11227 -- every dimension's terrain, features and structure sets reach G.genColumn output (nether + end); 7 breaks caught."
+ }
+]

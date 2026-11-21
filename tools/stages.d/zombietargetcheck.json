@@ -1,0 +1,8 @@
+[
+ {
+  "id": "zombietargetcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1238 -- zombie targetSelector has ActiveTargetGoal<IronGolem> at 3 and <baby turtle on land> at 5 (ZombieEntity.initCustomGoals). Removes each row and must notice."
+ }
+]

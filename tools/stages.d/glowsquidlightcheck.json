@@ -1,0 +1,8 @@
+[
+ {
+  "id": "glowsquidlightcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1570 -- GlowSquidEntityRenderer.getBlockLight (full-bright undamaged, dims after a hit); anti-vacuity breaks."
+ }
+]

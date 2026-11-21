@@ -1,0 +1,1 @@
+[ { "id": "lockstep-avoidentity", "kind": "check", "file": "tools/lockstep-avoidentity.mjs", "args": [], "why": "#7937 G18b-L24: lockstep scenario avoidentity (AvoidEntityGoal: cat from player, wolf from llama, rabbit from wolf/player at 4/8/12 blocks, tamed cat/wolf and villager never flee, 20 salts): near and far speed swapped caught." } ]

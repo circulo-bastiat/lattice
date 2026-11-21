@@ -1,0 +1,8 @@
+[
+ {
+  "id": "pathanycheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5881 -- findPathToAny is one multi-target A*: ends at the path-nearest target, expands fewer nodes than a path per candidate."
+ }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "equiptracecheck", "kind": "check", "file": "tools/referee/equiptracecheck.mjs", "args": [], "why": "#6254 G17-L22: engineRow fills held/armour from e.equip; a swapped helmet is the first divergence on field armour." }
+]

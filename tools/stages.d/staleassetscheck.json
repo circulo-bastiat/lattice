@@ -1,0 +1,9 @@
+[
+ {
+  "id": "staleassetscheck",
+  "kind": "check",
+  "file": "tools/staleassetscheck.mjs",
+  "args": [],
+  "why": "#11401: build.mjs refuses when assets/ is older than the extractors/build-gui that write it (Dan's 27 Oct assets under 8 Nov GUI code); 1 break caught."
+ }
+]

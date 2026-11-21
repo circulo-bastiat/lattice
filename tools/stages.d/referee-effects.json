@@ -1,0 +1,3 @@
+[
+  { "id": "effectrefcheck", "kind": "check", "file": "tools/referee/effectrefcheck.mjs", "args": [] }
+]

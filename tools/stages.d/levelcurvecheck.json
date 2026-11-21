@@ -1,0 +1,8 @@
+[
+ {
+  "id": "levelcurvecheck",
+  "kind": "check",
+  "args": [],
+  "why": "G21a -- the xp level curve checked against the decomp: parses the three expressions of PlayerEntity.getNextLevelExperience and asserts Sv.addXp gives the decomp level/bar at totals for levels 5/20/40 (+-1 point). Anti-vacuity: flat 1-15 curve, dropped tier and off-by-one caught."
+ }
+]

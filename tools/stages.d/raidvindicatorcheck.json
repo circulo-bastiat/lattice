@@ -1,0 +1,8 @@
+[
+ {
+  "id": "raidvindicatorcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2751 -- Rd.addBonusForWave on a vindicator: always a fresh iron_axe, sharpness 1/2 (wave > 5) at Raid.getEnchantmentChance, replacing the spawnFn default axe + random enchant roll (VindicatorEntity.addBonusForWave)."
+ }
+]

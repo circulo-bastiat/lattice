@@ -1,0 +1,8 @@
+[
+ {
+  "id": "whiteflashcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2679 -- the creeper fuse white flash (CreeperEntityRenderer.method_23154): odd-tenth weight, w1 bits 28-31 packing, and the white mix in both shaders."
+ }
+]

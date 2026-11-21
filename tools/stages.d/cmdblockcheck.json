@@ -1,0 +1,3 @@
+[
+  { "id": "cmdblockcheck", "kind": "check", "file": "tools/cmdblockcheck.mjs", "args": [] }
+]

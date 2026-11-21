@@ -1,0 +1,8 @@
+[
+ {
+  "id": "arrowbubblecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5924: arrows/tridents touching water spawn 4 BUBBLE particles per tick at pos - v*0.25; breaks the water branch to prove it can fail."
+ }
+]

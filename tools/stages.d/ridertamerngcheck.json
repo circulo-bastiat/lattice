@@ -1,0 +1,3 @@
+[
+  { "id": "ridertamerngcheck", "kind": "check", "file": "tools/ridertamerngcheck.mjs", "args": [] }
+]

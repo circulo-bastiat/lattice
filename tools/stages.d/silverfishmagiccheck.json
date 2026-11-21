@@ -1,0 +1,8 @@
+[
+ {
+  "id": "silverfishmagiccheck",
+  "kind": "check",
+  "args": [],
+  "why": "#854: attacker-less DamageSource.MAGIC (poison, instant damage) arms SilverfishEntity's CallForHelpGoal via Cb.hurt; fire does not."
+ }
+]

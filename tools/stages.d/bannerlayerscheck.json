@@ -1,0 +1,8 @@
+[
+ {
+  "id": "bannerlayerscheck",
+  "kind": "check",
+  "args": [],
+  "why": "#891 KW-49-4c: banner pattern layers - every BannerPattern texture is a gui.bin sheet, stack BlockEntityTag.Patterns resolve (code or name) to dye-tinted layers, BE.composite layers them over the tinted base in order; broken sheets/codes/order must fail."
+ }
+]

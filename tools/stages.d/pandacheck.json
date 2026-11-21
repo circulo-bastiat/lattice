@@ -1,0 +1,8 @@
+[
+ {
+  "id": "pandacheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/panda-axolotl-s101 (QUEUE 0.2 G18c, missing overworld mob) -- the PANDA whole: attributes/dimensions/breeding (jar-extracted table), the 7-gene main/hidden system (createRandom's own 16-way roll, getProductGene's recessive/dominant fold, the seven isX appearance readers), the shared cow spawn rule (no canSpawn override in the jar), breeding inheritance with its two independent 1/32 mutation rolls, the baby-only sneeze (weak vs normal odds, the nearby-panda-jump + slime_ball drop consequence), the lazy-gene lie-on-back idle toggle, and aggressive-panda retaliation (Pd.RevengeGoal's own backwards shouldContinue, the non-aggressive one-swing-then-give-up cutoff)."
+ }
+]

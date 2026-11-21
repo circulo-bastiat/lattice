@@ -1,0 +1,1 @@
+[ { "id": "lockstep_snowball", "kind": "check", "file": "tools/lockstep-snowball-20.mjs", "args": [], "why": "#8269 G17-L4 lockstep snowball: 20 seeds, engine trace deterministic, 5 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes snowball (full suite)." } ]

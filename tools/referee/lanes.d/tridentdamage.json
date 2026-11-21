@@ -1,0 +1,1 @@
+{"id":"tridentdamage","mob":"zombie","nbt":"NoAI:1b","hp":true,"shoot":{"type":"trident","x":3.5,"motion":[2.5,0,0]},"note":"#12328 (MOBPROOF-DAMAGE-B): a NoAI zombie stands in the corridor, a thrown trident (speed 2.5, pickup 0) is summoned 8 blocks behind it; runchase logs the zombie's Pos and Health per tick (hp:true): the trident's 8.0 damage (no RNG) is the health trace"}

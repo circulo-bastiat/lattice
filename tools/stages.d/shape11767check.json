@@ -1,0 +1,8 @@
+[
+ {
+  "id": "shape11767check",
+  "kind": "check",
+  "args": [],
+  "why": "#11767 -- 02q_shape.js net/minecraft/util/shape (VoxelSet BitSet/Cropped PairLists FractionalDoubleList shapes); breaks its own data."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "structmapcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11707 -- 04r_structures.js classes proven through locateStructure/startsNear/containsAt: GenerationStep steps, ConcentricRings (128 stronghold chunks, nearest), RandomSpread region offsets, ConfiguredStructureFeatureTags, ChunkPos, StructureAccessor.containsAt, RuinedPortal; breaks its own data and prints '<n> breaks caught'."
+ }
+]

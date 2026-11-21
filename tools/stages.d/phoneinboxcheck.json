@@ -1,0 +1,3 @@
+[
+  { "id": "phoneinboxcheck", "kind": "check", "file": "tools/phoneinboxcheck.mjs", "args": [], "why": "#4180 PHONE Inbox: 7-day feed of the brain's pushes (push-log issue), deep link per row, load() against a mocked API, brain records each push" }
+]

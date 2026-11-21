@@ -1,0 +1,1 @@
+[{"id":"furnacescreen11725check","kind":"check","file":"tools/furnacescreen11725check.mjs","args":[],"why":"#11725: AbstractFurnaceScreen/FurnaceScreen/BlastFurnaceScreen/SmokerScreen via H.openFurnace/drawFurnace/furnaceClick, Gui.furnaceSlotAt and the Use entry point; source breaks caught."}]

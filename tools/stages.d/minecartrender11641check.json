@@ -1,0 +1,1 @@
+[{"id":"minecartrender11641check","kind":"check","file":"tools/minecartrender11641check.mjs","args":[],"why":"#11641: 07zzs_minecartrender.js TntMinecartEntityRenderer fuse scale/flash + MinecartEntityModel layers, reachability, source breaks caught."}]

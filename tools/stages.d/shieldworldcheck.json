@@ -1,0 +1,8 @@
+[
+ {
+  "id": "shieldworldcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8080: a banner-patterned shield is drawn in base + one pass per pattern layer, a plain one in one; dropping the pattern passes must fail."
+ }
+]

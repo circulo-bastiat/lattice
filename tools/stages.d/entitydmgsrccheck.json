@@ -1,0 +1,9 @@
+[
+ {
+  "id": "entitydmgsrccheck",
+  "kind": "check",
+  "file": "tools/entitydmgsrccheck.mjs",
+  "args": [],
+  "why": "#11679: EntityDamageSource.isScaledWithDifficulty (Sv.DAMAGE mob/sting scaled, arrow not) reached via Sv.hurt; 3 breaks caught."
+ }
+]

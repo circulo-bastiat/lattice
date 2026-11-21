@@ -1,0 +1,8 @@
+[
+ {
+  "id": "sleepviewcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-O8 — sleep overlay alpha (t/100, wake ramp 1-(t-100)/10, 220<<24|0x101020), SleepingChatScreen Leave Bed button geometry/label and wake; breaks its own formulas to prove it can fail."
+ }
+]

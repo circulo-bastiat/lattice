@@ -1,0 +1,8 @@
+[
+ {
+  "id": "savecommandcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8144: /save-all, /save-off, /save-on (op 4); autosave honours the flag; save-all blob round-trips"
+ }
+]

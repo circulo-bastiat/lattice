@@ -1,0 +1,8 @@
+[
+ {
+  "id": "goatcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/goat-s99 (QUEUE 0.2 G18c, missing overworld mob) -- the GOAT whole: attributes (jar-extracted table), the snowy-slopes/jagged/frozen-peaks spawn rule (goats_spawnable_on tag + light gate), the 2% screaming roll and its (asymmetric) breeding inheritance, the ram attack and long jump reproduced as GoalSelector goals (Gt.RamGoal/Gt.LongJumpGoal, off the real PrepareRamTask/RamImpactTask/LongJumpTask numbers), milking, breeding with wheat, and the -10 fall-damage reduction."
+ }
+]

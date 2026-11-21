@@ -1,0 +1,8 @@
+[
+ {
+  "id": "heldbecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#108: chests and shulker boxes are drawn in the first-person hand"
+ }
+]

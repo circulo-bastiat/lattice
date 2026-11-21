@@ -1,0 +1,3 @@
+[
+  { "id": "vmcapcheck", "kind": "check", "file": "tools/vmcapcheck.mjs", "args": [] }
+]

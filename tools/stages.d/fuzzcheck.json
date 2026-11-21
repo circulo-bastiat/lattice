@@ -1,0 +1,7 @@
+[
+ {
+  "id": "fuzzcheck",
+  "kind": "check",
+  "args": []
+ }
+]

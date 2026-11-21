@@ -1,0 +1,9 @@
+[
+ {
+  "id": "patrolgroupcheck",
+  "kind": "check",
+  "file": "tools/patrolgroupcheck.mjs",
+  "args": [],
+  "why": "#744: Ai.PatrolGoal groupmates are PatrolEntity-only within AABB expand(16); followers get the walk waypoint. LightType.BLOCK>8 refuses a patrol spawn. Breaks its own data."
+ }
+]

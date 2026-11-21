@@ -1,0 +1,1 @@
+[ { "id": "lockstep-freeze", "kind": "check", "file": "tools/referee/freezelockstepcheck.mjs", "args": [], "why": "#6604 G17-L79: lockstep scenario freeze (powder snow ticksFrozen +1/-2, damage at 140 every 40 ticks, slow modifier, leather boots, stray immunity; zombie/cow/wolf/stray, 20 seeds); decay 2->1 and removed immunity caught." } ]

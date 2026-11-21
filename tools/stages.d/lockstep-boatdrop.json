@@ -1,0 +1,1 @@
+[ { "id": "lockstep-boatdrop", "kind": "check", "file": "tools/lockstep-boatdrop-20.mjs", "args": [], "why": "#6083 G17-M15: boat dropped 5 blocks onto stone, engine trace x20 salts; 4 breaks caught. Server: pilot.mjs --lanes boatdrop (20 salts, 0 divergences)." } ]

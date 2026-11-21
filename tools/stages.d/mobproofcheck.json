@@ -1,0 +1,1 @@
+[ { "id": "mobproofcheck", "kind": "check", "file": "tools/mobproofcheck.mjs", "args": [], "why": "#7520: proof matrix goes missing/red when a dimension file, mob row, lane or pass is broken." } ]

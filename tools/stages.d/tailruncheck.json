@@ -1,0 +1,3 @@
+[
+  { "id": "tailruncheck", "kind": "check", "file": "tools/tailruncheck.mjs", "args": [] }
+]

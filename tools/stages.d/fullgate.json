@@ -1,0 +1,3 @@
+[
+  { "id": "fullgatecheck", "kind": "check", "args": [], "why": "full suite waits for landings to pause (no land PRs, no lander run, master quiet 4 min), never starves (30 min cap), and full-suite.yml runs the gate first" }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "lootentrycheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11740 -- 07e_loot.js net/minecraft/loot/entry types (group/sequence/alternatives/empty/loot_table/tag) (AlternativeEntry CombinedEntry DynamicEntry EmptyEntry EntryCombiner GroupEntry ItemEntry LeafEntry LootPoolEntryType LootPoolEntryTypes LootTableEntry SequenceEntry TagEntry) proven via Loot.rollTable on synthetic tables; fails when each is cut."
+ }
+]

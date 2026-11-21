@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbjobacquirecheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18f-J1 -- job-site acquisition by the Brain (FindPOI + WalkTowardJobSite + GoToWork); anti-vacuity restores the adjacency rule."
+ }
+]

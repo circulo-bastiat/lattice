@@ -1,0 +1,1 @@
+[{"id": "createworld11616check", "kind": "check", "file": "tools/createworld11616check.mjs", "args": [], "why": "#11616: 15mc_createworld.js CreateWorldScreen, MoreOptionsDialog, CustomizeBuffetLevelScreen; each cut must fail; breaks caught."}]

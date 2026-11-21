@@ -1,0 +1,1 @@
+[{"id": "lockstep-ocelot", "kind": "check", "file": "tools/lockstep-ocelot.mjs", "args": [], "why": "#6471 G17-L4: ocelot lane (chasescen lanes.d) engine trace, 20 salts deterministic, pilot --lanes ocelot --seeds 20 = 0 divergences; tampered pos 1e-9/yaw/headYaw/onGround/shift breaks caught."}]

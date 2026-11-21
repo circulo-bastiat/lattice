@@ -1,0 +1,1 @@
+[{"id":"itemrenderer11646check","kind":"check","file":"tools/itemrenderer11646check.mjs","args":[],"why":"#11646: 14k_hand3d.js ItemRenderer ItemTransform.apply (applyDisplay) + -0.5 pivot; source breaks caught."}]

@@ -1,0 +1,3 @@
+[
+  { "id": "tntrefcheck", "kind": "check", "file": "tools/referee/tntrefcheck.mjs", "args": [] }
+]

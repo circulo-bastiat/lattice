@@ -1,0 +1,3 @@
+[
+  { "id": "bookeditcheck", "kind": "check", "file": "tools/bookeditcheck.mjs", "args": [] }
+]

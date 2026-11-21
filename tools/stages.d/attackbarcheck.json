@@ -1,0 +1,8 @@
+[
+ {
+  "id": "attackbarcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11404 -- attack-cooldown bar: per-tick progress for every weapon/tool, hand, Haste/Mining Fatigue vs 1/speed*20; ticks to full; crosshair width (int)(p*17) and hotbar height (int)(p*19); reset on item switch; damage ramp uses the same scale. Breaks its own source six ways and prints the count."
+ }
+]

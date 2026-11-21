@@ -1,0 +1,3 @@
+[
+  { "id": "mailhookcheck", "kind": "check", "file": "tools/mailhookcheck.mjs", "args": [], "why": "#4979: the PreToolUse mail hook stops every tool call while mail waits (reply / urgent / announce types) and lets through only a lone mail command" }
+]

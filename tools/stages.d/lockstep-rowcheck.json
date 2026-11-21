@@ -1,0 +1,1 @@
+[ { "id": "lockstep-rowcheck", "kind": "check", "file": "tools/lockstep-rowcheck.mjs", "args": [], "why": "#9780: every lockstep stage has a row in golden/lockstep-table.tsv and no row lacks a stage (cheap, in core); a dropped row, an orphan row and a new stage without a row are caught." } ]

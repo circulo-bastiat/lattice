@@ -1,0 +1,1 @@
+[{"id":"frustum11630check","kind":"check","file":"tools/frustum11630check.mjs","args":[],"why":"#11630: Frustum (10_camera.js extractPlanes/aabbVisible, reached from 10_gfx.js cull); source breaks caught."}]

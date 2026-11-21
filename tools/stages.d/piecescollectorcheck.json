@@ -1,0 +1,1 @@
+[{"id":"piecescollectorcheck","kind":"check","file":"tools/piecescollectorcheck.mjs","args":[],"why":"#11525: net/minecraft/structure/StructurePiecesCollector (shiftInto) is reached from NetherFortress.generate via Structures.startsNear; cutting it leaves pieces unshifted (2 breaks caught)."}]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-locationcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT40 (#8043) — Adv.matchers location + the Player.tick every-20-ticks call site; adventuring_time/explore_nether/find_fortress criteria complete only for their biome/structure; breaks its own matcher."
+ }
+]

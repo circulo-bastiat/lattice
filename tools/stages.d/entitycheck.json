@@ -1,0 +1,8 @@
+[
+ {
+  "id": "entitycheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17a — every entity type, runtime against the golden table and against the game's own registry dump, in BOTH directions (D-306)."
+ }
+]

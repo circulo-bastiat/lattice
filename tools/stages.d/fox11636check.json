@@ -1,0 +1,1 @@
+[{"id":"fox11636check","kind":"check","file":"tools/fox11636check.mjs","args":[],"why":"#11636: 07zj_fox.js skinKey/fromBiome/JumpChasingGoal + reachability; source breaks caught."}]

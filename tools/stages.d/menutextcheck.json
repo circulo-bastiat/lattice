@@ -1,0 +1,1 @@
+[ { "id": "menutextcheck", "kind": "check", "file": "tools/menutextcheck.mjs", "args": [] } ]

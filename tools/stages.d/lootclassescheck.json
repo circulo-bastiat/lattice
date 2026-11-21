@@ -1,0 +1,8 @@
+[
+ {
+  "id": "lootclassescheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11692 -- 07e_loot.js TimeCheck/LootContext/EnchantWithLevels/SetDamage/UniformLootNumberProvider proven via Loot.rollTable (fishing treasure/junk) and Loot.testPredicate; fails when each is cut."
+ }
+]

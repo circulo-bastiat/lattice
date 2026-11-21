@@ -1,0 +1,8 @@
+[
+ {
+  "id": "enchroster",
+  "kind": "check",
+  "args": [],
+  "why": "#193 G22a -- all 38 registered enchantments (07ox_enchhelper.js) diffed field-by-field against the jar (weight, maxLevel, min/max power, treasure, curse, book offer, target, incompatibility), per-item applicability and the stack Enchantments add/remove API."
+ }
+]

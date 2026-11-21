@@ -1,0 +1,9 @@
+[
+  {
+    "id": "lightningtracecheck",
+    "kind": "check",
+    "file": "tools/referee/lightningtracecheck.mjs",
+    "args": [],
+    "why": "#6324 G17-L68: lockstep lightning scenario - cow/creeper/pig/villager/dummy struck: health -5, fire 160, charged, pig->zombified_piglin, villager->witch over 20 salts; fire 160->120 caught at the strike tick."
+  }
+]

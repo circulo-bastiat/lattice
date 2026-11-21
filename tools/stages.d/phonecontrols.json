@@ -1,0 +1,3 @@
+[
+  { "id": "phonecontrolscheck", "kind": "browser", "file": "tools/phonecontrolscheck.mjs", "args": [], "why": "#4176 PHONE step 3: one-tap controls (fill stepper, pause/resume, start commander/fixer) and the questions to Dan as button cards, in phone-sized Chromium against a mocked GitHub (screenshots in assets/)" }
+]

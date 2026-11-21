@@ -1,0 +1,8 @@
+[
+ {
+  "id": "selectorfiltercheck",
+  "kind": "check", "file": "tools/selectorfiltercheck.mjs",
+  "args": [],
+  "why": "#8119: selector name=, tag=, level=, gamemode= with ! negation, duplicate/inapplicable and mode.invalid errors, against EntitySelectorOptions.java."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbmeetcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18f-M1 -- createMeetTasks' priority-2 RandomTask: MeetVillagerTask (nextInt(100), bell within 4.0, villager within sqdist 32) + GoToIfNearbyTask(MEETING_POINT, 0.4F, 40). AFTER vbworkcheck: same NS.VB module."
+ }
+]

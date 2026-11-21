@@ -1,0 +1,3 @@
+[
+  { "id": "xprefcheck", "kind": "check", "file": "tools/referee/xprefcheck.mjs", "args": [] }
+]

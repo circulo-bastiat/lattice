@@ -1,0 +1,1 @@
+[ { "id": "lockstep-climb", "kind": "check", "file": "tools/referee/climblockstepcheck.mjs", "args": [], "why": "#6607 G17-L81: lockstep scenario climb (ladder/vine/scaffolding/twisting+weeping vines: clamp 0.15, sneak hold, fallDistance reset, 20 seeds) vs LivingEntity.handleOnClimbableMovement reference; clamp 0.15->0.2 and sneak hold removed caught." } ]

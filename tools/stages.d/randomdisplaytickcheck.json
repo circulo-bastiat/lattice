@@ -1,0 +1,8 @@
+[
+ {
+  "id": "randomdisplaytickcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-X10 — ClientWorld.doRandomBlockDisplayTicks + LightningRodBlock.randomDisplayTick (electric_spark in thunder, top-of-column only); breaks its own gate to prove it can fail."
+ }
+]

@@ -1,0 +1,1 @@
+[{"id":"keybinds11625check","kind":"check","file":"tools/keybinds11625check.mjs","args":[],"why":"#11625: 15g_keybinds.js KeybindsScreen/ControlsListWidget behaviour + reachability; source breaks caught."}]

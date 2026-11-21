@@ -1,0 +1,1 @@
+{ "id": "goldenapple", "mob": "zombie_villager", "gold": true, "sx": 18.5, "nbt": "NoAI:1b,ActiveEffects:[{Id:18b,Amplifier:0b,Duration:1000000,ShowParticles:0b}]", "note": "#9265: NoAI zombie villager with Weakness; the agent feeds the golden apple at tick call 10 (cure timer 3600+nextInt(2401), Strength for the timer); ConversionTime + ActiveEffects per tick" }

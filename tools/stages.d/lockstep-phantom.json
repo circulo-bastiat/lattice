@@ -1,0 +1,1 @@
+[ { "id": "lockstep-phantom", "kind": "check", "file": "tools/referee/phantomlockstepcheck.mjs", "args": [], "why": "#6669 G17-L98: lockstep scenario phantom (circle/swoop phases, circle centre + angle/radius rolls, move-control speed ramp, bite tick, 20 salts x 600 ticks); swoop speed 0.1 and circle radius roll caught. Daylight burn and bite damage by size owed." } ]

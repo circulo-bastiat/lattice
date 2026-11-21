@@ -1,0 +1,30 @@
+import java.util.Random;
+public class W {
+  public static void main(String[] a) {
+    int[][] cols = {{0,0},{1,0},{0,1},{-1,-1},{5,-7},{123,456},{-1000,777},{29999,-29999},{1234567,-7654321},{-30000000,29999999},{46341,-46341},{8,8}};
+    int[] tickss = {0, 7, 12345, 2147483000};
+    float partial = 0.25F;
+    System.out.println("# WorldRenderer.renderWeather per-column draws, java.util.Random on JDK (D-655 referee). partial=0.25");
+    System.out.println("x\tz\tticks\tseed\tphase\trainF\trainScroll\ts35\ts36");
+    for (int[] c : cols) for (int t : tickss) {
+      int x = c[0], z = c[1];
+      long seed = (long)(x * x * 3121 + x * 45238971 ^ z * z * 418711 + z * 13761);
+      int phase = t + x * x * 3121 + x * 45238971 + z * z * 418711 + z * 13761 & 31;
+      Random r = new Random(seed);
+      float rainF = r.nextFloat();
+      float scroll = -((float)phase + partial) / 32.0F * (3.0F + rainF);
+      Random r2 = new Random(seed);
+      float t14 = (float)t + partial;
+      float s35 = (float)(r2.nextDouble() + (double)t14 * 0.01 * (double)((float)r2.nextGaussian()));
+      float s36 = (float)(r2.nextDouble() + (double)(t14 * (float)r2.nextGaussian()) * 0.001);
+      System.out.println(x+"\t"+z+"\t"+t+"\t"+seed+"\t"+phase+"\t"+rainF+"\t"+scroll+"\t"+s35+"\t"+s36);
+    }
+    System.out.println("# offsets dx dz ox oz (field_20794/20795 * 0.5 as double)");
+    float[] f1 = new float[1024], f2 = new float[1024];
+    for (int i = 0; i < 32; i++) for (int j = 0; j < 32; j++) { float fx = j - 16, fz = i - 16; float l = (float)Math.sqrt(fx*fx+fz*fz); f1[i<<5|j] = -fz/l; f2[i<<5|j] = fx/l; }
+    for (int dz = -10; dz <= 10; dz += 3) for (int dx = -10; dx <= 10; dx += 4) {
+      int k = (dz + 16) * 32 + dx + 16;
+      System.out.println("off\t"+dx+"\t"+dz+"\t"+((double)f1[k]*0.5)+"\t"+((double)f2[k]*0.5));
+    }
+  }
+}

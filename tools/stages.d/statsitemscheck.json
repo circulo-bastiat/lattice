@@ -1,0 +1,8 @@
+[
+ {
+  "id": "statsitemscheck",
+  "kind": "check",
+  "args": [],
+  "why": "G26w -- every vanilla MINED/CRAFTED/USED/BROKEN/PICKED_UP/DROPPED incrementStat site is wired in src/ and reaches the Statistics item rows; anti-vacuity drops each call site and skews a count."
+ }
+]

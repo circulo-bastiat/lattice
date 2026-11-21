@@ -1,0 +1,1 @@
+[ { "id": "lockstep-villagepatrol", "kind": "check", "file": "tools/referee/villagepatrollockstepcheck.mjs", "args": [], "why": "#7102 G18b-L11: lockstep scenario villagepatrol, 20 salts: zombie MoveThroughVillageGoal at night over 6 doored houses with occupied bells, Normal/Hard canBreakDoors, visited-POI memory, door re-path, vs decomp MoveThroughVillageGoal." } ]

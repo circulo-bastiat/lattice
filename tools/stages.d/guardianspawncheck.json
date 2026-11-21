@@ -1,0 +1,8 @@
+[
+ {
+  "id": "guardianspawncheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1600 -- Spawn.RULES.guardian is GuardianEntity.canSpawn (1/20 roll or no sky, not peaceful, water at pos unless spawner, water below) and the monument's monster list is guardian 1 (2..4); breaks its own port and prints '<n> breaks caught'."
+ }
+]

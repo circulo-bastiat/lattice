@@ -1,0 +1,8 @@
+[
+ {
+  "id": "drownedtexcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#7658 drowned skin: drowned.png and drowned_outer_layer.png bound with jar pixels, outer model = drowned grown 0.25 (hat 0.75), renderer emits the outer pass; zombie/husk/zombie_villager sheets; prints breaks caught."
+ }
+]

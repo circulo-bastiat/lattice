@@ -1,0 +1,3 @@
+[
+  { "id": "relaypollcheck", "kind": "check", "file": "tools/relaypollcheck.mjs", "args": [] }
+]

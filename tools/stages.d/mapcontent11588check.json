@@ -1,0 +1,1 @@
+[{"id":"mapcontent11588check","kind":"check","file":"tools/mapcontent11588check.mjs","args":[],"why":"#11588: 07pm_mapcontent.js MapColor table/brightness, MapState centre snap, fillExplorationMap, colorsFor memo; breaks caught."}]

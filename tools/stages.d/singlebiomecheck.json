@@ -1,0 +1,9 @@
+[
+ {
+  "id": "singlebiomecheck",
+  "kind": "check",
+  "file": "tools/singlebiomecheck.mjs",
+  "args": [],
+  "why": "#11327: Single Biome (FixedBiomeSource, and MultiNoiseBiomeSource as the default) through G.genColumn: one biome everywhere, terrain still from climate; 3 breaks caught."
+ }
+]

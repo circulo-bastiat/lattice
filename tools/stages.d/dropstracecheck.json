@@ -1,0 +1,3 @@
+[
+  { "id": "dropstracecheck", "kind": "check", "file": "tools/referee/dropstracecheck.mjs", "args": [], "why": "#6220 G17-L15: server trace rows fill drops (ItemEntity list), changed loot reported as field drops." }
+]

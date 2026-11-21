@@ -1,0 +1,1 @@
+[ { "id": "lockstep-foxpounce", "kind": "check", "file": "tools/lockstep-foxpounce.mjs", "args": [], "why": "#6899 G17-L182: lockstep scenario foxpounce (FoxEntity.JumpChasingGoal: crouch 15 ticks, pounce velocity +0.8 fwd/+0.9 up, pitch, attack range, continue rule, 20 salts): pounce velocity y change caught." } ]

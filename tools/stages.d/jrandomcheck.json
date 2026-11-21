@@ -1,0 +1,3 @@
+[
+  { "id": "jrandomcheck", "kind": "check", "file": "tools/jrandomcheck.mjs", "args": [] }
+]

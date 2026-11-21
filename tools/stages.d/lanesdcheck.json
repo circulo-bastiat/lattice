@@ -1,0 +1,1 @@
+[{"id":"lanesdcheck","kind":"check","file":"tools/lanesdcheck.mjs","args":[],"why":"#6989 -- every lockstep lane is its own tools/referee/lanes.d/<id>.json (a lane PR never edits a shared line, so two lane PRs cannot conflict); LOCKSTEP_ONLY is built by loadLanes(), no inline array or push comes back, a bad lane file fails loudly (breaks caught)."}]

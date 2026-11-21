@@ -1,0 +1,3 @@
+[
+  { "id": "mobl3check", "kind": "check", "file": "tools/mobl3check.mjs", "args": [], "why": "#1507 GATE M L3 (node half): the ten complained mobs plus every further mob that joins (#1506 L4), every texture key, six axis views, a jar+.decomp reference raster vs the engine's emitted quads sampling the packed tiles; tol 0 outside a band sized from the engine's quanta; ratchet tools/mobl3-known.json. #1848: the ender_dragon is also judged POSED (5 neck, head, 12 tail, roll, root pitch, wings) from fixed segment properties against a .decomp DragonEntityModel.render transcription; 4 property breaks." }
+]

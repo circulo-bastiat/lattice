@@ -1,0 +1,20 @@
+name: vm-cap
+on: workflow_dispatch
+jobs:
+  cap:
+    runs-on: [self-hosted, mclite]
+    timeout-minutes: 5
+    steps:
+      - name: cap the brain VM (#10414 step 2, live, no restart)
+        shell: powershell
+        run: |
+          # Whatever vCPU count the VM has (6 by day, 11 on weekday nights), allow it at most 4 cores' worth, and 8 GB of RAM.
+          $ErrorActionPreference = 'Continue'
+          foreach ($vm in Get-VM) {
+            $n = (Get-VMProcessor -VMName $vm.Name).Count
+            $pct = [Math]::Max(1, [Math]::Min(100, [int](400 / $n)))
+            Set-VMProcessor -VMName $vm.Name -Maximum $pct
+            Set-VMMemory -VMName $vm.Name -DynamicMemoryEnabled $true -MaximumBytes 8GB
+            $p = Get-VMProcessor -VMName $vm.Name; $m = Get-VMMemory -VMName $vm.Name
+            Write-Output ("{0}: {1} vCPU, max {2}% ; memory max {3:N1} GB, assigned {4:N1} GB" -f $vm.Name, $p.Count, $p.Maximum, ($m.Maximum/1GB), ($vm.MemoryAssigned/1GB))
+          }

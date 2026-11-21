@@ -1,0 +1,8 @@
+[
+ {
+  "id": "villagertexcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/villager-tex (G18 mobs, \"villager type/profession TEXTURES\" gap) -- the villager/ zombie_villager clothing overlay: type (biome robe), profession (skipped for none), profession_level badge (skipped for nitwit), and VillagerResourceMetadata's hat-visibility gate (per-(type, profession) HatType read off each PNG's own real .mcmeta in the 1.18.2 jar), drawn through ER.villagerClothingLayers (07j_entityrender.js) off the SAME 27-sheet family tools/extract-mob-textures.mjs now packs for each entityType."
+ }
+]

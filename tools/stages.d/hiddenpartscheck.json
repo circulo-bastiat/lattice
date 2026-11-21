@@ -1,0 +1,8 @@
+[
+ {
+  "id": "hiddenpartscheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1587 — vanilla model constructors' `.visible = false` parts (IllagerEntityModel hat) must be in ER.DEFAULT_HIDDEN; breaks its own table and source to prove it can fail."
+ }
+]

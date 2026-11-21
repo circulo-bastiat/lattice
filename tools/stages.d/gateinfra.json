@@ -1,0 +1,3 @@
+[
+  { "id": "gateinfracheck", "kind": "check", "file": "tools/gateinfracheck.mjs", "args": [] }
+]

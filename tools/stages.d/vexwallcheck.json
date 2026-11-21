@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vexwallcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2409 -- a vex embedded in stone takes no IN_WALL damage (VexEntity.tick() holds noClip across the whole super.tick()); a non-vex in the same cell does."
+ }
+]

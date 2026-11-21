@@ -1,0 +1,1 @@
+[ { "id": "prooffeedcheck", "kind": "check", "file": "tools/prooffeedcheck.mjs", "args": [], "why": "#8671: proof feed fills the queue from RED matrix cells only when every precondition holds; MISSING is never work; tester gate." } ]

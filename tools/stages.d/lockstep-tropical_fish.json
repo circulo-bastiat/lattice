@@ -1,0 +1,1 @@
+[{"id": "lockstep-tropical_fish", "kind": "check", "file": "tools/lockstep-tropical_fish.mjs", "args": [], "why": "#5328 G17-L4: engine-side tropical_fish pool-lane trace, 20 salts (pos, vel, yaw, pitch, air per tick); deterministic per salt; 1e-9 drift in pos/vel/yaw/pitch and air shift caught. Server comparison runs through lockstep/pilot.mjs --lanes tropical_fish."}]

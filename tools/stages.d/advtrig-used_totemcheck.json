@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-used_totemcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT5 (#7752) — Adv.matchers used_totem + the Sv.tryUseTotem call site; adventure/totem_of_undying completes, a non-matching item condition does not; breaks its own matcher."
+ }
+]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-enderman", "kind": "check", "file": "tools/referee/endermanlockstepcheck.mjs", "args": [], "why": "#6302 G17-L54: lockstep scenario enderman (stare aggro tick by the dot-product test, teleportRandomly destinations over java.util.Random, 20 seeds); teleport box 64->32, stare constant and Y range caught. Pick-up and water-teleport lanes owed." } ]

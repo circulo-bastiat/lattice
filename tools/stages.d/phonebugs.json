@@ -1,0 +1,3 @@
+[
+  { "id": "phonebugscheck", "kind": "check", "file": "tools/phonebugscheck.mjs", "args": [], "why": "#7808 phone app C: Bugs feed states, order, Depends-on, one request per refresh, landed within 24 h" }
+]

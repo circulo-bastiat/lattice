@@ -1,0 +1,9 @@
+[
+ {
+  "id": "dimbiomecheck",
+  "kind": "check",
+  "file": "tools/dimbiomecheck.mjs",
+  "args": [],
+  "why": "#11712: TheEndBiomeSource.getNoiseAt (D.endSource/endNoiseAt in 04y_biome_dims.js) seeded by AtomicSimpleRandom (LegacyRandom, skip 17292) is pinned at fixed seeds/positions; cutting the skip, radius or Java int / % fails it (10 breaks caught)."
+ }
+]

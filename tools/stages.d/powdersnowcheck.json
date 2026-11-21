@@ -1,0 +1,3 @@
+[
+  { "id": "powdersnowcheck", "kind": "check", "file": "tools/powdersnowcheck.mjs", "args": [] }
+]

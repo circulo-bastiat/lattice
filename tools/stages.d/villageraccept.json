@@ -1,0 +1,8 @@
+[
+ {
+  "id": "villageraccept",
+  "kind": "check",
+  "args": [],
+  "why": "G18f phase acceptance (#230): level-1/2 offers exact for farmer/butcher/armorer, an over-traded offer disables then restocks, price rises after hurting a villager (gossip) and falls after a won raid (Hero of the Village), 5 bedded villagers spawn an iron golem and fewer do not."
+ }
+]

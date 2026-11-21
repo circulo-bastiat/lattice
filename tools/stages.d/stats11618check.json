@@ -1,0 +1,1 @@
+[{"id": "stats11618check", "kind": "check", "file": "tools/stats11618check.mjs", "args": [], "why": "#11618: 15fs_stats.js StatsScreen rows/sort/tabs and entry points; each cut must fail; breaks caught."}]

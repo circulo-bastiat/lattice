@@ -1,0 +1,8 @@
+[
+ {
+  "id": "scoretickcheck",
+  "kind": "check",
+  "args": [],
+  "why": "PLAN G26y — SB.tickPlayer matches ServerPlayerEntity.playerTick last*Score caching (health+absorption, air on any change, respawn reset); breaks its own source to prove it can fail."
+ }
+]

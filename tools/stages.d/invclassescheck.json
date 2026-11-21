@@ -1,0 +1,9 @@
+[
+ {
+  "id": "invclassescheck",
+  "kind": "check",
+  "file": "tools/invclassescheck.mjs",
+  "args": [],
+  "why": "#11736 -- net.minecraft.inventory.* (src/14g2_invclasses.js): DoubleInventory/CraftingInventory/CraftingResultInventory/ContainerLock behaviour vs .decomp, wired into chest/crafting/openChest, mutants caught."
+ }
+]

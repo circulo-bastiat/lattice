@@ -1,0 +1,8 @@
+[
+ {
+  "id": "playerabilitiescheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11686 -- PlayerAbilities (Gamemode.abilities, GameType.updatePlayerAbilities) driven through the real /gamemode command for all four modes; five field cuts are each caught."
+ }
+]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep_illusioner", "kind": "check", "file": "tools/lockstep-illusioner-20.mjs", "args": [], "why": "#5500 G17-L4 lockstep illusioner: 20 seeds, engine trace, 5 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes illusioner (full suite)." } ]

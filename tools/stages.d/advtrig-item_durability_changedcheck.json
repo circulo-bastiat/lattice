@@ -1,0 +1,9 @@
+[
+ {
+  "id": "advtrig-item_durability_changedcheck",
+  "kind": "check",
+  "file": "tools/advtrig-item_durability_changedcheck.mjs",
+  "args": [],
+  "why": "G17-AT43 — minecraft:item_durability_changed matcher + Use.damage call site complete nether/ride_strider; breaks its own matcher."
+ }
+]

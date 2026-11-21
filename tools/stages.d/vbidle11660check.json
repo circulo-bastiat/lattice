@@ -1,0 +1,1 @@
+[{"id":"vbidle11660check","kind":"check","file":"tools/vbidle11660check.mjs","args":[],"why":"#11660: 07zv4_vbidle.js LookTarget(goTowardsLook)/NearestBedSensor/JumpInBedTask reachable from VB.tick/tickIdle/play list; 11 breaks caught."}]

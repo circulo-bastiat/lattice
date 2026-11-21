@@ -1,0 +1,3 @@
+[
+ { "id": "mobvoicegatecheck", "kind": "check", "file": "tools/mobvoicegatecheck.mjs", "args": [], "why": "#4003: a mob's voice (ambient/hurt/death/step/burning) is registered only for mobs in MobVoice.AUDITED (passed Gate M audit); every audited mob speaks, no other does. Breaks its own gate (4 breaks caught)." }
+]

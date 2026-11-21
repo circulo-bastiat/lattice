@@ -1,0 +1,1 @@
+[{"id": "lockstep-cactusprick", "kind": "check", "file": "tools/referee/cactuspricklockstepcheck.mjs", "args": [], "why": "#8793 G17-L242: lockstep scenario cactusprick, 20 salts: zombie, pig, skeleton and a dropped item pushed into a cactus vs decomp CactusBlock.getCollisionShape inset, onEntityCollision damage(CACTUS,1), LivingEntity.damage grace, ItemEntity.damage health 5."}]

@@ -1,0 +1,1 @@
+[{"id": "screenshotcheck", "kind": "check", "file": "tools/screenshotcheck.mjs", "args": [], "why": "#10624: F2 screenshot vs 1.18.2 ScreenshotRecorder: yyyy-MM-dd_HH.mm.ss.png naming with _2/_3 duplicates, screenshot.success/failure chat text, F2 key; 6 source breaks caught."}]

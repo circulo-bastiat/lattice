@@ -1,0 +1,8 @@
+[
+ {
+  "id": "villagegolemcheck",
+  "kind": "check",
+  "args": [],
+  "why": "QUEUE row 0.2 remainder -- iron golem angry-player TARGET half, TrackIronGolemTargetGoal (the villager reputation/gossip substrate), UniversalAngerGoal's re-acquire chain and the village spawn trigger (VillagerEntity.summonGolem, javap'd -- 07l_spawn.js's own Village)."
+ }
+]

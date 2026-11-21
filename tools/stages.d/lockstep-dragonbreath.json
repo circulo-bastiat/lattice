@@ -1,0 +1,1 @@
+[ { "id": "lockstep-dragonbreath", "kind": "check", "file": "tools/referee/lockstepdragonbreathcheck.mjs", "args": [], "why": "#6729 G17-L132: lockstep scenario dragonbreath, 20 salts: dragon_fireball impact -> 600-tick breath cloud radius 3 growing (7-3)/600 per tick, wait 20, reapply 20, Instant Damage amp 1 = 6 on the player; radius 3.5, reapply 10 and amplifier 0 caught." } ]

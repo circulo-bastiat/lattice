@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dragonrespawncheck",
+  "kind": "check",
+  "args": [],
+  "why": "#10978 -- first-ever natural dragon spawn in a fresh End (convertFromLegacy -> closed bedrock exit portal -> createDragon 0,128,0), adopt-existing and no-player cases."
+ }
+]

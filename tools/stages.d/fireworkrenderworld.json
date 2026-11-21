@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fireworkrenderworld",
+  "kind": "check",
+  "args": [],
+  "why": "#8075: a flying firework_rocket draws as its item sprite (FireworkRocketEntityRenderer)"
+ }
+]

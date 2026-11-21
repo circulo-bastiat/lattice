@@ -1,0 +1,1 @@
+[{ "id": "goalmutantscheck", "kind": "check", "file": "tools/goalmutantscheck.mjs", "args": [], "why": "#11510: kills the 8 mobs-ai survivors of src/07k_goals.js (1.125 step, head yaw limit, dolphin pitch +10deg, arrival epsilon, stroll cos*r, findTo ignores walk range, wolf beg with nobody, attack reach squared); each assertion is also asserted against its mutant value." }]

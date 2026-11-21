@@ -1,0 +1,3 @@
+[
+  { "id": "phonegaugescheck", "kind": "check", "file": "tools/phonegaugescheck.mjs", "args": [], "why": "#4177 PHONE step 4: Home gauges strip (disk free, runners n/total, queue, fill regime, red/quarantine/fill-idle badges), 12 breaks" }
+]

@@ -1,0 +1,1 @@
+[{"id":"mineshaftwirecheck","kind":"check","file":"tools/mineshaftwirecheck.mjs","args":[],"why":"#11472: 04s_struct_mineshaft.js is wired (classmap false positive: maker attaches by string key via Structures.register): mineshaft starts (StructureStart) with pieces come through Structures.startsOfRegion; 1 break caught (register key cut)."}]

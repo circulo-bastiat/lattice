@@ -1,0 +1,9 @@
+[
+ {
+  "id": "commandargclassescheck",
+  "kind": "check",
+  "file": "tools/commandargclassescheck.mjs",
+  "args": [],
+  "why": "#11731 -- every net/minecraft/command/argument class maps to a real command line in the built tree that parses, and a bad line that stops at that argument with the vanilla message; serializer/GameTest classes are ruled out (11497)."
+ }
+]

@@ -1,0 +1,9 @@
+[
+ {
+  "id": "tripwirecheck",
+  "kind": "check",
+  "file": "tools/tripwirecheck.mjs",
+  "args": [],
+  "why": "#5610 -- TripwireBlock/TripwireHookBlock: an entity on the string powers both hooks, 10-tick release, lengths 1/41/42, disarmed string, owed row struck."
+ }
+]

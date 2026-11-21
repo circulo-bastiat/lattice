@@ -1,0 +1,9 @@
+[
+ {
+  "id": "titlecheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ]
+ }
+]

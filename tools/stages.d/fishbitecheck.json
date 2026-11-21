@@ -1,0 +1,3 @@
+[
+  { "id": "fishbitecheck", "kind": "check", "file": "tools/fishbitecheck.mjs", "args": [] }
+]

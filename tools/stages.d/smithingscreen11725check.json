@@ -1,0 +1,1 @@
+[{"id":"smithingscreen11725check","kind":"check","file":"tools/smithingscreen11725check.mjs","args":[],"why":"#11725: SmithingScreen/ForgingScreen via H.openSmithing, smithingClick, the H.draw dispatch and the close-time input drop; source breaks caught."}]

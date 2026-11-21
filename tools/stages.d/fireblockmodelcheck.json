@@ -1,0 +1,3 @@
+[
+  { "id": "fireblockmodelcheck", "kind": "check", "file": "tools/fireblockmodelcheck.mjs", "args": [] }
+]

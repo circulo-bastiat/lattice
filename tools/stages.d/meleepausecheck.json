@@ -1,0 +1,3 @@
+[
+  { "id": "meleepausecheck", "kind": "check", "file": "tools/meleepausecheck.mjs", "args": [], "why": "#4439 -- MeleeAttackGoal(..., true) users repath without line of sight and use isInWalkTargetRange in shouldContinue" }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "spawneggtablecheck", "kind": "check", "file": "tools/spawneggtablecheck.mjs", "args": [] }
+]

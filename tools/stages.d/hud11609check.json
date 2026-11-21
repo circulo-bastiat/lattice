@@ -1,0 +1,1 @@
+[{"id":"hud11609check","kind":"check","file":"tools/hud11609check.mjs","args":[],"why":"#11609: 15_hud.js BossBarHud, ServerBossBar, ClientBossBar, HandledScreen, HopperScreen, GenericContainerScreen, EnchantmentScreen, EnchantingPhrases, TooltipContext, ClickType; breaks caught."}]

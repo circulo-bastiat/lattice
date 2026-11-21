@@ -1,0 +1,3 @@
+[
+  { "id": "viewoverlaycheck", "kind": "check", "file": "tools/viewoverlaycheck.mjs", "args": [] }
+]

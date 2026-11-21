@@ -1,0 +1,1 @@
+[ { "id": "mendinglockstepcheck", "kind": "check", "file": "tools/referee/mendinglockstepcheck.mjs", "args": [], "why": "#8838 G17-L246: lockstep scenario mending, 20 salts: orb pickup repair of Mending gear, leftover xp, vs decomp reference." } ]

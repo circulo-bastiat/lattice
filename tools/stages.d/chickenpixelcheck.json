@@ -1,0 +1,1 @@
+[{"id":"chickenpixelcheck","kind":"check","file":"tools/chickenpixelcheck.mjs","args":[],"why":"#1895 L5: moving chicken pixel audit vs .decomp model; breaks caught"}]

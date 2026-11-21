@@ -1,0 +1,1 @@
+[{"id":"raidcmdcheck","kind":"check","file":"tools/raidcmdcheck.mjs","args":[],"why":"#11567 -- RaidCommand: /raid stop|check|setomen with no raid and spawnleader give the vanilla literal strings; 4 breaks caught."}]

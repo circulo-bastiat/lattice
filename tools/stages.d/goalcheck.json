@@ -1,0 +1,8 @@
+[
+ {
+  "id": "goalcheck",
+  "kind": "check",
+  "args": [],
+  "why": "PASS 16 JOB 1 (G18b, first slice) -- the goal selector and A* pathfinding ALGORITHM, proven against synthetic entities the harness builds by hand. D-390 closed the gravity gap this file's own header used to cite; D-391 (below, aicheck) is the live-wiring half."
+ }
+]

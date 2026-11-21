@@ -1,0 +1,1 @@
+[{"id":"hostloadcheck","kind":"check","args":[],"why":"#1632 -- the lander re-runs a core suite / build that died of host memory or load (Zone Allocation failed, VirtualAlloc failed, never reached the game, ECONNREFUSED) before bouncing the PR; real reds bounce at once; five broken detectors/loops are caught (breaks caught)."}]

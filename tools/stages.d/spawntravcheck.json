@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spawntravcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#166 (G18c-c) -- NaturalSpawner traversal parity: SpawnHelper.spawnEntitiesInChunk's chunk/height pick, 3 tries, ceil(nextFloat*4) packs, nextInt(6)-nextInt(6) jitter, player-distance 576 and spawn-point 24 rules, limitPerChunk, and Info/GravityField spawn_costs; an independent RNG-draw-sequence oracle plus decomp literal re-reads, each with deliberate breaks."
+ }
+]

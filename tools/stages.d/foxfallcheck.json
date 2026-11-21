@@ -1,0 +1,8 @@
+[
+ {
+  "id": "foxfallcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1288 -- FoxEntity.computeFallDamage ceil((dist-5)*mult): a fox dropped 10 blocks takes 5, a generic mob 7; Ph.landed routes the fox through Fx.fallDamage."
+ }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "headscalecheck", "kind": "check", "file": "tools/headscalecheck.mjs", "args": [] }
+]

@@ -1,0 +1,1 @@
+[{"id":"matrixkeepcheck","kind":"check","file":"tools/matrixkeepcheck.mjs","args":[],"why":"#9937 -- a full run with mirror shard faults must not build or publish a proof matrix (18:57Z 23 Oct: a partial run published 0/91 over 78/91); the guard keepMatrix is run on fixtures and the gate on the matrix block is asserted (5 breaks caught)."}]

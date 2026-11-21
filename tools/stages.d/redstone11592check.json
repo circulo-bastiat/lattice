@@ -1,0 +1,1 @@
+[{"id":"redstone11592check","kind":"check","file":"tools/redstone11592check.mjs","args":[],"why":"#11592: 07f_redstone.js lamp/torch/repeater/observer/target/stained-glass/ChestBlockEntity open count/TickPriority through Behave.tick and Rs entry points; breaks caught."}]

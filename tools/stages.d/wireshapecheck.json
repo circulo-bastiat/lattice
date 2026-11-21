@@ -1,0 +1,8 @@
+[
+ {
+  "id": "wireshapecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#339 — redstone dust's stored north/east/south/west (none|side|up) against RedstoneWireBlock: placement cross, line completion, T, climb/step-down (prepare), cap, glass/top-slab climb, repeater axis, right-click dot/cross toggle, and the cross-powers-a-lamp consequence."
+ }
+]

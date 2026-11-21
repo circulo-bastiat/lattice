@@ -1,0 +1,1 @@
+[ { "id": "lockstep_piglin_brute", "kind": "check", "file": "tools/lockstep-piglin_brute.mjs", "args": [], "why": "#5477 G17-L4 lockstep piglin_brute: 20 seeds, engine trace deterministic, 5 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes piglin_brute (full suite)." } ]

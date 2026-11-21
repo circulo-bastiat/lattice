@@ -1,0 +1,8 @@
+[
+ {
+  "id": "poicheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/raidpoi-s103 -- the minimal PointOfInterestStorage substrate (NS.Poi, 07zu_poi.js): HOME (bed, head-part cell)/MEETING (bell) POIs read off the real registry+block store, populated from generated/placed blocks in loaded chunks via a periodic full reconcile, removed when broken (also caught by the same reconcile), ticket-based occupancy (reserve/release/hasSpace/isOccupied), and the shuffled getPosition/getInCircle search RaiderEntity.AttackHomeGoal's own tryFindHome needs -- wired into Rd.villageCenterNear/ Rd.moveRaidCenter (07s_raid.js) and Ai.AttackHomeGoal (07k_goals.js)."
+ }
+]

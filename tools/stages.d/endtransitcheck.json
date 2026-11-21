@@ -1,0 +1,1 @@
+[ { "id": "endtransitcheck", "kind": "check", "file": "tools/endtransitcheck.mjs", "args": [] } ]

@@ -1,0 +1,1 @@
+[{"id":"chickenanimcheck","kind":"check","file":"tools/chickenanimcheck.mjs","args":[],"why":"#1895 L5: chicken moving-pose audit vs .decomp; breaks caught"}]

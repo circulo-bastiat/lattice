@@ -1,0 +1,3 @@
+[
+  { "id": "importscheck", "kind": "check", "file": "tools/importscheck.mjs", "args": [], "why": "22 Oct: launch.mjs called classifyBlocker/planGap/gapBody (tools/infra/envgap.mjs) with no import, inside a try/catch that only logs, so the env-gap hold (#9376) never ran for a day and envgapcheck + brainsyntaxcheck stayed green. A function another tools/ module exports must be imported before tools/brain, tools/infra or go.mjs calls it; breaks caught proves it fails on the real mistake." }
+]

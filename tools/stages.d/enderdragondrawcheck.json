@@ -1,0 +1,8 @@
+[
+ {
+  "id": "enderdragondrawcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18 leftover (D-788 residue, QUEUE.md row 0.00 part 2) -- the ender dragon's real 8-part animated renderer (ER.modelKindOf's own 'ender_dragon' kind + ER.dragonDelta), replacing the generic-box fallback 07zzm_wither.js names. Node-only, formula-level, same bar as animcheck.mjs above."
+ }
+]

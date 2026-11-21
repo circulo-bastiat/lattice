@@ -1,0 +1,8 @@
+[
+ {
+  "id": "goalrostercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#213 (G18b-2), Ai.OWED D-383 -- Ai.ROSTER built for real (EL.spawn) and compared to goals-1.18.2.tsv: priority, speed, tempt item set and flee radius/speeds of the Swim/Panic/Breed/Tempt/FollowParent/Avoid/Stroll/LookAt/LookAround/Revenge families for every rostered mob. Corrupts the golden nine ways and must notice each."
+ }
+]

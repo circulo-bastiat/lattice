@@ -1,0 +1,1 @@
+[{"id":"mirroretagcheck","kind":"check","args":[],"why":"#9701 -- mirror.mjs api(): conditional GETs (304 = free) + the GitHub App token minted by apptoken.mjs when creds exist (3 breaks caught)."}]

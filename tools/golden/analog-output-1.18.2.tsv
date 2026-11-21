@@ -1,0 +1,64 @@
+# hasAnalogOutputSignal — every block a comparator can read a NUMBER out of in 1.18.2.
+# Derived by tools/extract-analog.mjs from d_(cov) overrides in the jar. Do not hand-edit.
+# block	class	shape	note
+barrel	ccx	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+bee_nest	cdk	level	an int property, returned as is
+beehive	cdk	level	an int property, returned as is
+black_candle_cake	ced	const	static cea.c
+black_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+blast_furnace	cdp	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+blue_candle_cake	ced	const	static cea.c
+blue_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+brewing_stand	cdt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+brown_candle_cake	ced	const	static cea.c
+brown_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+cake	cea	derived	arithmetic on a property
+candle_cake	ced	const	static cea.c
+cauldron	cei	const	0
+chain_command_block	ces	entity	reads a block entity field this engine has no model for
+chest	ceo	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+command_block	ces	entity	reads a block entity field this engine has no model for
+composter	ceu	level	an int property, returned as is
+cyan_candle_cake	ced	const	static cea.c
+cyan_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+detector_rail	cfh	entity	searches for an entity — this engine has no entities yet (G18)
+dispenser	cfl	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+dropper	cfq	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+end_portal_frame	cfu	bool	a boolean property, 15 or 0
+furnace	cgk	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+gray_candle_cake	ced	const	static cea.c
+gray_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+green_candle_cake	ced	const	static cea.c
+green_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+hopper	cgz	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+jukebox	chh	entity	reads a block entity field this engine has no model for
+lava_cauldron	chm	const	3
+lectern	chp	entity	reads a block entity field this engine has no model for
+light_blue_candle_cake	ced	const	static cea.c
+light_blue_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+light_gray_candle_cake	ced	const	static cea.c
+light_gray_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+lime_candle_cake	ced	const	static cea.c
+lime_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+magenta_candle_cake	ced	const	static cea.c
+magenta_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+orange_candle_cake	ced	const	static cea.c
+orange_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+pink_candle_cake	ced	const	static cea.c
+pink_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+powder_snow_cauldron	cit	level	an int property, returned as is
+purple_candle_cake	ced	const	static cea.c
+purple_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+red_candle_cake	ced	const	static cea.c
+red_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+repeating_command_block	ces	entity	reads a block entity field this engine has no model for
+respawn_anchor	cjh	derived	arithmetic on a property
+sculk_sensor	cjq	entity	reads a block entity field this engine has no model for
+shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+smoker	ckb	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+trapped_chest	clg	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+water_cauldron	chn	level	an int property, returned as is
+white_candle_cake	ced	const	static cea.c
+white_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer
+yellow_candle_cake	ced	const	static cea.c
+yellow_shulker_box	cjt	container	AbstractContainerMenu.getRedstoneSignalFromContainer

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-bathang", "kind": "check", "file": "tools/lockstep-bathang.mjs", "args": [], "why": "#6893 G17-L176: lockstep scenario bathang (roosting/flying bats in a cave: wake roll 1/200 and player within 4, target re-roll 1/30, steering, vy damp, takeoff sound, 20 salts): wake distance 4 changed to 3 caught." } ]

@@ -1,0 +1,1 @@
+[{"id": "lockstep-catspawner", "kind": "check", "file": "tools/lockstep-catspawner.mjs", "args": [], "why": "#7093 G18c-L2: engine-side catspawner lane (village 8 beds then 3, swamp hut; 20 salts x 3600 ticks): 1200 gate, <5 cats, >4 beds, deterministic; 5 beds per cat / 1000 cadence caught."}]

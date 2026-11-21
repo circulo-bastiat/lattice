@@ -1,0 +1,1 @@
+[{"id": "lockstep-sweetberry", "kind": "check", "file": "tools/referee/sweetberrylockstepcheck.mjs", "args": [], "why": "#8792 G17-L241: lockstep scenario sweetberry, 20 salts: zombie/cow/fox/bee cross an age-3 and age-0 bush vs decomp SweetBerryBushBlock.onEntityCollision (0.8/0.75/0.8 slow, 0.003 move test, 1 damage, fox+bee exempt)."}]

@@ -1,0 +1,9 @@
+[
+ {
+  "id": "limitedcraftingcheck",
+  "kind": "check",
+  "file": "tools/limitedcraftingcheck.mjs",
+  "args": [],
+  "why": "G17-GR1 — RecipeUnlocker.shouldCraftRecipe (doLimitedCrafting): Recipes.shouldCraftRecipe refuses a craft whose recipe is not in the player's recipe book; breaks its own rule check to prove it can fail."
+ }
+]

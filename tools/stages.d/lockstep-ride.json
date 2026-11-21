@@ -1,0 +1,1 @@
+[ { "id": "lockstep-ride", "kind": "check", "file": "tools/referee/lockstepridecheck.mjs", "args": [], "why": "#6290 G17-L42: lockstep scenario ride, 20 salts: saddled horse jump (jump strength attr x charge 0.4-1.0, kick, gravity/drag) and carrot-on-a-stick pig (boost half-sine speed, yaw sync) vs decomp reference; jump power scale caught at the jump tick." } ]

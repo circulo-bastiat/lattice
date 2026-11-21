@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mirrorcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1017 -- invisible illusioner draws 4 mirror-image ghosts, 16 puffs + mirror_move on hurtTime==1/age%1200 (IllusionerEntity.tickMovement/method_7065, IllusionerEntityRenderer.method_3991); other invisible mobs draw nothing."
+ }
+]

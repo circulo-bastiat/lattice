@@ -1,0 +1,8 @@
+[
+ {
+  "id": "guardianposecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2022 GuardianEntityModel.setAngles: spike pivots (spikesExtension 0/.5/1), tail yaws (tailAngle sweep) and the eye pivot of the posed guardian parts are compared with the decompiled formulas. Breaks its own inputs (1 breaks caught)."
+ }
+]

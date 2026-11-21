@@ -1,0 +1,9 @@
+[
+ {
+  "id": "railcheck",
+  "kind": "check",
+  "file": "tools/railcheck.mjs",
+  "args": [],
+  "why": "#306 (G25) -- rail shapes: RailPlacementHelper layouts (corner, T-junction, slope, straight-only refusing a curve) re-derived from the Java, the powered T-junction, shouldDropRail, rotate/mirror parsed from .decomp."
+ }
+]

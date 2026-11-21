@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dimstatecheck",
+  "kind": "check",
+  "args": [],
+  "why": "G27c (#10977) -- per-dimension entity list, block-entity store and dragon fight survive World.setDimension and the save."
+ }
+]

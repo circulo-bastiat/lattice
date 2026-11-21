@@ -1,0 +1,1 @@
+[{"id":"hudaudit11489check","kind":"check","file":"tools/hudaudit11489check.mjs","args":[],"why":"#11489: Rarity, NetherStarItem, ExperienceBottleItem, EnchantedGoldenAppleItem, StringHelper, StatusEffectCategory via 15_hud.js tooltip/effect paths; 10 breaks caught."}]

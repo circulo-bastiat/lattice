@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endwirecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11226 podium, 20 gateways, chorus too; #11224 -- the End goes through G.genColumn (the real chunk path): end_stone island + obsidian spikes, void ring, outer islands, End biomes; fails when the the_end dispatch, the terrain writer or the spike call is cut."
+ }
+]

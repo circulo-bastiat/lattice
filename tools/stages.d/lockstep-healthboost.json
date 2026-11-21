@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-healthboost",
+  "kind": "check",
+  "file": "tools/referee/lockstephealthboostcheck.mjs",
+  "args": [],
+  "why": "#8763 G17-L233: lockstep scenario healthboost, 20 salts x pig/zombie/player x health 20/7/28: Health Boost II +8 max health, health not topped up on apply, hurt amounts, clamp to the lowered max on removal; +4->+2, missing clamp, top-up on apply all caught."
+ }
+]

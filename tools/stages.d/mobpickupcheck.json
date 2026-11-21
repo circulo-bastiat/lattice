@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobpickupcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/mobpickup (QUEUE 0.2) -- MOBENTITY ITEM PICKUP: NS.Equip's own `tickPickup`/`loot`/ `tryEquip`/`prefersNewEquipment`/`canPickupItem`/`canGather` (07y_equip.js), off `MobEntity.tickMovement`'s own canPickUpLoot/mobGriefing-gated scan (.decomp:519-540) -- the whole ZOMBIE_FAMILY, skeleton/stray/wither_skeleton, and pillager's own banner-only `loot()`. AFTER equipcheck: drives the same real NS.Equip module its fixed-weapon/armour- roll/drop-chance state already exercises, not a second copy."
+ }
+]

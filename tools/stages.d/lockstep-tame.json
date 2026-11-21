@@ -1,0 +1,1 @@
+[ { "id": "lockstep-tame", "kind": "check", "file": "tools/referee/lockstepTamecheck.mjs", "args": [], "why": "#6288 G17-L40: lockstep scenario tame, 20 salts: wolf + bone, 1/3 roll from the entity stream, sit, sit toggle, owner follow vs decomp reference; 1/4 roll reported at the roll tick." } ]

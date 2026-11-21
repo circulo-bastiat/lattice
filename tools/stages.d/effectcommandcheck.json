@@ -1,0 +1,8 @@
+[
+ {
+  "id": "effectcommandcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8025 -- /effect give (seconds*20, amplifier, hideParticles, instant rules, failure keys) and clear (one/all) through the effect substrate; edited-source breaks must be noticed."
+ }
+]

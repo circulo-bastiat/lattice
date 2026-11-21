@@ -1,0 +1,8 @@
+[
+ {
+  "id": "scoreboardplayerscheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-SB2 — /scoreboard players set/add/remove/get/list/reset/enable/operation: all nine operators on known values, floor division/modulo for negatives, div0 failure, enable on a non-trigger fails, exact lang strings; miswires the operators table to prove it can fail."
+ }
+]

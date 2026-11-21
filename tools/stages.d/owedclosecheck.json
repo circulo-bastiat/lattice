@@ -1,0 +1,1 @@
+[{"id":"owedclosecheck","kind":"check","file":"tools/owedclosecheck.mjs","args":[],"why":"#11907: a landed partial PR whose owed items are empty or all tracked by another open issue closes the issue; anything else keeps it open; breaks caught."}]

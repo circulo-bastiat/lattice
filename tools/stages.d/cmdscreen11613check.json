@@ -1,0 +1,1 @@
+[{"id": "cmdscreen11613check", "kind": "check", "file": "tools/cmdscreen11613check.mjs", "args": [], "why": "#11613: 07zzu_cmdscreen.js CommandSuggestor, CommandBlockScreen, MinecartCommandBlockScreen; each cut must fail; breaks caught."}]

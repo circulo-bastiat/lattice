@@ -1,0 +1,8 @@
+[
+ {
+  "id": "texaudit",
+  "kind": "check",
+  "args": [],
+  "why": "PLAN G10b's other half — Dan's \"many blocks have wrong textures in hotbar and in world\". 318 cube blocks face-by-face and 471 model blocks by containment, against the atlas index."
+ }
+]

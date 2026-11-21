@@ -1,0 +1,1 @@
+[{"id": "farmblockrules", "kind": "check", "file": "tools/farmblockrules.mjs", "args": [], "why": "#10806 FarmlandBlock.randomTick: rain (hasRain(pos.up())), water box radius 4, hasCrop, dry -> dirt. Breaks: rain ignored, radius widened, water ignored."}]

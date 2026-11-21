@@ -1,0 +1,10 @@
+[
+ {
+  "id": "g14check",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "PLAN G14 — the save across a REAL page reload. `savecheck` proves the format; only this proves that a player who closes the tab gets their world back (D-288)."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dolphininteractcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#719 -- DolphinEntity.interactMob fish feeding (ItemTags.FISHES), LeadToNearbyTreasureGoal locating dolphin_located within 50 with status-38 particles, SwimWithPlayerGoal's Dolphin's Grace. Anti-vacuity rows feed a non-fish and remove the structure and must notice."
+ }
+]

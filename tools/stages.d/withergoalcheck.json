@@ -1,0 +1,8 @@
+[
+ {
+  "id": "withergoalcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#944: wither roster row 5 is FlyGoal (AboveGround/NoPenaltySolid targeting), dynamic noGravity"
+ }
+]

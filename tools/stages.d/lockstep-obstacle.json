@@ -1,0 +1,1 @@
+[{"id": "lockstep-obstacle", "kind": "check", "file": "tools/lockstep-obstacle.mjs", "args": [], "why": "#6267 G17-L35: engine-side 'obstacle' lane (3-wide wall, ledge, fence) x 20 salts, pos + path rows deterministic, zombie paths round the wall; fence node cost 0 diverges on path; tampered rows caught."}]

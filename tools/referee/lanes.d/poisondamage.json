@@ -1,0 +1,1 @@
+{ "id": "poisondamage", "mob": "cow", "damage": true, "nbt": "NoAI:1b", "hurt": true, "effect": "poison 10 2", "note": "#9249: NoAI cow given poison III for 10 s at the summon; Health/HurtTime per tick (poison stops at 1 HP)" }

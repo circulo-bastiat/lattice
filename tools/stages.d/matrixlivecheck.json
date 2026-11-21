@@ -1,0 +1,1 @@
+[{"id":"matrixlivecheck","kind":"check","args":[],"why":"#9733 -- the full run proof matrix reaches every clone (branch proof -> .ledger/matrix-live.json); status, the tester gate and GATE-AUTO read the newest copy (7 breaks caught)."}]

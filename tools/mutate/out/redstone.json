@@ -1,0 +1,54 @@
+{
+ "module": "redstone",
+ "seed": 1,
+ "n": 8,
+ "files": [
+  {
+   "file": "src/07f_redstone.js",
+   "stages": [
+    "pistonrendercheck",
+    "lockstep-dispenser",
+    "pistondrawcheck",
+    "hopperrefcheck",
+    "dispenserefcheck",
+    "lockstep-pistonpush"
+   ],
+   "baselineDropped": 0,
+   "mutants": [
+    {
+     "line": 306,
+     "mutation": "negate return",
+     "before": "if (b === blkTrappedChest) return Rs.chestOpenSignal(x, y, z);",
+     "after": "if (b === blkTrappedChest) return !Rs.chestOpenSignal(x, y, z);",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 356,
+     "mutation": "constant +1",
+     "before": "if (!boolProp(state, 'powered')) return 0;",
+     "after": "if (!boolProp(state, 'powered')) return 1;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 519,
+     "mutation": "constant +1",
+     "before": "if (ppw !== null && ppw !== undefined) return ppw | 0;",
+     "after": "if (ppw !== null && ppw !== undefined) return ppw | 1;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 621,
+     "mutation": "constant +1",
+     "before": "for (var d = 0; d < 6; d++) {",
+     "after": "for (var d = 1; d < 6; d++) {",
+     "status": "SURVIVED"
+    }
+   ],
+   "skippedUnviable": 0,
+   "sites": 1304,
+   "killed": 0,
+   "survived": 4,
+   "score": 0
+  }
+ ]
+}

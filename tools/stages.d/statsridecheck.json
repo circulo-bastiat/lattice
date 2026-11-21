@@ -1,0 +1,1 @@
+[{"id":"statsridecheck","kind":"check","file":"tools/statsridecheck.mjs","args":[],"why":"G26v #11044: every vehicle feeds Stats.riding (PlayerEntity.increaseRidingMotionStats rule) and Player.tick passes the vehicle in every gamemode; 6 breaks caught."}]

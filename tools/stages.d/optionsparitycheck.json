@@ -1,0 +1,1 @@
+[{"id":"optionsparitycheck","kind":"check","file":"tools/optionsparitycheck.mjs","args":[],"why":"#11231: Mouse Settings screen + Controls screen match 1.18.2 decomp (labels, ranges, defaults, persisted keys, reachability); 6 breaks caught."}]

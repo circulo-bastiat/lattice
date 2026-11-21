@@ -1,0 +1,8 @@
+[
+ {
+  "id": "inhandcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#401: a held trident and spyglass are trident_in_hand (TridentEntityModel) and spyglass_in_hand (3D tube), not the inventory sprite; GUI/ground keep the sprite"
+ }
+]

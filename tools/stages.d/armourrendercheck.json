@@ -1,0 +1,8 @@
+[
+ {
+  "id": "armourrendercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1835: ArmorFeatureRenderer -- a mob wearing armour emits one pass per worn ArmorItem (slot parts only, legs on inner #b, rest on outer #c, dilated 0.5/1.0)."
+ }
+]

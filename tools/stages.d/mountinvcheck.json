@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mountinvcheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-550: mount inventory drop, anger timer, jump boost, horse screen geometry"
+ }
+]

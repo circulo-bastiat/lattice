@@ -1,0 +1,8 @@
+[
+ {
+  "id": "nbtcheck",
+  "kind": "check",
+  "args": [],
+  "why": "W13 and W14: the structure registry, the region grid, and the mineshaft grammar. After featcheck because a structure is written inside the feature pass's step loop, and before floatcheck because floatcheck now walks worlds with mineshafts in them. W15's NBT reader, the re-encoded templates and the jigsaw pipeline. BEFORE structcheck, because structcheck's W16..W18 sections place those templates and there is no point asking whether a village stands up before asking whether its pieces decoded."
+ }
+]

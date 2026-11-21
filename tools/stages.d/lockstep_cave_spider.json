@@ -1,0 +1,1 @@
+[{"id": "lockstep_cave_spider", "kind": "check", "file": "tools/lockstep_cave_spider.mjs", "args": [], "why": "#5461 G17-L4: cave_spider 20 salts, 0 divergences vs real server (pilot); engine trace deterministic; wrong-attribute/goal-tick/rng faults caught."}]

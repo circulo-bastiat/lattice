@@ -1,0 +1,9 @@
+[
+ {
+  "id": "playerheadcheck",
+  "kind": "check",
+  "file": "tools/playerheadcheck.mjs",
+  "args": [],
+  "why": "#635: the third-person player's head-slot item (skull, pumpkin, banner) reaches HeadFeatureRenderer"
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mapcontentcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#229 G18f-b -- MapColor table vs .decomp + FilledMapItem.fillExplorationMap port (07pm_mapcontent.js); breaks-caught line."
+ }
+]

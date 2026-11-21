@@ -1,0 +1,1 @@
+[{"id":"redlitcheck","kind":"check","file":"tools/redlitcheck.mjs","args":[],"why":"#4946 powered/lit visuals: wire power tint ramp, model flips, light"}]

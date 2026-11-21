@@ -1,0 +1,1 @@
+[{"id":"hitbox11631check","kind":"check","file":"tools/hitbox11631check.mjs","args":[],"why":"#11631: 07zzu_hitbox.js drawBox/VertexConsumer line lists + F3+B reachability; source breaks caught."}]

@@ -1,0 +1,1 @@
+[{"id":"sky11629check","kind":"check","file":"tools/sky11629check.mjs","args":[],"why":"#11629: 09b_sky.js BackgroundRenderer fog/water fog, CameraSubmersionType water branch, CubicSampler blend behaviour + reachability; source breaks caught."}]

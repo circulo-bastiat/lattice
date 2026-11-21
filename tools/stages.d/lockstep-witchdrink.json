@@ -1,0 +1,1 @@
+[{"id": "lockstep-witchdrink", "kind": "check", "file": "tools/lockstep-witchdrink.mjs", "args": [], "timeoutMin": 10, "why": "#8646 G18b-L37: witch DrinkPotion, 20 salts x 1200 ticks: healing when hurt, fire resistance on fire, water breathing underwater, swiftness at d^2 > 121, 32-tick drink; gate 121 changed to 100 caught."}]

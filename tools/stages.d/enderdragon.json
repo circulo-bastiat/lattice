@@ -1,0 +1,3 @@
+[
+  { "id": "enderdragoncheck", "kind": "check", "file": "tools/enderdragoncheck.mjs", "args": [] }
+]

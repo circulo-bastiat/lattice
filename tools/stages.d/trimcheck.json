@@ -1,0 +1,3 @@
+[
+  { "id": "trimcheck", "kind": "check", "file": "tools/trimcheck.mjs", "args": [] }
+]

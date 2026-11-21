@@ -1,0 +1,4442 @@
+[
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/block/CoralBlock",
+  "module": "04q_feat_coral.js",
+  "classes": [
+   "net/minecraft/block/CoralBlock"
+  ],
+  "issue": 11521
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/block/sapling/LargeTreeSaplingGenerator",
+  "module": "04k_feat_trees.js",
+  "classes": [
+   "net/minecraft/block/sapling/LargeTreeSaplingGenerator"
+  ],
+  "issue": 11522
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/structure/NetherFortressGenerator",
+  "module": "04y_struct_nether_fortress.js",
+  "classes": [
+   "net/minecraft/structure/NetherFortressGenerator"
+  ],
+  "issue": 11523
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/structure/NetherFossilGenerator",
+  "module": "04w_struct_rest.js",
+  "classes": [
+   "net/minecraft/structure/NetherFossilGenerator"
+  ],
+  "issue": 11524
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/structure/StructurePiecesCollector",
+  "module": "04y_struct_nether_fortress.js",
+  "classes": [
+   "net/minecraft/structure/StructurePiecesCollector"
+  ],
+  "issue": 11525
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/structure/StructurePiecesGenerator",
+  "module": "04y_struct_nether_fortress.js",
+  "classes": [
+   "net/minecraft/structure/StructurePiecesGenerator"
+  ],
+  "issue": 11526
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/structure/StructureStart",
+  "module": "04s_struct_mineshaft.js",
+  "classes": [
+   "net/minecraft/structure/StructureStart"
+  ],
+  "issue": 11527
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/util/math/BlockBox",
+  "module": "04y_struct_nether_fortress.js",
+  "classes": [
+   "net/minecraft/util/math/BlockBox"
+  ],
+  "issue": 11528
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/BambooFeature",
+  "module": "04m_feat_water.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/BambooFeature"
+  ],
+  "issue": 11529
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/BasaltColumnsFeature",
+  "module": "04z_feat_nether.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/BasaltColumnsFeature"
+  ],
+  "issue": 11530
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/BasaltPillarFeature",
+  "module": "04z_feat_nether.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/BasaltPillarFeature"
+  ],
+  "issue": 11531
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/BlueIceFeature",
+  "module": "04p_feat_cold.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/BlueIceFeature"
+  ],
+  "issue": 11532
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/BuriedTreasureFeature",
+  "module": "04w_struct_rest.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/BuriedTreasureFeature"
+  ],
+  "issue": 11533
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/CoralClawFeature",
+  "module": "04q_feat_coral.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/CoralClawFeature"
+  ],
+  "issue": 11534
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/CoralMushroomFeature",
+  "module": "04q_feat_coral.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/CoralMushroomFeature"
+  ],
+  "issue": 11535
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/CoralTreeFeature",
+  "module": "04q_feat_coral.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/CoralTreeFeature"
+  ],
+  "issue": 11536
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/DeltaFeature",
+  "module": "04z_feat_nether.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/DeltaFeature"
+  ],
+  "issue": 11537
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/DesertWellFeature",
+  "module": "04n_feat_terrain.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/DesertWellFeature"
+  ],
+  "issue": 11538
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/DripstoneClusterFeature",
+  "module": "04p_feat_cold.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/DripstoneClusterFeature"
+  ],
+  "issue": 11539
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/GeodeFeature",
+  "module": "04n_feat_terrain.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/GeodeFeature"
+  ],
+  "issue": 11540
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/GlowLichenFeature",
+  "module": "04p_feat_cold.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/GlowLichenFeature"
+  ],
+  "issue": 11541
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/GlowstoneBlobFeature",
+  "module": "04z_feat_nether.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/GlowstoneBlobFeature"
+  ],
+  "issue": 11542
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/IcePatchFeature",
+  "module": "04p_feat_cold.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/IcePatchFeature"
+  ],
+  "issue": 11543
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/IceSpikeFeature",
+  "module": "04p_feat_cold.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/IceSpikeFeature"
+  ],
+  "issue": 11544
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/IcebergFeature",
+  "module": "04p_feat_cold.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/IcebergFeature"
+  ],
+  "issue": 11545
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/JigsawFeature",
+  "module": "04w_struct_rest.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/JigsawFeature"
+  ],
+  "issue": 11546
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/KelpFeature",
+  "module": "04m_feat_water.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/KelpFeature"
+  ],
+  "issue": 11547
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/LakeFeature",
+  "module": "04n_feat_terrain.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/LakeFeature"
+  ],
+  "issue": 11548
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/LargeDripstoneFeature",
+  "module": "04p_feat_cold.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/LargeDripstoneFeature"
+  ],
+  "issue": 11549
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/MineshaftFeature",
+  "module": "04s_struct_mineshaft.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/MineshaftFeature"
+  ],
+  "issue": 11550
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/NetherFortressFeature",
+  "module": "04y_struct_nether_fortress.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/NetherFortressFeature"
+  ],
+  "issue": 11551
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/NetherFossilFeature",
+  "module": "04w_struct_rest.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/NetherFossilFeature"
+  ],
+  "issue": 11552
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/ReplaceBlobsFeature",
+  "module": "04z_feat_nether.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/ReplaceBlobsFeature"
+  ],
+  "issue": 11553
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/RootSystemFeature",
+  "module": "04n_feat_terrain.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/RootSystemFeature"
+  ],
+  "issue": 11554
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/SeaPickleFeature",
+  "module": "04m_feat_water.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/SeaPickleFeature"
+  ],
+  "issue": 11555
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/SeagrassFeature",
+  "module": "04m_feat_water.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/SeagrassFeature"
+  ],
+  "issue": 11556
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/ShipwreckFeature",
+  "module": "04w_struct_rest.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/ShipwreckFeature"
+  ],
+  "issue": 11557
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/SpringFeature",
+  "module": "04m_feat_water.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/SpringFeature"
+  ],
+  "issue": 11558
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/UnderwaterMagmaFeature",
+  "module": "04m_feat_water.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/UnderwaterMagmaFeature"
+  ],
+  "issue": 11559
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/VegetationPatchFeature",
+  "module": "04m_feat_water.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/VegetationPatchFeature"
+  ],
+  "issue": 11560
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/VillageFeature",
+  "module": "04v_struct_village.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/VillageFeature"
+  ],
+  "issue": 11561
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/VinesFeature",
+  "module": "04p_feat_cold.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/VinesFeature"
+  ],
+  "issue": 11562
+ },
+ {
+  "kind": "unwired",
+  "key": "net/minecraft/world/gen/feature/WeepingVinesFeature",
+  "module": "04z_feat_nether.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/WeepingVinesFeature"
+  ],
+  "issue": 11563
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zy_composter.js",
+  "module": "07zy_composter.js",
+  "classes": [
+   "net/minecraft/Bootstrap",
+   "net/minecraft/GameVersion",
+   "net/minecraft/state/property/IntProperty",
+   "net/minecraft/world/WorldEvents"
+  ],
+  "issue": 11564
+ },
+ {
+  "kind": "unchecked",
+  "key": "02l_advancements.js",
+  "module": "02l_advancements.js",
+  "classes": [
+   "net/minecraft/advancement/Advancement",
+   "net/minecraft/advancement/AdvancementCriterion",
+   "net/minecraft/advancement/AdvancementDisplay",
+   "net/minecraft/advancement/AdvancementFrame",
+   "net/minecraft/advancement/AdvancementManager",
+   "net/minecraft/advancement/AdvancementPositioner",
+   "net/minecraft/advancement/AdvancementProgress",
+   "net/minecraft/advancement/AdvancementRewards",
+   "net/minecraft/advancement/CriterionMerger",
+   "net/minecraft/advancement/PlayerAdvancementTracker",
+   "net/minecraft/advancement/criterion/AbstractCriterionConditions",
+   "net/minecraft/advancement/criterion/BeeNestDestroyedCriterion",
+   "net/minecraft/advancement/criterion/BredAnimalsCriterion",
+   "net/minecraft/advancement/criterion/BrewedPotionCriterion",
+   "net/minecraft/advancement/criterion/ChangedDimensionCriterion",
+   "net/minecraft/advancement/criterion/ChanneledLightningCriterion",
+   "net/minecraft/advancement/criterion/ConstructBeaconCriterion",
+   "net/minecraft/advancement/criterion/ConsumeItemCriterion",
+   "net/minecraft/advancement/criterion/CriterionProgress",
+   "net/minecraft/advancement/criterion/CuredZombieVillagerCriterion",
+   "net/minecraft/advancement/criterion/EffectsChangedCriterion",
+   "net/minecraft/advancement/criterion/EnchantedItemCriterion",
+   "net/minecraft/advancement/criterion/EnterBlockCriterion",
+   "net/minecraft/advancement/criterion/EntityHurtPlayerCriterion",
+   "net/minecraft/advancement/criterion/FilledBucketCriterion",
+   "net/minecraft/advancement/criterion/FishingRodHookedCriterion",
+   "net/minecraft/advancement/criterion/InventoryChangedCriterion",
+   "net/minecraft/advancement/criterion/ItemUsedOnBlockCriterion",
+   "net/minecraft/advancement/criterion/KilledByCrossbowCriterion",
+   "net/minecraft/advancement/criterion/LevitationCriterion",
+   "net/minecraft/advancement/criterion/LightningStrikeCriterion",
+   "net/minecraft/advancement/criterion/LocationArrivalCriterion",
+   "net/minecraft/advancement/criterion/OnKilledCriterion",
+   "net/minecraft/advancement/criterion/PlacedBlockCriterion",
+   "net/minecraft/advancement/criterion/PlayerGeneratesContainerLootCriterion",
+   "net/minecraft/advancement/criterion/PlayerHurtEntityCriterion",
+   "net/minecraft/advancement/criterion/PlayerInteractedWithEntityCriterion",
+   "net/minecraft/advancement/criterion/RecipeUnlockedCriterion",
+   "net/minecraft/advancement/criterion/ShotCrossbowCriterion",
+   "net/minecraft/advancement/criterion/SlideDownBlockCriterion",
+   "net/minecraft/advancement/criterion/StartedRidingCriterion",
+   "net/minecraft/advancement/criterion/SummonedEntityCriterion",
+   "net/minecraft/advancement/criterion/TameAnimalCriterion",
+   "net/minecraft/advancement/criterion/TargetHitCriterion",
+   "net/minecraft/advancement/criterion/ThrownItemPickedUpByEntityCriterion",
+   "net/minecraft/advancement/criterion/TickCriterion",
+   "net/minecraft/advancement/criterion/TravelCriterion",
+   "net/minecraft/advancement/criterion/UsedEnderEyeCriterion",
+   "net/minecraft/advancement/criterion/UsedTotemCriterion",
+   "net/minecraft/advancement/criterion/UsingItemCriterion",
+   "net/minecraft/advancement/criterion/VillagerTradeCriterion",
+   "net/minecraft/client/toast/AdvancementToast",
+   "net/minecraft/client/toast/Toast",
+   "net/minecraft/loot/condition/InvertedLootCondition",
+   "net/minecraft/predicate/DamagePredicate",
+   "net/minecraft/predicate/PlayerPredicate",
+   "net/minecraft/predicate/StatePredicate",
+   "net/minecraft/predicate/entity/AdvancementEntityPredicateDeserializer",
+   "net/minecraft/predicate/entity/DamageSourcePredicate",
+   "net/minecraft/predicate/entity/EntityEffectPredicate",
+   "net/minecraft/predicate/entity/LightningBoltPredicate",
+   "net/minecraft/predicate/entity/LocationPredicate",
+   "net/minecraft/predicate/item/ItemPredicate",
+   "net/minecraft/recipe/MapExtendingRecipe",
+   "net/minecraft/recipe/SpecialCraftingRecipe",
+   "net/minecraft/server/ServerAdvancementLoader"
+  ],
+  "issue": 11565
+ },
+ {
+  "kind": "unchecked",
+  "key": "14l_use.js",
+  "module": "14l_use.js",
+  "classes": [
+   "net/minecraft/advancement/criterion/Criteria",
+   "net/minecraft/block/BeaconBlock",
+   "net/minecraft/block/CakeBlock",
+   "net/minecraft/block/CandleCakeBlock",
+   "net/minecraft/block/CartographyTableBlock",
+   "net/minecraft/block/FlowerPotBlock",
+   "net/minecraft/block/FluidFillable",
+   "net/minecraft/block/GrassBlock",
+   "net/minecraft/block/GrindstoneBlock",
+   "net/minecraft/block/HoneyBlock",
+   "net/minecraft/block/LavaCauldronBlock",
+   "net/minecraft/block/LecternBlock",
+   "net/minecraft/block/LeverBlock",
+   "net/minecraft/block/LoomBlock",
+   "net/minecraft/block/PumpkinBlock",
+   "net/minecraft/block/ShulkerBoxBlock",
+   "net/minecraft/block/SignBlock",
+   "net/minecraft/block/SmithingTableBlock",
+   "net/minecraft/block/StonecutterBlock",
+   "net/minecraft/block/TallFlowerBlock",
+   "net/minecraft/block/TrappedChestBlock",
+   "net/minecraft/block/Waterloggable",
+   "net/minecraft/block/entity/LecternBlockEntity",
+   "net/minecraft/client/item/ModelPredicateProviderRegistry",
+   "net/minecraft/entity/Bucketable",
+   "net/minecraft/item/ArrowItem",
+   "net/minecraft/item/AxeItem",
+   "net/minecraft/item/BoatItem",
+   "net/minecraft/item/CrossbowItem",
+   "net/minecraft/item/DyeItem",
+   "net/minecraft/item/EntityBucketItem",
+   "net/minecraft/item/FireChargeItem",
+   "net/minecraft/item/FlintAndSteelItem",
+   "net/minecraft/item/FoodComponent",
+   "net/minecraft/item/FoodComponents",
+   "net/minecraft/item/GlassBottleItem",
+   "net/minecraft/item/HoeItem",
+   "net/minecraft/item/HoneyBottleItem",
+   "net/minecraft/item/MusicDiscItem",
+   "net/minecraft/item/OnAStickItem",
+   "net/minecraft/item/PotionItem",
+   "net/minecraft/item/RangedWeaponItem",
+   "net/minecraft/item/ShovelItem",
+   "net/minecraft/item/StewItem",
+   "net/minecraft/item/SuspiciousStewItem",
+   "net/minecraft/screen/LecternScreenHandler",
+   "net/minecraft/screen/ScreenHandlerFactory",
+   "net/minecraft/stat/Stat",
+   "net/minecraft/util/ActionResult",
+   "net/minecraft/util/shape/VoxelShapes",
+   "net/minecraft/world/BlockCollisionSpliterator",
+   "net/minecraft/world/gen/feature/Feature"
+  ],
+  "issue": 11566
+ },
+ {
+  "kind": "unchecked",
+  "key": "15g_commands.js",
+  "module": "15g_commands.js",
+  "classes": [
+   "net/minecraft/advancement/criterion/Criterion",
+   "net/minecraft/block/entity/BlockEntity",
+   "net/minecraft/command/EntitySelectorReader",
+   "net/minecraft/command/argument/AngleArgumentType",
+   "net/minecraft/command/argument/BlockArgumentParser",
+   "net/minecraft/command/argument/BlockPredicateArgumentType",
+   "net/minecraft/command/argument/ColumnPosArgumentType",
+   "net/minecraft/command/argument/DimensionArgumentType",
+   "net/minecraft/command/argument/EntityArgumentType",
+   "net/minecraft/command/argument/EntitySummonArgumentType",
+   "net/minecraft/command/argument/ItemSlotArgumentType",
+   "net/minecraft/command/argument/ItemStackArgumentType",
+   "net/minecraft/command/argument/NbtPathArgumentType",
+   "net/minecraft/command/argument/OperationArgumentType",
+   "net/minecraft/command/argument/RotationArgumentType",
+   "net/minecraft/command/argument/ScoreHolderArgumentType",
+   "net/minecraft/command/argument/TimeArgumentType",
+   "net/minecraft/entity/boss/BossBarManager",
+   "net/minecraft/entity/boss/CommandBossBar",
+   "net/minecraft/inventory/Inventories",
+   "net/minecraft/inventory/StackReference",
+   "net/minecraft/nbt/NbtHelper",
+   "net/minecraft/nbt/NbtList",
+   "net/minecraft/particle/AbstractDustParticleEffect",
+   "net/minecraft/particle/ParticleEffect",
+   "net/minecraft/scoreboard/Scoreboard",
+   "net/minecraft/server/command/AdvancementCommand",
+   "net/minecraft/server/command/AttributeCommand",
+   "net/minecraft/server/command/BossBarCommand",
+   "net/minecraft/server/command/ClearCommand",
+   "net/minecraft/server/command/CloneCommand",
+   "net/minecraft/server/command/DifficultyCommand",
+   "net/minecraft/server/command/EnchantCommand",
+   "net/minecraft/server/command/ExecuteCommand",
+   "net/minecraft/server/command/FunctionCommand",
+   "net/minecraft/server/command/GameModeCommand",
+   "net/minecraft/server/command/GiveCommand",
+   "net/minecraft/server/command/HelpCommand",
+   "net/minecraft/server/command/MessageCommand",
+   "net/minecraft/server/command/PlaceFeatureCommand",
+   "net/minecraft/server/command/PlaySoundCommand",
+   "net/minecraft/server/command/RaidCommand",
+   "net/minecraft/server/command/RecipeCommand",
+   "net/minecraft/server/command/ReloadCommand",
+   "net/minecraft/server/command/ScheduleCommand",
+   "net/minecraft/server/command/ScoreboardCommand",
+   "net/minecraft/server/command/ServerCommandSource",
+   "net/minecraft/server/command/SetWorldSpawnCommand",
+   "net/minecraft/server/command/SpawnPointCommand",
+   "net/minecraft/server/command/SpectateCommand",
+   "net/minecraft/server/command/SpreadPlayersCommand",
+   "net/minecraft/server/command/StopSoundCommand",
+   "net/minecraft/server/command/TagCommand",
+   "net/minecraft/server/command/TeamCommand",
+   "net/minecraft/server/command/TeamMsgCommand",
+   "net/minecraft/server/command/TeleportCommand",
+   "net/minecraft/server/command/TimeCommand",
+   "net/minecraft/server/command/TriggerCommand",
+   "net/minecraft/server/command/WeatherCommand",
+   "net/minecraft/server/command/WorldBorderCommand",
+   "net/minecraft/server/function/CommandFunction",
+   "net/minecraft/server/function/CommandFunctionManager",
+   "net/minecraft/util/Clearable",
+   "net/minecraft/world/GameMode",
+   "net/minecraft/world/biome/source/BiomeSource"
+  ],
+  "issue": 11567
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzi_dripstone.js",
+  "module": "07zzi_dripstone.js",
+  "classes": [
+   "net/minecraft/block/AbstractCauldronBlock"
+  ],
+  "issue": 11568
+ },
+ {
+  "kind": "unchecked",
+  "key": "07b_behaviour.js",
+  "module": "07b_behaviour.js",
+  "classes": [
+   "net/minecraft/block/AbstractPlantPartBlock",
+   "net/minecraft/block/AttachedStemBlock",
+   "net/minecraft/block/BambooBlock",
+   "net/minecraft/block/BambooSaplingBlock",
+   "net/minecraft/block/BrewingStandBlock",
+   "net/minecraft/block/CocoaBlock",
+   "net/minecraft/block/FenceBlock",
+   "net/minecraft/block/FenceGateBlock",
+   "net/minecraft/block/ScaffoldingBlock",
+   "net/minecraft/block/SnowyBlock",
+   "net/minecraft/block/SoulFireBlock",
+   "net/minecraft/block/TrapdoorBlock",
+   "net/minecraft/block/WallBlock",
+   "net/minecraft/block/enums/StairShape",
+   "net/minecraft/fluid/Fluid",
+   "net/minecraft/fluid/FluidState",
+   "net/minecraft/fluid/LavaFluid",
+   "net/minecraft/fluid/WaterFluid",
+   "net/minecraft/state/State",
+   "net/minecraft/world/tick/WorldTickScheduler"
+  ],
+  "issue": 11569
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzv_hanging.js",
+  "module": "07zzv_hanging.js",
+  "classes": [
+   "net/minecraft/block/AbstractRedstoneGateBlock"
+  ],
+  "issue": 11570
+ },
+ {
+  "kind": "unchecked",
+  "key": "14j_combat.js",
+  "module": "14j_combat.js",
+  "classes": [
+   "net/minecraft/block/AmethystClusterBlock",
+   "net/minecraft/block/BuddingAmethystBlock",
+   "net/minecraft/entity/ai/brain/sensor/HurtBySensor",
+   "net/minecraft/loot/condition/RandomChanceWithLootingLootCondition",
+   "net/minecraft/loot/function/LootingEnchantLootFunction",
+   "net/minecraft/util/hit/BlockHitResult"
+  ],
+  "issue": 11571
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zo_bee.js",
+  "module": "07zo_bee.js",
+  "classes": [
+   "net/minecraft/block/BeehiveBlock",
+   "net/minecraft/client/render/entity/BeeEntityRenderer",
+   "net/minecraft/world/gen/treedecorator/BeehiveTreeDecorator"
+  ],
+  "issue": 11572
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zv_villagerbrain.js",
+  "module": "07zv_villagerbrain.js",
+  "classes": [
+   "net/minecraft/block/BeetrootsBlock",
+   "net/minecraft/block/FernBlock",
+   "net/minecraft/block/FungusBlock",
+   "net/minecraft/block/MushroomPlantBlock",
+   "net/minecraft/block/NyliumBlock",
+   "net/minecraft/block/PotatoesBlock",
+   "net/minecraft/entity/ai/brain/MemoryModuleType",
+   "net/minecraft/entity/ai/brain/ScheduleRule",
+   "net/minecraft/entity/ai/brain/sensor/SecondaryPointsOfInterestSensor",
+   "net/minecraft/entity/ai/brain/task/CelebrateRaidWinTask",
+   "net/minecraft/entity/ai/brain/task/EndRaidTask",
+   "net/minecraft/entity/ai/brain/task/ForgetCompletedPointOfInterestTask",
+   "net/minecraft/entity/ai/brain/task/GoToIfNearbyTask",
+   "net/minecraft/entity/ai/brain/task/GoToNearbyPositionTask",
+   "net/minecraft/entity/ai/brain/task/GoToPointOfInterestTask",
+   "net/minecraft/entity/ai/brain/task/GoToSecondaryPositionTask",
+   "net/minecraft/entity/ai/brain/task/MeetVillagerTask",
+   "net/minecraft/entity/ai/brain/task/RandomTask",
+   "net/minecraft/entity/ai/brain/task/RingBellTask",
+   "net/minecraft/entity/ai/brain/task/RunAroundAfterRaidTask",
+   "net/minecraft/entity/ai/brain/task/ScheduleActivityTask",
+   "net/minecraft/entity/ai/brain/task/SeekSkyAfterRaidWinTask",
+   "net/minecraft/entity/ai/brain/task/SeekSkyTask",
+   "net/minecraft/entity/ai/brain/task/StartRaidTask",
+   "net/minecraft/entity/ai/brain/task/VillagerWalkTowardsTask",
+   "net/minecraft/entity/ai/brain/task/WalkHomeTask",
+   "net/minecraft/entity/ai/brain/task/WalkTowardJobSiteTask",
+   "net/minecraft/entity/ai/brain/task/WanderAroundTask",
+   "net/minecraft/entity/ai/brain/task/WorkStationCompetitionTask"
+  ],
+  "issue": 11573
+ },
+ {
+  "kind": "unchecked",
+  "key": "02c_states.js",
+  "module": "02c_states.js",
+  "classes": [
+   "net/minecraft/block/BigDripleafStemBlock",
+   "net/minecraft/block/DeadBushBlock",
+   "net/minecraft/block/SandBlock",
+   "net/minecraft/block/TallPlantBlock",
+   "net/minecraft/fluid/Fluids"
+  ],
+  "issue": 11574
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zh_rabbit.js",
+  "module": "07zh_rabbit.js",
+  "classes": [
+   "net/minecraft/block/CarrotsBlock",
+   "net/minecraft/client/render/entity/RabbitEntityRenderer"
+  ],
+  "issue": 11576
+ },
+ {
+  "kind": "unchecked",
+  "key": "04za_end.js",
+  "module": "04za_end.js",
+  "classes": [
+   "net/minecraft/block/ChorusPlantBlock",
+   "net/minecraft/world/gen/densityfunction/DensityFunctionTypes",
+   "net/minecraft/world/gen/feature/ChorusPlantFeature",
+   "net/minecraft/world/gen/feature/EndGatewayFeature"
+  ],
+  "issue": 11577
+ },
+ {
+  "kind": "unchecked",
+  "key": "14b_physics.js",
+  "module": "14b_physics.js",
+  "classes": [
+   "net/minecraft/block/CobwebBlock"
+  ],
+  "issue": 11578
+ },
+ {
+  "kind": "unchecked",
+  "key": "07i_entitylist.js",
+  "module": "07i_entitylist.js",
+  "classes": [
+   "net/minecraft/block/ConcretePowderBlock",
+   "net/minecraft/block/LandingBlock",
+   "net/minecraft/entity/ai/brain/task/PlayDeadTimerTask",
+   "net/minecraft/entity/data/DataTracker",
+   "net/minecraft/entity/mob/FlyingEntity",
+   "net/minecraft/entity/mob/ZombieHorseEntity",
+   "net/minecraft/entity/passive/GolemEntity",
+   "net/minecraft/entity/projectile/AbstractFireballEntity",
+   "net/minecraft/entity/projectile/thrown/ThrownItemEntity",
+   "net/minecraft/util/hit/EntityHitResult",
+   "net/minecraft/world/LunarWorldView",
+   "net/minecraft/world/RaycastContext"
+  ],
+  "issue": 11579
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zze_oxidize.js",
+  "module": "07zze_oxidize.js",
+  "classes": [
+   "net/minecraft/block/Degradable",
+   "net/minecraft/block/Oxidizable",
+   "net/minecraft/block/OxidizableBlock",
+   "net/minecraft/block/OxidizableSlabBlock",
+   "net/minecraft/block/OxidizableStairsBlock",
+   "net/minecraft/item/HoneycombItem"
+  ],
+  "issue": 11580
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzr_minecart.js",
+  "module": "07zzr_minecart.js",
+  "classes": [
+   "net/minecraft/block/DetectorRailBlock",
+   "net/minecraft/client/sound/MinecartInsideSoundInstance",
+   "net/minecraft/entity/vehicle/ChestMinecartEntity",
+   "net/minecraft/entity/vehicle/HopperMinecartEntity",
+   "net/minecraft/entity/vehicle/MinecartEntity",
+   "net/minecraft/entity/vehicle/SpawnerMinecartEntity",
+   "net/minecraft/screen/GenericContainerScreenHandler",
+   "net/minecraft/screen/HopperScreenHandler",
+   "net/minecraft/util/ItemScatterer",
+   "net/minecraft/util/collection/DataPool",
+   "net/minecraft/world/CommandBlockExecutor"
+  ],
+  "issue": 11581
+ },
+ {
+  "kind": "unchecked",
+  "key": "07k_goals.js",
+  "module": "07k_goals.js",
+  "classes": [
+   "net/minecraft/block/DoorBlock",
+   "net/minecraft/client/render/BlockBreakingInfo",
+   "net/minecraft/entity/ai/NavigationConditions",
+   "net/minecraft/entity/ai/brain/Memory",
+   "net/minecraft/entity/ai/brain/task/BreedTask",
+   "net/minecraft/entity/ai/brain/task/LookAroundTask",
+   "net/minecraft/entity/ai/brain/task/SeekWaterTask",
+   "net/minecraft/entity/ai/brain/task/StayAboveWaterTask",
+   "net/minecraft/entity/ai/brain/task/TemptTask",
+   "net/minecraft/entity/ai/brain/task/TimeLimitedTask",
+   "net/minecraft/entity/ai/brain/task/WalkTask",
+   "net/minecraft/entity/ai/brain/task/WalkTowardClosestAdultTask",
+   "net/minecraft/entity/ai/control/BodyControl",
+   "net/minecraft/entity/ai/control/YawAdjustingLookControl",
+   "net/minecraft/entity/ai/goal/DisableableFollowTargetGoal",
+   "net/minecraft/entity/ai/goal/GoToVillageGoal",
+   "net/minecraft/entity/ai/goal/IronGolemLookGoal",
+   "net/minecraft/entity/ai/goal/MoveToRaidCenterGoal",
+   "net/minecraft/entity/ai/goal/TrackIronGolemTargetGoal",
+   "net/minecraft/entity/ai/goal/WanderNearTargetGoal",
+   "net/minecraft/entity/ai/pathing/BirdPathNodeMaker",
+   "net/minecraft/entity/ai/pathing/NavigationType",
+   "net/minecraft/entity/ai/pathing/PathNodeMaker",
+   "net/minecraft/entity/ai/pathing/PathNodeType",
+   "net/minecraft/entity/ai/pathing/SpiderNavigation",
+   "net/minecraft/entity/mob/AmbientEntity",
+   "net/minecraft/entity/mob/IllagerEntity",
+   "net/minecraft/entity/mob/PatrolEntity",
+   "net/minecraft/entity/mob/PillagerEntity",
+   "net/minecraft/util/CuboidBlockIterator",
+   "net/minecraft/util/math/intprovider/UniformIntProvider",
+   "net/minecraft/world/poi/PointOfInterest"
+  ],
+  "issue": 11582
+ },
+ {
+  "kind": "unchecked",
+  "key": "07c_blockentity.js",
+  "module": "07c_blockentity.js",
+  "classes": [
+   "net/minecraft/block/DropperBlock",
+   "net/minecraft/block/FluidDrainable",
+   "net/minecraft/block/JukeboxBlock",
+   "net/minecraft/block/WitherSkullBlock",
+   "net/minecraft/block/dispenser/BlockPlacementDispenserBehavior",
+   "net/minecraft/block/dispenser/FallibleItemDispenserBehavior",
+   "net/minecraft/block/dispenser/ItemDispenserBehavior",
+   "net/minecraft/block/dispenser/ShearsDispenserBehavior",
+   "net/minecraft/block/entity/AbstractFurnaceBlockEntity",
+   "net/minecraft/block/entity/BarrelBlockEntity",
+   "net/minecraft/block/entity/BlastFurnaceBlockEntity",
+   "net/minecraft/block/entity/BlockEntityType",
+   "net/minecraft/block/entity/BrewingStandBlockEntity",
+   "net/minecraft/block/entity/CampfireBlockEntity",
+   "net/minecraft/block/entity/ComparatorBlockEntity",
+   "net/minecraft/block/entity/JukeboxBlockEntity",
+   "net/minecraft/block/entity/ShulkerBoxBlockEntity",
+   "net/minecraft/block/entity/SignBlockEntity",
+   "net/minecraft/block/entity/SkullBlockEntity",
+   "net/minecraft/block/entity/SmokerBlockEntity",
+   "net/minecraft/block/entity/ViewerCountManager",
+   "net/minecraft/item/ArmorItem",
+   "net/minecraft/item/AutomaticItemPlacementContext",
+   "net/minecraft/item/MinecartItem",
+   "net/minecraft/item/SkullItem",
+   "net/minecraft/predicate/entity/EntityPredicates"
+  ],
+  "issue": 11583
+ },
+ {
+  "kind": "unchecked",
+  "key": "07r_mount.js",
+  "module": "07r_mount.js",
+  "classes": [
+   "net/minecraft/block/DyedCarpetBlock",
+   "net/minecraft/client/render/entity/feature/HorseMarkingFeatureRenderer",
+   "net/minecraft/client/render/entity/model/DonkeyEntityModel",
+   "net/minecraft/client/render/entity/model/LlamaEntityModel",
+   "net/minecraft/entity/passive/AbstractDonkeyEntity",
+   "net/minecraft/item/HorseArmorItem",
+   "net/minecraft/item/SaddleItem"
+  ],
+  "issue": 11584
+ },
+ {
+  "kind": "unchecked",
+  "key": "07oy_enchtable.js",
+  "module": "07oy_enchtable.js",
+  "classes": [
+   "net/minecraft/block/EnchantingTableBlock",
+   "net/minecraft/item/SwordItem",
+   "net/minecraft/screen/EnchantmentScreenHandler"
+  ],
+  "issue": 11585
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zn_silverfish.js",
+  "module": "07zn_silverfish.js",
+  "classes": [
+   "net/minecraft/block/InfestedBlock",
+   "net/minecraft/entity/mob/SilverfishEntity"
+  ],
+  "issue": 11586
+ },
+ {
+  "kind": "unchecked",
+  "key": "09c_weather.js",
+  "module": "09c_weather.js",
+  "classes": [
+   "net/minecraft/block/KelpPlantBlock",
+   "net/minecraft/block/SeagrassBlock",
+   "net/minecraft/block/TallSeagrassBlock"
+  ],
+  "issue": 11587
+ },
+ {
+  "kind": "unchecked",
+  "key": "07pm_mapcontent.js",
+  "module": "07pm_mapcontent.js",
+  "classes": [
+   "net/minecraft/block/MapColor",
+   "net/minecraft/item/FilledMapItem",
+   "net/minecraft/item/map/MapState"
+  ],
+  "issue": 11588
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zg_enderman.js",
+  "module": "07zg_enderman.js",
+  "classes": [
+   "net/minecraft/block/Material"
+  ],
+  "issue": 11589
+ },
+ {
+  "kind": "unchecked",
+  "key": "04j_features.js",
+  "module": "04j_features.js",
+  "classes": [
+   "net/minecraft/block/MushroomBlock",
+   "net/minecraft/predicate/BlockPredicate",
+   "net/minecraft/predicate/block/BlockPredicate",
+   "net/minecraft/util/math/intprovider/IntProvider",
+   "net/minecraft/world/biome/GenerationSettings",
+   "net/minecraft/world/gen/blockpredicate/BlockPredicate",
+   "net/minecraft/world/gen/feature/BlockColumnFeature",
+   "net/minecraft/world/gen/feature/ConfiguredFeature",
+   "net/minecraft/world/gen/feature/DiskFeature",
+   "net/minecraft/world/gen/feature/OreFeature",
+   "net/minecraft/world/gen/feature/SimpleBlockFeature",
+   "net/minecraft/world/gen/heightprovider/HeightProvider",
+   "net/minecraft/world/gen/placementmodifier/PlacementModifier"
+  ],
+  "issue": 11590
+ },
+ {
+  "kind": "unchecked",
+  "key": "07fn_noteblock.js",
+  "module": "07fn_noteblock.js",
+  "classes": [
+   "net/minecraft/block/NoteBlock",
+   "net/minecraft/block/enums/Instrument"
+  ],
+  "issue": 11591
+ },
+ {
+  "kind": "unchecked",
+  "key": "07f_redstone.js",
+  "module": "07f_redstone.js",
+  "classes": [
+   "net/minecraft/block/ObserverBlock",
+   "net/minecraft/block/RedstoneLampBlock",
+   "net/minecraft/block/RedstoneTorchBlock",
+   "net/minecraft/block/RepeaterBlock",
+   "net/minecraft/block/StainedGlassBlock",
+   "net/minecraft/block/TargetBlock",
+   "net/minecraft/block/entity/ChestBlockEntity",
+   "net/minecraft/world/TickPriority"
+  ],
+  "issue": 11592
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zz_xporb.js",
+  "module": "07zz_xporb.js",
+  "classes": [
+   "net/minecraft/block/OreBlock",
+   "net/minecraft/block/SpawnerBlock"
+  ],
+  "issue": 11593
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzq_rail.js",
+  "module": "07zzq_rail.js",
+  "classes": [
+   "net/minecraft/block/RailBlock",
+   "net/minecraft/block/RailPlacementHelper",
+   "net/minecraft/util/BlockMirror",
+   "net/minecraft/util/BlockRotation"
+  ],
+  "issue": 11594
+ },
+ {
+  "kind": "unchecked",
+  "key": "02k_survive.js",
+  "module": "02k_survive.js",
+  "classes": [
+   "net/minecraft/block/SmallDripleafBlock"
+  ],
+  "issue": 11595
+ },
+ {
+  "kind": "unchecked",
+  "key": "02i_text.js",
+  "module": "02i_text.js",
+  "classes": [
+   "net/minecraft/block/WallBannerBlock",
+   "net/minecraft/text/HoverEvent",
+   "net/minecraft/text/KeybindText",
+   "net/minecraft/text/NbtText",
+   "net/minecraft/text/ScoreText",
+   "net/minecraft/text/SelectorText",
+   "net/minecraft/text/Texts"
+  ],
+  "issue": 11596
+ },
+ {
+  "kind": "unchecked",
+  "key": "14_player.js",
+  "module": "14_player.js",
+  "classes": [
+   "net/minecraft/block/entity/BannerBlockEntity",
+   "net/minecraft/block/enums/ChestType",
+   "net/minecraft/block/enums/DoorHinge",
+   "net/minecraft/block/enums/DoubleBlockHalf",
+   "net/minecraft/client/MinecraftClient",
+   "net/minecraft/entity/JumpingMount",
+   "net/minecraft/inventory/EnderChestInventory",
+   "net/minecraft/item/BlockItem"
+  ],
+  "issue": 11597
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzz_cmdblock.js",
+  "module": "07zzz_cmdblock.js",
+  "classes": [
+   "net/minecraft/block/entity/CommandBlockBlockEntity"
+  ],
+  "issue": 11598
+ },
+ {
+  "kind": "unchecked",
+  "key": "07j_entityrender.js",
+  "module": "07j_entityrender.js",
+  "classes": [
+   "net/minecraft/block/entity/EnchantingTableBlockEntity",
+   "net/minecraft/block/entity/EndPortalBlockEntity",
+   "net/minecraft/client/gui/screen/Overlay",
+   "net/minecraft/client/model/ModelData",
+   "net/minecraft/client/model/ModelPartBuilder",
+   "net/minecraft/client/model/ModelUtil",
+   "net/minecraft/client/render/RenderPhase",
+   "net/minecraft/client/render/Shader",
+   "net/minecraft/client/render/TexturedRenderLayers",
+   "net/minecraft/client/render/block/entity/BannerBlockEntityRenderer",
+   "net/minecraft/client/render/block/entity/BeaconBlockEntityRenderer",
+   "net/minecraft/client/render/block/entity/BedBlockEntityRenderer",
+   "net/minecraft/client/render/block/entity/BellBlockEntityRenderer",
+   "net/minecraft/client/render/block/entity/CampfireBlockEntityRenderer",
+   "net/minecraft/client/render/block/entity/ChestBlockEntityRenderer",
+   "net/minecraft/client/render/block/entity/ConduitBlockEntityRenderer",
+   "net/minecraft/client/render/block/entity/EnchantingTableBlockEntityRenderer",
+   "net/minecraft/client/render/block/entity/EndGatewayBlockEntityRenderer",
+   "net/minecraft/client/render/block/entity/EndPortalBlockEntityRenderer",
+   "net/minecraft/client/render/block/entity/LecternBlockEntityRenderer",
+   "net/minecraft/client/render/block/entity/ShulkerBoxBlockEntityRenderer",
+   "net/minecraft/client/render/block/entity/SignBlockEntityRenderer",
+   "net/minecraft/client/render/entity/BatEntityRenderer",
+   "net/minecraft/client/render/entity/BipedEntityRenderer",
+   "net/minecraft/client/render/entity/CatEntityRenderer",
+   "net/minecraft/client/render/entity/CaveSpiderEntityRenderer",
+   "net/minecraft/client/render/entity/CreeperEntityRenderer",
+   "net/minecraft/client/render/entity/DrownedEntityRenderer",
+   "net/minecraft/client/render/entity/ElderGuardianEntityRenderer",
+   "net/minecraft/client/render/entity/EndCrystalEntityRenderer",
+   "net/minecraft/client/render/entity/EndermanEntityRenderer",
+   "net/minecraft/client/render/entity/EntityRenderDispatcher",
+   "net/minecraft/client/render/entity/EntityRenderer",
+   "net/minecraft/client/render/entity/ExperienceOrbEntityRenderer",
+   "net/minecraft/client/render/entity/FishingBobberEntityRenderer",
+   "net/minecraft/client/render/entity/FlyingItemEntityRenderer",
+   "net/minecraft/client/render/entity/GhastEntityRenderer",
+   "net/minecraft/client/render/entity/GlowSquidEntityRenderer",
+   "net/minecraft/client/render/entity/GuardianEntityRenderer",
+   "net/minecraft/client/render/entity/HoglinEntityRenderer",
+   "net/minecraft/client/render/entity/HorseBaseEntityRenderer",
+   "net/minecraft/client/render/entity/HorseEntityRenderer",
+   "net/minecraft/client/render/entity/IllagerEntityRenderer",
+   "net/minecraft/client/render/entity/IllusionerEntityRenderer",
+   "net/minecraft/client/render/entity/IronGolemEntityRenderer",
+   "net/minecraft/client/render/entity/ItemEntityRenderer",
+   "net/minecraft/client/render/entity/ItemFrameEntityRenderer",
+   "net/minecraft/client/render/entity/LeashKnotEntityRenderer",
+   "net/minecraft/client/render/entity/LightningEntityRenderer",
+   "net/minecraft/client/render/entity/LlamaSpitEntityRenderer",
+   "net/minecraft/client/render/entity/MagmaCubeEntityRenderer",
+   "net/minecraft/client/render/entity/PandaEntityRenderer",
+   "net/minecraft/client/render/entity/ParrotEntityRenderer",
+   "net/minecraft/client/render/entity/PhantomEntityRenderer",
+   "net/minecraft/client/render/entity/PlayerEntityRenderer",
+   "net/minecraft/client/render/entity/PolarBearEntityRenderer",
+   "net/minecraft/client/render/entity/PufferfishEntityRenderer",
+   "net/minecraft/client/render/entity/ShulkerEntityRenderer",
+   "net/minecraft/client/render/entity/SlimeEntityRenderer",
+   "net/minecraft/client/render/entity/SquidEntityRenderer",
+   "net/minecraft/client/render/entity/StriderEntityRenderer",
+   "net/minecraft/client/render/entity/TntEntityRenderer",
+   "net/minecraft/client/render/entity/TridentEntityRenderer",
+   "net/minecraft/client/render/entity/TropicalFishEntityRenderer",
+   "net/minecraft/client/render/entity/TurtleEntityRenderer",
+   "net/minecraft/client/render/entity/VexEntityRenderer",
+   "net/minecraft/client/render/entity/VillagerEntityRenderer",
+   "net/minecraft/client/render/entity/WanderingTraderEntityRenderer",
+   "net/minecraft/client/render/entity/WitchEntityRenderer",
+   "net/minecraft/client/render/entity/WitherEntityRenderer",
+   "net/minecraft/client/render/entity/WitherSkeletonEntityRenderer",
+   "net/minecraft/client/render/entity/WitherSkullEntityRenderer",
+   "net/minecraft/client/render/entity/WolfEntityRenderer",
+   "net/minecraft/client/render/entity/ZoglinEntityRenderer",
+   "net/minecraft/client/render/entity/ZombieBaseEntityRenderer",
+   "net/minecraft/client/render/entity/ZombieHorseEntityRenderer",
+   "net/minecraft/client/render/entity/ZombieVillagerEntityRenderer",
+   "net/minecraft/client/render/entity/feature/ArmorFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/CatCollarFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/CreeperChargeFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/DolphinHeldItemFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/DrownedOverlayFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/ElytraFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/EndermanBlockFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/EndermanEyesFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/EyesFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/FeatureRenderer",
+   "net/minecraft/client/render/entity/feature/FoxHeldItemFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/HeldItemFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/HorseArmorFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/IronGolemCrackFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/IronGolemFlowerFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/LlamaDecorFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/MooshroomMushroomFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/PandaHeldItemFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/PhantomEyesFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/SaddleFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/ShoulderParrotFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/SlimeOverlayFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/SnowmanPumpkinFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/SpiderEyesFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/StrayOverlayFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/StuckArrowsFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/StuckStingersFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/TridentRiptideFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/TropicalFishColorFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/VillagerClothingFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/VillagerHeldItemFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/VillagerResourceMetadata",
+   "net/minecraft/client/render/entity/feature/VillagerResourceMetadataReader",
+   "net/minecraft/client/render/entity/feature/WitchHeldItemFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/WolfCollarFeatureRenderer",
+   "net/minecraft/client/render/entity/model/ArmorStandArmorEntityModel",
+   "net/minecraft/client/render/entity/model/ArmorStandEntityModel",
+   "net/minecraft/client/render/entity/model/AxolotlEntityModel",
+   "net/minecraft/client/render/entity/model/BatEntityModel",
+   "net/minecraft/client/render/entity/model/BeeEntityModel",
+   "net/minecraft/client/render/entity/model/BlazeEntityModel",
+   "net/minecraft/client/render/entity/model/BookModel",
+   "net/minecraft/client/render/entity/model/CatEntityModel",
+   "net/minecraft/client/render/entity/model/CodEntityModel",
+   "net/minecraft/client/render/entity/model/CrossbowPosing",
+   "net/minecraft/client/render/entity/model/DolphinEntityModel",
+   "net/minecraft/client/render/entity/model/DrownedEntityModel",
+   "net/minecraft/client/render/entity/model/ElytraEntityModel",
+   "net/minecraft/client/render/entity/model/EndermanEntityModel",
+   "net/minecraft/client/render/entity/model/EndermiteEntityModel",
+   "net/minecraft/client/render/entity/model/EntityModel",
+   "net/minecraft/client/render/entity/model/FoxEntityModel",
+   "net/minecraft/client/render/entity/model/GhastEntityModel",
+   "net/minecraft/client/render/entity/model/GoatEntityModel",
+   "net/minecraft/client/render/entity/model/GuardianEntityModel",
+   "net/minecraft/client/render/entity/model/HoglinEntityModel",
+   "net/minecraft/client/render/entity/model/IronGolemEntityModel",
+   "net/minecraft/client/render/entity/model/LargePufferfishEntityModel",
+   "net/minecraft/client/render/entity/model/LargeTropicalFishEntityModel",
+   "net/minecraft/client/render/entity/model/LeashKnotEntityModel",
+   "net/minecraft/client/render/entity/model/MagmaCubeEntityModel",
+   "net/minecraft/client/render/entity/model/OcelotEntityModel",
+   "net/minecraft/client/render/entity/model/PandaEntityModel",
+   "net/minecraft/client/render/entity/model/ParrotEntityModel",
+   "net/minecraft/client/render/entity/model/PhantomEntityModel",
+   "net/minecraft/client/render/entity/model/PolarBearEntityModel",
+   "net/minecraft/client/render/entity/model/RabbitEntityModel",
+   "net/minecraft/client/render/entity/model/RavagerEntityModel",
+   "net/minecraft/client/render/entity/model/SalmonEntityModel",
+   "net/minecraft/client/render/entity/model/SheepEntityModel",
+   "net/minecraft/client/render/entity/model/SheepWoolEntityModel",
+   "net/minecraft/client/render/entity/model/SilverfishEntityModel",
+   "net/minecraft/client/render/entity/model/SkeletonEntityModel",
+   "net/minecraft/client/render/entity/model/SkullEntityModel",
+   "net/minecraft/client/render/entity/model/SnowGolemEntityModel",
+   "net/minecraft/client/render/entity/model/SquidEntityModel",
+   "net/minecraft/client/render/entity/model/StriderEntityModel",
+   "net/minecraft/client/render/entity/model/VexEntityModel",
+   "net/minecraft/client/render/entity/model/VillagerResemblingModel",
+   "net/minecraft/client/render/entity/model/WitchEntityModel",
+   "net/minecraft/client/render/entity/model/WitherEntityModel",
+   "net/minecraft/client/render/entity/model/WolfEntityModel",
+   "net/minecraft/client/render/model/json/ModelTransformation",
+   "net/minecraft/client/render/model/json/Transformation",
+   "net/minecraft/entity/mob/PiglinActivity",
+   "net/minecraft/item/ToolItem",
+   "net/minecraft/util/SignType",
+   "net/minecraft/util/math/Vec3f",
+   "net/minecraft/world/gen/YOffset"
+  ],
+  "issue": 11599
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zu_poi.js",
+  "module": "07zu_poi.js",
+  "classes": [
+   "net/minecraft/block/enums/BedPart",
+   "net/minecraft/world/storage/SerializingRegionBasedStorage"
+  ],
+  "issue": 11600
+ },
+ {
+  "kind": "unchecked",
+  "key": "04i_carvers.js",
+  "module": "04i_carvers.js",
+  "classes": [
+   "net/minecraft/block/enums/Thickness",
+   "net/minecraft/util/math/floatprovider/FloatProvider",
+   "net/minecraft/world/gen/carver/NetherCaveCarver"
+  ],
+  "issue": 11601
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zv_dripleaf.js",
+  "module": "07zv_dripleaf.js",
+  "classes": [
+   "net/minecraft/block/enums/Tilt"
+  ],
+  "issue": 11602
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zq_snowgolem.js",
+  "module": "07zq_snowgolem.js",
+  "classes": [
+   "net/minecraft/block/pattern/BlockPattern",
+   "net/minecraft/block/pattern/BlockPatternBuilder",
+   "net/minecraft/block/pattern/CachedBlockPosition"
+  ],
+  "issue": 11603
+ },
+ {
+  "kind": "unchecked",
+  "key": "07g_piston.js",
+  "module": "07g_piston.js",
+  "classes": [
+   "net/minecraft/block/piston/PistonBehavior",
+   "net/minecraft/server/world/BlockEvent"
+  ],
+  "issue": 11604
+ },
+ {
+  "kind": "unchecked",
+  "key": "04k_feat_trees.js",
+  "module": "04k_feat_trees.js",
+  "classes": [
+   "net/minecraft/block/sapling/SaplingGenerator",
+   "net/minecraft/world/gen/feature/TreeFeature"
+  ],
+  "issue": 11605
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zx_particle.js",
+  "module": "07zx_particle.js",
+  "classes": [
+   "net/minecraft/client/color/block/BlockColors",
+   "net/minecraft/client/color/world/FoliageColors",
+   "net/minecraft/client/particle/AbstractSlowingParticle",
+   "net/minecraft/client/particle/AnimatedParticle",
+   "net/minecraft/client/particle/AscendingParticle",
+   "net/minecraft/client/particle/AshParticle",
+   "net/minecraft/client/particle/BillboardParticle",
+   "net/minecraft/client/particle/BlockDustParticle",
+   "net/minecraft/client/particle/BlockLeakParticle",
+   "net/minecraft/client/particle/BubbleColumnUpParticle",
+   "net/minecraft/client/particle/CloudParticle",
+   "net/minecraft/client/particle/CrackParticle",
+   "net/minecraft/client/particle/DamageParticle",
+   "net/minecraft/client/particle/DragonBreathParticle",
+   "net/minecraft/client/particle/EmitterParticle",
+   "net/minecraft/client/particle/EmotionParticle",
+   "net/minecraft/client/particle/EndRodParticle",
+   "net/minecraft/client/particle/ExplosionEmitterParticle",
+   "net/minecraft/client/particle/ExplosionLargeParticle",
+   "net/minecraft/client/particle/ExplosionSmokeParticle",
+   "net/minecraft/client/particle/FireSmokeParticle",
+   "net/minecraft/client/particle/FlameParticle",
+   "net/minecraft/client/particle/GlowParticle",
+   "net/minecraft/client/particle/ItemPickupParticle",
+   "net/minecraft/client/particle/LavaEmberParticle",
+   "net/minecraft/client/particle/NoRenderParticle",
+   "net/minecraft/client/particle/NoteParticle",
+   "net/minecraft/client/particle/ParticleManager",
+   "net/minecraft/client/particle/ParticleTextureSheet",
+   "net/minecraft/client/particle/PortalParticle",
+   "net/minecraft/client/particle/RainSplashParticle",
+   "net/minecraft/client/particle/SpellParticle",
+   "net/minecraft/client/particle/SpitParticle",
+   "net/minecraft/client/particle/SpriteBillboardParticle",
+   "net/minecraft/client/particle/SpriteProvider",
+   "net/minecraft/client/particle/SquidInkParticle",
+   "net/minecraft/client/particle/SuspendParticle",
+   "net/minecraft/client/particle/SweepAttackParticle",
+   "net/minecraft/client/particle/TotemParticle",
+   "net/minecraft/client/particle/VibrationParticle",
+   "net/minecraft/client/particle/WaterBubbleParticle",
+   "net/minecraft/client/particle/WaterSplashParticle",
+   "net/minecraft/client/particle/WaterSuspendParticle",
+   "net/minecraft/client/particle/WhiteAshParticle",
+   "net/minecraft/client/render/BufferBuilder",
+   "net/minecraft/client/world/ClientWorld",
+   "net/minecraft/entity/projectile/thrown/EnderPearlEntity",
+   "net/minecraft/particle/BlockStateParticleEffect",
+   "net/minecraft/particle/ItemStackParticleEffect",
+   "net/minecraft/util/math/AxisCycleDirection"
+  ],
+  "issue": 11606
+ },
+ {
+  "kind": "unchecked",
+  "key": "06b_tintmap.js",
+  "module": "06b_tintmap.js",
+  "classes": [
+   "net/minecraft/client/color/world/BiomeColors",
+   "net/minecraft/world/level/ColorResolver"
+  ],
+  "issue": 11607
+ },
+ {
+  "kind": "unchecked",
+  "key": "15m_title.js",
+  "module": "15m_title.js",
+  "classes": [
+   "net/minecraft/client/gui/CubeMapRenderer",
+   "net/minecraft/client/gui/RotatingCubeMapRenderer",
+   "net/minecraft/client/gui/screen/TitleScreen",
+   "net/minecraft/client/gui/widget/PressableTextWidget"
+  ],
+  "issue": 11608
+ },
+ {
+  "kind": "unchecked",
+  "key": "15_hud.js",
+  "module": "15_hud.js",
+  "classes": [
+   "net/minecraft/client/gui/hud/BossBarHud",
+   "net/minecraft/client/gui/hud/InGameHud",
+   "net/minecraft/client/gui/screen/ingame/AbstractCommandBlockScreen",
+   "net/minecraft/client/gui/screen/ingame/AbstractFurnaceScreen",
+   "net/minecraft/client/gui/screen/ingame/AbstractInventoryScreen",
+   "net/minecraft/client/gui/screen/ingame/AnvilScreen",
+   "net/minecraft/client/gui/screen/ingame/EnchantingPhrases",
+   "net/minecraft/client/gui/screen/ingame/EnchantmentScreen",
+   "net/minecraft/client/gui/screen/ingame/GenericContainerScreen",
+   "net/minecraft/client/gui/screen/ingame/GrindstoneScreen",
+   "net/minecraft/client/gui/screen/ingame/HandledScreen",
+   "net/minecraft/client/gui/screen/ingame/HopperScreen",
+   "net/minecraft/client/gui/screen/ingame/HorseScreen",
+   "net/minecraft/client/gui/screen/ingame/InventoryScreen",
+   "net/minecraft/client/gui/widget/CyclingButtonWidget",
+   "net/minecraft/client/item/TooltipContext",
+   "net/minecraft/entity/boss/ServerBossBar",
+   "net/minecraft/entity/effect/StatusEffectCategory",
+   "net/minecraft/item/EnchantedGoldenAppleItem",
+   "net/minecraft/item/ExperienceBottleItem",
+   "net/minecraft/item/NetherStarItem",
+   "net/minecraft/recipe/book/RecipeBook",
+   "net/minecraft/util/ClickType",
+   "net/minecraft/util/Pair",
+   "net/minecraft/util/Rarity",
+   "net/minecraft/util/StringHelper",
+   "net/minecraft/util/math/Boxes"
+  ],
+  "issue": 11609
+ },
+ {
+  "kind": "unchecked",
+  "key": "15c_chat.js",
+  "module": "15c_chat.js",
+  "classes": [
+   "net/minecraft/client/gui/hud/ChatHud",
+   "net/minecraft/client/gui/screen/ConfirmChatLinkScreen"
+  ],
+  "issue": 11610
+ },
+ {
+  "kind": "unchecked",
+  "key": "15k_spectatormenu.js",
+  "module": "15k_spectatormenu.js",
+  "classes": [
+   "net/minecraft/client/gui/hud/spectator/TeleportSpectatorMenu"
+  ],
+  "issue": 11611
+ },
+ {
+  "kind": "unchecked",
+  "key": "13_input.js",
+  "module": "13_input.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/ChatScreen"
+  ],
+  "issue": 11612
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzu_cmdscreen.js",
+  "module": "07zzu_cmdscreen.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/CommandSuggestor",
+   "net/minecraft/client/gui/screen/ingame/CommandBlockScreen",
+   "net/minecraft/client/gui/screen/ingame/MinecartCommandBlockScreen"
+  ],
+  "issue": 11613
+ },
+ {
+  "kind": "unchecked",
+  "key": "15mw_selectworld.js",
+  "module": "15mw_selectworld.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/ConfirmScreen",
+   "net/minecraft/client/gui/screen/world/EditWorldScreen",
+   "net/minecraft/client/gui/screen/world/SelectWorldScreen",
+   "net/minecraft/client/gui/screen/world/WorldListWidget"
+  ],
+  "issue": 11614
+ },
+ {
+  "kind": "unchecked",
+  "key": "15m_credits.js",
+  "module": "15m_credits.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/CreditsScreen"
+  ],
+  "issue": 11615
+ },
+ {
+  "kind": "unchecked",
+  "key": "15mc_createworld.js",
+  "module": "15mc_createworld.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/CustomizeBuffetLevelScreen",
+   "net/minecraft/client/gui/screen/world/CreateWorldScreen",
+   "net/minecraft/client/gui/screen/world/MoreOptionsDialog"
+  ],
+  "issue": 11616
+ },
+ {
+  "kind": "unchecked",
+  "key": "15b_gui.js",
+  "module": "15b_gui.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/GameModeSelectionScreen",
+   "net/minecraft/client/gui/screen/SleepingChatScreen",
+   "net/minecraft/client/gui/screen/ingame/CraftingScreen",
+   "net/minecraft/client/gui/screen/ingame/ShulkerBoxScreen",
+   "net/minecraft/screen/HorseScreenHandler",
+   "net/minecraft/screen/ShulkerBoxScreenHandler"
+  ],
+  "issue": 11617
+ },
+ {
+  "kind": "unchecked",
+  "key": "15fs_stats.js",
+  "module": "15fs_stats.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/StatsScreen"
+  ],
+  "issue": 11618
+ },
+ {
+  "kind": "unchecked",
+  "key": "15m_advscreen.js",
+  "module": "15m_advscreen.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/advancement/AdvancementTab",
+   "net/minecraft/client/gui/screen/advancement/AdvancementTabType",
+   "net/minecraft/client/gui/screen/advancement/AdvancementWidget",
+   "net/minecraft/client/gui/screen/advancement/AdvancementsScreen"
+  ],
+  "issue": 11619
+ },
+ {
+  "kind": "unchecked",
+  "key": "14g_menu.js",
+  "module": "14g_menu.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/ingame/BrewingStandScreen",
+   "net/minecraft/screen/BrewingStandScreenHandler",
+   "net/minecraft/screen/ForgingScreenHandler",
+   "net/minecraft/screen/Property",
+   "net/minecraft/screen/slot/CraftingResultSlot",
+   "net/minecraft/screen/slot/FurnaceFuelSlot",
+   "net/minecraft/screen/slot/FurnaceOutputSlot",
+   "net/minecraft/screen/slot/ShulkerBoxSlot",
+   "net/minecraft/state/property/Property"
+  ],
+  "issue": 11620
+ },
+ {
+  "kind": "unchecked",
+  "key": "15e_creative.js",
+  "module": "15e_creative.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/ingame/CreativeInventoryScreen",
+   "net/minecraft/client/search/SearchManager",
+   "net/minecraft/item/TippedArrowItem"
+  ],
+  "issue": 11621
+ },
+ {
+  "kind": "unchecked",
+  "key": "14n_book.js",
+  "module": "14n_book.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/ingame/LecternScreen"
+  ],
+  "issue": 11622
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzq_loom.js",
+  "module": "07zzq_loom.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/ingame/LoomScreen"
+  ],
+  "issue": 11623
+ },
+ {
+  "kind": "unchecked",
+  "key": "07p_trade.js",
+  "module": "07p_trade.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/ingame/MerchantScreen",
+   "net/minecraft/enchantment/EnchantmentTarget",
+   "net/minecraft/item/DyeableItem",
+   "net/minecraft/screen/MerchantScreenHandler",
+   "net/minecraft/screen/slot/TradeOutputSlot",
+   "net/minecraft/village/MerchantInventory",
+   "net/minecraft/village/VillagerType"
+  ],
+  "issue": 11624
+ },
+ {
+  "kind": "unchecked",
+  "key": "15g_keybinds.js",
+  "module": "15g_keybinds.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/option/ControlsListWidget",
+   "net/minecraft/client/gui/screen/option/KeybindsScreen"
+  ],
+  "issue": 11625
+ },
+ {
+  "kind": "unchecked",
+  "key": "15f_options.js",
+  "module": "15f_options.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/option/SoundOptionsScreen",
+   "net/minecraft/client/render/entity/PlayerModelPart"
+  ],
+  "issue": 11626
+ },
+ {
+  "kind": "unchecked",
+  "key": "15n_recipebook.js",
+  "module": "15n_recipebook.js",
+  "classes": [
+   "net/minecraft/client/gui/screen/recipebook/RecipeBookResults",
+   "net/minecraft/client/gui/screen/recipebook/RecipeBookWidget",
+   "net/minecraft/client/gui/screen/recipebook/RecipeResultCollection",
+   "net/minecraft/client/recipebook/ClientRecipeBook",
+   "net/minecraft/client/recipebook/RecipeBookGroup",
+   "net/minecraft/recipe/InputSlotFiller",
+   "net/minecraft/recipe/RecipeGridAligner",
+   "net/minecraft/recipe/RecipeMatcher"
+  ],
+  "issue": 11627
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzy_firework.js",
+  "module": "07zzy_firework.js",
+  "classes": [
+   "net/minecraft/client/particle/FireworksSparkParticle",
+   "net/minecraft/item/FireworkRocketItem"
+  ],
+  "issue": 11628
+ },
+ {
+  "kind": "unchecked",
+  "key": "09b_sky.js",
+  "module": "09b_sky.js",
+  "classes": [
+   "net/minecraft/client/render/BackgroundRenderer",
+   "net/minecraft/client/render/CameraSubmersionType",
+   "net/minecraft/util/CubicSampler"
+  ],
+  "issue": 11629
+ },
+ {
+  "kind": "unchecked",
+  "key": "10_gfx.js",
+  "module": "10_gfx.js",
+  "classes": [
+   "net/minecraft/client/render/Frustum"
+  ],
+  "issue": 11630
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzu_hitbox.js",
+  "module": "07zzu_hitbox.js",
+  "classes": [
+   "net/minecraft/client/render/VertexConsumer"
+  ],
+  "issue": 11631
+ },
+ {
+  "kind": "unchecked",
+  "key": "02b_registry.js",
+  "module": "02b_registry.js",
+  "classes": [
+   "net/minecraft/client/render/block/BlockModels"
+  ],
+  "issue": 11632
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zs_spawner.js",
+  "module": "07zs_spawner.js",
+  "classes": [
+   "net/minecraft/client/render/block/entity/MobSpawnerBlockEntityRenderer",
+   "net/minecraft/particle/ParticleTypes",
+   "net/minecraft/world/gen/feature/DungeonFeature"
+  ],
+  "issue": 11633
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zm_axolotl.js",
+  "module": "07zm_axolotl.js",
+  "classes": [
+   "net/minecraft/client/render/entity/AxolotlEntityRenderer",
+   "net/minecraft/entity/AngledModelEntity",
+   "net/minecraft/entity/ai/brain/task/ForgetTask",
+   "net/minecraft/entity/ai/brain/task/PlayDeadTask",
+   "net/minecraft/entity/ai/brain/task/RangedApproachTask",
+   "net/minecraft/entity/passive/AxolotlBrain"
+  ],
+  "issue": 11634
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzh_blaze.js",
+  "module": "07zzh_blaze.js",
+  "classes": [
+   "net/minecraft/client/render/entity/BlazeEntityRenderer"
+  ],
+  "issue": 11635
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zj_fox.js",
+  "module": "07zj_fox.js",
+  "classes": [
+   "net/minecraft/client/render/entity/FoxEntityRenderer",
+   "net/minecraft/entity/ai/goal/DiveJumpingGoal",
+   "net/minecraft/tag/ItemTags",
+   "net/minecraft/util/registry/RegistryEntry"
+  ],
+  "issue": 11636
+ },
+ {
+  "kind": "unchecked",
+  "key": "07ze_llama.js",
+  "module": "07ze_llama.js",
+  "classes": [
+   "net/minecraft/client/render/entity/LlamaEntityRenderer"
+  ],
+  "issue": 11637
+ },
+ {
+  "kind": "unchecked",
+  "key": "07u_leash.js",
+  "module": "07u_leash.js",
+  "classes": [
+   "net/minecraft/client/render/entity/MobEntityRenderer"
+  ],
+  "issue": 11638
+ },
+ {
+  "kind": "unchecked",
+  "key": "07n_tame.js",
+  "module": "07n_tame.js",
+  "classes": [
+   "net/minecraft/client/render/entity/MooshroomEntityRenderer",
+   "net/minecraft/item/LeadItem"
+  ],
+  "issue": 11639
+ },
+ {
+  "kind": "unchecked",
+  "key": "07s_raid.js",
+  "module": "07s_raid.js",
+  "classes": [
+   "net/minecraft/client/render/entity/PillagerEntityRenderer",
+   "net/minecraft/client/render/entity/RavagerEntityRenderer",
+   "net/minecraft/util/math/ChunkSectionPos"
+  ],
+  "issue": 11640
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzs_minecartrender.js",
+  "module": "07zzs_minecartrender.js",
+  "classes": [
+   "net/minecraft/client/render/entity/TntMinecartEntityRenderer",
+   "net/minecraft/client/render/entity/model/MinecartEntityModel"
+  ],
+  "issue": 11641
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzl_shulkerdraw.js",
+  "module": "07zzl_shulkerdraw.js",
+  "classes": [
+   "net/minecraft/client/render/entity/feature/ShulkerHeadFeatureRenderer",
+   "net/minecraft/util/math/Matrix3f",
+   "net/minecraft/util/math/Quaternion"
+  ],
+  "issue": 11642
+ },
+ {
+  "kind": "unchecked",
+  "key": "00_ns.js",
+  "module": "00_ns.js",
+  "classes": [
+   "net/minecraft/client/render/entity/feature/WitherArmorFeatureRenderer"
+  ],
+  "issue": 11643
+ },
+ {
+  "kind": "unchecked",
+  "key": "15h_bemodel.js",
+  "module": "15h_bemodel.js",
+  "classes": [
+   "net/minecraft/client/render/entity/model/DragonHeadEntityModel",
+   "net/minecraft/client/render/item/BuiltinModelItemRenderer"
+  ],
+  "issue": 11644
+ },
+ {
+  "kind": "unchecked",
+  "key": "14i_hand.js",
+  "module": "14i_hand.js",
+  "classes": [
+   "net/minecraft/client/render/item/HeldItemRenderer"
+  ],
+  "issue": 11645
+ },
+ {
+  "kind": "unchecked",
+  "key": "14k_hand3d.js",
+  "module": "14k_hand3d.js",
+  "classes": [
+   "net/minecraft/client/render/item/ItemRenderer"
+  ],
+  "issue": 11646
+ },
+ {
+  "kind": "unchecked",
+  "key": "02j_sounds.js",
+  "module": "02j_sounds.js",
+  "classes": [
+   "net/minecraft/client/sound/BiomeEffectSoundPlayer",
+   "net/minecraft/client/sound/MovingSoundInstance",
+   "net/minecraft/client/sound/MusicTracker",
+   "net/minecraft/client/sound/MusicType",
+   "net/minecraft/client/sound/PositionedSoundInstance",
+   "net/minecraft/client/sound/SoundSystem",
+   "net/minecraft/item/EggItem",
+   "net/minecraft/item/SplashPotionItem",
+   "net/minecraft/sound/BiomeMoodSound"
+  ],
+  "issue": 11647
+ },
+ {
+  "kind": "unchecked",
+  "key": "04d_column.js",
+  "module": "04d_column.js",
+  "classes": [
+   "net/minecraft/client/world/GeneratorType",
+   "net/minecraft/util/math/Spline",
+   "net/minecraft/world/biome/source/util/VanillaTerrainParameters",
+   "net/minecraft/world/gen/chunk/ChunkNoiseSampler",
+   "net/minecraft/world/gen/densityfunction/DensityFunctions"
+  ],
+  "issue": 11648
+ },
+ {
+  "kind": "unchecked",
+  "key": "07ox_enchhelper.js",
+  "module": "07ox_enchhelper.js",
+  "classes": [
+   "net/minecraft/enchantment/AquaAffinityEnchantment",
+   "net/minecraft/enchantment/BindingCurseEnchantment",
+   "net/minecraft/enchantment/ChannelingEnchantment",
+   "net/minecraft/enchantment/DepthStriderEnchantment",
+   "net/minecraft/enchantment/EfficiencyEnchantment",
+   "net/minecraft/enchantment/Enchantment",
+   "net/minecraft/enchantment/FireAspectEnchantment",
+   "net/minecraft/enchantment/FlameEnchantment",
+   "net/minecraft/enchantment/FrostWalkerEnchantment",
+   "net/minecraft/enchantment/ImpalingEnchantment",
+   "net/minecraft/enchantment/InfinityEnchantment",
+   "net/minecraft/enchantment/KnockbackEnchantment",
+   "net/minecraft/enchantment/LoyaltyEnchantment",
+   "net/minecraft/enchantment/LuckEnchantment",
+   "net/minecraft/enchantment/LureEnchantment",
+   "net/minecraft/enchantment/MendingEnchantment",
+   "net/minecraft/enchantment/MultishotEnchantment",
+   "net/minecraft/enchantment/PiercingEnchantment",
+   "net/minecraft/enchantment/PowerEnchantment",
+   "net/minecraft/enchantment/PunchEnchantment",
+   "net/minecraft/enchantment/QuickChargeEnchantment",
+   "net/minecraft/enchantment/RespirationEnchantment",
+   "net/minecraft/enchantment/RiptideEnchantment",
+   "net/minecraft/enchantment/SilkTouchEnchantment",
+   "net/minecraft/enchantment/SweepingEnchantment",
+   "net/minecraft/enchantment/UnbreakingEnchantment",
+   "net/minecraft/enchantment/VanishingCurseEnchantment",
+   "net/minecraft/item/EnchantedBookItem",
+   "net/minecraft/item/Vanishable",
+   "net/minecraft/item/Wearable"
+  ],
+  "issue": 11649
+ },
+ {
+  "kind": "unchecked",
+  "key": "07y_equip.js",
+  "module": "07y_equip.js",
+  "classes": [
+   "net/minecraft/enchantment/ProtectionEnchantment",
+   "net/minecraft/entity/EquipmentSlot",
+   "net/minecraft/item/BannerItem",
+   "net/minecraft/item/MiningToolItem",
+   "net/minecraft/item/ToolMaterials",
+   "net/minecraft/world/ChunkSerializer"
+  ],
+  "issue": 11650
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zj_fish.js",
+  "module": "07zj_fish.js",
+  "classes": [
+   "net/minecraft/entity/EntityGroup",
+   "net/minecraft/entity/passive/CodEntity",
+   "net/minecraft/entity/passive/PufferfishEntity",
+   "net/minecraft/entity/passive/SalmonEntity",
+   "net/minecraft/entity/passive/TropicalFishEntity"
+  ],
+  "issue": 11651
+ },
+ {
+  "kind": "unchecked",
+  "key": "07l_spawn.js",
+  "module": "07l_spawn.js",
+  "classes": [
+   "net/minecraft/entity/EntityInteraction",
+   "net/minecraft/entity/InteractionObserver",
+   "net/minecraft/entity/ai/brain/sensor/GolemLastSeenSensor",
+   "net/minecraft/entity/ai/brain/sensor/SensorType",
+   "net/minecraft/tag/BlockTags",
+   "net/minecraft/util/collection/Weighted",
+   "net/minecraft/util/math/GravityField",
+   "net/minecraft/world/EntityView",
+   "net/minecraft/world/ServerWorldAccess",
+   "net/minecraft/world/SpawnDensityCapper",
+   "net/minecraft/world/StructureWorldAccess",
+   "net/minecraft/world/WorldAccess",
+   "net/minecraft/world/WorldView",
+   "net/minecraft/world/border/WorldBorder",
+   "net/minecraft/world/chunk/light/LightingProvider",
+   "net/minecraft/world/level/LevelInfo"
+  ],
+  "issue": 11652
+ },
+ {
+  "kind": "unchecked",
+  "key": "14m_sleep.js",
+  "module": "14m_sleep.js",
+  "classes": [
+   "net/minecraft/entity/EntityPose",
+   "net/minecraft/server/world/SleepManager",
+   "net/minecraft/util/registry/RegistryKey",
+   "net/minecraft/world/timer/Timer"
+  ],
+  "issue": 11653
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zz1_phantom.js",
+  "module": "07zz1_phantom.js",
+  "classes": [
+   "net/minecraft/entity/MovementType"
+  ],
+  "issue": 11654
+ },
+ {
+  "kind": "unchecked",
+  "key": "07w_passive.js",
+  "module": "07w_passive.js",
+  "classes": [
+   "net/minecraft/entity/Saddleable",
+   "net/minecraft/entity/SaddledComponent",
+   "net/minecraft/entity/Shearable",
+   "net/minecraft/recipe/RecipeType"
+  ],
+  "issue": 11655
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zw_mobnbt.js",
+  "module": "07zw_mobnbt.js",
+  "classes": [
+   "net/minecraft/entity/Tameable"
+  ],
+  "issue": 11656
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzm_wither.js",
+  "module": "07zzm_wither.js",
+  "classes": [
+   "net/minecraft/entity/ai/AboveGroundTargeting",
+   "net/minecraft/entity/ai/NoPenaltySolidTargeting",
+   "net/minecraft/entity/ai/goal/FlyGoal",
+   "net/minecraft/entity/projectile/WitherSkullEntity"
+  ],
+  "issue": 11657
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zj_goat.js",
+  "module": "07zj_goat.js",
+  "classes": [
+   "net/minecraft/entity/ai/brain/BlockPosLookTarget",
+   "net/minecraft/entity/ai/brain/task/LeapingChargeTask",
+   "net/minecraft/entity/ai/brain/task/TemptationCooldownTask",
+   "net/minecraft/entity/passive/GoatEntity"
+  ],
+  "issue": 11658
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zv2_vbplay.js",
+  "module": "07zv2_vbplay.js",
+  "classes": [
+   "net/minecraft/entity/ai/brain/LivingTargetCache",
+   "net/minecraft/entity/ai/brain/MemoryModuleState",
+   "net/minecraft/entity/ai/brain/task/WaitTask"
+  ],
+  "issue": 11659
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zv4_vbidle.js",
+  "module": "07zv4_vbidle.js",
+  "classes": [
+   "net/minecraft/entity/ai/brain/LookTarget",
+   "net/minecraft/entity/ai/brain/sensor/NearestBedSensor",
+   "net/minecraft/entity/ai/brain/task/JumpInBedTask"
+  ],
+  "issue": 11660
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzg_hoglin.js",
+  "module": "07zzg_hoglin.js",
+  "classes": [
+   "net/minecraft/entity/ai/brain/sensor/HoglinSpecificSensor",
+   "net/minecraft/entity/ai/brain/task/ForgetAttackTargetTask",
+   "net/minecraft/entity/ai/brain/task/PacifyTask"
+  ],
+  "issue": 11661
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zv3_vbpanic.js",
+  "module": "07zv3_vbpanic.js",
+  "classes": [
+   "net/minecraft/entity/ai/brain/sensor/NearestLivingEntitiesSensor",
+   "net/minecraft/entity/ai/brain/sensor/NearestVisibleLivingEntitySensor",
+   "net/minecraft/entity/ai/brain/task/FindWalkTargetTask",
+   "net/minecraft/entity/ai/brain/task/FollowMobTask",
+   "net/minecraft/entity/mob/MobVisibilityCache",
+   "net/minecraft/util/hit/HitResult"
+  ],
+  "issue": 11662
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzf_piglin.js",
+  "module": "07zzf_piglin.js",
+  "classes": [
+   "net/minecraft/entity/ai/brain/sensor/PiglinSpecificSensor",
+   "net/minecraft/entity/ai/brain/task/AdmireItemTask",
+   "net/minecraft/entity/ai/brain/task/AdmireItemTimeLimitTask",
+   "net/minecraft/entity/ai/brain/task/AttackTask",
+   "net/minecraft/entity/ai/brain/task/CrossbowAttackTask",
+   "net/minecraft/entity/ai/brain/task/DefeatTargetTask",
+   "net/minecraft/entity/ai/brain/task/ForgetAngryAtTargetTask",
+   "net/minecraft/entity/ai/brain/task/GoToCelebrateTask",
+   "net/minecraft/entity/ai/brain/task/HuntFinishTask",
+   "net/minecraft/entity/ai/brain/task/HuntHoglinTask",
+   "net/minecraft/entity/ai/brain/task/MeleeAttackTask",
+   "net/minecraft/entity/ai/brain/task/MemoryTransferTask",
+   "net/minecraft/entity/ai/brain/task/RidingTask",
+   "net/minecraft/entity/ai/brain/task/StartRidingTask",
+   "net/minecraft/entity/ai/brain/task/UpdateAttackTargetTask",
+   "net/minecraft/entity/ai/brain/task/WalkToNearestVisibleWantedItemTask",
+   "net/minecraft/entity/mob/PiglinBruteBrain",
+   "net/minecraft/entity/mob/PiglinBruteEntity",
+   "net/minecraft/sound/SoundEvent"
+  ],
+  "issue": 11663
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzzc_braintasks.js",
+  "module": "07zzzc_braintasks.js",
+  "classes": [
+   "net/minecraft/entity/ai/brain/task/CompositeTask",
+   "net/minecraft/entity/ai/brain/task/ConditionalTask",
+   "net/minecraft/entity/ai/brain/task/StrollTask",
+   "net/minecraft/util/collection/WeightedList"
+  ],
+  "issue": 11664
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zv8_vbhold.js",
+  "module": "07zv8_vbhold.js",
+  "classes": [
+   "net/minecraft/entity/ai/brain/task/FindInteractionTargetTask",
+   "net/minecraft/entity/ai/brain/task/HoldTradeOffersTask"
+  ],
+  "issue": 11665
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zv7_vbbell.js",
+  "module": "07zv7_vbbell.js",
+  "classes": [
+   "net/minecraft/entity/ai/brain/task/ForgetBellRingTask",
+   "net/minecraft/entity/ai/brain/task/HideWhenBellRingsTask"
+  ],
+  "issue": 11666
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzze_axolotlidle.js",
+  "module": "07zzze_axolotlidle.js",
+  "classes": [
+   "net/minecraft/entity/ai/brain/task/GoTowardsLookTarget"
+  ],
+  "issue": 11667
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zv8_vbhidehome.js",
+  "module": "07zv8_vbhidehome.js",
+  "classes": [
+   "net/minecraft/entity/ai/brain/task/HideInHomeDuringRaidTask",
+   "net/minecraft/entity/ai/brain/task/HideInHomeTask"
+  ],
+  "issue": 11668
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zv9_vbdoors.js",
+  "module": "07zv9_vbdoors.js",
+  "classes": [
+   "net/minecraft/entity/ai/brain/task/OpenDoorsTask"
+  ],
+  "issue": 11669
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzzb_brain.js",
+  "module": "07zzzb_brain.js",
+  "classes": [
+   "net/minecraft/entity/ai/brain/task/Task"
+  ],
+  "issue": 11670
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zj2_dolphin.js",
+  "module": "07zj2_dolphin.js",
+  "classes": [
+   "net/minecraft/entity/ai/goal/BreatheAirGoal",
+   "net/minecraft/entity/ai/goal/ChaseBoatGoal",
+   "net/minecraft/entity/ai/goal/ChaseBoatState",
+   "net/minecraft/entity/ai/goal/MoveIntoWaterGoal",
+   "net/minecraft/entity/ai/goal/SwimAroundGoal"
+  ],
+  "issue": 11671
+ },
+ {
+  "kind": "unchecked",
+  "key": "07t_fly.js",
+  "module": "07t_fly.js",
+  "classes": [
+   "net/minecraft/entity/ai/goal/FollowMobGoal",
+   "net/minecraft/entity/ai/goal/SitOnOwnerShoulderGoal",
+   "net/minecraft/entity/ai/pathing/BirdNavigation",
+   "net/minecraft/entity/passive/TameableShoulderEntity"
+  ],
+  "issue": 11672
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zt_wtrader.js",
+  "module": "07zt_wtrader.js",
+  "classes": [
+   "net/minecraft/entity/ai/goal/LookAtCustomerGoal",
+   "net/minecraft/entity/ai/goal/StopFollowingCustomerGoal",
+   "net/minecraft/world/level/ServerWorldProperties"
+  ],
+  "issue": 11673
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zk_undead.js",
+  "module": "07zk_undead.js",
+  "classes": [
+   "net/minecraft/entity/ai/goal/StepAndDestroyBlockGoal"
+  ],
+  "issue": 11674
+ },
+ {
+  "kind": "unchecked",
+  "key": "07q_effects.js",
+  "module": "07q_effects.js",
+  "classes": [
+   "net/minecraft/entity/attribute/ClampedEntityAttribute",
+   "net/minecraft/entity/effect/AbsorptionStatusEffect",
+   "net/minecraft/entity/effect/DamageModifierStatusEffect",
+   "net/minecraft/entity/effect/StatusEffectInstance",
+   "net/minecraft/entity/effect/StatusEffectUtil"
+  ],
+  "issue": 11675
+ },
+ {
+  "kind": "unchecked",
+  "key": "07h_entities.js",
+  "module": "07h_entities.js",
+  "classes": [
+   "net/minecraft/entity/attribute/EntityAttributes"
+  ],
+  "issue": 11676
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzl_enderdragon.js",
+  "module": "07zzl_enderdragon.js",
+  "classes": [
+   "net/minecraft/entity/boss/BossBar",
+   "net/minecraft/entity/boss/dragon/EnderDragonSpawnState",
+   "net/minecraft/util/collection/Weight",
+   "net/minecraft/world/Heightmap",
+   "net/minecraft/world/gen/feature/EndConfiguredFeatures",
+   "net/minecraft/world/gen/feature/EndPortalFeature",
+   "net/minecraft/world/gen/feature/EndSpikeFeature",
+   "net/minecraft/world/gen/feature/EndSpikeFeatureConfig"
+  ],
+  "issue": 11677
+ },
+ {
+  "kind": "unchecked",
+  "key": "14d2_damagetracker.js",
+  "module": "14d2_damagetracker.js",
+  "classes": [
+   "net/minecraft/entity/damage/DamageRecord"
+  ],
+  "issue": 11678
+ },
+ {
+  "kind": "unchecked",
+  "key": "14d_survival.js",
+  "module": "14d_survival.js",
+  "classes": [
+   "net/minecraft/entity/damage/EntityDamageSource"
+  ],
+  "issue": 11679
+ },
+ {
+  "kind": "unchecked",
+  "key": "07z_potion.js",
+  "module": "07z_potion.js",
+  "classes": [
+   "net/minecraft/entity/effect/InstantStatusEffect"
+  ],
+  "issue": 11680
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zn2_endermite.js",
+  "module": "07zn2_endermite.js",
+  "classes": [
+   "net/minecraft/entity/mob/EndermiteEntity"
+  ],
+  "issue": 11681
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzc_lightning.js",
+  "module": "07zzc_lightning.js",
+  "classes": [
+   "net/minecraft/entity/mob/SkeletonHorseEntity",
+   "net/minecraft/world/biome/BiomeParticleConfig",
+   "net/minecraft/world/biome/TheNetherBiomeCreator"
+  ],
+  "issue": 11682
+ },
+ {
+  "kind": "unchecked",
+  "key": "07m_breed.js",
+  "module": "07m_breed.js",
+  "classes": [
+   "net/minecraft/entity/passive/DonkeyEntity",
+   "net/minecraft/entity/passive/MuleEntity"
+  ],
+  "issue": 11683
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zi_squid.js",
+  "module": "07zi_squid.js",
+  "classes": [
+   "net/minecraft/entity/passive/GlowSquidEntity"
+  ],
+  "issue": 11684
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzd_throw.js",
+  "module": "07zzd_throw.js",
+  "classes": [
+   "net/minecraft/entity/player/ItemCooldownManager",
+   "net/minecraft/item/EnderPearlItem",
+   "net/minecraft/item/LingeringPotionItem",
+   "net/minecraft/item/SnowballItem",
+   "net/minecraft/item/ThrowablePotionItem"
+  ],
+  "issue": 11685
+ },
+ {
+  "kind": "unchecked",
+  "key": "14e_gamemode.js",
+  "module": "14e_gamemode.js",
+  "classes": [
+   "net/minecraft/entity/player/PlayerAbilities"
+  ],
+  "issue": 11686
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzi_ghast.js",
+  "module": "07zzi_ghast.js",
+  "classes": [
+   "net/minecraft/entity/projectile/FireballEntity",
+   "net/minecraft/world/CollisionView"
+  ],
+  "issue": 11687
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zv6_vbgather.js",
+  "module": "07zv6_vbgather.js",
+  "classes": [
+   "net/minecraft/inventory/SimpleInventory"
+  ],
+  "issue": 11688
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzp_anvil.js",
+  "module": "07zzp_anvil.js",
+  "classes": [
+   "net/minecraft/item/ElytraItem",
+   "net/minecraft/screen/AnvilScreenHandler"
+  ],
+  "issue": 11689
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzn_endcrystal.js",
+  "module": "07zzn_endcrystal.js",
+  "classes": [
+   "net/minecraft/item/EndCrystalItem"
+  ],
+  "issue": 11690
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zv7_vbgifts.js",
+  "module": "07zv7_vbgifts.js",
+  "classes": [
+   "net/minecraft/loot/LootTables"
+  ],
+  "issue": 11691
+ },
+ {
+  "kind": "unchecked",
+  "key": "07e_loot.js",
+  "module": "07e_loot.js",
+  "classes": [
+   "net/minecraft/loot/condition/TimeCheckLootCondition",
+   "net/minecraft/loot/context/LootContext",
+   "net/minecraft/loot/function/EnchantWithLevelsLootFunction",
+   "net/minecraft/loot/function/SetDamageLootFunction",
+   "net/minecraft/loot/provider/number/LootNumberProvider",
+   "net/minecraft/loot/provider/number/UniformLootNumberProvider"
+  ],
+  "issue": 11692
+ },
+ {
+  "kind": "unchecked",
+  "key": "07za_explosion.js",
+  "module": "07za_explosion.js",
+  "classes": [
+   "net/minecraft/loot/context/LootContextParameters",
+   "net/minecraft/world/explosion/EntityExplosionBehavior",
+   "net/minecraft/world/explosion/ExplosionBehavior"
+  ],
+  "issue": 11693
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzq_brewing.js",
+  "module": "07zzq_brewing.js",
+  "classes": [
+   "net/minecraft/recipe/BrewingRecipeRegistry",
+   "net/minecraft/recipe/Recipe"
+  ],
+  "issue": 11694
+ },
+ {
+  "kind": "unchecked",
+  "key": "02h_recipes.js",
+  "module": "02h_recipes.js",
+  "classes": [
+   "net/minecraft/recipe/RecipeUnlocker"
+  ],
+  "issue": 11695
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzo2_scoreboard.js",
+  "module": "07zzo2_scoreboard.js",
+  "classes": [
+   "net/minecraft/scoreboard/AbstractTeam",
+   "net/minecraft/scoreboard/ScoreboardCriterion",
+   "net/minecraft/scoreboard/ScoreboardObjective",
+   "net/minecraft/scoreboard/ScoreboardPlayerScore",
+   "net/minecraft/scoreboard/ServerScoreboard",
+   "net/minecraft/scoreboard/Team"
+  ],
+  "issue": 11696
+ },
+ {
+  "kind": "unchecked",
+  "key": "11_gfx_webgpu.js",
+  "module": "11_gfx_webgpu.js",
+  "classes": [
+   "net/minecraft/screen/slot/Slot"
+  ],
+  "issue": 11697
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzs_portal.js",
+  "module": "07zzs_portal.js",
+  "classes": [
+   "net/minecraft/server/PlayerManager",
+   "net/minecraft/world/TeleportTarget"
+  ],
+  "issue": 11698
+ },
+ {
+  "kind": "unchecked",
+  "key": "07_world.js",
+  "module": "07_world.js",
+  "classes": [
+   "net/minecraft/server/command/ForceLoadCommand"
+  ],
+  "issue": 11699
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zp_turtle.js",
+  "module": "07zp_turtle.js",
+  "classes": [
+   "net/minecraft/sound/SoundEvents"
+  ],
+  "issue": 11700
+ },
+ {
+  "kind": "unchecked",
+  "key": "07zzo_stats.js",
+  "module": "07zzo_stats.js",
+  "classes": [
+   "net/minecraft/stat/ServerStatHandler",
+   "net/minecraft/stat/StatFormatter",
+   "net/minecraft/stat/StatHandler",
+   "net/minecraft/stat/StatType"
+  ],
+  "issue": 11701
+ },
+ {
+  "kind": "unchecked",
+  "key": "02d_wgdata.js",
+  "module": "02d_wgdata.js",
+  "classes": [
+   "net/minecraft/state/property/Properties"
+  ],
+  "issue": 11702
+ },
+ {
+  "kind": "unchecked",
+  "key": "04z_struct_end_city.js",
+  "module": "04z_struct_end_city.js",
+  "classes": [
+   "net/minecraft/structure/EndCityGenerator",
+   "net/minecraft/structure/SimpleStructurePiece",
+   "net/minecraft/world/gen/feature/EndCityFeature"
+  ],
+  "issue": 11703
+ },
+ {
+  "kind": "unchecked",
+  "key": "04s_struct_mineshaft.js",
+  "module": "04s_struct_mineshaft.js",
+  "classes": [
+   "net/minecraft/structure/MineshaftGenerator"
+  ],
+  "issue": 11704
+ },
+ {
+  "kind": "unchecked",
+  "key": "04t_jigsaw.js",
+  "module": "04t_jigsaw.js",
+  "classes": [
+   "net/minecraft/structure/RuinedPortalStructurePiece",
+   "net/minecraft/structure/pool/LegacySinglePoolElement",
+   "net/minecraft/structure/processor/BlackstoneReplacementStructureProcessor",
+   "net/minecraft/util/collection/Pool"
+  ],
+  "issue": 11705
+ },
+ {
+  "kind": "unchecked",
+  "key": "04x_struct_stronghold.js",
+  "module": "04x_struct_stronghold.js",
+  "classes": [
+   "net/minecraft/structure/StrongholdGenerator"
+  ],
+  "issue": 11706
+ },
+ {
+  "kind": "unchecked",
+  "key": "04r_structures.js",
+  "module": "04r_structures.js",
+  "classes": [
+   "net/minecraft/structure/Structure",
+   "net/minecraft/tag/ConfiguredStructureFeatureTags",
+   "net/minecraft/util/math/ChunkPos",
+   "net/minecraft/world/StructureSpawns",
+   "net/minecraft/world/gen/GenerationStep",
+   "net/minecraft/world/gen/StructureAccessor",
+   "net/minecraft/world/gen/chunk/ChunkGenerator",
+   "net/minecraft/world/gen/chunk/placement/ConcentricRingsStructurePlacement",
+   "net/minecraft/world/gen/chunk/placement/RandomSpreadStructurePlacement",
+   "net/minecraft/world/gen/feature/RuinedPortalFeature"
+  ],
+  "issue": 11707
+ },
+ {
+  "kind": "unchecked",
+  "key": "04y_struct_nether_fortress.js",
+  "module": "04y_struct_nether_fortress.js",
+  "classes": [
+   "net/minecraft/structure/StructurePiece"
+  ],
+  "issue": 11708
+ },
+ {
+  "kind": "unchecked",
+  "key": "04yn_nether_terrain.js",
+  "module": "04yn_nether_terrain.js",
+  "classes": [
+   "net/minecraft/util/math/noise/DoublePerlinNoiseSampler",
+   "net/minecraft/util/math/noise/InterpolatedNoiseSampler",
+   "net/minecraft/util/math/noise/OctavePerlinNoiseSampler",
+   "net/minecraft/util/math/noise/PerlinNoiseSampler",
+   "net/minecraft/world/biome/source/BiomeAccess",
+   "net/minecraft/world/gen/chunk/AquiferSampler",
+   "net/minecraft/world/gen/chunk/ChunkGeneratorSettings",
+   "net/minecraft/world/gen/chunk/GenerationShapeConfig",
+   "net/minecraft/world/gen/noise/NoiseParametersKeys",
+   "net/minecraft/world/gen/random/RandomDeriver",
+   "net/minecraft/world/gen/surfacebuilder/SurfaceBuilder",
+   "net/minecraft/world/gen/surfacebuilder/VanillaSurfaceRules"
+  ],
+  "issue": 11709
+ },
+ {
+  "kind": "unchecked",
+  "key": "07x_patrol.js",
+  "module": "07x_patrol.js",
+  "classes": [
+   "net/minecraft/world/LightType"
+  ],
+  "issue": 11710
+ },
+ {
+  "kind": "unchecked",
+  "key": "04e_climate.js",
+  "module": "04e_climate.js",
+  "classes": [
+   "net/minecraft/world/biome/source/FixedBiomeSource",
+   "net/minecraft/world/biome/source/MultiNoiseBiomeSource"
+  ],
+  "issue": 11711
+ },
+ {
+  "kind": "unchecked",
+  "key": "04y_biome_dims.js",
+  "module": "04y_biome_dims.js",
+  "classes": [
+   "net/minecraft/world/biome/source/TheEndBiomeSource",
+   "net/minecraft/world/gen/random/AtomicSimpleRandom"
+  ],
+  "issue": 11712
+ },
+ {
+  "kind": "unchecked",
+  "key": "07_worldborder_render.js",
+  "module": "07_worldborder_render.js",
+  "classes": [
+   "net/minecraft/world/border/WorldBorderStage"
+  ],
+  "issue": 11713
+ },
+ {
+  "kind": "unchecked",
+  "key": "02l_dimension.js",
+  "module": "02l_dimension.js",
+  "classes": [
+   "net/minecraft/world/dimension/DimensionOptions"
+  ],
+  "issue": 11714
+ },
+ {
+  "kind": "unchecked",
+  "key": "17_main.js",
+  "module": "17_main.js",
+  "classes": [
+   "net/minecraft/world/gen/GeneratorOptions"
+  ],
+  "issue": 11715
+ },
+ {
+  "kind": "unchecked",
+  "key": "04z_feat_nether.js",
+  "module": "04z_feat_nether.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/HugeFungusFeature",
+   "net/minecraft/world/gen/feature/NetherForestVegetationFeature",
+   "net/minecraft/world/gen/feature/TwistingVinesFeature"
+  ],
+  "issue": 11716
+ },
+ {
+  "kind": "unchecked",
+  "key": "04p_feat_cold.js",
+  "module": "04p_feat_cold.js",
+  "classes": [
+   "net/minecraft/world/gen/feature/HugeMushroomFeature"
+  ],
+  "issue": 11717
+ },
+ {
+  "kind": "unchecked",
+  "key": "16b_save.js",
+  "module": "16b_save.js",
+  "classes": [
+   "net/minecraft/world/level/LevelProperties"
+  ],
+  "issue": 11718
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/SaveVersion",
+  "classes": [
+   "net/minecraft/SaveVersion"
+  ],
+  "issue": 11719
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/advancement",
+  "classes": [
+   "net/minecraft/advancement/criterion/AbstractCriterion",
+   "net/minecraft/advancement/criterion/CriterionConditions",
+   "net/minecraft/advancement/criterion/ImpossibleCriterion",
+   "net/minecraft/advancement/criterion/ItemDurabilityChangedCriterion"
+  ],
+  "issue": 11720
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/block",
+  "classes": [
+   "net/minecraft/block/AbstractBannerBlock",
+   "net/minecraft/block/AbstractChestBlock",
+   "net/minecraft/block/AbstractGlassBlock",
+   "net/minecraft/block/AbstractLichenBlock",
+   "net/minecraft/block/AbstractSignBlock",
+   "net/minecraft/block/AbstractSkullBlock",
+   "net/minecraft/block/AirBlock",
+   "net/minecraft/block/AzaleaBlock",
+   "net/minecraft/block/BannerBlock",
+   "net/minecraft/block/BarrierBlock",
+   "net/minecraft/block/BlastFurnaceBlock",
+   "net/minecraft/block/BlockEntityProvider",
+   "net/minecraft/block/BlockRenderType",
+   "net/minecraft/block/BlockWithEntity",
+   "net/minecraft/block/CarpetBlock",
+   "net/minecraft/block/ChainBlock",
+   "net/minecraft/block/ConduitBlock",
+   "net/minecraft/block/ConnectingBlock",
+   "net/minecraft/block/CoralBlockBlock",
+   "net/minecraft/block/CoralFanBlock",
+   "net/minecraft/block/CoralParentBlock",
+   "net/minecraft/block/CoralWallFanBlock",
+   "net/minecraft/block/CryingObsidianBlock",
+   "net/minecraft/block/DeadCoralBlock",
+   "net/minecraft/block/DeadCoralFanBlock",
+   "net/minecraft/block/DeadCoralWallFanBlock",
+   "net/minecraft/block/DirtPathBlock",
+   "net/minecraft/block/DoubleBlockProperties",
+   "net/minecraft/block/EndGatewayBlock",
+   "net/minecraft/block/EndPortalFrameBlock",
+   "net/minecraft/block/EntityShapeContext",
+   "net/minecraft/block/FacingBlock",
+   "net/minecraft/block/FletchingTableBlock",
+   "net/minecraft/block/FurnaceBlock",
+   "net/minecraft/block/GlassBlock",
+   "net/minecraft/block/GlazedTerracottaBlock",
+   "net/minecraft/block/GlowLichenBlock",
+   "net/minecraft/block/GourdBlock",
+   "net/minecraft/block/GravelBlock",
+   "net/minecraft/block/HangingRootsBlock",
+   "net/minecraft/block/HorizontalConnectingBlock",
+   "net/minecraft/block/HorizontalFacingBlock",
+   "net/minecraft/block/InventoryProvider",
+   "net/minecraft/block/JigsawBlock",
+   "net/minecraft/block/LadderBlock",
+   "net/minecraft/block/LanternBlock",
+   "net/minecraft/block/MelonBlock",
+   "net/minecraft/block/MossBlock",
+   "net/minecraft/block/MyceliumBlock",
+   "net/minecraft/block/NetherWartBlock",
+   "net/minecraft/block/NetherrackBlock",
+   "net/minecraft/block/OperatorBlock",
+   "net/minecraft/block/PaneBlock",
+   "net/minecraft/block/PillarBlock",
+   "net/minecraft/block/PistonExtensionBlock",
+   "net/minecraft/block/PistonHeadBlock",
+   "net/minecraft/block/PlantBlock",
+   "net/minecraft/block/PlayerSkullBlock",
+   "net/minecraft/block/PowderSnowCauldronBlock",
+   "net/minecraft/block/RedstoneBlock",
+   "net/minecraft/block/RedstoneOreBlock",
+   "net/minecraft/block/RodBlock",
+   "net/minecraft/block/RootedDirtBlock",
+   "net/minecraft/block/RootsBlock",
+   "net/minecraft/block/RotatedInfestedBlock",
+   "net/minecraft/block/ShapeContext",
+   "net/minecraft/block/SideShapeType",
+   "net/minecraft/block/SkullBlock",
+   "net/minecraft/block/SmokerBlock",
+   "net/minecraft/block/SpongeBlock",
+   "net/minecraft/block/SporeBlossomBlock",
+   "net/minecraft/block/SproutsBlock",
+   "net/minecraft/block/Stainable",
+   "net/minecraft/block/StainedGlassPaneBlock",
+   "net/minecraft/block/StairsBlock",
+   "net/minecraft/block/StoneButtonBlock",
+   "net/minecraft/block/StructureBlock",
+   "net/minecraft/block/StructureVoidBlock",
+   "net/minecraft/block/TintedGlassBlock",
+   "net/minecraft/block/TorchBlock",
+   "net/minecraft/block/TransparentBlock",
+   "net/minecraft/block/TwistingVinesPlantBlock",
+   "net/minecraft/block/WallMountedBlock",
+   "net/minecraft/block/WallPlayerSkullBlock",
+   "net/minecraft/block/WallRedstoneTorchBlock",
+   "net/minecraft/block/WallSignBlock",
+   "net/minecraft/block/WallSkullBlock",
+   "net/minecraft/block/WallTorchBlock",
+   "net/minecraft/block/WallWitherSkullBlock",
+   "net/minecraft/block/WeepingVinesPlantBlock",
+   "net/minecraft/block/WetSpongeBlock",
+   "net/minecraft/block/WoodenButtonBlock",
+   "net/minecraft/block/piston/PistonHandler",
+   "net/minecraft/block/sapling/AcaciaSaplingGenerator",
+   "net/minecraft/block/sapling/AzaleaSaplingGenerator",
+   "net/minecraft/block/sapling/BirchSaplingGenerator",
+   "net/minecraft/block/sapling/DarkOakSaplingGenerator",
+   "net/minecraft/block/sapling/JungleSaplingGenerator",
+   "net/minecraft/block/sapling/OakSaplingGenerator",
+   "net/minecraft/block/sapling/SpruceSaplingGenerator"
+  ],
+  "issue": 11721
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/block/entity",
+  "classes": [
+   "net/minecraft/block/entity/BedBlockEntity",
+   "net/minecraft/block/entity/BlockEntityTicker",
+   "net/minecraft/block/entity/ChestLidAnimator",
+   "net/minecraft/block/entity/DaylightDetectorBlockEntity",
+   "net/minecraft/block/entity/DropperBlockEntity",
+   "net/minecraft/block/entity/EnderChestBlockEntity",
+   "net/minecraft/block/entity/FurnaceBlockEntity",
+   "net/minecraft/block/entity/JigsawBlockEntity",
+   "net/minecraft/block/entity/LockableContainerBlockEntity",
+   "net/minecraft/block/entity/LootableContainerBlockEntity",
+   "net/minecraft/block/entity/MobSpawnerBlockEntity",
+   "net/minecraft/block/entity/StructureBlockBlockEntity",
+   "net/minecraft/block/entity/TrappedChestBlockEntity"
+  ],
+  "issue": 11722
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/block/enums",
+  "classes": [
+   "net/minecraft/block/enums/Attachment",
+   "net/minecraft/block/enums/BambooLeaves",
+   "net/minecraft/block/enums/BlockHalf",
+   "net/minecraft/block/enums/ComparatorMode",
+   "net/minecraft/block/enums/JigsawOrientation",
+   "net/minecraft/block/enums/PistonType",
+   "net/minecraft/block/enums/SculkSensorPhase",
+   "net/minecraft/block/enums/SlabType",
+   "net/minecraft/block/enums/StructureBlockMode",
+   "net/minecraft/block/enums/WallMountLocation",
+   "net/minecraft/block/enums/WallShape",
+   "net/minecraft/block/enums/WireConnection"
+  ],
+  "issue": 11723
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/client",
+  "classes": [
+   "net/minecraft/client/ClientBrandRetriever",
+   "net/minecraft/client/ClientGameSession",
+   "net/minecraft/client/MinecraftClientGame",
+   "net/minecraft/client/RunArgs",
+   "net/minecraft/client/WindowEventHandler",
+   "net/minecraft/client/WindowSettings",
+   "net/minecraft/client/block/ChestAnimationProgress",
+   "net/minecraft/client/color/block/BlockColorProvider",
+   "net/minecraft/client/color/item/ItemColorProvider",
+   "net/minecraft/client/color/world/GrassColors",
+   "net/minecraft/client/input/KeyboardInput",
+   "net/minecraft/client/item/BundleTooltipData",
+   "net/minecraft/client/item/ModelPredicateProvider",
+   "net/minecraft/client/item/TooltipData",
+   "net/minecraft/client/item/UnclampedModelPredicateProvider",
+   "net/minecraft/client/model/ModelCuboidData",
+   "net/minecraft/client/model/ModelPartData",
+   "net/minecraft/client/model/TextureDimensions",
+   "net/minecraft/client/search/IdentifierSearchableContainer",
+   "net/minecraft/client/search/Searchable",
+   "net/minecraft/client/search/SearchableContainer",
+   "net/minecraft/client/search/SuffixArray",
+   "net/minecraft/client/search/TextSearchableContainer",
+   "net/minecraft/client/toast/RecipeToast",
+   "net/minecraft/client/toast/SystemToast",
+   "net/minecraft/client/toast/ToastManager",
+   "net/minecraft/client/toast/TutorialToast",
+   "net/minecraft/client/world/BiomeColorCache",
+   "net/minecraft/client/world/ClientChunkManager",
+   "net/minecraft/client/world/ClientEntityManager"
+  ],
+  "issue": 11724
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/client/gui",
+  "classes": [
+   "net/minecraft/client/gui/AbstractParentElement",
+   "net/minecraft/client/gui/ClientChatListener",
+   "net/minecraft/client/gui/Drawable",
+   "net/minecraft/client/gui/DrawableHelper",
+   "net/minecraft/client/gui/GameInfoChatListener",
+   "net/minecraft/client/gui/Narratable",
+   "net/minecraft/client/gui/ParentElement",
+   "net/minecraft/client/gui/Selectable",
+   "net/minecraft/client/gui/WorldGenerationProgressTracker",
+   "net/minecraft/client/gui/hud/ChatHudLine",
+   "net/minecraft/client/gui/hud/ChatHudListener",
+   "net/minecraft/client/gui/hud/ClientBossBar",
+   "net/minecraft/client/gui/hud/SpectatorHud",
+   "net/minecraft/client/gui/hud/spectator/RootSpectatorCommandGroup",
+   "net/minecraft/client/gui/hud/spectator/SpectatorMenuCloseCallback",
+   "net/minecraft/client/gui/hud/spectator/SpectatorMenuCommand",
+   "net/minecraft/client/gui/hud/spectator/SpectatorMenuCommandGroup",
+   "net/minecraft/client/gui/hud/spectator/SpectatorMenuState",
+   "net/minecraft/client/gui/hud/spectator/TeamTeleportSpectatorMenu",
+   "net/minecraft/client/gui/hud/spectator/TeleportToSpecificPlayerSpectatorCommand",
+   "net/minecraft/client/gui/screen/AddServerScreen",
+   "net/minecraft/client/gui/screen/BackupPromptScreen",
+   "net/minecraft/client/gui/screen/ConnectScreen",
+   "net/minecraft/client/gui/screen/DatapackFailureScreen",
+   "net/minecraft/client/gui/screen/DeathScreen",
+   "net/minecraft/client/gui/screen/DemoScreen",
+   "net/minecraft/client/gui/screen/DialogScreen",
+   "net/minecraft/client/gui/screen/DirectConnectScreen",
+   "net/minecraft/client/gui/screen/DisconnectedScreen",
+   "net/minecraft/client/gui/screen/FatalErrorScreen",
+   "net/minecraft/client/gui/screen/GameMenuScreen",
+   "net/minecraft/client/gui/screen/NoticeScreen",
+   "net/minecraft/client/gui/screen/OpenToLanScreen",
+   "net/minecraft/client/gui/screen/OutOfMemoryScreen",
+   "net/minecraft/client/gui/screen/SaveLevelScreen",
+   "net/minecraft/client/gui/screen/ScreenTexts",
+   "net/minecraft/client/gui/screen/StatsListener",
+   "net/minecraft/client/gui/screen/WarningScreen",
+   "net/minecraft/client/gui/screen/advancement/AdvancementObtainedStatus",
+   "net/minecraft/client/gui/screen/ingame/BeaconScreen",
+   "net/minecraft/client/gui/screen/ingame/BlastFurnaceScreen",
+   "net/minecraft/client/gui/screen/ingame/CartographyTableScreen",
+   "net/minecraft/client/gui/screen/ingame/CreativeInventoryListener",
+   "net/minecraft/client/gui/screen/ingame/ForgingScreen",
+   "net/minecraft/client/gui/screen/ingame/FurnaceScreen",
+   "net/minecraft/client/gui/screen/ingame/Generic3x3ContainerScreen",
+   "net/minecraft/client/gui/screen/ingame/HandledScreens",
+   "net/minecraft/client/gui/screen/ingame/JigsawBlockScreen",
+   "net/minecraft/client/gui/screen/ingame/ScreenHandlerProvider",
+   "net/minecraft/client/gui/screen/ingame/SignEditScreen",
+   "net/minecraft/client/gui/screen/ingame/SmithingScreen",
+   "net/minecraft/client/gui/screen/ingame/SmokerScreen",
+   "net/minecraft/client/gui/screen/ingame/StonecutterScreen",
+   "net/minecraft/client/gui/screen/ingame/StructureBlockScreen",
+   "net/minecraft/client/gui/screen/multiplayer/MultiplayerScreen",
+   "net/minecraft/client/gui/screen/multiplayer/MultiplayerServerListWidget",
+   "net/minecraft/client/gui/screen/multiplayer/MultiplayerWarningScreen",
+   "net/minecraft/client/gui/screen/multiplayer/SocialInteractionsPlayerListEntry",
+   "net/minecraft/client/gui/screen/multiplayer/SocialInteractionsPlayerListWidget",
+   "net/minecraft/client/gui/screen/multiplayer/SocialInteractionsScreen",
+   "net/minecraft/client/gui/screen/narration/Narration",
+   "net/minecraft/client/gui/screen/narration/NarrationMessageBuilder",
+   "net/minecraft/client/gui/screen/narration/NarrationPart",
+   "net/minecraft/client/gui/screen/option/GameOptionsScreen",
+   "net/minecraft/client/gui/screen/option/LanguageOptionsScreen",
+   "net/minecraft/client/gui/screen/option/OnlineOptionsScreen",
+   "net/minecraft/client/gui/screen/option/SimpleOptionsScreen",
+   "net/minecraft/client/gui/screen/option/VideoOptionsScreen",
+   "net/minecraft/client/gui/screen/recipebook/AbstractFurnaceRecipeBookScreen",
+   "net/minecraft/client/gui/screen/recipebook/AnimatedResultButton",
+   "net/minecraft/client/gui/screen/recipebook/BlastFurnaceRecipeBookScreen",
+   "net/minecraft/client/gui/screen/recipebook/FurnaceRecipeBookScreen",
+   "net/minecraft/client/gui/screen/recipebook/RecipeAlternativesWidget",
+   "net/minecraft/client/gui/screen/recipebook/RecipeBookGhostSlots",
+   "net/minecraft/client/gui/screen/recipebook/RecipeBookProvider",
+   "net/minecraft/client/gui/screen/recipebook/RecipeDisplayListener",
+   "net/minecraft/client/gui/screen/recipebook/RecipeGroupButtonWidget",
+   "net/minecraft/client/gui/screen/recipebook/SmokerRecipeBookScreen",
+   "net/minecraft/client/gui/screen/world/OptimizeWorldScreen",
+   "net/minecraft/client/gui/tooltip/BundleTooltipComponent",
+   "net/minecraft/client/gui/tooltip/OrderedTextTooltipComponent",
+   "net/minecraft/client/gui/tooltip/TooltipComponent",
+   "net/minecraft/client/gui/widget/AlwaysSelectedEntryListWidget",
+   "net/minecraft/client/gui/widget/ButtonWidget",
+   "net/minecraft/client/gui/widget/CheckboxWidget",
+   "net/minecraft/client/gui/widget/ClickableWidget",
+   "net/minecraft/client/gui/widget/DoubleOptionSliderWidget",
+   "net/minecraft/client/gui/widget/ElementListWidget",
+   "net/minecraft/client/gui/widget/EntryListWidget",
+   "net/minecraft/client/gui/widget/LockButtonWidget",
+   "net/minecraft/client/gui/widget/OptionSliderWidget",
+   "net/minecraft/client/gui/widget/PageTurnWidget",
+   "net/minecraft/client/gui/widget/PressableWidget",
+   "net/minecraft/client/gui/widget/SliderWidget",
+   "net/minecraft/client/gui/widget/SoundSliderWidget",
+   "net/minecraft/client/gui/widget/TextFieldWidget",
+   "net/minecraft/client/gui/widget/TexturedButtonWidget",
+   "net/minecraft/client/gui/widget/ToggleButtonWidget"
+  ],
+  "issue": 11725
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/client/particle",
+  "classes": [
+   "net/minecraft/client/particle/AbstractDustParticle",
+   "net/minecraft/client/particle/BlockFallingDustParticle",
+   "net/minecraft/client/particle/BlockMarkerParticle",
+   "net/minecraft/client/particle/BubblePopParticle",
+   "net/minecraft/client/particle/CampfireSmokeParticle",
+   "net/minecraft/client/particle/CurrentDownParticle",
+   "net/minecraft/client/particle/DustColorTransitionParticle",
+   "net/minecraft/client/particle/EnchantGlyphParticle",
+   "net/minecraft/client/particle/FishingParticle",
+   "net/minecraft/client/particle/LargeFireSmokeParticle",
+   "net/minecraft/client/particle/ParticleFactory",
+   "net/minecraft/client/particle/ParticleGroup",
+   "net/minecraft/client/particle/ParticleTextureData",
+   "net/minecraft/client/particle/RedDustParticle",
+   "net/minecraft/client/particle/ReversePortalParticle",
+   "net/minecraft/client/particle/SnowflakeParticle",
+   "net/minecraft/client/particle/SoulParticle"
+  ],
+  "issue": 11726
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/client/render",
+  "classes": [
+   "net/minecraft/client/render/BufferBuilderStorage",
+   "net/minecraft/client/render/BufferRenderer",
+   "net/minecraft/client/render/BufferVertexConsumer",
+   "net/minecraft/client/render/BuiltChunkStorage",
+   "net/minecraft/client/render/ChunkBuilderMode",
+   "net/minecraft/client/render/DiffuseLighting",
+   "net/minecraft/client/render/FixedColorVertexConsumer",
+   "net/minecraft/client/render/FogShape",
+   "net/minecraft/client/render/FpsSmoother",
+   "net/minecraft/client/render/MapRenderer",
+   "net/minecraft/client/render/OutlineVertexConsumerProvider",
+   "net/minecraft/client/render/OverlayVertexConsumer",
+   "net/minecraft/client/render/RenderLayers",
+   "net/minecraft/client/render/RenderTickCounter",
+   "net/minecraft/client/render/SpriteTexturedVertexConsumer",
+   "net/minecraft/client/render/Tessellator",
+   "net/minecraft/client/render/VertexConsumerProvider",
+   "net/minecraft/client/render/VertexConsumers",
+   "net/minecraft/client/render/VertexFormat",
+   "net/minecraft/client/render/VertexFormatElement",
+   "net/minecraft/client/render/VertexFormats",
+   "net/minecraft/client/render/block/BlockModelRenderer",
+   "net/minecraft/client/render/block/BlockRenderManager",
+   "net/minecraft/client/render/block/entity/BlockEntityRenderDispatcher",
+   "net/minecraft/client/render/block/entity/BlockEntityRenderer",
+   "net/minecraft/client/render/block/entity/BlockEntityRendererFactories",
+   "net/minecraft/client/render/block/entity/BlockEntityRendererFactory",
+   "net/minecraft/client/render/block/entity/LightmapCoordinatesRetriever",
+   "net/minecraft/client/render/block/entity/SkullBlockEntityModel",
+   "net/minecraft/client/render/block/entity/StructureBlockBlockEntityRenderer",
+   "net/minecraft/client/render/chunk/BlockBufferBuilderStorage",
+   "net/minecraft/client/render/chunk/ChunkBuilder",
+   "net/minecraft/client/render/chunk/ChunkOcclusionData",
+   "net/minecraft/client/render/chunk/ChunkOcclusionDataBuilder",
+   "net/minecraft/client/render/chunk/ChunkRendererRegion",
+   "net/minecraft/client/render/chunk/ChunkRendererRegionBuilder",
+   "net/minecraft/client/render/chunk/RenderedChunk",
+   "net/minecraft/client/render/debug/NameGenerator",
+   "net/minecraft/client/render/entity/ArmorStandEntityRenderer",
+   "net/minecraft/client/render/entity/ArrowEntityRenderer",
+   "net/minecraft/client/render/entity/CodEntityRenderer",
+   "net/minecraft/client/render/entity/CowEntityRenderer",
+   "net/minecraft/client/render/entity/DolphinEntityRenderer",
+   "net/minecraft/client/render/entity/DonkeyEntityRenderer",
+   "net/minecraft/client/render/entity/DragonFireballEntityRenderer",
+   "net/minecraft/client/render/entity/EmptyEntityRenderer",
+   "net/minecraft/client/render/entity/EndermiteEntityRenderer",
+   "net/minecraft/client/render/entity/EntityRendererFactory",
+   "net/minecraft/client/render/entity/EvokerEntityRenderer",
+   "net/minecraft/client/render/entity/FallingBlockEntityRenderer",
+   "net/minecraft/client/render/entity/FireworkRocketEntityRenderer",
+   "net/minecraft/client/render/entity/GoatEntityRenderer",
+   "net/minecraft/client/render/entity/OcelotEntityRenderer",
+   "net/minecraft/client/render/entity/PigEntityRenderer",
+   "net/minecraft/client/render/entity/ProjectileEntityRenderer",
+   "net/minecraft/client/render/entity/SalmonEntityRenderer",
+   "net/minecraft/client/render/entity/SheepEntityRenderer",
+   "net/minecraft/client/render/entity/SilverfishEntityRenderer",
+   "net/minecraft/client/render/entity/SkeletonEntityRenderer",
+   "net/minecraft/client/render/entity/SnowGolemEntityRenderer",
+   "net/minecraft/client/render/entity/SpectralArrowEntityRenderer",
+   "net/minecraft/client/render/entity/SpiderEntityRenderer",
+   "net/minecraft/client/render/entity/StrayEntityRenderer",
+   "net/minecraft/client/render/entity/VindicatorEntityRenderer",
+   "net/minecraft/client/render/entity/ZombieEntityRenderer",
+   "net/minecraft/client/render/entity/feature/CapeFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/Deadmau5FeatureRenderer",
+   "net/minecraft/client/render/entity/feature/EnergySwirlOverlayFeatureRenderer",
+   "net/minecraft/client/render/entity/feature/FeatureRendererContext",
+   "net/minecraft/client/render/entity/feature/PlayerHeldItemFeatureRenderer",
+   "net/minecraft/client/render/entity/model/CompositeEntityModel",
+   "net/minecraft/client/render/entity/model/CowEntityModel",
+   "net/minecraft/client/render/entity/model/CreeperEntityModel",
+   "net/minecraft/client/render/entity/model/EntityModelLayer",
+   "net/minecraft/client/render/entity/model/EntityModelLayers",
+   "net/minecraft/client/render/entity/model/EntityModelLoader",
+   "net/minecraft/client/render/entity/model/EntityModelPartNames",
+   "net/minecraft/client/render/entity/model/EntityModels",
+   "net/minecraft/client/render/entity/model/GiantEntityModel",
+   "net/minecraft/client/render/entity/model/LlamaSpitEntityModel",
+   "net/minecraft/client/render/entity/model/MediumPufferfishEntityModel",
+   "net/minecraft/client/render/entity/model/ModelWithArms",
+   "net/minecraft/client/render/entity/model/ModelWithHat",
+   "net/minecraft/client/render/entity/model/ModelWithHead",
+   "net/minecraft/client/render/entity/model/PigEntityModel",
+   "net/minecraft/client/render/entity/model/QuadrupedEntityModel",
+   "net/minecraft/client/render/entity/model/ShieldEntityModel",
+   "net/minecraft/client/render/entity/model/ShulkerBulletEntityModel",
+   "net/minecraft/client/render/entity/model/SinglePartEntityModel",
+   "net/minecraft/client/render/entity/model/SlimeEntityModel",
+   "net/minecraft/client/render/entity/model/SmallPufferfishEntityModel",
+   "net/minecraft/client/render/entity/model/SmallTropicalFishEntityModel",
+   "net/minecraft/client/render/entity/model/SpiderEntityModel",
+   "net/minecraft/client/render/entity/model/TintableAnimalModel",
+   "net/minecraft/client/render/entity/model/TintableCompositeModel",
+   "net/minecraft/client/render/entity/model/TridentEntityModel",
+   "net/minecraft/client/render/entity/model/ZombieEntityModel",
+   "net/minecraft/client/render/entity/model/ZombieVillagerEntityModel",
+   "net/minecraft/client/render/item/ItemModels",
+   "net/minecraft/client/render/model/BakedModel",
+   "net/minecraft/client/render/model/BakedModelManager",
+   "net/minecraft/client/render/model/BakedQuad",
+   "net/minecraft/client/render/model/BakedQuadFactory",
+   "net/minecraft/client/render/model/BasicBakedModel",
+   "net/minecraft/client/render/model/BuiltinBakedModel",
+   "net/minecraft/client/render/model/CubeFace",
+   "net/minecraft/client/render/model/ModelBakeSettings",
+   "net/minecraft/client/render/model/ModelLoader",
+   "net/minecraft/client/render/model/ModelRotation",
+   "net/minecraft/client/render/model/MultipartBakedModel",
+   "net/minecraft/client/render/model/MultipartUnbakedModel",
+   "net/minecraft/client/render/model/SpriteAtlasManager",
+   "net/minecraft/client/render/model/UnbakedModel",
+   "net/minecraft/client/render/model/WeightedBakedModel",
+   "net/minecraft/client/render/model/json/AndMultipartModelSelector",
+   "net/minecraft/client/render/model/json/ItemModelGenerator",
+   "net/minecraft/client/render/model/json/JsonUnbakedModel",
+   "net/minecraft/client/render/model/json/ModelElement",
+   "net/minecraft/client/render/model/json/ModelElementFace",
+   "net/minecraft/client/render/model/json/ModelElementTexture",
+   "net/minecraft/client/render/model/json/ModelOverride",
+   "net/minecraft/client/render/model/json/ModelOverrideList",
+   "net/minecraft/client/render/model/json/ModelRotation",
+   "net/minecraft/client/render/model/json/ModelVariant",
+   "net/minecraft/client/render/model/json/ModelVariantMap",
+   "net/minecraft/client/render/model/json/MultipartModelComponent",
+   "net/minecraft/client/render/model/json/MultipartModelSelector",
+   "net/minecraft/client/render/model/json/OrMultipartModelSelector",
+   "net/minecraft/client/render/model/json/SimpleMultipartModelSelector",
+   "net/minecraft/client/render/model/json/WeightedUnbakedModel"
+  ],
+  "issue": 11727
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/client/sound",
+  "classes": [
+   "net/minecraft/client/sound/AbstractSoundInstance",
+   "net/minecraft/client/sound/AggressiveBeeSoundInstance",
+   "net/minecraft/client/sound/AlUtil",
+   "net/minecraft/client/sound/AmbientSoundLoops",
+   "net/minecraft/client/sound/AmbientSoundPlayer",
+   "net/minecraft/client/sound/AudioStream",
+   "net/minecraft/client/sound/BubbleColumnSoundPlayer",
+   "net/minecraft/client/sound/Channel",
+   "net/minecraft/client/sound/ElytraSoundInstance",
+   "net/minecraft/client/sound/EntityTrackingSoundInstance",
+   "net/minecraft/client/sound/GuardianAttackSoundInstance",
+   "net/minecraft/client/sound/OggAudioStream",
+   "net/minecraft/client/sound/PassiveBeeSoundInstance",
+   "net/minecraft/client/sound/RepeatingAudioStream",
+   "net/minecraft/client/sound/SoundContainer",
+   "net/minecraft/client/sound/SoundEngine",
+   "net/minecraft/client/sound/SoundEntry",
+   "net/minecraft/client/sound/SoundEntryDeserializer",
+   "net/minecraft/client/sound/SoundExecutor",
+   "net/minecraft/client/sound/SoundInstance",
+   "net/minecraft/client/sound/SoundInstanceListener",
+   "net/minecraft/client/sound/SoundListener",
+   "net/minecraft/client/sound/SoundManager",
+   "net/minecraft/client/sound/StaticSound",
+   "net/minecraft/client/sound/TickableSoundInstance",
+   "net/minecraft/client/sound/WeightedSoundSet"
+  ],
+  "issue": 11728
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/client/tutorial",
+  "classes": [
+   "net/minecraft/client/tutorial/BundleTutorial",
+   "net/minecraft/client/tutorial/CraftPlanksTutorialStepHandler",
+   "net/minecraft/client/tutorial/FindTreeTutorialStepHandler",
+   "net/minecraft/client/tutorial/MovementTutorialStepHandler",
+   "net/minecraft/client/tutorial/NoneTutorialStepHandler",
+   "net/minecraft/client/tutorial/OpenInventoryTutorialStepHandler",
+   "net/minecraft/client/tutorial/PunchTreeTutorialStepHandler",
+   "net/minecraft/client/tutorial/TutorialManager",
+   "net/minecraft/client/tutorial/TutorialStep",
+   "net/minecraft/client/tutorial/TutorialStepHandler"
+  ],
+  "issue": 11729
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/command",
+  "classes": [
+   "net/minecraft/command/BlockDataObject",
+   "net/minecraft/command/CommandException",
+   "net/minecraft/command/CommandSource",
+   "net/minecraft/command/DataCommandObject",
+   "net/minecraft/command/DataCommandStorage",
+   "net/minecraft/command/EntityDataObject",
+   "net/minecraft/command/FloatRangeArgument",
+   "net/minecraft/command/StorageDataObject",
+   "net/minecraft/command/TranslatableBuiltInExceptions",
+   "net/minecraft/command/suggestion/SuggestionProviders"
+  ],
+  "issue": 11730
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/command/argument",
+  "classes": [
+   "net/minecraft/command/argument/ArgumentTypes",
+   "net/minecraft/command/argument/BlockPosArgumentType",
+   "net/minecraft/command/argument/BlockStateArgument",
+   "net/minecraft/command/argument/BlockStateArgumentType",
+   "net/minecraft/command/argument/BrigadierArgumentTypes",
+   "net/minecraft/command/argument/ColorArgumentType",
+   "net/minecraft/command/argument/CommandFunctionArgumentType",
+   "net/minecraft/command/argument/CoordinateArgument",
+   "net/minecraft/command/argument/DefaultPosArgument",
+   "net/minecraft/command/argument/EnchantmentArgumentType",
+   "net/minecraft/command/argument/EntityAnchorArgumentType",
+   "net/minecraft/command/argument/GameProfileArgumentType",
+   "net/minecraft/command/argument/IdentifierArgumentType",
+   "net/minecraft/command/argument/ItemPredicateArgumentType",
+   "net/minecraft/command/argument/ItemStackArgument",
+   "net/minecraft/command/argument/ItemStringReader",
+   "net/minecraft/command/argument/LookingPosArgument",
+   "net/minecraft/command/argument/MessageArgumentType",
+   "net/minecraft/command/argument/NbtCompoundArgumentType",
+   "net/minecraft/command/argument/NbtElementArgumentType",
+   "net/minecraft/command/argument/NumberRangeArgumentType",
+   "net/minecraft/command/argument/PosArgument",
+   "net/minecraft/command/argument/RegistryKeyArgumentType",
+   "net/minecraft/command/argument/RegistryPredicateArgumentType",
+   "net/minecraft/command/argument/ScoreboardCriterionArgumentType",
+   "net/minecraft/command/argument/ScoreboardObjectiveArgumentType",
+   "net/minecraft/command/argument/ScoreboardSlotArgumentType",
+   "net/minecraft/command/argument/StatusEffectArgumentType",
+   "net/minecraft/command/argument/SwizzleArgumentType",
+   "net/minecraft/command/argument/TeamArgumentType",
+   "net/minecraft/command/argument/TestClassArgumentType",
+   "net/minecraft/command/argument/TestFunctionArgumentType",
+   "net/minecraft/command/argument/TextArgumentType",
+   "net/minecraft/command/argument/UuidArgumentType",
+   "net/minecraft/command/argument/Vec2ArgumentType",
+   "net/minecraft/command/argument/Vec3ArgumentType",
+   "net/minecraft/command/argument/serialize/ArgumentSerializer",
+   "net/minecraft/command/argument/serialize/ConstantArgumentSerializer",
+   "net/minecraft/command/argument/serialize/DoubleArgumentSerializer",
+   "net/minecraft/command/argument/serialize/FloatArgumentSerializer",
+   "net/minecraft/command/argument/serialize/IntegerArgumentSerializer",
+   "net/minecraft/command/argument/serialize/LongArgumentSerializer",
+   "net/minecraft/command/argument/serialize/StringArgumentSerializer"
+  ],
+  "issue": 11731
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/enchantment",
+  "classes": [
+   "net/minecraft/enchantment/EnchantmentLevelEntry"
+  ],
+  "issue": 11732
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/entity",
+  "classes": [
+   "net/minecraft/entity/EntityStatuses",
+   "net/minecraft/entity/Flutterer",
+   "net/minecraft/entity/FlyingItemEntity",
+   "net/minecraft/entity/InventoryOwner",
+   "net/minecraft/entity/MarkerEntity",
+   "net/minecraft/entity/Npc",
+   "net/minecraft/entity/attribute/AttributeContainer",
+   "net/minecraft/entity/attribute/DefaultAttributeContainer",
+   "net/minecraft/entity/attribute/DefaultAttributeRegistry",
+   "net/minecraft/entity/attribute/EntityAttribute",
+   "net/minecraft/entity/attribute/EntityAttributeModifier",
+   "net/minecraft/entity/damage/BadRespawnPointDamageSource",
+   "net/minecraft/entity/data/TrackedData",
+   "net/minecraft/entity/data/TrackedDataHandler",
+   "net/minecraft/entity/data/TrackedDataHandlerRegistry",
+   "net/minecraft/entity/decoration/GlowItemFrameEntity",
+   "net/minecraft/entity/player/HungerConstants"
+  ],
+  "issue": 11733
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/entity/ai",
+  "classes": [
+   "net/minecraft/entity/ai/NoWaterTargeting",
+   "net/minecraft/entity/ai/RangedAttackMob",
+   "net/minecraft/entity/ai/brain/ScheduleBuilder",
+   "net/minecraft/entity/ai/brain/ScheduleRuleEntry",
+   "net/minecraft/entity/ai/brain/sensor/DummySensor",
+   "net/minecraft/entity/ai/brain/sensor/NearestItemsSensor",
+   "net/minecraft/entity/ai/brain/sensor/NearestPlayersSensor",
+   "net/minecraft/entity/ai/brain/sensor/NearestVisibleAdultSensor",
+   "net/minecraft/entity/ai/brain/sensor/PiglinBruteSpecificSensor",
+   "net/minecraft/entity/ai/brain/sensor/TemptationsSensor",
+   "net/minecraft/entity/ai/brain/task/WakeUpTask",
+   "net/minecraft/entity/ai/brain/task/WantNewItemTask",
+   "net/minecraft/entity/ai/goal/PrioritizedGoal",
+   "net/minecraft/entity/ai/pathing/TargetPathNode"
+  ],
+  "issue": 11734
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/fluid",
+  "classes": [
+   "net/minecraft/fluid/EmptyFluid"
+  ],
+  "issue": 11735
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/inventory",
+  "classes": [
+   "net/minecraft/inventory/ContainerLock",
+   "net/minecraft/inventory/CraftingInventory",
+   "net/minecraft/inventory/CraftingResultInventory",
+   "net/minecraft/inventory/DoubleInventory",
+   "net/minecraft/inventory/InventoryChangedListener",
+   "net/minecraft/inventory/SidedInventory"
+  ],
+  "issue": 11736
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/item",
+  "classes": [
+   "net/minecraft/item/AirBlockItem",
+   "net/minecraft/item/AliasedBlockItem",
+   "net/minecraft/item/ArmorMaterial",
+   "net/minecraft/item/BedItem",
+   "net/minecraft/item/BlockPredicatesChecker",
+   "net/minecraft/item/BookItem",
+   "net/minecraft/item/BundleItem",
+   "net/minecraft/item/CommandBlockItem",
+   "net/minecraft/item/EmptyMapItem",
+   "net/minecraft/item/FireworkStarItem",
+   "net/minecraft/item/FluidModificationItem",
+   "net/minecraft/item/ItemConvertible",
+   "net/minecraft/item/ItemFrameItem",
+   "net/minecraft/item/ItemUsageContext",
+   "net/minecraft/item/KnowledgeBookItem",
+   "net/minecraft/item/LilyPadItem",
+   "net/minecraft/item/NetworkSyncedItem",
+   "net/minecraft/item/PickaxeItem",
+   "net/minecraft/item/PowderSnowBucketItem",
+   "net/minecraft/item/ScaffoldingItem",
+   "net/minecraft/item/SignItem",
+   "net/minecraft/item/SpectralArrowItem",
+   "net/minecraft/item/TallBlockItem",
+   "net/minecraft/item/ToolMaterial",
+   "net/minecraft/item/WallStandingBlockItem",
+   "net/minecraft/item/map/MapBannerMarker",
+   "net/minecraft/item/map/MapFrameMarker",
+   "net/minecraft/item/map/MapIcon"
+  ],
+  "issue": 11737
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/loot",
+  "classes": [
+   "net/minecraft/loot/LootChoice",
+   "net/minecraft/loot/LootGsons",
+   "net/minecraft/loot/LootManager",
+   "net/minecraft/loot/LootTableReporter",
+   "net/minecraft/loot/context/LootContextAware",
+   "net/minecraft/loot/context/LootContextParameter",
+   "net/minecraft/loot/context/LootContextType",
+   "net/minecraft/loot/context/LootContextTypes",
+   "net/minecraft/loot/operator/BoundedIntUnaryOperator"
+  ],
+  "issue": 11738
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/loot/condition",
+  "classes": [
+   "net/minecraft/loot/condition/AlternativeLootCondition",
+   "net/minecraft/loot/condition/BlockStatePropertyLootCondition",
+   "net/minecraft/loot/condition/DamageSourcePropertiesLootCondition",
+   "net/minecraft/loot/condition/EntityPropertiesLootCondition",
+   "net/minecraft/loot/condition/EntityScoresLootCondition",
+   "net/minecraft/loot/condition/KilledByPlayerLootCondition",
+   "net/minecraft/loot/condition/LocationCheckLootCondition",
+   "net/minecraft/loot/condition/LootCondition",
+   "net/minecraft/loot/condition/LootConditionConsumingBuilder",
+   "net/minecraft/loot/condition/LootConditionManager",
+   "net/minecraft/loot/condition/LootConditionType",
+   "net/minecraft/loot/condition/LootConditionTypes",
+   "net/minecraft/loot/condition/MatchToolLootCondition",
+   "net/minecraft/loot/condition/RandomChanceLootCondition",
+   "net/minecraft/loot/condition/ReferenceLootCondition",
+   "net/minecraft/loot/condition/SurvivesExplosionLootCondition",
+   "net/minecraft/loot/condition/TableBonusLootCondition",
+   "net/minecraft/loot/condition/ValueCheckLootCondition",
+   "net/minecraft/loot/condition/WeatherCheckLootCondition"
+  ],
+  "issue": 11739
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/loot/entry",
+  "classes": [
+   "net/minecraft/loot/entry/AlternativeEntry",
+   "net/minecraft/loot/entry/CombinedEntry",
+   "net/minecraft/loot/entry/DynamicEntry",
+   "net/minecraft/loot/entry/EmptyEntry",
+   "net/minecraft/loot/entry/EntryCombiner",
+   "net/minecraft/loot/entry/GroupEntry",
+   "net/minecraft/loot/entry/ItemEntry",
+   "net/minecraft/loot/entry/LeafEntry",
+   "net/minecraft/loot/entry/LootPoolEntryType",
+   "net/minecraft/loot/entry/LootPoolEntryTypes",
+   "net/minecraft/loot/entry/LootTableEntry",
+   "net/minecraft/loot/entry/SequenceEntry",
+   "net/minecraft/loot/entry/TagEntry"
+  ],
+  "issue": 11740
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/loot/function",
+  "classes": [
+   "net/minecraft/loot/function/ApplyBonusLootFunction",
+   "net/minecraft/loot/function/ConditionalLootFunction",
+   "net/minecraft/loot/function/CopyNameLootFunction",
+   "net/minecraft/loot/function/CopyNbtLootFunction",
+   "net/minecraft/loot/function/CopyStateFunction",
+   "net/minecraft/loot/function/EnchantRandomlyLootFunction",
+   "net/minecraft/loot/function/ExplorationMapLootFunction",
+   "net/minecraft/loot/function/ExplosionDecayLootFunction",
+   "net/minecraft/loot/function/FillPlayerHeadLootFunction",
+   "net/minecraft/loot/function/FurnaceSmeltLootFunction",
+   "net/minecraft/loot/function/LimitCountLootFunction",
+   "net/minecraft/loot/function/LootFunction",
+   "net/minecraft/loot/function/LootFunctionConsumingBuilder",
+   "net/minecraft/loot/function/LootFunctionManager",
+   "net/minecraft/loot/function/LootFunctionType",
+   "net/minecraft/loot/function/LootFunctionTypes",
+   "net/minecraft/loot/function/SetAttributesLootFunction",
+   "net/minecraft/loot/function/SetBannerPatternFunction",
+   "net/minecraft/loot/function/SetContentsLootFunction",
+   "net/minecraft/loot/function/SetCountLootFunction",
+   "net/minecraft/loot/function/SetEnchantmentsLootFunction",
+   "net/minecraft/loot/function/SetLootTableLootFunction",
+   "net/minecraft/loot/function/SetLoreLootFunction",
+   "net/minecraft/loot/function/SetNameLootFunction",
+   "net/minecraft/loot/function/SetNbtLootFunction",
+   "net/minecraft/loot/function/SetPotionLootFunction",
+   "net/minecraft/loot/function/SetStewEffectLootFunction"
+  ],
+  "issue": 11741
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/loot/provider",
+  "classes": [
+   "net/minecraft/loot/provider/nbt/ContextLootNbtProvider",
+   "net/minecraft/loot/provider/nbt/LootNbtProvider",
+   "net/minecraft/loot/provider/nbt/LootNbtProviderType",
+   "net/minecraft/loot/provider/nbt/LootNbtProviderTypes",
+   "net/minecraft/loot/provider/nbt/StorageLootNbtProvider",
+   "net/minecraft/loot/provider/number/BinomialLootNumberProvider",
+   "net/minecraft/loot/provider/number/ConstantLootNumberProvider",
+   "net/minecraft/loot/provider/number/LootNumberProviderType",
+   "net/minecraft/loot/provider/number/LootNumberProviderTypes",
+   "net/minecraft/loot/provider/number/ScoreLootNumberProvider",
+   "net/minecraft/loot/provider/score/ContextLootScoreProvider",
+   "net/minecraft/loot/provider/score/FixedLootScoreProvider",
+   "net/minecraft/loot/provider/score/LootScoreProvider",
+   "net/minecraft/loot/provider/score/LootScoreProviderType",
+   "net/minecraft/loot/provider/score/LootScoreProviderTypes"
+  ],
+  "issue": 11742
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/nbt",
+  "classes": [
+   "net/minecraft/nbt/AbstractNbtList",
+   "net/minecraft/nbt/AbstractNbtNumber",
+   "net/minecraft/nbt/NbtByte",
+   "net/minecraft/nbt/NbtByteArray",
+   "net/minecraft/nbt/NbtCompound",
+   "net/minecraft/nbt/NbtDouble",
+   "net/minecraft/nbt/NbtElement",
+   "net/minecraft/nbt/NbtEnd",
+   "net/minecraft/nbt/NbtFloat",
+   "net/minecraft/nbt/NbtInt",
+   "net/minecraft/nbt/NbtIntArray",
+   "net/minecraft/nbt/NbtIo",
+   "net/minecraft/nbt/NbtLong",
+   "net/minecraft/nbt/NbtLongArray",
+   "net/minecraft/nbt/NbtOps",
+   "net/minecraft/nbt/NbtShort",
+   "net/minecraft/nbt/NbtString",
+   "net/minecraft/nbt/NbtTagSizeTracker",
+   "net/minecraft/nbt/NbtType",
+   "net/minecraft/nbt/NbtTypes",
+   "net/minecraft/nbt/StringNbtReader",
+   "net/minecraft/nbt/scanner/ExclusiveNbtCollector",
+   "net/minecraft/nbt/scanner/NbtCollector",
+   "net/minecraft/nbt/scanner/NbtScanQuery",
+   "net/minecraft/nbt/scanner/NbtScanner",
+   "net/minecraft/nbt/scanner/NbtTreeNode",
+   "net/minecraft/nbt/scanner/SelectiveNbtCollector",
+   "net/minecraft/nbt/scanner/SimpleNbtScanner",
+   "net/minecraft/nbt/visitor/NbtElementVisitor",
+   "net/minecraft/nbt/visitor/NbtOrderedStringFormatter",
+   "net/minecraft/nbt/visitor/NbtTextFormatter",
+   "net/minecraft/nbt/visitor/StringNbtWriter"
+  ],
+  "issue": 11743
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/network",
+  "classes": [
+   "net/minecraft/network/ClientConnection",
+   "net/minecraft/network/DecoderHandler",
+   "net/minecraft/network/LegacyQueryHandler",
+   "net/minecraft/network/MessageType",
+   "net/minecraft/network/NetworkSide",
+   "net/minecraft/network/NetworkState",
+   "net/minecraft/network/NetworkThreadUtils",
+   "net/minecraft/network/OffThreadException",
+   "net/minecraft/network/Packet",
+   "net/minecraft/network/PacketByteBuf",
+   "net/minecraft/network/PacketDeflater",
+   "net/minecraft/network/PacketEncoder",
+   "net/minecraft/network/PacketEncoderException",
+   "net/minecraft/network/PacketInflater",
+   "net/minecraft/network/RateLimitedConnection",
+   "net/minecraft/network/SizePrepender",
+   "net/minecraft/network/SplitterHandler"
+  ],
+  "issue": 11744
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/network/listener",
+  "classes": [
+   "net/minecraft/network/listener/ClientLoginPacketListener",
+   "net/minecraft/network/listener/ClientPlayPacketListener",
+   "net/minecraft/network/listener/ClientQueryPacketListener",
+   "net/minecraft/network/listener/PacketListener",
+   "net/minecraft/network/listener/ServerHandshakePacketListener",
+   "net/minecraft/network/listener/ServerLoginPacketListener",
+   "net/minecraft/network/listener/ServerPacketListener",
+   "net/minecraft/network/listener/ServerPlayPacketListener",
+   "net/minecraft/network/listener/ServerQueryPacketListener"
+  ],
+  "issue": 11745
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/particle",
+  "classes": [
+   "net/minecraft/particle/DefaultParticleType",
+   "net/minecraft/particle/DustColorTransitionParticleEffect",
+   "net/minecraft/particle/DustParticleEffect",
+   "net/minecraft/particle/ParticleType",
+   "net/minecraft/particle/VibrationParticleEffect"
+  ],
+  "issue": 11746
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/predicate",
+  "classes": [
+   "net/minecraft/predicate/FluidPredicate",
+   "net/minecraft/predicate/LightPredicate",
+   "net/minecraft/predicate/block/BlockStatePredicate",
+   "net/minecraft/predicate/entity/AdvancementEntityPredicateSerializer",
+   "net/minecraft/predicate/entity/DistancePredicate",
+   "net/minecraft/predicate/entity/EntityEquipmentPredicate",
+   "net/minecraft/predicate/entity/EntityFlagsPredicate",
+   "net/minecraft/predicate/entity/EntityTypePredicate",
+   "net/minecraft/predicate/item/EnchantmentPredicate"
+  ],
+  "issue": 11747
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/recipe",
+  "classes": [
+   "net/minecraft/recipe/AbstractCookingRecipe",
+   "net/minecraft/recipe/ArmorDyeRecipe",
+   "net/minecraft/recipe/BannerDuplicateRecipe",
+   "net/minecraft/recipe/BlastingRecipe",
+   "net/minecraft/recipe/BookCloningRecipe",
+   "net/minecraft/recipe/CampfireCookingRecipe",
+   "net/minecraft/recipe/CookingRecipeSerializer",
+   "net/minecraft/recipe/CraftingRecipe",
+   "net/minecraft/recipe/CuttingRecipe",
+   "net/minecraft/recipe/FireworkRocketRecipe",
+   "net/minecraft/recipe/FireworkStarFadeRecipe",
+   "net/minecraft/recipe/FireworkStarRecipe",
+   "net/minecraft/recipe/MapCloningRecipe",
+   "net/minecraft/recipe/RecipeInputProvider",
+   "net/minecraft/recipe/RecipeManager",
+   "net/minecraft/recipe/RecipeSerializer",
+   "net/minecraft/recipe/RepairItemRecipe",
+   "net/minecraft/recipe/ShapedRecipe",
+   "net/minecraft/recipe/ShapelessRecipe",
+   "net/minecraft/recipe/ShieldDecorationRecipe",
+   "net/minecraft/recipe/ShulkerBoxColoringRecipe",
+   "net/minecraft/recipe/SmeltingRecipe",
+   "net/minecraft/recipe/SmithingRecipe",
+   "net/minecraft/recipe/SmokingRecipe",
+   "net/minecraft/recipe/SpecialRecipeSerializer",
+   "net/minecraft/recipe/StonecuttingRecipe",
+   "net/minecraft/recipe/SuspiciousStewRecipe",
+   "net/minecraft/recipe/TippedArrowRecipe",
+   "net/minecraft/recipe/book/RecipeBookCategory",
+   "net/minecraft/recipe/book/RecipeBookOptions"
+  ],
+  "issue": 11748
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/scoreboard",
+  "classes": [
+   "net/minecraft/scoreboard/ScoreboardState"
+  ],
+  "issue": 11749
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/screen",
+  "classes": [
+   "net/minecraft/screen/AbstractFurnaceScreenHandler",
+   "net/minecraft/screen/AbstractRecipeScreenHandler",
+   "net/minecraft/screen/ArrayPropertyDelegate",
+   "net/minecraft/screen/BeaconScreenHandler",
+   "net/minecraft/screen/BlastFurnaceScreenHandler",
+   "net/minecraft/screen/CraftingScreenHandler",
+   "net/minecraft/screen/FurnaceScreenHandler",
+   "net/minecraft/screen/Generic3x3ContainerScreenHandler",
+   "net/minecraft/screen/NamedScreenHandlerFactory",
+   "net/minecraft/screen/PlayerScreenHandler",
+   "net/minecraft/screen/PropertyDelegate",
+   "net/minecraft/screen/ScreenHandlerContext",
+   "net/minecraft/screen/ScreenHandlerListener",
+   "net/minecraft/screen/ScreenHandlerSyncHandler",
+   "net/minecraft/screen/ScreenHandlerType",
+   "net/minecraft/screen/SimpleNamedScreenHandlerFactory",
+   "net/minecraft/screen/SmokerScreenHandler",
+   "net/minecraft/screen/slot/SlotActionType"
+  ],
+  "issue": 11750
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/server",
+  "classes": [
+   "net/minecraft/server/BanEntry",
+   "net/minecraft/server/BannedIpEntry",
+   "net/minecraft/server/BannedIpList",
+   "net/minecraft/server/BannedPlayerEntry",
+   "net/minecraft/server/BannedPlayerList",
+   "net/minecraft/server/DataPackContents",
+   "net/minecraft/server/LanServerPinger",
+   "net/minecraft/server/OperatorEntry",
+   "net/minecraft/server/OperatorList",
+   "net/minecraft/server/QueueingWorldGenerationProgressListener",
+   "net/minecraft/server/SaveLoader",
+   "net/minecraft/server/ServerConfigEntry",
+   "net/minecraft/server/ServerConfigHandler",
+   "net/minecraft/server/ServerConfigList",
+   "net/minecraft/server/ServerMetadata",
+   "net/minecraft/server/ServerNetworkIo",
+   "net/minecraft/server/ServerTask",
+   "net/minecraft/server/Whitelist",
+   "net/minecraft/server/WhitelistEntry",
+   "net/minecraft/server/WorldGenerationProgressListener",
+   "net/minecraft/server/WorldGenerationProgressListenerFactory",
+   "net/minecraft/server/WorldGenerationProgressLogger",
+   "net/minecraft/server/chase/ChaseClient",
+   "net/minecraft/server/chase/ChaseServer",
+   "net/minecraft/server/function/FunctionLoader",
+   "net/minecraft/server/integrated/IntegratedPlayerManager",
+   "net/minecraft/server/integrated/IntegratedServer"
+  ],
+  "issue": 11751
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/server/command",
+  "classes": [
+   "net/minecraft/server/command/ChaseCommand",
+   "net/minecraft/server/command/CommandManager",
+   "net/minecraft/server/command/CommandOutput",
+   "net/minecraft/server/command/DataCommand",
+   "net/minecraft/server/command/DatapackCommand",
+   "net/minecraft/server/command/DefaultGameModeCommand",
+   "net/minecraft/server/command/ExperienceCommand",
+   "net/minecraft/server/command/GameRuleCommand",
+   "net/minecraft/server/command/ItemCommand",
+   "net/minecraft/server/command/KickCommand",
+   "net/minecraft/server/command/KillCommand",
+   "net/minecraft/server/command/ListCommand",
+   "net/minecraft/server/command/LocateBiomeCommand",
+   "net/minecraft/server/command/LocateCommand",
+   "net/minecraft/server/command/MeCommand",
+   "net/minecraft/server/command/PublishCommand",
+   "net/minecraft/server/command/ResetChunksCommand",
+   "net/minecraft/server/command/SayCommand",
+   "net/minecraft/server/command/SeedCommand",
+   "net/minecraft/server/command/SummonCommand",
+   "net/minecraft/server/command/TellRawCommand",
+   "net/minecraft/server/command/TestCommand",
+   "net/minecraft/server/command/TitleCommand"
+  ],
+  "issue": 11752
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/server/world",
+  "classes": [
+   "net/minecraft/server/world/ChunkHolder",
+   "net/minecraft/server/world/ChunkTaskPrioritySystem",
+   "net/minecraft/server/world/ChunkTicket",
+   "net/minecraft/server/world/ChunkTicketManager",
+   "net/minecraft/server/world/ChunkTicketType",
+   "net/minecraft/server/world/EntityTrackingListener",
+   "net/minecraft/server/world/LevelPrioritizedQueue",
+   "net/minecraft/server/world/PlayerChunkWatchingManager",
+   "net/minecraft/server/world/ServerEntityManager",
+   "net/minecraft/server/world/ServerLightingProvider"
+  ],
+  "issue": 11753
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/sound",
+  "classes": [
+   "net/minecraft/sound/BiomeAdditionsSound",
+   "net/minecraft/sound/BlockSoundGroup",
+   "net/minecraft/sound/MusicSound"
+  ],
+  "issue": 11754
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/state",
+  "classes": [
+   "net/minecraft/state/StateManager",
+   "net/minecraft/state/property/BooleanProperty",
+   "net/minecraft/state/property/DirectionProperty",
+   "net/minecraft/state/property/EnumProperty"
+  ],
+  "issue": 11755
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/structure",
+  "classes": [
+   "net/minecraft/structure/BastionBridgeData",
+   "net/minecraft/structure/BastionData",
+   "net/minecraft/structure/BastionRemnantGenerator",
+   "net/minecraft/structure/BastionTreasureData",
+   "net/minecraft/structure/BastionUnitsData",
+   "net/minecraft/structure/BuriedTreasureGenerator",
+   "net/minecraft/structure/DesertTempleGenerator",
+   "net/minecraft/structure/DesertVillageData",
+   "net/minecraft/structure/HoglinStableData",
+   "net/minecraft/structure/IglooGenerator",
+   "net/minecraft/structure/JigsawJunction",
+   "net/minecraft/structure/JungleTempleGenerator",
+   "net/minecraft/structure/OceanMonumentGenerator",
+   "net/minecraft/structure/OceanRuinGenerator",
+   "net/minecraft/structure/PillagerOutpostGenerator",
+   "net/minecraft/structure/PlainsVillageData",
+   "net/minecraft/structure/PoolStructurePiece",
+   "net/minecraft/structure/PostPlacementProcessor",
+   "net/minecraft/structure/SavannaVillageData",
+   "net/minecraft/structure/ShiftableStructurePiece",
+   "net/minecraft/structure/ShipwreckGenerator",
+   "net/minecraft/structure/SnowyVillageData",
+   "net/minecraft/structure/StructureContext",
+   "net/minecraft/structure/StructureGeneratorFactory",
+   "net/minecraft/structure/StructureManager",
+   "net/minecraft/structure/StructurePieceType",
+   "net/minecraft/structure/StructurePiecesHolder",
+   "net/minecraft/structure/StructurePiecesList",
+   "net/minecraft/structure/StructurePlacementData",
+   "net/minecraft/structure/StructureSet",
+   "net/minecraft/structure/StructureSetKeys",
+   "net/minecraft/structure/StructureSets",
+   "net/minecraft/structure/SwampHutGenerator",
+   "net/minecraft/structure/TaigaVillageData",
+   "net/minecraft/structure/VillageGenerator",
+   "net/minecraft/structure/WoodlandMansionGenerator"
+  ],
+  "issue": 11756
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/structure/pool",
+  "classes": [
+   "net/minecraft/structure/pool/EmptyPoolElement",
+   "net/minecraft/structure/pool/FeaturePoolElement",
+   "net/minecraft/structure/pool/ListPoolElement",
+   "net/minecraft/structure/pool/SinglePoolElement",
+   "net/minecraft/structure/pool/StructurePool",
+   "net/minecraft/structure/pool/StructurePoolBasedGenerator",
+   "net/minecraft/structure/pool/StructurePoolElement",
+   "net/minecraft/structure/pool/StructurePoolElementType",
+   "net/minecraft/structure/pool/StructurePools"
+  ],
+  "issue": 11757
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/structure/processor",
+  "classes": [
+   "net/minecraft/structure/processor/BlockAgeStructureProcessor",
+   "net/minecraft/structure/processor/BlockIgnoreStructureProcessor",
+   "net/minecraft/structure/processor/BlockRotStructureProcessor",
+   "net/minecraft/structure/processor/GravityStructureProcessor",
+   "net/minecraft/structure/processor/JigsawReplacementStructureProcessor",
+   "net/minecraft/structure/processor/LavaSubmergedBlockStructureProcessor",
+   "net/minecraft/structure/processor/NopStructureProcessor",
+   "net/minecraft/structure/processor/ProtectedBlocksStructureProcessor",
+   "net/minecraft/structure/processor/RuleStructureProcessor",
+   "net/minecraft/structure/processor/StructureProcessor",
+   "net/minecraft/structure/processor/StructureProcessorList",
+   "net/minecraft/structure/processor/StructureProcessorLists",
+   "net/minecraft/structure/processor/StructureProcessorRule",
+   "net/minecraft/structure/processor/StructureProcessorType"
+  ],
+  "issue": 11758
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/structure/rule",
+  "classes": [
+   "net/minecraft/structure/rule/AlwaysTruePosRuleTest",
+   "net/minecraft/structure/rule/AlwaysTrueRuleTest",
+   "net/minecraft/structure/rule/AxisAlignedLinearPosRuleTest",
+   "net/minecraft/structure/rule/BlockMatchRuleTest",
+   "net/minecraft/structure/rule/BlockStateMatchRuleTest",
+   "net/minecraft/structure/rule/LinearPosRuleTest",
+   "net/minecraft/structure/rule/PosRuleTest",
+   "net/minecraft/structure/rule/PosRuleTestType",
+   "net/minecraft/structure/rule/RandomBlockMatchRuleTest",
+   "net/minecraft/structure/rule/RandomBlockStateMatchRuleTest",
+   "net/minecraft/structure/rule/RuleTest",
+   "net/minecraft/structure/rule/RuleTestType",
+   "net/minecraft/structure/rule/TagMatchRuleTest"
+  ],
+  "issue": 11759
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/tag",
+  "classes": [
+   "net/minecraft/tag/BiomeTags",
+   "net/minecraft/tag/EntityTypeTags",
+   "net/minecraft/tag/GameEventTags",
+   "net/minecraft/tag/Tag",
+   "net/minecraft/tag/TagGroupLoader",
+   "net/minecraft/tag/TagKey",
+   "net/minecraft/tag/TagManagerLoader",
+   "net/minecraft/tag/TagPacketSerializer"
+  ],
+  "issue": 11760
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/text",
+  "classes": [
+   "net/minecraft/text/BaseText",
+   "net/minecraft/text/CharacterVisitor",
+   "net/minecraft/text/MutableText",
+   "net/minecraft/text/OrderedText",
+   "net/minecraft/text/ParsableText",
+   "net/minecraft/text/StringVisitable",
+   "net/minecraft/text/TextColor",
+   "net/minecraft/text/TranslationException"
+  ],
+  "issue": 11761
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/util",
+  "classes": [
+   "net/minecraft/util/Arm",
+   "net/minecraft/util/CsvWriter",
+   "net/minecraft/util/FileNameUtil",
+   "net/minecraft/util/FixedBufferInputStream",
+   "net/minecraft/util/InvalidIdentifierException",
+   "net/minecraft/util/JsonHelper",
+   "net/minecraft/util/JsonSerializableType",
+   "net/minecraft/util/JsonSerializer",
+   "net/minecraft/util/JsonSerializing",
+   "net/minecraft/util/LowercaseEnumTypeAdapterFactory",
+   "net/minecraft/util/MetricsData",
+   "net/minecraft/util/ModStatus",
+   "net/minecraft/util/Nameable",
+   "net/minecraft/util/ProgressListener",
+   "net/minecraft/util/StringIdentifiable",
+   "net/minecraft/util/SystemDetails",
+   "net/minecraft/util/ThrowableDeliverer",
+   "net/minecraft/util/TickDurationMonitor",
+   "net/minecraft/util/TopologicalSorts",
+   "net/minecraft/util/TypeFilter",
+   "net/minecraft/util/TypedActionResult",
+   "net/minecraft/util/UserCache",
+   "net/minecraft/util/WinNativeModuleUtil",
+   "net/minecraft/util/WorldSavePath",
+   "net/minecraft/util/ZipCompressor",
+   "net/minecraft/util/annotation/ClientFieldsAreNonnullByDefault",
+   "net/minecraft/util/annotation/ClientMethodsReturnNonnullByDefault",
+   "net/minecraft/util/annotation/DeobfuscateClass",
+   "net/minecraft/util/annotation/FieldsAreNonnullByDefault",
+   "net/minecraft/util/annotation/FieldsAreNonnullByDefault2",
+   "net/minecraft/util/annotation/MathMethodsReturnNonnullByDefault",
+   "net/minecraft/util/annotation/MethodsReturnNonnullByDefault",
+   "net/minecraft/util/function/BooleanBiFunction",
+   "net/minecraft/util/function/MaterialPredicate",
+   "net/minecraft/util/function/ToFloatFunction"
+  ],
+  "issue": 11762
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/util/collection",
+  "classes": [
+   "net/minecraft/util/collection/DefaultedList",
+   "net/minecraft/util/collection/EmptyPaletteStorage",
+   "net/minecraft/util/collection/IdList",
+   "net/minecraft/util/collection/IndexedIterable",
+   "net/minecraft/util/collection/Int2ObjectBiMap",
+   "net/minecraft/util/collection/LinkedBlockPosHashSet",
+   "net/minecraft/util/collection/PackedIntegerArray",
+   "net/minecraft/util/collection/PaletteStorage",
+   "net/minecraft/util/collection/SortedArraySet",
+   "net/minecraft/util/collection/TypeFilterableList"
+  ],
+  "issue": 11763
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/util/math",
+  "classes": [
+   "net/minecraft/util/math/AffineTransformation",
+   "net/minecraft/util/math/AffineTransformations",
+   "net/minecraft/util/math/AxisTransformation",
+   "net/minecraft/util/math/BlockPointer",
+   "net/minecraft/util/math/BlockPointerImpl",
+   "net/minecraft/util/math/Box",
+   "net/minecraft/util/math/ColorHelper",
+   "net/minecraft/util/math/ColumnPos",
+   "net/minecraft/util/math/DirectionTransformation",
+   "net/minecraft/util/math/EightWayDirection",
+   "net/minecraft/util/math/EulerAngle",
+   "net/minecraft/util/math/MathConstants",
+   "net/minecraft/util/math/Matrix4f",
+   "net/minecraft/util/math/PositionImpl",
+   "net/minecraft/util/math/Quantiles",
+   "net/minecraft/util/math/Vec2f",
+   "net/minecraft/util/math/Vector4f",
+   "net/minecraft/util/math/VerticalSurfaceType",
+   "net/minecraft/util/math/WordPackedArray",
+   "net/minecraft/util/math/floatprovider/ClampedNormalFloatProvider",
+   "net/minecraft/util/math/floatprovider/ConstantFloatProvider",
+   "net/minecraft/util/math/floatprovider/FloatProviderType",
+   "net/minecraft/util/math/floatprovider/TrapezoidFloatProvider",
+   "net/minecraft/util/math/floatprovider/UniformFloatProvider",
+   "net/minecraft/util/math/intprovider/BiasedToBottomIntProvider",
+   "net/minecraft/util/math/intprovider/ClampedIntProvider",
+   "net/minecraft/util/math/intprovider/ClampedNormalIntProvider",
+   "net/minecraft/util/math/intprovider/ConstantIntProvider",
+   "net/minecraft/util/math/intprovider/IntProviderType",
+   "net/minecraft/util/math/intprovider/WeightedListIntProvider",
+   "net/minecraft/util/math/noise/OctaveSimplexNoiseSampler",
+   "net/minecraft/util/math/noise/SimplexNoiseSampler"
+  ],
+  "issue": 11764
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/util/profiling",
+  "classes": [
+   "net/minecraft/util/profiling/jfr/Finishable",
+   "net/minecraft/util/profiling/jfr/FlightProfiler",
+   "net/minecraft/util/profiling/jfr/InstanceType",
+   "net/minecraft/util/profiling/jfr/event/ChunkGenerationEvent",
+   "net/minecraft/util/profiling/jfr/event/NetworkSummaryEvent",
+   "net/minecraft/util/profiling/jfr/event/PacketEvent",
+   "net/minecraft/util/profiling/jfr/event/PacketReceivedEvent",
+   "net/minecraft/util/profiling/jfr/event/PacketSentEvent",
+   "net/minecraft/util/profiling/jfr/event/ServerTickTimeEvent",
+   "net/minecraft/util/profiling/jfr/event/WorldLoadFinishedEvent",
+   "net/minecraft/util/profiling/jfr/sample/ChunkGenerationSample",
+   "net/minecraft/util/profiling/jfr/sample/CpuLoadSample",
+   "net/minecraft/util/profiling/jfr/sample/FileIoSample",
+   "net/minecraft/util/profiling/jfr/sample/GcHeapSummarySample",
+   "net/minecraft/util/profiling/jfr/sample/LongRunningSample",
+   "net/minecraft/util/profiling/jfr/sample/LongRunningSampleStatistics",
+   "net/minecraft/util/profiling/jfr/sample/NetworkIoStatistics",
+   "net/minecraft/util/profiling/jfr/sample/ServerTickTimeSample",
+   "net/minecraft/util/profiling/jfr/sample/ThreadAllocationStatisticsSample",
+   "net/minecraft/util/profiling/jfr/sample/TimedSample"
+  ],
+  "issue": 11765
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/util/registry",
+  "classes": [
+   "net/minecraft/util/registry/BuiltinRegistries",
+   "net/minecraft/util/registry/DefaultedRegistry",
+   "net/minecraft/util/registry/DynamicRegistryManager",
+   "net/minecraft/util/registry/MutableRegistry",
+   "net/minecraft/util/registry/RegistryCodecs",
+   "net/minecraft/util/registry/RegistryEntryList",
+   "net/minecraft/util/registry/RegistryEntryListCodec",
+   "net/minecraft/util/registry/RegistryFixedCodec",
+   "net/minecraft/util/registry/SimpleRegistry"
+  ],
+  "issue": 11766
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/util/shape",
+  "classes": [
+   "net/minecraft/util/shape/ArrayVoxelShape",
+   "net/minecraft/util/shape/BitSetVoxelSet",
+   "net/minecraft/util/shape/CroppedVoxelSet",
+   "net/minecraft/util/shape/DisjointPairList",
+   "net/minecraft/util/shape/FractionalDoubleList",
+   "net/minecraft/util/shape/FractionalPairList",
+   "net/minecraft/util/shape/IdentityPairList",
+   "net/minecraft/util/shape/OffsetDoubleList",
+   "net/minecraft/util/shape/PairList",
+   "net/minecraft/util/shape/SimplePairList",
+   "net/minecraft/util/shape/SimpleVoxelShape",
+   "net/minecraft/util/shape/SlicedVoxelShape",
+   "net/minecraft/util/shape/VoxelSet"
+  ],
+  "issue": 11767
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/village",
+  "classes": [
+   "net/minecraft/village/SimpleMerchant",
+   "net/minecraft/village/TradeOfferList",
+   "net/minecraft/village/VillagerDataContainer"
+  ],
+  "issue": 11768
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/world",
+  "classes": [
+   "net/minecraft/world/BlockRenderView",
+   "net/minecraft/world/BlockStateRaycastContext",
+   "net/minecraft/world/ChunkPosDistanceLevelPropagator",
+   "net/minecraft/world/ChunkRegion",
+   "net/minecraft/world/ChunkSectionCache",
+   "net/minecraft/world/ChunkUpdateState",
+   "net/minecraft/world/EmptyBlockView",
+   "net/minecraft/world/FeatureUpdater",
+   "net/minecraft/world/ForcedChunkState",
+   "net/minecraft/world/HeightLimitView",
+   "net/minecraft/world/IdCountsState",
+   "net/minecraft/world/MobSpawnerEntry",
+   "net/minecraft/world/ModifiableTestableWorld",
+   "net/minecraft/world/ModifiableWorld",
+   "net/minecraft/world/MutableWorldProperties",
+   "net/minecraft/world/PersistentState",
+   "net/minecraft/world/PersistentStateManager",
+   "net/minecraft/world/RegistryWorldView",
+   "net/minecraft/world/SaveProperties",
+   "net/minecraft/world/SectionDistanceLevelPropagator",
+   "net/minecraft/world/SimulationDistanceLevelPropagator",
+   "net/minecraft/world/StructureHolder",
+   "net/minecraft/world/StructureLocator",
+   "net/minecraft/world/StructurePresence",
+   "net/minecraft/world/TestableWorld",
+   "net/minecraft/world/Vibration",
+   "net/minecraft/world/WorldProperties",
+   "net/minecraft/world/WorldSaveHandler",
+   "net/minecraft/world/border/WorldBorderListener",
+   "net/minecraft/world/dimension/YLevels",
+   "net/minecraft/world/level/UnmodifiableLevelProperties",
+   "net/minecraft/world/level/storage/LevelStorage",
+   "net/minecraft/world/level/storage/LevelStorageException",
+   "net/minecraft/world/level/storage/LevelSummary",
+   "net/minecraft/world/level/storage/SaveVersionInfo",
+   "net/minecraft/world/level/storage/SessionLock",
+   "net/minecraft/world/poi/PointOfInterestSet",
+   "net/minecraft/world/timer/FunctionTagTimerCallback",
+   "net/minecraft/world/timer/FunctionTimerCallback",
+   "net/minecraft/world/timer/TimerCallback",
+   "net/minecraft/world/timer/TimerCallbackSerializer",
+   "net/minecraft/world/updater/WorldUpdater"
+  ],
+  "issue": 11769
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/world/biome",
+  "classes": [
+   "net/minecraft/world/biome/BiomeEffects",
+   "net/minecraft/world/biome/BuiltinBiomes",
+   "net/minecraft/world/biome/OverworldBiomeCreator",
+   "net/minecraft/world/biome/TheEndBiomeCreator",
+   "net/minecraft/world/biome/source/BiomeCoords",
+   "net/minecraft/world/biome/source/BiomeSupplier",
+   "net/minecraft/world/biome/source/CheckerboardBiomeSource",
+   "net/minecraft/world/biome/source/SeedMixer",
+   "net/minecraft/world/biome/source/util/MultiNoiseUtil",
+   "net/minecraft/world/biome/source/util/VanillaBiomeParameters",
+   "net/minecraft/world/biome/source/util/VanillaTerrainParametersCreator"
+  ],
+  "issue": 11770
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/world/chunk",
+  "classes": [
+   "net/minecraft/world/chunk/ArrayPalette",
+   "net/minecraft/world/chunk/BelowZeroRetrogen",
+   "net/minecraft/world/chunk/BiMapPalette",
+   "net/minecraft/world/chunk/BlockEntityTickInvoker",
+   "net/minecraft/world/chunk/ChunkCache",
+   "net/minecraft/world/chunk/ChunkManager",
+   "net/minecraft/world/chunk/ChunkNibbleArray",
+   "net/minecraft/world/chunk/ChunkProvider",
+   "net/minecraft/world/chunk/ChunkSection",
+   "net/minecraft/world/chunk/ChunkStatusChangeListener",
+   "net/minecraft/world/chunk/ChunkToNibbleArrayMap",
+   "net/minecraft/world/chunk/EmptyChunk",
+   "net/minecraft/world/chunk/EntryMissingException",
+   "net/minecraft/world/chunk/IdListPalette",
+   "net/minecraft/world/chunk/Palette",
+   "net/minecraft/world/chunk/PaletteResizeListener",
+   "net/minecraft/world/chunk/PalettedContainer",
+   "net/minecraft/world/chunk/ProtoChunk",
+   "net/minecraft/world/chunk/ReadOnlyChunk",
+   "net/minecraft/world/chunk/SingularPalette",
+   "net/minecraft/world/chunk/UpgradeData",
+   "net/minecraft/world/chunk/WorldChunk",
+   "net/minecraft/world/chunk/light/BlockLightStorage",
+   "net/minecraft/world/chunk/light/ChunkBlockLightProvider",
+   "net/minecraft/world/chunk/light/ChunkLightingView",
+   "net/minecraft/world/chunk/light/ChunkSkyLightProvider",
+   "net/minecraft/world/chunk/light/LevelPropagator",
+   "net/minecraft/world/chunk/light/LightStorage",
+   "net/minecraft/world/chunk/light/LightingView",
+   "net/minecraft/world/chunk/light/SkyLightStorage"
+  ],
+  "issue": 11771
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/world/entity",
+  "classes": [
+   "net/minecraft/world/entity/EntityChangeListener",
+   "net/minecraft/world/entity/EntityHandler",
+   "net/minecraft/world/entity/EntityIndex",
+   "net/minecraft/world/entity/EntityLike",
+   "net/minecraft/world/entity/EntityLookup",
+   "net/minecraft/world/entity/EntityTrackingSection",
+   "net/minecraft/world/entity/EntityTrackingStatus",
+   "net/minecraft/world/entity/SectionedEntityCache",
+   "net/minecraft/world/entity/SimpleEntityLookup"
+  ],
+  "issue": 11772
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/world/event",
+  "classes": [
+   "net/minecraft/world/event/BlockPositionSource",
+   "net/minecraft/world/event/EntityPositionSource",
+   "net/minecraft/world/event/PositionSource",
+   "net/minecraft/world/event/PositionSourceType",
+   "net/minecraft/world/event/listener/EntityGameEventHandler",
+   "net/minecraft/world/event/listener/GameEventDispatcher",
+   "net/minecraft/world/event/listener/GameEventListener",
+   "net/minecraft/world/event/listener/SimpleGameEventDispatcher"
+  ],
+  "issue": 11773
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/world/gen",
+  "classes": [
+   "net/minecraft/world/gen/BlockSource",
+   "net/minecraft/world/gen/ChainedBlockSource",
+   "net/minecraft/world/gen/CountConfig",
+   "net/minecraft/world/gen/HeightContext",
+   "net/minecraft/world/gen/OreVeinSampler",
+   "net/minecraft/world/gen/ProbabilityConfig",
+   "net/minecraft/world/gen/StructureWeightSampler",
+   "net/minecraft/world/gen/StructureWeightType",
+   "net/minecraft/world/gen/blockpredicate/AllOfBlockPredicate",
+   "net/minecraft/world/gen/blockpredicate/AlwaysTrueBlockPredicate",
+   "net/minecraft/world/gen/blockpredicate/AnyOfBlockPredicate",
+   "net/minecraft/world/gen/blockpredicate/BlockPredicateType",
+   "net/minecraft/world/gen/blockpredicate/CombinedBlockPredicate",
+   "net/minecraft/world/gen/blockpredicate/HasSturdyFacePredicate",
+   "net/minecraft/world/gen/blockpredicate/InsideWorldBoundsBlockPredicate",
+   "net/minecraft/world/gen/blockpredicate/MatchingBlockTagPredicate",
+   "net/minecraft/world/gen/blockpredicate/MatchingBlocksBlockPredicate",
+   "net/minecraft/world/gen/blockpredicate/MatchingFluidsBlockPredicate",
+   "net/minecraft/world/gen/blockpredicate/NotBlockPredicate",
+   "net/minecraft/world/gen/blockpredicate/OffsetPredicate",
+   "net/minecraft/world/gen/blockpredicate/ReplaceableBlockPredicate",
+   "net/minecraft/world/gen/blockpredicate/SolidBlockPredicate",
+   "net/minecraft/world/gen/blockpredicate/WouldSurviveBlockPredicate",
+   "net/minecraft/world/gen/carver/Carver",
+   "net/minecraft/world/gen/carver/CarverConfig",
+   "net/minecraft/world/gen/carver/CarverContext",
+   "net/minecraft/world/gen/carver/CarvingMask",
+   "net/minecraft/world/gen/carver/CaveCarver",
+   "net/minecraft/world/gen/carver/CaveCarverConfig",
+   "net/minecraft/world/gen/carver/ConfiguredCarver",
+   "net/minecraft/world/gen/carver/ConfiguredCarvers",
+   "net/minecraft/world/gen/carver/RavineCarver",
+   "net/minecraft/world/gen/carver/RavineCarverConfig",
+   "net/minecraft/world/gen/chunk/Blender",
+   "net/minecraft/world/gen/chunk/BlendingData",
+   "net/minecraft/world/gen/chunk/BlockColumn",
+   "net/minecraft/world/gen/chunk/FlatChunkGeneratorLayer",
+   "net/minecraft/world/gen/chunk/NoiseSamplingConfig",
+   "net/minecraft/world/gen/chunk/SlideConfig",
+   "net/minecraft/world/gen/chunk/VerticalBlockSample",
+   "net/minecraft/world/gen/chunk/placement/SpreadType",
+   "net/minecraft/world/gen/chunk/placement/StructurePlacement",
+   "net/minecraft/world/gen/chunk/placement/StructurePlacementType",
+   "net/minecraft/world/gen/densityfunction/DensityFunction",
+   "net/minecraft/world/gen/feature/BasaltColumnsFeatureConfig",
+   "net/minecraft/world/gen/feature/BastionRemnantFeature",
+   "net/minecraft/world/gen/feature/BlockColumnFeatureConfig",
+   "net/minecraft/world/gen/feature/BlockPileFeature",
+   "net/minecraft/world/gen/feature/BlockPileFeatureConfig",
+   "net/minecraft/world/gen/feature/BonusChestFeature",
+   "net/minecraft/world/gen/feature/ConfiguredFeatures",
+   "net/minecraft/world/gen/feature/ConfiguredStructureFeature",
+   "net/minecraft/world/gen/feature/ConfiguredStructureFeatureKeys",
+   "net/minecraft/world/gen/feature/ConfiguredStructureFeatures",
+   "net/minecraft/world/gen/feature/CoralFeature",
+   "net/minecraft/world/gen/feature/DefaultBiomeFeatures",
+   "net/minecraft/world/gen/feature/DefaultFeatureConfig",
+   "net/minecraft/world/gen/feature/DeltaFeatureConfig",
+   "net/minecraft/world/gen/feature/DesertPyramidFeature",
+   "net/minecraft/world/gen/feature/DiskFeatureConfig",
+   "net/minecraft/world/gen/feature/DripstoneClusterFeatureConfig",
+   "net/minecraft/world/gen/feature/EmeraldOreFeature",
+   "net/minecraft/world/gen/feature/EmeraldOreFeatureConfig",
+   "net/minecraft/world/gen/feature/EndGatewayFeatureConfig",
+   "net/minecraft/world/gen/feature/EndIslandFeature",
+   "net/minecraft/world/gen/feature/EndPlacedFeatures",
+   "net/minecraft/world/gen/feature/FeatureConfig",
+   "net/minecraft/world/gen/feature/FeaturePlacementContext",
+   "net/minecraft/world/gen/feature/FillLayerFeature",
+   "net/minecraft/world/gen/feature/FillLayerFeatureConfig",
+   "net/minecraft/world/gen/feature/ForestRockFeature",
+   "net/minecraft/world/gen/feature/FossilFeature",
+   "net/minecraft/world/gen/feature/FossilFeatureConfig",
+   "net/minecraft/world/gen/feature/FreezeTopLayerFeature",
+   "net/minecraft/world/gen/feature/GeodeCrackConfig",
+   "net/minecraft/world/gen/feature/GeodeFeatureConfig",
+   "net/minecraft/world/gen/feature/GeodeLayerConfig",
+   "net/minecraft/world/gen/feature/GeodeLayerThicknessConfig",
+   "net/minecraft/world/gen/feature/GlowLichenFeatureConfig",
+   "net/minecraft/world/gen/feature/HugeBrownMushroomFeature",
+   "net/minecraft/world/gen/feature/HugeFungusFeatureConfig",
+   "net/minecraft/world/gen/feature/HugeMushroomFeatureConfig",
+   "net/minecraft/world/gen/feature/HugeRedMushroomFeature",
+   "net/minecraft/world/gen/feature/IglooFeature",
+   "net/minecraft/world/gen/feature/JungleTempleFeature",
+   "net/minecraft/world/gen/feature/LargeDripstoneFeatureConfig",
+   "net/minecraft/world/gen/feature/MineshaftFeatureConfig",
+   "net/minecraft/world/gen/feature/MiscConfiguredFeatures",
+   "net/minecraft/world/gen/feature/MiscPlacedFeatures",
+   "net/minecraft/world/gen/feature/NetherConfiguredFeatures",
+   "net/minecraft/world/gen/feature/NetherForestVegetationFeatureConfig",
+   "net/minecraft/world/gen/feature/NetherPlacedFeatures",
+   "net/minecraft/world/gen/feature/NoOpFeature",
+   "net/minecraft/world/gen/feature/OceanConfiguredFeatures",
+   "net/minecraft/world/gen/feature/OceanMonumentFeature",
+   "net/minecraft/world/gen/feature/OceanPlacedFeatures",
+   "net/minecraft/world/gen/feature/OceanRuinFeature",
+   "net/minecraft/world/gen/feature/OceanRuinFeatureConfig",
+   "net/minecraft/world/gen/feature/OreConfiguredFeatures",
+   "net/minecraft/world/gen/feature/OreFeatureConfig",
+   "net/minecraft/world/gen/feature/OrePlacedFeatures",
+   "net/minecraft/world/gen/feature/PileConfiguredFeatures",
+   "net/minecraft/world/gen/feature/PillagerOutpostFeature",
+   "net/minecraft/world/gen/feature/PlacedFeature",
+   "net/minecraft/world/gen/feature/PlacedFeatures",
+   "net/minecraft/world/gen/feature/RandomBooleanFeature",
+   "net/minecraft/world/gen/feature/RandomBooleanFeatureConfig",
+   "net/minecraft/world/gen/feature/RandomFeature",
+   "net/minecraft/world/gen/feature/RandomFeatureConfig",
+   "net/minecraft/world/gen/feature/RandomFeatureEntry",
+   "net/minecraft/world/gen/feature/RandomPatchFeature",
+   "net/minecraft/world/gen/feature/RandomPatchFeatureConfig",
+   "net/minecraft/world/gen/feature/RangeFeatureConfig",
+   "net/minecraft/world/gen/feature/ReplaceBlobsFeatureConfig",
+   "net/minecraft/world/gen/feature/RootSystemFeatureConfig",
+   "net/minecraft/world/gen/feature/RuinedPortalFeatureConfig",
+   "net/minecraft/world/gen/feature/ScatteredOreFeature",
+   "net/minecraft/world/gen/feature/ShipwreckFeatureConfig",
+   "net/minecraft/world/gen/feature/SimpleBlockFeatureConfig",
+   "net/minecraft/world/gen/feature/SimpleRandomFeature",
+   "net/minecraft/world/gen/feature/SimpleRandomFeatureConfig",
+   "net/minecraft/world/gen/feature/SingleStateFeatureConfig",
+   "net/minecraft/world/gen/feature/SmallDripstoneFeature",
+   "net/minecraft/world/gen/feature/SmallDripstoneFeatureConfig",
+   "net/minecraft/world/gen/feature/SpringFeatureConfig",
+   "net/minecraft/world/gen/feature/StrongholdFeature",
+   "net/minecraft/world/gen/feature/StructurePoolFeatureConfig",
+   "net/minecraft/world/gen/feature/SwampHutFeature",
+   "net/minecraft/world/gen/feature/TreeConfiguredFeatures",
+   "net/minecraft/world/gen/feature/TreeFeatureConfig",
+   "net/minecraft/world/gen/feature/TreePlacedFeatures",
+   "net/minecraft/world/gen/feature/TwistingVinesFeatureConfig",
+   "net/minecraft/world/gen/feature/UndergroundConfiguredFeatures",
+   "net/minecraft/world/gen/feature/UndergroundPlacedFeatures",
+   "net/minecraft/world/gen/feature/UnderwaterDiskFeature",
+   "net/minecraft/world/gen/feature/UnderwaterMagmaFeatureConfig",
+   "net/minecraft/world/gen/feature/VegetationConfiguredFeatures",
+   "net/minecraft/world/gen/feature/VegetationPatchFeatureConfig",
+   "net/minecraft/world/gen/feature/VegetationPlacedFeatures",
+   "net/minecraft/world/gen/feature/VillagePlacedFeatures",
+   "net/minecraft/world/gen/feature/VoidStartPlatformFeature",
+   "net/minecraft/world/gen/feature/WaterloggedVegetationPatchFeature",
+   "net/minecraft/world/gen/feature/WoodlandMansionFeature",
+   "net/minecraft/world/gen/feature/size/FeatureSize",
+   "net/minecraft/world/gen/feature/size/FeatureSizeType",
+   "net/minecraft/world/gen/feature/size/ThreeLayersFeatureSize",
+   "net/minecraft/world/gen/feature/size/TwoLayersFeatureSize",
+   "net/minecraft/world/gen/feature/util/CaveSurface",
+   "net/minecraft/world/gen/feature/util/DripstoneHelper",
+   "net/minecraft/world/gen/feature/util/FeatureContext",
+   "net/minecraft/world/gen/foliage/AcaciaFoliagePlacer",
+   "net/minecraft/world/gen/foliage/BlobFoliagePlacer",
+   "net/minecraft/world/gen/foliage/BushFoliagePlacer",
+   "net/minecraft/world/gen/foliage/DarkOakFoliagePlacer",
+   "net/minecraft/world/gen/foliage/FoliagePlacer",
+   "net/minecraft/world/gen/foliage/FoliagePlacerType",
+   "net/minecraft/world/gen/foliage/JungleFoliagePlacer",
+   "net/minecraft/world/gen/foliage/LargeOakFoliagePlacer",
+   "net/minecraft/world/gen/foliage/MegaPineFoliagePlacer",
+   "net/minecraft/world/gen/foliage/PineFoliagePlacer",
+   "net/minecraft/world/gen/foliage/RandomSpreadFoliagePlacer",
+   "net/minecraft/world/gen/foliage/SpruceFoliagePlacer",
+   "net/minecraft/world/gen/heightprovider/BiasedToBottomHeightProvider",
+   "net/minecraft/world/gen/heightprovider/ConstantHeightProvider",
+   "net/minecraft/world/gen/heightprovider/HeightProviderType",
+   "net/minecraft/world/gen/heightprovider/TrapezoidHeightProvider",
+   "net/minecraft/world/gen/heightprovider/UniformHeightProvider",
+   "net/minecraft/world/gen/heightprovider/VeryBiasedToBottomHeightProvider",
+   "net/minecraft/world/gen/heightprovider/WeightedListHeightProvider",
+   "net/minecraft/world/gen/noise/BuiltinNoiseParameters",
+   "net/minecraft/world/gen/noise/NoiseHelper",
+   "net/minecraft/world/gen/noise/NoiseRouter",
+   "net/minecraft/world/gen/noise/SimpleNoiseRouter",
+   "net/minecraft/world/gen/placementmodifier/AbstractConditionalPlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/AbstractCountPlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/BiomePlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/BlockFilterPlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/CarvingMaskPlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/CountMultilayerPlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/CountPlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/EnvironmentScanPlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/HeightRangePlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/HeightmapPlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/NoiseBasedCountPlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/NoiseThresholdCountPlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/PlacementModifierType",
+   "net/minecraft/world/gen/placementmodifier/RandomOffsetPlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/RarityFilterPlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/SquarePlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/SurfaceThresholdFilterPlacementModifier",
+   "net/minecraft/world/gen/placementmodifier/SurfaceWaterDepthFilterPlacementModifier",
+   "net/minecraft/world/gen/random/AbstractRandom",
+   "net/minecraft/world/gen/random/BaseSimpleRandom",
+   "net/minecraft/world/gen/random/GaussianGenerator",
+   "net/minecraft/world/gen/random/RandomSeed",
+   "net/minecraft/world/gen/random/SimpleRandom",
+   "net/minecraft/world/gen/random/Xoroshiro128PlusPlusRandom",
+   "net/minecraft/world/gen/random/Xoroshiro128PlusPlusRandomImpl",
+   "net/minecraft/world/gen/stateprovider/AbstractNoiseBlockStateProvider",
+   "net/minecraft/world/gen/stateprovider/BlockStateProvider",
+   "net/minecraft/world/gen/stateprovider/BlockStateProviderType",
+   "net/minecraft/world/gen/stateprovider/DualNoiseBlockStateProvider",
+   "net/minecraft/world/gen/stateprovider/NoiseBlockStateProvider",
+   "net/minecraft/world/gen/stateprovider/NoiseThresholdBlockStateProvider",
+   "net/minecraft/world/gen/stateprovider/PillarBlockStateProvider",
+   "net/minecraft/world/gen/stateprovider/RandomizedIntBlockStateProvider",
+   "net/minecraft/world/gen/stateprovider/SimpleBlockStateProvider",
+   "net/minecraft/world/gen/stateprovider/WeightedBlockStateProvider",
+   "net/minecraft/world/gen/surfacebuilder/MaterialRules",
+   "net/minecraft/world/gen/treedecorator/AlterGroundTreeDecorator",
+   "net/minecraft/world/gen/treedecorator/CocoaBeansTreeDecorator",
+   "net/minecraft/world/gen/treedecorator/LeavesVineTreeDecorator",
+   "net/minecraft/world/gen/treedecorator/TreeDecorator",
+   "net/minecraft/world/gen/treedecorator/TreeDecoratorType",
+   "net/minecraft/world/gen/treedecorator/TrunkVineTreeDecorator",
+   "net/minecraft/world/gen/trunk/BendingTrunkPlacer",
+   "net/minecraft/world/gen/trunk/DarkOakTrunkPlacer",
+   "net/minecraft/world/gen/trunk/ForkingTrunkPlacer",
+   "net/minecraft/world/gen/trunk/GiantTrunkPlacer",
+   "net/minecraft/world/gen/trunk/LargeOakTrunkPlacer",
+   "net/minecraft/world/gen/trunk/MegaJungleTrunkPlacer",
+   "net/minecraft/world/gen/trunk/StraightTrunkPlacer",
+   "net/minecraft/world/gen/trunk/TrunkPlacer",
+   "net/minecraft/world/gen/trunk/TrunkPlacerType"
+  ],
+  "issue": 11774
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/world/storage",
+  "classes": [
+   "net/minecraft/world/storage/ChunkDataAccess",
+   "net/minecraft/world/storage/ChunkDataList",
+   "net/minecraft/world/storage/ChunkStreamVersion",
+   "net/minecraft/world/storage/EntityChunkDataAccess",
+   "net/minecraft/world/storage/NbtScannable",
+   "net/minecraft/world/storage/RegionBasedStorage",
+   "net/minecraft/world/storage/RegionFile",
+   "net/minecraft/world/storage/SectorMap",
+   "net/minecraft/world/storage/StorageIoWorker",
+   "net/minecraft/world/storage/VersionedChunkStorage"
+  ],
+  "issue": 11775
+ },
+ {
+  "kind": "missing",
+  "key": "net/minecraft/world/tick",
+  "classes": [
+   "net/minecraft/world/tick/BasicTickScheduler",
+   "net/minecraft/world/tick/ChunkTickScheduler",
+   "net/minecraft/world/tick/EmptyTickSchedulers",
+   "net/minecraft/world/tick/MultiTickScheduler",
+   "net/minecraft/world/tick/OrderedTick",
+   "net/minecraft/world/tick/QueryableTickScheduler",
+   "net/minecraft/world/tick/SerializableTickScheduler",
+   "net/minecraft/world/tick/SimpleTickScheduler",
+   "net/minecraft/world/tick/TickScheduler"
+  ],
+  "issue": 11776
+ }
+]

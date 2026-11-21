@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-fall_from_heightcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT8 (#7755) — Adv.matchers fall_from_height + the landing call site; fall_from_world_height completes, a short fall does not; breaks its own matcher."
+ }
+]

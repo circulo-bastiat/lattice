@@ -1,0 +1,1 @@
+[{"id": "lockstep-enchantdamage", "kind": "check", "file": "tools/lockstep-enchantdamage.mjs", "args": [], "why": "#6932 G17-L192: lockstep scenario enchantdamage, 20 salts: Sharpness/Smite/Bane by target group, Fire Aspect ticks, Knockback velocity, Looting level via Combat.attack, compareTraces exact; Smite on arthropods, Sharpness 0.6 and 3 more breaks caught."}]

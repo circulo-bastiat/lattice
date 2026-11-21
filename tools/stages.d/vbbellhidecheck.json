@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbbellhidecheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18f-B3 -- HideWhenBellRingsTask + ForgetBellRingTask (src/07zv7_vbbell.js, hooked one line into VB.tick): a ring within 32 blocks puts villagers in the 'hide' activity, those outside stay on the schedule, the 300-tick window returns them to it; no ring in a raid."
+ }
+]

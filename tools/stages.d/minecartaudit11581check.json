@@ -1,0 +1,1 @@
+[{"id":"minecartaudit11581check","kind":"check","file":"tools/minecartaudit11581check.mjs","args":[],"why":"#11581: 07zzr_minecart.js's 11 classes (DetectorRail, inside sound, chest/hopper/spawner/minecart entities, container screens, ItemScatterer, DataPool, CommandBlockExecutor) via Mc entry points; 15 breaks caught."}]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "rosterr2check",
+  "kind": "check",
+  "args": [],
+  "why": "#5121 (G18b-R2) -- zombie DestroyEgg, iron golem WanderAroundPointOfInterest, raider/vex/wandering-trader LookAtEntityGoal(Mob), zombie_horse and the fish mobs carry the jar's goal rows at the jar's priorities. Removes each row and must notice."
+ }
+]

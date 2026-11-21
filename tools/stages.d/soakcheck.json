@@ -1,0 +1,12 @@
+[
+ {
+  "id": "soakcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html",
+   "--seconds",
+   "75"
+  ],
+  "why": "⚠ the only check that needs TIME: it flies 2,000 blocks and asserts the SHAPE of the samples — nothing stuck, nothing leaking, the queue draining (D-147)."
+ }
+]

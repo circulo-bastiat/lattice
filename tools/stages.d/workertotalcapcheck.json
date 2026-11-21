@@ -1,0 +1,3 @@
+[
+  { "id": "workertotalcapcheck", "kind": "check", "file": "tools/workertotalcapcheck.mjs", "args": [] }
+]

@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-wandertrader",
+  "kind": "check",
+  "file": "tools/referee/wandertraderlockstepcheck.mjs",
+  "args": [],
+  "why": "#6854 G17-L153: lockstep scenario wandertrader, 20 salts x 3 days: spawn timer/delay/chance (25 step to 75), trader + two leashed llamas spawn tick and position, 48000 despawn countdown vs WanderingTraderManager."
+ }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "dilateduvcheck", "kind": "check", "file": "tools/dilateduvcheck.mjs", "args": [] }
+]

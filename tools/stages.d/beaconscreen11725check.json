@@ -1,0 +1,1 @@
+[{"id":"beaconscreen11725check","kind":"check","file":"tools/beaconscreen11725check.mjs","args":[],"why":"#11725: BeaconScreen/BeaconScreenHandler via H.openBeacon, button layout, beaconClick, payment rules, setEffects, the H.draw dispatch and the close-time payment return; source breaks caught."}]

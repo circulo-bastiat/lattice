@@ -1,0 +1,8 @@
+[
+ {
+  "id": "temptcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1995 -- TemptGoal vs vanilla: canBeScared (ocelot gives up when the player moves >0.1 or turns >5deg within 6 blocks), 100-tick cooldown after stop, 2.5-block 3D stand-off, off-hand items, no inLove clause."
+ }
+]

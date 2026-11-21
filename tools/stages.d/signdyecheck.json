@@ -1,0 +1,8 @@
+[
+ {
+  "id": "signdyecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5797 -- SignBlock.onUse: all 16 dyes recolour a sign to DyeColor.getSignColor, glow ink sac makes the text glow, one item consumed outside creative, the same dye twice consumes nothing; glowing text draws full colour with outline."
+ }
+]

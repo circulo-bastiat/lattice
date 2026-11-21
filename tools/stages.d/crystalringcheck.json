@@ -1,0 +1,8 @@
+[
+ {
+  "id": "crystalringcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G27e #10979: getAliveEndCrystals counts live end_crystal entities in spike columns (EnderDragonFight.countAliveCrystals), not synthetic ring rows."
+ }
+]

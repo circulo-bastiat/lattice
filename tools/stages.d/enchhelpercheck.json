@@ -1,0 +1,8 @@
+[
+ {
+  "id": "enchhelpercheck",
+  "kind": "check",
+  "args": [],
+  "why": "PLAN G18f follow-up -- EnchantmentHelper.enchant/generateEnchantments/getPossibleEntries (07ox_enchhelper.js), jar-verified power windows/canCombine groups the SellEnchantedToolFactory roll now uses, seeded rng both directions."
+ }
+]

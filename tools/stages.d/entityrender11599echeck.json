@@ -1,0 +1,1 @@
+[{"id": "entityrender11599echeck", "kind": "check", "file": "tools/entityrender11599echeck.mjs", "args": [], "why": "#11599 part 5: Conduit parts, Beacon beam; each cut must fail; breaks caught."}]

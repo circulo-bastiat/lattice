@@ -1,0 +1,3 @@
+[
+  { "id": "landbatchcheck", "kind": "check", "file": "tools/landbatchcheck.mjs", "args": [] }
+]

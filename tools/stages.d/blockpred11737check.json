@@ -1,0 +1,1 @@
+[{"id":"blockpred11737check","kind":"check","file":"tools/blockpred11737check.mjs","args":[],"why":"#11737: BlockPredicatesChecker (CanPlaceOn/CanDestroy) port + adventure wiring in placeBlock/breakBlock; source breaks caught."}]

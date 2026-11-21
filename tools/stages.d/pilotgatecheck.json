@@ -1,0 +1,1 @@
+[{"id":"pilotgatecheck","kind":"check","args":[],"why":"#9725 -- a lockstep pilot waits (bounded) while the 16-shard full run holds the mirror, so the lander ci is not queued behind pilots (3 breaks caught)."}]

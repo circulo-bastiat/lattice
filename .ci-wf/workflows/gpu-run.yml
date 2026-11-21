@@ -1,0 +1,19 @@
+# 7 Nov (Dan: "we already have conditionals"): RUN-GPU-CHECKS on the PC's real GPU, started by the brain tick when the repo variable GPU_RUN_AT (go.mjs gpurun <time>) comes due.
+# Runs ONLY on a runner labelled `gpurun` (SETUP-GPU-RUNNER.cmd registers one with that label and no other: it takes no landing, no suite, nothing else of MC-Lite).
+# RUN-GPU-CHECKS.mjs makes its own fresh copy of master, runs the tools/hosted-unfit.json stages, writes Projects\_status\gpu-run-<sha>.json and mails the commander one line.
+name: gpu-run
+on:
+  workflow_dispatch:
+concurrency:
+  group: gpu-run
+permissions:
+  contents: read
+jobs:
+  gpu:
+    runs-on: [self-hosted, gpurun]
+    timeout-minutes: 120
+    steps:
+      - shell: cmd
+        run: |
+          if not defined MCLITE_PROJECTS set "MCLITE_PROJECTS=%USERPROFILE%\Downloads\Projects"
+          node "%MCLITE_PROJECTS%\RUN-GPU-CHECKS.mjs"

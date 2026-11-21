@@ -1,0 +1,20 @@
+# #3706: every checkout is LF on every PC (a Windows runner with core.autocrlf=true turned all sources CRLF and failed every text-matching check, 6 Oct)
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.ogg binary
+*.jar binary
+*.bin binary
+*.pak binary
+*.ipa binary
+tools/golden/*.tsv text eol=lf
+
+# #4972: Windows batch files must stay CRLF (their blobs are CRLF); everything else is LF
+*.cmd text eol=crlf
+
+# #5752: the shared per-system check files get one appended block per unit, so two PRs always touched the same last lines and the
+# lander bounced them (11 Oct: 9 of 39 queued PRs). union keeps BOTH sides' lines; the lander's build + core suite still judges the result.
+# Check files only - a union in src/ could silently duplicate code. tools/unionmergecheck.mjs proves it.
+tools/mobnbtcheck.mjs merge=union
+tools/dispensercheck.mjs merge=union
+tools/hoppercheck.mjs merge=union

@@ -1,0 +1,1 @@
+[{"id": "lockstep-nametag", "kind": "check", "file": "tools/lockstep-nametag.mjs", "args": [], "why": "#7077 G17-L214: name tag lockstep scenario (cow/zombie/Johnny vindicator/jeb_ sheep) engine trace vs oracle, 20 salts; reversed Johnny filter, no persistence, unconsumed tag."}]

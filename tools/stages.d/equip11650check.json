@@ -1,0 +1,1 @@
+[{"id":"equip11650check","kind":"check","file":"tools/equip11650check.mjs","args":[],"why":"#11650: 07y_equip.js Eq.armorOf/protectionReduce (ProtectionEnchantment), ToolMaterials enchantability, MiningToolItem prefersNewEquipment, ominous banner, EquipmentSlot order, InhabitedTime save round trip; source breaks caught."}]

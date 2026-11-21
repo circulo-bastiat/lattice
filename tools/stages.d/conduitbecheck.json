@@ -1,0 +1,3 @@
+[
+  { "id": "conduitbecheck", "kind": "check", "file": "tools/conduitbecheck.mjs", "args": [] }
+]

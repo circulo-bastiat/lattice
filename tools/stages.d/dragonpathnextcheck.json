@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dragonpathnextcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4799: HoldingPattern.tickInRange/StrafePlayer.setTargetEntity skip path.next() after findPath like vanilla (first pathTarget is path[1])."
+ }
+]

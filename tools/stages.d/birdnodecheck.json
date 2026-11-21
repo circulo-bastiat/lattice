@@ -1,0 +1,8 @@
+[
+ {
+  "id": "birdnodecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5125 -- BirdPathNodeMaker node types/penalties (cocoa/fire -1, door rules) gate the parrot's air A*."
+ }
+]

@@ -1,0 +1,1 @@
+[{"id":"cmdblock11598check","kind":"check","file":"tools/cmdblock11598check.mjs","args":[],"why":"#11598: 07zzz_cmdblock.js CommandBlockBlockEntity (conditionMet, successCount, output, comparator) via Behave.tick; source breaks caught."}]

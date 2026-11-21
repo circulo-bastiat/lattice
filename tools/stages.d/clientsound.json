@@ -1,0 +1,8 @@
+[
+ {
+  "id": "clientsoundcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11728 -- client/sound table classes (WeightedSoundSet, SoundContainer, SoundEntry, SoundEntryDeserializer, SoundManager, SoundListener, SoundEngine, SoundInstance, AbstractSoundInstance) vs .decomp; mutants caught."
+ }
+]

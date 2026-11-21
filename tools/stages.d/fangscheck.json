@@ -1,0 +1,1 @@
+[{"id":"fangscheck","kind":"check","args":[],"why":"#1125 evoker_fangs client half: status-4 attack sound, 12-crit burst at ticksLeft==14, getAnimationProgress, jaw/lift pose, renderer scale/yaw, and the draw; proves it can fail (breaks caught)"}]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "shadowcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18a-SD1 (#6739) -- entity shadowRadius table vs the .decomp renderer ctors, baby halving, distance fade and per-part alpha; a forged cow radius must fail."
+ }
+]

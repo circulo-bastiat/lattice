@@ -1,0 +1,1 @@
+[ { "id": "lockstep-slimesplit", "kind": "check", "file": "tools/referee/slimesplitlockstepcheck.mjs", "args": [], "why": "#6318 G17-L64: lockstep scenario slimesplit, 20 salts: size 4/2/1 slime + size 2 magma_cube death split (count 2+nextInt(3), size/2, jitter, health size^2) vs decomp SlimeEntity.remove." } ]

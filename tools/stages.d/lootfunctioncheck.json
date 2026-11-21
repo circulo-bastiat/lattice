@@ -1,0 +1,8 @@
+[
+ {
+  "id": "lootfunctioncheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11741 -- 07e_loot.js net/minecraft/loot/function data functions (SetName SetLore SetNbt SetEnchantments EnchantRandomly SetLootTable SetStewEffect SetBannerPattern SetAttributes ExplorationMap) via Loot.rollTable; each is cut and caught"
+ }
+]

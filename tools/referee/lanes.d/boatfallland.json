@@ -1,0 +1,1 @@
+{"id":"boatfallland","mob":"boat","ledge":5,"hp":true,"paxhp":true,"nbt":"Motion:[3.0d,0.0d,0.0d],Passengers:[{id:\"minecraft:pig\",NoAI:1b,PersistenceRequired:1b,Tags:[\"chpax\"]}]","note":"#9443: boat + pig passenger slides off a 5-high ledge onto land; rows pos + passenger Health"}

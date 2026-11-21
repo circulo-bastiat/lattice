@@ -1,0 +1,1 @@
+[{"id": "lockstep-iron_golem", "kind": "check", "file": "tools/lockstep-iron_golem.mjs", "args": [], "why": "#5336 G17-L4: iron_golem lane engine trace, 20 salts deterministic; tampered pos 1e-9/yaw/attack/health/shift breaks caught."}]

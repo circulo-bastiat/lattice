@@ -1,0 +1,8 @@
+[
+ {
+  "id": "besavecheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/besave-s105 (QUEUE G18e remainder \"hive/block-entity contents\") -- every block entity's own contents (chest/trapped_chest/ender_chest/barrel/shulker_box items, hopper/ dropper/dispenser items+cooldown, furnace family items+burn/cook counters, beehive occupant list+honeyLevel, sign lines/color/glowing, banner patterns) through 16b_save.js's own save/load round trip, 07c_blockentity.js's `BE.serializeAll`/`restoreAll`. AFTER mobnbtcheck: shares the same save/load harness shape."
+ }
+]

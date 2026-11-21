@@ -1,0 +1,1 @@
+[{"id":"coveredblockcheck","kind":"check","file":"tools/coveredblockcheck.mjs","args":[],"why":"#11908: a landed partial PR records the classes it newly covered in the issue body's machine-managed block; the body outside it is untouched; breaks caught."}]

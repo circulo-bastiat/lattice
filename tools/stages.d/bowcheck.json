@@ -1,0 +1,8 @@
+[
+ {
+  "id": "bowcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/bow -- the PLAYER's own bow: Use.bowStart/Use.bowRelease (BowItem.use/onStoppedUsing), the ammo search (PlayerEntity.getArrowType/RangedWeaponItem.getHeldProjectile), and the fired arrow riding the SAME EL.spawn/Cb.tickArrow path a mob's own shot already uses -- a tipped arrow's potion tag and a spectral arrow's Glowing both apply on a real hit."
+ }
+]

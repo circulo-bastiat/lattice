@@ -1,0 +1,1 @@
+[{"id": "lockstep-wololo", "kind": "check", "file": "tools/lockstep-wololo.mjs", "args": [], "why": "#7076 G17-L213: lockstep scenario wololo, 20 salts: evoker WololoGoal picks the visible BLUE sheep (not the one behind a wall), spellTicks 60, warmup 40 then RED, cooldown 140 before the next; warmup 40->41 and colour red->orange are caught."}]

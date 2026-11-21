@@ -1,0 +1,3 @@
+[
+  { "id": "statusallcheck", "kind": "check", "file": "tools/statusallcheck.mjs", "args": [] }
+]

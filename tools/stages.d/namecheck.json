@@ -1,0 +1,8 @@
+[
+ {
+  "id": "namecheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/nameplate -- mob name rendering off e.customName (D-616, 14l_use.js's name_tag branch, another worker's file): the nameplate GATE+geometry (ER.hasLabel, distance/ sneak/ridden/invisible/hud-hidden/crosshair-target), the Dinnerbone/Grumm upside-down render (ER.shouldFlipUpsideDown/ER.dinnerbonePoseFor), and the jeb_ rainbow fleece cycle (Passive.jebColorAt), closing that half of Passive.OWED. AFTER mobrendercheck: same ER.emitMobLayer/Passive.fleeceTintFor substrate, nothing this file drives is new."
+ }
+]

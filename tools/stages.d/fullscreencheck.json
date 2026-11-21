@@ -1,0 +1,3 @@
+[
+  { "id": "fullscreencheck", "kind": "check", "file": "tools/fullscreencheck.mjs", "args": [] }
+]

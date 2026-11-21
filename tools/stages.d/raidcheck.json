@@ -1,0 +1,8 @@
+[
+ {
+  "id": "raidcheck",
+  "kind": "check",
+  "args": [],
+  "why": "QUEUE 0.2 -- the raid loop's own state machine: Raid/RaidManager (wave tables off Raid.Member, badOmenLevel, VICTORY/LOSS/STOPPED) and the banner-kill Bad Omen exchange (RaiderEntity.onDeath). Mob existence (vindicator/evoker/pillager/witch/ravager motion + goals) is unresolved and named OWED in src/07s_raid.js's own header; this check drives the state machine against a fake spawnFn, the same shape a real EL.spawn will fill in later."
+ }
+]

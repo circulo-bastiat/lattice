@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endcrystalitemcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11690 -- EndCrystalItem (EC.useOnBlock in 07zzn_endcrystal.js) proven via Use.itemUseOn: obsidian/bedrock only, air above, empty column, item spent; fails when each rule is cut."
+ }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "equiprngcheck", "kind": "check", "file": "tools/equiprngcheck.mjs", "args": [] }
+]

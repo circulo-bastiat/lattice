@@ -1,0 +1,9 @@
+[
+ {
+  "id": "commandclassescheck",
+  "kind": "check",
+  "file": "tools/commandclassescheck.mjs",
+  "args": [],
+  "why": "#11730 -- net/minecraft/command classes (CommandException, CommandSource, Data*Object, FloatRangeArgument, TranslatableBuiltInExceptions, SuggestionProviders) reached via C.run/C.suggest, with mutants."
+ }
+]

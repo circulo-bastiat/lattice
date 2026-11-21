@@ -1,0 +1,3 @@
+[
+  { "id": "lockstepleakcheck", "kind": "check", "file": "tools/referee/lockstepleakcheck.mjs", "args": [], "why": "#6224 G17-L19: SeedAgent keeps the named lockstep leak fixes (pool thread names, java.* frames, summon counter); java-free; the 12-run real-server stability is still owed." }
+]

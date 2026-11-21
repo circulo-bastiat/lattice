@@ -1,0 +1,8 @@
+[
+ {
+  "id": "offsetshapecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11403 — every block's model offset (kind, hash, clamp) and whether its outline follows it, against the 1.18.2 decomp class chain. Grass/fern/tall plants draw offset but outline at the cell centre; only bamboo, dripstone and flowers move the outline."
+ }
+]

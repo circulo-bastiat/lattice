@@ -1,0 +1,1 @@
+[ { "id": "lockstep-zombify", "kind": "check", "file": "tools/referee/lockstepzombifycheck.mjs", "args": [], "why": "#6668 G17-L97: lockstep scenario zombify, 20 salts: piglin, piglin_brute, hoglin in the overworld; timeInOverworld per tick, conversion at tick 301 (>300), new type, id order, health, equipment, sound; 300 -> 299 caught at tick 301." } ]

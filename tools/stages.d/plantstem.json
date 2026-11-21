@@ -1,0 +1,9 @@
+[
+ {
+  "id": "plantstem",
+  "kind": "check",
+  "file": "tools/plantstem.mjs",
+  "args": [],
+  "why": "#305 (G24b) -- AbstractPlantStemBlock growth for kelp, twisting/weeping vines, cave vines: growthChance/direction parsed from .decomp, the age-25 cap (26-cell column), the head/body swap, chooseStemState, cave vines berries, Fertilizable grow (VineLogic length), CaveVines.pickBerries."
+ }
+]

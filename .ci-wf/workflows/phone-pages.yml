@@ -1,0 +1,27 @@
+# #3920: the phone PWA (tools/phone-web/) is published to GitHub Pages from the public repo owner/mclite-phone
+# (static files only, no secrets). Deploy = push the built site there; updating the app = Dan opens it.
+name: phone-pages
+on:
+  push:
+    branches: [master]
+    paths: ['tools/phone-web/**', '.github/workflows/phone-pages.yml']
+  workflow_dispatch:
+env:
+  GIT_TERMINAL_PROMPT: "0"
+  GCM_INTERACTIVE: never
+  GIT_ASKPASS: echo
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - env:
+          PAT: ${{ secrets.PHONE_PAGES_TOKEN }}
+        run: |
+          if [ -z "$PAT" ]; then echo "PHONE_PAGES_TOKEN is not set: the mclite-phone repo is not wired yet (skipping)"; exit 0; fi
+          node tools/phone-web/build.mjs _site
+          cd _site && git init -q -b main && git config user.name "mclite phone" && git config user.email "phone@mclite.invalid"
+          git add -A && git commit -q -m "phone app $GITHUB_SHA"
+          git -c credential.helper= push -f "https://x-access-token:${PAT}@github.com/owner/mclite-phone.git" main

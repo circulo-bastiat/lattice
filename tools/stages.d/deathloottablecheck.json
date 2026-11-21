@@ -1,0 +1,3 @@
+[
+  { "id": "deathloottablecheck", "kind": "check", "file": "tools/deathloottablecheck.mjs", "args": [] }
+]

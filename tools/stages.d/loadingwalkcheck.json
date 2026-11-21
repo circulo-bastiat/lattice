@@ -1,0 +1,9 @@
+[
+ {
+  "id": "loadingwalkcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ]
+ }
+]

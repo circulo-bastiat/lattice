@@ -1,0 +1,8 @@
+[
+ {
+  "id": "xporbcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G21 -- experience orbs (src/07zz_xporb.js): the substrate Br.OWED/Passive.OWED/Cb.OWED waited on -- mob-death xp, breeding xp pickup, chicken-jockey xp, the trade reward orb, and orb spawn/physics/follow/merge/despawn/pickup. AFTER tamecheck: neighbourliness only (no shared module)."
+ }
+]

@@ -1,0 +1,1 @@
+[{"id":"fish11651check","kind":"check","file":"tools/fish11651check.mjs","args":[],"why":"#11651: 07zj_fish.js Cod/Salmon/Pufferfish/TropicalFish + EntityGroup aquatic filter reachable from entitylist spawn-init/tickMob, Spawn rules, Use bucket; 6 breaks caught."}]

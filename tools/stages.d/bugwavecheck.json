@@ -1,0 +1,8 @@
+[
+ {
+  "id": "bugwavecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#903: silverfish/endermite segments wave (yaw/pivotX per segment, silverfish scale layers follow) vs SilverfishEntityModel/EndermiteEntityModel.setAngles"
+ }
+]

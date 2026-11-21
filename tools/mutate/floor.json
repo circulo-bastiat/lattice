@@ -1,0 +1,12 @@
+{
+ "combat": 0.6,
+ "crafting": 0.5,
+ "fluids": 0.3,
+ "hunger-effects": 0.7,
+ "light": 0.5,
+ "mining": 0.8,
+ "mobs-ai": 0,
+ "movement": 0,
+ "redstone": 0,
+ "saving": 0
+}

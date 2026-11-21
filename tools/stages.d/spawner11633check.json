@@ -1,0 +1,1 @@
+[{"id":"spawner11633check","kind":"check","file":"tools/spawner11633check.mjs","args":[],"why":"#11633: 07zs_spawner.js (DungeonFeature pick, ParticleTypes smoke/flame, MobSpawnerBlockEntityRenderer display); source breaks caught."}]

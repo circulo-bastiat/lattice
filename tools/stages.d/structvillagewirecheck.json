@@ -1,0 +1,1 @@
+[{"id":"structvillagewirecheck","kind":"check","file":"tools/structvillagewirecheck.mjs","args":[],"why":"#11477: 04v_struct_village.js is wired (classmap false positive, string-key ST.register): village and pillager_outpost produce starts with pieces through ST.startsOfRegion; 2 breaks caught (cutting each register key)."}]

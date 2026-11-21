@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-inventory_changedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT33 — minecraft:inventory_changed matcher + Survival.inventoryChanged call site complete story/mine_stone; breaks its own matcher to prove it can fail."
+ }
+]

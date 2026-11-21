@@ -1,0 +1,8 @@
+[
+ {
+  "id": "cullworldscan",
+  "kind": "check",
+  "args": ["--rad=3"],
+  "why": "#1889 KW-CULL item 5: REAL generated terrain (seeded columns, features on). Per section and face, the greedy cube-face area vanilla shouldRenderFace says is exposed must be covered by emitted quads; a deficit names the block ids that lost faces. Proves itself with 2 deliberate breaks (dropped quads, air treated as occluder)."
+ }
+]

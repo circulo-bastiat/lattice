@@ -1,0 +1,3 @@
+[
+  { "id": "dripstonecheck", "kind": "check", "file": "tools/dripstonecheck.mjs", "args": [], "why": "#11568: AbstractCauldronBlock.scheduledTick (D.cauldronTick) is reached via Behave.tick's scheduled-tick dispatch after dripTick schedules it; cutting the dispatch line in 07b_behaviour.js makes this check FAIL (verified); 3 breaks caught." }
+]

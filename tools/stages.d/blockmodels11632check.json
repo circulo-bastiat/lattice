@@ -1,0 +1,1 @@
+[{"id":"blockmodels11632check","kind":"check","file":"tools/blockmodels11632check.mjs","args":[],"why":"#11632: 02b_registry.js BlockModels particle sprite (R.stParticle PTCL) decode + States.particleTile + BlockDust reach; source breaks caught."}]

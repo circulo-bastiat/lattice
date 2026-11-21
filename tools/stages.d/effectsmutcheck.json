@@ -1,0 +1,1 @@
+[{"id":"effectsmutcheck","kind":"check","file":"tools/effectsmutcheck.mjs","args":[],"why":"#11507: assertions for the 8 surviving 07q_effects mutants (copyFrom return, update hidden resume, absorption, typeHook, levitation, hasStatusEffect, health_boost op); each real mutant is re-applied and must turn it red, N breaks caught."}]

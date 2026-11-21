@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-opendoor",
+  "kind": "check",
+  "file": "tools/referee/lockstepopendoorcheck.mjs",
+  "args": [],
+  "why": "#7031 G18b-L5: lockstep scenario opendoor, 20 salts: OpenDoorGoal/DoorInteractGoal on wooden door, iron door and fence gate for vindicator/villager/iron golem/cow - canEnterOpenDoors gate, iron refused, 20-tick delayed close vs immediate close, per-tick door state; iron openable and skipped delay caught."
+ }
+]

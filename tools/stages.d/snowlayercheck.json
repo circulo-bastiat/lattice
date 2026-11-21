@@ -1,0 +1,8 @@
+[
+ {
+  "id": "snowlayercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2330 KW-SNOW: snow layers 1..8 vs vanilla SnowBlock: collision (layers-1)*2px, light, isSolidRender and floor-opacity only at 8, face sturdy UP only at 8. Proves itself with 6 deliberate breaks."
+ }
+]

@@ -1,0 +1,1 @@
+[{"id":"blockentity11583check","kind":"check","file":"tools/blockentity11583check.mjs","args":[],"why":"#11583: 07c_blockentity.js BlockEntityType create/remove via onChanged, furnace/blast/smoker via BE.tick, jukebox signal+disc drop, dropper/dispenser latch, sign NBT; breaks caught."}]

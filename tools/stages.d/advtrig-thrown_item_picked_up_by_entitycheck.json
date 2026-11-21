@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-thrown_item_picked_up_by_entitycheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT19 (#7981) - Adv.matchers thrown_item_picked_up_by_entity + Eq.triggerPickedUp call site; nether/distract_piglin completes, unthrown / baby piglin does not; breaks its own matcher."
+ }
+]

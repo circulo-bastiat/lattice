@@ -1,0 +1,1 @@
+[ { "id": "lockstep-golem", "kind": "check", "file": "tools/referee/lockstepgolemcheck.mjs", "args": [], "why": "#6326 G17-L70: lockstep scenario golem, 20 salts: iron_golem vs zombie 10 blocks away, target, damage 7.5+nextInt(15), upward knock 0.4; knock 0.3 reported at the first hit tick." } ]

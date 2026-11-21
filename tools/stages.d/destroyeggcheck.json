@@ -1,0 +1,9 @@
+[
+ {
+  "id": "destroyeggcheck",
+  "kind": "check",
+  "file": "tools/destroyeggcheck.mjs",
+  "args": [],
+  "why": "#11674: StepAndDestroyBlockGoal (07zk_undead.js DestroyEggGoal) reached from zombie/husk/drowned rosters; 6 breaks caught."
+ }
+]

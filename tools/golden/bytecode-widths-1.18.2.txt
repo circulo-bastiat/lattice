@@ -1,0 +1,329 @@
+tools/golden/bytecode-widths-1.18.2.txt — the width evidence (D-235)
+====================================================================
+
+WHAT THIS IS. Extracts of `javap -p -c` over the REAL 1.18.2 server classes, taken on the
+machine that has the jar by `tools/golden/ng_dump.js`, which writes the full disassembly of
+eleven classes into its `ngwork/javap/`. Only the methods whose integer WIDTHS MC-Lite depends
+on are kept here, because the point of the file is to be readable: a golden VALUE proves what
+the game computes, and this proves WHY.
+
+HOW TO READ IT. `imul` then `i2l` is a THIRTY-TWO-BIT multiply: it wraps, and is only widened to
+long afterwards. `i2l` then `lmul` is a sixty-four-bit multiply. `isub`/`iadd`/`iflt` are int
+arithmetic and can overflow on purpose. That distinction is the whole of D-229 and D-235.
+
+PROVENANCE. server.jar SHA-1 c8f83c5655308435b3dcf03c06d9fe8740a77469 — the jar `vanillacheck`'s
+golden world came off (D-199). Obfuscated names from Mojang's OFFICIAL server mappings, SHA-1
+e562f588fea155d96291267465dc3323bfe1551b. Regeneration: tools/golden/README.md.
+Obfuscated names: Mth=ajl  BitRandomSource=ctl  XoroshiroRandomSource=cux  WorldgenRandom=cuv
+
+====================================================================================
+1. Mth.getSeed(int x, int y, int z)                                     ajl.c(III)J
+   ⚠ D-229. `imul` at 3 then `i2l` at 4: the FIRST product is 32-bit and wraps, which is why
+     MC-Lite agreed with the game for every |x| <= 686 and disagreed from 687 out. The second
+     is `i2l; lmul` — 64-bit. `src/03b_noise.js` `N.positionSeed` is written to match this.
+====================================================================================
+  public static long c(int, int, int);
+    Code:
+         0: iload_0
+         1: ldc           #255                // int 3129871
+         3: imul
+         4: i2l
+         5: iload_2
+         6: i2l
+         7: ldc2_w        #256                // long 116129781l
+        10: lmul
+        11: lxor
+        12: iload_1
+        13: i2l
+        14: lxor
+        15: lstore_3
+        16: lload_3
+        17: lload_3
+        18: lmul
+        19: ldc2_w        #258                // long 42317861l
+        22: lmul
+        23: lload_3
+        24: ldc2_w        #260                // long 11l
+        27: lmul
+        28: ladd
+        29: lstore_3
+        30: lload_3
+        31: bipush        16
+        33: lshr
+        34: lreturn
+
+
+====================================================================================
+2. BitRandomSource.nextInt(int) — java.util.Random's bounded draw     ctl.nextInt(I)I
+   ⚠ D-235. Offsets 52..59 are the rejection test — `isub`, `iadd`, `iflt` — INT arithmetic,
+     and it is negative ONLY because it overflows. Evaluated in doubles it never rejects, which
+     is what `src/03b_noise.js` `LegacyRandom.nextInt` did until D-235.
+     Offsets 22..37 are the power-of-two branch: `i2l; ...; i2l; lmul; lshr` — 64-bit.
+====================================================================================
+  public default int nextInt(int);
+    Code:
+         0: iload_1
+         1: ifgt          14
+         4: new           #23                 // class java/lang/IllegalArgumentException
+         7: dup
+         8: ldc           #25                 // String Bound must be positive
+        10: invokespecial #29                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+        13: athrow
+        14: iload_1
+        15: iload_1
+        16: iconst_1
+        17: isub
+        18: iand
+        19: ifne          39
+        22: iload_1
+        23: i2l
+        24: aload_0
+        25: bipush        31
+        27: invokeinterface #19,  2           // InterfaceMethod a:(I)I
+        32: i2l
+        33: lmul
+        34: bipush        31
+        36: lshr
+        37: l2i
+        38: ireturn
+        39: aload_0
+        40: bipush        31
+        42: invokeinterface #19,  2           // InterfaceMethod a:(I)I
+        47: istore_2
+        48: iload_2
+        49: iload_1
+        50: irem
+        51: istore_3
+        52: iload_2
+        53: iload_3
+        54: isub
+        55: iload_1
+        56: iconst_1
+        57: isub
+        58: iadd
+        59: iflt          39
+        62: iload_3
+        63: ireturn
+
+
+====================================================================================
+3. XoroshiroRandomSource.nextInt(int) — Lemire, with a rejection loop  cux.nextInt(I)I
+   Every multiply here is `i2l; lmul` — 64-bit. The threshold is `~i + 1` computed in 32 bits
+   (`iconst_m1; ixor; iconst_1; iadd`) and fed to Integer.remainderUnsigned. MC-Lite's
+   `Xoro.prototype.nextInt` matches, and D-235 fences the loop itself by value.
+====================================================================================
+  public int nextInt(int);
+    Code:
+         0: iload_1
+         1: ifgt          14
+         4: new           #69                 // class java/lang/IllegalArgumentException
+         7: dup
+         8: ldc           #71                 // String Bound must be positive
+        10: invokespecial #74                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+        13: athrow
+        14: aload_0
+        15: invokevirtual #76                 // Method nextInt:()I
+        18: invokestatic  #82                 // Method java/lang/Integer.toUnsignedLong:(I)J
+        21: lstore_2
+        22: lload_2
+        23: iload_1
+        24: i2l
+        25: lmul
+        26: lstore        4
+        28: lload         4
+        30: ldc2_w        #83                 // long 4294967295l
+        33: land
+        34: lstore        6
+        36: lload         6
+        38: iload_1
+        39: i2l
+        40: lcmp
+        41: ifge          89
+        44: iload_1
+        45: iconst_m1
+        46: ixor
+        47: iconst_1
+        48: iadd
+        49: iload_1
+        50: invokestatic  #88                 // Method java/lang/Integer.remainderUnsigned:(II)I
+        53: istore        8
+        55: lload         6
+        57: iload         8
+        59: i2l
+        60: lcmp
+        61: ifge          89
+        64: aload_0
+        65: invokevirtual #76                 // Method nextInt:()I
+        68: invokestatic  #82                 // Method java/lang/Integer.toUnsignedLong:(I)J
+        71: lstore_2
+        72: lload_2
+        73: iload_1
+        74: i2l
+        75: lmul
+        76: lstore        4
+        78: lload         4
+        80: ldc2_w        #83                 // long 4294967295l
+        83: land
+        84: lstore        6
+        86: goto          55
+        89: lload         4
+        91: bipush        32
+        93: lshr
+        94: lstore        8
+        96: lload         8
+        98: l2i
+        99: ireturn
+
+
+====================================================================================
+4. WorldgenRandom — the structure, feature and carver seed arithmetic.
+   NOT PORTED YET (MC-Lite's carvers, features and structures run on their own sfc32, D-124).
+   Recorded so that whoever ports it in Track G does not have to re-derive the widths, and so
+   that "we checked" is a fact in the tree rather than a memory.
+     a(long,int,int)       setDecorationSeed       all `i2l; lmul` — 64-bit, no int trap
+     b(long,int,int)       setFeatureSeed          ⚠ `sipush 10000; imul; i2l` — the
+                                                    `10000 * decorationStep` is a 32-BIT multiply
+     c(long,int,int)       setCarverSeed           all `i2l; lmul` — 64-bit, no int trap
+     a(long,int,int,int)   setLargeFeatureWithSalt all `i2l; lmul` — 64-bit, no int trap
+     a(int,int,long,long)  seedSlimeChunk          ⚠ `x*x*4987142`, `x*5947611`, `z*z` and
+                                                    `z*389711` are ALL 32-bit and wrap; only the
+                                                    `* 4392871L` after `z*z` is 64-bit
+====================================================================================
+  public long a(long, int, int);
+    Code:
+         0: aload_0
+         1: lload_1
+         2: invokevirtual #51                 // Method setSeed:(J)V
+         5: aload_0
+         6: invokevirtual #52                 // Method nextLong:()J
+         9: lconst_1
+        10: lor
+        11: lstore        5
+        13: aload_0
+        14: invokevirtual #52                 // Method nextLong:()J
+        17: lconst_1
+        18: lor
+        19: lstore        7
+        21: iload_3
+        22: i2l
+        23: lload         5
+        25: lmul
+        26: iload         4
+        28: i2l
+        29: lload         7
+        31: lmul
+        32: ladd
+        33: lload_1
+        34: lxor
+        35: lstore        9
+        37: aload_0
+        38: lload         9
+        40: invokevirtual #51                 // Method setSeed:(J)V
+        43: lload         9
+        45: lreturn
+
+
+  public void b(long, int, int);
+    Code:
+         0: lload_1
+         1: iload_3
+         2: i2l
+         3: ladd
+         4: sipush        10000
+         7: iload         4
+         9: imul
+        10: i2l
+        11: ladd
+        12: lstore        5
+        14: aload_0
+        15: lload         5
+        17: invokevirtual #51                 // Method setSeed:(J)V
+        20: return
+
+
+  public void c(long, int, int);
+    Code:
+         0: aload_0
+         1: lload_1
+         2: invokevirtual #51                 // Method setSeed:(J)V
+         5: aload_0
+         6: invokevirtual #52                 // Method nextLong:()J
+         9: lstore        5
+        11: aload_0
+        12: invokevirtual #52                 // Method nextLong:()J
+        15: lstore        7
+        17: iload_3
+        18: i2l
+        19: lload         5
+        21: lmul
+        22: iload         4
+        24: i2l
+        25: lload         7
+        27: lmul
+        28: lxor
+        29: lload_1
+        30: lxor
+        31: lstore        9
+        33: aload_0
+        34: lload         9
+        36: invokevirtual #51                 // Method setSeed:(J)V
+        39: return
+
+
+  public void a(long, int, int, int);
+    Code:
+         0: iload_3
+         1: i2l
+         2: ldc2_w        #59                 // long 341873128712l
+         5: lmul
+         6: iload         4
+         8: i2l
+         9: ldc2_w        #61                 // long 132897987541l
+        12: lmul
+        13: ladd
+        14: lload_1
+        15: ladd
+        16: iload         5
+        18: i2l
+        19: ladd
+        20: lstore        6
+        22: aload_0
+        23: lload         6
+        25: invokevirtual #51                 // Method setSeed:(J)V
+        28: return
+
+
+  public static java.util.Random a(int, int, long, long);
+    Code:
+         0: new           #4                  // class java/util/Random
+         3: dup
+         4: lload_2
+         5: iload_0
+         6: iload_0
+         7: imul
+         8: ldc           #64                 // int 4987142
+        10: imul
+        11: i2l
+        12: ladd
+        13: iload_0
+        14: ldc           #65                 // int 5947611
+        16: imul
+        17: i2l
+        18: ladd
+        19: iload_1
+        20: iload_1
+        21: imul
+        22: i2l
+        23: ldc2_w        #66                 // long 4392871l
+        26: lmul
+        27: ladd
+        28: iload_1
+        29: ldc           #68                 // int 389711
+        31: imul
+        32: i2l
+        33: ladd
+        34: lload         4
+        36: lxor
+        37: invokespecial #18                 // Method java/util/Random."<init>":(J)V
+        40: areturn
+

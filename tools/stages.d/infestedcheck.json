@@ -1,0 +1,8 @@
+[
+ {
+  "id": "infestedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/infested: SF.PAIRS closes the stone-brick-family gap silverfishcheck's own header named as OWED (it was not actually blocked — see 07zn_silverfish.js's header), the mining/explosion hooks that reach the new pairs for free because they read SF.isInfested by NAME, and ore_infested worldgen (already fully wired, proven rather than assumed). AFTER silverfishcheck: same SF/EntityList/Ai harness shape, extends it."
+ }
+]

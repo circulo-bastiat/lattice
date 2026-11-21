@@ -1,0 +1,1 @@
+[ { "id": "lockstep-effects", "kind": "check", "file": "tools/referee/effectslockstepcheck.mjs", "args": [], "why": "#6300 G17-L52: lockstep scenario effects (poison/wither/regeneration/slowness/absorption on zombie+cow, 20 salts); regen interval 50->49 caught at the first heal." } ]

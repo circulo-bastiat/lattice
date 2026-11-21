@@ -1,0 +1,3 @@
+[
+ { "id": "armorstandcheck", "kind": "check", "file": "tools/armorstandcheck.mjs", "args": [], "why": "#4392 -- ArmorStandEntity.damage: hit sound+hitTime, double punch drops+10 break particles, explosion/void/creative; breaking the hook must fail." }
+]

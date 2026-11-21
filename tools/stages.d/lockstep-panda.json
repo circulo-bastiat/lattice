@@ -1,0 +1,1 @@
+[{"id": "lockstep-panda", "kind": "check", "file": "tools/referee/locksteppandacheck.mjs", "args": [], "why": "#6476 G17-L4: panda lockstep, 20 salts: engine trace (pos, vel, yaw, pitch per tick) deterministic per salt, divergences: 0; 1e-9 perturbations caught. Server half: MCLITE_LOCKSTEP_SERVER=1 / pilot.mjs --lanes panda."}]

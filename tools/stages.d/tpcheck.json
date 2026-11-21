@@ -1,0 +1,10 @@
+[
+ {
+  "id": "tpcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "parallel night, worker 1 (session 148) -- /teleport, /tp, /help, LIVE. Found and fixed in src/15g_commands.js: tpTo() zeroed vx/vy/vz UNCONDITIONALLY on every teleport; .decomp TeleportCommand.teleport only clears the VERTICAL component (multiply(1.0, 0.0, 1.0)) and sets onGround=true -- horizontal velocity survives a teleport in vanilla. This stage's own header names the real, still-open gaps too (no <destination:entity> form, no rotation/ facing clause) rather than guessing at a fix for them."
+ }
+]

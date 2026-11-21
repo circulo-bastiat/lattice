@@ -1,0 +1,1 @@
+[{ "id": "cloudfarcheck", "kind": "check", "file": "tools/cloudfarcheck.mjs", "args": [], "why": "#11263: cloud mesh (384 blocks) was clipped by the fog-tight far plane; every vertex must survive the matrix the renderer uploads." }]

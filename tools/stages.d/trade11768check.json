@@ -1,0 +1,1 @@
+[{"id":"trade11768check","kind":"check","file":"tools/trade11768check.mjs","args":[],"why":"#11768: 07p_trade.js TradeOfferList/SimpleMerchant/VillagerDataContainer behaviour + menuMatch reachability; source breaks caught."}]

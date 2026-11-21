@@ -1,0 +1,1 @@
+[{"id":"recipebook11627check","kind":"check","file":"tools/recipebook11627check.mjs","args":[],"why":"#11627: 15n_recipebook.js RecipeBookResults/Widget/RecipeResultCollection/ClientRecipeBook/RecipeBookGroup/RecipeMatcher/InputSlotFiller/RecipeGridAligner behaviour + reachability; source breaks caught."}]

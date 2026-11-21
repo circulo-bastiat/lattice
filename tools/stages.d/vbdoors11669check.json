@@ -1,0 +1,1 @@
+[{"id":"vbdoors11669check","kind":"check","file":"tools/vbdoors11669check.mjs","args":[],"why":"#11669: 07zv9_vbdoors.js OpenDoorsTask reached from villager brain tick; opens/closes doors; breaks caught."}]

@@ -1,0 +1,10 @@
+[
+ {
+  "id": "craftcheck",
+  "kind": "check",
+  "args": [
+   "--quiet"
+  ],
+  "why": "PLAN G8's storage half — the stack, the 41-slot index space, and the search order `Inventory.add` uses, which is read out of the bytecode rather than guessed (D-261)."
+ }
+]

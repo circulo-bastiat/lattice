@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dolphincheck",
+  "kind": "check",
+  "args": [],
+  "why": "#716 -- DolphinEntity.initGoals is ported (07zj2_dolphin.js, Ai.ROSTER.dolphin): BreatheAir/MoveIntoWater/LeadToTreasure/SwimWithPlayer/DolphinJump/PlayWithItems/ChaseBoat + swim-around/melee/flee/revenge, air and moistness. Headless trace; its anti-vacuity rows empty the selector / block the surface and must notice."
+ }
+]

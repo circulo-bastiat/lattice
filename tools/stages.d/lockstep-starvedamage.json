@@ -1,0 +1,1 @@
+[ { "id": "lockstep-starvedamage", "kind": "check", "file": "tools/lockstep-starvedamage.mjs", "args": [], "why": "#10364: starvation (food 0, Hunger 255) by difficulty tick by tick vs the real-server lanes starveeasy/starvenormal/starvehard (lanes.d, pilot.mjs --lanes); Easy stops at 10 HP, Normal at 1, Hard kills; writes mobproof/out/damage-starve.json; breaks caught." } ]

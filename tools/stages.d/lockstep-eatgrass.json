@@ -1,0 +1,1 @@
+[{"id": "lockstep-eatgrass", "kind": "check", "file": "tools/lockstep-eatgrass.mjs", "args": [], "why": "#8637 G18b-L28: lockstep scenario eatgrass (EatGrassGoal start roll, 40-tick timer, grass/grass_block->dirt, sheared cleared, baby ageUp 60; 20 salts x 6000 ticks): grass chance 1/500 caught."}]

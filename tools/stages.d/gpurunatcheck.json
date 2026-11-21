@@ -1,0 +1,1 @@
+[{"id":"gpurunatcheck","kind":"check","file":"tools/gpurunatcheck.mjs","args":[],"why":"7 Nov (Dan): GPU_RUN_AT=<ISO> is a conditional like FILL_WORKERS N@<ISO>: the brain tick deletes it, then dispatches gpu-run.yml on the PC's gpurun runner; garbage never fires; 7 breaks caught."}]

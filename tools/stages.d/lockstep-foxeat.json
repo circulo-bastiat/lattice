@@ -1,0 +1,1 @@
+[ { "id": "lockstep-foxeat", "kind": "check", "file": "tools/lockstep-foxeat.mjs", "args": [], "why": "#6943 G17-L203: lockstep scenario foxeat (FoxEntity eating loop 560/600, canPickupItem/loot of dropped food, finishUsing effects, sweet-berry-bush age>=2, 20 salts): threshold 560->600 and bush age change caught." } ]

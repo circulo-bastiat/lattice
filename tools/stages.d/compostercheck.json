@@ -1,0 +1,8 @@
+[
+ {
+  "id": "compostercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11564 classes Bootstrap, GameVersion (the CHANCE table was dumped from the real jar via Bootstrap.initialize + SharedConstants.createGameVersion; generator-only, not runtime), IntProperty (LEVEL_8 0..8) and WorldEvents (COMPOSTER_USED 1500) -- loop/composter -- ComposterBlock's LEVEL substrate for G18's farmer villager (91-entry CHANCE table generated against the real 1.18.2 server jar, addItem/extract/scheduledTick)."
+ }
+]

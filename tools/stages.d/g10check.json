@@ -1,0 +1,10 @@
+[
+ {
+  "id": "g10check",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "the only end-to-end test: boots the built page, plays for 30 s, breaks and places a block, reloads and checks the edit survived. ~70 s, so it is 'browser' and --fast skips it. G10's picture: the breaking overlay and the first-person hand, read off the HUD's own canvas."
+ }
+]

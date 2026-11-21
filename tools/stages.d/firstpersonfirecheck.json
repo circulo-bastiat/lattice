@@ -1,0 +1,9 @@
+[
+ {
+  "id": "firstpersonfirecheck",
+  "kind": "check",
+  "args": [
+   "--quiet"
+  ]
+ }
+]

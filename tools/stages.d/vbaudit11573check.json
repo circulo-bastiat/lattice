@@ -1,0 +1,1 @@
+[{"id":"vbaudit11573check","kind":"check","file":"tools/vbaudit11573check.mjs","args":[],"why":"#11573: 07zv_villagerbrain.js's 29 classes (Beetroots/Potatoes/Fern/Fungus/MushroomPlant/Nylium, ScheduleRule, Raid tasks, GoTo*/WalkToward*/Wander/Meet/Ring/Competition/Secondary sensor) driven through VB.tick/VB.*/Fertilizable; 45 breaks caught."}]

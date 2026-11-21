@@ -1,0 +1,8 @@
+[
+ {
+  "id": "eyeheightcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1973 -- Cb.eyeHeightOf vs every .decomp getActiveEyeHeight override (adult + baby): spider 0.65, cave_spider 0.45, enderman 2.55, ... Breaks its own table to prove it can fail."
+ }
+]

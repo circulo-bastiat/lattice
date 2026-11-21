@@ -1,0 +1,1 @@
+[{"id":"noisefloorcheck","kind":"check","file":"tools/noisefloorcheck.mjs","args":[],"why":"#11293: every pixel-reading browser stage has a recorded noise floor (or is listed owed); 4 breaks caught."}]

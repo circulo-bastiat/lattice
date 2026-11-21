@@ -1,0 +1,1 @@
+[{"id": "lockstep-shulker", "kind": "check", "file": "tools/lockstep-shulker.mjs", "args": [], "why": "#5373 G17-L4: engine-side chasescen shulker lane, 20 salts (pos, yaw, pitch, target, ShootBulletGoal cooldown, bullet spawn tick + velocity per tick); deterministic per salt; 1e-9 drifts caught. Server comparison runs through lockstep/pilot.mjs --lanes shulker."}]

@@ -1,0 +1,10 @@
+[
+ {
+  "id": "mobcrowdcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "QUEUE 0.0 worker 3 (this pass) -- the mixed-crowd soak: hostiles+neutrals+passives clustered together under real time, survival then creative (mobcrowdpeek.mjs is the long manual driver this short registered check is derived from). Same D-726 class of assertion (every mob's x/y/z/vx/vy/vz finite, not just bees) plus a duplication guard no single/two-mob deep-test pass could ever have exercised."
+ }
+]

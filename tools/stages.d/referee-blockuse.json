@@ -1,0 +1,3 @@
+[
+  { "id": "blockuserefcheck", "kind": "check", "file": "tools/referee/bucketrefcheck.mjs", "args": ["--pack", "blockuse"] }
+]

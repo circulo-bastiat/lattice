@@ -1,0 +1,3 @@
+[
+  { "id": "offhandshieldcheck", "kind": "check", "file": "tools/offhandshieldcheck.mjs", "args": [], "why": "#10750 -- shield raised from the offhand: useHand 1, 5-tick warmup, block, durability and axe disable on the offhand stack" }
+]

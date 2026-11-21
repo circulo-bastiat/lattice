@@ -1,0 +1,8 @@
+[
+ {
+  "id": "playercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2724: player/player_slim cuboids vs the golden models table, and the third-person player body ER.visible/ER.build draws only when P.thirdPerson is set."
+ }
+]

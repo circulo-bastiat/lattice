@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-shot_crossbowcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT4 — minecraft:shot_crossbow matcher + CrossbowItem.postShoot call site complete adventure/ol_betsy; breaks its own matcher to prove it can fail."
+ }
+]

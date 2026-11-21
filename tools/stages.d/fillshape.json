@@ -1,0 +1,3 @@
+[
+  { "id": "fillshapecheck", "kind": "check", "file": "tools/fillshapecheck.mjs", "args": [] }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spreadplayerscheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8023 -- /spreadplayers: Pile placement from java.util.Random draws, clamp to the maxRange square, under-height safety search, invalid.height and failure keys; edited-source breaks must be noticed."
+ }
+]

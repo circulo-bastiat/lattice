@@ -1,0 +1,10 @@
+[
+ {
+  "id": "g11bcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "PLAN G13 — every shipped clip handed to the browser's own decoder (D-284). A headless check cannot tell a valid Opus stream from a truncated one, and the failure mode is SILENCE. PLAN G11b — the creative screen, DRAWN. `creativecheck` proves the table and the geometry and every one of its assertions would pass with `drawCreative` never called; this is the one that opens the screen, counts the ink in all twelve tab buttons and all 45 cells, and clicks a block into the hotbar through the real click path (D-313)."
+ }
+]

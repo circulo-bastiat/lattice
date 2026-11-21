@@ -1,0 +1,8 @@
+[
+ {
+  "id": "catbedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1316 cat SleepWithOwnerGoal / GoToBedAndSleepGoal / CatSitOnBlockGoal and the morning gift (sky 0.77-0.8, owner sleepTimer>=100, 70%, 7-item table) against CatEntity.java; breaks the bed tag, the gift table and the goal itself and must notice each."
+ }
+]

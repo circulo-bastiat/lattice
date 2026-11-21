@@ -1,0 +1,1 @@
+[{"id": "lockstep-cow", "kind": "check", "file": "tools/lockstep-cow.mjs", "args": [], "why": "#5284 G17-L4: cow lane (chasescen LOCKSTEP_ONLY) engine trace, 20 salts deterministic; tampered pos 1e-9/yaw/headYaw/onGround/shift breaks caught."}]

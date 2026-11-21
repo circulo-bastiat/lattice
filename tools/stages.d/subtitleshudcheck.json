@@ -1,0 +1,3 @@
+[
+  { "id": "subtitleshudcheck", "kind": "check", "file": "tools/subtitleshudcheck.mjs", "args": [] }
+]

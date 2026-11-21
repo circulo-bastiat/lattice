@@ -1,0 +1,8 @@
+[
+ {
+  "id": "witchraidtargetcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4442: witch Ai.RaidGoal picks the nearest raider by distance from the witch eye (getClosestEntity eyeY), not feet."
+ }
+]

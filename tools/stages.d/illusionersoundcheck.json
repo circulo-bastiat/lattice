@@ -1,0 +1,8 @@
+[
+ {
+  "id": "illusionersoundcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1015 -- illusioner BlindTargetGoal/GiveInvisibilityGoal play prepare_blindness/prepare_mirror on start and cast_spell on cast (were silent)."
+ }
+]

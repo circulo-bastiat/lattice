@@ -1,0 +1,1 @@
+[{"id": "hideguicheck", "kind": "check", "file": "tools/hideguicheck.mjs", "args": [], "why": "#11441: F1 toggles Settings.hideGui (vanilla options.hudHidden) and Hud.draw skips hotbar/survival/crosshair/chat/titles/bars so F2 saves a clean frame; 7 source breaks caught."}]

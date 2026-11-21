@@ -1,0 +1,3 @@
+[
+  { "id": "apibudgetcheck", "kind": "check", "file": "tools/apibudgetcheck.mjs", "args": [], "why": "30 Sept: the shared GitHub API quota ran dry twice and killed every session" }
+]

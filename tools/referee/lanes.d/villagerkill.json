@@ -1,0 +1,1 @@
+{ "id": "villagerkill", "mob": "zombie", "vk": true, "hard": true, "far": true, "ticks": 300, "note": "#9263: hard difficulty, AI zombie + NoAI villager 4 blocks ahead, player far: the zombie targets and kills the villager -> zombie_villager; Pos + victim kind (0 none/1 villager/2 zombie_villager) per tick" }

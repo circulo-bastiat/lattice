@@ -1,0 +1,8 @@
+[
+ {
+  "id": "crosshaircheck",
+  "kind": "check",
+  "args": [],
+  "why": "#367 -- the crosshair blits icons.png (0,0,15,15), draws no break-progress ring, and the attack indicator rects follow attackStrengthScale (p=0.5 -> fill width 8), per InGameHud.renderCrosshair. Breaks its own source three ways (ring, no indicator, wrong width) and prints the count."
+ }
+]

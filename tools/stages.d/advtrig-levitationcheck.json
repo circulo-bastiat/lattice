@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-levitationcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT24 (#7987) — Adv.matchers levitation + the player tick call site; end/levitate completes at 50+ blocks of rise, not below, not without levitation; breaks its own matcher."
+ }
+]

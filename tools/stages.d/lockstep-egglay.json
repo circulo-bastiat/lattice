@@ -1,0 +1,1 @@
+[ { "id": "lockstep-egglay", "kind": "check", "file": "tools/referee/lockstepegglaycheck.mjs", "args": [], "why": "#6327 G17-L67: lockstep scenario egglay, 20 salts: chicken egg timer 6000-11999, egg item spawn tick, baby age -24000 to 0 over 24000 ticks vs decomp reference; timer off-by-one and a missing egg caught." } ]

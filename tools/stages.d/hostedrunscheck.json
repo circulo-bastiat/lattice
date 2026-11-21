@@ -1,0 +1,3 @@
+[
+  { "id": "hostedrunscheck", "kind": "check", "file": "tools/hostedrunscheck.mjs", "args": [] }
+]

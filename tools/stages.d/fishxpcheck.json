@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fishxpcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G21d -- fishing xp routes through Xp.spawn at player.x/y+0.5/z+0.5 with nextInt(6)+1 per loot item (FishingBobberEntity.use), not a raw experience_orb spawn."
+ }
+]

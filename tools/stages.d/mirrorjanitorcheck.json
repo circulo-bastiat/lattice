@@ -1,0 +1,1 @@
+[{"id":"mirrorjanitorcheck","kind":"check","args":[],"why":"#9709 -- stale result branches on the public mirror (r/ p/ t/ f/ older than 12 h) are deleted, 60 per pass, hourly from the health pass; nothing else is touched (4 breaks caught)."}]

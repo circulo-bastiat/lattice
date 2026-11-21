@@ -1,0 +1,8 @@
+[
+ {
+  "id": "netport11744check",
+  "kind": "check",
+  "args": [],
+  "why": "#11744 -- 02o_net.js net/minecraft/network (ClientConnection DecoderHandler LegacyQueryHandler MessageType NetworkSide NetworkState NetworkThreadUtils OffThreadException Packet PacketByteBuf PacketDeflater PacketEncoder PacketEncoderException PacketInflater RateLimitedConnection SizePrepender SplitterHandler); reached from /debug stop; breaks its own data."
+ }
+]

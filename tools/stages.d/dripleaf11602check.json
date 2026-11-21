@@ -1,0 +1,1 @@
+[{"id":"dripleaf11602check","kind":"check","file":"tools/dripleaf11602check.mjs","args":[],"why":"#11602: 07zv_dripleaf.js Tilt (NONE/UNSTABLE/PARTIAL/FULL, delays 10/10/100) via onEntityCollision/scheduledTick/onProjectileHit/neighborUpdate; source breaks caught."}]

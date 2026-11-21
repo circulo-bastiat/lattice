@@ -1,0 +1,1 @@
+[{ "id": "mobaicheck", "kind": "check", "args": [], "why": "#212 G18b-1: melee reach/interval, BreakDoorGoal 240, door/fire/cactus/berry node-type mapping vs the jar-bytecode golden (extract-mobai.mjs)." }]

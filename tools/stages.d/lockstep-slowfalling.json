@@ -1,0 +1,1 @@
+[{"id": "lockstep-slowfalling", "kind": "check", "file": "tools/referee/slowfallinglockstepcheck.mjs", "args": [], "why": "#8761 G17-L231: lockstep scenario slowfalling, 20 salts: pig and villager dropped 40 blocks with Slow Falling I (removed at tick 60 / absent) vs decomp LivingEntity.travel gravity 0.01, onLanding fallDistance reset, Entity.fall damage."}]

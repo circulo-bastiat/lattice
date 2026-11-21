@@ -1,0 +1,8 @@
+[
+ {
+  "id": "asyncguardcheck",
+  "kind": "check",
+  "args": [],
+  "why": "item 8(c), D-453 — the 'Async' mod's live-world-parallelism approach (parallel entity tick / async random ticks / parallel spawn) stays OUT: no SharedArrayBuffer from file:// (Hard constraint 2) and it breaks in-tick parity; the read-only-scan sliver measured a ~57x net loss on MC-Lite's random-sample spawn (tools/_asyncspawnexp.mjs). This guards the ruling."
+ }
+]

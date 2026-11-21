@@ -1,0 +1,8 @@
+[
+ {
+  "id": "offhandeatanimcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G19d-c: the offhand eat/drink pose (arm sign opposite the main arm) against HeldItemRenderer.applyEatOrDrinkTransformation + applyEquipOffset; mirror sign wrong -> breaks caught."
+ }
+]

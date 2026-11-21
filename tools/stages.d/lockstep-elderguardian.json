@@ -1,0 +1,1 @@
+[ { "id": "lockstep-elderguardian", "kind": "check", "file": "tools/lockstep-elderguardian.mjs", "args": [], "why": "#6895 G17-L178: lockstep scenario elderguardian (ElderGuardianEntity.mobTick curse every 1200 ticks: mining_fatigue amp 2 for 6000, packet, 20 salts): interval 1200 -> 1000 caught." } ]

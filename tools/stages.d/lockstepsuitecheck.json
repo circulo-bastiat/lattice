@@ -1,0 +1,3 @@
+[
+  { "id": "lockstepsuitecheck", "kind": "check", "file": "tools/referee/lockstepsuitecheck.mjs", "args": [], "why": "#5093 G17-L3a: lockstep per-seed runner: runLane over any chasescen lane, 20 salts, first divergent tick+field+both values per seed." }
+]

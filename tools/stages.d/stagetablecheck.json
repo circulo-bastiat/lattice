@@ -1,0 +1,8 @@
+[
+ {
+  "id": "stagetablecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1902 C2ME-4 NS.Gen.STAGES (vanilla ChunkStatus order, task margins, MC-Lite read/write radii) equals .decomp ChunkStatus.java and the Carvers/Features RANGE constants. Breaks its own data: a wrong margin, dropped/swapped stage, wrong range or a neighbour dependency must be caught."
+ }
+]

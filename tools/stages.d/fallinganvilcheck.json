@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fallinganvilcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5608 -- falling anvil: ANVIL damage, 5%+n*5% chip step anvil->chipped->damaged->destroyed, land/destroy sounds."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbtakejobsitecheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18f-J2 -- TakeJobSiteTask (VB.takeJobSiteTick): a jobless villager's POTENTIAL_JOB_SITE is handed to a seen professioned villager that can path to it, not to a stranded one."
+ }
+]

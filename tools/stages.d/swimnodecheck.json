@@ -1,0 +1,3 @@
+[
+  { "id": "swimnodecheck", "kind": "check", "file": "tools/swimnodecheck.mjs", "args": [] }
+]

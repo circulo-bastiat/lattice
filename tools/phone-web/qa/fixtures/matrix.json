@@ -1,0 +1,916 @@
+{
+ "roster": 91,
+ "proven": 0,
+ "rows": {
+  "chicken": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "boat": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "evoker_fangs": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "llama_spit": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "leash_knot": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "ghast": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "fish": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "pufferfish": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "tropical_fish": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "sheep": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "wolf": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "red",
+   "proven": false
+  },
+  "squid": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "glow_squid": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "pig": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "panda": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "fox": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "cat": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "red",
+   "proven": false
+  },
+  "strider": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "cow": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "mooshroom": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "rabbit": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "bee": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "ocelot": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "turtle": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "polar_bear": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "goat": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "axolotl": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "llama": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "trader_llama": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "red",
+   "proven": false
+  },
+  "llama_decor": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "trident": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "parrot": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "bat": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "dolphin": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "guardian": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "elder_guardian": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "creeper": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "horse": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "donkey": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "mule": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "skeleton_horse": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "zombie_horse": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "zombie": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "husk": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "giant": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "zombie_villager": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "drowned": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "skeleton": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "stray": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "wither_skeleton": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "red",
+   "proven": false
+  },
+  "spider": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "red",
+   "proven": false
+  },
+  "cave_spider": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "red",
+   "proven": false
+  },
+  "silverfish": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "endermite": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "end_crystal": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "enderman": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "slime": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "magma_cube": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "blaze": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "hoglin": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "zoglin": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "piglin": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "piglin_brute": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "zombified_piglin": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "evoker": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "illusioner": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "pillager": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "vindicator": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "red",
+   "proven": false
+  },
+  "villager": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "wandering_trader": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "iron_golem": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "snow_golem": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "phantom": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "ravager": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "red",
+   "proven": false
+  },
+  "shulker": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "shulker_bullet": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "vex": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "wither": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "ender_dragon": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "player": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "player_slim": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "armor_stand": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "witch": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "wither_skull": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "minecart": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "chest_minecart": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "command_block_minecart": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "furnace_minecart": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "hopper_minecart": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "spawner_minecart": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  },
+  "tnt_minecart": {
+   "model": "missing",
+   "texture": "missing",
+   "animation": "missing",
+   "drops": "missing",
+   "spawn": "missing",
+   "lockstep": "missing",
+   "goals": "green",
+   "proven": false
+  }
+ }
+}

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-nether_travelcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT27 — minecraft:nether_travel matcher + Portal.moveToWorld call site complete nether/fast_travel; breaks its own matcher/call site to prove it can fail."
+ }
+]

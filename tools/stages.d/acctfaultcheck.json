@@ -1,0 +1,1 @@
+[{"id":"acctfaultcheck","kind":"check","file":"tools/acctfaultcheck.mjs","args":[],"why":"#10723: 'subscription access disabled' (ended plan) parks the account's fill, a successful run unparks it, a no-turn claim is void; 4 breaks caught."}]

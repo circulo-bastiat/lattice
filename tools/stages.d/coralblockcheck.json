@@ -1,0 +1,8 @@
+[
+ {
+  "id": "coralblockcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11521 CoralBlock (07zv_coralblock.js): a dry live coral plant dies after 60..99 ticks; waterlogged or water-adjacent survives; removing the water starts the clock."
+ }
+]

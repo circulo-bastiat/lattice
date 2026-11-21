@@ -1,0 +1,1 @@
+[ { "id": "lockstep-fangs", "kind": "check", "file": "tools/referee/fangslockstepcheck.mjs", "args": [], "why": "#6617 G17-L91: lockstep scenario fangs, 20 seeds: 16-fang line (1.25 spacing, warmup i), 5+8 circle, one 6.0 bite at warmup -8, discard on tick w+23, vs decomp EvokerEntity.ConjureFangsGoal + EvokerFangsEntity." } ]

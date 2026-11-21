@@ -1,0 +1,1 @@
+[{"id":"spawn11652check","kind":"check","file":"tools/spawn11652check.mjs","args":[],"why":"#11652: 07l_spawn.js GravityField, WorldBorder contains, GolemLastSeenSensor, EntityInteraction gossip; source breaks caught."}]

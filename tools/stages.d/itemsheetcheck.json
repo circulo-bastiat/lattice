@@ -1,0 +1,9 @@
+[
+ {
+  "id": "itemsheetcheck",
+  "kind": "check",
+  "file": "tools/itemsheetcheck.mjs",
+  "args": [],
+  "why": "#110: every item's gui/ground/fixed/first/thirdperson transforms resolved and sheeted"
+ }
+]

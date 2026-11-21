@@ -1,0 +1,1 @@
+[{"id":"piglin11663check","kind":"check","file":"tools/piglin11663check.mjs","args":[],"why":"#11663: 07zzf_piglin.js PiglinSpecificSensor/Admire/Hunt/Celebrate/Ride/Target/Brute/SoundEvent reachable from EntityList -> Piglin.tickEntity + Ai.ROSTER; breaks caught."}]

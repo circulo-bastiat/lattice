@@ -1,0 +1,9 @@
+[
+ {
+  "id": "advcriteriacheck",
+  "kind": "check",
+  "file": "tools/advcriteriacheck.mjs",
+  "args": [],
+  "why": "#11478: 02l_advancements.js criteria driven over the real jar advancements through PlayerAdvancementTracker: every trigger has a matcher; ChangedDimensionCriterion, ConstructBeaconCriterion, SlideDownBlockCriterion, BeeNestDestroyedCriterion, PlayerGeneratesContainerLootCriterion, RecipeUnlockedCriterion, BredAnimalsCriterion, ChanneledLightningCriterion, LevitationCriterion, BrewedPotionCriterion, CriterionProgress, AdvancementRewards; 11 breaks caught."
+ }
+]

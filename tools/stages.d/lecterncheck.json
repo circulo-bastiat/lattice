@@ -1,0 +1,8 @@
+[
+ {
+  "id": "lecterncheck",
+  "kind": "check",
+  "args": [],
+  "why": "G19ec #187 — lectern put/take book, page turning, 2-tick POWERED pulse, comparator output (LecternBlock/LecternBlockEntity/LecternScreenHandler)."
+ }
+]

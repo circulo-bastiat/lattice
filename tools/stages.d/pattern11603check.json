@@ -1,0 +1,1 @@
+[{"id":"pattern11603check","kind":"check","file":"tools/pattern11603check.mjs","args":[],"why":"#11603: 07zq_snowgolem.js BlockPattern/Builder/CachedBlockPosition stand-ins (snow + iron golem patterns) via SG.onBlockAdded; source breaks caught."}]

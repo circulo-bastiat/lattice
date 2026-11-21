@@ -1,0 +1,8 @@
+[
+ {
+  "id": "f3icheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-K5 — F3+I formatter (/setblock with sorted block-state brackets and block NBT, /summon with %.2f position and NBT minus UUID/Pos/Dimension); breaks its own formatter to prove it can fail."
+ }
+]

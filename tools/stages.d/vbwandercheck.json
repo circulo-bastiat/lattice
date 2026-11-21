@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbwandercheck",
+  "kind": "browser",
+  "args": [],
+  "why": "D-729: villagewanderpeek.mjs, a live-browser end-to-end close of D-727's SOFT, unconfirmed idle-wander follow-up -- vbidlecheck above already unit-tests every individual IDLE_START entry in isolation; this is the live confirmation that a villager with nothing to do actually walks over a REALISTIC multi-window sample (not the single 3s sample that read a false 0.000 blocks/s). Fails if a villager shows no net displacement across 8 consecutive 3s windows (24s, many multiples of the 1.5-3s WaitTask cycle -- a real regression could not hide behind bad luck here)."
+ }
+]

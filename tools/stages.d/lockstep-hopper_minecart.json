@@ -1,0 +1,1 @@
+[ { "id": "lockstep-hopper_minecart", "kind": "check", "file": "tools/referee/lockstephoppercartcheck.mjs", "args": [], "why": "#5389 G17-L4: lockstep hopper_minecart on flat/slope/curve/powered rails, 20 salts, pos+vel per tick vs independent .decomp reference (real-server rail arena not built); 1e-9 drift, slowdown, slope-pull breaks caught." } ]

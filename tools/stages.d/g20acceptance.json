@@ -1,0 +1,10 @@
+[
+ {
+  "id": "g20acceptance",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "#10763 G20 acceptance: rain in plains not desert, snow in cold biomes, break-particle colour, crit particles, thunder darkens sky light."
+ }
+]

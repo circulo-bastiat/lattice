@@ -1,0 +1,1 @@
+[{"id":"pacecalcheck","kind":"check","args":[],"why":"#7631 -- the fill pacing uses the MEASURED burn per session (window and week pace) instead of the fixed sessionPctPerHour; resets and gaps never count as a rise; spent/stale usage still stops; broken rules caught (breaks caught)."}]

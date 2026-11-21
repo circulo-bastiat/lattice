@@ -1,0 +1,8 @@
+[
+ {
+  "id": "statscheck",
+  "kind": "check",
+  "args": [],
+  "why": "G26a -- 07zzo_stats.js: custom stat ids/formatters/stat types equal Stats.java and the .mcdata registries, StatFormatter outputs, counters (saturation, movement/jump/tick/death hooks) and the save round trip; anti-vacuity breaks its own tables."
+ }
+]

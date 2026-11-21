@@ -1,0 +1,3 @@
+[
+  { "id": "smokeymlcheck", "kind": "check", "file": "tools/smokeymlcheck.mjs", "args": [] }
+]

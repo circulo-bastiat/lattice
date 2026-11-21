@@ -1,0 +1,1 @@
+[{"id":"issuedupcheck","kind":"check","file":"tools/issuedupcheck.mjs","args":[],"why":"#8206 -- go.mjs newissue refuses a twin of an existing unit (same code + minecraft:/quoted tokens, not_planned twins ignored) and a 6th open unit on one hot file; --force bypasses; title-only matching, counting not_planned and an infinite cap must each be caught (breaks caught)."}]

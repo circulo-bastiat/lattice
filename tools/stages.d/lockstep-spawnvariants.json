@@ -1,0 +1,1 @@
+[ { "id": "lockstep-spawnvariants", "kind": "check", "file": "tools/lockstep-spawnvariants.mjs", "args": [], "why": "#7913 G18c-L1: lockstep scenario spawnvariants (sheep colour weights, parrot nextInt(5), axolotl AxolotlData 3 draws, llama variant, horse colour/marking; 20 salts x 200): swapped sheep weights, a blue natural axolotl and wrong llama/horse counts caught." } ]

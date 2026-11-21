@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spitoccludercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4632 -- llama spit passes through spectators and dying mobs (canHit) and hits the live target behind."
+ }
+]

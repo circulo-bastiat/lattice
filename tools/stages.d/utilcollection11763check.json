@@ -1,0 +1,8 @@
+[
+ {
+  "id": "utilcollection11763check",
+  "kind": "check",
+  "args": [],
+  "why": "#11763 -- 02q_utilcollection.js net/minecraft/util/collection (DefaultedList EmptyPaletteStorage IdList Int2ObjectBiMap LinkedBlockPosHashSet PackedIntegerArray SortedArraySet TypeFilterableList); breaks its own data."
+ }
+]

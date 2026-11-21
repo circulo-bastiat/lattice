@@ -1,0 +1,8 @@
+[
+ {
+  "id": "pushcheck",
+  "kind": "check",
+  "args": [],
+  "why": "KW-51-4 (#601) -- Entity.pushAwayFrom + LivingEntity.tickCramming: symmetric 0.05 shove, sleeping/passenger/dead/climbing rules, maxEntityCramming damage, player pushed and pushing."
+ }
+]

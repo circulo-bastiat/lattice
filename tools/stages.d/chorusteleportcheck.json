@@ -1,0 +1,3 @@
+[
+  { "id": "chorusteleportcheck", "kind": "check", "file": "tools/chorusteleportcheck.mjs", "args": [] }
+]

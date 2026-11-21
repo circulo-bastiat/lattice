@@ -1,0 +1,1 @@
+[{"id":"itemmap11737check","kind":"check","file":"tools/itemmap11737check.mjs","args":[],"why":"#11737: MapIcon.Type/MapBannerMarker/MapFrameMarker/ToolMaterial/ArmorMaterial tables vs vanilla + registry, cartographer icon wiring; source breaks caught."}]

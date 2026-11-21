@@ -1,0 +1,10 @@
+[
+ {
+  "id": "livemeshcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "#1159 KW-48c -- LIVE repro harness on the real page (workers on, flying + editing at section edges): renderer meshes and visibility masks vs from-scratch truth, worker/main occluder-table parity for every state, occlusion flood vs a voxel flood. Found: Jobs.start never sent the worker canOcclude/outlineFull, so the worker's visibility masks treated glass, leaves, ice, shulker boxes (35 sampled states) as walls and the flood hid sections behind them."
+ }
+]

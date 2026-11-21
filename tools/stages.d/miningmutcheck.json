@@ -1,0 +1,1 @@
+[{"id":"miningmutcheck","kind":"check","file":"tools/miningmutcheck.mjs","args":[],"why":"#11509: assertions for the 3 surviving 07d_mining mutants (unknownBlocks cap, trailing-bytes message, itemSpeed before init); each real mutant is re-applied and must turn it red, N breaks caught."}]

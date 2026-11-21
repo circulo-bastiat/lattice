@@ -1,0 +1,8 @@
+[
+ {
+  "id": "featgroundcheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-418 -- NOTHING A FEATURE PLACES MAY BE LEFT HANGING IN THE AIR. Dan reported azalea trees growing on water; what shipped was a canopy with no trunk, because `root_system` planted the tree on a pond and the tree's own `isFree` test then refused the logs and passed the leaves. The rule is stated on the WORLD and needs no per-feature list: every connected component of blocks a feature ADDED INTO AIR must touch something that is not air. Which blocks those are is decided by generating the same chunks twice, with features on and off."
+ }
+]

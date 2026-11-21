@@ -1,0 +1,3 @@
+[
+  { "id": "unionmergecheck", "kind": "check", "file": "tools/unionmergecheck.mjs", "args": [] }
+]

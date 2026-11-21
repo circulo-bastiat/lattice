@@ -1,0 +1,1 @@
+{ "id": "item", "mob": "item", "up": 1, "nbt": "Motion:[0.3d,0.2d,0.0d],Item:{id:\"minecraft:stone\",Count:1b},PickupDelay:32767s", "note": "#8285: dropped stone item tossed down +x in the corridor (gravity 0.04, drag 0.98, ground friction); PickupDelay 32767 = never picked; rows pos, vel, tick of removal, effect (stack count)" }

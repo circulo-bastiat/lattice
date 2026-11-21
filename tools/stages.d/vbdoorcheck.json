@@ -1,0 +1,8 @@
+[
+ {
+  "id": "vbdoorcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18f-D1 -- OpenDoorsTask (src/07zv9_vbdoors.js, hooked into VB.tick): a villager walking a path opens a wooden door ahead, closes it once past; iron doors are never opened; a door a player held open is not closed."
+ }
+]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-shulkerbullet", "kind": "check", "file": "tools/referee/shulkerbulletlockstepcheck.mjs", "args": [], "why": "#6619 G17-L93: lockstep scenario shulkerbullet, 20 seeds: homing steering (axis pick, stepCount, target blend) per tick, 4.0 damage, Levitation I 200 ticks, open and behind a wall, vs decomp ShulkerBulletEntity/ShootBulletGoal." } ]

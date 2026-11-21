@@ -1,0 +1,1 @@
+[{"id": "lockstep-ambientsound", "kind": "check", "file": "tools/lockstep-ambientsound.mjs", "args": [], "why": "#6931 G17-L191: lockstep scenario ambientsound, 20 salts x 6000 ticks, seven idle mobs: ambientSoundTime counter and ambient sound (id, volume, pitch) per tick; roll 1000->999, reset to 1 and 2 other breaks caught."}]

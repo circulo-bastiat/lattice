@@ -1,0 +1,8 @@
+[
+ {
+  "id": "powdersnowwalkcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5656 -- PowderSnowBlock.getCollisionShape: leather boots, rabbit, endermite, silverfish stand on powder snow, everything else sinks, falling_block / fallDistance>2.5 land on the 0.9 shape. Breaks canWalkOnPowderSnow both ways."
+ }
+]

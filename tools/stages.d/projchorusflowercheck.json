@@ -1,0 +1,9 @@
+[
+ {
+  "id": "projchorusflowercheck",
+  "kind": "check",
+  "file": "tools/projchorusflowercheck.mjs",
+  "args": [],
+  "why": "#8665 -- ChorusFlowerBlock.onProjectileHit: a projectile in entity tag impact_projectiles (resolved from the tag data) breaks a chorus flower and drops chorus_flower; others do not. Node-only."
+ }
+]

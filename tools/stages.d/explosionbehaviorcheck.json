@@ -1,0 +1,8 @@
+[
+ {
+  "id": "explosionbehaviorcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11693 -- 07za_explosion.js: ExplosionBehavior (resistanceAt), EntityExplosionBehavior (resist/destroy hooks) and LootContextParameters.EXPLOSION_RADIUS (affectWorld decay) via Ex.collectBlocks/affectWorld. Node-only."
+ }
+]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-idlewander", "kind": "check", "file": "tools/lockstep-idlewander.mjs", "args": [], "why": "#7030 G18b-L4: lockstep scenario idlewander (LookAroundGoal 0.02 / 20+nextInt(20), LookAtEntityGoal 0.02 / 40+nextInt(40) for cow, pig, sheep, chicken, villager, 20 salts): chance 0.02 -> 0.03 caught." } ]

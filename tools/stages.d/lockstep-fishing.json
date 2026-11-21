@@ -1,0 +1,1 @@
+[ { "id": "lockstep-fishing", "kind": "check", "file": "tools/lockstepfishcheck.mjs", "args": [], "why": "#6404 G17-L74: lockstep scenario fishing (cast tick 5, bite tick, reel in the hook window, loot category + orb range, 20 seeds vs an independent tickFishingLogic transcription); Lure ignored, wait roll order, loot weight caught. Not --core." } ]

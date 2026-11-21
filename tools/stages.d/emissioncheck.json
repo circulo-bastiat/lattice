@@ -1,0 +1,8 @@
+[
+ {
+  "id": "emissioncheck",
+  "kind": "check",
+  "args": [],
+  "why": "#356 -- block-light emission per STATE (lit lamp/furnace/candle/campfire/torch, sea pickle, light level, respawn anchor, berries, lichen) against the Blocks.java luminance lambdas."
+ }
+]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-spawnlight", "kind": "check", "file": "tools/lockstep-spawnlight.mjs", "args": [], "why": "#7920 G18c-L5: lockstep scenario spawnlight (sky/block light 0-15 in day, night, rain, thunder, 20 salts x 6000 attempts: sky > nextInt(32), block light > 0, thunder max(block, sky-10), peaceful gate, 24-block distance): allowing block light 1 caught." } ]

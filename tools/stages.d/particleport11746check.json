@@ -1,0 +1,8 @@
+[
+ {
+  "id": "particleport11746check",
+  "kind": "check",
+  "args": [],
+  "why": "#11746 -- 02p_particle.js net/minecraft/particle (DefaultParticleType DustColorTransitionParticleEffect DustParticleEffect ParticleType VibrationParticleEffect); reached from /particle parseParticle; breaks its own data."
+ }
+]

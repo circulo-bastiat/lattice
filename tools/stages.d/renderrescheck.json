@@ -1,0 +1,8 @@
+[
+ {
+  "id": "renderrescheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/renderres-s104 -- mob render residue: chicken wing-flap ANIMATION (state in Passive.tickChickenFlap, pose in ER.chickenWingRoll/ER.setupAnimDelta, both against ChickenEntity.tickMovement/ChickenEntityRenderer.method_3893/ChickenEntityModel. setAngles, .decomp), sheep eat-grass HEAD POSE (ER.sheepEatGrass against SheepEntity. getNeckAngle/getHeadAngle + SheepEntityModel.method_17120/method_17121, .decomp), and the trader llama's own CARPET texture (decor#null#16, TraderLlamaEntity.isTrader() == e.type==='trader_llama', LlamaDecorFeatureRenderer.method_4191's else branch). The horse-screen 3D entity PREVIEW box stays a declared deviation (Mnt.OWED, D-278's own precedent) -- named, not built, this pass."
+ }
+]

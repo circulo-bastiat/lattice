@@ -1,0 +1,8 @@
+[
+ {
+  "id": "piglinmodelcheck",
+  "kind": "check",
+  "args": [],
+  "why": "KW-33: piglin family arms/legs (extract-models.mjs)"
+ }
+]

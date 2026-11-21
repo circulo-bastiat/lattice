@@ -1,0 +1,8 @@
+[
+ {
+  "id": "simdistcheck",
+  "kind": "check",
+  "args": [],
+  "why": "item 8(b), D-452 — simulation distance, a second gate separate from render distance for everything that TICKS (entities, random block ticks, spawning's own share is spawncheck's)."
+ }
+]

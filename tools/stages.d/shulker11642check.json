@@ -1,0 +1,1 @@
+[{"id":"shulker11642check","kind":"check","file":"tools/shulker11642check.mjs","args":[],"why":"#11642: 07zzl_shulkerdraw.js Quaternion/Matrix3f face rotation + ShulkerHeadFeatureRenderer head pass; source breaks caught."}]

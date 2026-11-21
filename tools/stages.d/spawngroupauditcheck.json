@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spawngroupauditcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11491 -- SpawnGroup table, SpawnDensityCapper/Info cap scaling, WorldView/LightingProvider light, EntityView.isPlayerInRange, WorldAccess hierarchy and InteractionObserver vs the real .decomp Java; wrong cap/despawn/rounding/parent/param breaks caught."
+ }
+]

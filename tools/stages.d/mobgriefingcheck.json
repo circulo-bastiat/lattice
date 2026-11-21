@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobgriefingcheck",
+  "kind": "check",
+  "args": [],
+  "why": "worker3/mobcommand-s145: /gamerule mobGriefing, driven through the REAL /gamerule command, joined against all four live consumers this engine has today -- creeper explosion (07zb_creeper.js), enderman pickup/placement (07zg_enderman.js), silverfish CallForHelpGoal infest-on-hit (07zn_silverfish.js), ravager leaf-breaking (Ai.RavagerRoarGoal, 07k_goals.js). AFTER raidmobcheck: same EL/Ai/Commands substrate, nothing here is new machinery, only the real command joined against it."
+ }
+]

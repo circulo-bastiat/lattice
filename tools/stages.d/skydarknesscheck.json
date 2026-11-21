@@ -1,0 +1,8 @@
+[
+ {
+  "id": "skydarknesscheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1642: wither boss bar darkenSky -> GameRenderer.skyDarkness -> lightmap tint, both backends"
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "boatsimcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5227 (G17-B1) -- BoatEntity core tick (07zzt_boat.js): location state, float on water, flowing-water sinking, slipperiness (blue_ice vs stone), fall-distance branch; #5229 damage wobble, boat drops per wood, fall break 3 planks+2 sticks, doEntityDrops; edited-source breaks must be noticed."
+ }
+]

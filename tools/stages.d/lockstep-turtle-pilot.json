@@ -1,0 +1,1 @@
+[{"id": "lockstep-turtle-pilot", "kind": "check", "file": "tools/referee/lockstepturtlepilotcheck.mjs", "args": [], "why": "#6478 G17-L4: turtle lockstep vs the real 1.18.2 server, 20 salts, divergences: 0 required (pilot.mjs, cached); a doctored divergence, a short run and a 1e-9 drift are refused (3 breaks caught). Separate from lockstep-turtle (#6671 egg check)."}]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "bellrendercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#6392 -- BellBlockEntityRenderer: a placed bell's block model bakes only the frame; the swinging bell_body (body + base on entity/bell/bell_body) is drawn by the block-entity renderer. Holds the drawn/owed split, both boxes, and the ring swing (sin(t/PI)/(4+t/3) on pitch or roll by side hit)."
+ }
+]

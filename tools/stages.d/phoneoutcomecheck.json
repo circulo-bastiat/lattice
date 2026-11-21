@@ -1,0 +1,3 @@
+[
+  { "id": "phoneoutcomecheck", "kind": "check", "file": "tools/phoneoutcomecheck.mjs", "args": [], "why": "#8091 phone Runs: outcome in words + outcome filter" }
+]

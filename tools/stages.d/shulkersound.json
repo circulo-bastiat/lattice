@@ -1,0 +1,3 @@
+[
+  { "id": "shulkersoundcheck", "kind": "check", "file": "tools/shulkersoundcheck.mjs", "args": [] }
+]

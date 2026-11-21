@@ -1,0 +1,3 @@
+[
+  { "id": "attrefftracecheck", "kind": "check", "file": "tools/referee/attrefftracecheck.mjs", "args": [], "why": "#6263 G17-L31: lockstep attributesEff compares modifier-applied values (baby zombie 0.345); dropping a modifier is reported at its tick." }
+]

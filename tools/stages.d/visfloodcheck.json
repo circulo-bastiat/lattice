@@ -1,0 +1,8 @@
+[
+ {
+  "id": "visfloodcheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-440 — queue row 0 item 4: a block under a cactus (or any inset model — fences, walls, slabs, stairs, torches, flower pots) vanished at distance because the section-visibility flood tested material opacity instead of the graph's own full-cube-outline test. Beside facecheck: same mesher domain, but this is the COARSE section-occlusion graph, not per-face quad culling, which facecheck already covers."
+ }
+]

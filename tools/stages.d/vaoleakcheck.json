@@ -1,0 +1,10 @@
+[
+ {
+  "id": "vaoleakcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "#2571 -- the self-contained passes in G.render's hook slot (leash, particles, weather, orbs, beams) own no VAO; they rewrote the last section arena's attributes and element buffer, so up to 48 sections stopped drawing (Dan's black/invisible regions), and they left a foreign 2D_ARRAY on the atlas unit. Installs a hostile pass there, reads back every arena VAO and unit 0 at the opaque pass; breaks releaseVao and the atlas rebind and prints the count."
+ }
+]

@@ -1,0 +1,1 @@
+{ "id": "small_fireball", "mob": "small_fireball", "up": 1, "nbt": "power:[0.1d,0.0d,0.0d],Motion:[0.1d,0.0d,0.0d]", "note": "#8274: small_fireball flies down +x into the corridor wall; impact sets fire on the adjacent block (fire placement row)" }

@@ -1,0 +1,1 @@
+[{"id":"silverfish11586check","kind":"check","file":"tools/silverfish11586check.mjs","args":[],"why":"#11586: 07zn_silverfish.js InfestedBlock pairs/onBreak + SilverfishEntity CallForHelp/WanderAndInfest goals; breaks caught."}]

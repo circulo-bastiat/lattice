@@ -1,0 +1,8 @@
+[
+ {
+  "id": "witherskelcheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-673/D-674 (KW-32): the wither skeleton spawns (stone sword, attack 4, no enchant, Wither hit, burning arrows) and every mob is drawn at its renderer's own scale(), lift included."
+ }
+]

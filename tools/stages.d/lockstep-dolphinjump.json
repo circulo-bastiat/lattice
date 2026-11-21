@@ -1,0 +1,1 @@
+[ { "id": "lockstep-dolphinjump", "kind": "check", "file": "tools/lockstep-dolphinjump.mjs", "args": [], "why": "#8717 G18b-L44: lockstep scenario dolphinjump, 20 salts in a 12x12x6 pool: DolphinJumpGoal roll/clearance start tick, v += (0.6*dir, 0.7), pitch, exit tick vs a decomp port; jump velocity 0.6 -> 0.5, missing clearance test and late exit caught." } ]

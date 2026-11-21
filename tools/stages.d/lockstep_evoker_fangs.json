@@ -1,0 +1,1 @@
+[ { "id": "lockstep_evoker_fangs", "kind": "check", "file": "tools/lockstep-evoker-fangs-20.mjs", "args": [], "why": "#7531 G17-L4 lockstep evoker_fangs: 20 seeds, engine trace deterministic, 5 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes evoker_fangs (full suite)." } ]

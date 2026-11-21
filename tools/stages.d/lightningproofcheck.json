@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lightningproofcheck",
+  "kind": "check",
+  "file": "tools/lightningproofcheck.mjs",
+  "args": [],
+  "why": "#11682: Lgt.BIOME_PARTICLE (nether biome particle configs) via biomeDisplayParticle, SkeletonHorse trap timeout and mounted offset; 4 breaks caught."
+ }
+]

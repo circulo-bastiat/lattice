@@ -1,0 +1,8 @@
+[
+ {
+  "id": "minecartcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1564 (G25) -- minecart entities (07zzr_minecart.js): AbstractMinecartEntity moveOnRail/moveOffRail/applySlowdown, rail following and slopes, powered-rail boost/brake, damage wobble + drops per variant, furnace fuel, TNT cart fuse/explosion, activator-rail reactions; edited-source breaks must be noticed."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "enchweapons",
+  "kind": "check",
+  "args": [],
+  "why": "G22 (unit h) (#200) -- weapon-side enchantments through the real kill join: Sharpness I-V on every sword tier vs the jar's damage (any mob type), Fire Aspect kill -> cooked beef (furnace_smelt), Looting I/III raise the cow's drops by level/2 while Looting 0 / unselected slot stay baseline."
+ }
+]

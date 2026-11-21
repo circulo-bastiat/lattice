@@ -1,0 +1,8 @@
+[
+ {
+  "id": "lightningcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/lightning -- LightningEntity end to end (ServerWorld.tickChunk's own thunder-strike roll, the bolt's ambient/fire/struck-entity lifecycle, the four onStruckByLightning per-type overrides) + the skeleton_horse thunder trap (SkeletonHorseTrapTriggerGoal's own 4-horse/4-skeleton ambush, enchanted bow+helmet). Node-only (tools/loadsrc.mjs's own extra-modules shape, the same harness silverfishcheck/spawnercheck already use)."
+ }
+]

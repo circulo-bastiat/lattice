@@ -1,0 +1,1 @@
+[{"id": "lockstep-elder_guardian", "kind": "check", "file": "tools/referee/lockstepelderguardiancheck.mjs", "args": [], "why": "#6503 G17-L4: elder_guardian lockstep vs the real 1.18.2 server, 20 salts, divergences: 0 required; doctored divergence, short run and 1e-9 drift refused (3 breaks caught)."}]

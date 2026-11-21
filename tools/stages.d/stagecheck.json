@@ -1,0 +1,8 @@
+[
+ {
+  "id": "stagecheck",
+  "kind": "check",
+  "args": [],
+  "why": "PASS 15 JOB 1 — the roster/citation consistency checker: every Gxx cited anywhere in the repo actually exists in docs/PLAN.md's roster, and no OWED-list row cites a stage that has already shipped. `doccheck` requires every `*check.mjs` to appear here (D-110)."
+ }
+]

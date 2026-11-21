@@ -1,0 +1,8 @@
+[
+ {
+  "id": "playeroffhandrendercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#10752: the third-person player draws main+offhand items and PlayerEntityRenderer.getArmPose arm poses (ITEM/BLOCK/SPEAR/BOW) on the using hand."
+ }
+]

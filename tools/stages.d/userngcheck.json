@@ -1,0 +1,3 @@
+[
+  { "id": "userngcheck", "kind": "check", "file": "tools/userngcheck.mjs", "args": [] }
+]

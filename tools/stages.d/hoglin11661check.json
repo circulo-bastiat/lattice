@@ -1,0 +1,1 @@
+[{"id":"hoglin11661check","kind":"check","file":"tools/hoglin11661check.mjs","args":[],"why":"#11661: 07zzg_hoglin.js HoglinSpecificSensor/ForgetAttackTargetTask/PacifyTask reachable from EntityList -> Hoglin.tickEntity; 13 breaks caught."}]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "shapecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4944 — every block state's outline / collision / visual / interaction shape (and what the crosshair selects) against the vanilla table run out of the 1.18.2 bytecode (tools/extract-shapes.mjs). Snow layer 1 must outline 2px and not block."
+ }
+]

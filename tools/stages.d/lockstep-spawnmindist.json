@@ -1,0 +1,1 @@
+[ { "id": "lockstep-spawnmindist", "kind": "check", "file": "tools/lockstep-spawnmindist.mjs", "args": [], "why": "#8720 G18c-L15: lockstep scenario spawnmindist (player 0/10/23/24/30 blocks from a dark flat cell, world spawn on and 24 off, 20 salts, SpawnHelper.isAcceptableSpawnPosition d2<=576 and spawn-point isWithinDistance(24) from block centre): min distance 16 caught." } ]

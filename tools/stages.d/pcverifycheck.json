@@ -1,0 +1,3 @@
+[
+  { "id": "pcverifycheck", "kind": "check", "file": "tools/pcverifycheck.mjs", "args": [] }
+]

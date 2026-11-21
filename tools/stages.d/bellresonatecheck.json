@@ -1,0 +1,8 @@
+[
+ {
+  "id": "bellresonatecheck",
+  "kind": "check",
+  "args": [],
+  "why": "G25-bell-resonate -- BellBlockEntity resonance: raiders within 48 blocks glow 60 ticks after the bell rings; one at 60 blocks and a non-raider do not."
+ }
+]

@@ -1,0 +1,1 @@
+[{"id": "soakcapture", "kind": "check", "file": "tools/referee/soakcapturecheck.mjs", "args": [], "why": "#9446 G17-L38a: offline half of the real-server 12-mob soak capture (scripted /summon list, ENTX -> per-mob split, a == b comparator); 5 broken captures caught. The server run is tools/referee/lockstep/soakcapture.mjs."}]

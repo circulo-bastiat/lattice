@@ -1,0 +1,3 @@
+[
+  { "id": "buttonrefcheck", "kind": "check", "file": "tools/referee/buttonrefcheck.mjs", "args": [] }
+]

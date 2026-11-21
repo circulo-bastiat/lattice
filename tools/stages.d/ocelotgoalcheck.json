@@ -1,0 +1,8 @@
+[
+ {
+  "id": "ocelotgoalcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1606 ocelot's PounceAtTargetGoal(7)/AttackGoal(8) and chicken / baby-turtle ActiveTargetGoal(1) (OcelotEntity.initGoals) against goals-1.18.2.tsv; goalrostercheck skipped these family-less rows."
+ }
+]

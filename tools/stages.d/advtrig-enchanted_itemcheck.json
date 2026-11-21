@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-enchanted_itemcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT35 — minecraft:enchanted_item matcher + Menu.enchantClick call site complete story/enchant_item; breaks its own matcher."
+ }
+]

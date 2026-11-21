@@ -1,0 +1,8 @@
+[
+ {
+  "id": "triggercommandcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-SB4 — /trigger (TriggerCommand): simple/add/set on an enabled trigger objective, re-locks after use (second try = unprimed), non-trigger = invalid, level 0; repeats with the re-lock removed to prove it can fail."
+ }
+]

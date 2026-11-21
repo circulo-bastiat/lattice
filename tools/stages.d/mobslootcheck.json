@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobslootcheck",
+  "kind": "check",
+  "args": [],
+  "why": "PASS 16 JOB 3 (G18d, D-381) -- mob DROPS: the entity/gameplay loot tables packed alongside the block ones, and the six verbs no block table used (empty/loot_table/item_choice entries; killed_by_player/random_chance_with_looting/damage_source_properties conditions; looting_enchant/furnace_smelt/set_potion functions). Node-only, like minecheck."
+ }
+]

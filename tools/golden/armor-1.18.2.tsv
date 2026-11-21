@@ -1,0 +1,41 @@
+# armor-1.18.2.tsv — every armour piece, from the 1.18.2 jar's own bytecode (D-291).
+#
+# `ArmorMaterials` is compiled Java: these numbers are in no JSON file, no tag and no
+# `minecraft-data` export, which is why `Sv.afterArmor` had carried vanilla's own damage
+# formula since G5 with nothing ever able to give it a non-zero armour value.
+#
+# defense   `slotProtections[EquipmentSlot.getIndex()]` — the index is READ from that enum,
+#           not assumed from the order the values appear in.
+# toughness `ArmorMaterials.toughness`, the second float. Only diamond and netherite are
+#           non-zero, and only netherite has any knockback resistance.
+# maxDamage `HEALTH_PER_SLOT[index] * durabilityMultiplier`, both from the same <clinit>.
+#
+# ⚠ TURTLE is `{2, 5, 6, 2}` — iron's array, not a lone value. Writing this table from
+# memory would have got that wrong, which is what the referee is for.
+#
+# item	material	slot	defense	toughness	knockback	maxDamage
+chainmail_boots	chain	feet	1	0	0	195
+chainmail_chestplate	chain	chest	5	0	0	240
+chainmail_helmet	chain	head	2	0	0	165
+chainmail_leggings	chain	legs	4	0	0	225
+diamond_boots	diamond	feet	3	2	0	429
+diamond_chestplate	diamond	chest	8	2	0	528
+diamond_helmet	diamond	head	3	2	0	363
+diamond_leggings	diamond	legs	6	2	0	495
+golden_boots	gold	feet	1	0	0	91
+golden_chestplate	gold	chest	5	0	0	112
+golden_helmet	gold	head	2	0	0	77
+golden_leggings	gold	legs	3	0	0	105
+iron_boots	iron	feet	2	0	0	195
+iron_chestplate	iron	chest	6	0	0	240
+iron_helmet	iron	head	2	0	0	165
+iron_leggings	iron	legs	5	0	0	225
+leather_boots	leather	feet	1	0	0	65
+leather_chestplate	leather	chest	3	0	0	80
+leather_helmet	leather	head	1	0	0	55
+leather_leggings	leather	legs	2	0	0	75
+netherite_boots	netherite	feet	3	3	0.1	481
+netherite_chestplate	netherite	chest	8	3	0.1	592
+netherite_helmet	netherite	head	3	3	0.1	407
+netherite_leggings	netherite	legs	6	3	0.1	555
+turtle_helmet	turtle	head	2	0	0	275

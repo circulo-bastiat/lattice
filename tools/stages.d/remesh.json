@@ -1,0 +1,3 @@
+[
+  { "id": "remeshcheck", "kind": "check", "file": "tools/remeshcheck.mjs", "args": [] }
+]

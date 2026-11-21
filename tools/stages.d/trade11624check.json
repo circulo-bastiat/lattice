@@ -1,0 +1,1 @@
+[{"id":"trade11624check","kind":"check","file":"tools/trade11624check.mjs","args":[],"why":"#11624: 07p_trade.js MerchantScreen/MerchantScreenHandler/TradeOutputSlot/MerchantInventory/EnchantmentTarget/DyeableItem/VillagerType behaviour + reachability; source breaks caught."}]

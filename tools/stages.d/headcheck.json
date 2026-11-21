@@ -1,0 +1,8 @@
+[
+ {
+  "id": "headcheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-422 -- THE HEAD. Every mob in the game stared straight along its own body (`ER.animOf` fed netHeadYaw = headPitch = 0 to every model there is), and the goal meant to fix that wrote the BODY yaw directly, with no rate limit and no clamp -- a cow snapped its whole body round in one tick. `goalcheck` has fourteen sections and mentions no look goal at all, which is how it survived. This holds `Ai.LookControl` and `Ai.BodyRotationControl` to the jar's own law (ten degrees a tick, the 75/40/10 limits and the eight species that override them, the 15-degree/10-tick body ramp) and asserts a goal cannot turn a mob itself."
+ }
+]

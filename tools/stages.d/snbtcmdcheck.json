@@ -1,0 +1,8 @@
+[
+ {
+  "id": "snbtcmdcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3662 — /summon entity NBT (Inventory), /data get entity, /item replace entity via getStackReference (pillager 300..304); breaks its own data twice."
+ }
+]

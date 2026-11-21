@@ -1,0 +1,3 @@
+[
+  { "id": "pilotcallercheck", "kind": "check", "file": "tools/pilotcallercheck.mjs", "args": [] }
+]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-llamaspit", "kind": "check", "file": "tools/referee/llamaspitlockstepcheck.mjs", "args": [], "why": "#6728 G17-L131: lockstep scenario llamaspit, 20 salts: spit spawn pos and 1.5-power gaussian velocity, per-tick flight (0.99 drag, 0.06 gravity), 1 mobProjectile damage, wall discard vs independent reference; power 1.6, damage 2 and gravity 0.05 caught." } ]

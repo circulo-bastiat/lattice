@@ -1,0 +1,3 @@
+[
+  { "id": "fishloot", "kind": "check", "file": "tools/fishlootcheck.mjs", "args": [], "why": "#324 G24h -- Loot.fish: fish/junk/treasure split vs jar weights+quality at Luck of the Sea 0/3, no treasure out of open water; 3 faults caught." }
+]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-crossbow", "kind": "check", "file": "tools/referee/lockstepcrossbowcheck.mjs", "args": [], "why": "#6715 G17-L119: lockstep scenario crossbow, 20 salts: pull time 25-5q (24 caught), speed 3.15, Multishot -10/0/+10 with creative-only extras, Piercing pass-through of a cow line, firework ammo; pull-time, speed, angle and pierce changes caught." } ]

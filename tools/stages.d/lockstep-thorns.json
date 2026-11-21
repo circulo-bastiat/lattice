@@ -1,0 +1,1 @@
+[ { "id": "lockstep-thorns", "kind": "check", "file": "tools/referee/thornslockstepcheck.mjs", "args": [], "why": "#6722 G17-L126: lockstep scenario thorns, 20 salts: roll nextFloat < 0.15 x level, damage level>10 ? level-10 : 1+nextInt(4), armour durability 2, RNG draw order vs the attacker's own roll, vs decomp ThornsEnchantment." } ]

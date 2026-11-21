@@ -1,0 +1,1 @@
+[{"id": "lockstep-axolotl-lane", "kind": "check", "file": "tools/lockstep-axolotl.mjs", "args": [], "why": "#5319 G17-L4: engine-side axolotl pool-lane trace, 20 salts (pos, vel, yaw, pitch, air per tick); deterministic per salt; 1e-9 drift in pos/vel/yaw/pitch and air shift caught. Server comparison runs through lockstep/pilot.mjs --lanes axolotl."}]

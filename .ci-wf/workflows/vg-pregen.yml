@@ -1,0 +1,18 @@
+# #136: the vanilla golden pregen as a runner job (was: lane.mjs on Dan's Windows PC). Fetches the 1.18.2 server jar, runs the real server, force-loads the areas.
+name: vg-pregen
+on:
+  workflow_dispatch:
+jobs:
+  pregen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: 17 }
+      - run: node tools/pregen-fetch.mjs
+      - run: node tools/vg_pregen.mjs
+      - uses: actions/upload-artifact@v4
+        with: { name: golden-pregen, path: golden/pregen }

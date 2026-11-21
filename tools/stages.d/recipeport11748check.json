@@ -1,0 +1,8 @@
+[
+ {
+  "id": "recipeport11748check",
+  "kind": "check",
+  "args": [],
+  "why": "#11748 -- 02q_recipeclasses.js net/minecraft/recipe (RecipeManager, recipe classes, serializers, RecipeBookCategory/Options); reached from Recipes.cookingFor/stonecuttingFor/smithingFor; breaks its own data."
+ }
+]

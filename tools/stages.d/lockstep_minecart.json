@@ -1,0 +1,1 @@
+[ { "id": "lockstep_minecart", "kind": "check", "file": "tools/referee/minecartraillockstepcheck.mjs", "args": [], "why": "#5514 G17-L4 lockstep minecart: 20 seeds x 4 rail lanes, pos+vel exact vs decomp AbstractMinecartEntity (engine side; full-suite server pilot separate), 5 injected faults caught at the right tick/field." } ]

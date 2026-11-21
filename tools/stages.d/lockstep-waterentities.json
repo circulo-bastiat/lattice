@@ -1,0 +1,1 @@
+[{"id": "lockstep-waterentities", "kind": "check", "file": "tools/lockstep-waterentities.mjs", "args": [], "why": "#9264 G17-L69a-2: waterentities engine lane x20 salts (zombie submerged in a pool converts to a drowned at ~tick 903, entity list per tick); 5 faults + the broken engine rule (no water descent) must be caught."}]

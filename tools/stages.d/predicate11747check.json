@@ -1,0 +1,8 @@
+[
+ {
+  "id": "predicate11747check",
+  "kind": "check",
+  "args": [],
+  "why": "#11747 -- 02l_advancements.js (net/minecraft/predicate section) net/minecraft/predicate (FluidPredicate LightPredicate BlockStatePredicate AdvancementEntityPredicateSerializer DistancePredicate EntityEquipmentPredicate EntityFlagsPredicate EntityTypePredicate EnchantmentPredicate); reached via Adv.pred.entity/location/item/extended; breaks its own data."
+ }
+]

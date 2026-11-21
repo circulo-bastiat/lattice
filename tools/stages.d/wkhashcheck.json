@@ -1,0 +1,8 @@
+[
+ {
+  "id": "wkhashcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1900 C2ME-2 determinism gate -- the REAL chunk worker hosted in worker_threads at pool 1/2/4/8 with shuffled dispatch and out-of-order delivery, plus a worker killed and restarted mid-region, fingerprinted on arrival (the ?wkhash=1 install moment) and compared to the inline golden (tools/golden/chunkgen-golden.json): zero drift. WKHASH_FULL=1 runs the whole 21x21 of all 3 seeds. Breaks its own data: a worker shipping one chunk one stage early must be named as exactly that chunk."
+ }
+]

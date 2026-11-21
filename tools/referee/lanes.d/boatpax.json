@@ -1,0 +1,1 @@
+{"id":"boatpax","mob":"boat","pool":true,"up":0.5,"nbt":"Passengers:[{id:\"minecraft:pig\",NoAI:1b,PersistenceRequired:1b}]","note":"#9441: boat on open water with a NON-player passenger (a Player-ridden boat is not simulated by the server: docs/decisions/9441-boat-player-rider-no-server-truth.md)"}

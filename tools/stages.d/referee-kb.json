@@ -1,0 +1,3 @@
+[
+  { "id": "kbrefcheck", "kind": "check", "file": "tools/referee/kbrefcheck.mjs", "args": [] }
+]

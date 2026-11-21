@@ -1,0 +1,1 @@
+[ { "id": "lockstep_fox", "kind": "check", "file": "tools/lockstep-fox-20.mjs", "args": [], "why": "#5997 G17-L4 lockstep fox: 20 seeds, engine trace deterministic, 6 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes fox (full suite)." } ]

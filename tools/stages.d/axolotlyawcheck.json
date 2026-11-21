@@ -1,0 +1,8 @@
+[
+ {
+  "id": "axolotlyawcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2715 -- AxolotlMoveControl is AquaticMoveControl(85, 10, ..): Ai.stepToward turns an axolotl 10 deg/tick (18 ticks for 180 deg), other mobs 90. Breaks its own override table (1 breaks caught)."
+ }
+]

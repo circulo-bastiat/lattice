@@ -1,0 +1,3 @@
+[
+  { "id": "spawnaudit", "kind": "check", "file": "tools/spawnaudit.mjs", "args": [], "why": "#1535 GATE M spawn rules: every biome spawners / structure spawn_overrides row (weight, group size) from the vanilla data, plus Spawn.RULES coverage and Spawn.LOCATION vs the decomp, against the engine; ledger tools/spawnaudit-known.json may only shrink; 8 deliberate breaks." }
+]

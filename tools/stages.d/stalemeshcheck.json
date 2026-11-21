@@ -1,0 +1,3 @@
+[
+  { "id": "stalemeshcheck", "kind": "check", "file": "tools/stalemeshcheck.mjs", "args": [] }
+]

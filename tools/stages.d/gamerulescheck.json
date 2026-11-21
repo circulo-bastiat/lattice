@@ -1,0 +1,1 @@
+[{"id":"gamerulescheck","kind":"check","file":"tools/gamerulescheck.mjs","args":[],"why":"#11246: 1.18.2 GameRules registry (35 rules, types, defaults, categories == decomp) + EditGameRulesScreen driven in dist/mclite.html: Done writes the shared store the engine reads, Cancel discards, int validation; 6 breaks caught."}]

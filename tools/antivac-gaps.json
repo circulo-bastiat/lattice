@@ -1,0 +1,20 @@
+{
+ "_note": "#11379: measured over 20 runs per check (MCLITE_PRESET=medium, headless, one at a time). Rule: runs>=20, all green, (real - reverted) > 5 * max(noise, floor). tools/antivacgapcheck.mjs enforces it.",
+ "bowdrawcheck.arrow": {
+  "real": 242,
+  "reverted": 79,
+  "noise": 4,
+  "runs": 20,
+  "green": 20,
+  "note": "real = min over runs, reverted = max over runs, noise = max quiet-pair px; cause of the old 900 px: drifting cloud layer, now off"
+ },
+ "mobpackcheck.frozen": {
+  "real": 0.05,
+  "reverted": 0,
+  "noise": 0,
+  "floor": 0.001,
+  "runs": 20,
+  "green": 20,
+  "note": "real = the assertion limit (blocks), reverted = max own displacement of the frozen zombie; player moved up to 2.437 in the old distance measure (pushed by the live zombie); 20/20 green after the own-displacement rewrite"
+ }
+}

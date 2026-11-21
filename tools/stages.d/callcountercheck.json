@@ -1,0 +1,3 @@
+[
+  { "id": "callcountercheck", "kind": "check", "file": "tools/callcountercheck.mjs", "args": [], "why": "#11323: the PostToolUse hook prints [call N/max] after every tool call (the call-41 report and call-46 handoff reserves are visible)" }
+]

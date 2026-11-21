@@ -1,0 +1,116 @@
+{
+ "module": "light",
+ "seed": 1,
+ "n": 12,
+ "files": [
+  {
+   "file": "src/08_lighting.js",
+   "stages": [
+    "lightemitcheck",
+    "lockstep-spawnnether",
+    "fluidinsetcheck",
+    "fluidtilecheck",
+    "flatcustomizecheck",
+    "flatworldcheck"
+   ],
+   "baselineDropped": 0,
+   "mutants": [
+    {
+     "line": 94,
+     "mutation": "constant +1",
+     "before": "this.h = (this.h + 1) % this.cap; this.n--;",
+     "after": "this.h = (this.h + 2) % this.cap; this.n--;",
+     "status": "KILLED",
+     "by": "lightemitcheck"
+    },
+    {
+     "line": 145,
+     "mutation": "constant +1",
+     "before": "var byte = ch === SKY ? ((lv << 4) | (cur & 15)) : ((cur & 0xF0) | lv);",
+     "after": "var byte = ch === SKY ? ((lv << 5) | (cur & 15)) : ((cur & 0xF0) | lv);",
+     "status": "KILLED",
+     "by": "lightemitcheck"
+    },
+    {
+     "line": 167,
+     "mutation": "flip ===",
+     "before": "return ((a.side(fromSt) >> FB[d]) & 1) === 1 || ((a.side(toSt) >> FB[d ^ 1]) & 1) === 1;",
+     "after": "return ((a.side(fromSt) >> FB[d]) & 1) !== 1 || ((a.side(toSt) >> FB[d ^ 1]) & 1) === 1;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 198,
+     "mutation": "flip ===",
+     "before": "if (ch === BLOCK) fresh = a.emit(st);",
+     "after": "if (ch !== BLOCK) fresh = a.emit(st);",
+     "status": "KILLED",
+     "by": "lightemitcheck"
+    },
+    {
+     "line": 199,
+     "mutation": "negate if",
+     "before": "if (!op) {",
+     "after": "if (!!op) {",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 200,
+     "mutation": "flip ===",
+     "before": "if (ch === SKY) {",
+     "after": "if (ch !== SKY) {",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 206,
+     "mutation": "+ -> -",
+     "before": "!faceBlocked(a, a.block(x, y + 1, z), st, 3)) fresh = 15;",
+     "after": "!faceBlocked(a, a.block(x, y - 1, z), st, 3)) fresh = 15;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 209,
+     "mutation": "> -> >=",
+     "before": "if (old > fresh) {",
+     "after": "if (old >= fresh) {",
+     "status": "KILLED",
+     "by": "lightemitcheck"
+    },
+    {
+     "line": 234,
+     "mutation": "< -> <=",
+     "before": "for (var d = 0; d < 6; d++) {",
+     "after": "for (var d = 0; d <= 6; d++) {",
+     "status": "KILLED",
+     "by": "lightemitcheck"
+    },
+    {
+     "line": 267,
+     "mutation": "constant +1",
+     "before": "var ox = dx < 0 ? 0 : (dx > 0 ? 15 : 0);",
+     "after": "var ox = dx < 1 ? 0 : (dx > 0 ? 15 : 0);",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 309,
+     "mutation": "constant +1",
+     "before": "if (L.rm.n === 0 && L.pr.n === 0) { L.pending = 0; return false; }",
+     "after": "if (L.rm.n === 1 && L.pr.n === 0) { L.pending = 0; return false; }",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 311,
+     "mutation": "constant +1",
+     "before": "var budget = budgetMicros == null ? 2000 : budgetMicros;",
+     "after": "var budget = budgetMicros == null ? 2001 : budgetMicros;",
+     "status": "KILLED",
+     "by": "lightemitcheck"
+    }
+   ],
+   "skippedUnviable": 0,
+   "sites": 292,
+   "killed": 6,
+   "survived": 6,
+   "score": 0.5
+  }
+ ]
+}

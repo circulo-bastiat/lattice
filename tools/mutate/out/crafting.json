@@ -1,0 +1,86 @@
+{
+ "module": "crafting",
+ "seed": 1,
+ "n": 12,
+ "files": [
+  {
+   "file": "src/02h_recipes.js",
+   "stages": [
+    "stonecuttercheck",
+    "smithing",
+    "hopperrefcheck",
+    "furnacerefcheck",
+    "behaviour07bcheck",
+    "lockstep-mooshroomuse"
+   ],
+   "baselineDropped": 0,
+   "mutants": [
+    {
+     "line": 42,
+     "mutation": "negate return",
+     "before": "function inv() { return Inv || (Inv = NS.Inventory); }",
+     "after": "function inv() { return !Inv || (Inv = NS.Inventory); }",
+     "status": "KILLED",
+     "by": "stonecuttercheck"
+    },
+    {
+     "line": 86,
+     "mutation": "negate if",
+     "before": "if (a.charCodeAt(0) === 35) {                        // '#'",
+     "after": "if (!a.charCodeAt(0) === 35) {                        // '#'",
+     "status": "KILLED",
+     "by": "stonecuttercheck"
+    },
+    {
+     "line": 117,
+     "mutation": ">= -> >",
+     "before": "if (rx < 0 || ry < 0 || rx >= rec.w || ry >= rec.h) {",
+     "after": "if (rx < 0 || ry < 0 || rx > rec.w || ry >= rec.h) {",
+     "status": "KILLED",
+     "by": "stonecuttercheck"
+    },
+    {
+     "line": 117,
+     "mutation": "|| -> &&",
+     "before": "if (rx < 0 || ry < 0 || rx >= rec.w || ry >= rec.h) {",
+     "after": "if (rx < 0 && ry < 0 || rx >= rec.w || ry >= rec.h) {",
+     "status": "KILLED",
+     "by": "stonecuttercheck"
+    },
+    {
+     "line": 124,
+     "mutation": "< -> <=",
+     "before": "if (ing < 0) { if (!I.isEmpty(cell)) return false; continue; }",
+     "after": "if (ing <= 0) { if (!I.isEmpty(cell)) return false; continue; }",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 196,
+     "mutation": "constant +1",
+     "before": "for (i = 0; i < shaped.length; i++) {",
+     "after": "for (i = 1; i < shaped.length; i++) {",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 215,
+     "mutation": "negate if",
+     "before": "if (C && typeof C.ruleGet === 'function') on = C.ruleGet('doLimitedCrafting') === 'true';",
+     "after": "if (!C && typeof C.ruleGet === 'function') on = C.ruleGet('doLimitedCrafting') === 'true';",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 226,
+     "mutation": "< -> <=",
+     "before": "for (i = 0; i < sp.length; i++) {",
+     "after": "for (i = 0; i <= sp.length; i++) {",
+     "status": "SURVIVED"
+    }
+   ],
+   "skippedUnviable": 0,
+   "sites": 678,
+   "killed": 4,
+   "survived": 4,
+   "score": 0.5
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "befixedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#635: item-frame (fixed) display of block-entity items (skulls, conduit, beds, banners, shield, chests) matches the jar"
+ }
+]

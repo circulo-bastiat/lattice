@@ -1,0 +1,1 @@
+[{"id":"chat11610check","kind":"check","file":"tools/chat11610check.mjs","args":[],"why":"#11610: 15c_chat.js ChatHud fade/history/wrap and ConfirmChatLinkScreen open_url gate via Chat.add/handleClick; source breaks caught."}]

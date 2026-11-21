@@ -1,0 +1,8 @@
+[
+ {
+  "id": "witchpotioncheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/witchpotion-s95 (QUEUE 0.2 raid loop, next step) -- THE WITCH'S REAL POTION THROW: a live `potion` projectile + splash (07z_potion.js), `Ai.ProjectileAttackGoal` (a real transcription, replacing the RangedBowAttackGoal/arrow stand-in), and the witch's own thrown-potion CHOICE + self-drunk buffs (WitchEntity.attack/tickMovement)."
+ }
+]

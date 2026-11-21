@@ -1,0 +1,3 @@
+[
+  { "id": "boxuvcheck", "kind": "check", "file": "tools/boxuvcheck.mjs", "args": [] }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "bellusecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8062 -- BellBlock.onUse/isPointOnBell: a player click on the bell body (side face, hit y <= 0.8124, axis matching facing/attachment) rings it (BE ringing, sound block.bell.use, stat bell_ring, ring_bell); a miss does not."
+ }
+]

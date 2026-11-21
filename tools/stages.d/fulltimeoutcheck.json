@@ -1,0 +1,1 @@
+[{"id":"fulltimeoutcheck","kind":"check","file":"tools/fulltimeoutcheck.mjs","args":[],"why":"21 Oct: a full-suite stage that only TIMED OUT is inconclusive, not red (no RED issue, one tracking issue); timedOutIds reads the final row, mergeShards keeps timedOut apart from failedStages, planTimeoutIssue creates/updates/closes one issue, fullshard/full wiring; 9 breaks caught."}]

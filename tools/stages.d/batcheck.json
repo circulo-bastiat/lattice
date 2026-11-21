@@ -1,0 +1,9 @@
+[
+ {
+  "id": "batcheck",
+  "kind": "check",
+  "file": "tools/batcheck.mjs",
+  "args": [],
+  "why": "D-533 (G18c): the bat"
+ }
+]

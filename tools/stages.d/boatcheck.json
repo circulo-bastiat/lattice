@@ -1,0 +1,8 @@
+[
+ {
+  "id": "boatcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18a-1 (#209): the boat draws. BoatEntityModel's boxes re-parsed from .decomp against the loaded layer, setPaddleAngle/interpolatePaddlePhase/the renderer's PoseStack (damage + bubble wobble) re-derived independently, the six wood sheets baked, 'boat — G17c' off ER.OWED. The picture proof is spritecheck §3b."
+ }
+]

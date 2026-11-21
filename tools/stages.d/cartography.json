@@ -1,0 +1,9 @@
+[
+ {
+  "id": "cartography",
+  "kind": "check",
+  "file": "tools/cartographycheck.mjs",
+  "args": [],
+  "why": "#8058 G19e: CartographyTableScreenHandler as Menu.cartography*: paper zooms up to scale 4, glass pane locks, empty map clones x2, take consumes one of each; breaks its own data (scale cap removed, lock check, clone count, lock flag)."
+ }
+]

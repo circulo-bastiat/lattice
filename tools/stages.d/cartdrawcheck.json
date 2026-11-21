@@ -1,0 +1,8 @@
+[
+ {
+  "id": "cartdrawcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#315 (G25g): a cart on a REAL rail is drawn with the slope pitch (MinecartRender.pose reads NS.Minecart.snapPositionToRail[WithOffset]; before, only a hand-set e.cartSnap did) and each of the seven carts shows its default block (chest/furnace lit/hopper/tnt/spawner/command_block); breaks its own data. Pixel section owed to a browser stage."
+ }
+]

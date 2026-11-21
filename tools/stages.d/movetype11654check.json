@@ -1,0 +1,1 @@
+[{"id":"movetype11654check","kind":"check","file":"tools/movetype11654check.mjs","args":[],"why":"#11654: 07zz1_phantom.js MovementType (circle/swoop) reachable from 07k_goals phantom goals and gates Start/Swoop/Circle goals; 5 breaks caught."}]

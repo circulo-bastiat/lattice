@@ -1,0 +1,3 @@
+[
+  { "id": "textsnapcheck", "kind": "check", "file": "tools/textsnapcheck.mjs", "args": [] }
+]

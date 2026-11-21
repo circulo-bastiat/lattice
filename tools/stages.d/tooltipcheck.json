@@ -1,0 +1,8 @@
+[
+ {
+  "id": "tooltipcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#365 -- ItemStack.getTooltip / Screen.renderTooltipFromComponents: rarity name colour, the 'When in Main Hand:' attribute section, HideFlags, custom name, and the tooltip geometry (mouse+12/-12, flip 28+w, bottom clamp, 2 px title gap, height 10n). Breaks its own expectations and shows them caught."
+ }
+]

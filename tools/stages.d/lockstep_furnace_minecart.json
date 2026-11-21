@@ -1,0 +1,1 @@
+[{"id": "lockstep_furnace_minecart", "kind": "check", "file": "tools/lockstep-furnace_minecart.mjs", "args": [], "why": "#5516 G17-L4: furnace_minecart lane engine trace, 20 salts deterministic; tampered pos 1e-9/yaw/row-shift breaks caught."}]

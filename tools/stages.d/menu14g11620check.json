@@ -1,0 +1,1 @@
+[{"id":"menu14g11620check","kind":"check","file":"tools/menu14g11620check.mjs","args":[],"why":"#11620: 14g_menu.js BrewingStandScreen/BrewingStandScreenHandler/ForgingScreenHandler/Property/CraftingResultSlot/FurnaceFuelSlot/FurnaceOutputSlot/ShulkerBoxSlot behaviour + reachability; source breaks caught."}]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "commandcheck",
+  "kind": "check",
+  "args": [],
+  "why": "PLAN G12b — Brigadier and the nine player commands: the roster and the operator levels against the bytecode's own table, the parser against Brigadier's rules, and a scan that refuses hard-coded English anywhere in either module (D-316)."
+ }
+]

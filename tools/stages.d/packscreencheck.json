@@ -1,0 +1,1 @@
+[{"id":"packscreencheck","kind":"check","file":"tools/packscreencheck.mjs","args":[],"why":"#11247: Resource Packs / Data Packs screen (PackScreen, PackListWidget, ResourcePackOrganizer) in the built dist: columns, enable/disable/move rules, Done and Esc apply, ruled Open Pack Folder; 10 breaks caught."}]

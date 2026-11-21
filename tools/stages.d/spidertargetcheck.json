@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spidertargetcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4288 SpiderTargetGoal (Player + IronGolem, spider + cave_spider) carries sight, mustSee, reciprocalChance 10 like ActiveTargetGoal(mob,cls,true); breaks its own source to prove it can fail."
+ }
+]

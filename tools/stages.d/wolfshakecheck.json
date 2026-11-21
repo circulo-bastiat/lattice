@@ -1,0 +1,8 @@
+[
+ {
+  "id": "wolfshakecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#909: wolf wet-fur shake (WolfEntity.tick/tickMovement: progress +0.05, entity.wolf.shake vol 0.4, splash particles, ends at last>=2.0); proves it can fail (breaks step, sound, particles, wet latch)."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "stalactitetridentcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-K8 — PointedDripstoneBlock.onProjectileHit: trident >0.6 destroys the tip, arrows never; lowers its own threshold to prove it can fail."
+ }
+]

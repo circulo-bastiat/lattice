@@ -1,0 +1,1 @@
+[{"id":"rolewhocheck","kind":"check","args":[],"why":"#6646 -- only the commander role signs as commander (a fixer signing as commander swallowed the commander mail), and the maxPerHour waker arms only when the worker hour cap holds (one waker per worker start under per-account fill)."}]

@@ -1,0 +1,1 @@
+{ "id": "zombie_melee_easy", "mob": "zombie", "hurt": true, "diff": "easy", "note": "#12327: zombie melee on the unarmoured survival player at easy; Health + AbsorptionAmount per tick (hurt window and damage scaling by difficulty)" }

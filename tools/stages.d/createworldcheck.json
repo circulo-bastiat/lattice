@@ -1,0 +1,9 @@
+[
+ {
+  "id": "createworldcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ]
+ }
+]

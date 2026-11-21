@@ -1,0 +1,1 @@
+[{"id": "lectern11622check", "kind": "check", "file": "tools/lectern11622check.mjs", "args": [], "why": "#11622: 14n_book.js LecternScreen (Book.openLectern, button forwarding, onLecternScreen) and its 15_hud.js/14l_use.js entry points; each cut must fail; breaks caught."}]

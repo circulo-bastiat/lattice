@@ -1,0 +1,1 @@
+[{"id":"player11597check","kind":"check","file":"tools/player11597check.mjs","args":[],"why":"#11597: 14_player.js ChestType/DoorHinge/DoubleBlockHalf/BannerBlockEntity/BlockItem/EnderChestInventory/JumpingMount through withChestType/doorHinge/secondCell/bannerTagAt/applyBannerTag; each cut must fail; breaks caught."}]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-explode", "kind": "check", "file": "tools/referee/creeperlockstepcheck.mjs", "args": [], "why": "#6292 G17-L44: lockstep scenario explode, 20 salts: ignited creeper (fuse 30) beside a stone/dirt/glass patch and a cow - swell, blast tick, destroyed block set, cow health and knockback vs decomp CreeperEntity/Explosion." } ]

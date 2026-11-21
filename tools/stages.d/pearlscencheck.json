@@ -1,0 +1,3 @@
+[
+  { "id": "pearlscencheck", "kind": "check", "file": "tools/referee/pearlscencheck.mjs", "args": [], "why": "#6312 G17-L61: the pearl lockstep lane scenario (3 throws: stone, wall, cow) is a valid playerlane script." }
+]

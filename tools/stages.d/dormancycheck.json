@@ -1,0 +1,3 @@
+[
+  { "id": "dormancycheck", "kind": "check", "file": "tools/dormancycheck.mjs", "args": [] }
+]

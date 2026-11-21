@@ -1,0 +1,1 @@
+[{"id":"wanderpoiaudit11484check","kind":"check","file":"tools/wanderpoiaudit11484check.mjs","args":[],"why":"#11484: WanderAroundPointOfInterestGoal (PointOfInterest section distance, CuboidBlockIterator order) with source breaks caught (5)."}]

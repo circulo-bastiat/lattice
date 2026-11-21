@@ -1,0 +1,3 @@
+[
+  { "id": "fillwakecheck", "kind": "check", "file": "tools/fillwakecheck.mjs", "args": [] }
+]

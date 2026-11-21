@@ -1,0 +1,1 @@
+[ { "id": "lockstep-shove", "kind": "check", "file": "tools/lockstepshovecheck.mjs", "args": [], "why": "#6719 G17-L123: lockstep scenario shove (6 mobs + player body in a 2x2 pen, 20 salts, per-tick velocity vs an independent Entity.pushAwayFrom: 0.05 scale, 0.01 cutoff, sleeping/passenger/noClip/spectator skips); 0.05->0.06, 0.01 cutoff and sleeping rule caught." } ]

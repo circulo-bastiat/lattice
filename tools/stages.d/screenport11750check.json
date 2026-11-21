@@ -1,0 +1,8 @@
+[
+ {
+  "id": "screenport11750check",
+  "kind": "check",
+  "args": [],
+  "why": "#11750 -- 02q_screen.js net/minecraft/screen (ScreenHandlerType SlotActionType PropertyDelegate ScreenHandlerContext listeners factories + Furnace/Crafting/3x3/Beacon/Player layouts); attached to 14g_menu Menu; breaks its own data."
+ }
+]

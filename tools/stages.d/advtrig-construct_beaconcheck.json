@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-construct_beaconcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT38 (#8041) — Adv.matchers construct_beacon + the tickBeacon call site; create_beacon / create_full_beacon complete, level 3 / far player do not; breaks its own matcher."
+ }
+]

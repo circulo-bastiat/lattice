@@ -1,0 +1,8 @@
+[
+  {
+    "id": "noclaimreleasecheck",
+    "kind": "check",
+    "file": "tools/noclaimreleasecheck.mjs",
+    "args": []
+  }
+]

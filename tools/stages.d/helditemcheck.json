@@ -1,0 +1,8 @@
+[
+ {
+  "id": "helditemcheck",
+  "kind": "check",
+  "args": [],
+  "why": "s134: mob-held items (HeldItemFeatureRenderer)"
+ }
+]

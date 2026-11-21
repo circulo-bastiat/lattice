@@ -1,0 +1,63 @@
+# Published into the lattice mirror by tools/infra/mirror.mjs (#8914). One hosted job = one pack of up to 4 Claude workers, each in its own dir,
+# same tools/brain/launch.mjs code path as the VM (the per-slot sequence lives in tools/infra/mirror/pack-slot.sh, read from the private clone at run time,
+# so changing it needs no republish of this file). Every code-touching step is silent (#8913): the logs are public. Nothing here may name the owner.
+name: worker-pack
+# #9324: the run name carries an OPAQUE pool tag (p0, p1 = the index in roles.json accounts, never an account name: these logs are public)
+# so the brain can count each reserve pool's running workers on the mirror.
+run-name: worker-pack ${{ inputs.pool || 'p' }} x${{ inputs.workers }}
+on:
+  workflow_dispatch:
+    inputs:
+      issues: { description: 'csv of claimed issue numbers (may be empty: each worker claims)', required: false, default: '' }
+      workers: { description: 'workers in this pack (1-4)', required: false, default: '1' }
+      account: { description: 'account name (selects the lattice secret)', required: false, default: '' }
+      pool: { description: 'opaque pool tag for the run name (#9324)', required: false, default: '' }
+permissions:
+  contents: read
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      NODE_OPTIONS: --dns-result-order=ipv4first
+      MCLITE_HOSTED: '1'
+      ISSUES: ${{ inputs.issues }}
+      WORKERS: ${{ inputs.workers }}
+      ACCOUNT: ${{ inputs.account }}
+    steps:
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: tools
+        run: |
+          # the secret-bearing steps below source tools/infra/mirror/silent.sh from the clone; this one has no secrets and installs the Claude CLI
+          npm install -g @anthropic-ai/claude-code >"$RUNNER_TEMP/npm.log" 2>&1; echo "[silent] claude-cli exit=$?"
+      - name: source
+        env: { PAT: '${{ secrets.MCLITE_PAT }}', SRC: '${{ secrets.MCLITE_SRC }}' }
+        run: |
+          silent() { local n="$1"; shift; "$@" >> "$RUNNER_TEMP/out.log" 2>&1; local rc=$?; echo "[silent] $n exit=$rc"; return $rc; }
+          silent clone git -c credential.helper= clone -q "https://x-access-token:${PAT}@github.com/${SRC}.git" work
+      - name: data
+        env: { STORE_URL: '${{ secrets.STORE_URL }}' }
+        run: |
+          . work/tools/infra/mirror/silent.sh
+          cd work && silent data node tools/cloud/bootstrap.mjs --store "$STORE_URL" --no-suite && silent build node build.mjs
+      - name: workers
+        env:
+          CLAUDE_TOKEN_MAX: ${{ secrets.CLAUDE_TOKEN_MAX }}
+          CLAUDE_TOKEN_PRO: ${{ secrets.CLAUDE_TOKEN_PRO }}
+          MCLITE_PAT: ${{ secrets.MCLITE_PAT }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+          MIRROR_REPO: ${{ github.repository }}
+        run: |
+          . work/tools/infra/mirror/silent.sh
+          . work/tools/infra/mirror/pack-home.sh
+          . work/tools/infra/mirror/pack-slot.sh
+          pack_home || { echo "[silent] home exit=1 (a token secret is missing)"; exit 1; }
+          n=${WORKERS:-1}; [ "$n" -le 4 ] || n=4; pids=""
+          for i in $(seq 1 "$n"); do
+            pin=$(echo "$ISSUES" | cut -d, -f"$i")
+            cp -r work "w$i"
+            ( silent "worker$i" pack_slot "$PWD/w$i" "$pin" ) &
+            pids="$pids $!"
+          done
+          rc=0; for p in $pids; do wait "$p" || rc=1; done; exit $rc

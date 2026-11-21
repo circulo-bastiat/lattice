@@ -1,0 +1,3 @@
+[
+  { "id": "chunkstatuscheck", "kind": "check", "file": "tools/chunkstatuscheck.mjs", "args": [] }
+]

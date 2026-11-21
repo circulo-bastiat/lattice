@@ -1,0 +1,8 @@
+[
+ {
+  "id": "offhandhandcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#10747 G19d-a — first-person OFFHAND item: equipProgressOffHand curve, OFF_HAND pose (i=-1, swing only when swingArm==1) vs an independent matrix implementation, build draws slot 40."
+ }
+]

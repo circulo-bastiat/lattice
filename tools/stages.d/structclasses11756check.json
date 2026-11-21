@@ -1,0 +1,1 @@
+[{"id":"structclasses11756check","kind":"check","file":"tools/structclasses11756check.mjs","args":[],"why":"#11756: net/minecraft/structure StructureSets/StructureSetKeys/JigsawJunction/StructurePiecesList/StructurePiecesHolder (04w2_structure_classes.js), reached from Structures.init cross-check; breaks its own table and logic."}]

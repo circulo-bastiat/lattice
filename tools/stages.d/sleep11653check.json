@@ -1,0 +1,1 @@
+[{"id":"sleep11653check","kind":"check","file":"tools/sleep11653check.mjs","args":[],"why":"#11653: 14m_sleep.js Sleep.use/tick/wake: EntityPose SLEEPING/STANDING dims, SleepManager night skip at 100 ticks, setSpawnPoint, post-wake timer decay to 110; source breaks caught."}]

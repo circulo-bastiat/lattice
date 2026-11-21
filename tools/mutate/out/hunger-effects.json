@@ -1,0 +1,223 @@
+{
+ "module": "hunger-effects",
+ "seed": 1,
+ "n": 12,
+ "files": [
+  {
+   "file": "src/14d_survival.js",
+   "stages": [
+    "hungerrefcheck",
+    "lockstep-hunger",
+    "lockstep-attackeffect",
+    "effectrefcheck",
+    "lockstep-effectattrs",
+    "hungereffectsmutcheck"
+   ],
+   "baselineDropped": 0,
+   "mutants": [
+    {
+     "line": 144,
+     "mutation": "constant +1",
+     "before": "e.exhaustion = 0;",
+     "after": "e.exhaustion = 1;",
+     "status": "KILLED",
+     "by": "hungereffectsmutcheck"
+    },
+    {
+     "line": 150,
+     "mutation": "constant +1",
+     "before": "e.xpLevel = 0;",
+     "after": "e.xpLevel = 1;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 184,
+     "mutation": "&& -> ||",
+     "before": "if (Iv && IT && IT.ready && inv && inv.slots) {",
+     "after": "if (Iv || IT && IT.ready && inv && inv.slots) {",
+     "status": "KILLED",
+     "by": "hungereffectsmutcheck"
+    },
+    {
+     "line": 187,
+     "mutation": "negate if",
+     "before": "if (Iv.isEmpty(st)) continue;",
+     "after": "if (!Iv.isEmpty(st)) continue;",
+     "status": "KILLED",
+     "by": "hungereffectsmutcheck"
+    },
+    {
+     "line": 233,
+     "mutation": "|| -> &&",
+     "before": "Sv.canEat = function (e, alwaysEdible) { return alwaysEdible || e.food < Sv.MAX_FOOD; };",
+     "after": "Sv.canEat = function (e, alwaysEdible) { return alwaysEdible && e.food < Sv.MAX_FOOD; };",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 248,
+     "mutation": "constant +1",
+     "before": "var f1 = Math.max(F(armor * 0.2), Math.min(F(armor - F(damage / f)), 20));",
+     "after": "var f1 = Math.max(F(armor * 0.2), Math.min(F(armor - F(damage / f)), 21));",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 282,
+     "mutation": "negate if",
+     "before": "if (!src || src.unblockable || src.absolute || !Iv || !Cb || !Cb.enchantLevel || !inv || !inv.slots) return 0;",
+     "after": "if (!!src || src.unblockable || src.absolute || !Iv || !Cb || !Cb.enchantLevel || !inv || !inv.slots) return 0;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 316,
+     "mutation": "<= -> <",
+     "before": "for (var dx = -rad; dx <= rad; dx++) for (var dz = -rad; dz <= rad; dz++) {",
+     "after": "for (var dx = -rad; dx < rad; dx++) for (var dz = -rad; dz <= rad; dz++) {",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 320,
+     "mutation": "* -> /",
+     "before": "if (ex * ex + ey * ey + ez * ez >= rad * rad) continue;",
+     "after": "if (ex / ex + ey * ey + ez * ez >= rad * rad) continue;",
+     "status": "KILLED",
+     "by": "hungereffectsmutcheck"
+    },
+    {
+     "line": 321,
+     "mutation": "flip !==",
+     "before": "if (W.getBlock(x, y + 1, z) !== 0) continue;",
+     "after": "if (W.getBlock(x, y + 1, z) === 0) continue;",
+     "status": "KILLED",
+     "by": "hungereffectsmutcheck"
+    },
+    {
+     "line": 349,
+     "mutation": "&& -> ||",
+     "before": "for (var k = 0; k < 2 && !hit; k++) {",
+     "after": "for (var k = 0; k < 2 || !hit; k++) {",
+     "status": "KILLED",
+     "by": "hungereffectsmutcheck"
+    },
+    {
+     "line": 351,
+     "mutation": "<= -> <",
+     "before": "if (st && st.n > 0 && st.i === id) { st.n--; if (st.n <= 0) Iv.setItem(e.inventory, slots[k], Iv.EMPTY); hit = true; }",
+     "after": "if (st && st.n > 0 && st.i === id) { st.n--; if (st.n < 0) Iv.setItem(e.inventory, slots[k], Iv.EMPTY); hit = true; }",
+     "status": "SURVIVED"
+    }
+   ],
+   "skippedUnviable": 0,
+   "sites": 641,
+   "killed": 6,
+   "survived": 6,
+   "score": 0.5
+  },
+  {
+   "file": "src/07q_effects.js",
+   "stages": [
+    "potioncolorcheck",
+    "effecttracecheck",
+    "lockstep-effects",
+    "lockstep-hunger",
+    "lockstep-traderpotion",
+    "effectsmutcheck"
+   ],
+   "baselineDropped": 0,
+   "mutants": [
+    {
+     "line": 80,
+     "mutation": "negate return",
+     "before": "return dst;",
+     "after": "return !dst;",
+     "status": "KILLED",
+     "by": "effectsmutcheck"
+    },
+    {
+     "line": 127,
+     "mutation": "flip ===",
+     "before": "if (inst.duration === 0 && inst.hiddenEffect) {",
+     "after": "if (inst.duration !== 0 && inst.hiddenEffect) {",
+     "status": "KILLED",
+     "by": "effectsmutcheck"
+    },
+    {
+     "line": 127,
+     "mutation": "&& -> ||",
+     "before": "if (inst.duration === 0 && inst.hiddenEffect) {",
+     "after": "if (inst.duration === 0 || inst.hiddenEffect) {",
+     "status": "KILLED",
+     "by": "effectsmutcheck"
+    },
+    {
+     "line": 154,
+     "mutation": "+ -> -",
+     "before": "onApplied: function (e, amp) { ES.setAbsorption(e, (e.absorption || 0) + 4 * (amp + 1)); },",
+     "after": "onApplied: function (e, amp) { ES.setAbsorption(e, (e.absorption || 0) - 4 * (amp + 1)); },",
+     "status": "KILLED",
+     "by": "effectsmutcheck"
+    },
+    {
+     "line": 168,
+     "mutation": "&& -> ||",
+     "before": "if (h && h[which]) h[which](e, inst.amplifier);",
+     "after": "if (h || h[which]) h[which](e, inst.amplifier);",
+     "status": "KILLED",
+     "by": "effectsmutcheck"
+    },
+    {
+     "line": 179,
+     "mutation": "&& -> ||",
+     "before": "if (inst.effect === 'levitation' && e.type === 'player') { e.levitationStartPos = [e.x, e.y, e.z]; e.levitationTicks = 0; }",
+     "after": "if (inst.effect === 'levitation' || e.type === 'player') { e.levitationStartPos = [e.x, e.y, e.z]; e.levitationTicks = 0; }",
+     "status": "KILLED",
+     "by": "effectsmutcheck"
+    },
+    {
+     "line": 179,
+     "mutation": "constant +1",
+     "before": "if (inst.effect === 'levitation' && e.type === 'player') { e.levitationStartPos = [e.x, e.y, e.z]; e.levitationTicks = 0; }",
+     "after": "if (inst.effect === 'levitation' && e.type === 'player') { e.levitationStartPos = [e.x, e.y, e.z]; e.levitationTicks = 1; }",
+     "status": "KILLED",
+     "by": "effectsmutcheck"
+    },
+    {
+     "line": 251,
+     "mutation": "&& -> ||",
+     "before": "return !!(e && e.effects && e.effects[effect] && e.effects[effect].duration > 0);",
+     "after": "return !!(e || e.effects && e.effects[effect] && e.effects[effect].duration > 0);",
+     "status": "KILLED",
+     "by": "effectsmutcheck"
+    },
+    {
+     "line": 251,
+     "mutation": "constant +1",
+     "before": "return !!(e && e.effects && e.effects[effect] && e.effects[effect].duration > 0);",
+     "after": "return !!(e && e.effects && e.effects[effect] && e.effects[effect].duration > 1);",
+     "status": "KILLED",
+     "by": "effectsmutcheck"
+    },
+    {
+     "line": 288,
+     "mutation": "constant +1",
+     "before": "health_boost:   [{ attr: 'generic.max_health', uuid: '5D6F0BA2-1186-46AC-B896-C61C5CEE99CC', amount: 4.0, op: 0 }],",
+     "after": "health_boost:   [{ attr: 'generic.max_health', uuid: '5D6F0BA2-1186-46AC-B896-C61C5CEE99CC', amount: 4.0, op: 1 }],",
+     "status": "KILLED",
+     "by": "effectsmutcheck"
+    },
+    {
+     "line": 295,
+     "mutation": "+ -> -",
+     "before": "return m.amount * (amp + 1);",
+     "after": "return m.amount * (amp - 1);",
+     "status": "KILLED",
+     "by": "effectsmutcheck"
+    }
+   ],
+   "skippedUnviable": 0,
+   "sites": 477,
+   "killed": 11,
+   "survived": 0,
+   "score": 1
+  }
+ ]
+}

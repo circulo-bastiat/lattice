@@ -1,0 +1,8 @@
+[
+ {
+  "id": "evokerspelllookcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1126 -- SpellcastingIllager LookAtTargetGoal: start clears the path, tick turns the head via LookControl (rate-limited, no e.yaw write), spellTicks-- lives in mobTick. A yaw-snapping goal that decrements in tick must be noticed."
+ }
+]

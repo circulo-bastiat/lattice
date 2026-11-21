@@ -1,0 +1,1 @@
+[ { "id": "lockstep_fishing_bobber", "kind": "check", "file": "tools/lockstep-fishing_bobber-20.mjs", "args": [], "why": "#8291 G17-L4 lockstep fishing_bobber: 20 seeds, engine trace deterministic, 6 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes fishing_bobber (full suite)." } ]

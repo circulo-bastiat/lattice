@@ -1,0 +1,8 @@
+[
+ {
+  "id": "signtextdrawcheck",
+  "kind": "browser",
+  "args": ["dist/mclite.html"],
+  "why": "#9262 -- BE.signTextLayout glyph quads drawn on the sign board (WebGL2 + WebGPU beam pass), proven against a real screenshot: text changes pixels vs an empty sign, dye changes colour, glow adds the outline; prints '<n> breaks caught'. --fast skips it (browser stage)."
+ }
+]

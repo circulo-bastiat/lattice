@@ -1,0 +1,9 @@
+[
+ {
+  "id": "blockclassescheck",
+  "kind": "check",
+  "file": "tools/blockclassescheck.mjs",
+  "args": [],
+  "why": "#11721 -- every net/minecraft/block Yarn class maps to engine registry blocks with the vanilla property set; breaks renamed/dropped/extra properties."
+ }
+]

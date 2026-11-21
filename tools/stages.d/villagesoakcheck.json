@@ -1,0 +1,3 @@
+[
+  { "id": "villagesoakcheck", "kind": "check", "file": "tools/villagesoakcheck.mjs", "args": [] }
+]

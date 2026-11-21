@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dolphintrailcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4719 -- DolphinEntity.tick client branch: a dolphin touching water with v^2 > 0.03 spawns 4 'dolphin' (SuspendParticle.DolphinFactory) particles behind it; none when slow or dry. Its anti-vacuity rows swap in a speed/water-blind trail and must notice."
+ }
+]

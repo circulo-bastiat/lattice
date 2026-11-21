@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-target_hitcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT26 (#7991) — Adv.matchers target_hit + TargetBlock.onProjectileHit call site; bullseye completes for a player arrow at power 15, not for a non-player owner; breaks its own matcher."
+ }
+]

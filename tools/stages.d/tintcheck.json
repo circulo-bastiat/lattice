@@ -1,0 +1,8 @@
+[
+ {
+  "id": "tintcheck",
+  "kind": "check",
+  "args": [],
+  "file": "tools/tintcheck.mjs"
+ }
+]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-despawn", "kind": "check", "file": "tools/referee/despawnlockstepcheck.mjs", "args": [], "why": "#6269 G17-L37: lockstep scenario despawn (zombie/cow at 200..20 blocks, persistent and not, 20 salts x 2400 ticks: removal tick + despawnCounter vs an independent checkDespawn transcription); roll 1/800->1/400 and idle gate 600->300 caught. Heavy: not --core." } ]

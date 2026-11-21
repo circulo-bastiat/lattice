@@ -1,0 +1,1 @@
+{ "id": "dragon_fireball", "mob": "dragon_fireball", "up": 1, "nbt": "power:[0.1d,0.0d,0.0d]", "note": "#8275: dragon fireball flies down +x into the corridor wall; impact spawns the breath cloud" }

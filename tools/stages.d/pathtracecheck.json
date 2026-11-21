@@ -1,0 +1,3 @@
+[
+  { "id": "pathtracecheck", "kind": "check", "file": "tools/referee/pathtracecheck.mjs", "args": [], "why": "#6217 G17-L12: serverRow fills path from agent nav path nodes; shifted node reported as field path." }
+]

@@ -1,0 +1,1 @@
+[{"id":"noretiredlogincheck","kind":"check","file":"tools/noretiredlogincheck.mjs","args":[],"why":"#11398: the retired second Claude login's name appears nowhere outside docs/archive, DECISIONS.md history and src/; needle built from pieces; 5 breaks caught."}]

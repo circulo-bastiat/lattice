@@ -1,0 +1,1 @@
+[{"id":"tintmap11607check","kind":"check","file":"tools/tintmap11607check.mjs","args":[],"why":"#11607: 06b_tintmap.js BiomeColors/ColorResolver blend (Tint.blendColor) via Tint.fillChunk; source breaks caught."}]

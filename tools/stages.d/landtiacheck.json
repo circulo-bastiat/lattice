@@ -1,0 +1,3 @@
+[
+  { "id": "landtiacheck", "kind": "check", "file": "tools/landtiacheck.mjs", "args": [] }
+]

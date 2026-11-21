@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobtracecheck",
+  "kind": "check",
+  "args": [],
+  "why": "KW-51-1 (#598) -- per-tick trace of a wandering chicken, cow and zombie: yBodyRot must follow the aim yaw on every tick the mob moved, head within 75 deg of body, no sideways drift, limb swing runs only while moving. Caught `Ai.tickHead` running the body control before the travel (body never followed, mobs drawn sideways)."
+ }
+]

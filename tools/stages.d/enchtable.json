@@ -1,0 +1,8 @@
+[
+ {
+  "id": "enchtable",
+  "kind": "check",
+  "args": [],
+  "why": "PLAN G22b (#194) -- the enchanting table as a block: the bookshelf count Hud.openEnchanting reads off World.getBlock (BOOKSHELF_OFFSETS + canAccessBookshelf, isAir incl. cave_air; a torch between drops the power), and the player's enchantmentTableSeed (offers stable across reopens and a save, re-rolled only by an enchant). Breaks: the LOS term stripped from the source, isAir narrowed, the seed fixed after an enchant, the seed dropped from the save."
+ }
+]

@@ -1,0 +1,1 @@
+[{"id":"redstonegateproofcheck","kind":"check","file":"tools/redstonegateproofcheck.mjs","args":[],"why":"#11570: AbstractRedstoneGateBlock.isRedstoneGate (07zzv_hanging.js solidish): hanging entities stay on repeater/comparator, not air; 3 breaks caught."}]

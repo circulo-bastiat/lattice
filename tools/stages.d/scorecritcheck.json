@@ -1,0 +1,8 @@
+[
+ {
+  "id": "scorecritcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G26x (#11046) - ScoreboardCriterion.getOrCreateStatCriterion: only registry-valid stat criteria; score follows increaseStat; breaks its own data."
+ }
+]

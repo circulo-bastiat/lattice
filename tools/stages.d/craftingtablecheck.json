@@ -1,0 +1,8 @@
+[
+ {
+  "id": "craftingtablecheck",
+  "kind": "check",
+  "args": [],
+  "why": "PASS 17 JOB 1, session 44 (D-405) — the crafting table screen, AND the fix it forced: the result slot (both this 3x3 and Menu.playerMenu's own persistent 2x2) had never consumed the grid at all. Loads the real 15_hud.js/14g_menu.js and drives every take through Menu.doClick."
+ }
+]

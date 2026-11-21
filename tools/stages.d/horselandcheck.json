@@ -1,0 +1,1 @@
+[{"id":"horselandcheck","kind":"check","args":[],"why":"#3177 HorseBaseEntity.handleFallDamage: entity.horse.land (distance>1) and no small_fall/big_fall"}]

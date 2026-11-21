@@ -1,0 +1,1 @@
+[{"id": "lockstep-zombie", "kind": "check", "file": "tools/lockstep-zombie.mjs", "args": [], "why": "#5451: engine zombie chase lane, 20 salts, per-tick pos/yaw/pitch/target/attackTicks/health; tampered rows caught."}]

@@ -1,0 +1,1 @@
+[{"id": "lockstep-blockslow", "kind": "check", "file": "tools/referee/blockslowlockstepcheck.mjs", "args": [], "why": "#6606 G17-L80: lockstep scenario blockslow, 20 salts: cow falling through cobweb / sweet berry bush / powder snow plus honey and soul sand speed factors vs decomp makeStuckInBlock, getSpeedFactor, getBlockSpeedFactor."}]

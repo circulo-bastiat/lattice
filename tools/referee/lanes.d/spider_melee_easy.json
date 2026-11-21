@@ -1,0 +1,1 @@
+{ "id": "spider_melee_easy", "mob": "spider", "hurt": true, "diff": "easy", "note": "#12327: spider melee on the unarmoured survival player at easy; Health + AbsorptionAmount per tick (hurt window and damage scaling by difficulty)" }

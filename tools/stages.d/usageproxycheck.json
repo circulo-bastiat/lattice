@@ -1,0 +1,1 @@
+[{"id":"usageproxycheck","kind":"check","args":[],"why":"#7473 -- usaged must read Claude usage through curl when HTTPS_PROXY is set (Node fetch ignores the proxy, so proxy-only hosts always said 'fetch failed'), and go.mjs status must show the PC daemon's published per-account table when no account is live; broken wiring/behaviour must be caught (breaks caught)."}]

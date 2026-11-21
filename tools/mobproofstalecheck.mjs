@@ -1,0 +1,34 @@
+// mobproofstalecheck (#8227): a green proof cell goes STALE when the src it covers changes. Prints "<n> breaks caught".
+import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, cpSync, rmSync, existsSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { buildMatrix, DIMS } from './mobproof.mjs';
+import { coverHash } from './mobproof-stale.mjs';
+import { diffProven } from './mobproof-proven.mjs';
+const R = join(dirname(fileURLToPath(import.meta.url)), '..');
+let caught = 0, bad = 0; const ok = (c, w) => { if (c) caught++; else { bad++; console.log('NOT CAUGHT: ' + w); } };
+const tmp = mkdtempSync(join(tmpdir(), 'mps-'));
+for (const f of ['src/07k_goals.js', 'src/07e_loot.js', 'src/14j_combat.js', 'src/07j_entityrender.js', 'src/07l_spawn.js']) { mkdirSync(join(tmp, 'src'), { recursive: true }); cpSync(join(R, f), join(tmp, f)); }
+const cover = { root: tmp };
+const fix = mkdtempSync(join(tmpdir(), 'mpt-')); mkdirSync(join(fix, 'out'));
+writeFileSync(join(fix, 'mobl3-mobs.json'), JSON.stringify({ mobs: { cow: [], zombie: [] } }));
+for (const d of DIMS) writeFileSync(join(fix, 'out', d + '.json'), JSON.stringify({ cow: { pass: true }, zombie: { pass: true } }));
+mkdirSync(join(fix, 'referee', 'lanes.d'), { recursive: true }); for (const m of ['cow', 'zombie']) writeFileSync(join(fix, 'referee', 'lanes.d', m + '.json'), JSON.stringify({ mob: m }));
+const run = (prev) => buildMatrix({ tools: fix, out: join(fix, 'out'), cover, prev });
+const base = run(null);
+ok(base.rows.cow.goals === 'green' && base.rows.cow.hash.goals.length === 40, 'baseline green with a sha1');
+const edit = (f, fn) => { const p = join(tmp, f); const t = readFileSync(p, 'utf8'), n = fn(t); if (n === t) { console.log('no-op edit (not found): ' + f + ' ' + String(fn).slice(0, 90)); process.exit(1); } writeFileSync(p, n); };
+ok(run(base).rows.cow.goals === 'green', 'unchanged src stays green');
+edit('src/07k_goals.js', (s) => s.replace('gs.add(5, Ai.MOVE, new Ai.WanderAroundFarGoal(e, 1.0', 'gs.add(9, Ai.MOVE, new Ai.WanderAroundFarGoal(e, 1.0'));
+const M = run(base);
+ok(M.rows.cow.goals === 'stale' && !M.rows.cow.proven, 'cow goal priority edit flips cow goals to stale');
+ok(M.rows.zombie.goals === 'green', 'cow edit leaves zombie goals green');
+ok(M.rows.cow.drops === 'green', 'goal edit leaves cow drops green');
+const d = diffProven(M, ['cow', 'zombie']);
+ok(d.regressed.some((x) => x.mob === 'cow' && x.dimension === 'stale:goals'), 'diffProven lists stale:goals');
+edit('src/07k_goals.js', (s) => s.replace("      var speed = 1.0;   // D-417", "      var speed = 1.5;   // D-417"));
+ok(run(base).rows.cow.goals === 'stale' && run(base).rows.zombie.goals === 'stale', 'zombie edit flips zombie (and cow still stale from before)');
+ok(coverHash('cow', 'model', cover) === base.rows.cow.hash.model, 'model hash unaffected by goal edits');
+rmSync(tmp, { recursive: true }); rmSync(fix, { recursive: true });
+console.log(`${caught} breaks caught`); process.exit(bad ? 1 : 0);

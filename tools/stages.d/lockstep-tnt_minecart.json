@@ -1,0 +1,1 @@
+[ { "id": "lockstep-tnt_minecart", "kind": "check", "file": "tools/referee/tntminecartlockstepcheck.mjs", "args": [], "why": "#5391 G17-L4: lockstep scenario tnt_minecart, 20 seeds: pushed minecart on flat, sloped, curved and powered rail, per-tick pos+velocity exact vs decomp AbstractMinecartEntity.moveOnRail/applySlowdown." } ]

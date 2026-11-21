@@ -1,0 +1,1 @@
+[{"id":"instantstatuseffectcheck","kind":"check","file":"tools/instantstatuseffectcheck.mjs","args":[],"why":"#11680: InstantStatusEffect via Po.applySplashPotion -> ES.applyInstantEffect: heal 4<<amp, harm 6<<amp, proximity scaling, non-instant not applied instantly; 4 breaks caught."}]

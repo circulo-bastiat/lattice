@@ -1,0 +1,3 @@
+[
+  { "id": "firepunchcheck", "kind": "check", "file": "tools/firepunchcheck.mjs", "args": [] }
+]

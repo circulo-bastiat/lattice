@@ -1,0 +1,8 @@
+[
+ {
+  "id": "text11761check",
+  "kind": "check",
+  "args": [],
+  "why": "#11761 -- 02i_text.js net/minecraft/text (BaseText CharacterVisitor MutableText OrderedText ParsableText StringVisitable TextColor TranslationException); breaks its own data."
+ }
+]

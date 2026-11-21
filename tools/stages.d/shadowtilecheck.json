@@ -1,0 +1,8 @@
+[
+ {
+  "id": "shadowtilecheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18a-SD0 (#7065) -- misc/shadow.png packed as mob layer `shadow` and the model shaders' translucent-pass opacity; a blanked tile or unpatched shader must fail."
+ }
+]

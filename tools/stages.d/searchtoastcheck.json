@@ -1,0 +1,9 @@
+[
+ {
+  "id": "searchtoastcheck",
+  "kind": "check",
+  "file": "tools/searchtoastcheck.mjs",
+  "args": [],
+  "why": "#11724 -- net.minecraft.client.search.* and SystemToast/RecipeToast (src/14p_search.js): suffix array vs brute force, container semantics, toast queue rules, creative search wired, mutants caught."
+ }
+]

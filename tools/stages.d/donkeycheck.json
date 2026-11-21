@@ -1,0 +1,8 @@
+[
+ {
+  "id": "donkeycheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/donkey-s96 (QUEUE 0.2 G18e remainder close) -- DONKEY and MULE: placement tier (Ai.ROSTER, reusing horse's own list), the chest (e.hasChest, Mount.menu's 2->17 resize, the real HorseScreenHandler grid), and horse x donkey -> mule breeding (Breed.CHILD_SPECIES, mule's own infertility). AFTER mountcheck: same 07r_mount.js/07m_breed.js modules, live."
+ }
+]

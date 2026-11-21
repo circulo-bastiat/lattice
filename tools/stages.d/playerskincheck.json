@@ -1,0 +1,8 @@
+[
+ {
+  "id": "playerskincheck",
+  "kind": "check",
+  "args": [],
+  "why": "#211 G18a-3 -- the player model (player/player_slim, PlayerEntityModel boxes) drawn through the mob path with the jar's steve.png/alex.png: ear/cloak hidden, sleeves/pants/jacket follow their base part's setAngles, every packed skin pixel identical to the jar. Breaks its own data ('n breaks caught')."
+ }
+]

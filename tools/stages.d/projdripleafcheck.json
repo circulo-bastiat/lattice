@@ -1,0 +1,9 @@
+[
+ {
+  "id": "projdripleafcheck",
+  "kind": "check",
+  "file": "tools/projdripleafcheck.mjs",
+  "args": [],
+  "why": "#8667 -- BigDripleafBlock.onProjectileHit: arrow hit sets FULL at once with tilt_down once and the FULL reset tick; stem untouched; removing the handler goes red. Node-only."
+ }
+]

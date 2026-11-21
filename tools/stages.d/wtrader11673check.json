@@ -1,0 +1,1 @@
+[{"id":"wtrader11673check","kind":"check","file":"tools/wtrader11673check.mjs","args":[],"why":"#11673: 07zt_wtrader.js LookAtCustomerGoal/StopFollowingCustomerGoal reachable via ROSTER.wandering_trader, ServerWorldProperties trader counters via 16b_save; breaks caught."}]

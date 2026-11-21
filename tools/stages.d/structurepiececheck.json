@@ -1,0 +1,1 @@
+[{"id":"structurepiececheck","kind":"check","file":"tools/structurepiececheck.mjs","args":[],"why":"#11708: net/minecraft/structure/StructurePiece (Ctx applyX/ZTransform + fill clip in 04y_struct_nether_fortress.js) is reached via F.writePiece; a BridgePlatform's blaze spawner must land where vanilla puts it in all 4 facings; cutting the transform fails it (3 breaks caught)."}]

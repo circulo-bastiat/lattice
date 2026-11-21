@@ -1,0 +1,1 @@
+[ { "id": "lockstep-villager-lane", "kind": "check", "file": "tools/lockstep-villager-lane.mjs", "args": [], "why": "#5332 G17-L4 lockstep villager lane: 20 salts of the passive wander engine trace; compareTraces catches pos 1e-9, yaw, attackTicks, health, row shift." } ]

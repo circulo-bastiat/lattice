@@ -1,0 +1,1 @@
+[{"id":"blockboxcheck","kind":"check","file":"tools/blockboxcheck.mjs","args":[],"why":"#11528: BlockBox (rotated/intersects in 04y_struct_nether_fortress.js, net/minecraft/util/math/BlockBox) is wired through NetherFortress.generate: piece boxes have rotated sizes, none overlap; 2 breaks caught."}]

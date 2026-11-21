@@ -1,0 +1,1 @@
+[{"id":"classmapcheck","kind":"check","file":"tools/classmapcheck.mjs","args":[],"why":"#11465: class coverage map is not vacuous (every verdict present, committed map fresh); 4 breaks caught."}]

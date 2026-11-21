@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endermandropcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4745 -- EndermanEntity.dropEquipment: the carried block drops at the moment of death and only under doMobLoot (Cb.dropCarried), not when the corpse is removed."
+ }
+]

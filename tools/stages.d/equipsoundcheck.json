@@ -1,0 +1,8 @@
+[
+ {
+  "id": "equipsoundcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8730 — LivingEntity.onEquipStack plays the ArmorMaterials equip sound (golden tools/golden/equipsounds.tsv) and elytra's; pumpkin/empty silent in 1.18.2; disables its own sound and corrupts its data to prove it can fail."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dragonfightfullcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#265 -- EnderDragonFight.respawnDragon() default gather over REAL end_crystal entities (4 portal crystals), refusal with 3 / a removed one, respawn abort when a ceremony crystal dies, ring aliveness following real crystal kills."
+ }
+]

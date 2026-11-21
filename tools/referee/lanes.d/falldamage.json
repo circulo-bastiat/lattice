@@ -1,0 +1,1 @@
+{ "id": "falldamage", "mob": "pig", "damage": true, "hurt": true, "mobhp": true, "up": 10, "note": "#9246: pig dropped from 10 blocks onto the stone corridor floor: fall damage ceil(fd-3)=7 of 10 HP; rows pos, Health, HurtTime per tick" }

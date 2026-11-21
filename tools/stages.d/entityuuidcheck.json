@@ -1,0 +1,8 @@
+[
+ {
+  "id": "entityuuidcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5626 -- every spawned entity has a UUID, saved by MobNbt; a primed TNT's igniter resolves by UUID after a list reorder."
+ }
+]

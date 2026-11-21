@@ -1,0 +1,1 @@
+[{"id": "lockstep-catmorning", "kind": "check", "file": "tools/lockstep-catmorning.mjs", "args": [], "why": "#8645 G18b-L36: lockstep scenario catmorning (owner sleeps from night to morning beside a tamed cat; per tick goal start, sleeping pose, head-down; 0.7 gift roll, teleport, cat_morning_gift pick and drop position; 20 salts x 700 ticks): removing the 0.7 chance caught."}]

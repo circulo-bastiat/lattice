@@ -1,0 +1,8 @@
+[
+ {
+  "id": "tradecheck",
+  "kind": "check",
+  "args": [],
+  "why": "QUEUE row 3 (G18f), D-480: the STATIC half of VillagerTrades.TRADES (extract-villager-trades.mjs), spot-checked against the disassembly by hand."
+ }
+]

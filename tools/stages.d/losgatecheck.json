@@ -1,0 +1,8 @@
+[
+ {
+  "id": "losgatecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5118: NearestAttackableTargetGoal line-of-sight gate is default for every caller (TargetPredicate.respectsVisibility); unseen target dropped after exactly 60/300 ticks (TrackTargetGoal)."
+ }
+]

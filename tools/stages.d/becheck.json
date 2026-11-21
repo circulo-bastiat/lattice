@@ -1,0 +1,10 @@
+[
+ {
+  "id": "becheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "PLAN G17e (PASS 15 JOB 3, D-341/D-342's trick a third time) — the BLOCK-ENTITY half of the same argument: `ER.OWED_ITEM` named chests, beds, banners, skulls and shulker boxes as invisible when dropped, because their block model bakes no quads at all (that is vanilla's own behaviour — they are drawn by a block-entity renderer instead). This drops a chest, a bed and a banner in front of the camera and asserts the PIXELS, then mutates the chest's own baked geometry (removes a box, shifts a UV texel) to prove the pixel test would have caught either break."
+ }
+]

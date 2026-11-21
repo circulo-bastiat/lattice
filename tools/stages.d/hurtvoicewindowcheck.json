@@ -1,0 +1,8 @@
+[
+ {
+  "id": "hurtvoicewindowcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3605 -- hurt/death voice plays only on a fresh hit, not a stronger hit docked inside the invulnerability window."
+ }
+]

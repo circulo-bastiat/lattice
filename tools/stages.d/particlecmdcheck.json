@@ -1,0 +1,3 @@
+[
+  { "id": "particlecmdcheck", "kind": "check", "file": "tools/particlecmdcheck.mjs", "args": [] }
+]

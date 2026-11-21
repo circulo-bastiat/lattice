@@ -1,0 +1,1 @@
+[ { "id": "lockstep-lingering", "kind": "check", "file": "tools/referee/lingeringlockstepcheck.mjs", "args": [], "why": "#6611 G17-L85: lockstep scenario lingering, 20 salts: area_effect_cloud radius shrink, 20-tick reapplication, duration/4, victims, vs decomp AreaEffectCloudEntity.tick." } ]

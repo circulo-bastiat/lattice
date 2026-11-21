@@ -1,0 +1,1 @@
+[{"id": "loomscreen11623check", "kind": "check", "file": "tools/loomscreen11623check.mjs", "args": [], "why": "#11623: 15_hud.js LoomScreen (openLoom, slot/button geometry, loomClick, scroll, entry points); each cut must fail; breaks caught."}]

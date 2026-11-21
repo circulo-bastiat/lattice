@@ -1,0 +1,9 @@
+[
+ {
+  "id": "dupcheck",
+  "kind": "check",
+  "args": [
+   "--quiet"
+  ]
+ }
+]

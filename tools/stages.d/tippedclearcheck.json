@@ -1,0 +1,8 @@
+[
+ {
+  "id": "tippedclearcheck",
+  "kind": "check",
+  "args": [],
+  "why": "ArrowEntity.tick: a stuck arrow with custom effects loses its tip (potion, effects, colour) at inGroundTime >= 600."
+ }
+]

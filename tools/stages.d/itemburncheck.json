@@ -1,0 +1,8 @@
+[
+ {
+  "id": "itemburncheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5652 -- ItemEntity.hurt: items burn in lava/fire (health 5); netherite gear/ancient debris immune; nether star survives explosions."
+ }
+]

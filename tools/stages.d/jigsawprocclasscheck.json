@@ -1,0 +1,9 @@
+[
+ {
+  "id": "jigsawprocclasscheck",
+  "kind": "check",
+  "file": "tools/jigsawprocclasscheck.mjs",
+  "args": [],
+  "why": "#11758 -- 04t_jigsaw.js structure processors: nop, gravity, jigsaw_replacement, block_ignore, block_age, lava_submerged_block, unknown throws. Node-only; anti-vacuity breaks each."
+ }
+]

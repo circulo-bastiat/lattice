@@ -1,0 +1,8 @@
+[
+ {
+  "id": "strongholdgencheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11706 -- StrongholdGenerator (04x_struct_stronghold.js) is reached via Structures.startsNear/genColumn and its StoneBrickRandomizer split (20/30/5/45) holds; fails when the pieces or WALL_MIX are cut."
+ }
+]

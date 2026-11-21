@@ -1,0 +1,3 @@
+[
+  { "id": "textclickcheck", "kind": "check", "file": "tools/textclickcheck.mjs", "args": [] }
+]

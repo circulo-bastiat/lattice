@@ -1,0 +1,1 @@
+[{"id":"sounds11647check","kind":"check","file":"tools/sounds11647check.mjs","args":[],"why":"#11647: 02j_sounds.js MusicTracker/MusicType/mood/loopVoice/entitySound reachable from 17_main worldTick via Sound.ambientTick; Egg/SplashPotion throw sound; source breaks caught."}]

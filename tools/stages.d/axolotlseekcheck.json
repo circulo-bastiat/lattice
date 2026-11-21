@@ -1,0 +1,8 @@
+[
+ {
+  "id": "axolotlseekcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#6432 -- axolotl SeekWaterTask scans in BlockPos.iterateOutwards order, not Manhattan order."
+ }
+]

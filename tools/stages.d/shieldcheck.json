@@ -1,0 +1,3 @@
+[
+  { "id": "shieldcheck", "kind": "check", "file": "tools/shieldcheck.mjs", "args": [], "why": "#862 -- shield blocking: 5-tick warmup, frontal angle test, durability, takeShieldHit knockback, axe disable" }
+]

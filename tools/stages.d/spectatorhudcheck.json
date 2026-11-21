@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spectatorhudcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-O10 — spectator mode draws no hotbar/health/hunger/xp/attack indicator/hand and ghosts invisible players at alpha 0.15 for a spectator viewer; breaks each branch to prove it can fail."
+ }
+]

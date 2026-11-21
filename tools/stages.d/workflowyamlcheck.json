@@ -1,0 +1,3 @@
+[
+  { "id": "workflowyamlcheck", "kind": "check", "file": "tools/workflowyamlcheck.mjs", "args": [] }
+]

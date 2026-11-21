@@ -1,0 +1,9 @@
+[
+ {
+  "id": "advrest11565check",
+  "kind": "check",
+  "file": "tools/advrest11565check.mjs",
+  "args": [],
+  "why": "#11565: AdvancementPositioner, AdvancementRewards, BrewedPotionCriterion, LightningStrikeCriterion, LightningBoltPredicate, ItemUsedOnBlockCriterion, AdvancementToast, SpecialCraftingRecipe, MapExtendingRecipe of 02l_advancements.js driven over the real jar advancements; each cut in the source must be caught."
+ }
+]

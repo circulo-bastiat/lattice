@@ -1,0 +1,8 @@
+[
+ {
+  "id": "tippedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/tipped -- tipped-arrow potion effects on hit (ArrowEntity.onHit's dur/8-base + undivided-custom two-loop shape) and the stray's own always-on slowness(600) arrow."
+ }
+]

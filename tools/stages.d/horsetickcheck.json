@@ -1,0 +1,8 @@
+[
+ {
+  "id": "horsetickcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1353 -- HorseBaseEntity.tickMovement/tick: eat grass (1/300, 51 ticks), 1/900 regen, 1/200 tail wag, eating flag 30 ticks. Node-only; proves it can fail."
+ }
+]

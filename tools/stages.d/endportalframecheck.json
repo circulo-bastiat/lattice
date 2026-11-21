@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endportalframecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5084 -- EnderEyeItem on end_portal_frame: fill, comparator 15, 12th eye opens the 3x3 end_portal; wrong facing / 11 eyes stay closed."
+ }
+]

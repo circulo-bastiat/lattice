@@ -1,0 +1,3 @@
+[
+  { "id": "interactrefcheck", "kind": "check", "file": "tools/referee/interactrefcheck.mjs", "args": [] }
+]

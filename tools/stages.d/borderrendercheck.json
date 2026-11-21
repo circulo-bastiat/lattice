@@ -1,0 +1,3 @@
+[
+  { "id": "borderrendercheck", "kind": "check", "file": "tools/borderrendercheck.mjs", "args": [] }
+]

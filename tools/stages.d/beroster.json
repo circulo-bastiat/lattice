@@ -1,0 +1,9 @@
+[
+ {
+  "id": "beroster",
+  "kind": "check",
+  "file": "tools/beroster.mjs",
+  "args": [],
+  "why": "#635: every builtin/entity item in the jar (all beds, banners, heads, shulker boxes, chests) has the jar's third-person, head, ground and fixed display"
+ }
+]

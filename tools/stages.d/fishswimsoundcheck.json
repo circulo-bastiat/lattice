@@ -1,0 +1,8 @@
+[
+ {
+  "id": "fishswimsoundcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3176 -- cod/salmon/pufferfish/tropical_fish swim with entity.fish.swim (FishEntity.getSwimSound), not entity.generic.swim."
+ }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "cameraeyecheck", "kind": "check", "file": "tools/cameraeyecheck.mjs", "args": [] }
+]

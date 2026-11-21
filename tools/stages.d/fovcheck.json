@@ -1,0 +1,3 @@
+[
+  { "id": "fovcheck", "kind": "browser", "args": ["dist/mclite.html"], "why": "#11260: the FOV slider driven by real mouse/key events on the built page; the projection FOV read from the camera against GameRenderer.getFov (FOV Effects, underwater, lava)." }
+]

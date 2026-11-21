@@ -1,0 +1,9 @@
+[
+ {
+  "id": "armorstandusecheck",
+  "kind": "check",
+  "file": "tools/armorstandusecheck.mjs",
+  "args": [],
+  "why": "#4391 -- armor_stand gameplay (07zzt_armorstand.js): ArmorStandItem placement yaw/sound, interactAt slot-from-height/swap/disabledSlots/showArms; edited-source breaks must be noticed."
+ }
+]

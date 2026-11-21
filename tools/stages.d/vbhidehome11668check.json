@@ -1,0 +1,1 @@
+[{"id":"vbhidehome11668check","kind":"check","file":"tools/vbhidehome11668check.mjs","args":[],"why":"#11668: 07zv8_vbhidehome.js HideInHomeTask/HideInHomeDuringRaidTask reached from VB.tick; breaks caught."}]

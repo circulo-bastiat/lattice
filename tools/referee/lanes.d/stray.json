@@ -1,0 +1,1 @@
+{"id":"stray","mob":"stray","proj":true,"projType":"arrow","nbt":"HandItems:[{id:\"minecraft:bow\",Count:1b},{}]","note":"#5351 (G17-L4): stray lane -- the zombie corridor, survival player DIST along inside follow range; projType:'arrow' = runchase logs every fresh arrow (spawn tick, Pos, Motion)"}

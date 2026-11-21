@@ -1,0 +1,1 @@
+[{"id":"deathscreen11725check","kind":"check","file":"tools/deathscreen11725check.mjs","args":[],"why":"#11725: DeathScreen vanilla layout (title/cause/score rows, button rows, gradient, hardcore strings) via H.deathLayout and the P.dead draw; source breaks caught."}]

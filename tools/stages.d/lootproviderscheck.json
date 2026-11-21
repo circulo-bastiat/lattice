@@ -1,0 +1,8 @@
+[
+ {
+  "id": "lootproviderscheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11742 -- 07e_loot.js net/minecraft/loot/provider (number constant/binomial/score, score fixed/context, nbt context/storage) proven via Loot.rollTable; fails when each is cut."
+ }
+]

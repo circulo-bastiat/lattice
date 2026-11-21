@@ -1,0 +1,1 @@
+[{"id": "entityrender11599dcheck", "kind": "check", "file": "tools/entityrender11599dcheck.mjs", "args": [], "why": "#11599 part 4: EndCrystal getYOffset, ExperienceOrb crop/colour pulse, rod tile; each cut must fail; breaks caught."}]

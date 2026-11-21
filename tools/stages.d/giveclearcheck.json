@@ -1,0 +1,10 @@
+[
+ {
+  "id": "giveclearcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "parallel night, worker 1: /give's per-item cap and /clear's failure-on-zero + maxCount=0 dry run, live"
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "villagertypecheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/vtype-s105 -- the villager biome TYPE substrate (Prof.typeAtBiome/forBiome, wired into EL.DEFAULTS.villager and Zv.spawnInit for zombie_villager), both round-trips (kill-convert and cure carry the SOURCE type across rather than re-rolling) and the mob-NBT field already in 07zw_mobnbt.js's villager/zombie_villager tables."
+ }
+]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-avoid", "kind": "check", "file": "tools/lockstep-avoid.mjs", "args": [], "why": "#6901 G17-L184: lockstep scenario avoid (AvoidEntityGoal: skeleton/wolf, fox/player, rabbit/wolf, creeper/cat, phantom/cat; start gate, near/far speed, 20 salts): near and far speed swapped caught." } ]

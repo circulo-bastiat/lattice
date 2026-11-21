@@ -1,0 +1,8 @@
+[
+ {
+  "id": "simpleinventorycheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11688 -- SimpleInventory (VB.invAddStack in 07zv_villagerbrain.js, reached via 07zv6_vbgather.js lootTick) proven: merge, overflow, full, per-item max stack; fails when cut."
+ }
+]

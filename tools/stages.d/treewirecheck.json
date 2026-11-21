@@ -1,0 +1,1 @@
+[{"id":"treewirecheck","kind":"check","file":"tools/treewirecheck.mjs","args":[],"why":"#11469: 04k_feat_trees.js is wired (classmap false positive): Behave.growTree -> Features.growSapling grows a 2x2 spruce sapling into a mega tree; 3 breaks caught (cut call, cut export, cut large branch)."}]

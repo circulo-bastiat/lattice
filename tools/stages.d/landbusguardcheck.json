@@ -1,0 +1,3 @@
+[
+  { "id": "landbusguardcheck", "kind": "check", "file": "tools/landbusguardcheck.mjs", "args": [] }
+]

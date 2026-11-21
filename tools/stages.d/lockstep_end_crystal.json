@@ -1,0 +1,1 @@
+[ { "id": "lockstep_end_crystal", "kind": "check", "file": "tools/lockstep-end-crystal-20.mjs", "args": [], "why": "#7534 G17-L4 lockstep end_crystal: 20 seeds, engine trace deterministic, 5 injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes end_crystal (full suite)." } ]

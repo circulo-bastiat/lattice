@@ -1,0 +1,8 @@
+[
+ {
+  "id": "leashanchorcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8757 -- Ls.playerLeashPos equals PlayerEntity.getLeashPos (standing, sneaking, swimming; lerped position); the old P.y+EYE*0.8 anchor must differ."
+ }
+]

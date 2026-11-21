@@ -1,0 +1,1 @@
+[ { "id": "envdamagelockstepcheck", "kind": "check", "file": "tools/referee/envdamagelockstepcheck.mjs", "args": [], "why": "#9202: per-mob lava and fire-block damage per tick x 20 salts for every roster mob vs the decomp rule (fire immunity, armor, grace window); 6 known divergences pinned, 3 breaks caught; writes mobproof/out/damage-env.json." } ]

@@ -1,0 +1,1 @@
+[{"id":"progressscreencheck","kind":"check","file":"tools/progressscreencheck.mjs","args":[],"why":"#11328: LevelLoadingScreen chunk map colours/percentage, ProgressScreen 'Saving level', DownloadingTerrainScreen text in the built dist; 6 breaks caught."}]

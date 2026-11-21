@@ -1,0 +1,8 @@
+[
+ {
+  "id": "bucketdatacheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3185 -- Bucketable.copyDataToStack/FromNbt: health, custom name and flags survive a bucket round trip."
+ }
+]

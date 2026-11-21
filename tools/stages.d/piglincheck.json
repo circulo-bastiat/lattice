@@ -1,0 +1,8 @@
+[
+ {
+  "id": "piglincheck",
+  "kind": "check",
+  "args": [],
+  "why": "s133: piglin + piglin_brute (KW-32)"
+ }
+]

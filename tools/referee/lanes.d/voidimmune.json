@@ -1,0 +1,1 @@
+{ "id": "voidimmune", "mob": "blaze", "damage": true, "hurt": true, "mobhp": true, "up": -70, "note": "#9250: fire-immune blaze at y=-130: OUT_OF_WORLD bypasses every immunity but NoAI/creative; Health per tick" }

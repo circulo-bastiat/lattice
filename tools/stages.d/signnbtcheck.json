@@ -1,0 +1,8 @@
+[
+ {
+  "id": "signnbtcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8975 -- the sign block entity's NBT: Text1..Text4 JSON lines, Color, GlowingText (SignBlockEntity.writeNbt/readNbt) round trip."
+ }
+]

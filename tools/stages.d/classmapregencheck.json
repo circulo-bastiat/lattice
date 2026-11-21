@@ -1,0 +1,1 @@
+[{"id":"classmapregencheck","kind":"check","file":"tools/classmapregencheck.mjs","args":[],"why":"#11906: the lander regenerates the generated class map on the tested tree (conflict finished by regenerating, stale summed counts fixed, changed tree healed onto the PR branch); breaks caught."}]

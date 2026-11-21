@@ -1,0 +1,118 @@
+{
+ "module": "combat",
+ "seed": 1,
+ "n": 12,
+ "files": [
+  {
+   "file": "src/14j_combat.js",
+   "stages": [
+    "lockstep-shield",
+    "lockstep-arrowstuck",
+    "ravagershieldcheck",
+    "offhandshieldcheck",
+    "lockstep-enchantdamage",
+    "combatmutantscheck"
+   ],
+   "baselineDropped": 0,
+   "mutants": [
+    {
+     "line": 185,
+     "mutation": "negate if",
+     "before": "if (B) return Math.fround(baby || t === 'chicken' ? h * B[baby ? 1 : 0] : B[0]);",
+     "after": "if (!B) return Math.fround(baby || t === 'chicken' ? h * B[baby ? 1 : 0] : B[0]);",
+     "status": "KILLED",
+     "by": "combatmutantscheck"
+    },
+    {
+     "line": 204,
+     "mutation": "negate return",
+     "before": "if (!(e.remainingFireTicks > 0) || !(e.inPowderSnow || Cb.isWet(e))) return false;",
+     "after": "if (!(e.remainingFireTicks > 0) || !(e.inPowderSnow || Cb.isWet(e))) return !false;",
+     "status": "KILLED",
+     "by": "combatmutantscheck"
+    },
+    {
+     "line": 294,
+     "mutation": "constant +1",
+     "before": "for (var i = 0; i < L.length; i++) {",
+     "after": "for (var i = 1; i < L.length; i++) {",
+     "status": "KILLED",
+     "by": "lockstep-enchantdamage"
+    },
+    {
+     "line": 319,
+     "mutation": "&& -> ||",
+     "before": "if (e.type === 'sheep' && !e.sheared) return 'entities/sheep/' + (e.woolColor || 'white');",
+     "after": "if (e.type === 'sheep' || !e.sheared) return 'entities/sheep/' + (e.woolColor || 'white');",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 330,
+     "mutation": "&& -> ||",
+     "before": "else if (L[i].id === 'minecraft:impaling' && mobType === 'aquatic') f += l * Cb.IMPALING_PER_LEVEL;",
+     "after": "else if (L[i].id === 'minecraft:impaling' || mobType === 'aquatic') f += l * Cb.IMPALING_PER_LEVEL;",
+     "status": "KILLED",
+     "by": "combatmutantscheck"
+    },
+    {
+     "line": 626,
+     "mutation": "&& -> ||",
+     "before": "if (src && src.source === 'thorns' && src.attacker) {   // isThorns -> damagePart(body, ...)",
+     "after": "if (src || src.source === 'thorns' && src.attacker) {   // isThorns -> damagePart(body, ...)",
+     "status": "KILLED",
+     "by": "combatmutantscheck"
+    },
+    {
+     "line": 664,
+     "mutation": "&& -> ||",
+     "before": "if (e.type === 'wither' && (e.invulTimer | 0) > 0 && !(src && src.source === 'outOfWorld')) {",
+     "after": "if (e.type === 'wither' || (e.invulTimer | 0) > 0 && !(src && src.source === 'outOfWorld')) {",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 719,
+     "mutation": "negate return",
+     "before": "for (var __endTp = 0; __endTp < 64; __endTp++) { if (EM.teleportRandomly(e)) return true; }",
+     "after": "for (var __endTp = 0; __endTp < 64; __endTp++) { if (EM.teleportRandomly(e)) return !true; }",
+     "status": "KILLED",
+     "by": "combatmutantscheck"
+    },
+    {
+     "line": 725,
+     "mutation": "flip ===",
+     "before": "if (e.type === 'bat' && NS.Bat) NS.Bat.onDamage(e);",
+     "after": "if (e.type !== 'bat' && NS.Bat) NS.Bat.onDamage(e);",
+     "status": "KILLED",
+     "by": "combatmutantscheck"
+    },
+    {
+     "line": 858,
+     "mutation": "&& -> ||",
+     "before": "if (fresh && NS.Undead && NS.Undead.playSound) NS.Undead.playSound(e, e.health <= 0 ? 'death' : 'hurt');",
+     "after": "if (fresh || NS.Undead && NS.Undead.playSound) NS.Undead.playSound(e, e.health <= 0 ? 'death' : 'hurt');",
+     "status": "KILLED",
+     "by": "lockstep-enchantdamage"
+    },
+    {
+     "line": 869,
+     "mutation": "&& -> ||",
+     "before": "if (e.type === 'strider' && fresh && NS.Strider && NS.Strider.onDamaged) NS.Strider.onDamaged(e);   // #935",
+     "after": "if (e.type === 'strider' || fresh && NS.Strider && NS.Strider.onDamaged) NS.Strider.onDamaged(e);   // #935",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 885,
+     "mutation": "&& -> ||",
+     "before": "if (NS.Stats && NS.Stats.onKilledOther && NS.Player && e !== NS.Player && (e.deathAttacker === NS.Player || Cb.killedByPlayer(e))) NS.Stats.",
+     "after": "if (NS.Stats || NS.Stats.onKilledOther && NS.Player && e !== NS.Player && (e.deathAttacker === NS.Player || Cb.killedByPlayer(e))) NS.Stats.",
+     "status": "SURVIVED"
+    }
+   ],
+   "skippedUnviable": 0,
+   "sites": 2196,
+   "killed": 8,
+   "survived": 4,
+   "score": 0.6666666666666666
+  }
+ ]
+}

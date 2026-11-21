@@ -1,0 +1,1 @@
+[{"id":"rabbitaudit11576check","kind":"check","file":"tools/rabbitaudit11576check.mjs","args":[],"why":"#11576: 07zh_rabbit.js CarrotsBlock (mature gate, age decrement, break at 0 via EatCarrotCropGoal) and RabbitEntityRenderer (Rb.skinKey, called from the entity renderer); 9 breaks caught."}]

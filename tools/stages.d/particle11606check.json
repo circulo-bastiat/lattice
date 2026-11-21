@@ -1,0 +1,1 @@
+[{"id": "particle11606check", "kind": "check", "file": "tools/particle11606check.mjs", "args": [], "why": "#11606: EnderPearl burst, BufferBuilder colour wrap, AxisCycle rain-splash shape read, ClientWorld Minimal gate; each cut must fail; breaks caught."}]

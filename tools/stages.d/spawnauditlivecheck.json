@@ -1,0 +1,10 @@
+[
+ {
+  "id": "spawnauditlivecheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "#11264: the real Spawn.spawnForChunk loop on the built dist at file:// over real generated chunks of several seeds (warm/lukewarm ocean, river, savanna, jungle...), every placed mob judged by a block-reading oracle + the 1.18.2 jar's biome spawner JSON (WaterCreatureEntity.canSpawn bands, ON_GROUND no fluid incl. kelp/seagrass, IN_WATER); fails on the kelp/seagrass spawn bug; anti-vacuity: dropped placement gate / plains list in every biome caught."
+ }
+]

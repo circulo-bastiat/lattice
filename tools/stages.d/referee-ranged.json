@@ -1,0 +1,3 @@
+[
+  { "id": "rangedrefcheck", "kind": "check", "file": "tools/referee/rangedrefcheck.mjs", "args": [] }
+]

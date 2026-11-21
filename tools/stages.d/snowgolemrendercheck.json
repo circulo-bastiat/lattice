@@ -1,0 +1,8 @@
+[
+ {
+  "id": "snowgolemrendercheck",
+  "kind": "check",
+  "args": [],
+  "why": "#723: snow golem render — arms never swing with limbSwing, upper_body yaw = headYaw*0.25 with arm yaw/pivot rule (SnowGolemEntityModel.setAngles), carved_pumpkin head layer iff hasPumpkin (SnowmanPumpkinFeatureRenderer)."
+ }
+]

@@ -1,0 +1,1 @@
+[ { "id": "magicthornsdamagecheck", "kind": "check", "file": "tools/referee/magicthornsdamagecheck.mjs", "args": [], "why": "#9215: per-mob magic (6, bypasses armour) and thorns (3, armour applies) damage per tick x 20 salts vs the decomp rule (grace window, WitchEntity x0.15 for any isMagic source incl. thorns); 2 breaks caught; writes mobproof/out/damage-magic.json." } ]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "skullcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#591 (KW-49-1) -- the six skulls (skeleton, wither skeleton, zombie, player, creeper, dragon) in every view: the GUI icon turns 180 degrees about X like BuiltinModelItemRenderer's renderSkull(180) (raw, the icon showed the underside and the back), the baked item part (hand/ground/third person) sits in the block with directions matching its winding, and the placed block draws through ER.build at all 16 standing rotations, the four wall facings and the wall offset, the dragon at 0.75, against SkullBlockEntityRenderer's matrix chain multiplied out per point. Breaks its own yaw sign, wall table, dragon scale, unturned icon and bake."
+ }
+]

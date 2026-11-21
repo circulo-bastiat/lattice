@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-brewed_potioncheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT37 — minecraft:brewed_potion matcher + brewing-stand PotionSlot.onTakeItem call site complete nether/brew_potion; breaks its own matcher."
+ }
+]

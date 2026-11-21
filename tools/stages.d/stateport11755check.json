@@ -1,0 +1,8 @@
+[
+ {
+  "id": "stateport11755check",
+  "kind": "check",
+  "args": [],
+  "why": "#11755 -- 02s_state.js net/minecraft/state (StateManager BooleanProperty DirectionProperty EnumProperty); Commands.stateString (F3+I copy) goes through it; breaks its own data."
+ }
+]

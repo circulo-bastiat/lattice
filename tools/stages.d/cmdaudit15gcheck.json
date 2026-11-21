@@ -1,0 +1,1 @@
+[{"id":"cmdaudit15gcheck","kind":"check","file":"tools/cmdaudit15gcheck.mjs","args":[],"why":"#11480 -- 50 command lines (gamemode, time, tp, give, clear, scoreboard, team, bossbar, execute, clone, ...) through the real dispatcher with exact lang strings; breaks: translate suffix, inverted ok, unknown literal."}]

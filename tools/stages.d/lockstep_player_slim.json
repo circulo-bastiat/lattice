@@ -1,0 +1,1 @@
+[ { "id": "lockstep_player_slim", "kind": "check", "file": "tools/lockstep-player-slim-20.mjs", "args": [], "why": "#5524 G17-L4 lockstep player_slim: client skin model of the server entity player; 20 seeds on the player lane via the alias, 4 injected faults caught. Server comparison: lockstep_player." } ]

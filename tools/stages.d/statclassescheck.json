@@ -1,0 +1,8 @@
+[
+ {
+  "id": "statclassescheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11701 -- 07zzo_stats.js: StatFormatter, StatType registry lookups (via /scoreboard criteria), StatHandler counters/hooks and ServerStatHandler JSON round trip. Node-only; anti-vacuity breaks each."
+ }
+]

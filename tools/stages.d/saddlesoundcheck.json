@@ -1,0 +1,8 @@
+[
+ {
+  "id": "saddlesoundcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3167 — saddling a pig/horse plays entity.pig.saddle / entity.horse.saddle neutral 0.5/1 (PigEntity.saddle, AbstractHorseEntity.saddle); silences its own mob to prove it can fail."
+ }
+]

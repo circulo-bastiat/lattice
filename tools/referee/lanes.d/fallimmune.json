@@ -1,0 +1,1 @@
+{ "id": "fallimmune", "mob": "chicken", "damage": true, "hurt": true, "mobhp": true, "up": 10, "note": "#9246: chicken (causeFallDamage false) dropped from 10 blocks: Health stays 4" }

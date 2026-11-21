@@ -1,0 +1,1 @@
+[{"id":"feataudit11486check","kind":"check","file":"tools/feataudit11486check.mjs","args":[],"why":"#11486: IntProvider, HeightProvider, BlockPredicate, PlacementModifier, ConfiguredFeature, GenerationSettings, OreFeature, DiskFeature, SimpleBlockFeature, BlockColumnFeature, MushroomBlock driven through Features.api with source breaks caught."}]

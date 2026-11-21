@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-using_itemcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#7996 G17-AT30 — minecraft:using_item matcher and the per-tick hold call site (Use.holdTick); the spyglass_at_* advancements; breaks its own matcher/call site to prove it can fail."
+ }
+]

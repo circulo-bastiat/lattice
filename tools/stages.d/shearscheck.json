@@ -1,0 +1,1 @@
+[ { "id": "shearscheck", "kind": "check", "file": "tools/shearscheck.mjs", "args": [], "why": "#184 G19ea: ShearsItem as a tool - mining speed (leaves/cobweb 15, wool 5, vine/lichen 2), cobweb/leaf drops, useOnBlock on plant stems (age 25, 1 wear), beehive shears; breaks caught." } ]

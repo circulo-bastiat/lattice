@@ -1,0 +1,1 @@
+[{"id":"mutatecheck","kind":"check","file":"tools/mutate.mjs","args":["--selfcheck"],"why":"#11466: the mutation-sweep harness (tools/mutate.mjs) kills a mutant on an asserted line, lets one on an unasserted line survive, skips unparsable ones, drops baseline-red stages, restores the file; 13 breaks caught."}]

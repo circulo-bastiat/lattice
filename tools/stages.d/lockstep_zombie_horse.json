@@ -1,0 +1,1 @@
+[ { "id": "lockstep_zombie_horse", "kind": "check", "file": "tools/lockstep-zombie_horse-20.mjs", "args": [], "why": "#6168 G17-L4 lockstep zombie_horse: 20 seeds, engine trace deterministic, injected faults caught at the right tick/field. Server comparison: pilot.mjs --seeds 20 --lanes zombie_horse." } ]

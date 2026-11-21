@@ -1,0 +1,3 @@
+[
+  { "id": "hostilerngcheck", "kind": "check", "file": "tools/hostilerngcheck.mjs", "args": [] }
+]

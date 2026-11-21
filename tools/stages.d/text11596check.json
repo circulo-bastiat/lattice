@@ -1,0 +1,1 @@
+[{"id":"text11596check","kind":"check","file":"tools/text11596check.mjs","args":[],"why":"#11596: 02i_text.js WallBannerBlock/HoverEvent/KeybindText/NbtText/ScoreText/SelectorText/Texts through fromJson/runs/resolve/parseHover; each cut must fail; breaks caught."}]

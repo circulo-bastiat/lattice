@@ -1,0 +1,9 @@
+[
+ {
+  "id": "texrostercheck",
+  "kind": "check",
+  "file": "tools/texrostercheck.mjs",
+  "args": [],
+  "why": "#592: texture roster (every item/block from the jar) x gui/hand/hand3/ground/fixed/placed - texture present, atlas region, no missing pixels, display transform; failing entries grouped by cause (#579)"
+ }
+]

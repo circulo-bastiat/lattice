@@ -1,0 +1,1 @@
+[{"id":"fullstalesameshacheck","kind":"check","args":[],"why":"#12214 -- fullStale and go.mjs status honour the once-a-day same-sha rule (#11387); breaks caught."}]

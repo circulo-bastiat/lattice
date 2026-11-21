@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobboxcheck",
+  "kind": "check",
+  "args": [],
+  "why": "PASS 15 JOB 4.3 -- the world-space mob box renderer: BE.layers' boxes posed as §8 model-stream quads, one part at a time, winding and shading verified by DERIVED geometry (not assumed), and the ±128-block wrap limit held for every shipped layer. No mob is drawn on a real screen by this alone -- JOB 4.4 (setupAnim) and G18c (spawning) are still owed; see git 2a8efe1:docs/passes/PASS-16-HISTORY.md."
+ }
+]

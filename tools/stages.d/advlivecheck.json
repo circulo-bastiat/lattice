@@ -1,0 +1,3 @@
+[
+ { "id": "advlivecheck", "kind": "browser", "args": ["dist/mclite.html"], "why": "G17-ADV1: the player owns a live advancement Tracker (Main.finishBoot), saved/loaded per world without re-granting." }
+]

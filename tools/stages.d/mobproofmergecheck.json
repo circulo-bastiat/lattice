@@ -1,0 +1,1 @@
+[ { "id": "mobproofmergecheck", "kind": "check", "file": "tools/mobproofmergecheck.mjs", "args": [], "why": "#8670: shard mobproof artifacts merge per mob+dimension; dropped/foreign-sha/empty shard = MISSING, red wins." } ]

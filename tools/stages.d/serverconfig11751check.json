@@ -1,0 +1,8 @@
+[
+ {
+  "id": "serverconfig11751check",
+  "kind": "check",
+  "args": [],
+  "why": "#11751 -- 02q_serverconfig.js net/minecraft/server (BanEntry BannedIpEntry BannedIpList BannedPlayerEntry BannedPlayerList OperatorEntry OperatorList ServerConfigEntry ServerConfigList Whitelist WhitelistEntry ServerTask WorldGenerationProgressListener WorldGenerationProgressLogger); breaks its own data."
+ }
+]

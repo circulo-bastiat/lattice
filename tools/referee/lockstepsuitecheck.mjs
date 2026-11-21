@@ -1,0 +1,20 @@
+// lockstepsuitecheck.mjs -- #5093 (G17-L3a): the per-seed report of lockstep/run.mjs: 20 salts, first divergent tick+field+values.
+import { engineRow, compareTraces } from './lockstep/trace.mjs';
+import { perSeedReport, fmtReport, runLane } from './lockstep/run.mjs';
+let fails = 0, breaks = 0;
+const ok = (c, m) => { if (!c) { fails++; console.log('  FAIL ' + m); } };
+const brk = (c, m) => { if (c) { breaks++; console.log('   ✓ break caught: ' + m); } else { fails++; console.log('  ✗ break NOT caught: ' + m); } };
+const salts = Array.from({ length: 20 }, (_, i) => i);
+const path = (salt) => Array.from({ length: 40 }, (_, t) => [t * 0.1 + salt, 0, 0.5]);
+const eng = (f) => (salt) => path(salt).map((p, t) => engineRow(t, { x: p[0], y: p[1], z: p[2] }));
+ok(typeof runLane === 'function', 'runLane exported');
+const good = perSeedReport(salts, path, eng(), compareTraces);
+ok(good.length === 20 && good.every((r) => r.ok), '20 identical salts all ok');
+const bad1 = perSeedReport(salts, path, (salt) => eng()(salt).map((r, t) => salt === 7 && t === 12 ? { ...r, pos: [r.pos[0] + 0.5, r.pos[1], r.pos[2]] } : r), compareTraces);
+brk(bad1.filter((r) => !r.ok).length === 1 && bad1[7].div.tick === 12 && bad1[7].div.field === 'pos', 'one salt diverging is reported at its tick and field only');
+brk(/salt 7: first divergence tick 12 field pos server=\[.*\] engine=\[.*\]/.test(fmtReport('zombie', bad1)), 'report prints tick, field and both values');
+const bad2 = perSeedReport(salts, path, (salt) => eng()(salt).slice(0, 30), compareTraces);
+brk(bad2.every((r) => r.div && r.div.field === '(length)'), 'a short engine trace is a length divergence for every salt');
+brk(perSeedReport(salts, path, eng(), compareTraces, { fields: ['pos'], tol: { pos: 0 } }).every((r) => r.ok) && perSeedReport(salts, path, (s) => eng()(s).map((r) => ({ ...r, pos: [r.pos[0] + 1e-9, r.pos[1], r.pos[2]] })), compareTraces).every((r) => !r.ok), 'a 1e-9 drift is a divergence in every salt');
+console.log(`lockstepsuitecheck: ${breaks + 2} assertions, ${fails} failures, ${breaks} breaks caught`);
+process.exit(fails ? 1 : 0);

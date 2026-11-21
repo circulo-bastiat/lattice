@@ -1,0 +1,1 @@
+[ { "id": "farmworkcheck", "kind": "check", "file": "tools/farmworkcheck.mjs", "args": [], "why": "22 Oct: the pilot farm turns credit into work: closes a mob's lockstep rollout issues when it reaches 20 credited salts and opens one divergence issue per diverging mob; runs the planner on fixtures and breaks each rule." } ]

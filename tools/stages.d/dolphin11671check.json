@@ -1,0 +1,1 @@
+[{"id":"dolphin11671check","kind":"check","file":"tools/dolphin11671check.mjs","args":[],"why":"#11671: 07zj2_dolphin.js Breathe/MoveIntoWater/SwimAround/ChaseBoat goals reachable via ROSTER.dolphin; breaks caught."}]

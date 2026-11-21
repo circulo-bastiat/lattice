@@ -1,0 +1,1 @@
+[{"id":"oxidize11580check","kind":"check","file":"tools/oxidize11580check.mjs","args":[],"why":"#11580: 07zze_oxidize.js Degradable/Oxidizable/OxidizableBlock/Slab/Stairs via Behave.randomTick and HoneycombItem waxed/unwaxed; breaks caught."}]

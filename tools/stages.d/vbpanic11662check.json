@@ -1,0 +1,1 @@
+[{"id":"vbpanic11662check","kind":"check","file":"tools/vbpanic11662check.mjs","args":[],"why":"#11662: 07zv3_vbpanic.js NearestLivingEntitiesSensor/NearestVisibleLivingEntitySensor/FindWalkTargetTask/FollowMobTask/MobVisibilityCache/HitResult reachable from VB.tick; breaks caught."}]

@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-spiderjockey",
+  "kind": "check",
+  "file": "tools/lockstep-spiderjockey.mjs",
+  "args": [],
+  "why": "#8721 G18c-L18: lockstep scenario spiderjockey (SpiderEntity.initialize 1% skeleton jockey, HARD-only 0.1*clamped effect roll speed/strength/regeneration/invisibility, cave spider no rolls; 1000 spawns x 3 difficulties x 2 mobs, 20 salts); jockey chance 0.01->0.02 caught."
+ }
+]

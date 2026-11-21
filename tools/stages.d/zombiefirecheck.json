@@ -1,0 +1,8 @@
+[
+ {
+  "id": "zombiefirecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#667: ZombieEntity.tryAttack -- a burning empty-handed zombie-family mob ignites its target for 2*(int)localDifficulty s at chance localDifficulty*0.3."
+ }
+]

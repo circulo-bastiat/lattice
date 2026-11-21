@@ -1,0 +1,1 @@
+[ { "id": "lockstep-fall", "kind": "check", "file": "tools/referee/falllockstepcheck.mjs", "args": [], "why": "#6296 G17-L48: lockstep scenario fall (cow/zombie from 4/10/30 onto stone/hay/water, 20 salts: fallDistance, health, hurtTime, landing tick vs Entity.fall/computeFallDamage reference); safe distance 3->4 and hay 0.2->1 caught." } ]

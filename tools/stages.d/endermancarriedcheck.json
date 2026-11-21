@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endermancarriedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1749 -- EndermanBlockFeatureRenderer draws the carried block; EndermanEntityModel carrying arms (-0.5, +-0.05) and angry head pivotY -5. Breaks its own layer three ways."
+ }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "withercheck", "kind": "check", "file": "tools/withercheck.mjs", "args": [] }
+]

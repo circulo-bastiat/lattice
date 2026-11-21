@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dragonexplodingcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1589: dragon_exploding.png entityAlpha pass (ticks/200) pushed while the dragon dies"
+ }
+]

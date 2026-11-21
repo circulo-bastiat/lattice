@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-recipe_unlockedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT32 — minecraft:recipe_unlocked matcher + Adv.unlockRecipes call site complete recipe advancements; breaks its own matcher."
+ }
+]

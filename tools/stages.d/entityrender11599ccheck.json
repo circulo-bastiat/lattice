@@ -1,0 +1,1 @@
+[{"id": "entityrender11599ccheck", "kind": "check", "file": "tools/entityrender11599ccheck.mjs", "args": [], "why": "#11599 part 3: GlowSquid light, LlamaSpit yaw, Slime stretch/scale, Bell swing, Chest christmas dates; each cut must fail; breaks caught."}]

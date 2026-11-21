@@ -1,0 +1,9 @@
+[
+ {
+  "id": "grindstone",
+  "kind": "check",
+  "file": "tools/grindstonecheck.mjs",
+  "args": [],
+  "why": "#197 G22e: GrindstoneScreenHandler as Grind.menu*: disenchant keeps curses, repair combine (+5%), enchanted book -> book, XP from MIN powers; breaks its own data (XP term zeroed, curses stripped, cost, book, 5% bonus)."
+ }
+]

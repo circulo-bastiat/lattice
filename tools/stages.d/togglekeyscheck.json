@@ -1,0 +1,8 @@
+[
+ {
+  "id": "togglekeyscheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-P2 — Sneak/Sprint Hold|Toggle (ToggleKeyBinding): toggle latches on press edge, HOLD follows the key, opening a screen clears sneak; breaks its own module to prove it can fail."
+ }
+]

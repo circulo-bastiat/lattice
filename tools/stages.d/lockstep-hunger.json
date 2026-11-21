@@ -1,0 +1,1 @@
+[{"id": "lockstep-hunger", "kind": "check", "file": "tools/referee/hungerlockstepcheck.mjs", "args": [], "why": "#6851 G17-L150: lockstep scenario hunger, 20 salts x 4 difficulties: exhaustion 4.0 -> saturation -> food, regen (80t slow / 10t fast), starvation floors per difficulty, vs the decomp HungerManager.update reference; 79-tick regen must be caught."}]

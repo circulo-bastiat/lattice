@@ -1,0 +1,8 @@
+[
+ {
+  "id": "detectorrailcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-M1 (#5143) -- DetectorRailBlock: a cart in the inset box powers the rail, 20-tick re-check, strong power only UP, owed rows struck."
+ }
+]

@@ -1,0 +1,1 @@
+[{"id":"coldfeatwirecheck","kind":"check","file":"tools/coldfeatwirecheck.mjs","args":[],"why":"#11475: 04p_feat_cold.js is wired (classmap false positive, string-key F.register): iceberg, ice_spike, ice_patch, blue_ice, dripstone_cluster, large_dripstone, glow_lichen, vines compile into Features.configured; 8 breaks caught (register key cut per kind)."}]

@@ -1,0 +1,1 @@
+{ "id": "firedamage", "mob": "pig", "damage": true, "hurt": true, "mobhp": true, "fire": true, "note": "#10362: pig standing in fire (on netherrack): IN_FIRE 1.0 per tick-gate, 8 s alight, ON_FIRE 1.0 every 20 ticks; rows Health, HurtTime per tick" }

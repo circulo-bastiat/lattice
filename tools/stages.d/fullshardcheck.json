@@ -1,0 +1,3 @@
+[
+  { "id": "fullshardcheck", "kind": "check", "file": "tools/fullshardcheck.mjs", "args": [] }
+]

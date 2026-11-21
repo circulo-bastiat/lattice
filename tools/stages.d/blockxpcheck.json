@@ -1,0 +1,8 @@
+[
+ {
+  "id": "blockxpcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G21c -- block-break experience: OreBlock ranges (parsed from .decomp Blocks.java) and SpawnerBlock 15+r(15)+r(15) via Xp.blockXp; silk touch gives 0; called from the survival break path."
+ }
+]

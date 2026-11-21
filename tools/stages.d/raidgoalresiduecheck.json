@@ -1,0 +1,8 @@
+[
+ {
+  "id": "raidgoalresiduecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#217 G18b-6: PatrolApproachGoal isRaidCenterSet = patrolling, pillager WanderAroundGoal, LOS-gated raid target acquisition (TargetPredicate.respectsVisibility / TrackTargetGoal mustSee). Breaks its own data."
+ }
+]

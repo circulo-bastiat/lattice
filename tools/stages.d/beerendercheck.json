@@ -1,0 +1,9 @@
+[
+ {
+  "id": "beerendercheck",
+  "kind": "check",
+  "file": "tools/beerendercheck.mjs",
+  "args": [],
+  "why": "#11572: BeeEntityRenderer.getTexture -- ER.visible gives a bee its bee/bee_angry/bee_nectar/bee_angry_nectar sheet via the chained NS.Bee.skinKey in 07j_entityrender.js; cutting that chain line makes this FAIL; 3 breaks caught."
+ }
+]

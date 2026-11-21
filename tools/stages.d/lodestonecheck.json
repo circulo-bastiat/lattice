@@ -1,0 +1,3 @@
+[
+  { "id": "lodestonecheck", "kind": "check", "file": "tools/lodestonecheck.mjs", "args": [], "why": "#5804 CompassItem + 'angle' predicate: needle frame equals the jar formula, lodestone compass points at the lodestone, losing the lodestone drops the link, wrong dimension spins; always-frame-0 / link-never-removed must fail." }
+]

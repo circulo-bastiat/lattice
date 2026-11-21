@@ -1,0 +1,8 @@
+[
+ {
+  "id": "golemposcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/golempos: getHighestOpenPositionOnOffset's column walk + IronGolemEntity.canSpawn, and the Material.blocksLight lists re-derived from the jar data."
+ }
+]

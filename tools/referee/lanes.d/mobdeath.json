@@ -1,0 +1,1 @@
+{ "id": "mobdeath", "mob": "zombie", "ent": true, "nbt": "Health:1f,Fire:32767s", "note": "#9217: zombie at 1 HP set alight: burns to death on its first ON_FIRE tick and drops loot; rows pos + the ent walk's item spawn tick/Pos (rotten_flesh/rare drops)" }

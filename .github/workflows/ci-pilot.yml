@@ -1,0 +1,69 @@
+# Published into the public test mirror by tools/infra/mirror.mjs (#7585) as .github/workflows/ci-pilot.yml. PACK (.pilot-args field 5, default 1) lockstep-pilot salts per job
+# (tools/referee/lockstep/pilot.mjs --one <lane>:<salt>) on the pushed p/<id> snapshot; job i runs salt FROM+i of .pilot-args ("lane from n").
+# Every job pushes pilot-<i>.json to r/<id>.<i>; the private side (mirror.mjs `pilot`) reads, validates and deletes the branches.
+# The server jar comes from the private store at run time (STORE_URL secret), never from the repo. Nothing here may name the owner.
+name: ci-pilot
+on:
+  push:
+    branches: ['p/**']
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: m
+        run: |
+          read lane from n idx pack < .pilot-args
+          # #8881: PACK salts per hosted job (default 1 = one salt per job); group g = "i,i,.." of consecutive missing offsets
+          g=$(node -e 'const a=process.argv[1].split(",").filter(Boolean),k=Math.max(1,+process.argv[2]||1),o=[];for(let j=0;j<a.length;j+=k)o.push(a.slice(j,j+k).join(","));console.log(JSON.stringify(o))' "$idx" "$pack")
+          echo "matrix={\"g\":$g}" >> "$GITHUB_OUTPUT"
+  salt:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        ${{ fromJSON(needs.plan.outputs.matrix) }}
+    env:
+      NODE_OPTIONS: --dns-result-order=ipv4first
+      MCLITE_HOSTED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: data
+        env: { STORE_URL: '${{ secrets.STORE_URL }}' }
+        run: . tools/infra/mirror/silent.sh; silent data node tools/cloud/bootstrap.mjs --store "$STORE_URL" --no-suite --no-build; . tools/infra/mirror/golden.sh; silent golden golden_pull || true
+      - name: salt
+        continue-on-error: true
+        run: |
+          read lane from n idx pack < .pilot-args
+          mkdir -p pilot-out; bad=0; pids=""
+          # each salt in its own process (same 2-core JVM cap inside pilot.mjs); a failure must show in the job log (#7585)
+          for i in $(echo "${{ matrix.g }}" | tr ',' ' '); do
+            [ "$i" -lt "$n" ] || { echo "job salt $i beyond $n seeds"; continue; }
+            # own server + rcon port per salt (fixed ports made two salts bind-race: pilot.mjs does the same for its children)
+            ( export MCLITE_CHASE_PORT=$((26000 + i * 2)) MCLITE_CHASE_RCON=$((27000 + i * 2)); node tools/referee/lockstep/pilot.mjs --one "$lane:$((from + i))" --cache "$RUNNER_TEMP/pc-$i" > pilot-out/full-$i.txt 2> pilot-out/err-$i.txt \
+              && tail -1 pilot-out/full-$i.txt > pilot-out/pilot-$i.json ) || { echo "salt $i FAILED (detail in the private reader of r/ branches, not this log)"; } &
+            pids="$pids $!"
+          done
+          for p in $pids; do wait $p || bad=1; done
+          [ $bad = 0 ]
+      - name: report
+        if: always()
+        run: |
+          id="${GITHUB_REF_NAME#p/}"
+          for i in $(echo "${{ matrix.g }}" | tr ',' ' '); do
+            [ -s pilot-out/pilot-$i.json ] || { echo "salt $i left no result"; continue; }
+            cd "$RUNNER_TEMP" && rm -rf rep && mkdir rep && cd rep && git init -q
+            cp "$GITHUB_WORKSPACE/pilot-out/pilot-$i.json" .
+            git -c user.name=CI -c user.email=ci@invalid.invalid add -A
+            git -c user.name=CI -c user.email=ci@invalid.invalid commit -qm "$id.$i"
+            git -c credential.helper= push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" "HEAD:refs/heads/r/$id.$i"
+            cd "$GITHUB_WORKSPACE"
+          done

@@ -1,0 +1,1 @@
+[{"id":"noisemeasurecheck","kind":"check","file":"tools/noisemeasure.mjs","args":["--selftest"],"why":"#11293: the N-run noise measurer aggregates min/max per line shape; its selftest breaks its own aggregation (3 breaks caught)."}]

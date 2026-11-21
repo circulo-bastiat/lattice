@@ -1,0 +1,1 @@
+[{"id":"bemodel11644check","kind":"check","file":"tools/bemodel11644check.mjs","args":[],"why":"#11644: 15h_bemodel.js DragonHeadEntityModel (dragon_head layer/rule/TURN) + BuiltinModelItemRenderer item path, reachability from 15_hud, source breaks caught."}]

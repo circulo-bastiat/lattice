@@ -1,0 +1,3 @@
+[
+  { "id": "soundtracecheck", "kind": "check", "file": "tools/referee/soundtracecheck.mjs", "args": [], "why": "#6218/#6257 G17-L25: sounds rows (server SND log vs NS.Sounds.trace); a live cow hurt+death matches the fixture and a swapped pitch roll order fails on the first sounds row." }
+]

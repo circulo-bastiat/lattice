@@ -1,0 +1,1 @@
+[{"id": "entityrender11599bcheck", "kind": "check", "file": "tools/entityrender11599bcheck.mjs", "args": [], "why": "#11599 part 2: FishingBobber rod tile, bow tiles, Biped arm pivot, ItemFrame glow light, rotLerp, isShaking/shakeYaw; each cut must fail; breaks caught."}]

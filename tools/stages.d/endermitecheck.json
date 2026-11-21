@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endermitecheck",
+  "kind": "check",
+  "args": [],
+  "why": "s115: ENDERMITE (07zn2_endermite.js) — goals, 2400-tick lifetime, Lifetime NBT, enderman's priority-3 target."
+ }
+]

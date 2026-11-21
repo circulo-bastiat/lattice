@@ -1,0 +1,8 @@
+[
+ {
+  "id": "brainsubstratecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#9267 -- Brain/Task/WaitTask substrate: priority run order, one nextInt(max+1-min) per task start, activity switching; must match the decompiled algorithm."
+ }
+]

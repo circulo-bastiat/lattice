@@ -1,0 +1,61 @@
+// D-657 referee for the sunrise/sunset band: DimensionEffects.Overworld.getFogColorOverride
+// (.decomp/net/minecraft/client/render/DimensionEffects.java:40-56), WorldRenderer.renderSky's fan
+// (WorldRenderer.java:1859-1887) and BackgroundRenderer's sunrise fog blend (BackgroundRenderer.java:88-104),
+// transcribed in Java FLOAT arithmetic over MathHelper.sin/cos exactly as .decomp/net/minecraft/util/math/
+// MathHelper.java:24-46 builds them (the 65536-entry SINE_TABLE; the jar itself is Java 17 and this PC's JDK
+// is 11, so the table is rebuilt here from its own two lines) and DimensionType.getSkyAngle's double->float formula.
+// Run: cp this to /tmp/Sunrise.java && java /tmp/Sunrise.java > tools/golden/sunrise-1.18.2.tsv
+public class Sunrise {
+  static final float[] SINE_TABLE = new float[65536];
+  static { for (int i = 0; i < 65536; i++) SINE_TABLE[i] = (float) Math.sin((double) i * Math.PI * 2.0 / 65536.0); }
+  static float sin(float x) { return SINE_TABLE[(int) (x * 10430.378F) & 65535]; }
+  static float cos(float x) { return SINE_TABLE[(int) (x * 10430.378F + 16384.0F) & 65535]; }
+  static float skyAngle(long time) {
+    double d = frac((double) time / 24000.0 - 0.25);
+    double e = 0.5 - Math.cos(d * Math.PI) / 2.0;
+    return (float) (d * 2.0 + e) / 3.0F;
+  }
+  static double frac(double v) { return v - Math.floor(v); }
+  public static void main(String[] a) throws Exception {
+    long[] times = {0, 6000, 11500, 12000, 12300, 12542, 12800, 13000, 13500, 18000, 22300, 22800, 23000, 23500, 23900};
+    System.out.println("# time\tskyAngle\tsinRad\tr\tg\tb\ta   (a = -1: no override)");
+    for (long t : times) {
+      float ang = skyAngle(t);
+      float sr = sin(ang * (float) (Math.PI * 2));
+      float c = cos(ang * (float) (Math.PI * 2)) - 0.0F;
+      if (c >= -0.4F && c <= 0.4F) {
+        float f = (c - -0.0F) / 0.4F * 0.5F + 0.5F;
+        float g = 1.0F - (1.0F - sin(f * (float) Math.PI)) * 0.99F;
+        g *= g;
+        System.out.println(t + "\t" + ang + "\t" + sr + "\t" + (f * 0.3F + 0.7F) + "\t" + (f * f * 0.7F + 0.2F) + "\t" + (f * f * 0.0F + 0.2F) + "\t" + g);
+      } else System.out.println(t + "\t" + ang + "\t" + sr + "\t0\t0\t0\t-1");
+    }
+    // the fan rim, before the pose: (sin k*2pi/16 * 120, cos * 120, -cos * 40 * alpha), alpha = 1
+    for (int k = 0; k <= 16; k++) {
+      float th = (float) k * (float) (Math.PI * 2) / 16.0F;
+      float s = sin(th), co = cos(th);
+      System.out.println("rim\t" + k + "\t" + (s * 120.0F) + "\t" + (co * 120.0F) + "\t" + (-co * 40.0F));
+    }
+    // the fog blend: base fog (0.5, 0.6, 0.7) at each time, looking along x = +1, 0.5, -1
+    float[] looks = {1.0F, 0.5F, -1.0F};
+    for (long t : times) for (float lx : looks) {
+      float ang = skyAngle(t);
+      float red = 0.5F, green = 0.6F, blue = 0.7F;
+      float side = sin(ang * (float) (Math.PI * 2)) > 0.0F ? -1.0F : 1.0F;
+      float dot = lx * side;
+      if (dot < 0.0F) dot = 0.0F;
+      if (dot > 0.0F) {
+        float c = cos(ang * (float) (Math.PI * 2)) - 0.0F;
+        if (c >= -0.4F && c <= 0.4F) {
+          float f = (c - -0.0F) / 0.4F * 0.5F + 0.5F;
+          float g = 1.0F - (1.0F - sin(f * (float) Math.PI)) * 0.99F; g *= g;
+          dot *= g;
+          red = red * (1.0F - dot) + (f * 0.3F + 0.7F) * dot;
+          green = green * (1.0F - dot) + (f * f * 0.7F + 0.2F) * dot;
+          blue = blue * (1.0F - dot) + (f * f * 0.0F + 0.2F) * dot;
+        }
+      }
+      System.out.println("fog\t" + t + "\t" + lx + "\t" + red + "\t" + green + "\t" + blue);
+    }
+  }
+}

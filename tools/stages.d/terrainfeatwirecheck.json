@@ -1,0 +1,1 @@
+[{"id":"terrainfeatwirecheck","kind":"check","file":"tools/terrainfeatwirecheck.mjs","args":[],"why":"#11476: 04n_feat_terrain.js is wired (classmap false positive, string-key F.register): lake, geode, desert_well, root_system run and place blocks through G.genColumn; 4 breaks caught (cutting each F.register key)."}]

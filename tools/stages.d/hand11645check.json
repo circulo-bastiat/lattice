@@ -1,0 +1,1 @@
+[{"id":"hand11645check","kind":"check","file":"tools/hand11645check.mjs","args":[],"why":"#11645: 14i_hand.js HeldItemRenderer equip progress (main/offhand), resetEquipProgress, swing guard; source breaks caught."}]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "witherowedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "D-803 (session 159, loop/wither-owed): damage() invuln gate, boss bar percent, soul-sand+3-skull summon detector, blockBreakingCooldown"
+ }
+]

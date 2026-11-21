@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobnbtcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/nbtsave-s104 -- entity NBT persistence (Mnt.OWED's entry, Tu.OWED's, part of Bee.OWED's) through 16b_save.js/07zw_mobnbt.js. AFTER turtlecheck: shares the same mob-module set, plus 16b_save.js's own save/load round trip."
+ }
+]

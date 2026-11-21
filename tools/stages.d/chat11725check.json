@@ -1,0 +1,1 @@
+[{"id":"chat11725check","kind":"check","file":"tools/chat11725check.mjs","args":[],"why":"#11725: ChatHudLine/ChatHudListener/ClientChatListener/GameInfoChatListener via Chat.add/say and H.actionBarAlpha; source breaks caught."}]

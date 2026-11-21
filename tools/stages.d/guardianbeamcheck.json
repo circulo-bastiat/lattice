@@ -1,0 +1,8 @@
+[
+ {
+  "id": "guardianbeamcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1111 -- guardian/elder_guardian beam render layer: ER.guardianBeamQuads (GuardianEntityRenderer.render's beam half: aim at target, len+1, 0.2/0.282 radii, colour ramp with getBeamProgress^2, uv scroll, cap flicker) and ER.pushGuardianBeam's target/progress sync. Geometry only (no GPU draw). Node-only."
+ }
+]

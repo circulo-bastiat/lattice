@@ -1,0 +1,8 @@
+[
+ {
+  "id": "utilmath11764check",
+  "kind": "check",
+  "args": [],
+  "why": "#11764 -- 02q_utilmath.js net/minecraft/util/math (AxisTransformation DirectionTransformation BlockPointer(Impl) PositionImpl Box ColorHelper Matrix4f AffineTransformation(s) ColumnPos EightWayDirection EulerAngle Quantiles Vec2f VerticalSurfaceType WordPackedArray); breaks its own data."
+ }
+]

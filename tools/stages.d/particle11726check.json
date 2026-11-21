@@ -1,0 +1,1 @@
+[{"id": "particle11726check", "kind": "check", "file": "tools/particle11726check.mjs", "args": [], "why": "#11726: SoulParticle, SnowflakeParticle, CurrentDownParticle (client/particle) ported from .decomp into Px.spawn/tick; each rule cut must fail; breaks caught."}]

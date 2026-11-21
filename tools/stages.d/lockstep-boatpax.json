@@ -1,0 +1,1 @@
+[{"id": "lockstep-boatpax", "kind": "check", "file": "tools/lockstep-boatpax-20.mjs", "args": [], "why": "#9441 G17-L72a-1: boat on water with a pig passenger, engine trace x 20 salts (pos/vel/yaw/pitch/links); 4 breaks caught. Server: pilot.mjs --lanes boatpax."}]

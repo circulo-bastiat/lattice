@@ -1,0 +1,9 @@
+[
+ {
+  "id": "startcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ]
+ }
+]

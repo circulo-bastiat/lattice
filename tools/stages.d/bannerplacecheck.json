@@ -1,0 +1,8 @@
+[
+ {
+  "id": "bannerplacecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#896 KW-49-4c2: a placed banner's block entity takes Patterns from the held stack's BlockEntityTag, gives them back on the dropped stack, and the field is saved; each link broken on purpose must fail."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spellcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/spells-s93 (QUEUE 0.2 raid loop, next step) -- the evoker/illusioner SPELL-CAST STATE MACHINE `07s_raid.js`'s own header/`Ai.OWED` named as still missing: `NS.Spell` (07v_spell.js), a real `SpellcastingIllagerEntity.CastSpellGoal`/`LookAtTargetGoal` transcription, wired into the evoker (`ConjureFangsGoal` + a real `evoker_fangs` entity) and illusioner (`BlindTargetGoal`/`GiveInvisibilityGoal`, calling `NS.Effects`'s existing API) rosters. `SummonVexGoal`/`WololoGoal` are proven still ABSENT, not silently skipped."
+ }
+]

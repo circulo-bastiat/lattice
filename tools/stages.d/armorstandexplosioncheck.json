@@ -1,0 +1,8 @@
+[
+ {
+  "id": "armorstandexplosioncheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4895 -- invisible armor_stand is immune to explosion damage and knockback (isImmuneToExplosion == isInvisible); visible stand is pushed. Node-only."
+ }
+]

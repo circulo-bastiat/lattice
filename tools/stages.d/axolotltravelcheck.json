@@ -1,0 +1,8 @@
+[
+ {
+  "id": "axolotltravelcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2713 -- Ax.travelMob matches AxolotlEntity.travel for 20 ticks: forwardSpeed*0.98, 0.9 drag, no gravity, also while playing dead."
+ }
+]

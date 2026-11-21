@@ -1,0 +1,1 @@
+[ { "id": "lockstep-blaze", "kind": "check", "file": "tools/lockstep-blaze.mjs", "args": [], "why": "#5361 G17-L4 lockstep blaze: engine trace (pos/yaw/pitch/target/cooldown + fireball spawn tick, Pos, velocity) for 20 salts, deterministic, cooldown cycles; MCLITE_LOCKSTEP_SERVER=1 compares against the real 1.18.2 server rep0 with no tolerance; injected 1e-9 drift caught." } ]

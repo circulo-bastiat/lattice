@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spawnergencheck",
+  "kind": "check",
+  "args": [],
+  "why": "#167 (G18c-d, Spawner.OWED #1) -- a spawner generated in the worker bundle (no NS.Spawner/BlockEntities) gets its dungeon/cave_spider entity id on the main thread via genColumn().spawners -> gen:done -> World.installChunk -> Spawner.assign; fails when the channel is cut."
+ }
+]

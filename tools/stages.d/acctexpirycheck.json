@@ -1,0 +1,1 @@
+[{"id":"acctexpirycheck","kind":"check","file":"tools/acctexpirycheck.mjs","args":[],"why":"#11108: FILL_WORKERS_<ACCOUNT>=\"N@<ISO>\" holds N until the time, then the account follows its default; plain N unchanged; go.mjs loop lets it through; 4 breaks caught."}]

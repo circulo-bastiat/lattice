@@ -1,0 +1,8 @@
+[
+ {
+  "id": "nametagcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/nametag -- the name tag (NameTagItem): Use.entityUse's own final fallback (14l_use.js), e.customName's COMMON save round trip (07zw_mobnbt.js), and the two dormant name hooks it closes elsewhere (Rb.skinKey's \"Toast\", Ai.VindicatorTargetGoal's \"Johnny\"). AFTER mobnbtcheck: shares the same save/load harness shape, plus the real Use/Rabbit modules."
+ }
+]

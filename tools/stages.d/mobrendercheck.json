@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobrendercheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/mobrender-s96 (QUEUE 0.2 Passive.OWED/Cr.OWED render remainder): the pack-mobtex.mjs overlay-layer filter fix (fur#null/drowned#b/husk#c/... now reach mob-geometry.json) and the creeper swell RENDER (ER.creeperScale, wired into ER.emitMobLayer/ER.build), both checked against the bytecode-verified CreeperEntityRenderer formula, not asserted from memory. Sheep fleece DRAW (tinted per DyeColor) is still owed -- see Passive.OWED."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "dustblendcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5772: block-dust biome tint is the 5x5 blend of per-column biome colours at a plains|swamp boundary; breaks (single column, 4-block texel) prove it can fail."
+ }
+]

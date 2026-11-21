@@ -1,0 +1,1 @@
+[{"id":"spectator11611check","kind":"check","file":"tools/spectator11611check.mjs","args":[],"why":"#11611: 15k_spectatormenu.js TeleportSpectatorMenu paging/filter/sort/confirm/close, reachable from 15_hud.js; source breaks caught."}]

@@ -1,0 +1,1 @@
+[{"id":"statsites1check","kind":"check","file":"tools/statsites1check.mjs","args":[],"why":"#11042 -- interact_with_beacon/smithing_table/campfire on Use.blockUse and traded_with_villager on Trade.attempt and talked_to_villager on Use.entityUse bump +1, failed open/trade bumps nothing; anti-vacuity drops each call site; 5 breaks caught."}]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "lookcontrolnavcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#6419 -- Ai.LookControl's clamp-while-pathing sees navigating for bee/parrot (BirdNavigation), dolphin and cow paths, and not on idle ticks."
+ }
+]

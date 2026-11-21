@@ -1,0 +1,1 @@
+[ { "id": "lockstep-witherlane", "kind": "check", "file": "tools/lockstep-witherlane.mjs", "args": [], "why": "#5378 G17-L4 lockstep wither: engine trace (pos/yaw/pitch/target + wither_skull spawn tick, Pos, velocity) for 20 salts, deterministic, MCLITE_LOCKSTEP_SERVER=1 compares against the real 1.18.2 server rep0 with no tolerance; injected 1e-9 drift caught." } ]

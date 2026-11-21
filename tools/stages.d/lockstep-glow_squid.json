@@ -1,0 +1,1 @@
+[{"id": "lockstep-glow_squid", "kind": "check", "file": "tools/lockstep-glow_squid.mjs", "args": [], "why": "#5323 G17-L4: engine-side glow_squid pool-lane trace, 20 salts (pos, vel, yaw, pitch, air per tick); deterministic per salt; 1e-9 drift in pos/vel/yaw/pitch and air shift caught."}]

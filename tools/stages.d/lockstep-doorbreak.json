@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-doorbreak",
+  "kind": "check",
+  "file": "tools/referee/lockstepdoorbreakcheck.mjs",
+  "args": [],
+  "why": "#6780 G17-L135: lockstep scenario doorbreak, 20 salts: zombie/husk/drowned BreakDoorGoal on a wooden door at Easy/Normal/Hard - Hard-only gate, 240-tick progress, stages 0-10, door removal, 1019/1021 sounds, goal release; Hard gate -> Normal and 240 -> 200 caught."
+ }
+]

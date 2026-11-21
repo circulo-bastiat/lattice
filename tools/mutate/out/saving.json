@@ -1,0 +1,77 @@
+{
+ "module": "saving",
+ "seed": 1,
+ "n": 8,
+ "files": [
+  {
+   "file": "src/16b_save.js",
+   "stages": [
+    "inhabitedcheck"
+   ],
+   "baselineDropped": 0,
+   "mutants": [
+    {
+     "line": 128,
+     "mutation": "constant +1",
+     "before": "count: 0,                   // total edited voxels",
+     "after": "count: 1,                   // total edited voxels",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 204,
+     "mutation": "flip ===",
+     "before": "return (!dim || dim === 'overworld') ? S.edits : (S.dimEdits[dim] || (S.dimEdits[dim] = new Map()));",
+     "after": "return (!dim || dim !== 'overworld') ? S.edits : (S.dimEdits[dim] || (S.dimEdits[dim] = new Map()));",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 210,
+     "mutation": "constant +1",
+     "before": "var key = NS.World.key(x >> 4, z >> 4);",
+     "after": "var key = NS.World.key(x >> 5, z >> 4);",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 241,
+     "mutation": "+ -> -",
+     "before": "var sy = ly >> 4, y0 = (ly & 15) === 0 ? sy - 1 : sy, y1 = (ly & 15) === 15 ? sy + 1 : sy;",
+     "after": "var sy = ly >> 4, y0 = (ly & 15) === 0 ? sy - 1 : sy, y1 = (ly & 15) === 15 ? sy - 1 : sy;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 279,
+     "mutation": "negate if",
+     "before": "if (indexOf[state] !== undefined) return;",
+     "after": "if (!indexOf[state] !== undefined) return;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 313,
+     "mutation": "+ -> -",
+     "before": "dv.setUint16(o + 4, indexOf[id], true);        // a palette index, not a block id",
+     "after": "dv.setUint16(o - 4, indexOf[id], true);        // a palette index, not a block id",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 334,
+     "mutation": "constant +1",
+     "before": "var nNames = dv.getUint16(12, true), o = 14;",
+     "after": "var nNames = dv.getUint16(13, true), o = 14;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 340,
+     "mutation": "+ -> -",
+     "before": "if (o + len > bytes.length) return false;",
+     "after": "if (o - len > bytes.length) return false;",
+     "status": "SURVIVED"
+    }
+   ],
+   "skippedUnviable": 0,
+   "sites": 394,
+   "killed": 0,
+   "survived": 8,
+   "score": 0
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "effectviewcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#303 (G23k) -- night vision strength curve, blindness fog distance/colour ramp, nausea strength ramp and wobble vs GameRenderer/BackgroundRenderer/ClientPlayerEntity decomp."
+ }
+]

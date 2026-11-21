@@ -1,0 +1,9 @@
+[
+ {
+  "id": "advtriggerscheck",
+  "kind": "check",
+  "file": "tools/advtriggerscheck.mjs",
+  "args": [],
+  "why": "#11565: 02l_advancements.js trigger classes (Consume/EnterBlock/FilledBucket/ShotCrossbow/UsedTotem/TameAnimal/FishingRodHooked/PlacedBlock/Travel/VillagerTrade/EffectsChanged/CuredZombieVillager/SummonedEntity/OnKilled/PlayerHurtEntity/EntityHurtPlayer/KilledByCrossbow/TargetHit/ThrownItemPickedUp/PlayerInteracted/StartedRiding/EnchantedItem/LocationArrival/InventoryChanged/Tick/UsedEnderEye) driven positive+negative over the real jar advancements via PlayerAdvancementTracker; each matcher cut to false/true and the inverted loot condition broken must be caught."
+ }
+]

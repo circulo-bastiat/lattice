@@ -1,0 +1,8 @@
+[
+ {
+  "id": "tickcheck",
+  "kind": "check",
+  "args": [],
+  "why": "⚠ AFTER `build`, BECAUSE IT ASKS THE BUILT FILE. `tickcheck` reads `dist/mclite.html` and asks whether the game's loop actually calls every per-tick entry point — the question that would have caught a scheduler nothing ever drained (D-301). Asking `src/` cannot answer it: a module written, correct and simply missing from `build.mjs`'s list looks identical there."
+ }
+]

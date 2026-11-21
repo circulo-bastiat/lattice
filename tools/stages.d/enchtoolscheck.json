@@ -1,0 +1,8 @@
+[
+ {
+  "id": "enchtoolscheck",
+  "kind": "check",
+  "args": [],
+  "why": "G22f (#198) -- tool-side enchantments read off the held stack: P.miningContext carries Silk Touch/Fortune/Efficiency levels, Efficiency adds level^2+1 to mining speed, Unbreaking negates wear at level/(level+1). Anti-vacuity: each term zeroed in the real source, 5 breaks caught."
+ }
+]

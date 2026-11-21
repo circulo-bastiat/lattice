@@ -1,0 +1,1 @@
+[{"id": "lockstep-wolfbeg", "kind": "check", "file": "tools/lockstep-wolfbeg.mjs", "args": [], "why": "#7100 G18b-L9: lockstep scenario wolfbeg, 20 salts: tamed wolf WolfBegGoal vs owner holding bone/beef/stick at 6 and 12 blocks: begging flag, 40+nextInt(40) timer, look target, beg progress, pos; range 8->10, timer window and 3 other breaks caught."}]

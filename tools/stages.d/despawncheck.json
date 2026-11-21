@@ -1,0 +1,8 @@
+[
+ {
+  "id": "despawncheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/despawn-s105 (QUEUE 0.2 G18c, Spawn.OWED's despawn line) -- MobEntity.checkDespawn whole: the >600 idle gate on the 1/800 roll, despawnCounter's +1/+2/reset bookkeeping, every canImmediatelyDespawn override (table re-derived from .decomp each run), damage reset."
+ }
+]

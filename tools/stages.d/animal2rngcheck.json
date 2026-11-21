@@ -1,0 +1,3 @@
+[
+  { "id": "animal2rngcheck", "kind": "check", "file": "tools/animal2rngcheck.mjs", "args": [] }
+]

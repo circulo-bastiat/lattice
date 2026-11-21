@@ -1,0 +1,8 @@
+[
+ {
+  "id": "waterlogcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#11391 -- every waterlogged block of the real 1.18.2 table: bucket fill/drain, the fluid tick on fill and neighbour update, flow out of open faces, break leaves a water source, save/load; 6 anti-vacuity breaks."
+ }
+]

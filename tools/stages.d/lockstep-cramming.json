@@ -1,0 +1,1 @@
+[ { "id": "lockstep-cramming", "kind": "check", "file": "tools/referee/cramminglockstepcheck.mjs", "args": [], "why": "#6299 G17-L51: lockstep scenario cramming, 20 salts: 30 cows in a 1x1 pen over 200 ticks, push order + maxEntityCramming 24 crush damage vs decomp tickCramming / pushAwayFrom." } ]

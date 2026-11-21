@@ -1,0 +1,3 @@
+[
+  { "id": "worldbordercheck", "kind": "check", "file": "tools/worldbordercheck.mjs", "args": [] }
+]

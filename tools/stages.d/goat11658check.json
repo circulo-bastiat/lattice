@@ -1,0 +1,1 @@
+[{"id":"goat11658check","kind":"check","file":"tools/goat11658check.mjs","args":[],"why":"#11658: 07zj_goat.js TemptationCooldownTask/LeapingChargeTask/BlockPosLookTarget/GoatEntity reachable from the goat goal list and AI look tick; 8 breaks caught."}]

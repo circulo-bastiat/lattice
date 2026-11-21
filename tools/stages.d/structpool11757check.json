@@ -1,0 +1,1 @@
+[{"id":"structpool11757check","kind":"check","file":"tools/structpool11757check.mjs","args":[],"why":"#11757: structure/pool classes (Empty/Feature/List/Single elements, StructurePool, StructurePoolBasedGenerator) compile every template_pool and assemble a real village; 6 breaks caught."}]

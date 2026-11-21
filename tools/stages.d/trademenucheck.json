@@ -1,0 +1,8 @@
+[
+ {
+  "id": "trademenucheck",
+  "kind": "check",
+  "args": [],
+  "why": "#228 G18f-a: MerchantScreenHandler slot economy (two input slots + result, autofill on select, take-result depletes the input slots) and the offer list scrolling past 7 rows; breaks its own data (no-slot-consume, one-offer-scroll-list, pinned window)."
+ }
+]

@@ -1,0 +1,1 @@
+[{"id":"netherfeatwirecheck","kind":"check","file":"tools/netherfeatwirecheck.mjs","args":[],"why":"#11474: 04z_feat_nether.js is wired (classmap false positive): basalt_pillar/basalt_columns/delta_feature/netherrack_replace_blobs/glowstone_blob/weeping_vines all run and place blocks through G.genColumn in the Nether; 6 breaks caught (cutting each F.register key)."}]

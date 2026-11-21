@@ -1,0 +1,9 @@
+[
+ {
+  "id": "lockstep-waterspawn",
+  "kind": "check",
+  "file": "tools/referee/waterspawnlockstepcheck.mjs",
+  "args": [],
+  "why": "#7096 G18c-L5: lockstep scenario waterspawn (flooded ocean arenas + dark water cave, 1200 ticks of the SpawnHelper cycle for water_creature/water_ambient/underground_water_creature/ambient, 20 salts: type/tick/pos/group size); squid sea-level bound 63->64 caught. Heavy: 2-hourly suite, not --core."
+ }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "queueordercheck", "kind": "check", "file": "tools/queueordercheck.mjs", "args": [] }
+]

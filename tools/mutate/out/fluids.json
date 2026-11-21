@@ -1,0 +1,113 @@
+{
+ "module": "fluids",
+ "seed": 1,
+ "n": 12,
+ "files": [
+  {
+   "file": "src/07b_behaviour.js",
+   "stages": [
+    "lavaswimcheck",
+    "fallwatertracecheck",
+    "projchorusflowercheck",
+    "arrowwatercheck",
+    "fluidrefcheck"
+   ],
+   "baselineDropped": 1,
+   "mutants": [
+    {
+     "line": 105,
+     "mutation": "|| -> &&",
+     "before": "if (n === 'iron_bars' || (n.length > 5 && n.lastIndexOf('_pane') === n.length - 5)) isPane[i] = true;",
+     "after": "if (n === 'iron_bars' && (n.length > 5 && n.lastIndexOf('_pane') === n.length - 5)) isPane[i] = true;",
+     "status": "KILLED",
+     "by": "arrowwatercheck"
+    },
+    {
+     "line": 122,
+     "mutation": "negate return",
+     "before": "set: function (x, y, z, id) { return B.world ? B.world.setBlock(x, y, z, id) : false; },",
+     "after": "set: function (x, y, z, id) { return !B.world ? B.world.setBlock(x, y, z, id) : false; },",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 146,
+     "mutation": "> -> >=",
+     "before": "return sky > blk ? sky : blk;",
+     "after": "return sky >= blk ? sky : blk;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 236,
+     "mutation": "&& -> ||",
+     "before": "function inCol(c, state) { return c >= 0 && NS.Tags.blockInCol(c, S.block[state]); }",
+     "after": "function inCol(c, state) { return c >= 0 || NS.Tags.blockInCol(c, S.block[state]); }",
+     "status": "KILLED",
+     "by": "arrowwatercheck"
+    },
+    {
+     "line": 257,
+     "mutation": "negate if",
+     "before": "if (other === 0) return false;",
+     "after": "if (!other === 0) return false;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 273,
+     "mutation": "|| -> &&",
+     "before": "var gateAxisZ = (f === V.north || f === V.south);",
+     "after": "var gateAxisZ = (f === V.north && f === V.south);",
+     "status": "KILLED",
+     "by": "arrowwatercheck"
+    },
+    {
+     "line": 378,
+     "mutation": "negate if",
+     "before": "if (stemOf(S.block[state])) return plantPartShape(state, x, y, z);",
+     "after": "if (!stemOf(S.block[state])) return plantPartShape(state, x, y, z);",
+     "status": "KILLED",
+     "by": "arrowwatercheck"
+    },
+    {
+     "line": 387,
+     "mutation": "constant +1",
+     "before": "var a = (f === V.north || f === V.south) ? 4 : 2, bd = OPP[a];",
+     "after": "var a = (f === V.north || f === V.south) ? 5 : 2, bd = OPP[a];",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 445,
+     "mutation": "flip ===",
+     "before": "function ccwFacing(v) { return v === V.north ? V.west : v === V.west ? V.south : v === V.south ? V.east : V.north; }",
+     "after": "function ccwFacing(v) { return v !== V.north ? V.west : v === V.west ? V.south : v === V.south ? V.east : V.north; }",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 605,
+     "mutation": "flip ===",
+     "before": "if (S.block[st] === R.id.pointed_dripstone && NS.Dripstone) NS.Dripstone.neighborChanged(nx, ny, nz, st, y - ny);",
+     "after": "if (S.block[st] !== R.id.pointed_dripstone && NS.Dripstone) NS.Dripstone.neighborChanged(nx, ny, nz, st, y - ny);",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 619,
+     "mutation": "constant +1",
+     "before": "var dn = leafDistanceOf(w.get(x, y, z)) + 1;",
+     "after": "var dn = leafDistanceOf(w.get(x, y, z)) + 2;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 829,
+     "mutation": "constant +1",
+     "before": "function stillWater(st) { return isBubble(st) || (st !== 0 && S.block[st] === B.WATER && fluidLevel(st) === 0); }",
+     "after": "function stillWater(st) { return isBubble(st) || (st !== 1 && S.block[st] === B.WATER && fluidLevel(st) === 0); }",
+     "status": "SURVIVED"
+    }
+   ],
+   "skippedUnviable": 0,
+   "sites": 2109,
+   "killed": 4,
+   "survived": 8,
+   "score": 0.3333333333333333
+  }
+ ]
+}

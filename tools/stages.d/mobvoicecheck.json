@@ -1,0 +1,1 @@
+[{"id":"mobvoicecheck","kind":"check","args":[],"why":"#742 every mob voice event (ambient/hurt/death/step, horse angry/eat/gallop) is reachable and plays"}]

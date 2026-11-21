@@ -1,0 +1,8 @@
+[
+ {
+  "id": "statsites2check",
+  "kind": "check",
+  "args": [],
+  "why": "G26u (#11043) - damage_absorbed/resisted via Survival.hurt; shield/clean_*/enchant_item/sleep_in_bed call sites; breaks its own sites and counts."
+ }
+]

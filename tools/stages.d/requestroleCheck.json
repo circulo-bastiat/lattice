@@ -1,0 +1,3 @@
+[
+  { "id": "requestroleCheck", "kind": "check", "file": "tools/requestroleCheck.mjs", "args": [] }
+]

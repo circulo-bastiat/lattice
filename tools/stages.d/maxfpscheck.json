@@ -1,0 +1,3 @@
+[
+  { "id": "maxfpscheck", "kind": "check", "file": "tools/maxfpscheck.mjs", "args": [] }
+]

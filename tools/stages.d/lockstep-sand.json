@@ -1,0 +1,1 @@
+[ { "id": "lockstep-sand", "kind": "check", "file": "tools/referee/sandlockstepcheck.mjs", "args": [], "why": "#6310 G17-L58: lockstep scenario sand, 20 salts: sand column landing on stone, torch (item drop), water, anvil hurting a cow (fallDamagePerDistance 2.0), vs decomp FallingBlockEntity.tick + FallingBlock.scheduledTick." } ]

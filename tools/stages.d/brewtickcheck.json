@@ -1,0 +1,8 @@
+[
+ {
+  "id": "brewtickcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G23h -- BrewingStandBlockEntity.tick: blaze powder -> fuel 20, 400-tick countdown, craft of all three bottles, cancel when the ingredient goes, has_bottle_N states, hopper sides; breaks its own recipe table to prove it can fail."
+ }
+]

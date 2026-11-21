@@ -1,0 +1,8 @@
+[
+ {
+  "id": "axolotlperfcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#7651 -- villager and land-stranded axolotl tick budgets (ms/tick plus machine-independent A* call and node-type counts); the axolotl re-planned two 600-node searches EVERY tick when its goal had no route."
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "id": "hatnosecheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/model-layer-bugs: hat/nose child-part pivot composition (witch's hat, D-KW)"
+ }
+]

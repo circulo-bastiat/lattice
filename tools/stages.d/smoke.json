@@ -1,0 +1,7 @@
+[
+ {
+  "id": "smoke",
+  "kind": "browser",
+  "args": []
+ }
+]

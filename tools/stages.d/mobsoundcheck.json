@@ -1,0 +1,8 @@
+[
+ {
+  "id": "mobsoundcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G18a-2 (#210) -- every mob's own sound source (hostile/neutral/player) equals Entity.getSoundCategory() derived from the .decomp class chain; hostile/neutral struck from S.OWED_SOURCES; mobSound routes into the right gain node."
+ }
+]

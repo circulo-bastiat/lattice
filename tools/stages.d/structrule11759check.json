@@ -1,0 +1,1 @@
+[{"id":"structrule11759check","kind":"check","file":"tools/structrule11759check.mjs","args":[],"why":"#11759: structure/rule classes (RuleTest, PosRuleTest and their 11 subclasses/types) = Jigsaw.compilePredicate; 10 breaks caught."}]

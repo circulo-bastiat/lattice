@@ -1,0 +1,82 @@
+{
+ "module": "mobs-ai",
+ "seed": 1,
+ "n": 8,
+ "files": [
+  {
+   "file": "src/07k_goals.js",
+   "stages": [
+    "lockstep-catgift",
+    "goalstracecheck",
+    "lockstep-temptgoal",
+    "lockstep-swimgoal",
+    "lockstep-floatgoal",
+    "goalrngcheck"
+   ],
+   "baselineDropped": 0,
+   "mutants": [
+    {
+     "line": 920,
+     "mutation": "> -> >=",
+     "before": "if (f - here > 1.125) continue;",
+     "after": "if (f - here >= 1.125) continue;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 1306,
+     "mutation": "negate return",
+     "before": "return (L && L.y !== undefined) ? L.y * DEG : Ai.HEAD_MAX_YAW;",
+     "after": "return !(L && L.y !== undefined) ? L.y * DEG : Ai.HEAD_MAX_YAW;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 1448,
+     "mutation": "* -> /",
+     "before": "if (p !== null) e.pitch = Ai.rotateTowards(e.pitch || 0, p + 10 * DEG, self.xMax);",
+     "after": "if (p !== null) e.pitch = Ai.rotateTowards(e.pitch || 0, p + 10 / DEG, self.xMax);",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 1549,
+     "mutation": "constant +1",
+     "before": "Ai.MOVE_ARRIVED_SQ = 2.500000277905201e-7;",
+     "after": "Ai.MOVE_ARRIVED_SQ = 2.500000277905201e-8;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 1949,
+     "mutation": "* -> /",
+     "before": "var tx = e.x + Math.cos(ang) * r, tz = e.z + Math.sin(ang) * r;",
+     "after": "var tx = e.x + Math.cos(ang) / r, tz = e.z + Math.sin(ang) * r;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 2227,
+     "mutation": "&& -> ||",
+     "before": "if (!to && Ai.hasPositionTarget(e)) {   // NavigationConditions.isPositionTargetInRange: isWithinDistance(pos, range + horiz + 1)",
+     "after": "if (!to || Ai.hasPositionTarget(e)) {   // NavigationConditions.isPositionTargetInRange: isWithinDistance(pos, range + horiz + 1)",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 2383,
+     "mutation": "negate return",
+     "before": "if (!best) return false;",
+     "after": "if (!best) return !false;",
+     "status": "SURVIVED"
+    },
+    {
+     "line": 2433,
+     "mutation": "* -> /",
+     "before": "return REACH_FACTOR * ew * REACH_FACTOR * ew + tw;",
+     "after": "return REACH_FACTOR / ew * REACH_FACTOR * ew + tw;",
+     "status": "SURVIVED"
+    }
+   ],
+   "skippedUnviable": 0,
+   "sites": 5871,
+   "killed": 0,
+   "survived": 8,
+   "score": 0
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+[
+  { "id": "levelupcheck", "kind": "check", "file": "tools/levelupcheck.mjs", "args": [] }
+]

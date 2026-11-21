@@ -1,0 +1,3 @@
+[
+  { "id": "docrefcheck", "kind": "check", "file": "tools/docrefcheck.mjs", "args": [] }
+]

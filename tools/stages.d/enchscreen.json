@@ -1,0 +1,8 @@
+[
+ {
+  "id": "enchscreen",
+  "kind": "check",
+  "args": [],
+  "why": "PLAN G22 -- the enchanting table screen. Slot origins, button strip and level icons asserted against EnchantmentScreenHandler/EnchantmentScreen (.decomp) and enchanting_table.png's pixels; the roll is a real java.util.Random and the clue always holds; lapis/level economy, creative, books; the Standard Galactic label, level cost and tooltips off the real Hud draw; enchant lines and the glint predicate. Each section breaks its own data and shows the assertion catch it."
+ }
+]

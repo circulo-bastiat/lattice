@@ -1,0 +1,1 @@
+[{"id":"goals11582check","kind":"check","file":"tools/goals11582check.mjs","args":[],"why":"#11582: 07k_goals.js PathNodeMaker (mobNodeType cactus/fence/open), BlockBreakingInfo (BreakDoorGoal crack stages 0..10 and -1 on stop), AmbientEntity (bat empty selector, not leashable); 6 breaks caught."}]

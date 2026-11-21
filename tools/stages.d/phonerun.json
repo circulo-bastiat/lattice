@@ -1,0 +1,3 @@
+[
+  { "id": "phonerunscheck", "kind": "browser", "file": "tools/phonerunscheck.mjs", "args": [], "why": "#4175 PHONE step 2: the live runs home screen - logic, the launcher's issue tag, and the real app in phone-sized Chromium against a mocked GitHub (screenshots in assets/)" }
+]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-vex", "kind": "check", "file": "tools/lockstep-vex.mjs", "args": [], "why": "#6133 G17-L4 lockstep vex: lane registered in lanes.d/vex.json; pilot 20 seeds 0 divergences; engine trace deterministic over 20 salts; injected drift caught." } ]

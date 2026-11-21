@@ -1,0 +1,8 @@
+[
+ {
+  "id": "endcityrecursecheck",
+  "kind": "check",
+  "args": [],
+  "why": "#9449 -- end_city bridges, fat tower and the recursive part selection (depth limit, branching, RNG draws) equal an independent interpreter of the decompiled EndCityGenerator for 150 seeds; breaks the rules and prints '<n> breaks caught'."
+ }
+]

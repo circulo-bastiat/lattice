@@ -1,0 +1,1 @@
+[ { "id": "lockstep-despawnrange", "kind": "check", "file": "tools/lockstep-despawnrange.mjs", "args": [], "why": "#7943 G18c-L8: lockstep scenario despawnrange (6 mob types x 20/40/70/100/140 blocks x name tag/leash/pickup, 20 salts x 3000 ticks: immediate range by SpawnGroup, start 32, counter>600 then 1/800, +1/+2 counter, canImmediatelyDespawn): a 1/400 roll caught." } ]

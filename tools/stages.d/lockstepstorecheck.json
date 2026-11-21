@@ -1,0 +1,1 @@
+[{"id":"lockstepstorecheck","kind":"check","file":"tools/lockstepstorecheck.mjs","args":[],"why":"#9364 R2: lockstep results are published to / synced from the store branch only when credited (inputs match, same:true); doctored ones refused; breaks caught."}]

@@ -1,0 +1,1 @@
+[{"id":"soundwirecheck","kind":"check","file":"tools/soundwirecheck.mjs","args":[],"why":"#11754: MusicSound/BiomeAdditionsSound tables match the 1.18.2 biome JSON and are played through S.ambientTick (Main.worldTick); BlockSoundGroup via blockMix; 3 breaks caught."}]

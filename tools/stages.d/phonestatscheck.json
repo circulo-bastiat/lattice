@@ -1,0 +1,3 @@
+[
+  { "id": "phonestatscheck", "kind": "check", "file": "tools/phonestatscheck.mjs", "args": [], "why": "Dan 10 Oct: the phone app shows each worker's model + a finished run's tokens/USD/turns and has a Stats tab - parsing against the real bus line, 18 breaks" }
+]

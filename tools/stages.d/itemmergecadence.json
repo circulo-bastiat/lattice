@@ -1,0 +1,3 @@
+[
+  { "id": "itemmergecheck", "kind": "check", "file": "tools/itemmergecheck.mjs", "args": [] }
+]

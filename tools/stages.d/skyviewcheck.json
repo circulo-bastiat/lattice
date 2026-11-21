@@ -1,0 +1,10 @@
+[
+ {
+  "id": "skyviewcheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "⚠ THE BROWSER STAGE THAT LOOKS AT THE SKY (D-303, D-304). `skycheck` holds G16's 141 numbers and not one of them needs a canvas — every one would still pass with the sky pass drawing nothing, which for two bugs it very nearly was. This one flies to open air, points the camera up and reads the pixels: the sun against the sky beside it, the moon through a whole eight-day cycle, the stars against the black, and the sky pass on against off."
+ }
+]

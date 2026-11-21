@@ -1,0 +1,8 @@
+[
+ {
+  "id": "throwableitemcheck",
+  "kind": "check",
+  "args": [],
+  "why": "loop/model-layer-bugs: thrown potion/snowball/egg/pearl sprite visibility (D-KW)"
+ }
+]

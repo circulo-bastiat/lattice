@@ -1,0 +1,3 @@
+[
+  { "id": "historyatomiccheck", "kind": "check", "file": "tools/historyatomiccheck.mjs", "args": [] }
+]

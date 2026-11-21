@@ -1,0 +1,1 @@
+[ { "id": "lockstep-enderman-wander", "kind": "check", "file": "tools/lockstep-enderman-wander.mjs", "args": [], "why": "#6967 enderman wander is random (WanderAroundFarGoal 1.0/0.0F) and the server trace is not repeatable per salt (#5108): the first-move tick distribution over 120 engine salts must fit the nextInt(120) model; skewed distributions are caught." } ]

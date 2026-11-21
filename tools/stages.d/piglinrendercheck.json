@@ -1,0 +1,11 @@
+[
+ {
+  "id": "piglinrendercheck",
+  "kind": "browser",
+  "file": "tools/piglinmodelcheck.mjs",
+  "args": [
+   "--browser"
+  ],
+  "why": "KW-33: the SAME file's live-render proof (browser; measures the actual draw, not just models.bin)"
+ }
+]

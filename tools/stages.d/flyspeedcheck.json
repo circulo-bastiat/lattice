@@ -1,0 +1,8 @@
+[
+ {
+  "id": "flyspeedcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#2034 -- every Fl.FLYING_SPEED entry matches a .decomp field_23720 user (ghast must be absent)."
+ }
+]

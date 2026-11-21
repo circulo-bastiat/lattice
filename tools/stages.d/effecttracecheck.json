@@ -1,0 +1,3 @@
+[
+  { "id": "effecttracecheck", "kind": "check", "file": "tools/referee/effecttracecheck.mjs", "args": [], "why": "#6260 G17-L28: trace field effects [[id,amp,duration]]; cave spider poison matches tick by tick, an off-by-one duration diverges at the bite tick." }
+]

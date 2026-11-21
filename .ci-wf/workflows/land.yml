@@ -1,0 +1,54 @@
+# The lander (RUN.md): one PR at a time. Since 7 Oct (Dan: "tests no longer run on my PC") it runs on GitHub-hosted ubuntu runners;
+# the PC express lander (-land/-land2) was retired under #10414 (no PC work for 24 h with the hosted path on).
+name: land
+on:
+  pull_request:
+    types: [labeled, synchronize, reopened]
+  workflow_dispatch:
+concurrency:
+  group: land            # ONE landing at a time across every machine; queued, never cancelled
+  cancel-in-progress: false
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+jobs:
+  land-hosted:
+    if: vars.TEST_RUNNER != 'pc' && vars.TEST_RUNNER != 'mirror' && vars.TEST_RUNNER != 'lattice'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      NODE_OPTIONS: --dns-result-order=ipv4first
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0, ref: master }
+      - uses: actions/checkout@v4
+        with: { ref: store, path: _store }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: data + build
+        run: node tools/cloud/bootstrap.mjs --store "$GITHUB_WORKSPACE/_store" --no-suite --no-build 2>&1 | tail -5
+      - name: land
+        run: node tools/infra/land.mjs ${{ github.event.pull_request.number }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MCLITE_PRESET: medium
+          MCLITE_HOSTED: '1'
+          MIRROR_REPO: ${{ vars.MIRROR_REPO }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+          MCLITE_TEST_REMOTE: ${{ vars.TEST_REMOTE }}
+  land-mirror:
+    # #8916: only dispatches lattice land.yml and waits for its verdict (the lattice run does the work, silently); rollback: TEST_RUNNER=pc
+    if: vars.TEST_RUNNER == 'mirror'
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: master }
+      - name: dispatch and wait
+        run: node tools/infra/landmirror.mjs run ${{ github.event.pull_request.number }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MIRROR_REPO: ${{ vars.MIRROR_REPO }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}

@@ -1,0 +1,3 @@
+[
+  { "id": "metricscheck", "kind": "check", "file": "tools/metricscheck.mjs", "args": [] }
+]

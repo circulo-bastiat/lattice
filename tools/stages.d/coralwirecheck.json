@@ -1,0 +1,1 @@
+[{"id":"coralwirecheck","kind":"check","file":"tools/coralwirecheck.mjs","args":[],"why":"#11468: 04q_feat_coral.js is wired (classmap false positive): warm_ocean_vegetation compiles to coral_tree/claw/mushroom and places coral blocks; 3 breaks caught (cutting a register line)."}]

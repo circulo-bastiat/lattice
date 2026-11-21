@@ -1,0 +1,8 @@
+[
+ {
+  "id": "scaffoldingcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#5667 G17-Q1 -- ScaffoldingBlock.tick: distance/bottom recomputed after a neighbour change; unsupported distance-7 scaffolding falls."
+ }
+]

@@ -1,0 +1,1 @@
+[{"id": "dolphinpathcheck", "kind": "check", "file": "tools/dolphinpathcheck.mjs", "args": [], "why": "#8754 G18b-DOL1: Ai.swimNavigate (PathNodeNavigator + WaterPathNodeMaker, BREACH/WATER node types) equals the real 1.18.2 server dolphin path node lists on seeded swim layouts; BREACH cost zeroed / WATER raised / moved node / breach off fail."}]

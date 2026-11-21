@@ -1,0 +1,8 @@
+[
+ {
+  "id": "serverworldport11753check",
+  "kind": "check",
+  "args": [],
+  "why": "#11753 -- 02r_serverworld.js net/minecraft/server/world (ChunkTicketType ChunkTicket ChunkTicketManager ChunkHolder LevelPrioritizedQueue ChunkTaskPrioritySystem PlayerChunkWatchingManager EntityTrackingListener ServerEntityManager ServerLightingProvider); ticked from Main.worldTick; breaks its own data."
+ }
+]

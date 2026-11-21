@@ -1,0 +1,1 @@
+[{"id":"particleclasscheck","kind":"check","file":"tools/particleclasscheck.mjs","args":[],"why":"#11488: 07zx_particle.js particle classes (Emotion, Note, BubbleColumnUp, Damage, DragonBreath, RainSplash, Sweep, Ash, EndRod...) compared with constants read from .decomp; 7 breaks caught."}]

@@ -1,0 +1,1 @@
+[{"id":"llama11637check","kind":"check","file":"tools/llama11637check.mjs","args":[],"why":"#11637: 07ze_llama.js LlamaEntityRenderer texture pick (Ll.skinKey) + reachability from 07j texKey chain; source breaks caught."}]

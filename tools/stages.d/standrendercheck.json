@@ -1,0 +1,3 @@
+[
+ { "id": "standrendercheck", "kind": "check", "file": "tools/standrendercheck.mjs", "args": [], "why": "#4497 -- armor_stand renderer reads Pose/ShowArms/NoBasePlate/Invisible/Small; breaking each read must fail." }
+]

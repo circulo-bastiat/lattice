@@ -1,0 +1,8 @@
+[
+ {
+  "id": "column11648check",
+  "kind": "check",
+  "args": [],
+  "why": "#11648 -- 04d_column.js: Spline cubic evaluator, terrain-shaper clamps, GeneratorType world types match vanilla and worldgen reaches Column."
+ }
+]

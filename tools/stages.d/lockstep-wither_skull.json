@@ -1,0 +1,1 @@
+[ { "id": "lockstep-wither_skull", "kind": "check", "file": "tools/lockstep-wither_skull.mjs", "args": [], "why": "#5383 G17-L4 lockstep wither_skull: engine trace (pos/vel/impact tick/effect) for 20 salts, deterministic, skull impacts and explodes; injected 1e-9 drift caught. Real-server half owed." } ]

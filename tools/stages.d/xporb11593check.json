@@ -1,0 +1,1 @@
+[{"id":"xporb11593check","kind":"check","file":"tools/xporb11593check.mjs","args":[],"why":"#11593: 07zz_xporb.js OreBlock/SpawnerBlock xp through the real P.breakBlock; silk/creative/doTileDrops gates; breaks caught."}]

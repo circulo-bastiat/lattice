@@ -1,0 +1,1 @@
+[{"id":"pilotmirrorcheck","kind":"check","args":[],"why":"#7585 -- lockstep pilot salts run one per hosted job on the public test mirror (ci-pilot.yml, mirror.mjs pilot, pilot.mjs --remote mirror); a missing or foreign result never counts as a pass; the unreachable mirror falls back to local; deleting any wiring rule must be caught (breaks caught)."}]

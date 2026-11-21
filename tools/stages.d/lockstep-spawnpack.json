@@ -1,0 +1,1 @@
+[ { "id": "lockstep-spawnpack", "kind": "check", "file": "tools/lockstep-spawnpack.mjs", "args": [], "why": "#7941 G18c-L6: lockstep scenario spawnpack (7 biomes x 200 cycles x 20 salts: pack size min..max, 3-try loop with nextInt(6)-nextInt(6) walk, 576 distance gate, per-type cap and stop at maxCount): wolf max pack 4 -> 5 caught." } ]

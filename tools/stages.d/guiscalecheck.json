@@ -1,0 +1,3 @@
+[
+  { "id": "guiscalecheck", "kind": "check", "file": "tools/guiscalecheck.mjs", "args": [] }
+]

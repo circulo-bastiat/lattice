@@ -1,0 +1,1 @@
+[ { "id": "lockstep-husk", "kind": "check", "file": "tools/referee/lockstephuskcheck.mjs", "args": [], "why": "#6486 G17-L4: husk lane, 20 salts engine trace deterministic, pilot 0 divergences; tampered pos 1e-9/yaw/headYaw/onGround/shift breaks caught." } ]

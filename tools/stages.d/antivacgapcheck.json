@@ -1,0 +1,1 @@
+[{"id":"antivacgapcheck","kind":"check","file":"tools/antivacgapcheck.mjs","args":[],"why":"#11379: anti-vacuity gaps (real minus reverted) must exceed 5x measured noise; guards the bowdrawcheck/mobpackcheck rules (4 breaks caught)."}]

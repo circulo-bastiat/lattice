@@ -1,0 +1,8 @@
+[
+ {
+  "id": "skeletontargetcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#1131 -- skeleton/stray/wither_skeleton targetSelector has ActiveTargetGoal<IronGolem> and <baby turtle on land> at priority 3 (AbstractSkeletonEntity.initGoals); wither adds piglins. Removes each row and must notice."
+ }
+]

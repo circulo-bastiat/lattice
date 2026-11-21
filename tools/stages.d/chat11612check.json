@@ -1,0 +1,1 @@
+[{"id": "chat11612check", "kind": "check", "file": "tools/chat11612check.mjs", "args": [], "why": "#11612: ChatScreen PageUp/PageDown scroll by lines-1 and wheel clamp ±1 ×7 (Shift ×1); each cut must fail; breaks caught."}]

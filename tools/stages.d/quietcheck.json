@@ -1,0 +1,1 @@
+[{ "id": "quietcheck", "kind": "check", "file": "tools/quietcheck.mjs", "args": [] }]

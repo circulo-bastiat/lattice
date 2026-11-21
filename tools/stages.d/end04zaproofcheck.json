@@ -1,0 +1,1 @@
+[{"id":"end04zaproofcheck","kind":"check","file":"tools/end04zaproofcheck.mjs","args":[],"why":"#11577: 04za_end.js DensityFunctionTypes/EndGatewayFeature/ChorusPlantFeature/ChorusPlantBlock via G.genColumn(the_end); 5 breaks caught."}]

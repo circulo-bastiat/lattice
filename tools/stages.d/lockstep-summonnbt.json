@@ -1,0 +1,1 @@
+[ { "id": "lockstep-summonnbt", "kind": "check", "file": "tools/referee/lockstepsummonnbtcheck.mjs", "args": [], "why": "#7091 G17-L228: /summon NBT reads (Motion, Rotation, flags, Tags, Health, ActiveEffects, ArmorItems, creeper powered/Fuse), 20 salts; Motion-zero and effect duration+1 caught." } ]

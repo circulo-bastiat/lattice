@@ -1,0 +1,3 @@
+[
+  { "id": "soaktracecheck", "kind": "check", "file": "tools/referee/soaktracecheck.mjs", "args": [], "why": "#6270 G17-L38: soak harness (12-mob summon list, per-mob first-divergence table, spawn-shift break)." }
+]

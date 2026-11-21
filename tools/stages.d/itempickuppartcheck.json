@@ -1,0 +1,8 @@
+[
+ {
+  "id": "itempickuppartcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-I1: ItemPickupParticle (Px.spawnPickup/pickupPos/tick) lerps item to collector over 3 ticks per decompiled formula; mob pickup (Eq.loot) spawns it; lifetime 4 detected."
+ }
+]

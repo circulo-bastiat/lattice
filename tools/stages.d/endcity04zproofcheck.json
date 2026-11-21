@@ -1,0 +1,1 @@
+[{"id":"endcity04zproofcheck","kind":"check","file":"tools/endcity04zproofcheck.mjs","args":[],"why":"#11703: 04z_struct_end_city.js EndCityGenerator/SimpleStructurePiece/EndCityFeature via G.genColumn(the_end); 3 breaks caught."}]

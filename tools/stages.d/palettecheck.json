@@ -1,0 +1,10 @@
+[
+ {
+  "id": "palettecheck",
+  "kind": "browser",
+  "args": [
+   "dist/mclite.html"
+  ],
+  "why": "the picture's PALETTE rather than its geometry: a quality preset may cost frames, not colour (D-159, which every mesh-level check agreed was fine)"
+ }
+]

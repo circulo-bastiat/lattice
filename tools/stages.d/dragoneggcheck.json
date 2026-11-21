@@ -1,0 +1,3 @@
+[
+  { "id": "dragoneggcheck", "kind": "check", "file": "tools/dragoneggcheck.mjs", "args": [] }
+]

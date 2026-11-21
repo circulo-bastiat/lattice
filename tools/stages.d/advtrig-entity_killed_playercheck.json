@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-entity_killed_playercheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT16 (#7978) — Adv.matchers entity_killed_player + the Survival.die call site; adventure/root completes, a non-matching killing_blow does not; breaks its own matcher."
+ }
+]

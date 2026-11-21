@@ -1,0 +1,8 @@
+[
+ {
+  "id": "patrolcountcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#747: PatrolSpawner member count is vanilla's ceil(localDifficulty)+1 minimum (easy 2, normal 3, hard 4). Breaks its own data."
+ }
+]

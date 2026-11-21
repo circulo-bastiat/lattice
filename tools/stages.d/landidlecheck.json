@@ -1,0 +1,3 @@
+[
+  { "id": "landidlecheck", "kind": "check", "file": "tools/landidlecheck.mjs", "args": [] }
+]

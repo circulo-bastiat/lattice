@@ -1,0 +1,9 @@
+[
+ {
+  "id": "seedparsecheck",
+  "kind": "check",
+  "file": "tools/seedparsecheck.mjs",
+  "args": [],
+  "why": "#384: parseSeed is GeneratorOptions.parseSeed (Long.parseLong else String.hashCode)"
+ }
+]

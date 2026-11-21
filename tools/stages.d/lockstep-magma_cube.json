@@ -1,0 +1,1 @@
+[{"id": "lockstep-magma_cube", "kind": "check", "file": "tools/lockstep-magma_cube.mjs", "args": [], "why": "#5360 G17-L4: magma_cube lane engine trace, 20 salts deterministic; tampered pos 1e-9/yaw/attack/health/shift breaks caught."}]

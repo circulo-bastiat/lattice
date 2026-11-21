@@ -1,0 +1,1 @@
+[{"id":"fly11672check","kind":"check","file":"tools/fly11672check.mjs","args":[],"why":"#11672: 07t_fly.js FollowMobGoal/SitOnOwnerShoulderGoal/BirdNavigation/TameableShoulderEntity reachable via ROSTER.parrot; breaks caught."}]

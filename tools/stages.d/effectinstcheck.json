@@ -1,0 +1,9 @@
+[
+ {
+  "id": "effectinstcheck",
+  "kind": "check",
+  "file": "tools/effectinstcheck.mjs",
+  "args": [],
+  "why": "#11675 07q_effects.js: StatusEffectInstance + StatusEffectUtil (conduit power/haste) + AbsorptionStatusEffect reached via LivingEntity add/remove/tick and the saves. #293 (G23) -- StatusEffectInstance exact: upgrade's hidden-effect chain + update's resume (Strength II 0:22 over Strength I 3:00), LivingEntity add/set/remove/clear + onApplied/Upgraded/Removed hooks, ActiveEffects NBT on the player and mob records, milk through clearStatusEffects."
+ }
+]

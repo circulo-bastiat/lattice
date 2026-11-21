@@ -1,0 +1,3 @@
+[
+  { "id": "combatmutantscheck", "kind": "check", "file": "tools/combatmutantscheck.mjs", "args": [], "why": "#11504 -- assertions that kill the 7 surviving combat mutants (eye height, wetExtinguish, impaling, dragon thorns, enderman teleport, bat wake, stuck timer)" }
+]

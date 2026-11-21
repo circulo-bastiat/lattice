@@ -1,0 +1,3 @@
+[
+  { "id": "pilotsumcheck", "kind": "check", "file": "tools/referee/pilotsumcheck.mjs", "args": [], "why": "#6426: pilotsum merges lockstep pilot chunks (dropped/duplicate/mismatched caught); a busy requested server port falls back to a free port and its own workdir." }
+]

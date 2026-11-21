@@ -1,0 +1,1 @@
+[{"id":"containerscreens11725check","kind":"check","file":"tools/containerscreens11725check.mjs","args":[],"why":"#11725: StonecutterScreen, CartographyTableScreen and Generic3x3ContainerScreen via H.openStonecutter/stonecutterClick, H.openCartography/cartographyClick, H.openDispenser and the H.draw dispatch; source breaks caught."}]

@@ -1,0 +1,1 @@
+[ { "id": "lockstep-gossip", "kind": "check", "file": "tools/referee/gossiplockstepcheck.mjs", "args": [], "why": "#6790 G17-L141: lockstep scenario gossip, 20 salts: merge cap, daily decay, share, reputation price diff, Hero of the Village, golem-kill anger; GossipType weight/max/decay/share and price breaks caught." } ]

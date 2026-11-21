@@ -1,0 +1,8 @@
+[
+ {
+  "id": "wandertargetcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#3679 -- Ai.WanderNearTargetGoal refuses without a findTo point and continues only with a live path, live target and distSq < max^2; the old straight-step goal is run through the same asserts and must fail them."
+ }
+]

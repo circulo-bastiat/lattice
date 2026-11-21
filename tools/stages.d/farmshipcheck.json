@@ -1,0 +1,1 @@
+[ { "id": "farmshipcheck", "kind": "check", "file": "tools/farmshipcheck.mjs", "args": [], "why": "22 Oct: the first pilot-farm run produced 200 results and died on `/pulls 403` (GITHUB_TOKEN cannot open PRs here); the brain tick now opens a land PR for every farm/* branch that has none; runs shipFarm against a fake GitHub, breaks caught." } ]

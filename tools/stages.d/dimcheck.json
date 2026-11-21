@@ -1,0 +1,9 @@
+[
+ {
+  "id": "dimcheck",
+  "kind": "check",
+  "file": "tools/dimcheck.mjs",
+  "args": [],
+  "why": "G27a (#254) -- DimensionType table vs .decomp, per-dimension World store, per-dimension save round trip, has_skylight in Light."
+ }
+]

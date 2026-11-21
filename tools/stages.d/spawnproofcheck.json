@@ -1,0 +1,8 @@
+[
+ {
+  "id": "spawnproofcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#7525 spawn proof: per roster mob, vanilla biome/structure spawn rows (weight, group, category), Spawn rule and SpawnRestriction location vs the engine; writes tools/mobproof/out/spawn.json; shrink-only ledger spawnproof-known.json; prints breaks caught."
+ }
+]

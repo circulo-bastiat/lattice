@@ -1,0 +1,3 @@
+[
+  { "id": "usagecapparkcheck", "kind": "check", "file": "tools/usagecapparkcheck.mjs", "args": [] }
+]

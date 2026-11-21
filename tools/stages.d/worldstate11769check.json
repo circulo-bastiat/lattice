@@ -1,0 +1,8 @@
+[
+ {
+  "id": "worldstate11769check",
+  "kind": "check",
+  "args": [],
+  "why": "#11769 -- 02q_worldstate.js net/minecraft/world (PersistentState(Manager), IdCounts/ForcedChunk/ChunkUpdateState, Chunk/Section/Simulation level propagators, timer callbacks, MobSpawnerEntry, YLevels); breaks its own data."
+ }
+]

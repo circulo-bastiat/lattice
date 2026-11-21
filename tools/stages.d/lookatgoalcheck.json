@@ -1,0 +1,8 @@
+[
+ {
+  "id": "lookatgoalcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#4282: LookAtPlayerGoal is LookAtEntityGoal (0.02 roll, nearest 3D, lookTime 40+nextInt(40))"
+ }
+]

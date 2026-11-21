@@ -1,0 +1,8 @@
+[
+ {
+  "id": "advtrig-player_generates_container_lootcheck",
+  "kind": "check",
+  "args": [],
+  "why": "G17-AT41 (#8192) — player_generates_container_loot matcher + chest minecart call site; fires once with the table id; breaks its own matcher and call site."
+ }
+]

@@ -1,0 +1,9 @@
+[
+ {
+  "id": "blockenumscheck",
+  "kind": "check",
+  "file": "tools/blockenumscheck.mjs",
+  "args": [],
+  "why": "#11723 -- block/enums classes (Attachment..WireConnection) vs .decomp enum values in the live registry."
+ }
+]

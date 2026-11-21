@@ -1,0 +1,8 @@
+[
+ {
+  "id": "shulkerpushcheck",
+  "kind": "check",
+  "args": [],
+  "why": "#8753 -- shulker isPushable false / pushAwayFrom no-op: crowding zombies never move it."
+ }
+]
